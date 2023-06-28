@@ -1410,7 +1410,7 @@ In addition, any keys that are known to be, or suspected of being, compromised s
 ## PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data
 
 
-### Requirement 3:	Protect Stored Account Data
+### Requirement 3: Protect Stored Account Data
 
 #### OVERVIEW
 
