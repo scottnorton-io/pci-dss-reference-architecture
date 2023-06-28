@@ -12,7 +12,7 @@
 
 [Requirement 2:	Apply Secure Configurations to All System Components](#requirement-2-apply-secure-configurations-to-all-system-components)
 
-[]()
+[Requirement 3:	Protect Stored Account Data](#requirement-3-protect-stored-account-data)
 
 []()
 
