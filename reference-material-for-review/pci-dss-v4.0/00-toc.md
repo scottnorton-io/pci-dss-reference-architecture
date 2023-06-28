@@ -825,7 +825,7 @@ Practices include forbidding split-tunneling of VPNs for employee-owned or corpo
 
 ---
 
-### Requirement 2:	Apply Secure Configurations to All System Components
+### Requirement 2: Apply Secure Configurations to All System Components
 
 #### OVERVIEW
 Malicious individuals, both external and internal to an entity, often use default passwords and other vendor default settings to compromise systems. These passwords and settings are well known and are easily determined via public information.
