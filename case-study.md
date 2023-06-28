@@ -1,4 +1,4 @@
-# Conduit - A Pipe Dream of Superfluous Services and Solutions <sup>1</sup>
+# Condueit - A Pipe Dream of Superfluous Services and Solutions <sup>1</sup>
 
 ## WeakAndLeak.com
 
