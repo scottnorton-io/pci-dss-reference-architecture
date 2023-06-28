@@ -18,26 +18,26 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 2.1	Processes and mechanisms for applying secure configurations to all system components are defined and understood.
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.1.1	All security policies and operational procedures that are identified in Requirement 2 are:
 - Documented.
 - Kept up to date.
 - In use.
 - Known to all affected parties.
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 Expectations, controls, and oversight for meeting activities within Requirement 2 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 2 are managed in accordance with all elements specified in this requirement.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 Requirement 2.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 2. While it is important to define the specific policies or procedures called out in Requirement 2, it is equally important to ensure they are properly documented, maintained, and disseminated.
 
@@ -56,24 +56,24 @@ Operational procedures describe how to perform activities, and define the contro
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.1.2 Roles and responsibilities for performing activities in Requirement 2 are documented, assigned, and understood.
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 Day-to-day responsibilities for performing all the activities in Requirement 2 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned.
 2.1.2.b Interview personnel with responsibility for performing activities in Requirement 2 to verify that roles and responsibilities are assigned as documented and are understood.
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities and critical activities may not occur.
 
@@ -92,10 +92,10 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 2.2 System components are configured and managed securely.
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.2.1	Configuration standards are developed, implemented, and maintained to:
 •	Cover all system components.
 •	Address all known security vulnerabilities.
@@ -103,20 +103,20 @@ A method to document roles and responsibilities is a responsibility assignment m
 •	Be updated as new vulnerability issues are identified, as defined in Requirement 6.3.1.
 •	Be applied when new systems are configured and verified as in place before or immediately after a system component is connected to a production environment.
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 All system components are configured securely and consistently and in accordance with industry- accepted hardening standards or vendor recommendations.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.2.1.a Examine system configuration standards to verify they define processes that include all elements specified in this requirement.
 
 2.2.1.b Examine policies and procedures and interview personnel to verify that system configuration standards are updated as new vulnerability issues are identified, as defined in Requirement 6.3.1.
 
 2.2.1.c Examine configuration settings and interview personnel to verify that system configuration standards are applied when new systems are configured and verified as being in place before or immediately after a system component is connected to a production environment.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 There are known weaknesses with many operating systems, databases, network devices, software, applications, container images, and other devices used by an entity or within an entity’s environment. There are also known ways to configure these system components to fix security vulnerabilities. Fixing security vulnerabilities reduces the opportunities available to an attacker.
 
@@ -137,31 +137,31 @@ Sources for guidance on configuration standards include but are not limited to: 
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.2.2 Vendor default accounts are managed as follows:
 •	If the vendor default account(s) will be used, the default password is changed per Requirement 8.3.6.
 •	If the vendor default account(s) will not be used, the account is removed or disabled
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 System components cannot be accessed using default passwords.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 This applies to ALL vendor default accounts and passwords, including, but not limited to, those used by operating systems, software that provides security services, application and system accounts, point-of-sale (POS) terminals, payment applications, and Simple Network Management Protocol (SNMP) defaults.
 
 This requirement also applies where a system component is not installed within an entity’s environment, for example, software and applications that are part of the CDE and are accessed via a cloud subscription service.
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.2.2.a Examine system configuration standards to verify they include managing vendor default accounts in accordance with all elements specified in this requirement.
 
 2.2.2.b Examine vendor documentation and observe a system administrator logging on using vendor default accounts to verify accounts are implemented in accordance with all elements specified in this requirement.
 
 2.2.2.c Examine configuration files and interview personnel to verify that all vendor default accounts that will not be used are removed or disabled.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 Malicious individuals often use vendor default account names and passwords to compromise operating systems, applications, and the systems on which they are installed. Because these default settings are often published and are well known, changing these settings will make systems less vulnerable to attack.
 
@@ -182,10 +182,10 @@ Defaults to be considered include user IDs, passwords, and other authentication 
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.2.3 Primary functions requiring different security levels are managed as follows:
 •	Only one primary function exists on a system component,
 OR
@@ -193,13 +193,13 @@ OR
 OR
 •	Primary functions with differing security levels on the same system component are all secured to the level required by the function with the highest security need.
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 Primary functions with lower security needs cannot affect the security of primary functions with higher security needs on the same system component.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.2.3.a Examine system configuration standards to verify they include managing primary functions requiring different security levels as specified in this requirement.
 
 2.2.3.b Examine system configurations to verify that primary functions requiring different security levels are managed per one of the ways specified in this requirement.
@@ -209,7 +209,7 @@ Primary functions with lower security needs cannot affect the security of primar
 •	Functions with differing security needs that exist on the same system component are isolated from each other.
 •	Functions with differing security needs on the same system component are all secured to the level required by the function with the highest security need.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 Systems containing a combination of services, protocols, and daemons for their primary function will have a security profile appropriate to allow that function to operate effectively. For example, systems that need to be directly connected to the Internet would have a particular profile, like a DNS server, web server, or an e-commerce server. Conversely, other system components may operate a primary function comprising a different set of services, protocols, and daemons that performs functions that an entity does not want exposed to the Internet. This requirement aims to ensure that different functions do not impact the security profiles of other services in a way which may cause them to operate at a higher or lower security level.
 
@@ -233,25 +233,25 @@ Where virtualization technologies are used, the security levels should be identi
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.2.4 Only necessary services, protocols, daemons, and functions are enabled, and all unnecessary functionality is removed or disabled.
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 System components cannot be compromised by exploiting unnecessary functionality present in the system component.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.2.4.a Examine system configuration standards to verify necessary system services, protocols, and daemons are identified and documented.
 2.2.4.b Examine system configurations to verify the following:
 •	All unnecessary functionality is removed or disabled.
 •	Only required functionality, as documented in the configuration standards, is enabled.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 Unnecessary services and functions can provide additional opportunities for malicious individuals to gain access to a system. By removing or disabling all unnecessary services, protocols, daemons, and functions, organizations can focus on securing the functions that are required and reduce the risk that unknown or unnecessary functions will be exploited
 
@@ -268,27 +268,27 @@ Unnecessary functionality may include, but is not limited to scripts, drivers, f
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.2.5 If any insecure services, protocols, or daemons are present:
 •	Business justification is documented.
 •	Additional security features are documented and implemented that reduce the risk of using insecure services, protocols, or daemons.
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 System components cannot be compromised by exploiting insecure services, protocols, or daemons
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.2.5.a If any insecure services, protocols, or daemons are present, examine system configuration standards and interview personnel to verify they are managed and implemented in accordance with all elements specified in this requirement.
 
 2.2.5.b If any insecure services, protocols, or daemons, are present, examine configuration settings to verify that additional security features are implemented to reduce the risk of using insecure services, daemons, and protocols.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 Ensuring that all insecure services, protocols, and daemons are adequately secured with appropriate security features makes it more difficult for malicious individuals to exploit common points of compromise within a network
 
@@ -304,26 +304,26 @@ For guidance on services, protocols, or daemons considered to be insecure, refer
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.2.6 System security parameters are configured to prevent misuse.
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 System components cannot be compromised because of incorrect security parameter configuration.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.2.6.a Examine system configuration standards to verify they include configuring system security parameters to prevent misuse.
 
 2.2.6.b Interview system administrators and/or security managers to verify they have knowledge of common security parameter settings for system components.
 
 2.2.6.c Examine system configurations to verify that common security parameters are set appropriately and in accordance with the system configuration standards.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 Correctly configuring security parameters provided in system components takes advantage of the capabilities of the system component to defeat malicious attacks.
 
@@ -341,19 +341,19 @@ Refer to vendor documentation and industry references noted in Requirement 2.2.1
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 2.2.7 All non-console administrative access is encrypted using strong cryptography.
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 Cleartext administrative authorization factors cannot be read or intercepted from any network transmissions.
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 This includes administrative access via browser- based interfaces and application programming interfaces (APIs).
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 2.2.7.a Examine system configuration standards to verify they include encrypting all non-console administrative access using strong cryptography.
 
 2.2.7.b Observe an administrator log on to system components and examine system configurations to verify that non-console administrative access is managed in accordance with this requirement.
@@ -362,7 +362,7 @@ This includes administrative access via browser- based interfaces and applicatio
 
 2.2.7.d Examine vendor documentation and interview personnel to verify that strong cryptography for the technology in use is implemented according to industry best practices and/or vendor recommendations.
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 If non-console (including remote) administration does not use encrypted communications, administrative authorization factors (such as IDs and passwords) can be revealed to an eavesdropper. A malicious individual could use this information to access the network, become administrator, and steal data.
 
@@ -379,22 +379,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
@@ -408,22 +408,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
@@ -437,22 +437,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
@@ -466,22 +466,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
@@ -495,22 +495,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
@@ -524,22 +524,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
@@ -553,22 +553,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
@@ -582,22 +582,22 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-#### REQUIREMENTS AND TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES
 
 
-##### DEFINED APPROACH REQUIREMENTS
+###### DEFINED APPROACH REQUIREMENTS
 
 
-##### CUSTOMIZED APPROACH OBJECTIVE
+###### CUSTOMIZED APPROACH OBJECTIVE
 
 
-##### APPLICABILITY NOTES
+###### APPLICABILITY NOTES
 
 
-##### DEFINED APPROACH TESTING PROCEDURES
+###### DEFINED APPROACH TESTING PROCEDURES
 
 
-#### GUIDANCE
+##### GUIDANCE
 **Purpose**
 
 **Good Practice**
