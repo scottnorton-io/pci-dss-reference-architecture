@@ -1,14 +1,52 @@
 # PCI DSS v4.0
 
-Principles
+## Principles
 
 [PRINCIPLE PCI DSS REQUIREMENT: Build and Maintain a Secure Network and Systems](#principle-pci-dss-requirement-build-and-maintain-a-secure-network-and-systems)
 
-Requirements
+[PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data](#principle-pci-dss-requirement-protect-account-data)
+
+### Requirements
 
 [Requirement 1: Install and Maintain Network Security Controls](#requirement-1-install-and-maintain-network-security-controls)
 
 [Requirement 2:	Apply Secure Configurations to All System Components](#requirement-2-apply-secure-configurations-to-all-system-components)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+
 
 ---
 
@@ -906,6 +944,7 @@ Day-to-day responsibilities for performing all the activities in Requirement 2 a
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 2.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned.
+
 2.1.2.b Interview personnel with responsibility for performing activities in Requirement 2 to verify that roles and responsibilities are assigned as documented and are understood.
 
 
@@ -942,11 +981,11 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.1	Configuration standards are developed, implemented, and maintained to:
-•	Cover all system components.
-•	Address all known security vulnerabilities.
-•	Be consistent with industry-accepted system hardening standards or vendor hardening recommendations.
-•	Be updated as new vulnerability issues are identified, as defined in Requirement 6.3.1.
-•	Be applied when new systems are configured and verified as in place before or immediately after a system component is connected to a production environment.
+- Cover all system components.
+- Address all known security vulnerabilities.
+- Be consistent with industry-accepted system hardening standards or vendor hardening recommendations.
+- Be updated as new vulnerability issues are identified, as defined in Requirement 6.3.1.
+- Be applied when new systems are configured and verified as in place before or immediately after a system component is connected to a production environment.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -991,8 +1030,8 @@ Sources for guidance on configuration standards include but are not limited to: 
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.2 Vendor default accounts are managed as follows:
-•	If the vendor default account(s) will be used, the default password is changed per Requirement 8.3.6.
-•	If the vendor default account(s) will not be used, the account is removed or disabled
+- If the vendor default account(s) will be used, the default password is changed per Requirement 8.3.6.
+- If the vendor default account(s) will not be used, the account is removed or disabled
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -1044,11 +1083,11 @@ Defaults to be considered include user IDs, passwords, and other authentication 
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.3 Primary functions requiring different security levels are managed as follows:
-•	Only one primary function exists on a system component,
+- Only one primary function exists on a system component,
 OR
-•	Primary functions with differing security levels that exist on the same system component are isolated from each other,
+- Primary functions with differing security levels that exist on the same system component are isolated from each other,
 OR
-•	Primary functions with differing security levels on the same system component are all secured to the level required by the function with the highest security need.
+- Primary functions with differing security levels on the same system component are all secured to the level required by the function with the highest security need.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -1064,9 +1103,9 @@ Primary functions with lower security needs cannot affect the security of primar
 2.2.3.b Examine system configurations to verify that primary functions requiring different security levels are managed per one of the ways specified in this requirement.
 
 2.2.3.c Where virtualization technologies are used, examine the system configurations to verify that system functions requiring different security levels are managed in one of the following ways:
-•	Functions with differing security needs do not co-exist on the same system component.
-•	Functions with differing security needs that exist on the same system component are isolated from each other.
-•	Functions with differing security needs on the same system component are all secured to the level required by the function with the highest security need.
+- Functions with differing security needs do not co-exist on the same system component.
+- Functions with differing security needs that exist on the same system component are isolated from each other.
+- Functions with differing security needs on the same system component are all secured to the level required by the function with the highest security need.
 
 ##### GUIDANCE
 
@@ -1083,8 +1122,8 @@ If a system component contains primary functions that need different security le
 Functions of differing security levels may be isolated by either physical or logical controls. For example, a database system should not also be hosting web services unless using controls like virtualization technologies to isolate and contain the functions into separate sub-systems. Another example is using virtual instances or providing dedicated memory access by system function.
 
 Where virtualization technologies are used, the security levels should be identified and managed for each virtual component. Examples of considerations for virtualized environments include:
-•	The function of each application, container, or virtual server instance.
-•	How virtual machines (VMs) or containers are stored and secured.
+- The function of each application, container, or virtual server instance.
+- How virtual machines (VMs) or containers are stored and secured.
 
 **Definitions**
 
@@ -1109,9 +1148,10 @@ System components cannot be compromised by exploiting unnecessary functionality 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 2.2.4.a Examine system configuration standards to verify necessary system services, protocols, and daemons are identified and documented.
+
 2.2.4.b Examine system configurations to verify the following:
-•	All unnecessary functionality is removed or disabled.
-•	Only required functionality, as documented in the configuration standards, is enabled.
+- All unnecessary functionality is removed or disabled.
+- Only required functionality, as documented in the configuration standards, is enabled.
 
 ##### GUIDANCE
 
@@ -1137,8 +1177,8 @@ Unnecessary functionality may include, but is not limited to scripts, drivers, f
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.5 If any insecure services, protocols, or daemons are present:
-•	Business justification is documented.
-•	Additional security features are documented and implemented that reduce the risk of using insecure services, protocols, or daemons.
+- Business justification is documented.
+- Additional security features are documented and implemented that reduce the risk of using insecure services, protocols, or daemons.
 
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -1263,25 +1303,45 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES
+##### REQUIREMENTS and TESTING PROCEDURES 2.3
 
+2.3 Wireless environments are configured and managed securely.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
+2.3.1 For wireless environments connected to the CDE or transmitting account data, all wireless vendor defaults are changed at installation or are confirmed to be secure, including but not limited to:
+- Default wireless encryption keys.
+- Passwords on wireless access points.
+- SNMP defaults.
+- Any other security-related wireless vendor defaults.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
+Wireless networks cannot be accessed using vendor default passwords or default configurations.
 
 ###### APPLICABILITY NOTES
 
+This includes, but is not limited to, default wireless encryption keys, passwords on wireless access points, SNMP defaults, and any other security-related wireless vendor defaults.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+2.3.1.a Examine policies and procedures and interview responsible personnel to verify that processes are defined for wireless vendor defaults to either change them upon installation or to confirm them to be secure in accordance with all elements of this requirement.
+
+2.3.1.b Examine vendor documentation and observe a system administrator logging into wireless devices to verify:
+- SNMP defaults are not used.
+- Default passwords/passphrases on wireless access points are not used.
+
+2.3.1.c Examine vendor documentation and wireless configuration settings to verify other security-related wireless vendor defaults were changed, if applicable.
 
 ##### GUIDANCE
+
 **Purpose**
 
+If wireless networks are not implemented with sufficient security configurations (including changing default settings), wireless sniffers can eavesdrop on the traffic, easily capture data and passwords, and easily enter and attack the network.
+
 **Good Practice**
+
+Wireless passwords should be constructed so that they are resistant to offline brute force attacks.
 
 **Definitions**
 
@@ -1290,6 +1350,843 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 **Further Information**
 
 
----
+
+[sections 2](#sections-2)
+
+[top](#pci-dss-v40)
 
 ---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+2.3.2 For wireless environments connected to the CDE or transmitting account data, wireless encryption keys are changed as follows:
+- Whenever personnel with knowledge of the key leave the company or the role for which the knowledge was necessary.
+- Whenever a key is suspected of or known to be compromised.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Knowledge of wireless encryption keys cannot allow unauthorized access to wireless networks.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+2.3.2 Interview responsible personnel and examine key-management documentation to verify that wireless encryption keys are changed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Changing wireless encryption keys whenever someone with knowledge of the key leaves the organization or moves to a role that no longer requires knowledge of the key, helps keep knowledge of keys limited to only those with a business need to know.
+
+Also, changing wireless encryption keys whenever a key is suspected or known to be comprised makes a wireless network more resistant to compromise.
+
+**Good Practice**
+
+This goal can be accomplished in multiple ways, including periodic changes of keys, changing keys via a defined “joiners-movers-leavers” (JML) process, implementing additional technical controls, and not using fixed pre-shared keys.
+
+In addition, any keys that are known to be, or suspected of being, compromised should be managed in accordance with the entity’s incident response plan at Requirement 12.10.1.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 2](#sections-2)
+
+[top](#pci-dss-v40)
+
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data
+
+
+### Requirement 3:	Protect Stored Account Data
+
+#### OVERVIEW
+
+Protection methods such as encryption, truncation, masking, and hashing are critical components of account data protection. If an intruder circumvents other security controls and gains access to encrypted account data, the data is unreadable without the proper cryptographic keys and is unusable to that intruder. Other effective methods of protecting stored data should also be considered as potential risk-mitigation opportunities. For example, methods for minimizing risk include not storing account data unless necessary, truncating cardholder data if full PAN is not needed, and not sending unprotected PANs using end-user messaging technologies such as e-mail and instant messaging.
+
+If account data is present in non-persistent memory (for example, RAM, volatile memory), encryption of account data is not required. However, proper controls must be in place to ensure that memory maintains a non-persistent state. Data should be removed from volatile memory once the business purpose (for example, the associated transaction) is complete. In the case that data storage becomes persistent, all applicable PCI DSS Requirements will apply including encryption of stored data.
+
+Requirement 3 applies to protection of stored account data unless specifically called out in an individual requirement.
+
+Refer to Appendix G for definitions of “strong cryptography” and other PCI DSS terms.
+
+
+#### SECTIONS 3
+
+[3.1	Processes and mechanisms for protecting stored account data are defined and understood.](#requirements-and-testing-procedures-31)
+
+[3.2	Storage of account data is kept to a minimum.](#requirements-and-testing-procedures-32)
+
+[3.3	Sensitive authentication data (SAD) is not stored after authorization.](#requirements-and-testing-procedures-33)
+
+[3.4	Access to displays of full PAN and ability to copy cardholder data are restricted.](#requirements-and-testing-procedures-34)
+
+[3.5	Primary account number (PAN) is secured wherever it is stored.](#requirements-and-testing-procedures-35)
+
+[3.6	Cryptographic keys used to protect stored account data are secured.](#requirements-and-testing-procedures-36)
+
+[3.7	Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37)
+
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 3.1
+
+3.1 Processes and mechanisms for protecting stored account data are defined and understood.
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.1.1 All security policies and operational procedures that are identified in Requirement 3 are:
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Expectations, controls, and oversight for meeting activities within Requirement 3 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 3 are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Requirement 3.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 3. While it is important to define the specific policies or procedures called out in Requirement 3, it is equally important to ensure they are properly documented, maintained, and disseminated.
+
+**Good Practice**
+
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
+**Definitions**
+
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.1.2 Roles and responsibilities for performing activities in Requirement 3 are documented, assigned, and understood.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+3.1.2 Roles and responsibilities for performing activities in Requirement 3 are documented, assigned, and understood.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.1.2.a Examine documentation to verify that descriptions of roles and responsibilities performing activities in Requirement 3 are documented and assigned.
+
+3.1.2.b Interview personnel with responsibility for performing activities in Requirement 3 to verify that roles and responsibilities are assigned as documented and are understood.
+
+##### GUIDANCE
+
+**Purpose**
+
+If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities, and critical activities may not occur.
+
+**Good Practice**
+
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
+
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+
+**Definitions**
+
+
+
+**Examples**
+
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 3.2
+
+3.2 Storage of account data is kept to a minimum.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.2.1 Account data storage is kept to a minimum through implementation of data retention and disposal policies, procedures, and processes that include at least the following:
+- Coverage for all locations of stored account data.
+- Coverage for any sensitive authentication data (SAD) stored prior to completion of authorization. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+- Limiting data storage amount and retention time to that which is required for legal or regulatory, and/or business requirements.
+- Specific retention requirements for stored account data that defines length of retention period and includes a documented business justification.
+- Processes for secure deletion or rendering account data unrecoverable when no longer needed per the retention policy.
+- A process for verifying, at least once every three months, that stored account data exceeding the defined retention period has been securely deleted or rendered unrecoverable.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Account data is retained only where necessary and for the least amount of time needed and is securely deleted or rendered unrecoverable when no longer needed.
+
+###### APPLICABILITY NOTES
+
+Where account data is stored by a TPSP (for example, in a cloud environment), entities are responsible for working with their service providers to understand how the TPSP meets this requirement for the entity. Considerations include ensuring that all geographic instances of a data element are securely deleted.
+
+*The bullet above (for coverage of SAD stored prior to completion of authorization) is a best practice until 31 March 2025, after which it will be required as part of Requirement 3.2.1 and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.2.1.a Examine the data retention and disposal policies, procedures, and processes and interview personnel to verify processes are defined to include all elements specified in this requirement.
+
+3.2.1.b Examine files and system records on system components where account data is stored to verify that the data storage amount and retention time does not exceed the requirements defined in the data retention policy.
+
+3.2.1.c Observe the mechanisms used to render account data unrecoverable to verify data cannot be recovered.
+
+##### GUIDANCE
+
+**Purpose**
+
+A formal data retention policy identifies what data needs to be retained, for how long, and where that data resides so it can be securely destroyed or deleted as soon as it is no longer needed. The only account data that may be stored after authorization is the primary account number or PAN (rendered unreadable), expiration date, cardholder name, and service code.
+
+The storage of SAD data prior to the completion of the authorization process is also included in the data retention and disposal policy so that storage of this sensitive data is kept to minimum, and only retained for the defined amount of time.
+
+**Good Practice**
+
+When identifying locations of stored account data, consider all processes and personnel with access to the data, as data could have been moved and stored in different locations than originally defined. Storage locations that are often overlooked include backup and archive systems, removable data storage devices, paper-based media, and audio recordings.
+
+To define appropriate retention requirements, an entity first needs to understand its own business needs as well as any legal or regulatory obligations that apply to its industry or to the type of data being retained. Implementing an automated process to ensure data is automatically and securely deleted upon its defined retention limit can help ensure that account data is not retained beyond what is necessary for business, legal, or regulatory purposes.
+
+Methods of eliminating data when it exceeds the retention period include secure deletion to complete removal of the data or rendering it unrecoverable and unable to be reconstructed. Identifying and securely eliminating stored data that has exceeded its specified retention period prevents unnecessary retention of data that is no longer needed. This process may be automated, manual, or a combination of both.
+
+The deletion function in most operating systems is not “secure deletion” as it allows deleted data to be recovered, so instead, a dedicated secure deletion function or application must be used to make data unrecoverable.
+
+Remember, if you don't need it, don't store it!
+
+**Definitions**
+
+
+
+**Examples**
+
+An automated, programmatic procedure could be run to locate and remove data, or a manual review of data storage areas could be performed. Whichever method is used, it is a good idea to monitor the process to ensure it is completed successfully, and that the results are recorded and validated as being complete. Implementing secure deletion methods ensures that the data cannot be retrieved when it is no longer needed.
+
+**Further Information**
+
+See *NIST SP 800-88 Rev. 1, Guidelines for Media Sanitization.*
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 3.3
+
+3.3 Sensitive authentication data (SAD) is not stored after authorization.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.3.1 SAD is not retained after authorization, even if encrypted. All sensitive authentication data received is rendered unrecoverable upon completion of the authorization process.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+This requirement does not apply to issuers and companies that support issuing services (where SAD is needed for a legitimate issuing business need) and have a business justification to store the sensitive authentication data.
+
+Refer to Requirement 3.3.3 for additional requirements specifically for issuers.
+
+Sensitive authentication data includes the data cited in Requirements 3.3.1.1 through 3.3.1.3.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.3.1.a If SAD is received, examine documented policies, procedures, and system configurations to verify the data is not retained after authorization.
+
+3.3.1.b If SAD is received, examine the documented procedures and observe the secure data deletion processes to verify the data is rendered unrecoverable upon completion of the authorization process.
+
+##### GUIDANCE
+
+**Purpose**
+
+SAD is very valuable to malicious individuals as it allows them to generate counterfeit payment cards and create fraudulent transactions. Therefore, the storage of SAD upon completion of the authorization process is prohibited.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+The authorization process completes when a merchant receives a transaction response (for example, an approval or decline).
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.3.1.1 The full contents of any track are not retained upon completion of the authorization process.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+In the normal course of business, the following data elements from the track may need to be retained:
+- Cardholder name.
+- Primary account number (PAN).
+- Expiration date.
+- Service code.
+To minimize risk, store securely only these data elements as needed for business.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.3.1.1 Examine data sources to verify that the full contents of any track are not stored upon completion of the authorization process.
+
+##### GUIDANCE
+
+**Purpose**
+
+If full contents of any track (from the magnetic stripe on the back of a card if present, equivalent data contained on a chip, or elsewhere) is stored, malicious individuals who obtain that data can use it to reproduce payment cards and complete fraudulent transactions.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+Full track data is alternatively called full track, track, track 1, track 2, and magnetic-stripe data. Each track contains a number of data elements, and this requirement specifies only those that may be retained post-authorization.
+
+**Examples**
+
+Data sources to review to ensure that the full contents of any track are not retained upon completion of the authorization process include, but are not limited to:
+- Incoming transaction data.
+- All logs (for example, transaction, history, debugging, error).
+- History files.
+- Trace files.
+- Database schemas.
+- Contents of databases, and on-premise and cloud data stores.
+- Any existing memory/crash dump files.
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.3.1.2 The card verification code is not retained upon completion of the authorization process.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+The card verification code is the three- or four-digit number printed on the front or back of a payment card used to verify card-not-present transactions.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.3.1.2 Examine data sources, to verify that the card verification code is not stored upon completion of the authorization process.
+
+##### GUIDANCE
+
+**Purpose**
+
+If card verification code data is stolen, malicious individuals can execute fraudulent Internet and mail-order/telephone-order (MO/TO) transactions. Not storing this data reduces the probability of it being compromised.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+If card verification codes are stored on paper media prior to completion of authorization, a method of erasing or covering the codes should prevent them from being read after authorization is complete. Example methods of rendering the codes unreadable include removing the code with scissors and applying a suitably opaque and un-removable marker over the code.
+
+Data sources to review to ensure that the card verification code is not retained upon completion of the authorization process include, but are not limited to:
+- Incoming transaction data.
+- All logs (for example, transaction, history, debugging, error).
+- History files.
+- Trace files.
+- Database schemas.
+- Contents of databases, and on-premise and cloud data stores.
+- Any existing memory/crash dump files.
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.3.1.3 The personal identification number (PIN) and the PIN block are not retained upon completion of the authorization process.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+PIN blocks are encrypted during the natural course of transaction processes, but even if an entity encrypts the PIN block again, it is still not allowed to be stored after the completion of the authorization process.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.3.1.3 Examine data sources, to verify that PINs and PIN blocks are not stored upon completion of the authorization process.
+
+##### GUIDANCE
+
+**Purpose**
+
+PIN and PIN blocks should be known only to the card owner or entity that issued the card. If this data is stolen, malicious individuals can execute fraudulent PIN-based transactions (for example, in-store purchases and ATM withdrawals). Not storing this data reduces the probability of it being compromised.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+Data sources to review to ensure that PIN and PIN blocks are not retained upon completion of the authorization process include, but are not limited to:
+- Incoming transaction data.
+- All logs (for example, transaction, history, debugging, error).
+- History files.
+- Trace files.
+- Database schemas.
+- Contents of databases, and on-premise and cloud data stores.
+- Any existing memory/crash dump files.
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.3.2 SAD that is stored electronically prior to completion of authorization is encrypted using strong cryptography.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+Whether SAD is permitted to be stored prior to authorization is determined by the organizations that manage compliance programs (for example, payment brands and acquirers). Contact the organizations of interest for any additional criteria.
+
+This requirement applies to all storage of SAD, even if no PAN is present in the environment.
+
+Refer to Requirement 3.2.1 for an additional requirement that applies if SAD is stored prior to completion of authorization.
+
+This requirement does not apply to issuers and companies that support issuing services where there is a legitimate issuing business justification to store SAD).
+Refer to Requirement 3.3.3 for requirements specifically for issuers.
+
+This requirement does not replace how PIN blocks are required to be managed, nor does it mean that a properly encrypted PIN block needs to be encrypted again.
+
+*This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.3.2 Examine data stores, system configurations, and/or vendor documentation to verify that all SAD that is stored electronically prior to completion of authorization is encrypted using strong cryptography.
+
+##### GUIDANCE
+
+**Purpose**
+
+SAD can be used by malicious individuals to increase the probability of successfully generating counterfeit payment cards and creating fraudulent transactions
+
+**Good Practice**
+
+Entities should consider encrypting SAD with a different cryptographic key than is used to encrypt PAN. Note that this does not mean that PAN present in SAD (as part of track data) would need to be separately encrypted.
+
+**Definitions**
+
+The authorization process is completed as soon as the response to an authorization request response—that is, an approval or decline—is received.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.3.3 Additional requirement for issuers and companies that support issuing services and store sensitive authentication data: Any storage of sensitive authentication data is:
+• Limited to that which is needed for a legitimate issuing business need and is secured.
+• Encrypted using strong cryptography. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Sensitive authentication data is retained only as required to support issuing functions and is secured from unauthorized access.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only to issuers and companies that support issuing services and store sensitive authentication data.
+Entities that issue payment cards or that perform or support issuing services will often create and control sensitive authentication data as part of the issuing function. It is allowable for companies that perform, facilitate, or support issuing services to store sensitive authentication data ONLY IF they have a legitimate business need to store such data.
+
+PCI DSS requirements are intended for all entities that store, process, or transmit account data, including issuers. The only exception for issuers and issuer processors is that sensitive authentication data may be retained if there is a legitimate reason to do so. Any such data must be stored securely and in accordance with all PCI DSS and specific payment brand requirements.
+
+*The bullet above (for encrypting stored SAD with strong cryptography) is a best practice until 31 March 2025, after which it will be required as part of Requirement 3.3.3 and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.3.3.a Additional testing procedure for issuers and companies that support issuing services and store sensitive authentication data: Examine documented policies and interview personnel to verify there is a documented business justification for the storage of sensitive authentication data.
+
+3.3.3.b Additional testing procedure for issuers and companies that support issuing services and store sensitive authentication data: Examine data stores and system configurations to verify that the sensitive authentication data is stored securely.
+
+##### GUIDANCE
+
+**Purpose**
+
+SAD can be used by malicious individuals to increase the probability of successfully generating counterfeit payment cards and creating fraudulent transactions.
+
+**Good Practice**
+
+Entities should consider encrypting SAD with a different cryptographic key than is used to encrypt PAN. Note that this does not mean that PAN present in SAD (as part of track data) would need to be separately encrypted.
+
+**Definitions**
+
+Legitimate issuing business need means that the data is needed to facilitate the issuing business process.
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to *ISO/DIS 9564-5 Financial services — Personal Identification Number (PIN) management and security — Part 5: Methods for the generation, change, and verification of PINs and card security data using the advanced encryption standard.*
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 3.4
+
+3.4 Access to displays of full PAN and ability to copy PAN is restricted.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.4.1 PAN is masked when displayed (the BIN and last four digits are the maximum number of digits to be displayed), such that only personnel with a legitimate business need can see more than the BIN and last four digits of the PAN.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+PAN displays are restricted to the minimum number of digits necessary to meet a defined business need.
+
+###### APPLICABILITY NOTES
+
+This requirement does not supersede stricter requirements in place for displays of cardholder data—for example, legal or payment brand requirements for point-of-sale (POS) receipts.
+
+This requirement relates to protection of PAN where it is displayed on screens, paper receipts, printouts, etc., and is not to be confused with Requirement 3.5.1 for protection of PAN when stored, processed, or transmitted.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.4.1.a Examine documented policies and procedures for masking the display of PANs to verify:
+• A list of roles that need access to more than the BIN and last four digits of the PAN (includes full PAN) is documented, together with a legitimate business need for each role to have such access.
+• PAN is masked when displayed such that only personnel with a legitimate business need can see more than the BIN and last four digits of the PAN.
+• All roles not specifically authorized to see the full PAN must only see masked PANs.
+
+3.4.1.b Examine system configurations to verify that full PAN is only displayed for roles with a documented business need, and that PAN is masked for all other requests.
+
+3.4.1.c Examine displays of PAN (for example, on screen, on paper receipts) to verify that PANs are masked when displayed, and that only those with a legitimate business need are able to see more than the BIN and/or last four digits of the PAN.
+
+##### GUIDANCE
+
+**Purpose**
+
+The display of full PAN on computer screens, payment card receipts, paper reports, etc. can result in this data being obtained by unauthorized individuals and used fraudulently. Ensuring that the full PAN is displayed only for those with a legitimate business need minimizes the risk of unauthorized persons gaining access to PAN data.
+
+**Good Practice**
+
+Applying access controls according to defined roles is one way to limit access to viewing full PAN to only those individuals with a defined business need.
+
+The masking approach should always display only the number of digits needed to perform a specific business function. For example, if only the last four digits are needed to perform a business function, PAN should be masked to only show the last four digits. As another example, if a function needs to view to the bank identification number (BIN) for routing purposes, unmask only the BIN digits for that function.
+
+**Definitions**
+
+Masking is not synonymous with truncation and these terms cannot be used interchangeably. Masking refers to the concealment of certain digits during display or printing, even when the entire PAN is stored on a system. This is different from truncation, in which the truncated digits are removed and cannot be retrieved within the system. Masked PAN could be “unmasked”, but there is no "un-truncation" without recreating the PAN from another source.
+
+**Examples**
+
+
+
+**Further Information**
+
+For more information about masking and truncation, see PCI SSC’s FAQs on these topics.
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
