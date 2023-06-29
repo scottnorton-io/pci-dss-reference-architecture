@@ -1889,8 +1889,8 @@ The authorization process is completed as soon as the response to an authorizati
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.3.3 Additional requirement for issuers and companies that support issuing services and store sensitive authentication data: Any storage of sensitive authentication data is:
-• Limited to that which is needed for a legitimate issuing business need and is secured.
-• Encrypted using strong cryptography. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+- Limited to that which is needed for a legitimate issuing business need and is secured.
+- Encrypted using strong cryptography. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -1960,9 +1960,9 @@ This requirement relates to protection of PAN where it is displayed on screens, 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 3.4.1.a Examine documented policies and procedures for masking the display of PANs to verify:
-• A list of roles that need access to more than the BIN and last four digits of the PAN (includes full PAN) is documented, together with a legitimate business need for each role to have such access.
-• PAN is masked when displayed such that only personnel with a legitimate business need can see more than the BIN and last four digits of the PAN.
-• All roles not specifically authorized to see the full PAN must only see masked PANs.
+- A list of roles that need access to more than the BIN and last four digits of the PAN (includes full PAN) is documented, together with a legitimate business need for each role to have such access.
+- PAN is masked when displayed such that only personnel with a legitimate business need can see more than the BIN and last four digits of the PAN.
+- All roles not specifically authorized to see the full PAN must only see masked PANs.
 
 3.4.1.b Examine system configurations to verify that full PAN is only displayed for roles with a documented business need, and that PAN is masked for all other requests.
 
@@ -1998,6 +1998,599 @@ For more information about masking and truncation, see PCI SSC’s FAQs on these
 
 ---
 
+###### DEFINED APPROACH REQUIREMENTS
+
+3.4.2 When using remote-access technologies, technical controls prevent copy and/or relocation of PAN for all personnel, except for those with documented, explicit authorization and a legitimate, defined business need.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+PAN cannot be copied or relocated by unauthorized personnel using remote-access technologies.
+
+###### APPLICABILITY NOTES
+
+Storing or relocating PAN onto local hard drives, removable electronic media, and other storage devices brings these devices into scope for PCI DSS.
+
+*This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.4.2.a Examine documented policies and procedures and documented evidence for technical controls that prevent copy and/or relocation of PAN when using remote-access technologies onto local hard drives or removable electronic media to verify the following:
+- Technical controls prevent all personnel not specifically authorized from copying and/or relocating PAN.
+- A list of personnel with permission to copy and/or relocate PAN is maintained, together with the documented, explicit authorization and legitimate, defined business need.
+
+3.4.2.b Examine configurations for remote-access technologies to verify that technical controls to prevent copy and/or relocation of PAN for all personnel, unless explicitly authorized.
+
+3.4.2.c Observe processes and interview personnel to verify that only personnel with documented, explicit authorization and a legitimate, defined business need have permission to copy and/or relocate PAN when using remote-access technologies.
+
+##### GUIDANCE
+
+**Purpose**
+
+Relocation of PAN to unauthorized storage devices is a common way for this data to be obtained and used fraudulently.
+
+Methods to ensure that only those with explicit authorization and a legitimate business reason can copy or relocate PAN minimizes the risk of unauthorized persons gaining access to PAN.
+
+**Good Practice**
+
+Copying and relocation of PAN should only be done to storage devices that are permissible and authorized for that individual.
+
+**Definitions**
+
+A virtual desktop is an example of a remote-access technology.
+
+Storage devices include, but are not limited to, local hard drives, virtual drives, removable electronic media, network drives, and cloud storage.
+
+**Examples**
+
+
+
+**Further Information**
+
+Vendor documentation for the remote-access technology in use will provide information about the system settings needed to implement this requirement.
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 3.5
+
+3.5 Primary account number (PAN) is secured wherever it is stored.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.5.1 PAN is rendered unreadable anywhere it is stored by using any of the following approaches:
+- One-way hashes based on strong cryptography of the entire PAN.
+- Truncation (hashing cannot be used to replace the truncated segment of PAN).
+– If hashed and truncated versions of the same PAN, or different truncation formats of the same PAN, are present in an environment, additional controls are in place such that the different versions cannot be correlated to reconstruct the original PAN.
+- Index tokens.
+- Strong cryptography with associated key-management processes and procedures.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cleartext PAN cannot be read from storage media.
+
+###### APPLICABILITY NOTES
+
+It is a relatively trivial effort for a malicious individual to reconstruct original PAN data if they have access to both the truncated and hashed version of a PAN.
+
+This requirement applies to PANs stored in primary storage (databases, or flat files such as text files spreadsheets) as well as non-primary storage (backup, audit logs, exception, or troubleshooting logs) must all be protected.
+This requirement does not preclude the use of temporary files containing cleartext PAN while encrypting and decrypting PAN.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.5.1.a Examine documentation about the system used to render PAN unreadable, including the vendor, type of system/process, and the encryption algorithms (if applicable) to verify that the PAN is rendered unreadable using any of the methods specified in this requirement.
+
+3.5.1.b Examine data repositories and audit logs, including payment application logs, to verify the PAN is rendered unreadable using any of the methods specified in this requirement.
+
+3.5.1.c If hashed and truncated versions of the same PAN are present in the environment, examine implemented controls to verify that the hashed and truncated versions cannot be correlated to reconstruct the original PAN.
+
+##### GUIDANCE
+
+**Purpose**
+
+The removal of cleartext stored PAN is a defense in depth control designed to protect the data if an unauthorized individual gains access to stored data by taking advantage of a vulnerability or misconfiguration of an entity’s primary access control.
+
+Secondary independent control systems (for example governing access to, and use of, cryptography and decryption keys) prevent the failure of a primary access control system leading to a breach of confidentiality of stored PAN. If hashing is used to remove stored cleartext PAN, by correlating hashed and truncated versions of a given PAN, a malicious individual can easily derive the original PAN value. Controls that prevent the correlation of this data will help ensure that the original PAN remains unreadable.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+For information about truncation formats and truncation in general, see PCI SSC’s FAQs on the topic.
+
+Sources for information about index tokens include:
+- PCI SSC’s Tokenization Product Security Guidelines (*https://www.pcisecuritystandards.org/documents/Tokenization_Product_Security_Guidelines.pdf*)
+- *ANSI X9.119-2-2017: Retail Financial Services - Requirements For Protection Of Sensitive Payment Card Data - Part 2: Implementing Post-Authorization Tokenization Systems*
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.5.1.1 Hashes used to render PAN unreadable (per the first bullet of Requirement 3.5.1) are keyed cryptographic hashes of the entire PAN, with associated key-management processes and procedures in accordance with Requirements 3.6 and 3.7.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+This requirement applies to PANs stored in primary storage (databases, or flat files such as text files spreadsheets) as well as non-primary storage (backup, audit logs, exception, or troubleshooting logs) must all be protected.
+This requirement does not preclude the use of temporary files containing cleartext PAN while encrypting and decrypting PAN.
+This requirement is considered a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.5.1.1.a Examine documentation about the hashing method used to render PAN unreadable, including the vendor, type of system/process, and the encryption algorithms (as applicable) to verify that the hashing method results in keyed cryptographic hashes of the entire PAN, with associated key management processes and procedures.
+
+3.5.1.1.b Examine documentation about the key management procedures and processes associated with the keyed cryptographic hashes to verify keys are managed in accordance with Requirements 3.6 and 3.7.
+
+3.5.1.1.c Examine data repositories to verify the PAN is rendered unreadable.
+
+3.5.1.1.d Examine audit logs, including payment application logs, to verify the PAN is rendered unreadable.
+
+##### GUIDANCE
+
+**Purpose**
+
+The removal of cleartext stored PAN is a defense in depth control designed to protect the data if an unauthorized individual gains access to stored data by taking advantage of a vulnerability or misconfiguration of an entity’s primary access control.
+
+Secondary independent control systems (for example governing access to, and use of, cryptography and decryption keys) prevent the failure of a primary access control system leading to a breach of confidentiality of stored PAN.
+
+**Good Practice**
+
+A hashing function that incorporates a randomly generated secret key provides brute force attack resistance and secret authentication integrity.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Appropriate keyed cryptographic hashing algorithms include but are not limited to: HMAC, CMAC, and GMAC, with an effective cryptographic strength of at least 128-bits (*NIST SP 800-131Ar2*).
+
+Refer to the following for more information about HMAC, CMAC, and GMAC, respectively: *NIST SP 800-107r1, NIST SP 800-38B, and NIST SP 800-38D).*
+
+See *NIST SP 800-107 (Revision 1): Recommendation for Applications Using Approved Hash Algorithms §5.3.*
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.5.1.2 If disk-level or partition-level encryption (rather than file-, column-, or field-level database encryption) is used to render PAN unreadable, it is implemented only as follows:
+- On removable electronic media
+OR
+- If used for non-removable electronic media, PAN is also rendered unreadable via another mechanism that meets Requirement 3.5.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+While disk encryption may still be present on these types of devices, it cannot be the only mechanism used to protect PAN stored on those systems. Any stored PAN must also be rendered unreadable per Requirement 3.5.1—for example, through truncation or a data-level encryption mechanism. Full disk encryption helps to protect data in the event of physical loss of a disk and therefore its use is appropriate only for removable electronic media storage devices.
+
+Media that is part of a data center architecture (for example, hot-swappable drives, bulk tape-backups) is considered non-removable electronic media to which Requirement 3.5.1 applies.
+
+Disk or partition encryption implementations must also meet all other PCI DSS encryption and key-management requirements.
+
+*This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.5.1.2.a Examine encryption processes to verify that, if disk-level or partition-level encryption is used to render PAN unreadable, it is implemented only as follows:
+- On removable electronic media,
+OR
+- If used for non-removable electronic media, examine encryption processes used to verify that PAN is also rendered unreadable via another method that meets Requirement 3.5.1.
+
+3.5.1.2.b Examine configurations and/or vendor documentation and observe encryption processes to verify the system is configured according to vendor documentation the result is that the disk or the partition is rendered unreadable.
+
+##### GUIDANCE
+
+**Purpose**
+
+Disk-level and partition-level encryption typically encrypts the entire disk or partition using the same key, with all data automatically decrypted when the system runs or when an authorized user requests it. For this reason, disk-level encryption is not appropriate to protect stored PAN on computers, laptops, servers, storage arrays, or any other system that provides transparent decryption upon user authentication.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Where available, following vendors’ hardening and industry best practice guidelines can assist in securing PAN on these devices.
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.5.1.3 If disk-level or partition-level encryption is used (rather than file-, column-, or field--level database encryption) to render PAN unreadable, it is managed as follows:
+- Logical access is managed separately and independently of native operating system authentication and access control mechanisms.
+- Decryption keys are not associated with user accounts.
+- Authentication factors (passwords, passphrases, or cryptographic keys) that allow access to unencrypted data are stored securely.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Disk encryption implementations are configured to require independent authentication and logical access controls for decryption
+
+###### APPLICABILITY NOTES
+
+Disk or partition encryption implementations must also meet all other PCI DSS encryption and key-management requirements.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.5.1.3.a If disk-level or partition-level encryption is used to render PAN unreadable, examine the system configuration and observe the authentication process to verify that logical access is implemented in accordance with all elements specified in this requirement.
+
+3.5.1.3.b Examine files containing authentication factors (passwords, passphrases, or cryptographic keys) and interview personnel to verify that authentication factors that allow access to unencrypted data are stored securely and are independent from the native operating system’s authentication and access control methods.
+
+##### GUIDANCE
+
+**Purpose**
+
+Disk-level encryption typically encrypts the entire disk or partition using the same key, with all data automatically decrypted when the system runs or when an authorized user requests it. Many disk-encryption solutions intercept operating system read/write operations and perform the appropriate cryptographic transformations without any special action by the user other than supplying a password or passphrase at system start-up or at the beginning of a session. This provides no protection from a malicious individual that has already managed to gain access to a valid user account.
+
+**Good Practice**
+
+Full disk encryption helps to protect data in the event of physical loss of a disk and therefore its use is best limited only to removable electronic media storage devices.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 3.6
+
+3.6 Cryptographic keys used to protect stored account data are secured.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.6.1 Procedures are defined and implemented to protect cryptographic keys used to protect stored account data against disclosure and misuse that include:
+- Access to keys is restricted to the fewest number of custodians necessary.
+- Key-encrypting keys are at least as strong as the data-encrypting keys they protect.
+- Key-encrypting keys are stored separately from data-encrypting keys.
+- Keys are stored securely in the fewest possible locations and forms.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Processes that protect cryptographic keys used to protect stored account data against disclosure and misuse are defined and implemented.
+
+###### APPLICABILITY NOTES
+
+This requirement applies to keys used to encrypt stored account data and to key-encrypting keys used to protect data-encrypting keys.
+
+The requirement to protect keys used to protect stored account data from disclosure and misuse applies to both data-encrypting keys and key-encrypting keys. Because one key-encrypting key may grant access to many data-encrypting keys, the key-encrypting keys require strong protection measures.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.6.1 Examine documented key-management policies and procedures to verify that processes to protect cryptographic keys used to protect stored account data against disclosure and misuse are defined to include all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Cryptographic keys must be strongly protected because those who obtain access will be able to decrypt data.
+
+**Good Practice**
+
+Having a centralized key management system based on industry standards is recommended for managing cryptographic keys.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+The entity’s key management procedures will benefit through alignment with industry requirements, Sources for information on cryptographic key management life cycles include:
+- *ISO 11568-1 Banking — Key management (retail) — Part 1: Principles (specifically Chapter 10 and the referenced Parts 2 & 4)*
+- *NIST SP 800-57 Part 1 Revision 5—Recommendation for Key Management, Part 1: General.*
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.6.1.1 Additional requirement for service providers only: A documented description of the cryptographic architecture is maintained that includes:
+- Details of all algorithms, protocols, and keys used for the protection of stored account data, including key strength and expiry date.
+- Preventing the use of the same cryptographic keys in production and test environments. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+- Description of the key usage for each key.
+- Inventory of any hardware security modules (HSMs), key management systems (KMS), and other secure cryptographic devices (SCDs) used for key management, including type and location of devices, as outlined in Requirement 12.3.4.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Accurate details of the cryptographic architecture are maintained and available.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+In cloud HSM implementations, responsibility for the cryptographic architecture according to this Requirement will be shared between the cloud provider and the cloud customer.
+
+The bullet above (for including, in the cryptographic architecture, that the use of the same cryptographic keys in production and test is prevented) is a best practice until 31 March 2025, after which it will be required as part of Requirement 3.6.1.1 and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.6.1.1 Additional testing procedure for service provider assessments only: Interview responsible personnel and examine documentation to verify that a document exists to describe the cryptographic architecture that includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Maintaining current documentation of the cryptographic architecture enables an entity to understand the algorithms, protocols, and cryptographic keys used to protect stored account data, as well as the devices that generate, use, and protect the keys. This allows an entity to keep pace with evolving threats to its architecture and plan for updates as the assurance level provided by different algorithms and key strengths changes. Maintaining such documentation also allows an entity to detect lost or missing keys or key-management devices and identify unauthorized additions to its cryptographic architecture.
+
+The use of the same cryptographic keys in both production and test environments introduces a risk of exposing the key if the test environment is not at the same security level as the production environment.
+
+**Good Practice**
+
+Having an automated reporting mechanism can assist with maintenance of the cryptographic attributes.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.6.1.2 Secret and private keys used to encrypt/decrypt stored account data are stored in one (or more) of the following forms at all times:
+- Encrypted with a key-encrypting key that is at least as strong as the data-encrypting key, and that is stored separately from the data-encrypting key.
+- Within a secure cryptographic device (SCD), such as a hardware security module (HSM) or PTS-approved point-of-interaction device.
+- As at least two full-length key components or key shares, in accordance with an industry-accepted method.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Secret and private keys are stored in a secure form that prevents unauthorized retrieval or access.
+
+###### APPLICABILITY NOTES
+
+It is not required that public keys be stored in one of these forms.
+Cryptographic keys stored as part of a key management system (KMS) that employs SCDs are acceptable.
+A cryptographic key that is split into two parts does not meet this requirement. Secret or private keys stored as key components or key shares must be generated via one of the following:
+- Using an approved random number generator and within an SCD,
+OR
+- According to ISO 19592 or equivalent industry standard for generation of secret key shares.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.6.1.2.a Examine documented procedures to verify it is defined that cryptographic keys used to encrypt/decrypt stored account data must exist only in one (or more) of the forms specified in this requirement.
+3.6.1.2.b Examine system configurations and key storage locations to verify that cryptographic keys used to encrypt/decrypt stored account data exist in one (or more) of the forms specified in this requirement.
+3.6.1.2.c Wherever key-encrypting keys are used, examine system configurations and key storage locations to verify:
+• Key-encrypting keys are at least as strong as the data-encrypting keys they protect.
+• Key-encrypting keys are stored separately from data-encrypting keys.
+
+##### GUIDANCE
+
+**Purpose**
+
+Storing cryptographic keys securely prevents unauthorized or unnecessary access that could result in the exposure of stored account data. Storing keys separately means they are stored such that if the location of one key is compromised, the second key is not also compromised.
+
+**Good Practice**
+
+Where data-encrypting keys are stored in an HSM, the HSM interaction channel should be protected to prevent interception of encryption or decryption operations.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.6.1.3 Access to cleartext cryptographic key components is restricted to the fewest number of custodians necessary.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Access to cleartext cryptographic key components is restricted to necessary personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.6.1.3 Examine user access lists to verify that access to cleartext cryptographic key components is restricted to the fewest number of custodians necessary.
+
+##### GUIDANCE
+
+**Purpose**
+
+Restricting the number of people who have access to cleartext cryptographic key components reduces the risk of stored account data being retrieved or rendered visible by unauthorized parties.
+
+**Good Practice**
+
+Only personnel with defined key custodian responsibilities (creating, altering, rotating, distributing, or otherwise maintaining encryption keys) should be granted access to key components.
+Ideally this will be a very small number of people.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.6.1.4 Cryptographic keys are stored in the fewest possible locations.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cryptographic keys are retained only where necessary.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.6.1.4 Examine key storage locations and observe processes to verify that keys are stored in the fewest possible locations.
+
+##### GUIDANCE
+
+**Purpose**
+
+Storing any cryptographic keys in the fewest locations helps an organization track and monitor all key locations and minimizes the potential for keys to be exposed to unauthorized parties.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 3.7
+
+3.7 Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
 
@@ -2046,53 +2639,6 @@ For more information about masking and truncation, see PCI SSC’s FAQs on these
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
@@ -2141,6 +2687,497 @@ For more information about masking and truncation, see PCI SSC’s FAQs on these
 [top](#pci-dss-v40)
 
 ---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
