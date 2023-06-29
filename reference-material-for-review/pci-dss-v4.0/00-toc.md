@@ -2421,8 +2421,8 @@ OR
 3.6.1.2.a Examine documented procedures to verify it is defined that cryptographic keys used to encrypt/decrypt stored account data must exist only in one (or more) of the forms specified in this requirement.
 3.6.1.2.b Examine system configurations and key storage locations to verify that cryptographic keys used to encrypt/decrypt stored account data exist in one (or more) of the forms specified in this requirement.
 3.6.1.2.c Wherever key-encrypting keys are used, examine system configurations and key storage locations to verify:
-• Key-encrypting keys are at least as strong as the data-encrypting keys they protect.
-• Key-encrypting keys are stored separately from data-encrypting keys.
+- Key-encrypting keys are at least as strong as the data-encrypting keys they protect.
+- Key-encrypting keys are stored separately from data-encrypting keys.
 
 ##### GUIDANCE
 
