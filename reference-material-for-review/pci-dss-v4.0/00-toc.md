@@ -6,6 +6,8 @@
 
 [PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data](#principle-pci-dss-requirement-protect-account-data)
 
+[PRINCIPLE PCI DSS REQUIREMENT: Maintain a Vulnerability Management Program](#principle-pci-dss-requirement-maintain-a-vulnerability-management-program)
+
 ### Requirements
 
 [Requirement 1: Install and Maintain Network Security Controls](#requirement-1-install-and-maintain-network-security-controls)
@@ -16,7 +18,7 @@
 
 [Requirement 4:	Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks)
 
-[]()
+[Requirement 5: Protect All Systems and Networks from Malicious Software](#requirement-5-protect-all-systems-and-networks-from-malicious-software)
 
 []()
 
@@ -2986,7 +2988,8 @@ Numerous industry standards for key management are cited above in the Guidance f
 
 ## PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data
 
-### Requirement 4:	Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks
+
+### Requirement 4: Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks
 
 #### OVERVIEW
 
@@ -3003,9 +3006,9 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 #### SECTIONS 4
 
-[4.1	Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.]()
+[4.1	Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41)
 
-[4.2	PAN is protected with strong cryptography during transmission.]()
+[4.2	PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42)
 
 
 
@@ -3016,10 +3019,10 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 ###### DEFINED APPROACH REQUIREMENTS
 
 4.1.1 All security policies and operational procedures that are identified in Requirement 4 are:
-• Documented.
-• Kept up to date.
-• In use.
-• Known to all affected parties.
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -3116,10 +3119,10 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 are implemented as follows to safeguard PAN during transmission over open, public networks:
-• Only trusted keys and certificates are accepted.
-• Certificates used to safeguard PAN during transmission over open, public networks are confirmed as valid and are not expired or revoked. *This bullet is a best practice until its effective date; refer to applicability notes below for details.*
-• The protocol in use supports only secure versions or configurations and does not support fallback to, or use of insecure versions, algorithms, key sizes, or implementations.
-• The encryption strength is appropriate for the encryption methodology in use.
+- Only trusted keys and certificates are accepted.
+- Certificates used to safeguard PAN during transmission over open, public networks are confirmed as valid and are not expired or revoked. *This bullet is a best practice until its effective date; refer to applicability notes below for details.*
+- The protocol in use supports only secure versions or configurations and does not support fallback to, or use of insecure versions, algorithms, key sizes, or implementations.
+- The encryption strength is appropriate for the encryption methodology in use.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -3172,8 +3175,8 @@ For browser-based TLS certificates, certificate trust can often be verified by c
 **Examples**
 
 Open, public networks include, but are not limited to:
-• The Internet and
-• Wireless technologies, including Wi-Fi, Bluetooth, cellular technologies, and satellite communications.
+- The Internet and
+- Wireless technologies, including Wi-Fi, Bluetooth, cellular technologies, and satellite communications.
 
 **Further Information**
 
@@ -3190,6 +3193,322 @@ For more information about trusted keys and certificates, see *NIST Cybersecurit
 ###### DEFINED APPROACH REQUIREMENTS
 
 4.2.1.1 An inventory of the entity’s trusted keys and certificates used to protect PAN during transmission is maintained.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+All keys and certificates used to protect PAN during transmission are identified and confirmed as trusted.
+
+###### APPLICABILITY NOTES
+
+*This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+4.2.1.1.a Examine documented policies and procedures to verify processes are defined for the entity to maintain an inventory of its trusted keys and certificates.
+
+4.2.1.1.b Examine the inventory of trusted keys and certificates to verify it is kept up to date.
+
+##### GUIDANCE
+
+**Purpose**
+
+The inventory of trusted keys helps the entity keep track of the algorithms, protocols, key strength, key custodians, and key expiry dates. This enables the entity to respond quickly to vulnerabilities discovered in encryption software, certificates, and cryptographic algorithms.
+
+**Good Practice**
+
+For certificates, the inventory should include the issuing CA and certification expiration date.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 4](#sections-4)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+4.2.1.2 Wireless networks transmitting PAN or connected to the CDE use industry best practices to implement strong cryptography for authentication and transmission.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cleartext PAN cannot be read or intercepted from wireless network transmissions.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+4.2.1.2 Examine system configurations to verify that wireless networks transmitting PAN or connected to the CDE use industry best practices to implement strong cryptography for authentication and transmission.
+
+##### GUIDANCE
+
+**Purpose**
+
+Since wireless networks do not require physical media to connect, it is important to establish controls limiting who can connect and what transmission protocols will be used. Malicious users use free and widely available tools to eavesdrop on wireless communications. Use of strong cryptography can help limit disclosure of sensitive information across wireless networks.
+
+Wireless networks present unique risks to an organization; therefore, they must be identified and protected according to industry requirements. Strong cryptography for authentication and transmission of PAN is required to prevent malicious users from gaining access to the wireless network or utilizing wireless networks to access other internal networks or data.
+
+**Good Practice**
+
+Wireless networks should not permit fallback or downgrade to an insecure protocol or lower encryption strength that does not meet the intent of strong cryptography.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Review the vendor’s specific documentation for more details on the choice of protocols, configurations, and settings related to cryptography.
+
+[sections 4](#sections-4)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+4.2.2 PAN is secured with strong cryptography whenever it is sent via end-user messaging technologies.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cleartext PAN cannot be read or intercepted from transmissions using end-user messaging technologies.
+
+###### APPLICABILITY NOTES
+
+This requirement also applies if a customer, or other third-party, requests that PAN is sent to them via end-user messaging technologies.
+
+There could be occurrences where an entity receives unsolicited cardholder data via an insecure communication channel that was not intended for transmissions of sensitive data. In this situation, the entity can choose to either include the channel in the scope of their CDE and secure it according to PCI DSS or delete the cardholder data and implement measures to prevent the channel from being used for cardholder data.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+4.2.2.a Examine documented policies and procedures to verify that processes are defined to secure PAN with strong cryptography whenever sent over end-user messaging technologies.
+
+4.2.2.b Examine system configurations and vendor documentation to verify that PAN is secured with strong cryptography whenever it is sent via end-user messaging technologies.
+
+##### GUIDANCE
+
+**Purpose**
+
+End-user messaging technologies typically can be easily intercepted by packet-sniffing during delivery across internal and public networks.
+
+**Good Practice**
+
+The use of end-user messaging technology to send PAN should only be considered where there is a defined business need.
+
+**Definitions**
+
+
+
+**Examples**
+
+E-mail, instant messaging, SMS, and chat are examples of the type of end-user messaging technology that this requirement refers to.
+
+**Further Information**
+
+
+
+[sections 4](#sections-4)
+
+[top](#pci-dss-v40)
+
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Maintain a Vulnerability Management Program
+
+### Requirement 5: Protect All Systems and Networks from Malicious Software
+
+#### OVERVIEW
+Malicious software (malware) is software or firmware designed to infiltrate or damage a computer system without the owner's knowledge or consent, with the intent of compromising the confidentiality, integrity, or availability of the owner’s data, applications, or operating system.
+
+Examples include viruses, worms, Trojans, spyware, ransomware, keyloggers, and rootkits, malicious code, scripts, and links.
+
+Malware can enter the network during many business-approved activities, including employee e-mail (for example, via phishing) and use of the Internet, mobile computers, and storage devices, resulting in the exploitation of system vulnerabilities.
+
+Using anti-malware solutions that address all types of malware helps to protect systems from current and evolving malware threats. Refer to Appendix G for definitions of PCI DSS terms
+
+
+#### SECTIONS 5
+[5.1	Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51)
+
+[5.2	Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52)
+
+[5.3	Anti-malware mechanisms and processes are active, maintained, and monitored.](#requirements-and-testing-procedures-53)
+
+[5.4	Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54)
+
+[top](#pci-dss-v40)
+
+##### REQUIREMENTS and TESTING PROCEDURES 5.1
+
+5.1 Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+5.1.1 All security policies and operational procedures that are identified in Requirement 5 are:
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Expectations, controls, and oversight for meeting activities within Requirement 5 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+5.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 5 are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Requirement 5.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 5. While it is important to define the specific policies or procedures called out in Requirement 5, it is equally important to ensure they are properly documented, maintained, and disseminated.
+
+**Good Practice**
+
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
+**Definitions**
+
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+5.1.2 Roles and responsibilities for performing activities in Requirement 5 are documented, assigned, and understood.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Day-to-day responsibilities for performing all the activities in Requirement 5 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+5.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 5 are documented and assigned.
+
+5.1.2.b Interview personnel with responsibility for performing activities in Requirement 5 to verify that roles and responsibilities are assigned as documented and are understood.
+
+##### GUIDANCE
+
+**Purpose**
+
+If roles and responsibilities are not formally assigned, networks and systems may not be properly protected from malware.
+
+**Good Practice**
+
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+
+**Definitions**
+
+
+
+**Examples**
+
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 5.2
+
+5.2 Malicious software (malware) is prevented, or detected and addressed.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+5.2.1 An anti-malware solution(s) is deployed on all system components, except for those system components identified in periodic evaluations per Requirement 5.2.3 that concludes the system components are not at risk from malware.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Automated mechanisms are implemented to prevent systems from becoming an attack vector for malware.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+5.2.1.a Examine system components to verify that an anti-malware solution(s) is deployed on all system components, except for those determined to not be at risk from malware based on periodic evaluations per Requirement 5.2.3.
+
+5.2.1.b For any system components without an anti-malware solution, examine the periodic evaluations to verify the component was evaluated and the evaluation concludes that the component is not at risk from malware.
+
+##### GUIDANCE
+
+**Purpose**
+
+There is a constant stream of attacks targeting newly discovered vulnerabilities in systems previously regarded as secure. Without an anti-malware solution that is updated regularly, new forms of malware can be used to attack systems, disable a network, or compromise data.
+
+**Good Practice**
+
+It is beneficial for entities to be aware of "zero-day" attacks (those that exploit a previously unknown vulnerability) and consider solutions that focus on behavioral characteristics and will alert and react to unexpected behavior.
+
+**Definitions**
+
+System components known to be affected by malware have active malware exploits available in the real world (not only theoretical exploits).
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+5.2.2 The deployed anti-malware solution(s):
+- Detects all known types of malware.
+- Removes, blocks, or contains all known types of malware.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -3225,7 +3544,55 @@ For more information about trusted keys and certificates, see *NIST Cybersecurit
 
 
 
-[sections 4](#sections-4)
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
 
 [top](#pci-dss-v40)
 
@@ -3274,9 +3641,892 @@ For more information about trusted keys and certificates, see *NIST Cybersecurit
 
 
 
-[sections 4](#sections-4)
+[sections 5](#sections-5)
 
 [top](#pci-dss-v40)
 
 ---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
 
