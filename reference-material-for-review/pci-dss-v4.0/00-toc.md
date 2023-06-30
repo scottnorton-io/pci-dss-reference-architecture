@@ -14,6 +14,8 @@
 
 [Requirement 3:	Protect Stored Account Data](#requirement-3-protect-stored-account-data)
 
+[Requirement 4:	Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks)
+
 []()
 
 []()
@@ -2548,7 +2550,646 @@ Storing any cryptographic keys in the fewest locations helps an organization tra
 
 ###### DEFINED APPROACH REQUIREMENTS
 
+3.7.1 Key-management policies and procedures are implemented to include generation of strong cryptographic keys used to protect stored account data.
 
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Strong cryptographic keys are generated.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.1.a Examine the documented key-management policies and procedures for keys used for protection of stored account data to verify that they define generation of strong cryptographic keys.
+
+3.7.1.b Observe the method for generating keys to verify that strong keys are generated.
+
+##### GUIDANCE
+
+**Purpose**
+
+Use of strong cryptographic keys significantly increases the level of security of encrypted account data.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+See the sources referenced at "Cryptographic Key Generation in Appendix G.
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.2 Key-management policies and procedures are implemented to include secure distribution of cryptographic keys used to protect stored account data.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cryptographic keys are secured during distribution.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.2.a Examine the documented key-management policies and procedures for keys used for protection of stored account data to verify that they define secure distribution of cryptographic keys.
+3.7.2.b Observe the method for distributing keys to verify that keys are distributed securely.
+
+##### GUIDANCE
+
+**Purpose**
+
+Secure distribution or conveyance of secret or private cryptographic keys means that keys are distributed only to authorized custodians, as identified in Requirement 3.6.1.2, and are never distributed insecurely.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.3 Key-management policies and procedures are implemented to include secure storage of cryptographic keys used to protect stored account data.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cryptographic keys are secured when stored.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.3.a Examine the documented key-management policies and procedures for keys used for protection of stored account data to verify that they define secure storage of cryptographic keys.
+
+3.7.3.b Observe the method for storing keys to verify that keys are stored securely.
+
+##### GUIDANCE
+
+**Purpose**
+
+Storing keys without proper protection could provide access to attackers, resulting in the decryption and exposure of account data.
+
+**Good Practice**
+
+Data encryption keys can be protected by encrypting them with a key-encrypting key.
+
+Keys can be stored in a Hardware Security Module (HSM).
+
+Secret or private keys that can decrypt data should never be present in source code.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.4 Key management policies and procedures are implemented for cryptographic key changes for keys that have reached the end of their cryptoperiod, as defined by the associated application vendor or key owner, and based on industry best practices and guidelines, including the following:
+- A defined cryptoperiod for each key type in use.
+- A process for key changes at the end of the defined cryptoperiod.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cryptographic keys are not used beyond their defined cryptoperiod.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.4.a Examine the documented key-management policies and procedures for keys used for protection of stored account data to verify that they define changes to cryptographic keys that have reached the end of their cryptoperiod and include all elements specified in this requirement.
+
+3.7.4.b Interview personnel, examine documentation, and observe key storage locations to verify that keys are changed at the end of the defined cryptoperiod(s).
+
+##### GUIDANCE
+
+**Purpose**
+
+Changing encryption keys when they reach the end of their cryptoperiod is imperative to minimize the risk of someone obtaining the encryption keys and using them to decrypt data.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+A cryptoperiod is the time span during which a cryptographic key can be used for its defined purpose. Cryptoperiods are often defined in terms of the period for which the key is active and/or the amount of cipher-text that has been produced by the key. Considerations for defining the cryptoperiod include, but are not limited to, the strength of the underlying algorithm, size or length of the key, risk of key compromise, and the sensitivity of the data being encrypted.
+
+**Examples**
+
+
+
+**Further Information**
+
+*NIST SP 800-57 Part 1, Revision 5, Section 5.3 Cryptoperiods* - provides guidance for establishing the time span during which a specific key is authorized for use by legitimate entities, or the keys for a given system will remain in effect. See Table 1 of *SP 800-57* Part 1 for suggested cryptoperiods for different key types.
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.5 Key management policies procedures are implemented to include the retirement, replacement, or destruction of keys used to protect stored account data, as deemed necessary when:
+- The key has reached the end of its defined cryptoperiod.
+- The integrity of the key has been weakened, including when personnel with knowledge of a cleartext key component leaves the company, or the role for which the key component was known.
+- The key is suspected of or known to be compromised.
+Retired or replaced keys are not used for encryption operations.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Keys are removed from active use when it is suspected or known that the integrity of the key is weakened.
+
+###### APPLICABILITY NOTES
+
+Keys are removed from active use when it is suspected or known that the integrity of the key is weakened.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.5.a Examine the documented key-management policies and procedures for keys used for protection of stored account data and verify that they define retirement, replacement, or destruction of keys in accordance with all elements specified in this requirement.
+
+3.7.5.b Interview personnel to verify that processes are implemented in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Keys that are no longer required, keys with weakened integrity, and keys that are known or suspected to be compromised, should be archived, revoked, and/or destroyed to ensure that the keys can no longer be used.
+If such keys need to be kept (for example, to support archived encrypted data), they should be strongly protected.
+
+**Good Practice**
+
+Archived cryptographic keys should be used only for decryption/verification purposes.
+The encryption solution should provide for and facilitate a process to replace keys that are due for replacement or that are known to be, or suspected of being, compromised. In addition, any keys that are known to be, or suspected of being, compromised should be managed in accordance with the entity’s incident response plan per Requirement 12.10.1.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Industry best practices for archiving retired keys are outlined in *NIST SP 800-57 Part 1, Revision 5, Section 8.3.1*, and includes maintaining the archive with a trusted third party and storing archived key information separately from operational data.
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.6 Where manual cleartext cryptographic key-management operations are performed by personnel, key-management policies and procedures are implemented include managing these operations using split knowledge and dual control.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cleartext secret or private keys cannot be known by anyone. Operations involving cleartext keys cannot be carried out by a single person
+
+###### APPLICABILITY NOTES
+
+This control is applicable for manual key-management operations or where key management is not controlled by the encryption product.
+A cryptographic key that is simply split into two parts does not meet this requirement. Secret or private keys stored as key components or key shares must be generated via one of the following:
+- Using an approved random number generator and within a secure cryptographic device (SCD), such as a hardware security module (HSM) or PTS-approved point-of-interaction device,
+OR
+- According to ISO 19592 or equivalent industry standard for generation of secret key shares.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.6.a Examine the documented key-management policies and procedures for keys used for protection of stored account data and verify that they define using split knowledge and dual control.
+
+3.7.6.b Interview personnel and/or observe processes to verify that manual cleartext keys are managed with split knowledge and dual control.
+
+##### GUIDANCE
+
+**Purpose**
+
+Split knowledge and dual control of keys are used to eliminate the possibility of a single person having access to the whole key and therefore being able to gain unauthorized access to the data.
+
+**Good Practice**
+
+Where key components or key shares are used, procedures should ensure that no single custodian ever has access to sufficient key components or shares to reconstruct the cryptographic key. For example, in an m-of-n scheme (for example, Shamir), where only two of any three components are required to reconstruct the cryptographic key, a custodian must not have current or prior knowledge of more than one component. If a custodian was previously assigned component A, which was then reassigned, the custodian should not then be assigned component B or C, as this would give the custodian knowledge of two components and the ability to recreate the key.
+
+**Definitions**
+
+Split knowledge is a method in which two or more people separately have key components, where each person knows only their own key component, and the individual key components convey no knowledge of other components or of the original cryptographic key.
+
+Dual control requires two or more people to authenticate the use of a cryptographic key or perform a key-management function. No single person can access or use the authentication factor (for example, the password, PIN, or key) of another.
+
+**Examples**
+
+Key-management operations that might be performed manually include, but are not limited to, key generation, transmission, loading, storage, and destruction.
+
+**Further Information**
+
+Industry standards for managing key components include:
+•* NIST SP 800-57* Part 2, Revision 1 -- Recommendation for Key Management: Part 2 – Best Practices for Key Management Organizations [4.6 Keying Material Distribution]
+- *ISO 11568-2 Banking — Key management (retail) — Part 2*: Symmetric ciphers, their key management and life cycle [4.7.2.3 Key components and 4.9.3 Key components]
+- *European Payments Council EPC342-08 Guidelines on Cryptographic Algorithms Usage and Key Management* [especially 4.1.4 Key installation].
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.7 Key management policies and procedures are implemented to include the prevention of unauthorized substitution of cryptographic keys.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cryptographic keys cannot be substituted by unauthorized personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.7.a Examine the documented key-management policies and procedures for keys used for protection of stored account data and verify that they define prevention of unauthorized substitution of cryptographic keys.
+
+3.7.7.b Interview personnel and/or observe processes to verify that unauthorized substitution of keys is prevented.
+
+##### GUIDANCE
+
+**Purpose**
+
+If an attacker is able to substitute an entity’s key with a key the attacker knows, the attacker will be able to decrypt all data encrypted with that key.
+
+**Good Practice**
+
+The encryption solution should not allow for or accept substitution of keys from unauthorized sources or unexpected processes.
+
+Controls should include ensuring that individuals with access to key components or shares do not have access to other components or shares that form the necessary threshold to derive the key.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.8 Key management policies and procedures are implemented to include that cryptographic key custodians formally acknowledge (in writing or electronically) that they understand and accept their key-custodian responsibilities.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Key custodians are knowledgeable about their responsibilities in relation to cryptographic operations and can access assistance and guidance when required.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.8.a Examine the documented key-management policies and procedures for keys used for protection of stored account data and verify that they define acknowledgments for key custodians in accordance with all elements specified in this requirement.
+
+3.7.8.b Examine documentation or other evidence showing that key custodians have provided acknowledgments in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+This process will help ensure individuals that act as key custodians commit to the key-custodian role and understand and accept the responsibilities. An annual reaffirmation can help remind key custodians of their responsibilities.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Industry guidance for key custodians and their roles and responsibilities includes:
+- *NIST SP 800-130 A Framework for Designing Cryptographic Key Management Systems* [5. Roles and Responsibilities (especially) for Key Custodians]
+- *ISO 11568-1 Banking -- Key management (retail) -- Part 1*: Principles [5 Principles of key management (especially b)]
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+3.7.9 Additional requirement for service providers only: Where a service provider shares cryptographic keys with its customers for transmission or storage of account data, guidance on secure transmission, storage and updating of such keys is documented and distributed to the service provider’s customers.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Customers are provided with appropriate key management guidance whenever they receive shared cryptographic keys.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+3.7.9 Additional testing procedure for service provider assessments only: If the service provider shares cryptographic keys with its customers for transmission or storage of account data, examine the documentation that the service provider provides to its customers to verify it includes guidance on how to securely transmit, store, and update customers’ keys in accordance with all elements specified in Requirements 3.7.1 through 3.7.8 above.
+
+##### GUIDANCE
+
+**Purpose**
+
+Providing guidance to customers on how to securely transmit, store, and update cryptographic keys can help prevent keys from being mismanaged or disclosed to unauthorized entities.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Numerous industry standards for key management are cited above in the Guidance for Requirements 3.7.1-3.7.8.
+
+[sections 3](#sections-3)
+
+[top](#pci-dss-v40)
+
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data
+
+### Requirement 4:	Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks
+
+#### OVERVIEW
+
+The use of strong cryptography provides greater assurance in preserving data confidentiality, integrity, and non-repudiation.
+
+To protect against compromise, PAN must be encrypted during transmission over networks that are easily accessed by malicious individuals, including untrusted and public networks. Misconfigured wireless networks and vulnerabilities in legacy encryption and authentication protocols continue to be targeted by malicious individuals aiming to exploit these vulnerabilities to gain privileged access to cardholder data environments (CDE). Any transmissions of cardholder data over an entity’s internal network(s) will naturally bring that network into scope for PCI DSS since that network stores, processes, or transmits cardholder data. Any such networks must be evaluated and assessed against applicable PCI DSS requirements.
+
+Requirement 4 applies to transmissions of PAN unless specifically called out in an individual requirement.
+
+PAN transmissions can be protected by encrypting the data before it is transmitted, or by encrypting the session over which the data is transmitted, or both. While it is not required that strong cryptography be applied at both the data level and the session level, it is recommended.
+
+Refer to Appendix G for definitions of “strong cryptography” and other PCI DSS terms.
+
+
+#### SECTIONS 4
+
+[4.1	Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.]()
+
+[4.2	PAN is protected with strong cryptography during transmission.]()
+
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 4.1
+
+4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+4.1.1 All security policies and operational procedures that are identified in Requirement 4 are:
+• Documented.
+• Kept up to date.
+• In use.
+• Known to all affected parties.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Expectations, controls, and oversight for meeting activities within Requirement 4 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+4.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 4 are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Requirement 4.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 4. While it is important to define the specific policies or procedures called out in Requirement 4, it is equally important to ensure they are properly documented, maintained, and disseminated.
+
+**Good Practice**
+
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
+**Definitions**
+
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives. Policies and procedures, including updates, are actively communicated to all affected personnel, and are supported by operating procedures describing how to perform activities.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 4](#sections-4)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+4.1.2 Roles and responsibilities for performing activities in Requirement 4 are documented, assigned, and understood.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Day-to-day responsibilities for performing all the activities in Requirement 4 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+4.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 4 are documented and assigned.
+
+4.1.2.b Interview personnel with responsibility for performing activities in Requirement 4 to verify that roles and responsibilities are assigned as documented and are understood.
+
+##### GUIDANCE
+
+**Purpose**
+
+If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities and critical activities may not occur.
+
+**Good Practice**
+
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+
+**Definitions**
+
+
+
+**Examples**
+
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
+
+**Further Information**
+
+
+
+[sections 4](#sections-4)
+
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 4.2
+
+4.2 PAN is protected with strong cryptography during transmission.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+are implemented as follows to safeguard PAN during transmission over open, public networks:
+• Only trusted keys and certificates are accepted.
+• Certificates used to safeguard PAN during transmission over open, public networks are confirmed as valid and are not expired or revoked. *This bullet is a best practice until its effective date; refer to applicability notes below for details.*
+• The protocol in use supports only secure versions or configurations and does not support fallback to, or use of insecure versions, algorithms, key sizes, or implementations.
+• The encryption strength is appropriate for the encryption methodology in use.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cleartext PAN cannot be read or intercepted from any transmissions over open, public networks.
+
+###### APPLICABILITY NOTES
+
+There could be occurrences where an entity receives cardholder data unsolicited via an insecure communication channel that was not intended for the purpose of receiving sensitive data. In this situation, the entity can choose to either include the channel in the scope of their CDE and secure it according to PCI DSS or implement measures to prevent the channel from being used for cardholder data.
+
+A self-signed certificate may also be acceptable if the certificate is issued by an internal CA within the organization, the certificate’s author is confirmed, and the certificate is verified—for example, via hash or signature—and has not expired. Note that self-signed certificates where the Distinguished Name (DN) field in the “issued by” and “issued to” field is the same are not acceptable.
+
+*The bullet above (for confirming that certificates used to safeguard PAN during transmission over open, public networks are valid and are not expired or revoked) is a best practice until 31 March 2025, after which it will be required as part of Requirement 4.2.1 and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+4.2.1.a Examine documented policies and procedures and interview personnel to verify processes are defined to include all elements specified in this requirement.
+
+4.2.1.b Examine system configurations to verify that strong cryptography and security protocols are implemented in accordance with all elements specified in this requirement.
+
+4.2.1.c Examine cardholder data transmissions to verify that all PAN is encrypted with strong cryptography when it is transmitted over open, public networks.
+
+4.2.1.d Examine system configurations to verify that keys and/or certificates that cannot be verified as trusted are rejected.
+
+##### GUIDANCE
+
+**Purpose**
+
+Sensitive information must be encrypted during transmission over public networks because it is easy and common for a malicious individual to intercept and/or divert data while in transit.
+
+**Good Practice**
+
+The network and data-flow diagrams defined in Requirement 1 are useful resources for identifying all connection points where account data is transmitted or received over open, public networks.
+
+While not required, it is considered a good practice for entities to also encrypt PAN over their internal networks, and for entities to establish any new network implementations with encrypted communications.
+
+PAN transmissions can be protected by encrypting the data before it is transmitted, or by encrypting the session over which the data is transmitted, or both. While it is not required that strong cryptography be applied at both the data level and the session level, it is strongly recommended. If encrypted at the data level, the cryptographic keys used for protecting the data can be managed in accordance with Requirements 3.6 and 3.7. If the data is encrypted at the session level, designated key custodians should be assigned responsibility for managing transmission keys and certificates.
+
+Some protocol implementations (such as SSL, SSH v1.0, and early TLS) have known vulnerabilities that an attacker can use to gain access to the cleartext data. It is critical that entities maintain awareness of industry-defined deprecation dates for the cipher suites they are using and are prepared to migrate to newer versions or protocols when older ones are no longer deemed secure.
+
+Verifying that certificates are trusted helps ensure the integrity of the secure connection. To be considered trusted, a certificate should be issued from a trusted source, such as a trusted certificate authority (CA), and not be expired. Up-to-date Certificate Revocation Lists (CRLs) or Online Certificate Status Protocol (OCSP) can be used to validate certificates.
+
+Techniques to validate certificates may include certificate and public key pinning, where the trusted certificate or a public key is pinned either during development or upon its first use. Entities can also confirm with developers or review source code to ensure that clients and servers reject connections if the certificate is bad.
+
+For browser-based TLS certificates, certificate trust can often be verified by clicking on the lock icon that appears next to the address bar.
+
+**Definitions**
+
+
+
+**Examples**
+
+Open, public networks include, but are not limited to:
+• The Internet and
+• Wireless technologies, including Wi-Fi, Bluetooth, cellular technologies, and satellite communications.
+
+**Further Information**
+
+Vendor recommendations and industry best practices can be consulted for information about the proper encryption strength specific to the encryption methodology in use.
+For more information about strong cryptography and secure protocols, see industry standards and best practices such as *NIST SP 800-52 and SP 800-57.*
+For more information about trusted keys and certificates, see *NIST Cybersecurity Practice Guide Special Publication 1800-16, Securing Web Transactions: Transport Layer Security (TLS) Server Certificate Management.*
+
+[sections 4](#sections-4)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+4.2.1.1 An inventory of the entity’s trusted keys and certificates used to protect PAN during transmission is maintained.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -2584,7 +3225,7 @@ Storing any cryptographic keys in the fewest locations helps an organization tra
 
 
 
-[sections 3](#sections-3)
+[sections 4](#sections-4)
 
 [top](#pci-dss-v40)
 
@@ -2633,595 +3274,7 @@ Storing any cryptographic keys in the fewest locations helps an organization tra
 
 
 
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 3](#sections-3)
+[sections 4](#sections-4)
 
 [top](#pci-dss-v40)
 
