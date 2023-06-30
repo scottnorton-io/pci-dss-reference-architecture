@@ -3512,7 +3512,7 @@ System components known to be affected by malware have active malware exploits a
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Malware cannot execute or infect other system components.
 
 ###### APPLICABILITY NOTES
 
@@ -3520,17 +3520,21 @@ System components known to be affected by malware have active malware exploits a
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+5.2.2 Examine vendor documentation and configurations of the anti-malware solution(s) to verify that the solution:
+- Detects all known types of malware.
+- Removes, blocks, or contains all known types of malware.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+It is important to protect against all types and forms of malware to prevent unauthorized access.
 
 **Good Practice**
 
+Anti-malware solutions may include a combination of network-based controls, host-based controls, and endpoint security solutions. In addition to signature-based tools, capabilities used by modern anti-malware solutions include sandboxing, privilege escalation controls, and machine learning.
 
+Solution techniques include preventing malware from getting into the network and removing or containing malware that does get into the network.
 
 **Definitions**
 
@@ -3538,7 +3542,7 @@ System components known to be affected by malware have active malware exploits a
 
 **Examples**
 
-
+Types of malware include, but are not limited to, viruses, Trojans, worms, spyware, ransomware, keyloggers, rootkits, malicious code, scripts, and links.
 
 **Further Information**
 
@@ -3550,35 +3554,44 @@ System components known to be affected by malware have active malware exploits a
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.2.3 Any system components that are not at risk for malware are evaluated periodically to include the following:
+- A documented list of all system components not at risk for malware.
+- Identification and evaluation of evolving malware threats for those system components.
+- Confirmation whether such system components continue to not require anti-malware protection.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+The entity maintains awareness of evolving malware threats to ensure that any systems not protected from malware are not at risk of infection.
 
 ###### APPLICABILITY NOTES
 
-
+System components covered by this requirement are those for which there is no anti-malware solution deployed per Requirement 5.2.1.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+5.2.3.a Examine documented policies and procedures to verify that a process is defined for periodic evaluations of any system components that are not at risk for malware that includes all elements specified in this requirement.
 
+5.2.3.b Interview personnel to verify that the evaluations include all elements specified in this requirement.
+
+5.2.3.c Examine the list of system components identified as not at risk of malware and compare to the system components without an anti-malware solution deployed per Requirement 5.2.1 to verify that the system components match for both requirements.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Certain systems, at a given point in time, may not currently be commonly targeted or affected by malware. However, industry trends for malware can change quickly, so it is important for organizations to be aware of new malware that might affect their systems—for example, by monitoring vendor security notices and anti-malware forums to determine whether its systems might be coming under threat from new and evolving malware.
 
 **Good Practice**
 
-
+If an entity determines that a particular system is not susceptible to any malware, the determination should be supported by industry evidence, vendor resources, and best practices.
+The following steps can help entities during their periodic evaluations:
+- Identification of all system types previously determined to not require malware protection.
+- Review of industry vulnerability alerts and notices to determine if new threats exist for any identified system.
+- A documented conclusion about whether the system types remain not susceptible to malware.
+- A strategy to add malware protection for any system types for which malware protection has become necessary.
+Trends in malware should be included in the identification of new security vulnerabilities at Requirement 6.3.1, and methods to address new trends should be incorporated into the entity’s configuration standards and protection mechanisms as needed.
 
 **Definitions**
 
@@ -3598,32 +3611,29 @@ System components known to be affected by malware have active malware exploits a
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.2.3.1 The frequency of periodic evaluations of system components identified as not at risk for malware is defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Systems not known to be at risk from malware are re-evaluated at a frequency that addresses the entity’s risk.
 
 ###### APPLICABILITY NOTES
 
-
+*This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.*
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+5.2.3.1.a Examine the entity’s targeted risk analysis for the frequency of periodic evaluations of system components identified as not at risk for malware to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1.
 
+5.2.3.1.b Examine documented results of periodic evaluations of system components identified as not at risk for malware and interview personnel to verify that evaluations are performed at the frequency defined in the entity’s targeted risk analysis performed for this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Entities determine the optimum period to undertake the evaluation based on criteria such as the complexity of each entity’s environment and the number of types of systems that are required to be evaluated
 
 **Good Practice**
 
@@ -3648,17 +3658,17 @@ System components known to be affected by malware have active malware exploits a
 ---
 
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 5.3
 
-
+5.3 Anti-malware mechanisms and processes are active, maintained, and monitored.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.3.1 The anti-malware solution(s) is kept current via automatic updates.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Anti-malware mechanisms can detect and address the latest malware threats.
 
 ###### APPLICABILITY NOTES
 
@@ -3666,17 +3676,23 @@ System components known to be affected by malware have active malware exploits a
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+5.3.1.a Examine anti-malware solution(s) configurations, including any master installation of the software, to verify the solution is configured to perform automatic updates.
 
+5.3.1.b Examine system components and logs, to verify that the anti-malware solution(s) and definitions are current and have been promptly deployed.
 
 ##### GUIDANCE
 
 **Purpose**
 
+For an anti-malware solution to remain effective, it needs to have the latest security updates, signatures, threat analysis engines, and any other malware protections on which the solution relies.
 
+Having an automated update process avoids burdening end users with responsibility for manually installing updates and provides greater assurance that anti-malware protection mechanisms are updated as quickly as possible after an update is released.
 
 **Good Practice**
 
+Anti-malware mechanisms should be updated via a trusted source as soon as possible after an update is available. Using a trusted common source to distribute updates to end-user systems helps ensure the integrity and consistency of the solution architecture.
 
+Updates may be automatically downloaded to a central location—for example, to allow for testing—prior to being deployed to individual system components.
 
 **Definitions**
 
@@ -3696,14 +3712,12 @@ System components known to be affected by malware have active malware exploits a
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.3.2 The anti-malware solution(s):
+- Performs periodic scans and active or real-time scans.
+OR
+- Performs continuous behavioral analysis of systems or processes.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
