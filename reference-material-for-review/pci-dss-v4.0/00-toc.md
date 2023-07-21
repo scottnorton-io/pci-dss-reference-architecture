@@ -3721,7 +3721,7 @@ OR
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Malware cannot complete execution.
 
 ###### APPLICABILITY NOTES
 
@@ -3729,13 +3729,67 @@ OR
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+5.3.2.a Examine anti-malware solution(s) configurations, including any master installation of the software, to verify the solution(s) is configured to perform at least one of the elements specified in this requirement.
 
+5.3.2.b Examine system components, including all operating system types identified as at risk for malware, to verify the solution(s) is enabled in accordance with at least one of the elements specified in this requirement.
+
+5.3.2.c Examine logs and scan results to verify that the solution(s) is enabled in accordance with at least one of the elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Periodic scans can identify malware that is present, but currently inactive, within the environment. Some malware, such as zero-day malware, can enter an environment before the scan solution is capable of detecting it. Performing regular periodic scans or continuous behavioral analysis of systems or processes helps ensure that previously undetectable malware can be identified, removed, and investigated to determine how it gained access to the environment.
 
+**Good Practice**
+
+Using a combination of periodic scans (scheduled and on-demand) and active, real-time (on-access) scanning helps ensure that malware residing in both static and dynamic elements of the CDE is addressed. Users should also be able to run on-demand scans on their systems if suspicious activity is detected – this can be useful in the early detection of malware.
+
+Scans should include the entire file system, including all disks, memory, and start-up files and boot records (at system restart) to detect all malware upon file execution, including any software that may be resident on a system but not currently active. Scan scope should include all systems and software in the CDE, including those that are often overlooked such as email servers, web browsers, and instant messaging software.
+
+**Definitions**
+
+Active, or real-time, scanning checks files for malware upon any attempt to open, close, rename, or otherwise interact with a file, preventing the malware from being activated.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 5](#sections-5)
+
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+5.3.2.1 If periodic malware scans are performed to meet Requirement 5.3.2, the frequency of scans is defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Scans by the malware solution are performed at a frequency that addresses the entity’s risk.
+
+###### APPLICABILITY NOTES
+
+This requirement applies to entities conducting periodic malware scans to meet Requirement 5.3.2.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+5.3.2.1.a Examine the entity’s targeted risk analysis for the frequency of periodic malware scans to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1.
+
+5.3.2.1.b Examine documented results of periodic malware scans and interview personnel to verify scans are performed at the frequency defined in the entity’s targeted risk analysis performed for this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Entities can determine the optimum period to undertake periodic scans based on their own assessment of the risks posed to their environments.
 
 **Good Practice**
 
@@ -3759,81 +3813,34 @@ OR
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.3.3 For removable electronic media, the anti-malware solution(s):
+• Performs automatic scans of when the media is inserted, connected, or logically mounted,
+OR
+• Performs continuous behavioral analysis of systems or processes when the media is inserted, connected, or logically mounted.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Malware cannot be introduced to system components via external removable media.
 
 ###### APPLICABILITY NOTES
 
-
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+5.3.3.a Examine anti-malware solution(s) configurations to verify that, for removable electronic media, the solution is configured to perform at least one of the elements specified in this requirement.
 
+5.3.3.b Examine system components with removable electronic media connected to verify that the solution(s) is enabled in accordance with at least one of the elements as specified in this requirement.
+
+5.3.3.c Examine logs and scan results to verify that the solution(s) is enabled in accordance with at least one of the elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 5](#sections-5)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
+Portable media devices are often overlooked as an entry method for malware. Attackers will often pre-load malware onto portable devices such as USB and flash drives; connecting an infected device to a computer then triggers the malware, introducing new threats within the environment.
 
 **Good Practice**
 
