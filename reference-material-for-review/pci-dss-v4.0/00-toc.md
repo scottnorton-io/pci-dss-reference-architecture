@@ -6569,17 +6569,17 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.3.8 Authentication policies and procedures are documented and communicated to all users including:
+- Guidance on selecting strong authentication factors.
+- Guidance for how users should protect their authentication factors.
+- Instructions not to reuse previously used passwords/passphrases.
+- Instructions to change passwords/passphrases if there is any suspicion or knowledge that the password/passphrases have been compromised and how to report the incident.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Users are knowledgeable about the correct use of authentication factors and can access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
 
@@ -6587,17 +6587,130 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+8.3.8.a Examine procedures and interview personnel to verify that authentication policies and procedures are distributed to all users.
 
+8.3.8.b Review authentication policies and procedures that are distributed to users and verify they include the elements specified in this requirement.
+
+8.3.8.c Interview users to verify that they are familiar with authentication policies and procedures.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Communicating authentication policies and procedures to all users helps them to understand and abide by the policies.
 
 **Good Practice**
 
+Guidance on selecting strong passwords may include suggestions to help personnel select hard-to-guess passwords that do not contain dictionary words or information about the user, such as the user ID, names of family members, date of birth, etc.
 
+Guidance for protecting authentication factors may include not writing down passwords or not saving them in insecure files, and being alert to malicious individuals who may try to exploit their passwords (for example, by calling an employee and asking for their password so the caller can “troubleshoot a problem”).
+
+Alternatively, entities can implement processes to confirm passwords meet password policy, for example, by comparing password choices to a list of unacceptable passwords and having users choose a new password for any that match with one on the list. Instructing users to change passwords if there is a chance the password is no longer secure can prevent malicious users from using a legitimate password to gain unauthorized access.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.3.9 If passwords/passphrases are used as the only authentication factor for user access (i.e., in any single-factor authentication implementation) then either:
+- Passwords/passphrases are changed at least once every 90 days,
+
+**OR**
+
+- The security posture of accounts is dynamically analyzed, and real-time access to resources is automatically determined accordingly.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+An undetected compromised password/passphrase cannot be used indefinitely.
+
+###### APPLICABILITY NOTES
+
+This requirement applies to in-scope system components that are not in the CDE because these components are not subject to MFA requirements.
+
+This requirement is not intended to apply to user accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+
+This requirement does not apply to service providers’ customer accounts but does apply to accounts for service provider personnel.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.3.9 If passwords/passphrases are used as the only authentication factor for user access, inspect system configuration settings to verify that passwords/passphrases are managed in accordance with ONE of the elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Access to in-scope system components that are not in the CDE may be provided using a single authentication factor, such as a password/passphrase, token device or smart card, or biometric attribute. Where passwords/passphrases are employed as the only authentication factor for such access, additional controls are required to protect the integrity of the password/passphrase.
+
+**Good Practice**
+
+Passwords/passphrases that are valid for a long time without a change provide malicious individuals with more time to break the password/phrase. Periodically changing passwords offers less time for a malicious individual to crack a password/passphrase and less time to use a compromised password.
+
+Using a password/passphrase as the only authentication factor provides a single point of failure if compromised. Therefore, in these implementations, controls are needed to minimize how long malicious activity could occur via a compromised password/passphrase.
+
+Dynamically analyzing an account’s security posture is another option that allows for more rapid detection and response to address potentially compromised credentials. Such analysis takes a number of data points, which may include device integrity, location, access times, and the resources accessed to determine in real time whether an account can be granted access to a requested resource. In this way, access can be denied and accounts blocked if it is suspected that authentication credentials have been compromised.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+For information about using dynamic analysis to manage user access to resources, see *NIST SP 800-207 Zero Trust Architecture*.
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**8.3.10 Additional requirement for service providers only**: If passwords/passphrases are used as the only authentication factor for customer user access to cardholder data (i.e., in any single-factor authentication implementation), then guidance is provided to customer users including:
+- Guidance for customers to change their user passwords/passphrases periodically.
+- Guidance as to when, and under what circumstances, passwords/passphrases are to be changed.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Passwords/passphrases for service providers’ customers cannot be used indefinitely.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+This requirement does not apply to accounts of consumer users accessing their own payment card information.
+
+This requirement for service providers will be superseded by Requirement 8.3.10.1 once 8.3.10.1 becomes effective.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**8.3.10 Additional testing procedure for service provider assessments only**: If passwords/passphrases are used as the only authentication factor for customer user access to cardholder data, examine guidance provided to customer users to verify that the guidance includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Using a password/passphrase as the only authentication factor provides a single point of failure if compromised. Therefore, in these implementations, controls are needed to minimize how long malicious activity could occur via a compromised password/passphrase.
+
+**Good Practice**
+
+Passwords/passphrases that are valid for a long time without a change provide malicious individuals with more time to break the password/phrase. Periodically changing passwords offers less time for a malicious individual to crack a password/passphrase and less time to use a compromised password.
 
 **Definitions**
 
@@ -6622,11 +6735,69 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 ###### DEFINED APPROACH REQUIREMENTS
 
+**8.3.10.1 Additional requirement for service providers only**: If passwords/passphrases are used as the only authentication factor for customer user access (i.e., in any single-factor authentication implementation) then either:
+- Passwords/passphrases are changed at least once every 90 days,
 
+**OR**
+
+- The security posture of accounts is dynamically analyzed, and real-time access to resources is automatically determined accordingly.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
+Passwords/passphrases for service providers’ customers cannot be used indefinitely.
 
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+This requirement does not apply to accounts of consumer users accessing their own payment card information.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+Until this requirement is effective on 31 March 2025, service providers may meet either Requirement 8.3.10 or 8.3.10.1.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.3.10.1 Additional testing procedure for service provider assessments only: If passwords/passphrases are used as the only authentication factor for customer user access, inspect system configuration settings to verify that passwords/passphrases are managed in accordance with ONE of the elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Using a password/passphrase as the only authentication factor provides a single point of failure if compromised. Therefore, in these implementations, controls are needed to minimize how long malicious activity could occur via a compromised password/passphrase.
+
+**Good Practice**
+
+Passwords/passphrases that are valid for a long time without a change provide malicious individuals with more time to break the password/phrase. Periodically changing passwords offers less time for a malicious individual to crack a password/passphrase and less time to use a compromised password.
+
+Dynamically analyzing an account’s security posture is another option that allows for more rapid detection and response to address potentially compromised credentials. Such analysis takes a number of data points which may include device integrity, location, access times, and the resources accessed to determine in real time whether an account can be granted access to a requested resource. In this way, access can be denied and accounts blocked if it is suspected that account credentials have been compromised.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+For information about using dynamic analysis to manage user access to resources, refer to *NIST SP 800-207 Zero Trust Architecture*.
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.3.11 Where authentication factors such as physical or logical security tokens, smart cards, or certificates are used:
+- Factors are assigned to an individual user and not shared among multiple users.
+- Physical and/or logical controls ensure only the intended user can use that factor to gain access.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+An authentication factor cannot be used by anyone other than the user to which it is assigned.
 
 ###### APPLICABILITY NOTES
 
@@ -6634,17 +6805,21 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+8.3.11.a Examine authentication policies and procedures to verify that procedures for using authentication factors such as physical security tokens, smart cards, and certificates are defined and include all elements specified in this requirement.
 
+8.3.11.b Interview security personnel to verify authentication factors are assigned to an individual user and not shared among multiple users.
+
+8.3.11.c Examine system configuration settings and/or observe physical controls, as applicable, to verify that controls are implemented to ensure only the intended user can use that factor to gain access.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+If multiple users can use authentication factors such as tokens, smart cards, and certificates, it may be impossible to identify the individual using the authentication mechanism.
 
 **Good Practice**
 
-
+Having physical and/or logical controls (for example, a PIN, biometric data, or a password) to uniquely authenticate the user of the account will prevent unauthorized users from gaining access to the user account through use of a shared authentication factor.
 
 **Definitions**
 
@@ -6663,31 +6838,35 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 8.4
 
-
+8.4 Multi-factor authentication (MFA) is implemented to secure access into the CDE.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.4.1 MFA is implemented for all non-console access into the CDE for personnel with administrative access.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Administrative access to the CDE cannot be obtained by the use of a single authentication factor.
 
 ###### APPLICABILITY NOTES
 
+The requirement for MFA for non-console administrative access applies to all personnel with elevated or increased privileges accessing the CDE via a non-console connection—that is, via logical access occurring over a network interface rather than via a direct, physical connection.
 
+MFA is considered a best practice for non-console administrative access to in-scope system components that are not part of the CDE.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+8.4.1.a Examine network and/or system configurations to verify MFA is required for all non-console into the CDE for personnel with administrative access.
 
+8.4.1.b Observe administrator personnel logging into the CDE and verify that MFA is required.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Requiring more than one type of authentication factor reduces the probability that an attacker can gain access to a system by masquerading as a legitimate user, because the attacker would need to compromise multiple authentication factors. This is especially true in environments where traditionally the single authentication factor employed was something a user knows such as a password or passphrase.
 
 **Good Practice**
 
@@ -6695,7 +6874,7 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 **Definitions**
 
-
+Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
 
 **Examples**
 
@@ -6710,31 +6889,37 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.4.2 MFA is implemented for all access into the CDE.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Access into the CDE cannot be obtained by the use of a single authentication factor.
 
 ###### APPLICABILITY NOTES
 
+This requirement does not apply to:
+• Application or system accounts performing automated functions.
+• User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
 
+MFA is required for both types of access specified in Requirements 8.4.2 and 8.4.3. Therefore, applying MFA to one type of access does not replace the need to apply another instance of MFA to the other type of access. If an individual first connects to the entity’s network via remote access, and then later initiates a connection into the CDE from within the network, per this requirement the individual would authenticate using MFA twice, once when connecting via remote access to the entity’s network and once when connecting via non-console administrative access from the entity’s network into the CDE.
+
+The MFA requirements apply for all types of system components, including cloud, hosted systems, and on-premises applications, network security devices, workstations, servers, and endpoints, and includes access directly to an entity’s networks or systems as well as web-based access to an application or function.
+MFA for remote access into the CDE can be implemented at the network or system/application level; it does not have to be applied at both levels. For example, if MFA is used when a user connects to the CDE network, it does not have to be used when the user logs into each system or application within the CDE.
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+8.4.2.a Examine network and/or system configurations to verify MFA is implemented for all access into the CDE.
 
+8.4.2.b Observe personnel logging in to the CDE and examine evidence to verify that MFA is required.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Requiring more than one type of authentication factor reduces the probability that an attacker can gain access to a system by masquerading as a legitimate user, because the attacker would need to compromise multiple authentication factors. This is especially true in environments where traditionally the single authentication factor employed was something a user knows such as a password or passphrase.
 
 **Good Practice**
 
@@ -6742,148 +6927,7 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 **Definitions**
 
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
+Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
 
 **Examples**
 
