@@ -4018,11 +4018,11 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [6.2 Bespoke and custom software are developed securely.](#requirements-and-testing-procedures-62)
 
-[6.3 Security vulnerabilities are identified and addressed.]()
+[6.3 Security vulnerabilities are identified and addressed.](#requirements-and-testing-procedures-63)
 
-[6.4 Public-facing web applications are protected against attacks.]()
+[6.4 Public-facing web applications are protected against attacks.](#requirements-and-testing-procedures-64)
 
-[6.5 Changes to all system components are managed securely.]()
+[6.5 Changes to all system components are managed securely.](#requirements-and-testing-procedures-65)
 
 [requirement 6](#requirement-6-develop-and-maintain-secure-systems-and-software) | 
 [requirements](#requirements) | 
@@ -4232,18 +4232,299 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+6.2.3 Bespoke and custom software is reviewed prior to being released into production or to customers, to identify and correct potential coding vulnerabilities, as follows:
+• Code reviews ensure code is developed according to secure coding guidelines.
+• Code reviews look for both existing and emerging software vulnerabilities.
+• Appropriate corrections are implemented prior to release.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
+Bespoke and custom software cannot be exploited via coding vulnerabilities.
 
+###### APPLICABILITY NOTES
+
+This requirement for code reviews applies to all bespoke and custom software (both internal and public-facing), as part of the system development lifecycle.
+
+Public-facing web applications are also subject to additional controls, to address ongoing threats and vulnerabilities after implementation, as defined at PCI DSS Requirement 6.4.
+
+Code reviews may be performed using either manual or automated processes, or a combination of both.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.2.3.a Examine documented software development procedures and interview responsible personnel to verify that processes are defined that require all bespoke and custom software to be reviewed in accordance with all elements specified in this requirement.
+
+6.2.3.b Examine evidence of changes to bespoke and custom software to verify that the code changes were reviewed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Security vulnerabilities in bespoke and custom software are commonly exploited by malicious individuals to gain access to a network and compromise account data.
+
+Vulnerable code is far more difficult and expensive to address after it has been deployed or released into production environments. Requiring a formal review and signoff by management prior to release helps to ensure that code is approved and has been developed in accordance with policies and procedures.
+
+**Good Practice**
+
+The following items should be considered for inclusion in code reviews:
+• Searching for undocumented features (implant tools, backdoors).
+• Confirming that software securely uses external components’ functions (libraries, frameworks, APIs, etc.). For example, if a third-party library providing cryptographic functions is used, verify that it was integrated securely.
+• Checking for correct use of logging to prevent sensitive data from getting into logs.
+• Analysis of insecure code structures that may contain potential vulnerabilities related to common software attacks identified in Requirements 6.2.5.
+• Checking the application’s behavior to detect logical vulnerabilities.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.2.3.1 If manual code reviews are performed for bespoke and custom software prior to release to production, code changes are:
+• Reviewed by individuals other than the originating code author, and who are knowledgeable about code-review techniques and secure coding practices.
+• Reviewed and approved by management prior to release.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The manual code review process cannot be bypassed and is effective at discovering security vulnerabilities.
+
+###### APPLICABILITY NOTES
+
+Manual code reviews can be conducted by knowledgeable internal personnel or knowledgeable third-party personnel.
+
+An individual that has been formally granted accountability for release control and who is neither the original code author nor the code reviewer fulfills the criteria of being management.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.2.3.1.a If manual code reviews are performed for bespoke and custom software prior to release to production, examine documented software development procedures and interview responsible personnel to verify that processes are defined for manual code reviews to be conducted in accordance with all elements specified in this requirement.
+
+6.2.3.1.b Examine evidence of changes to bespoke and custom software and interview personnel to verify that manual code reviews were conducted in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Having code reviewed by someone other than the original author, who is both experienced in code reviews and knowledgeable about secure coding practices, minimizes the possibility that code containing security or logic errors that could affect the security of cardholder data is released into a production environment. Requiring management approval that the code was reviewed limits the ability for the process to be bypassed.
+
+**Good Practice**
+
+Having a formal review methodology and review checklists has been found to improve the quality of the code review process.
+
+Code review is a tiring process, and for this reason, it is most effective when reviewers only review small amounts of code at a time.
+
+To maintain the effectiveness of code reviews, it is beneficial to monitor the general workload of reviewers and to have them review applications they are familiar with.
+
+Code reviews may be performed using either manual or automated processes, or a combination of both.
+
+Entitles that rely solely on manual code review should ensure that reviewers maintain their skills through regular training as new vulnerabilities are found, and new secure coding methods are recommended.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+See the OWASP Code Review Guide.
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.2.4 Software engineering techniques or other methods are defined and in use by software development personnel to prevent or mitigate common software attacks and related vulnerabilities in bespoke and custom software, including but not limited to the following:
+• Injection attacks, including SQL, LDAP, XPath, or other command, parameter, object, fault, or injection-type flaws.
+• Attacks on data and data structures, including attempts to manipulate buffers, pointers, input data, or shared data.
+• Attacks on cryptography usage, including attempts to exploit weak, insecure, or inappropriate cryptographic implementations, algorithms, cipher suites, or modes of operation.
+• Attacks on business logic, including attempts to abuse or bypass application features and functionalities through the manipulation of APIs, communication protocols and channels, client-side functionality, or other system/application functions and resources. This includes cross-site scripting (XSS) and cross-site request forgery (CSRF).
+• Attacks on access control mechanisms, including attempts to bypass or abuse identification, authentication, or authorization mechanisms, or attempts to exploit weaknesses in the implementation of such mechanisms.
+• Attacks via any “high-risk” vulnerabilities identified in the vulnerability identification process, as defined in Requirement 6.3.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Bespoke and custom software cannot be exploited via common attacks and related vulnerabilities.
+
+###### APPLICABILITY NOTES
+
+This applies to all software developed for or by the entity for the entity’s own use. This includes both bespoke and custom software. This does not apply to third-party software.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.2.4 Examine documented procedures and interview responsible software development personnel to verify that software engineering techniques or other methods are defined and in use by developers of bespoke and custom software to prevent or mitigate all common software attacks as specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Detecting or preventing common errors that result in vulnerable code as early as possible in the software development process lowers the probability that such errors make it through to production and lead to a compromise. Having formal engineering techniques and tools embedded in the development process will catch these errors early. This philosophy is sometimes called “shifting security left.”
+
+**Good Practice**
+
+For both bespoke and custom software, the entity must ensure that code is developed focusing on the prevention or mitigation of common software attacks, including:
+• Attempts to exploit common coding vulnerabilities (bugs).
+• Attempts to exploit software design flaws.
+• Attempts to exploit implementation/configuration flaws.
+• Enumeration attacks – automated attacks that are actively exploited in payments and abuse identification, authentication, or authorization mechanisms. See the PCI Perspectives blog article “Beware of Account Testing Attacks.”
+
+Researching and documenting software engineering techniques or other methods helps to define how software developers prevent or mitigate various software attacks by features or countermeasures they build into software. This might include identification/authentication mechanisms, access control, input validation routines, etc. Developers should be familiar with different types of vulnerabilities and potential attacks and use measures to avoid potential attack vectors when developing code.
+
+**Definitions**
+
+
+
+**Examples**
+
+Techniques include automated processes and practices that scan code early in the development cycle when code is checked in to confirm the vulnerabilities are not present.
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 6.3
+
+6.3 Security vulnerabilities are identified and addressed.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.3.1 Security vulnerabilities are identified and managed as follows:
+• New security vulnerabilities are identified using industry-recognized sources for security vulnerability information, including alerts from international and national computer emergency response teams (CERTs).
+• Vulnerabilities are assigned a risk ranking based on industry best practices and consideration of potential impact.
+• Risk rankings identify, at a minimum, all vulnerabilities considered to be a high-risk or critical to the environment.
+• Vulnerabilities for bespoke and custom, and third-party software (for example operating systems and databases) are covered.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+New system and software vulnerabilities that may impact the security of account data or the CDE are monitored, cataloged, and risk assessed.
+
+###### APPLICABILITY NOTES
+
+This requirement is not achieved by, nor is it the same as, vulnerability scans performed for Requirements 11.3.1 and 11.3.2. This requirement is for a process to actively monitor industry sources for vulnerability information and for the entity to determine the risk ranking to be associated with each vulnerability.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.3.1.a Examine policies and procedures for identifying and managing security vulnerabilities to verify that processes are defined in accordance with all elements specified in this requirement.
+
+6.3.1.b Interview responsible personnel, examine documentation, and observe processes to verify that security vulnerabilities are identified and managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Classifying the risks (for example, as critical, high, medium, or low) allows organizations to identify, prioritize, and address the highest risk items more quickly and reduce the likelihood that vulnerabilities posing the greatest risk will be exploited.
+
+**Good Practice**
+
+Methods for evaluating vulnerabilities and assigning risk ratings will vary based on an organization’s environment and risk-assessment strategy.
+
+When an entity is assigning its risk rankings, it should consider using a formal, objective, justifiable methodology that accurately portrays the risks of the vulnerabilities pertinent to the organization and translates to an appropriate entity-assigned priority for resolution.
+
+An organization’s processes for managing vulnerabilities should be integrated with other management processes—for example, risk management, change management, patch management, incident response, application security, as well as proper monitoring and logging of these processes. This will help to ensure all vulnerabilities are properly identified and addressed. Processes should support ongoing evaluation of vulnerabilities. For example, a vulnerability initially identified as low risk could become a higher risk later. Additionally, vulnerabilities, individually considered to be low or medium risk, could collectively pose a high or critical risk if present on the same system, or if exploited on a low-risk system that could result in access to the CDE.
+
+**Definitions**
+
+
+
+**Examples**
+
+Some organizations that issue alerts to advise entities about urgent vulnerabilities requiring immediate patches/updates are national Computer Emergency Readiness/Response Teams (CERTs) and vendors.
+
+Criteria for ranking vulnerabilities may include criticality of a vulnerability identified in an alert from Forum of Incident Response and Security Teams (FIRST) or a CERT, consideration of the CVSS score, the classification by the vendor, and/or type of systems affected.
+
+**Further Information**
+
+Trustworthy sources for vulnerability information include vendor websites, industry newsgroups, mailing lists, etc. If software is developed in-house, the internal development team should also consider sources of information about new vulnerabilities that may affect internally developed applications. Other methods to ensure new vulnerabilities are identified include solutions that automatically recognize and alert upon detection of unusual behavior. Processes should account for widely published exploits as well as “zero-day” attacks, which target previously unknown vulnerabilities.
+
+For bespoke and custom software, the organization may obtain information about libraries, frameworks, compilers, programming languages, etc. from public trusted sources (for example, special resources and resources from component developers). The organization may also independently analyze third-party components and identify vulnerabilities.
+
+For control over in-house developed software, the organization may receive such information from external sources. The organization can consider using a “bug bounty” program where it posts information (for example, on its website) so third parties can contact the organization with vulnerability information. External sources may include independent investigators or companies that report to the organization about identified vulnerabilities and may include sources such as the Common Vulnerability Scoring System (CVSS) or the OWASP Risk Rating Methodology.
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.3.2 An inventory of bespoke and custom software, and third-party software components incorporated into bespoke and custom software is maintained to facilitate vulnerability and patch management.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Known vulnerabilities in third-party software components cannot be exploited in bespoke and custom software.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.3.2.a Examine documentation and interview personnel to verify that an inventory of bespoke and custom software and third-party software components incorporated into bespoke and custom software is maintained, and that the inventory is used to identify and address vulnerabilities.
+
+6.3.2.b Examine software documentation, including for bespoke and custom software that integrates third-party software components, and compare it to the inventory to verify that the inventory includes the bespoke and custom software and third-party software components.
+
+##### GUIDANCE
+
+**Purpose**
+
+Identifying and listing all the entity’s bespoke and custom software, and any third-party software that is incorporated into the entity’s bespoke and custom software enables the entity to manage vulnerabilities and patches.
+
+Vulnerabilities in third-party components (including libraries, APIs, etc.) embedded in an entity’s software also renders those applications vulnerable to attacks. Knowing which third-party components are used in the entity’s software and monitoring the availability of security patches to address known vulnerabilities is critical to ensuring the security of the software.
+
+**Good Practice**
+
+An entity’s inventory should cover all payment software components and dependencies, including supported execution platforms or environments, third-party libraries, services, and other required functionalities.
+
+There are many different types of solutions that can help with managing software inventories, such as software composition analysis tools, application discovery tools, and mobile device management.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.3.3 All system components are protected from known vulnerabilities by installing applicable security patches/updates as follows:
+• Critical or high-security patches/updates (identified according to the risk ranking process at Requirement 6.3.1) are installed within one month of release.
+• All other applicable security patches/updates are installed within an appropriate time frame as determined by the entity (for example, within three months of release).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+System components cannot be compromised via the exploitation of a known vulnerability.
 
 ###### APPLICABILITY NOTES
 
@@ -4251,13 +4532,406 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+6.3.3.a Examine policies and procedures to verify processes are defined for addressing vulnerabilities by installing applicable security patches/updates in accordance with all elements specified in this requirement.
 
+6.3.3.b Examine system components and related software and compare the list of installed security patches/updates to the most recent security patch/update information to verify vulnerabilities are addressed in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
+New exploits are constantly being discovered, and these can permit attacks against systems that have previously been considered secure. If the most recent security patches/updates are not implemented on critical systems as soon as possible, a malicious actor can use these exploits to attack or disable a system or gain access to sensitive data.
 
+**Good Practice**
+
+Prioritizing security patches/updates for critical infrastructure ensures that high-priority systems and devices are protected from vulnerabilities as soon as possible after a patch is released.
+
+An entity’s patching cadence should factor in any re-evaluation of vulnerabilities and subsequent changes in the criticality of a vulnerability per Requirement 6.3.1. For example, a vulnerability initially identified as low risk could become a higher risk later. Additionally, vulnerabilities individually considered to be low or medium risk could collectively pose a high or critical risk if present on the same system, or if exploited on a low-risk system that could result in access to the CDE.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 6.4
+
+6.4 Public-facing web applications are protected against attacks.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.4.1 For public-facing web applications, new threats and vulnerabilities are addressed on an ongoing basis and these applications are protected against known attacks as follows:
+• Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods as follows:
+– At least once every 12 months and after significant changes.
+– By an entity that specializes in application security.
+– Including, at a minimum, all common software attacks in Requirement 6.2.4.
+– All vulnerabilities are ranked in accordance with requirement 6.3.1.
+– All vulnerabilities are corrected.
+– The application is re-evaluated after the corrections
+
+**OR**
+
+• Installing an automated technical solution(s) that continually detects and prevents web-based attacks as follows:
+– Installed in front of public-facing web applications to detect and prevent web-based attacks.
+– Actively running and up to date as applicable.
+– Generating audit logs.
+– Configured to either block web-based attacks or generate an alert that is immediately investigated.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Public-facing web applications are protected against malicious attacks.
+
+###### APPLICABILITY NOTES
+
+This assessment is not the same as the vulnerability scans performed for Requirement 11.3.1 and 11.3.2.
+This requirement will be superseded by Requirement 6.4.2 after 31 March 2025 when Requirement 6.4.2 becomes effective.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.4.1 For public-facing web applications, ensure that either one of the required methods is in place as follows:
+• If manual or automated vulnerability security assessment tools or methods are in use, examine documented processes, interview personnel, and examine records of application security assessments to verify that public-facing web applications are reviewed in accordance with all elements of this requirement specific to the tool/method.
+
+**OR**
+
+• If an automated technical solution(s) is installed that continually detects and prevents web-based attacks, examine the system configuration settings and audit logs, and interview responsible personnel to verify that the automated technical solution(s) is installed in accordance with all elements of this requirement specific to the solution(s).
+
+##### GUIDANCE
+
+**Purpose**
+
+Public-facing web applications are those that are available to the public (not only for internal use). These applications are primary targets for attackers, and poorly coded web applications provide an easy path for attackers to gain access to sensitive data and systems.
+
+**Good Practice**
+
+Manual or automated vulnerability security assessment tools or methods review and/or test the application for vulnerabilities.
+Common assessment tools include specialized web scanners that perform automatic analysis of web application protection.
+
+When using automated technical solutions, it is important to include processes that facilitate timely responses to alerts generated by the solutions so that any detected attacks can be mitigated.
+
+**Definitions**
+
+
+
+**Examples**
+
+A web application firewall (WAF) installed in front of public-facing web applications to check all traffic is an example of an automated technical solution that detects and prevents web-based attacks (for example, the attacks included in Requirement 6.2.4). WAFs filter and block non-essential traffic at the application layer. A properly configured WAF helps to prevent application-layer attacks on applications that are improperly coded or configured.
+
+Another example of an automated technical solution is Runtime Application Self-Protection (RASP) technologies. When implemented correctly, RASP solutions can detect and block anomalous behavior by the software during execution. While WAFs typically monitor the application perimeter, RASP solutions monitor and block behavior within the application.
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.4.2 For public-facing web applications, an automated technical solution is deployed that continually detects and prevents web-based attacks, with at least the following:
+• Is installed in front of public-facing web applications and is configured to detect and prevent web-based attacks.
+• Actively running and up to date as applicable.
+• Generating audit logs.
+• Configured to either block web-based attacks or generate an alert that is immediately investigated.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Public-facing web applications are protected in real time against malicious attacks.
+
+###### APPLICABILITY NOTES
+
+This new requirement will replace Requirement 6.4.1 once its effective date is reached.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.4.2 For public-facing web applications, examine the system configuration settings and audit logs, and interview responsible personnel to verify that an automated technical solution that detects and prevents web-based attacks is in place in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Public-facing web applications are primary targets for attackers, and poorly coded web applications provide an easy path for attackers to gain access to sensitive data and systems.
+
+**Good Practice**
+
+When using automated technical solutions, it is important to include processes that facilitate timely responses to alerts generated by the solutions so that any detected attacks can be mitigated. Such solutions may also be used to automate mitigation, for example rate-limiting controls, which can be implemented to mitigate against brute-force attacks and enumeration attacks.
+
+**Definitions**
+
+
+
+**Examples**
+
+A web application firewall (WAF), which can be either on-premise or cloud-based, installed in front of public-facing web applications to check all traffic, is an example of an automated technical solution that detects and prevents web-based attacks (for example, the attacks included in Requirement 6.2.4). WAFs filter and block non-essential traffic at the application layer. A properly configured WAF helps to prevent application-layer attacks on applications that are improperly coded or configured.
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.4.3 All payment page scripts that are loaded and executed in the consumer’s browser are managed as follows:
+• A method is implemented to confirm that each script is authorized.
+• A method is implemented to assure the integrity of each script.
+• An inventory of all scripts is maintained with written justification as to why each is necessary.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Unauthorized code cannot be present in the payment page as it is rendered in the consumer’s browser.
+
+###### APPLICABILITY NOTES
+
+This requirement applies to all scripts loaded from the entity’s environment and scripts loaded from third and fourth parties.
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.4.3.a Examine policies and procedures to verify that processes are defined for managing all payment page scripts that are loaded and executed in the consumer’s browser, in accordance with all elements specified in this requirement.
+
+6.4.3.b Interview responsible personnel and examine inventory records and system configurations to verify that all payment page scripts that are loaded and executed in the consumer’s browser are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Scripts loaded and executed in the payment page can have their functionality altered without the entity’s knowledge and can also have the functionality to load additional external scripts (for example, advertising and tracking, tag management systems).
+
+Such seemingly harmless scripts can be used by potential attackers to upload malicious scripts that can read and exfiltrate cardholder data from the consumer browser.
+
+Ensuring that the functionality of all such scripts is understood to be necessary for the operation of the payment page minimizes the number of scripts that could be tampered with.
+
+Ensuring that scripts have been explicitly authorized reduces the probability of unnecessary scripts being added to the payment page without appropriate management approval.
+
+Using techniques to prevent tampering with the script will minimize the probability of the script being modified to carry out unauthorized behavior, such as skimming the cardholder data from the payment page.
+
+**Good Practice**
+
+Scripts may be authorized by manual or automated (e.g., workflow) processes.
+Where the payment page will be loaded into an inline frame (IFRAME), restricting the location that the payment page can be loaded from, using the parent page’s Content Security Policy (CSP) can help prevent unauthorized content being substituted for the payment page.
+
+**Definitions**
+
+“Necessary” for this requirement means that the entity’s review of each script justifies and confirms why it is needed for the functionality of the payment page to accept a payment transaction.
+
+**Examples**
+
+The integrity of scripts can be enforced by several different mechanisms including, but not limited to:
+• Sub-resource integrity (SRI), which allows the consumer browser to validate that a script has not been tampered with.
+• A CSP, which limits the locations the consumer browser can load a script from and transmit account data to.
+• Proprietary script or tag-management systems, which can prevent malicious script execution.
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 6.5
+
+6.5 Changes to all system components are managed securely.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.5.1 Changes to all system components in the production environment are made according to established procedures that include:
+• Reason for, and description of, the change.
+• Documentation of security impact.
+• Documented change approval by authorized parties.
+• Testing to verify that the change does not adversely impact system security.
+• For bespoke and custom software changes, all updates are tested for compliance with Requirement 6.2.4 before being deployed into production.
+• Procedures to address failures and return to a secure state.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+All changes are tracked, authorized, and evaluated for impact and security, and changes are managed to avoid unintended effects to the security of system components.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.5.1.a Examine documented change control procedures to verify procedures are defined for changes to all system components in the production environment to include all elements specified in this requirement.
+
+6.5.1.b Examine recent changes to system components and trace those changes back to related change control documentation. For each change examined, verify the change is implemented in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Change management procedures must be applied to all changes—including the addition, removal, or modification of any system component—in the production environment. It is important to document the reason for a change and the change description so that relevant parties understand and agree the change is needed. Likewise, documenting the impacts of the change allows all affected parties to plan appropriately for any processing changes.
+
+**Good Practice**
+
+Approval by authorized parties confirms that the change is legitimate and that the change is sanctioned by the organization. Changes should be approved by individuals with the appropriate authority and knowledge to understand the impact of the change.
+
+Thorough testing by the entity confirms that the security of the environment is not reduced by implementing a change and that all existing security controls either remain in place or are replaced with equal or stronger security controls after the change. The specific testing to be performed will vary according to the type of change and system component(s) affected.
+
+For each change, it is important to have documented procedures that address any failures and provide instructions on how to return to a secure state in case the change fails or adversely affects the security of an application or system. These procedures will allow the application or system to be restored to its previous secure state.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.5.2 Upon completion of a significant change, all applicable PCI DSS requirements are confirmed to be in place on all new or changed systems and networks, and documentation is updated as applicable.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+All system components are verified after a significant change to be compliant with the applicable PCI DSS requirements.
+
+###### APPLICABILITY NOTES
+
+These significant changes should also be captured and reflected in the entity’s annual PCI DSS scope confirmation activity per Requirement 12.5.2.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.5.2 Examine documentation for significant changes, interview personnel, and observe the affected systems/networks to verify that the entity confirmed applicable PCI DSS requirements were in place on all new or changed systems and networks and that documentation was updated as applicable.
+
+##### GUIDANCE
+
+**Purpose**
+
+Having processes to analyze significant changes helps ensure that all appropriate PCI DSS controls are applied to any systems or networks added or changed within the in-scope environment, and that PCI DSS requirements continue to be met to secure the environment.
+
+**Good Practice**
+
+Building this validation into change management processes helps ensure that device inventories and configuration standards are kept up to date and security controls are applied where needed.
+
+**Definitions**
+
+
+
+**Examples**
+
+Applicable PCI DSS requirements that could be impacted include, but are not limited to:
+• Network and data-flow diagrams are updated to reflect changes.
+• Systems are configured per configuration standards, with all default passwords changed and unnecessary services disabled.
+• Systems are protected with required controls—for example, file integrity monitoring (FIM), anti-malware, patches, and audit logging.
+• Sensitive authentication data is not stored, and all account data storage is documented and incorporated into data retention policy and procedures.
+• New systems are included in the quarterly vulnerability scanning process.
+• Systems are scanned for internal and external vulnerabilities after significant changes per Requirements 11.3.1.3 and 11.3.2.1.
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.5.3 Pre-production environments are separated from production environments and the separation is enforced with access controls.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Pre-production environments cannot introduce risks and vulnerabilities into production environments.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.5.3.a Examine policies and procedures to verify that processes are defined for separating the pre-production environment from the production environment via access controls that enforce the separation.
+
+6.5.3.b Examine network documentation and configurations of network security controls to verify that the pre-production environment is separate from the production environment(s).
+
+6.5.3.c Examine access control settings to verify that access controls are in place to enforce separation between the pre-production and production environment(s).
+
+##### GUIDANCE
+
+**Purpose**
+
+Due to the constantly changing state of pre-production environments, they are often less secure than the production environment.
+
+**Good Practice**
+
+Organizations must clearly understand which environments are test environments or development environments and how these environments interact on the level of networks and applications.
+
+**Definitions**
+
+Pre-production environments include development, testing, user acceptance testing (UAT), etc. Even where production infrastructure is used to facilitate testing or development, production environments still need to be separated (logically or physically) from pre-production functionality such that vulnerabilities introduced as a result of pre-production activities do not adversely affect production systems.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.5.4 Roles and functions are separated between production and pre-production environments to provide accountability such that only reviewed and approved changes are deployed.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Job roles and accountability that differentiate between pre-production and production activities are defined and managed to minimize the risk of unauthorized, unintentional, or inappropriate actions.
+
+###### APPLICABILITY NOTES
+
+In environments with limited personnel where individuals perform multiple roles or functions, this same goal can be achieved with additional procedural controls that provide accountability. For example, a developer may also be an administrator that uses an administrator-level account with elevated privileges in the development environment and, for their developer role, they use a separate account with user-level access to the production environment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.5.4.a Examine policies and procedures to verify that processes are defined for separating roles and functions to provide accountability such that only reviewed and approved changes are deployed.
+
+6.5.4.b Observe processes and interview personnel to verify implemented controls separate roles and functions and provide accountability such that only reviewed and approved changes are deployed.
+
+##### GUIDANCE
+
+**Purpose**
+
+The goal of separating roles and functions between production and pre-production environments is to reduce the number of personnel with access to the production environment and account data and thereby minimize risk of unauthorized, unintentional, or inappropriate access to data and system components and help ensure that access is limited to those individuals with a business need for such access.
+
+The intent of this control is to separate critical activities to provide oversight and review to catch errors and minimize the chances of fraud or theft (since two people would need to collude in order to hide an activity).
+
+Separating roles and functions, also referred to as separation or segregation of duties, is a key internal control concept to protect an entity’s assets.
 
 **Good Practice**
 
@@ -4275,7 +4949,56 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 
 
-[sections 5](#sections-5) | 
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.5.5 Live PANs are not used in pre-production environments, except where those environments are included in the CDE and protected in accordance with all applicable PCI DSS requirements.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Live PANs cannot be present in pre-production environments outside the CDE.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.5.5.a Examine policies and procedures to verify that processes are defined for not using live PANs in pre-production environments, except where those environments are in a CDE and protected in accordance with all applicable PCI DSS requirements.
+
+6.5.5.b Observe testing processes and interview personnel to verify procedures are in place to ensure live PANs are not used in pre-production environments, except where those environments are in a CDE and protected in accordance with all applicable PCI DSS requirements.
+
+6.5.5.c Examine pre-production test data to verify live PANs are not used in pre-production environments, except where those environments are in a CDE and protected in accordance with all applicable PCI DSS requirements.
+
+##### GUIDANCE
+
+**Purpose**
+
+Use of live PANs outside of protected CDEs provides malicious individuals with the opportunity to gain unauthorized access to cardholder data.
+
+**Good Practice**
+
+Entities can minimize their storage of live PANs by only storing them in pre-production when strictly necessary for a specific and defined testing purpose and securely deleting that data after use.
+
+If an entity requires PANs specifically designed for test purposes, these can be obtained from acquirers.
+
+**Definitions**
+
+Live PANs refer to valid PANs (not test PANs) that have the potential to be used to conduct payment transactions. Additionally, when payment cards expire, the same PAN is often reused with a different expiry date. All PANs must be verified as being unable to conduct payment transactions before they are excluded from PCI DSS scope. It is the responsibility of the entity to confirm that PANs are not live.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4323,7 +5046,7 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 
 
-[sections 5](#sections-5) | 
+[sections 6](#sections-6) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4371,7 +5094,7 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 
 
-[sections 5](#sections-5) | 
+[sections 6](#sections-6) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4419,7 +5142,7 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 
 
-[sections 5](#sections-5) | 
+[sections 6](#sections-6) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4467,105 +5190,7 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 
 
-[sections 5](#sections-5) | 
+[sections 6](#sections-6) | 
 [top](#pci-dss-v40)
 
 ---
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 5](#sections-5) | 
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 5](#sections-5) | 
-[top](#pci-dss-v40)
-
----
-
-
