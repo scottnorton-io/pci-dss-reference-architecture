@@ -3800,9 +3800,9 @@ Entities can determine the optimum period to undertake periodic scans based on t
 ###### DEFINED APPROACH REQUIREMENTS
 
 5.3.3 For removable electronic media, the anti-malware solution(s):
-• Performs automatic scans of when the media is inserted, connected, or logically mounted,
+- Performs automatic scans of when the media is inserted, connected, or logically mounted,
 OR
-• Performs continuous behavioral analysis of systems or processes when the media is inserted, connected, or logically mounted.
+- Performs continuous behavioral analysis of systems or processes when the media is inserted, connected, or logically mounted.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4036,10 +4036,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.1.1 All security policies and operational procedures that are identified in Requirement 6 are:
-• Documented.
-• Kept up to date.
-• In use.
-• Known to all affected parties.
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4135,9 +4135,9 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.1 Bespoke and custom software are developed securely, as follows:
-• Based on industry standards and/or best practices for secure development.
-• In accordance with PCI DSS (for example, secure authentication and logging).
-• Incorporating consideration of information security issues during each stage of the software development lifecycle.
+- Based on industry standards and/or best practices for secure development.
+- In accordance with PCI DSS (for example, secure authentication and logging).
+- Incorporating consideration of information security issues during each stage of the software development lifecycle.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4183,9 +4183,9 @@ Secure software lifecycle management methodologies and frameworks include PCI So
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.2 Software development personnel working on bespoke and custom software are trained at least once every 12 months as follows:
-• On software security relevant to their job function and development languages.
-• Including secure software design and secure coding techniques.
-• Including, if security testing tools are used, how to use the tools for detecting vulnerabilities in software.
+- On software security relevant to their job function and development languages.
+- Including secure software design and secure coding techniques.
+- Including, if security testing tools are used, how to use the tools for detecting vulnerabilities in software.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4235,9 +4235,9 @@ As industry-accepted secure coding practices change, organizational coding pract
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.3 Bespoke and custom software is reviewed prior to being released into production or to customers, to identify and correct potential coding vulnerabilities, as follows:
-• Code reviews ensure code is developed according to secure coding guidelines.
-• Code reviews look for both existing and emerging software vulnerabilities.
-• Appropriate corrections are implemented prior to release.
+- Code reviews ensure code is developed according to secure coding guidelines.
+- Code reviews look for both existing and emerging software vulnerabilities.
+- Appropriate corrections are implemented prior to release.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4268,11 +4268,11 @@ Vulnerable code is far more difficult and expensive to address after it has been
 **Good Practice**
 
 The following items should be considered for inclusion in code reviews:
-• Searching for undocumented features (implant tools, backdoors).
-• Confirming that software securely uses external components’ functions (libraries, frameworks, APIs, etc.). For example, if a third-party library providing cryptographic functions is used, verify that it was integrated securely.
-• Checking for correct use of logging to prevent sensitive data from getting into logs.
-• Analysis of insecure code structures that may contain potential vulnerabilities related to common software attacks identified in Requirements 6.2.5.
-• Checking the application’s behavior to detect logical vulnerabilities.
+- Searching for undocumented features (implant tools, backdoors).
+- Confirming that software securely uses external components’ functions (libraries, frameworks, APIs, etc.). For example, if a third-party library providing cryptographic functions is used, verify that it was integrated securely.
+- Checking for correct use of logging to prevent sensitive data from getting into logs.
+- Analysis of insecure code structures that may contain potential vulnerabilities related to common software attacks identified in Requirements 6.2.5.
+- Checking the application’s behavior to detect logical vulnerabilities.
 
 **Definitions**
 
@@ -4294,8 +4294,8 @@ The following items should be considered for inclusion in code reviews:
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.3.1 If manual code reviews are performed for bespoke and custom software prior to release to production, code changes are:
-• Reviewed by individuals other than the originating code author, and who are knowledgeable about code-review techniques and secure coding practices.
-• Reviewed and approved by management prior to release.
+- Reviewed by individuals other than the originating code author, and who are knowledgeable about code-review techniques and secure coding practices.
+- Reviewed and approved by management prior to release.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4351,12 +4351,12 @@ See the OWASP Code Review Guide.
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.4 Software engineering techniques or other methods are defined and in use by software development personnel to prevent or mitigate common software attacks and related vulnerabilities in bespoke and custom software, including but not limited to the following:
-• Injection attacks, including SQL, LDAP, XPath, or other command, parameter, object, fault, or injection-type flaws.
-• Attacks on data and data structures, including attempts to manipulate buffers, pointers, input data, or shared data.
-• Attacks on cryptography usage, including attempts to exploit weak, insecure, or inappropriate cryptographic implementations, algorithms, cipher suites, or modes of operation.
-• Attacks on business logic, including attempts to abuse or bypass application features and functionalities through the manipulation of APIs, communication protocols and channels, client-side functionality, or other system/application functions and resources. This includes cross-site scripting (XSS) and cross-site request forgery (CSRF).
-• Attacks on access control mechanisms, including attempts to bypass or abuse identification, authentication, or authorization mechanisms, or attempts to exploit weaknesses in the implementation of such mechanisms.
-• Attacks via any “high-risk” vulnerabilities identified in the vulnerability identification process, as defined in Requirement 6.3.1.
+- Injection attacks, including SQL, LDAP, XPath, or other command, parameter, object, fault, or injection-type flaws.
+- Attacks on data and data structures, including attempts to manipulate buffers, pointers, input data, or shared data.
+- Attacks on cryptography usage, including attempts to exploit weak, insecure, or inappropriate cryptographic implementations, algorithms, cipher suites, or modes of operation.
+- Attacks on business logic, including attempts to abuse or bypass application features and functionalities through the manipulation of APIs, communication protocols and channels, client-side functionality, or other system/application functions and resources. This includes cross-site scripting (XSS) and cross-site request forgery (CSRF).
+- Attacks on access control mechanisms, including attempts to bypass or abuse identification, authentication, or authorization mechanisms, or attempts to exploit weaknesses in the implementation of such mechanisms.
+- Attacks via any “high-risk” vulnerabilities identified in the vulnerability identification process, as defined in Requirement 6.3.1.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4379,10 +4379,10 @@ Detecting or preventing common errors that result in vulnerable code as early as
 **Good Practice**
 
 For both bespoke and custom software, the entity must ensure that code is developed focusing on the prevention or mitigation of common software attacks, including:
-• Attempts to exploit common coding vulnerabilities (bugs).
-• Attempts to exploit software design flaws.
-• Attempts to exploit implementation/configuration flaws.
-• Enumeration attacks – automated attacks that are actively exploited in payments and abuse identification, authentication, or authorization mechanisms. See the PCI Perspectives blog article “Beware of Account Testing Attacks.”
+- Attempts to exploit common coding vulnerabilities (bugs).
+- Attempts to exploit software design flaws.
+- Attempts to exploit implementation/configuration flaws.
+- Enumeration attacks – automated attacks that are actively exploited in payments and abuse identification, authentication, or authorization mechanisms. See the PCI Perspectives blog article “Beware of Account Testing Attacks.”
 
 Researching and documenting software engineering techniques or other methods helps to define how software developers prevent or mitigate various software attacks by features or countermeasures they build into software. This might include identification/authentication mechanisms, access control, input validation routines, etc. Developers should be familiar with different types of vulnerabilities and potential attacks and use measures to avoid potential attack vectors when developing code.
 
@@ -4411,10 +4411,10 @@ Techniques include automated processes and practices that scan code early in the
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.3.1 Security vulnerabilities are identified and managed as follows:
-• New security vulnerabilities are identified using industry-recognized sources for security vulnerability information, including alerts from international and national computer emergency response teams (CERTs).
-• Vulnerabilities are assigned a risk ranking based on industry best practices and consideration of potential impact.
-• Risk rankings identify, at a minimum, all vulnerabilities considered to be a high-risk or critical to the environment.
-• Vulnerabilities for bespoke and custom, and third-party software (for example operating systems and databases) are covered.
+- New security vulnerabilities are identified using industry-recognized sources for security vulnerability information, including alerts from international and national computer emergency response teams (CERTs).
+- Vulnerabilities are assigned a risk ranking based on industry best practices and consideration of potential impact.
+- Risk rankings identify, at a minimum, all vulnerabilities considered to be a high-risk or critical to the environment.
+- Vulnerabilities for bespoke and custom, and third-party software (for example operating systems and databases) are covered.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4519,8 +4519,8 @@ There are many different types of solutions that can help with managing software
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.3.3 All system components are protected from known vulnerabilities by installing applicable security patches/updates as follows:
-• Critical or high-security patches/updates (identified according to the risk ranking process at Requirement 6.3.1) are installed within one month of release.
-• All other applicable security patches/updates are installed within an appropriate time frame as determined by the entity (for example, within three months of release).
+- Critical or high-security patches/updates (identified according to the risk ranking process at Requirement 6.3.1) are installed within one month of release.
+- All other applicable security patches/updates are installed within an appropriate time frame as determined by the entity (for example, within three months of release).
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4573,7 +4573,7 @@ An entity’s patching cadence should factor in any re-evaluation of vulnerabili
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.4.1 For public-facing web applications, new threats and vulnerabilities are addressed on an ongoing basis and these applications are protected against known attacks as follows:
-• Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods as follows:
+- Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods as follows:
 – At least once every 12 months and after significant changes.
 – By an entity that specializes in application security.
 – Including, at a minimum, all common software attacks in Requirement 6.2.4.
@@ -4583,7 +4583,7 @@ An entity’s patching cadence should factor in any re-evaluation of vulnerabili
 
 **OR**
 
-• Installing an automated technical solution(s) that continually detects and prevents web-based attacks as follows:
+- Installing an automated technical solution(s) that continually detects and prevents web-based attacks as follows:
 – Installed in front of public-facing web applications to detect and prevent web-based attacks.
 – Actively running and up to date as applicable.
 – Generating audit logs.
@@ -4601,11 +4601,11 @@ This requirement will be superseded by Requirement 6.4.2 after 31 March 2025 whe
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 6.4.1 For public-facing web applications, ensure that either one of the required methods is in place as follows:
-• If manual or automated vulnerability security assessment tools or methods are in use, examine documented processes, interview personnel, and examine records of application security assessments to verify that public-facing web applications are reviewed in accordance with all elements of this requirement specific to the tool/method.
+- If manual or automated vulnerability security assessment tools or methods are in use, examine documented processes, interview personnel, and examine records of application security assessments to verify that public-facing web applications are reviewed in accordance with all elements of this requirement specific to the tool/method.
 
 **OR**
 
-• If an automated technical solution(s) is installed that continually detects and prevents web-based attacks, examine the system configuration settings and audit logs, and interview responsible personnel to verify that the automated technical solution(s) is installed in accordance with all elements of this requirement specific to the solution(s).
+- If an automated technical solution(s) is installed that continually detects and prevents web-based attacks, examine the system configuration settings and audit logs, and interview responsible personnel to verify that the automated technical solution(s) is installed in accordance with all elements of this requirement specific to the solution(s).
 
 ##### GUIDANCE
 
@@ -4642,10 +4642,10 @@ Another example of an automated technical solution is Runtime Application Self-P
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.4.2 For public-facing web applications, an automated technical solution is deployed that continually detects and prevents web-based attacks, with at least the following:
-• Is installed in front of public-facing web applications and is configured to detect and prevent web-based attacks.
-• Actively running and up to date as applicable.
-• Generating audit logs.
-• Configured to either block web-based attacks or generate an alert that is immediately investigated.
+- Is installed in front of public-facing web applications and is configured to detect and prevent web-based attacks.
+- Actively running and up to date as applicable.
+- Generating audit logs.
+- Configured to either block web-based attacks or generate an alert that is immediately investigated.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4691,9 +4691,9 @@ A web application firewall (WAF), which can be either on-premise or cloud-based,
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.4.3 All payment page scripts that are loaded and executed in the consumer’s browser are managed as follows:
-• A method is implemented to confirm that each script is authorized.
-• A method is implemented to assure the integrity of each script.
-• An inventory of all scripts is maintained with written justification as to why each is necessary.
+- A method is implemented to confirm that each script is authorized.
+- A method is implemented to assure the integrity of each script.
+- An inventory of all scripts is maintained with written justification as to why each is necessary.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4736,9 +4736,9 @@ Where the payment page will be loaded into an inline frame (IFRAME), restricting
 **Examples**
 
 The integrity of scripts can be enforced by several different mechanisms including, but not limited to:
-• Sub-resource integrity (SRI), which allows the consumer browser to validate that a script has not been tampered with.
-• A CSP, which limits the locations the consumer browser can load a script from and transmit account data to.
-• Proprietary script or tag-management systems, which can prevent malicious script execution.
+- Sub-resource integrity (SRI), which allows the consumer browser to validate that a script has not been tampered with.
+- A CSP, which limits the locations the consumer browser can load a script from and transmit account data to.
+- Proprietary script or tag-management systems, which can prevent malicious script execution.
 
 **Further Information**
 
@@ -4757,12 +4757,12 @@ The integrity of scripts can be enforced by several different mechanisms includi
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.5.1 Changes to all system components in the production environment are made according to established procedures that include:
-• Reason for, and description of, the change.
-• Documentation of security impact.
-• Documented change approval by authorized parties.
-• Testing to verify that the change does not adversely impact system security.
-• For bespoke and custom software changes, all updates are tested for compliance with Requirement 6.2.4 before being deployed into production.
-• Procedures to address failures and return to a secure state.
+- Reason for, and description of, the change.
+- Documentation of security impact.
+- Documented change approval by authorized parties.
+- Testing to verify that the change does not adversely impact system security.
+- For bespoke and custom software changes, all updates are tested for compliance with Requirement 6.2.4 before being deployed into production.
+- Procedures to address failures and return to a secure state.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4842,12 +4842,12 @@ Building this validation into change management processes helps ensure that devi
 **Examples**
 
 Applicable PCI DSS requirements that could be impacted include, but are not limited to:
-• Network and data-flow diagrams are updated to reflect changes.
-• Systems are configured per configuration standards, with all default passwords changed and unnecessary services disabled.
-• Systems are protected with required controls—for example, file integrity monitoring (FIM), anti-malware, patches, and audit logging.
-• Sensitive authentication data is not stored, and all account data storage is documented and incorporated into data retention policy and procedures.
-• New systems are included in the quarterly vulnerability scanning process.
-• Systems are scanned for internal and external vulnerabilities after significant changes per Requirements 11.3.1.3 and 11.3.2.1.
+- Network and data-flow diagrams are updated to reflect changes.
+- Systems are configured per configuration standards, with all default passwords changed and unnecessary services disabled.
+- Systems are protected with required controls—for example, file integrity monitoring (FIM), anti-malware, patches, and audit logging.
+- Sensitive authentication data is not stored, and all account data storage is documented and incorporated into data retention policy and procedures.
+- New systems are included in the quarterly vulnerability scanning process.
+- Systems are scanned for internal and external vulnerabilities after significant changes per Requirements 11.3.1.3 and 11.3.2.1.
 
 **Further Information**
 
@@ -5090,10 +5090,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.1.1 All security policies and operational procedures that are identified in Requirement 7 are:
-• Documented.
-• Kept up to date.
-• In use.
-• Known to all affected parties.
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5189,9 +5189,9 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.1 An access control model is defined and includes granting access as follows:
-• Appropriate access depending on the entity’s business and access needs.
-• Access to system components and data resources that is based on users’ job classification and functions.
-• The least privileges required (for example, user, administrator) to perform a job function.
+- Appropriate access depending on the entity’s business and access needs.
+- Access to system components and data resources that is based on users’ job classification and functions.
+- The least privileges required (for example, user, administrator) to perform a job function.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5222,9 +5222,9 @@ In environments where one individual performs multiple functions, such as admini
 **Definitions**
 
 Key elements of an access control model include:
-• Resources to be protected (the systems/devices/data to which access is needed),
-• Job functions that need access to the resource (for example, system administrator, call-center personnel, store clerk), and
-• Which activities each job function needs to perform (for example, read/write or query).
+- Resources to be protected (the systems/devices/data to which access is needed),
+- Job functions that need access to the resource (for example, system administrator, call-center personnel, store clerk), and
+- Which activities each job function needs to perform (for example, read/write or query).
 Once job functions, resources, and activities per job functions are defined, individuals can be granted access accordingly.
 
 **Examples**
@@ -5243,8 +5243,8 @@ Access control models that entities can consider include role-based access contr
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.2 Access is assigned to users, including privileged users, based on:
-• Job classification and function.
-• Least privileges necessary to perform job responsibilities.
+- Job classification and function.
+- Least privileges necessary to perform job responsibilities.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5316,9 +5316,9 @@ Access privileges cannot be granted to users without appropriate, documented aut
 7.2.3.a Examine policies and procedures to verify they define processes for approval of all privileges by authorized personnel.
 
 7.2.3.b Examine user IDs and assigned privileges, and compare with documented approvals to verify that:
-• Documented approval exists for the assigned privileges.
-• The approval was by authorized personnel.
-• Specified privileges match the roles assigned to the individual.
+- Documented approval exists for the assigned privileges.
+- The approval was by authorized personnel.
+- Specified privileges match the roles assigned to the individual.
 
 ##### GUIDANCE
 
@@ -5350,10 +5350,10 @@ Documented approval (for example, in writing or electronically) assures that tho
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.4 All user accounts and related access privileges, including third-party/vendor accounts, are reviewed as follows:
-• At least once every six months.
-• To ensure user accounts and access remain appropriate based on job function.
-• Any inappropriate access is addressed.
-• Management acknowledges that access remains appropriate.
+- At least once every six months.
+- To ensure user accounts and access remain appropriate based on job function.
+- Any inappropriate access is addressed.
+- Management acknowledges that access remains appropriate.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5405,8 +5405,8 @@ Entities can consider implementing a regular, repeatable process for conducting 
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.5 All application and system accounts and related access privileges are assigned and managed as follows:
-• Based on the least privileges necessary for the operability of the system or application.
-• Access is limited to the systems, applications, or processes that specifically require their use.
+- Based on the least privileges necessary for the operability of the system or application.
+- Access is limited to the systems, applications, or processes that specifically require their use.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5431,10 +5431,10 @@ It is important to establish the appropriate access level for application or sys
 **Good Practice**
 
 Entities may want to consider establishing a baseline when setting up these application and system accounts including the following as applicable to the organization:
-• Making sure that the account is not a member of a privileged group such as domain administrators, local administrators, or root.
-• Restricting which computers the account can be used on.
-• Restricting hours of use.
-• Removing any additional settings like VPN access and remote access.
+- Making sure that the account is not a member of a privileged group such as domain administrators, local administrators, or root.
+- Restricting which computers the account can be used on.
+- Restricting hours of use.
+- Removing any additional settings like VPN access and remote access.
 
 **Definitions**
 
@@ -5456,10 +5456,10 @@ Entities may want to consider establishing a baseline when setting up these appl
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.5.1 All access by application and system accounts and related access privileges are reviewed as follows:
-• Periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1).
-• The application/system access remains appropriate for the function being performed.
-• Any inappropriate access is addressed.
-• Management acknowledges that access remains appropriate.
+- Periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1).
+- The application/system access remains appropriate for the function being performed.
+- Any inappropriate access is addressed.
+- Management acknowledges that access remains appropriate.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5507,8 +5507,8 @@ Regular review of access rights helps to detect excessive access rights remainin
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.6 All user access to query repositories of stored cardholder data is restricted as follows:
-• Via applications or other programmatic methods, with access and allowed actions based on user roles and least privileges.
-• Only the responsible administrator(s) can directly access or query repositories of stored CHD.
+- Via applications or other programmatic methods, with access and allowed actions based on user roles and least privileges.
+- Only the responsible administrator(s) can directly access or query repositories of stored CHD.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5745,10 +5745,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.1.1 All security policies and operational procedures that are identified in Requirement 8 are:
-• Documented.
-• Kept up to date.
-• In use.
-• Known to all affected parties.
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -5890,12 +5890,12 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.2.2 Group, shared, or generic accounts, or other shared authentication credentials are only used when necessary on an exception basis, and are managed as follows:
-• Account use is prevented unless needed for an exceptional circumstance.
-• Use is limited to the time needed for the exceptional circumstance.
-• Business justification for use is documented.
-• Use is explicitly approved by management.
-• Individual user identity is confirmed before access to an account is granted.
-• Every action taken is attributable to an individual user.
+- Account use is prevented unless needed for an exceptional circumstance.
+- Use is limited to the time needed for the exceptional circumstance.
+- Business justification for use is documented.
+- Use is explicitly approved by management.
+- Individual user identity is confirmed before access to an account is granted.
+- Every action taken is attributable to an individual user.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -6000,8 +6000,8 @@ Technologies such as multi-factor mechanisms that provide a unique credential fo
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.2.4 Addition, deletion, and modification of user IDs, authentication factors, and other identifier objects are managed as follows:
-• Authorized with the appropriate approval.
-• Implemented with only the privileges specified on the documented approval.
+- Authorized with the appropriate approval.
+- Implemented with only the privileges specified on the documented approval.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -6135,8 +6135,8 @@ Where it may be reasonably anticipated that an account will not be used for an e
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.2.7 Accounts used by third parties to access, support, or maintain system components via remote access are managed as follows:
-• Enabled only during the time period needed and disabled when not in use.
-• Use is monitored for unexpected activity.
+- Enabled only during the time period needed and disabled when not in use.
+- Use is monitored for unexpected activity.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -6236,9 +6236,9 @@ One way to meet this requirement is to configure an automated screensaver to lau
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.1 All user access to system components for users and administrators is authenticated via at least one of the following authentication factors:
-• Something you know, such as a password or passphrase.
-• Something you have, such as a token device or smart card.
-• Something you are, such as a biometric element.
+- Something you know, such as a password or passphrase.
+- Something you have, such as a token device or smart card.
+- Something you are, such as a biometric element.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -6380,8 +6380,8 @@ Methods to verify a user’s identity include a secret question/answer, knowledg
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.4 Invalid authentication attempts are limited by:
-• Locking out the user ID after not more than 10 attempts.
-• Setting the lockout duration to a minimum of 30 minutes or until the user’s identity is confirmed.
+- Locking out the user ID after not more than 10 attempts.
+- Setting the lockout duration to a minimum of 30 minutes or until the user’s identity is confirmed.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -6429,8 +6429,8 @@ Before reactivating a locked account, the user’s identity should be confirmed.
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.5 If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they are set and reset for each user as follows:
-• Set to a unique value for first-time use and upon reset.
-• Forced to be changed immediately after the first use.
+- Set to a unique value for first-time use and upon reset.
+- Forced to be changed immediately after the first use.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -6474,8 +6474,8 @@ If the same password/passphrase is used for every new user, an internal user, fo
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.6 If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they meet the following minimum level of complexity:
-• A minimum length of 12 characters (or IF the system does not support 12 characters, a minimum length of eight characters).
-• Contain both numeric and alphabetic characters.
+- A minimum length of 12 characters (or IF the system does not support 12 characters, a minimum length of eight characters).
+- Contain both numeric and alphabetic characters.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -6484,8 +6484,8 @@ A guessed password/passphrase cannot be verified by either an online or offline 
 ###### APPLICABILITY NOTES
 
 This requirement is not intended to apply to:
-• User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
-• Application or system accounts, which are governed by requirements in section 8.6.
+User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+- Application or system accounts, which are governed by requirements in section 8.6.
 
 This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
