@@ -44,7 +44,7 @@
 
 [Requirement 7: Restrict Access to System Components and Cardholder Data by Business Need to Know](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know)
 
-[Requirement 8: Identify Users and Authenticate Access to System Components]()
+[Requirement 8: Identify Users and Authenticate Access to System Components](#requirement-8-identify-users-and-authenticate-access-to-system-components)
 
 [Requirement 9: Restrict Physical Access to Cardholder Data]()
 
@@ -5717,18 +5717,18 @@ These requirements do not apply to accounts used by consumers (cardholders).
 Refer to Appendix G for definitions of PCI DSS terms.
 
 
-#### SECTIONS
-[8.1	Processes and mechanisms for identifying users and authenticating access to system components are defined and understood.](#requirements-and-testing-procedures-81)
+#### SECTIONS 8
+[8.1 Processes and mechanisms for identifying users and authenticating access to system components are defined and understood.](#requirements-and-testing-procedures-81)
 
-[8.2	User identification and related accounts for users and administrators are strictly managed throughout an account’s lifecycle.](#requirements-and-testing-procedures-82)
+[8.2 User identification and related accounts for users and administrators are strictly managed throughout an account’s lifecycle.](#requirements-and-testing-procedures-82)
 
-[8.3	Strong authentication for users and administrators is established and managed.](#requirements-and-testing-procedures-83)
+[8.3 Strong authentication for users and administrators is established and managed.](#requirements-and-testing-procedures-83)
 
-[8.4	Multi-factor authentication (MFA) is implemented to secure access into the CDE.](#requirements-and-testing-procedures-84)
+[8.4 Multi-factor authentication (MFA) is implemented to secure access into the CDE.](#requirements-and-testing-procedures-84)
 
-[8.5	Multi-factor authentication (MFA) systems are configured to prevent misuse.](#requirements-and-testing-procedures-84)
+[8.5 Multi-factor authentication (MFA) systems are configured to prevent misuse.](#requirements-and-testing-procedures-84)
 
-[8.6	Use of application and system accounts and associated authentication factors is strictly managed.](#requirements-and-testing-procedures-85)
+[8.6 Use of application and system accounts and associated authentication factors is strictly managed.](#requirements-and-testing-procedures-85)
 
 [requirement 8](#requirement-8-identify-users-and-authenticate-access-to-system-components) | 
 [requirements](#requirements) | 
@@ -5887,31 +5887,141 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.2.2 Group, shared, or generic accounts, or other shared authentication credentials are only used when necessary on an exception basis, and are managed as follows:
+• Account use is prevented unless needed for an exceptional circumstance.
+• Use is limited to the time needed for the exceptional circumstance.
+• Business justification for use is documented.
+• Use is explicitly approved by management.
+• Individual user identity is confirmed before access to an account is granted.
+• Every action taken is attributable to an individual user.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+All actions performed by users with generic, system, or shared IDs are attributable to an individual person.
 
 ###### APPLICABILITY NOTES
 
-
+This requirement is not intended to apply to user accounts within point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+8.2.2.a Examine user account lists on system components and applicable documentation to verify that shared authentication credentials are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement.
 
+8.2.2.b Examine authentication policies and procedures to verify processes are defined for shared authentication credentials such that they are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement.
+
+8.2.2.c Interview system administrators to verify that shared authentication credentials are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Group, shared, or generic (or default) accounts are typically delivered with software or operating systems—for example, root or with privileges associated with a specific function, such as an administrator.
 
+If multiple users share the same authentication credentials (for example, user account and password), it becomes impossible to trace system access and activities to an individual. In turn, this prevents an entity from assigning accountability for, or having effective logging of, an individual’s actions since a given action could have been performed by anyone in the group with knowledge of the user ID and associated authentication factors.
+
+The ability to associate individuals to the actions performed with an account is essential to provide individual accountability and traceability regarding who performed an action, what action was performed, and when that action occurred.
+
+**Good Practice**
+
+If shared accounts are used for any reason, strong management controls need to be established to maintain individual accountability and traceability.
+
+**Definitions**
+
+
+
+**Examples**
+
+Tools and techniques can facilitate both management and security of these types of accounts and confirm individual user identity before access to an account is granted. Entities can consider password vaults or other system-managed controls such as the sudo command.
+
+An example of an exceptional circumstance is where all other authentication methods have failed, and a shared account is needed for emergency use or “break the glass” administrator access.
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**8.2.3 Additional requirement for service providers only**: Service providers with remote access to customer premises use unique authentication factors for each customer premises.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+A service provider’s credential used for one customer cannot be used for any other customer.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+This requirement is not intended to apply to service providers accessing their own shared services environments, where multiple customer environments are hosted.
+
+If service provider employees use shared authentication factors to remotely access customer premises, these factors must be unique per customer and managed in accordance with Requirement 8.2.2.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**8.2.3 Additional testing procedure for service provider assessments only**: Examine authentication policies and procedures and interview personnel to verify that service providers with remote access to customer premises use unique authentication factors for remote access to each customer premises.
+
+##### GUIDANCE
+
+**Purpose**
+
+Service providers with remote access to customer premises typically use this access to support POS POI systems or provide other remote services.
+
+If a service provider uses the same authentication factors to access multiple customers, all the service provider’s customers can easily be compromised if an attacker compromises that one factor.
+
+Criminals know this and deliberately target service providers looking for a shared authentication factor that gives them remote access to many merchants via that single factor.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+Technologies such as multi-factor mechanisms that provide a unique credential for each connection (such as a single-use password) could also meet the intent of this requirement.
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.2.4 Addition, deletion, and modification of user IDs, authentication factors, and other identifier objects are managed as follows:
+• Authorized with the appropriate approval.
+• Implemented with only the privileges specified on the documented approval.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Lifecycle events for user IDs and authentication factors cannot occur without appropriate authorization.
+
+###### APPLICABILITY NOTES
+
+This requirement applies to all user accounts, including employees, contractors, consultants, temporary workers, and third-party vendors.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.2.4 Examine documented authorizations across various phases of the account lifecycle (additions, modifications, and deletions) and examine system settings to verify the activity has been managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+It is imperative that the lifecycle of a user ID (additions, deletions, and modifications) is controlled so that only authorized accounts can perform functions, actions are auditable, and privileges are limited to only what is required.
+
+Attackers often compromise an existing account and then escalate the privileges of that account to perform unauthorized acts, or they may create new IDs to continue their activity in the background. It is essential to detect and respond when user accounts are created or changed outside the normal change process or without corresponding authorization.
 
 **Good Practice**
 
@@ -5934,17 +6044,13 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.2.5 Access for terminated users is immediately revoked.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+The accounts of terminated users cannot be used.
 
 ###### APPLICABILITY NOTES
 
@@ -5952,13 +6058,15 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+8.2.5.a Examine information sources for terminated users and review current user access lists—for both local and remote access—to verify that terminated user IDs have been deactivated or removed from the access lists.
 
+8.2.5.b Interview responsible personnel to verify that all physical authentication factors—such as, smart cards, tokens, etc.—have been returned or deactivated for terminated users.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+If an employee or third party/vendor has left the company and still has access to the network via their user account, unnecessary or malicious access to cardholder data could occur—either by the former employee or by a malicious user who exploits the old and/or unused account.
 
 **Good Practice**
 
@@ -5981,17 +6089,13 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.2.6 Inactive user accounts are removed or disabled within 90 days of inactivity.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Inactive user accounts cannot be used.
 
 ###### APPLICABILITY NOTES
 
@@ -5999,13 +6103,213 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+8.2.6 Examine user accounts and last logon information, and interview personnel to verify that any inactive user accounts are removed or disabled within 90 days of inactivity.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Accounts that are not used regularly are often targets of attack since it is less likely that any changes, such as a changed password, will be noticed. As such, these accounts may be more easily exploited and used to access cardholder data.
 
+**Good Practice**
+
+Where it may be reasonably anticipated that an account will not be used for an extended period of time, such as an extended leave of absence, the account should be disabled as soon as the leave begins, rather than waiting 90 days.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.2.7 Accounts used by third parties to access, support, or maintain system components via remote access are managed as follows:
+• Enabled only during the time period needed and disabled when not in use.
+• Use is monitored for unexpected activity.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Third party remote access cannot be used except where specifically authorized and use is overseen by management.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.2.7 Interview personnel, examine documentation for managing accounts, and examine evidence to verify that accounts used by third parties for remote access are managed according to all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Allowing third parties to have 24/7 access into an entity’s systems and networks in case they need to provide support increases the chances of unauthorized access. This access could result in an unauthorized user in the third party’s environment or a malicious individual using the always-available external entry point into an entity’s network. Where third parties do need access 24/7, it should be documented, justified, monitored, and tied to specific service reasons.
+
+**Good Practice**
+
+Enabling access only for the time periods needed and disabling it as soon as it is no longer required helps prevent misuse of these connections. Additionally, consider assigning third parties a start and stop date for their access in accordance with their service contract.
+Monitoring third-party access helps ensure that third parties are accessing only the systems necessary and only during approved time frames. Any unusual activity using third-party accounts should be followed up and resolved.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.2.8 If a user session has been idle for more than 15 minutes, the user is required to re-authenticate to re-activate the terminal or session.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+A user session cannot be used except by the authorized user.
+
+###### APPLICABILITY NOTES
+
+This requirement is not intended to apply to user accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+
+This requirement is not meant to prevent legitimate activities from being performed while the console/PC is unattended.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.2.8 Examine system configuration settings to verify that system/session idle timeout features for user sessions have been set to 15 minutes or less.
+
+##### GUIDANCE
+
+**Purpose**
+
+When users walk away from an open machine with access to system components or cardholder data, there is a risk that the machine may be used by others in the user’s absence, resulting in unauthorized account access and/or misuse.
+
+**Good Practice**
+
+The re-authentication can be applied either at the system level to protect all sessions running on that machine or at the application level.
+
+Entities may also want to consider staging controls in succession to further restrict the access of an unattended session as time passes. For example, the screensaver may activate after 15 minutes and log off the user after an hour.
+
+However, timeout controls must balance the risk of access and exposure with the impact to the user and purpose of the access.
+
+If a user needs to run a program from an unattended computer, the user can log in to the computer to initiate the program, and then “lock” the computer so that no one else can use the user’s login while the computer is unattended.
+
+**Definitions**
+
+
+
+**Examples**
+
+One way to meet this requirement is to configure an automated screensaver to launch whenever the console is idle for 15 minutes and requiring the logged-in user to enter their password to unlock the screen.
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 8.3
+
+8.3 Strong authentication for users and administrators is established and managed.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.3.1 All user access to system components for users and administrators is authenticated via at least one of the following authentication factors:
+• Something you know, such as a password or passphrase.
+• Something you have, such as a token device or smart card.
+• Something you are, such as a biometric element.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+An account cannot be accessed except with a combination of user identity and an authentication factor.
+
+###### APPLICABILITY NOTES
+
+This requirement is not intended to apply to user accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+
+This requirement does not supersede multi-factor authentication (MFA) requirements but applies to those in-scope systems not otherwise subject to MFA requirements.
+
+A digital certificate is a valid option for “something you have” if it is unique for a particular user.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.3.1.a Examine documentation describing the authentication factor(s) used to verify that user access to system components is authenticated via at least one authentication factor specified in this requirement.
+
+8.3.1.b For each type of authentication factor used with each type of system component, observe an authentication to verify that authentication is functioning consistently with documented authentication factor(s).
+
+##### GUIDANCE
+
+**Purpose**
+
+When used in addition to unique IDs, an authentication factor helps protect user IDs from being compromised, since the attacker needs to have the unique ID and compromise the associated authentication factor(s).
+
+**Good Practice**
+
+A common approach for a malicious individual to compromise a system is to exploit weak or nonexistent authentication factors (for example, passwords/passphrases). Requiring strong authentication factors helps protect against this attack.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+See *fidoalliance.org* for more information about using tokens, smart cards, or biometrics as authentication factors.
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.3.2 Strong cryptography is used to render all authentication factors unreadable during transmission and storage on all system components.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cleartext authentication factors cannot be obtained, derived, or reused from the interception of communications or from stored data.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.3.2.a Examine vendor documentation and system configuration settings to verify that authentication factors are rendered unreadable with strong cryptography during transmission and storage.
+
+8.3.2.b Examine repositories of authentication factors to verify that they are unreadable during storage.
+
+8.3.2.c Examine data transmissions to verify that authentication factors are unreadable during transmission.
+
+##### GUIDANCE
+
+**Purpose**
+
+Network devices and applications have been known to transmit unencrypted, readable authentication factors (such as passwords and passphrases) across the network and/or store these values without encryption. As a result, a malicious individual can easily intercept this information during transmission using a “sniffer,” or directly access unencrypted authentication factors in files where they are stored, and then use this data to gain unauthorized access.
 
 **Good Practice**
 
@@ -6028,17 +6332,13 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.3.3 User identity is verified before modifying any authentication factor.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Unauthorized individuals cannot gain system access by impersonating the identity of an authorized user.
 
 ###### APPLICABILITY NOTES
 
@@ -6046,13 +6346,109 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+8.3.3 Examine procedures for modifying authentication factors and observe security personnel to verify that when a user requests a modification of an authentication factor, the user’s identity is verified before the authentication factor is modified.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Malicious individuals use "social engineering” techniques to impersonate a user of a system —for example, calling a help desk and acting as a legitimate user—to have an authentication factor changed so they can use a valid user ID.
 
+Requiring positive identification of a user reduces the probability of this type of attack succeeding.
+
+**Good Practice**
+
+Modifications to authentication factors for which user identity should be verified include but are not limited to performing password resets, provisioning new hardware or software tokens, and generating new keys.
+
+**Definitions**
+
+
+
+**Examples**
+
+Methods to verify a user’s identity include a secret question/answer, knowledge-based information, and calling the user back at a known and previously established phone number.
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.3.4 Invalid authentication attempts are limited by:
+• Locking out the user ID after not more than 10 attempts.
+• Setting the lockout duration to a minimum of 30 minutes or until the user’s identity is confirmed.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+An authentication factor cannot be guessed in a brute force, online attack.
+
+###### APPLICABILITY NOTES
+
+This requirement is not intended to apply to user accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.3.4.a Examine system configuration settings to verify that authentication parameters are set to require that user accounts be locked out after not more than 10 invalid logon attempts.
+
+8.3.4.b Examine system configuration settings to verify that password parameters are set to require that once a user account is locked out, it remains locked for a minimum of 30 minutes or until the user’s identity is confirmed.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without account-lockout mechanisms in place, an attacker can continually try to guess a password through manual or automated tools (for example, password cracking) until the attacker succeeds and gains access to a user’s account.
+
+If an account is locked out due to someone continually trying to guess a password, controls to delay reactivation of the locked account stop the malicious individual from guessing the password, as they will have to stop for a minimum of 30 minutes until the account is reactivated.
+
+**Good Practice**
+
+Before reactivating a locked account, the user’s identity should be confirmed. For example, the administrator or help desk personnel can validate that the actual account owner is requesting reactivation, or there may be password reset self-service mechanisms that the account owner uses to verify their identity.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.3.5 If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they are set and reset for each user as follows:
+• Set to a unique value for first-time use and upon reset.
+• Forced to be changed immediately after the first use.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+An initial or reset password/passphrase assigned to a user cannot be used by an unauthorized user.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.3.5 Examine procedures for setting and resetting passwords/passphrases (if used as authentication factors to meet Requirement 8.3.1) and observe security personnel to verify that passwords/passphrases are set and reset in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+If the same password/passphrase is used for every new user, an internal user, former employee, or malicious individual may know or easily discover the value and use it to gain access to accounts before the authorized user attempts to use the password.
 
 **Good Practice**
 
@@ -6075,35 +6471,41 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.3.6 If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they meet the following minimum level of complexity:
+• A minimum length of 12 characters (or IF the system does not support 12 characters, a minimum length of eight characters).
+• Contain both numeric and alphabetic characters.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+A guessed password/passphrase cannot be verified by either an online or offline brute force attack.
 
 ###### APPLICABILITY NOTES
 
+This requirement is not intended to apply to:
+• User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+• Application or system accounts, which are governed by requirements in section 8.6.
 
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+Until 31 March 2025, passwords must be a minimum length of seven characters in accordance with PCI DSS v3.2.1 Requirement 8.2.3.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+8.3.6 Examine system configuration settings to verify that user password/passphrase complexity parameters are set in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Strong passwords/passphrases may be the first line of defense into a network since a malicious individual will often first try to find accounts with weak, static, or non-existent passwords. If passwords are short or easily guessable, it is relatively easy for a malicious individual to find these weak accounts and compromise a network under the guise of a valid user ID.
 
 **Good Practice**
 
+Password/passphrase strength is dependent on password/passphrase complexity, length, and randomness. Passwords/passphrases should be sufficiently complex, so they are impractical for an attacker to guess or otherwise discover its value. Entities can consider adding increased complexity by requiring the use of special characters and upper- and lower-case characters, in addition to the minimum standards outlined by this requirement. Additional complexity increases the time required for offline brute force attacks of hashed passwords/passphrases.
 
+Another option for increasing the resistance of passwords to guessing attacks is by comparing proposed password/passphrases to a bad password list and having users provide new passwords for any passwords found on the list.
 
 **Definitions**
 
@@ -6122,407 +6524,29 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+8.3.7 Individuals are not allowed to submit a new password/passphrase that is the same as any of the last four passwords/passphrases used.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+A previously used password cannot be used to gain access to an account for at least 12 months.
 
 ###### APPLICABILITY NOTES
 
-
+This requirement is not intended to apply to user accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+8.3.7 Examine system configuration settings to verify that password parameters are set to require that new passwords/passphrases cannot be the same as the four previously used passwords/passphrases.
 
 ##### GUIDANCE
 
 **Purpose**
 
+If password history is not maintained, the effectiveness of changing passwords is reduced, as previous passwords can be reused over and over. Requiring that passwords cannot be reused for a period reduces the likelihood that passwords that have been guessed or brute-forced will be re-used in the future.
 
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 8](#sections-8) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
+Passwords or passphrases may have previously been changed due to suspicion of compromise or because the password or passphrase exceeded its effective use period, both of which are reasons why previously used passwords should not be reused.
 
 **Good Practice**
 
