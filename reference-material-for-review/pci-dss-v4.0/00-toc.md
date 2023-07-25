@@ -94,11 +94,16 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 #### SECTIONS 1
 
-[1.1 Processes and mechanisms for installing and maintaining network security controls are defined and understood.](#requirements-and-testing-procedures-11) | 
-[1.2 Network security controls (NSCs) are configured and maintained.](#requirements-and-testing-procedures-12) | 
-[1.3 Network access to and from the cardholder data environment is restricted.](#requirements-and-testing-procedures-13) | 
-[1.4 Network connections between trusted and untrusted networks are controlled.](#requirements-and-testing-procedures-14) | 
-[1.5 Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated.](#requirements-and-testing-procedures-15) | 
+[1.1 Processes and mechanisms for installing and maintaining network security controls are defined and understood.](#requirements-and-testing-procedures-11)
+
+[1.2 Network security controls (NSCs) are configured and maintained.](#requirements-and-testing-procedures-12)
+
+[1.3 Network access to and from the cardholder data environment is restricted.](#requirements-and-testing-procedures-13)
+
+[1.4 Network connections between trusted and untrusted networks are controlled.](#requirements-and-testing-procedures-14)
+
+[1.5 Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated.](#requirements-and-testing-procedures-15)
+
 [requirement 1](#requirement-1-install-and-maintain-network-security-controls) | 
 [requirements](#requirements) | 
 [principles](#principles) |
@@ -891,9 +896,12 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 #### SECTIONS 2
 
-[2.1	Processes and mechanisms for applying secure configurations to all system components are defined and understood.](#requirements-and-testing-procedures-21) | 
-[2.2	System components are configured and managed securely.](#requirements-and-testing-procedures-22) | 
-[2.3	Wireless environments are configured and managed securely.](#requirements-and-testing-procedures-23) | 
+[2.1	Processes and mechanisms for applying secure configurations to all system components are defined and understood.](#requirements-and-testing-procedures-21)
+
+[2.2	System components are configured and managed securely.](#requirements-and-testing-procedures-22)
+
+[2.3	Wireless environments are configured and managed securely.](#requirements-and-testing-procedures-23)
+
 [requirement 2](#requirement-2-apply-secure-configurations-to-all-system-components) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
@@ -1439,13 +1447,20 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 #### SECTIONS 3
 
-[3.1 Processes and mechanisms for protecting stored account data are defined and understood.](#requirements-and-testing-procedures-31) | 
-[3.2 Storage of account data is kept to a minimum.](#requirements-and-testing-procedures-32) | 
-[3.3 Sensitive authentication data (SAD) is not stored after authorization.](#requirements-and-testing-procedures-33) | 
-[3.4 Access to displays of full PAN and ability to copy cardholder data are restricted.](#requirements-and-testing-procedures-34) | 
-[3.5 Primary account number (PAN) is secured wherever it is stored.](#requirements-and-testing-procedures-35) | 
-[3.6 Cryptographic keys used to protect stored account data are secured.](#requirements-and-testing-procedures-36) | 
-[3.7 Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37) | 
+[3.1 Processes and mechanisms for protecting stored account data are defined and understood.](#requirements-and-testing-procedures-31)
+
+[3.2 Storage of account data is kept to a minimum.](#requirements-and-testing-procedures-32)
+
+[3.3 Sensitive authentication data (SAD) is not stored after authorization.](#requirements-and-testing-procedures-33)
+
+[3.4 Access to displays of full PAN and ability to copy cardholder data are restricted.](#requirements-and-testing-procedures-34)
+
+[3.5 Primary account number (PAN) is secured wherever it is stored.](#requirements-and-testing-procedures-35)
+
+[3.6 Cryptographic keys used to protect stored account data are secured.](#requirements-and-testing-procedures-36)
+
+[3.7 Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37)
+
 [requirement 3](#requirement-3-protect-stored-account-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
@@ -2984,8 +2999,10 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 #### SECTIONS 4
 
-[4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41) | 
-[4.2 PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42) | 
+[4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41)
+
+[4.2 PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42)
+
 [requirement 4](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
@@ -3318,10 +3335,14 @@ Using anti-malware solutions that address all types of malware helps to protect 
 
 
 #### SECTIONS 5
-[5.1 Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51) | 
-[5.2 Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52) | 
-[5.3 Anti-malware mechanisms and processes are active, maintained, and monitored.](#requirements-and-testing-procedures-53) | 
-[5.4 Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54) | 
+[5.1 Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51)
+
+[5.2 Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52)
+
+[5.3 Anti-malware mechanisms and processes are active, maintained, and monitored.](#requirements-and-testing-procedures-53)
+
+[5.4 Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54)
+
 [requirement 5](#requirement-5-protect-all-systems-and-networks-from-malicious-software) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
