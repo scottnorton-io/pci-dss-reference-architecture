@@ -3864,18 +3864,13 @@ Portable media devices are often overlooked as an entry method for malware. Atta
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.3.4 Audit logs for the anti-malware solution(s) are enabled and retained in accordance with Requirement 10.5.1.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Historical records of anti-malware actions are immediately available and retained for at least 12 months.
 
 ###### APPLICABILITY NOTES
 
@@ -3883,13 +3878,13 @@ Portable media devices are often overlooked as an entry method for malware. Atta
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+5.3.4 Examine anti-malware solution(s) configurations to verify logs are enabled and retained in accordance with Requirement 10.5.1.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+It is important to track the effectiveness of the anti-malware mechanisms—for example, by confirming that updates and scans are being performed as expected, and that malware is identified and addressed. Audit logs also allow an entity to determine how malware entered the environment and track its activity when inside the entity’s network.
 
 **Good Practice**
 
