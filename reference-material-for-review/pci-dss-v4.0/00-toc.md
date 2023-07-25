@@ -8,6 +8,26 @@
 
 [PRINCIPLE PCI DSS REQUIREMENT: Maintain a Vulnerability Management Program](#principle-pci-dss-requirement-maintain-a-vulnerability-management-program)
 
+[PRINCIPLE PCI DSS REQUIREMENT: Implement Strong Access Control Measures]()
+
+[PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks]()
+
+[PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy]()
+
+[Appendix A Additonal PCI Requirements]()
+
+[Appendix B Compensating Controls]()
+
+[Appendix C Compensating Controls Worksheet]()
+
+[Appendix D Customized Approach]()
+
+[Appendix E Sample Templates to Support Customized Approach]()
+
+[Appendix F Leveraging the PCI Software Security Framework to Support Requirement 6]()
+
+[Appendix G PCI DSS Glossary of Terms, Abbreviations, and Acronyms]()
+
 ### Requirements
 
 [Requirement 1: Install and Maintain Network Security Controls](#requirement-1-install-and-maintain-network-security-controls)
@@ -20,19 +40,19 @@
 
 [Requirement 5: Protect All Systems and Networks from Malicious Software](#requirement-5-protect-all-systems-and-networks-from-malicious-software)
 
-[]()
+[Requirement 6: Develop and Maintain Secure Systems and Software](#requirement-6-develop-and-maintain-secure-systems-and-software)
 
-[]()
+[Requirement 7: Restrict Access to System Components and Cardholder Data by Business Need to Know]()
 
-[]()
+[Requirement 8: Identify Users and Authenticate Access to System Components]()
 
-[]()
+[Requirement 9: Restrict Physical Access to Cardholder Data]()
 
-[]()
+[Requirement 10: Log and Monitor All Access to System Components and Cardholder Data]()
 
-[]()
+[Requirement 11: Test Security of Systems and Networks Regularly]()
 
-[]()
+[Requirement 12: Support Information Security with Organizational Policies and Programs]()
 
 []()
 
@@ -74,16 +94,19 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 #### SECTIONS 1
 
-[1.1	Processes and mechanisms for installing and maintaining network security controls are defined and understood.](#requirements-and-testing-procedures-11)
+[1.1 Processes and mechanisms for installing and maintaining network security controls are defined and understood.](#requirements-and-testing-procedures-11)
 
-[1.2	Network security controls (NSCs) are configured and maintained.](#requirements-and-testing-procedures-12)
+[1.2 Network security controls (NSCs) are configured and maintained.](#requirements-and-testing-procedures-12)
 
-[1.3	Network access to and from the cardholder data environment is restricted.](#requirements-and-testing-procedures-13)
+[1.3 Network access to and from the cardholder data environment is restricted.](#requirements-and-testing-procedures-13)
 
-[1.4	Network connections between trusted and untrusted networks are controlled.](#requirements-and-testing-procedures-14)
+[1.4 Network connections between trusted and untrusted networks are controlled.](#requirements-and-testing-procedures-14)
 
-[1.5	Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated.](#requirements-and-testing-procedures-15)
+[1.5 Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated.](#requirements-and-testing-procedures-15)
 
+[requirement 1](#requirement-1-install-and-maintain-network-security-controls) | 
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ---
@@ -884,7 +907,11 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [2.3	Wireless environments are configured and managed securely.](#requirements-and-testing-procedures-23)
 
+[requirement 2](#requirement-2-apply-secure-configurations-to-all-system-components) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
 [top](#pci-dss-v40)
+
 
 ---
 
@@ -1429,20 +1456,24 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 #### SECTIONS 3
 
-[3.1	Processes and mechanisms for protecting stored account data are defined and understood.](#requirements-and-testing-procedures-31)
+[3.1 Processes and mechanisms for protecting stored account data are defined and understood.](#requirements-and-testing-procedures-31)
 
-[3.2	Storage of account data is kept to a minimum.](#requirements-and-testing-procedures-32)
+[3.2 Storage of account data is kept to a minimum.](#requirements-and-testing-procedures-32)
 
-[3.3	Sensitive authentication data (SAD) is not stored after authorization.](#requirements-and-testing-procedures-33)
+[3.3 Sensitive authentication data (SAD) is not stored after authorization.](#requirements-and-testing-procedures-33)
 
-[3.4	Access to displays of full PAN and ability to copy cardholder data are restricted.](#requirements-and-testing-procedures-34)
+[3.4 Access to displays of full PAN and ability to copy cardholder data are restricted.](#requirements-and-testing-procedures-34)
 
-[3.5	Primary account number (PAN) is secured wherever it is stored.](#requirements-and-testing-procedures-35)
+[3.5 Primary account number (PAN) is secured wherever it is stored.](#requirements-and-testing-procedures-35)
 
-[3.6	Cryptographic keys used to protect stored account data are secured.](#requirements-and-testing-procedures-36)
+[3.6 Cryptographic keys used to protect stored account data are secured.](#requirements-and-testing-procedures-36)
 
-[3.7	Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37)
+[3.7 Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37)
 
+[requirement 3](#requirement-3-protect-stored-account-data) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
 
 ---
 
@@ -3006,11 +3037,14 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 #### SECTIONS 4
 
-[4.1	Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41)
+[4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41)
 
-[4.2	PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42)
+[4.2 PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42)
 
-
+[requirement 4](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 4.1
 
@@ -3345,14 +3379,17 @@ Using anti-malware solutions that address all types of malware helps to protect 
 
 
 #### SECTIONS 5
-[5.1	Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51)
+[5.1 Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51)
 
-[5.2	Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52)
+[5.2 Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52)
 
-[5.3	Anti-malware mechanisms and processes are active, maintained, and monitored.](#requirements-and-testing-procedures-53)
+[5.3 Anti-malware mechanisms and processes are active, maintained, and monitored.](#requirements-and-testing-procedures-53)
 
-[5.4	Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54)
+[5.4 Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54)
 
+[requirement 5](#requirement-5-protect-all-systems-and-networks-from-malicious-software) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
 [top](#pci-dss-v40)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 5.1
@@ -3908,36 +3945,33 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.3.5 Anti-malware mechanisms cannot be disabled or altered by users, unless specifically documented, and authorized by management on a case-by-case basis for a limited time period.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Anti-malware mechanisms cannot be modified by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
 
-
+Anti-malware solutions may be temporarily disabled only if there is a legitimate technical need, as authorized by management on a case-by-case basis. If anti-malware protection needs to be disabled for a specific purpose, it must be formally authorized. Additional security measures may also need to be implemented for the period during which anti-malware protection is not active.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+5.3.5.a Examine anti-malware configurations, to verify that the anti-malware mechanisms cannot be disabled or altered by users.
 
+5.3.5.b Interview responsible personnel and observe processes to verify that any requests to disable or alter anti-malware mechanisms are specifically documented and authorized by management on a case-by-case basis for a limited time period.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+It is important that defensive mechanisms are always running so that malware is detected in real time. Ad-hoc starting and stopping of anti-malware solutions could allow malware to propagate unchecked and undetected.
 
 **Good Practice**
 
-
+Where there is a legitimate need to temporarily disable a system’s anti-malware protection—for example, to support a specific maintenance activity or investigation of a technical problem—the reason for taking such action should be understood and approved by an appropriate management representative. Any disabling or altering of anti-malware mechanisms, including on administrators’ own devices, should be performed by authorized personnel. It is recognized that administrators have privileges that may allow them to disable anti-malware on their own computers, but there should be alerting mechanisms in place when such software is disabled and then follow up that occurs to ensure correct processes were followed.
 
 **Definitions**
 
@@ -3945,7 +3979,7 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 **Examples**
 
-
+Additional security measures that may need to be implemented for the period during which anti-malware protection is not active include disconnecting the unprotected system from the Internet while the anti-malware protection is disabled and running a full scan once it is re-enabled.
 
 **Further Information**
 
@@ -3960,37 +3994,47 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
-
+5.4 Anti-phishing mechanisms protect users against phishing attacks.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+5.4.1 Processes and automated mechanisms are in place to detect and protect personnel against phishing attacks.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Mechanisms are in place to protect against and mitigate risk posed by phishing attacks.
 
 ###### APPLICABILITY NOTES
 
+This requirement applies to the automated mechanism. It is not intended that the systems and services providing such automated mechanisms (such as email servers) are brought into scope for PCI DSS.
 
+The focus of this requirement is on protecting personnel with access to system components in-scope for PCI DSS.
+
+Meeting this requirement for technical and automated controls to detect and protect personnel against phishing is not the same as Requirement 12.6.3.1 for security awareness training. Meeting this requirement does not also meet the requirement for providing personnel with security awareness training, and vice versa.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+5.4.1 Observe implemented processes and examine mechanisms to verify controls are in place to detect and protect personnel against phishing attacks.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Technical controls can limit the number of occasions personnel have to evaluate the veracity of a communication and can also limit the effects of individual responses to phishing.
 
 **Good Practice**
 
+When developing anti-phishing controls, entities are encouraged to consider a combination of approaches. For example, using anti-spoofing controls such as Domain-based Message Authentication, Reporting & Conformance (DMARC), Sender Policy Framework (SPF), and Domain Keys Identified Mail (DKIM) will help stop phishers from spoofing the entity’s domain and impersonating personnel.
 
+The deployment of technologies for blocking phishing emails and malware before they reach personnel, such as link scrubbers and server-side anti-malware, can reduce incidents and decrease the time required by personnel to check and report phishing attacks. Additionally, training personnel to recognize and report phishing emails can allow similar emails to be identified and permit them to be removed before being opened.
+
+It is recommended (but not required) that anti-phishing controls are applied across an entity’s entire organization.
 
 **Definitions**
 
-
+Phishing is a form of social engineering and describes the different methods used by attackers to trick personnel into disclosing sensitive information, such as user account names and passwords, and account data. Attackers will typically disguise themselves and attempt to appear as a genuine or trusted source, directing personnel to send an email response, click on a web link, or enter data into a compromised website. Mechanisms that can detect and prevent phishing attempts are often included in anti-malware solutions.
 
 **Examples**
 
@@ -3998,7 +4042,11 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 **Further Information**
 
+See the following for more information about phishing:
 
+*National Cyber Security Centre - Phishing Attacks: Defending your Organization.*
+
+*US Cybersecurity & Infrastructure Security Agency - Report Phishing Sites.*
 
 [sections 5](#sections-5)
 
@@ -4006,18 +4054,53 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 ---
 
+## PRINCIPLE PCI DSS REQUIREMENT: Maintain a Vulnerability Management Program
+
+### Requirement 6:	Develop and Maintain Secure Systems and Software
+
+#### OVERVIEW
+Actors with bad intentions can use security vulnerabilities to gain privileged access to systems. Many of these vulnerabilities are fixed by vendor provided security patches, which must be installed by the entities that manage the systems. All system components must have all appropriate software patches to protect against the exploitation and compromise of account data by malicious individuals and malicious software.
+
+Appropriate software patches are those patches that have been evaluated and tested sufficiently to determine that the patches do not conflict with existing security configurations. For bespoke and custom software, numerous vulnerabilities can be avoided by applying software lifecycle (SLC) processes and secure coding techniques.
+Code repositories that store application code, system configurations, or other configuration data that can impact the security of account data or the CDE are in scope for PCI DSS assessments.
+
+See Relationship between PCI DSS and PCI SSC Software Standards on page 7 for information about the use of PCI SSC-validated software and software vendors, and how use of PCI SSC’s software standards may help with meeting controls in Requirement 6.
+Refer to Appendix G for definitions of PCI DSS terms.
+
+**Note**: Requirement 6 applies to all system components, except for section 6.2 for developing software securely, which applies only to *bespoke* and *custom software* used on any system component included in or connected to the CDE.
+
+
+#### SECTIONS 6
+[6.1 Processes and mechanisms for developing and maintaining secure systems and software are defined and understood.]()
+
+[6.2 Bespoke and custom software are developed securely.]()
+
+[6.3 Security vulnerabilities are identified and addressed.]()
+
+[6.4 Public-facing web applications are protected against attacks.]()
+
+[6.5 Changes to all system components are managed securely.]()
+
+[requirement 6](#requirement-6-develop-and-maintain-secure-systems-and-software) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
-
+6.1 Processes and mechanisms for developing and maintaining secure systems and software are defined and understood.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+6.1.1 All security policies and operational procedures that are identified in Requirement 6 are:
+• Documented.
+• Kept up to date.
+• In use.
+• Known to all affected parties.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Expectations, controls, and oversight for meeting activities within Requirement 6 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
 
@@ -4025,21 +4108,21 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+6.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 6 are managed in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Requirement 6.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 6. While it is important to define the specific policies or procedures called out in Requirement 6, it is equally important to ensure they are properly documented, maintained, and disseminated.
 
 **Good Practice**
 
-
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
 
 **Definitions**
 
-
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
 
 **Examples**
 
@@ -4049,24 +4132,19 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 
 
-[sections 5](#sections-5)
+[sections 6](#sections-6)
 
 [top](#pci-dss-v40)
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+6.1.2 Roles and responsibilities for performing activities in Requirement 6 are documented, assigned, and understood.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Day-to-day responsibilities for performing all the activities in Requirement 6 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
 
@@ -4074,17 +4152,21 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+6.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 6 are documented and assigned.
 
+6.1.2.b Interview personnel responsible for performing activities in Requirement 6 to verify that roles and responsibilities are assigned as documented and are understood.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+If roles and responsibilities are not formally assigned, systems will not be securely maintained, and their security level will be reduced.
 
 **Good Practice**
 
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
 
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
 
 **Definitions**
 
@@ -4092,13 +4174,13 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 **Examples**
 
-
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
 
 
-[sections 5](#sections-5)
+[sections 6](#sections-6)
 
 [top](#pci-dss-v40)
 
