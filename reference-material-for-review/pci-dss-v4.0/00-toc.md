@@ -7407,10 +7407,10 @@ Facility entry controls include physical security controls at each computer room
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.2.1.1 Individual physical access to sensitive areas within the CDE is monitored with either video cameras or physical access control mechanisms (or both) as follows:
-• Entry and exit points to/from sensitive areas within the CDE are monitored.
-• Monitoring devices or mechanisms are protected from tampering or disabling.
-• Collected data is reviewed and correlated with other entries.
-• Collected data is stored for at least three months, unless otherwise restricted by law.
+- Entry and exit points to/from sensitive areas within the CDE are monitored.
+- Monitoring devices or mechanisms are protected from tampering or disabling.
+- Collected data is reviewed and correlated with other entries.
+- Collected data is stored for at least three months, unless otherwise restricted by law.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -7427,8 +7427,8 @@ Trusted, verifiable records are maintained of individual physical entry to, and 
 9.2.1.1.b Observe locations where individual physical access to sensitive areas within the CDE occurs to verify that either video cameras or physical access control mechanisms (or both) are protected from tampering or disabling.
 
 9.2.1.1.c Observe the physical access control mechanisms and/or examine video cameras and interview responsible personnel to verify that:
-• Collected data from video cameras and/or physical access control mechanisms is reviewed and correlated with other entries.
-• Collected data is stored for at least three months.
+- Collected data from video cameras and/or physical access control mechanisms is reviewed and correlated with other entries.
+- Collected data is stored for at least three months.
 
 ##### GUIDANCE
 
@@ -7596,11 +7596,15 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+9.3.1 Procedures are implemented for authorizing and managing physical access of personnel to the CDE, including:
+- Identifying personnel.
+- Managing changes to an individual’s physical access requirements.
+- Revoking or terminating personnel identification.
+- Limiting access to the identification process or system to authorized personnel.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Requirements for access to the physical CDE are defined and enforced to identify and authorize personnel.
 
 ###### APPLICABILITY NOTES
 
@@ -7608,13 +7612,126 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+9.3.1.a Examine documented procedures to verify that procedures to authorize and manage physical access of personnel to the CDE are defined in accordance with all elements specified in this requirement.
 
+9.3.1.b Observe identification methods, such as ID badges, and processes to verify that personnel in the CDE are clearly identified.
+
+9.3.1.c Observe processes to verify that access to the identification process, such as a badge system, is limited to authorized personnel.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Establishing procedures for granting, managing, and removing access when it is no longer needed ensures non-authorized individuals are prevented from gaining access to areas containing cardholder data. In addition, it is important to limit access to the actual badging system and badging materials to prevent unauthorized personnel from making their own badges and/or setting up their own access rules.
 
+**Good Practice**
+
+It is important to visually identify the personnel that are physically present, and whether the individual is a visitor or an employee.
+
+**Definitions**
+
+
+
+**Examples**
+
+One way to identify personnel is to assign them badges.
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.3.1.1 Physical access to sensitive areas within the CDE for personnel is controlled as follows:
+- Access is authorized and based on individual job function.
+- Access is revoked immediately upon termination.
+- All physical access mechanisms, such as keys, access cards, etc., are returned or disabled upon termination.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Sensitive areas cannot be accessed by unauthorized personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.3.1.1.a Observe personnel in sensitive areas within the CDE, interview responsible personnel, and examine physical access control lists to verify that:
+
+- Access to the sensitive area is authorized.
+- Access is required for the individual’s job function.
+9.3.1.1.b Observe processes and interview personnel to verify that access of all personnel is revoked immediately upon termination.
+
+9.3.1.1.c For terminated personnel, examine physical access controls lists and interview responsible personnel to verify that all physical access mechanisms (such as keys, access cards, etc.) were returned or disabled.
+
+##### GUIDANCE
+
+**Purpose**
+
+Controlling physical access to sensitive areas helps ensure that only authorized personnel with a legitimate business need are granted access.
+
+**Good Practice**
+
+Where possible, organizations should have policies and procedures to ensure that before personnel leaving the organization, all physical access mechanisms are returned, or disabled as soon as possible upon their departure. This will ensure personnel cannot gain physical access to sensitive areas once their employment has ended.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.3.2 Procedures are implemented for authorizing and managing visitor access to the CDE, including:
+- Visitors are authorized before entering.
+- Visitors are escorted at all times.
+- Visitors are clearly identified and given a badge or other identification that expires.
+- Visitor badges or other identification visibly distinguishes visitors from personnel.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Requirements for visitor access to the CDE are defined and enforced. Visitors cannot exceed any authorized physical access allowed while in the CDE.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.3.2.a Examine documented procedures and interview personnel to verify procedures are defined for authorizing and managing visitor access to the CDE in accordance with all elements specified in this requirement.
+9.3.2.b Observe processes when visitors are present in the CDE and interview personnel to verify that visitors are:
+- Authorized before entering the CDE.
+- Escorted at all times within the CDE.
+9.3.2.c Observe the use of visitor badges or other identification to verify that the badge or other identification does not permit unescorted access to the CDE.
+9.3.2.d Observe visitors in the CDE to verify that:
+- Visitor badges or other identification are being used for all visitors.
+- Visitor badges or identification easily distinguish visitors from personnel.
+9.3.2.e Examine visitor badges or other identification and observe evidence in the badging system to verify visitor badges or other identification expires.
+
+##### GUIDANCE
+
+**Purpose**
+
+Visitor controls are important to reduce the ability of unauthorized and malicious persons to gain access to facilities and potentially to cardholder data.
+
+Visitor controls ensure visitors are identifiable as visitors so personnel can monitor their activities, and that their access is restricted to just the duration of their legitimate visit.
 
 **Good Practice**
 
@@ -7637,17 +7754,13 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+9.3.3 Visitor badges or identification are surrendered or deactivated before visitors leave the facility or at the date of expiration.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Visitor identification or badges cannot be reused after expiration.
 
 ###### APPLICABILITY NOTES
 
@@ -7655,13 +7768,13 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+9.3.3 Observe visitors leaving the facility and interview personnel to verify visitor badges or other identification are surrendered or deactivated before visitors leave the facility or at the date of expiration. upon departure or expiration.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Ensuring that visitor badges are returned or deactivated upon expiry or completion of the visit prevents malicious persons from using a previously authorized pass to gain physical access into the building after the visit has ended.
 
 **Good Practice**
 
@@ -7684,17 +7797,17 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+9.3.4 A visitor log is used to maintain a physical record of visitor activity within the facility and within sensitive areas, including:
+- The visitor’s name and the organization represented.
+- The date and time of the visit.
+- The name of the personnel authorizing physical access.
+- Retaining the log for at least three months, unless otherwise restricted by law.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Records of visitor access that enable the identification of individuals are maintained.
 
 ###### APPLICABILITY NOTES
 
@@ -7702,13 +7815,67 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+9.3.4.a Examine the visitor log and interview responsible personnel to verify that a visitor log is used to record physical access to the facility and sensitive areas.
 
+9.3.4.b Examine the visitor log and verify that the log contains:
+- The visitor’s name and the organization represented.
+- The personnel authorizing physical access.
+- Date and time of visit.
+
+9.3.4.c Examine visitor log storage locations and interview responsible personnel to verify that the log is retained for at least three months, unless otherwise restricted by law.
 
 ##### GUIDANCE
 
 **Purpose**
 
+A visitor log documenting minimum information about the visitor is easy and inexpensive to maintain. It will assist in identifying historical physical access to a building or room and potential access to cardholder data.
 
+**Good Practice**
+
+When logging the date and time of visit, including both in and out times is considered a best practice, since it provides helpful tracking information and provides assurance that a visitor has left at the end of the day. It is also good to verify that a visitor’s ID (driver’s license, etc.) matches the name they put on the visitor log.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 9.4
+
+9.4 Media with cardholder data is securely stored, accessed, distributed, and destroyed.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.1 All media with cardholder data is physically secured.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Media with cardholder data cannot be accessed by unauthorized personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.1. Examine documentation to verify that the procedures defined for protecting cardholder data include controls for physically securing all media.
+
+##### GUIDANCE
+
+**Purpose**
+
+Controls for physically securing media are intended to prevent unauthorized persons from gaining access to cardholder data on any media. Cardholder data is susceptible to unauthorized viewing, copying, or scanning if it is unprotected while it is on removable or portable media, printed out, or left on someone’s desk.
 
 **Good Practice**
 
@@ -7731,17 +7898,13 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+9.4.1.1 Offline media backups with cardholder data are stored in a secure location.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Offline backups cannot be accessed by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
 
@@ -7749,158 +7912,19 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+9.4.1.1.a Examine documentation to verify that procedures are defined for physically securing offline media backups with cardholder data in a secure location.
 
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 9](#sections-9) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
+9.4.1.1.b Examine logs or other documentation and interview responsible personnel at the storage location to verify that offline media backups are stored in a secure location.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 9](#sections-9) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
+If stored in a non-secured facility, backups containing cardholder data may easily be lost, stolen, or copied for malicious intent.
 
 **Good Practice**
 
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 9](#sections-9) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
+For secure storage of backup media, a good practice is to store media in an off-site facility, such as an alternate or backup site or commercial storage facility.
 
 **Definitions**
 
