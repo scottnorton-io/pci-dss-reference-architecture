@@ -5075,7 +5075,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [7.2 Access to system components and data is appropriately defined and assigned.](#requirements-and-testing-procedures-72)
 
-[7.3 Access to system components and data is managed via an access control system(s).]()
+[7.3 Access to system components and data is managed via an access control system(s).](#requirements-and-testing-procedures-73)
 
 [requirement 7](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know) | 
 [requirements](#requirements) | 
@@ -5554,6 +5554,339 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 ---
 
 
+##### REQUIREMENTS and TESTING PROCEDURES 7.3
+
+7.3 Access to system components and data is managed via an access control system(s).
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.3.1 An access control system(s) is in place that restricts access based on a user’s need to know and covers all system components.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Access rights and privileges are managed via mechanisms intended for that purpose.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.3.1 Examine vendor documentation and system settings to verify that access is managed for each system component via an access control system(s) that restricts access based on a user’s need to know and covers all system components.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without a mechanism to restrict access based on user’s need to know, a user may unknowingly be granted access to cardholder data. Access control systems automate the process of restricting access and assigning privileges.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.3.2 The access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Individual account access rights and privileges to systems, applications, and data are only inherited from group membership.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.3.2 Examine vendor documentation and system settings to verify that the access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function.
+
+##### GUIDANCE
+
+**Purpose**
+
+Restricting privileged access with an access control system reduces the opportunity for errors in the assignment of permissions to individuals, applications, and systems.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.3.3 The access control system(s) is set to “deny all” by default.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Access rights and privileges are prohibited unless expressly permitted.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.3.3 Examine vendor documentation and system settings to verify that the access control system(s) is set to “deny all” by default.
+
+##### GUIDANCE
+
+**Purpose**
+
+A default setting of “deny all” ensures no one is granted access unless a rule is established specifically granting such access.
+
+**Good Practice**
+
+It is important to check the default configuration of access control systems because some are set by default to “allow all,” thereby permitting access unless/until a rule is written to specifically deny it.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Implement Strong Access Control Measures
+
+### Requirement 8: Identify Users and Authenticate Access to System Components
+
+#### OVERVIEW
+Two fundamental principles of identifying and authenticating users are to 1) establish the identity of an individual or process on a computer system, and 2) prove or verify the user associated with the identity is who the user claims to be.
+
+Identification of an individual or process on a computer system is conducted by associating an identity with a person or process through an identifier, such as a user, system, or application ID. These IDs (also referred to as “accounts”) fundamentally establish the identity of an individual or process by assigning unique identification to each person or process to distinguish one user or process from another. When each user or process can be uniquely identified, it ensures there is accountability for actions performed by that identity. When such accountability is in place, actions taken can be traced to known and authorized users and processes.
+
+The element used to prove or verify the identity is known as the authentication factor. Authentication factors are 1) something you know, such as a password or passphrase, 2) something you have, such as a token device or smart card, or 3) something you are, such as a biometric element.
+
+The ID and the authentication factor together are considered authentication credentials and are used to gain access to the rights and privileges associated with a user, application, system, or service accounts.
+
+These requirements for identity and authentication are based on industry-accepted security principles and best practices to support the payment ecosystem. NIST Special Publication 800-63, Digital Identity Guidelines provides additional information on acceptable frameworks for digital identity and authentication factors. It is important to note that the NIST Digital Identity Guidelines is intended for US Federal Agencies and should be viewed in its entirety. Many of the concepts and approaches defined in these guidelines are expected to work with each other and not as standalone parameters.
+
+Note: Unless otherwise stated in the requirement, these requirements apply to all accounts on all system components, unless specifically called out in an individual requirement, including but not limited to:
+•	Point-of-sale accounts
+•	Accounts with administrative capabilities
+•	System and application accounts
+•	All accounts used to view or access cardholder data or to access systems with cardholder data.
+
+This includes accounts used by employees, contractors, consultants, internal and external vendors, and other third parties (for example, for providing support or maintenance services).
+
+Certain requirements are not intended to apply to user accounts that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals). When items do not apply, they are noted directly within the specific requirement.
+ 
+These requirements do not apply to accounts used by consumers (cardholders).
+
+Refer to Appendix G for definitions of PCI DSS terms.
+
+
+#### SECTIONS
+[8.1	Processes and mechanisms for identifying users and authenticating access to system components are defined and understood.](#requirements-and-testing-procedures-81)
+
+[8.2	User identification and related accounts for users and administrators are strictly managed throughout an account’s lifecycle.](#requirements-and-testing-procedures-82)
+
+[8.3	Strong authentication for users and administrators is established and managed.](#requirements-and-testing-procedures-83)
+
+[8.4	Multi-factor authentication (MFA) is implemented to secure access into the CDE.](#requirements-and-testing-procedures-84)
+
+[8.5	Multi-factor authentication (MFA) systems are configured to prevent misuse.](#requirements-and-testing-procedures-84)
+
+[8.6	Use of application and system accounts and associated authentication factors is strictly managed.](#requirements-and-testing-procedures-85)
+
+[requirement 8](#requirement-8-identify-users-and-authenticate-access-to-system-components) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 8.1
+
+8.1 Processes and mechanisms for identifying users and authenticating access to system components are defined and understood.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.1.1 All security policies and operational procedures that are identified in Requirement 8 are:
+• Documented.
+• Kept up to date.
+• In use.
+• Known to all affected parties.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Expectations, controls, and oversight for meeting activities within Requirement 8 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures that are identified in Requirement 8 are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Requirement 8.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 8. While it is important to define the specific policies or procedures called out in Requirement 8, it is equally important to ensure they are properly documented, maintained, and disseminated.
+
+**Good Practice**
+
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
+**Definitions**
+
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.1.2 Roles and responsibilities for performing activities in Requirement 8 are documented, assigned, and understood.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Day-to-day responsibilities for performing all the activities in Requirement 8 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 8 are documented and assigned.
+
+8.1.2.b Interview personnel with responsibility for performing activities in Requirement 8 to verify that roles and responsibilities are assigned as documented and are understood.
+
+##### GUIDANCE
+
+**Purpose**
+
+If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities and critical activities may not occur.
+
+**Good Practice**
+
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
+
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+
+**Definitions**
+
+
+
+**Examples**
+
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 8.1
+
+8.2 User identification and related accounts for users and administrators are strictly managed throughout an account’s lifecycle.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.2.1 All users are assigned a unique ID before access to system components or cardholder data is allowed.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+All actions by all users are attributable to an individual.
+
+###### APPLICABILITY NOTES
+
+This requirement is not intended to apply to user accounts within point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.2.1.a Interview responsible personnel to verify that all users are assigned a unique ID for access to system components and cardholder data.
+
+8.2.1.b Examine audit logs and other evidence to verify that access to system components and cardholder data can be uniquely identified and associated with individuals.
+
+##### GUIDANCE
+
+**Purpose**
+
+The ability to trace actions performed on a computer system to an individual establishes accountability and traceability and is fundamental to establishing effective access controls.
+
+By ensuring each user is uniquely identified, instead of using one ID for several employees, an organization can maintain individual responsibility for actions and an effective record in the audit log per employee. In addition, this will assist with issue resolution and containment when misuse or malicious intent occurs.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
 
@@ -5596,11 +5929,10 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 
 
-[sections 7](#sections-7) | 
+[sections 8](#sections-8) | 
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
@@ -5644,11 +5976,10 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 
 
-[sections 7](#sections-7) | 
+[sections 8](#sections-8) | 
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
@@ -5692,11 +6023,10 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 
 
-[sections 7](#sections-7) | 
+[sections 8](#sections-8) | 
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
@@ -5740,11 +6070,10 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 
 
-[sections 7](#sections-7) | 
+[sections 8](#sections-8) | 
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
@@ -5788,7 +6117,1134 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 
 
-[sections 7](#sections-7) | 
+[sections 8](#sections-8) | 
 [top](#pci-dss-v40)
 
 ---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
