@@ -8,7 +8,7 @@
 
 [PRINCIPLE PCI DSS REQUIREMENT: Maintain a Vulnerability Management Program](#principle-pci-dss-requirement-maintain-a-vulnerability-management-program)
 
-[PRINCIPLE PCI DSS REQUIREMENT: Implement Strong Access Control Measures]()
+[PRINCIPLE PCI DSS REQUIREMENT: Implement Strong Access Control Measures](#principle-pci-dss-requirement-implement-strong-access-control-measures)
 
 [PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks]()
 
@@ -42,7 +42,7 @@
 
 [Requirement 6: Develop and Maintain Secure Systems and Software](#requirement-6-develop-and-maintain-secure-systems-and-software)
 
-[Requirement 7: Restrict Access to System Components and Cardholder Data by Business Need to Know]()
+[Requirement 7: Restrict Access to System Components and Cardholder Data by Business Need to Know](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know)
 
 [Requirement 8: Identify Users and Authenticate Access to System Components]()
 
@@ -5003,18 +5003,13 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 ---
 
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+6.5.6 Test data and test accounts are removed from system components before the system goes into production.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Test data and test accounts cannot exist in production environments.
 
 ###### APPLICABILITY NOTES
 
@@ -5022,13 +5017,17 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+6.5.6.a Examine policies and procedures to verify that processes are defined for removal of test data and test accounts from system components before the system goes into production.
 
+6.5.6.b Observe testing processes for both off-the-shelf software and in-house applications, and interview personnel to verify test data and test accounts are removed before a system goes into production.
+
+6.5.6.c Examine data and accounts for recently installed or updated off-the-shelf software and in-house applications to verify there is no test data or test accounts on systems in production.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+This data may give away information about the functioning of an application or system and is an easy target for unauthorized individuals to exploit to gain access to systems. Possession of such information could facilitate compromise of the system and related account data.
 
 **Good Practice**
 
@@ -5047,6 +5046,509 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 
 [sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Implement Strong Access Control Measures
+
+### Requirement 7: Restrict Access to System Components and Cardholder Data by Business Need to Know
+
+#### OVERVIEW
+Unauthorized individuals may gain access to critical data or systems due to ineffective access control rules and definitions. To ensure critical data can only be accessed by authorized personnel, systems and processes must be in place to limit access based on need to know and according to job responsibilities.
+
+“Access” or “access rights” are created by rules that provide users access to systems, applications, and data, while “privileges” allow a user to perform a specific action or function in relation to that system, application, or data. For example, a user may have access rights to specific data, but whether they can only read that data, or can also change or delete the data is determined by the user’s assigned privileges.
+
+“Need to know” refers to providing access to only the least amount of data needed to perform a job.
+
+“Least privileges” refers to providing only the minimum level of privileges needed to perform a job.
+
+These requirements apply to user accounts and access for employees, contractors, consultants, and internal and external vendors and other third parties (for example, for providing support or maintenance services). Certain requirements also apply to application and system accounts used by the entity (also called “service accounts”).
+
+**These requirements do not apply to consumers (cardholders).**
+
+Refer to Appendix G for definitions of PCI DSS terms.
+
+
+#### SECTIONS 7
+[7.1 Processes and mechanisms for restricting access to system components and cardholder data by business need to know are defined and understood.](#requirements-and-testing-procedures-71)
+
+[7.2 Access to system components and data is appropriately defined and assigned.](#requirements-and-testing-procedures-72)
+
+[7.3 Access to system components and data is managed via an access control system(s).]()
+
+[requirement 7](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 7.1
+
+7.1 Processes and mechanisms for restricting access to system components and cardholder data by business need to know are defined and understood.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.1.1 All security policies and operational procedures that are identified in Requirement 7 are:
+• Documented.
+• Kept up to date.
+• In use.
+• Known to all affected parties.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Expectations, controls, and oversight for meeting activities within Requirement 7 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 7 are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Requirement 7.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 7. While it is important to define the specific policies or procedures called out in Requirement 7, it is equally important to ensure they are properly documented, maintained, and disseminated.
+
+**Good Practice**
+
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
+**Definitions**
+
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.1.2 Roles and responsibilities for performing activities in Requirement 7 are documented, assigned, and understood.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Day-to-day responsibilities for performing all the activities in Requirement 7 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 7 are documented and assigned.
+
+7.1.2.b Interview personnel with responsibility for performing activities in Requirement 7 to verify that roles and responsibilities are assigned as and are understood.
+
+##### GUIDANCE
+
+**Purpose**
+
+If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities, and critical activities may not occur.
+
+**Good Practice**
+
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
+
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+
+**Definitions**
+
+
+
+**Examples**
+
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 7.2
+
+7.2 Access to system components and data is appropriately defined and assigned.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.2.1 An access control model is defined and includes granting access as follows:
+• Appropriate access depending on the entity’s business and access needs.
+• Access to system components and data resources that is based on users’ job classification and functions.
+• The least privileges required (for example, user, administrator) to perform a job function.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Access requirements are established according to job functions following least-privilege and need-to-know principles.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.2.1.a Examine documented policies and procedures and interview personnel to verify the access control model is defined in accordance with all elements specified in this requirement.
+
+7.2.1.b Examine access control model settings and verify that access needs are appropriately defined in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Defining an access control model that is appropriate for the entity’s technology and access control philosophy supports a consistent and uniform way of allocating access and reduces the possibility of errors such as the granting of excessive rights.
+
+**Good Practice**
+
+A factor to consider when defining access needs is the separation of duties principle. This principle is intended to prevent fraud and misuse or theft of resources. For example, 1) dividing mission-critical functions and information system support functions among different individuals and/or functions, 2) establishing roles such that information system support activities are performed by different functions/individuals (for example, system management, programming, configuration management, quality assurance and testing, and network security), and 3) ensuring security personnel administering access control functions do not also administer audit functions.
+
+In environments where one individual performs multiple functions, such as administration and security operations, duties may be assigned so that no single individual has end-to-end control of a process without an independent checkpoint. For example, responsibility for configuration and responsibility for approving changes could be assigned to separate individuals.
+
+**Definitions**
+
+Key elements of an access control model include:
+• Resources to be protected (the systems/devices/data to which access is needed),
+• Job functions that need access to the resource (for example, system administrator, call-center personnel, store clerk), and
+• Which activities each job function needs to perform (for example, read/write or query).
+Once job functions, resources, and activities per job functions are defined, individuals can be granted access accordingly.
+
+**Examples**
+
+Access control models that entities can consider include role-based access control (RBAC) and attribute-based access control (ABAC). The access control model used by a given entity depends on their business and access needs.
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.2.2 Access is assigned to users, including privileged users, based on:
+• Job classification and function.
+• Least privileges necessary to perform job responsibilities.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Access to systems and data is limited to only the access needed to perform job functions, as defined in the related access roles.
+
+###### APPLICABILITY NOTES
+
+7.2.2.a Examine policies and procedures to verify they cover assigning access to users in accordance with all elements specified in this requirement.
+
+7.2.2.b Examine user access settings, including for privileged users, and interview responsible management personnel to verify that privileges assigned are in accordance with all elements specified in this requirement.
+
+7.2.2.c Interview personnel responsible for assigning access to verify that privileged user access is assigned in accordance with all elements specified in this requirement.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+Assigning least privileges helps prevent users without sufficient knowledge about the application from incorrectly or accidentally changing application configuration or altering its security settings. Enforcing least privilege also helps to minimize the scope of damage if an unauthorized person gains access to a user ID.
+
+**Good Practice**
+
+Access rights are granted to a user by assignment to one or several functions. Assess is assigned depending on the specific user functions and with the minimum scope required for the job.
+When assigning privileged access, it is important to assign individuals only the privileges they need to perform their job (the “least privileges”). For example, the database administrator or backup administrator should not be assigned the same privileges as the overall systems administrator.
+
+Once needs are defined for user functions (per PCI DSS requirement 7.2.1), it is easy to grant individuals access according to their job classification and function by using the already-created roles.
+
+Entities may wish to consider use of Privileged Access Management (PAM), which is a method to grant access to privileged accounts only when those privileges are required, immediately revoking that access once they are no longer needed.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.2.3 Required privileges are approved by authorized personnel.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Access privileges cannot be granted to users without appropriate, documented authorization.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.2.3.a Examine policies and procedures to verify they define processes for approval of all privileges by authorized personnel.
+
+7.2.3.b Examine user IDs and assigned privileges, and compare with documented approvals to verify that:
+• Documented approval exists for the assigned privileges.
+• The approval was by authorized personnel.
+• Specified privileges match the roles assigned to the individual.
+
+##### GUIDANCE
+
+**Purpose**
+
+Documented approval (for example, in writing or electronically) assures that those with access and privileges are known and authorized by management, and that their access is necessary for their job function.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.2.4 All user accounts and related access privileges, including third-party/vendor accounts, are reviewed as follows:
+• At least once every six months.
+• To ensure user accounts and access remain appropriate based on job function.
+• Any inappropriate access is addressed.
+• Management acknowledges that access remains appropriate.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Account privilege assignments are verified periodically by management as correct, and nonconformities are remediated.
+
+###### APPLICABILITY NOTES
+
+This requirement applies to all user accounts and related access privileges, including those used by personnel and third parties/vendors, and accounts used to access third-party cloud services.
+See Requirements 7.2.5 and 7.2.5.1 and 8.6.1 through 8.6.3 for controls for application and system accounts.
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.2.4.a Examine policies and procedures to verify they define processes to review all user accounts and related access privileges, including third-party/vendor accounts, in accordance with all elements specified in this requirement.
+
+7.2.4.b Interview responsible personnel and examine documented results of periodic reviews of user accounts to verify that all the results are in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Regular review of access rights helps to detect excessive access rights remaining after user job responsibilities change, system functions change, or other modifications. If excessive user rights are not revoked in due time, they may be used by malicious users for unauthorized access.
+
+This review provides another opportunity to ensure that accounts for all terminated users have been removed (if any were missed at the time of termination), as well as to ensure that any third parties that no longer need access have had their access terminated.
+
+**Good Practice**
+
+When a user transfers into a new role or a new department, typically the privileges and access associated with their former role are no longer required. Continued access to privileges or functions that are no longer required may introduce the risk of misuse or errors. Therefore, when responsibilities change, processes that revalidate access help to ensure user access is appropriate for the user’s new responsibilities.
+
+Entities can consider implementing a regular, repeatable process for conducting reviews of access rights, and assigning “data owners” that are responsible for managing and monitoring access to data related to their job function and that also ensure user access remains current and appropriate. As an example, a direct manager could review team access monthly, while the senior manager reviews their groups’ access quarterly, both making updates to access as needed. The intent of these best practices is to support and facilitate conducting the reviews at least once every 6 months.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.2.5 All application and system accounts and related access privileges are assigned and managed as follows:
+• Based on the least privileges necessary for the operability of the system or application.
+• Access is limited to the systems, applications, or processes that specifically require their use.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Access rights granted to application and system accounts are limited to only the access needed for the operability of that application or system.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.2.5.a Examine policies and procedures to verify they define processes to manage and assign application and system accounts and related access privileges in accordance with all elements specified in this requirement.
+
+7.2.5.b Examine privileges associated with system and application accounts and interview responsible personnel to verify that application and system accounts and related access privileges are assigned and managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+It is important to establish the appropriate access level for application or system accounts. If such accounts are compromised, malicious users will receive the same access level as that granted to the application or system. Therefore, it is important to ensure limited access is granted to system and application accounts on the same basis as to user accounts.
+
+**Good Practice**
+
+Entities may want to consider establishing a baseline when setting up these application and system accounts including the following as applicable to the organization:
+• Making sure that the account is not a member of a privileged group such as domain administrators, local administrators, or root.
+• Restricting which computers the account can be used on.
+• Restricting hours of use.
+• Removing any additional settings like VPN access and remote access.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.2.5.1 All access by application and system accounts and related access privileges are reviewed as follows:
+• Periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1).
+• The application/system access remains appropriate for the function being performed.
+• Any inappropriate access is addressed.
+• Management acknowledges that access remains appropriate.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Application and system account privilege assignments are verified periodically by management as correct, and nonconformities are remediated.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.2.5.1.a Examine policies and procedures to verify they define processes to review all application and system accounts and related access privileges in accordance with all elements specified in this requirement.
+
+7.2.5.1.b Examine the entity’s targeted risk analysis for the frequency of periodic reviews of application and system accounts and related access privileges to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1.
+
+7.2.5.1.c Interview responsible personnel and examine documented results of periodic reviews of system and application accounts and related privileges to verify that the reviews occur in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Regular review of access rights helps to detect excessive access rights remaining after system functions change, or other application or system modifications occur. If excessive rights are not removed when no longer needed, they may be used by malicious users for unauthorized access.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+7.2.6 All user access to query repositories of stored cardholder data is restricted as follows:
+• Via applications or other programmatic methods, with access and allowed actions based on user roles and least privileges.
+• Only the responsible administrator(s) can directly access or query repositories of stored CHD.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Direct unfiltered (ad hoc) query access to cardholder data repositories is prohibited, unless performed by an authorized administrator.
+
+###### APPLICABILITY NOTES
+
+This requirement applies to controls for user access to query repositories of stored cardholder data.
+
+See Requirements 7.2.5 and 7.2.5.1 and 8.6.1 through 8.6.3 for controls for application and system accounts.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+7.2.6.a Examine policies and procedures and interview personnel to verify processes are defined for granting user access to query repositories of stored cardholder data, in accordance with all elements specified in this requirement.
+
+7.2.6.b Examine configuration settings for querying repositories of stored cardholder data to verify they are in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+The misuse of query access to repositories of cardholder data has been a regular cause of data breaches. Limiting such access to administrators reduces the risk of such access being abused by unauthorized users.
+
+**Good Practice**
+
+Typical user actions include moving, copying, and deleting data. Also consider the scope of privilege needed when granting access. For example, access can be granted to specific objects such as data elements, files, tables, indexes, views, and stored routines. Granting access to repositories of cardholder data should follow the same process as all other granted access, meaning that it is based on roles, with only the privileges assigned to each user that are needed to perform their job functions.
+
+**Definitions**
+
+“Programmatic methods” means granting access through means such as database stored procedures that allow users to perform controlled actions to data in a table, rather than via direct, unfiltered access to the data repository by end users (except for the responsible administrator(s), who need direct access to the database for their administrative duties).
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
 [top](#pci-dss-v40)
 
 ---
@@ -5094,7 +5596,7 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 
 
-[sections 6](#sections-6) | 
+[sections 7](#sections-7) | 
 [top](#pci-dss-v40)
 
 ---
@@ -5142,7 +5644,7 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 
 
-[sections 6](#sections-6) | 
+[sections 7](#sections-7) | 
 [top](#pci-dss-v40)
 
 ---
@@ -5190,7 +5692,103 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 
 
-[sections 6](#sections-6) | 
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
+[top](#pci-dss-v40)
+
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 7](#sections-7) | 
 [top](#pci-dss-v40)
 
 ---
