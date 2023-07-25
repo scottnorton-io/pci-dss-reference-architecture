@@ -46,7 +46,7 @@
 
 [Requirement 8: Identify Users and Authenticate Access to System Components](#requirement-8-identify-users-and-authenticate-access-to-system-components)
 
-[Requirement 9: Restrict Physical Access to Cardholder Data]()
+[Requirement 9: Restrict Physical Access to Cardholder Data](#requirement-9-restrict-physical-access-to-cardholder-data)
 
 [Requirement 10: Log and Monitor All Access to System Components and Cardholder Data]()
 
@@ -5726,9 +5726,9 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [8.4 Multi-factor authentication (MFA) is implemented to secure access into the CDE.](#requirements-and-testing-procedures-84)
 
-[8.5 Multi-factor authentication (MFA) systems are configured to prevent misuse.](#requirements-and-testing-procedures-84)
+[8.5 Multi-factor authentication (MFA) systems are configured to prevent misuse.](#requirements-and-testing-procedures-85)
 
-[8.6 Use of application and system accounts and associated authentication factors is strictly managed.](#requirements-and-testing-procedures-85)
+[8.6 Use of application and system accounts and associated authentication factors is strictly managed.](#requirements-and-testing-procedures-86)
 
 [requirement 8](#requirement-8-identify-users-and-authenticate-access-to-system-components) | 
 [requirements](#requirements) | 
@@ -6900,8 +6900,8 @@ Access into the CDE cannot be obtained by the use of a single authentication fac
 ###### APPLICABILITY NOTES
 
 This requirement does not apply to:
-• Application or system accounts performing automated functions.
-• User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+- Application or system accounts performing automated functions.
+- User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
 
 MFA is required for both types of access specified in Requirements 8.4.2 and 8.4.3. Therefore, applying MFA to one type of access does not replace the need to apply another instance of MFA to the other type of access. If an individual first connects to the entity’s network via remote access, and then later initiates a connection into the CDE from within the network, per this requirement the individual would authenticate using MFA twice, once when connecting via remote access to the entity’s network and once when connecting via non-console administrative access from the entity’s network into the CDE.
 
@@ -6942,9 +6942,657 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+###### DEFINED APPROACH REQUIREMENTS
+
+8.4.3 MFA is implemented for all remote network access originating from outside the entity’s network that could access or impact the CDE as follows:
+- All remote access by all personnel, both users and administrators, originating from outside the entity’s network.
+- All remote access by third parties and vendors.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Remote access to the entity’s network cannot be obtained by using a single authentication factor.
+
+###### APPLICABILITY NOTES
+
+The requirement for MFA for remote access originating from outside the entity’s network applies to all user accounts that can access the network remotely, where that remote access leads to or could lead to access into the CDE.
+
+If remote access is to a part of the entity’s network that is properly segmented from the CDE, such that remote users cannot access or impact the CDE, MFA for remote access to that part of the network is not required. However, MFA is required for any remote access to networks with access to the CDE and is recommended for all remote access to the entity’s networks.
+
+The MFA requirements apply for all types of system components, including cloud, hosted systems, and on-premises applications, network security devices, workstations, servers, and endpoints, and includes access directly to an entity’s networks or systems as well as web-based access to an application or function.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.4.3.a Examine network and/or system configurations for remote access servers and systems to verify MFA is required in accordance with all elements specified in this requirement.
+
+8.4.3.b Observe personnel (for example, users and administrators) connecting remotely to the network and verify that multi-factor authentication is required.
+
+##### GUIDANCE
+
+**Purpose**
+
+Requiring more than one type of authentication factor reduces the probability that an attacker can gain access to a system by masquerading as a legitimate user, because the attacker would need to compromise multiple authentication factors. This is especially true in environments where traditionally the single authentication factor employed was something a user knows, such as a password or passphrase.
+
+**Good Practice**
 
 
+
+**Definitions**
+
+Multi-factor authentication (MFA) requires an individual to present a minimum of two of the three authentication factors specified in Requirement 8.3.1 before access is granted. Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 8.5
+
+8.5 Multi-factor authentication (MFA) systems are configured to prevent misuse.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.5.1 MFA systems are implemented as follows:
+- The MFA system is not susceptible to replay attacks.
+- MFA systems cannot be bypassed by any users, including administrative users unless specifically documented, and authorized by management on an exception basis, for a limited time period.
+- At least two different types of authentication factors are used.
+- Success of all authentication factors is required before access is granted.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+MFA systems are resistant to attack and strictly control any administrative overrides.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.5.1.a Examine vendor system documentation to verify that the MFA system is not susceptible to replay attacks.
+
+8.5.1.b Examine system configurations for the MFA implementation to verify it is configured in accordance with all elements specified in this requirement.
+
+8.5.1.c Interview responsible personnel and observe processes to verify that any requests to bypass MFA are specifically documented and authorized by management on an exception basis, for a limited time period.
+
+8.5.1.d Observe personnel logging into system components in the CDE to verify that access is granted only after all authentication factors are successful.
+
+8.5.1.e Observe personnel connecting remotely from outside the entity’s network to verify that access is granted only after all authentication factors are successful.
+
+##### GUIDANCE
+
+**Purpose**
+
+Poorly configured MFA systems can be bypassed by attackers. This requirement therefore addresses configuration of MFA system(s) that provide MFA for users accessing system components in the CDE.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+Using one type of factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
+
+**Examples**
+
+
+
+**Further Information**
+
+For more information about MFA systems and features, refer to the following:
+
+PCI SSC’s *Information Supplement: Multi-Factor Authentication*
+
+PCI SSC’s Frequently Asked Questions (FAQs) on this topic.
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 8.6
+
+8.6 Use of application and system accounts and associated authentication factors is strictly managed.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.6.1 If accounts used by systems or applications can be used for interactive login, they are managed as follows:
+- Interactive use is prevented unless needed for an exceptional circumstance.
+- Interactive use is limited to the time needed for the exceptional circumstance.
+- Business justification for interactive use is documented.
+- Interactive use is explicitly approved by management.
+- Individual user identity is confirmed before access to account is granted.
+- Every action taken is attributable to an individual user.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+When used interactively, all actions with accounts designated as system or application accounts are authorized and attributable to an individual person.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.6.1 Examine application and system accounts that can be used interactively and interview administrative personnel to verify that application and system accounts are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Like individual user accounts, system and application accounts require accountability and strict management to ensure they are used only for the intended purpose and are not misused.
+Attackers often compromise system or application accounts to gain access to cardholder data.
+
+**Good Practice**
+
+Where possible, configure system and application accounts to disallow interactive login to prevent unauthorized individuals from logging in and using the account with its associated system privileges, and to limit the machines and devices on which the account can be used.
+
+**Definitions**
+
+System or application accounts are those accounts that execute processes or perform tasks on a computer system or application and are not typically accounts that an individual logs into. These accounts usually have elevated privileges that are required to perform specialized tasks or functions.
+
+Interactive login is the ability for a person to log into a system or application account in the same manner as a normal user account. Using system and application accounts this way means there is no accountability and traceability of actions taken by the user.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.6.2 Passwords/passphrases for any application and system accounts that can be used for interactive login are not hard coded in scripts, configuration/property files, or bespoke and custom source code.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Passwords/passphrases used by application and system accounts cannot be used by unauthorized personnel.
+
+###### APPLICABILITY NOTES
+
+Stored passwords/passphrases are required to be encrypted in accordance with PCI DSS Requirement 8.3.2.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.6.2.a Interview personnel and examine system development procedures to verify that processes are defined for application and system accounts that can be used for interactive login, specifying that passwords/passphrases are not hard coded in scripts, configuration/property files, or bespoke and custom source code.
+
+8.6.2.b Examine scripts, configuration/property files, and bespoke and custom source code for application and system accounts that can be used for interactive login, to verify passwords/passphrases for those accounts are not present.
+
+##### GUIDANCE
+
+**Purpose**
+
+Not properly protecting passwords/passphrases used by application and system accounts, especially if those accounts can be used for interactive login, increases the risk and success of unauthorized use of those privileged accounts.
+
+**Good Practice**
+
+Changing these values due to suspected or confirmed disclosure can be particularly difficult to implement.
+Tools can facilitate both management and security of authentication factors for application and system accounts. For example, consider password vaults or other system-managed controls.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+8.6.3 Passwords/passphrases for any application and system accounts are protected against misuse as follows:
+- Passwords/passphrases are changed periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1) and upon suspicion or confirmation of compromise.
+- Passwords/passphrases are constructed with sufficient complexity appropriate for how frequently the entity changes the passwords/passphrases.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Passwords/passphrases used by application and system accounts cannot be used indefinitely and are structured to resist brute-force and guessing attacks.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+8.6.3.a Examine policies and procedures to verify that procedures are defined to protect passwords/passphrases for application or system accounts against misuse in accordance with all elements specified in this requirement.
+
+8.6.3.b Examine the entity’s targeted risk analysis for the change frequency and complexity for passwords/passphrases used for interactive login to application and system accounts to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1 and addresses:
+- The frequency defined for periodic changes to application and system passwords/passphrases.
+- The complexity defined for passwords/passphrases and appropriateness of the complexity relative to the frequency of changes.
+
+8.6.3.c Interview responsible personnel and examine system configuration settings to verify that passwords/passphrases for any application and system accounts that can be used for interactive login are protected against misuse in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Systems and application accounts pose more inherent security risk than user accounts because they often run in an elevated security context, with access to systems that may not be typically granted to user accounts, such as programmatic access to databases, etc. As a result, special consideration must be made to protect passwords/passphrases used for application and system accounts.
+
+**Good Practice**
+
+Entities should consider the following risk factors when determining how to protect application and system passwords/passphrases against misuse:
+- How securely the passwords/passphrases are stored (for example, whether they are stored in a password vault).
+- Staff turnover.
+- The number of people with access to the authentication factor.
+- Whether the account can be used for interactive login.
+- Whether the security posture of accounts is dynamically analyzed, and real-time access to resources is automatically determined accordingly (see Requirement 8.3.9).
+
+All these elements affect the level of risk for application and system accounts and might impact the security of systems accessed by the system and application accounts.
+
+Entities should correlate their selected change frequency for application and system passwords/passwords with their selected complexity for those passwords/passphrases – i.e., the complexity should be more rigorous when passwords/passphrases are changed infrequently and can be less rigorous when changed more frequently. For example, a longer change frequency is more justifiable when passwords/passphrases complexity is set to 36 alphanumeric characters with upper- and lower-case letters, numbers, and special characters.
+
+Best practices are to consider password changes at least once a year, a password/passphrase length of at least 15 characters, and complexity for the passwords/passphrase of alphanumeric characters, with upper- and lower-case letters, and special characters.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+For information about variability and equivalency of password strength for passwords/passphrases of different formats, see the industry standards (for example, the current version of *NIST SP 800-63 Digital Identity Guidelines*).
+
+[sections 8](#sections-8) | 
+[top](#pci-dss-v40)
+
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Implement Strong Access Control Measures
+
+### Requirement 9: Restrict Physical Access to Cardholder Data
+
+#### OVERVIEW
+Any physical access to cardholder data or systems that store, process, or transmit cardholder data provides the opportunity for individuals to access and/or remove systems or hardcopies containing cardholder data; therefore, physical access should be appropriately restricted.
+
+There are three different areas mentioned in Requirement 9:
+
+1.	Requirements that specifically refer to sensitive areas are intended to apply to those areas only.
+2.	Requirements that specifically refer to the cardholder data environment (CDE) are intended to apply to the entire CDE, including any sensitive areas residing within the CDE.
+3.	Requirements that specifically refer to the facility are referencing the types of controls that may be managed more broadly at the physical boundary of a business premise (such as a building) within which CDEs and sensitive areas reside. These controls often exist outside a CDE or sensitive area, for example a guard desk that identifies, badges, and logs visitors. The term “facility” is used to recognize that these controls may exist at different places within a facility, for instance, at building entry or at an internal entrance to a data center or office space.
+
+Refer to Appendix G for definitions of “media,” “personnel,” “sensitive areas” and other PCI DSS terms.
+
+
+#### SECTIONS 9
+[9.1 Processes and mechanisms for restricting physical access to cardholder data are defined and understood.](#requirements-and-testing-procedures-91)
+
+[9.2 Physical access controls manage entry into facilities and systems containing cardholder data.](#requirements-and-testing-procedures-92)
+
+[9.3 Physical access for personnel and visitors is authorized and managed.](#requirements-and-testing-procedures-93)
+
+[9.4 Media with cardholder data is securely stored, accessed, distributed, and destroyed.](#requirements-and-testing-procedures-94)
+
+[9.5 Point of interaction (POI) devices are protected from tampering and unauthorized substitution.](#requirements-and-testing-procedures-95)
+
+[requirement 9](#requirement-9-restrict-physical-access-to-cardholder-data) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 9.1
+
+9.1 Processes and mechanisms for restricting physical access to cardholder data are defined and understood.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.1.1 All security policies and operational procedures that are identified in Requirement 9 are:
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Expectations, controls, and oversight for meeting activities within Requirement 9 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 9 are managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Requirement 9.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 9. While it is important to define the specific policies or procedures called out in Requirement 9, it is equally important to ensure they are properly documented, maintained, and disseminated.
+
+**Good Practice**
+
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
+**Definitions**
+
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
+
+Policies and procedures, including updates, are actively communicated to all affected personnel, and are supported by operating procedures describing how to perform activities.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.1.2 Roles and responsibilities for performing activities in Requirement 9 are documented, assigned, and understood.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Day-to-day responsibilities for performing all the activities in Requirement 9 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 9 are documented and assigned.
+
+9.1.2.b Interview personnel with responsibility for performing activities in Requirement 9 to verify that roles and responsibilities are assigned as documented and are understood.
+
+##### GUIDANCE
+
+**Purpose**
+
+If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities, and critical activities may not occur.
+
+**Good Practice**
+
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
+
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 9.2
+
+9.2 Physical access controls manage entry into facilities and systems containing cardholder data.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.2.1 Appropriate facility entry controls are in place to restrict physical access to systems in the CDE.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+9.2.1 Appropriate facility entry controls are in place to restrict physical access to systems in the CDE.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.2.1 Observe entry controls and interview responsible personnel to verify that physical security controls are in place to restrict access to systems in the CDE.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without physical access controls, unauthorized persons could potentially gain access to the CDE and sensitive information, or could alter system configurations, introduce vulnerabilities into the network, or destroy or steal equipment. Therefore, the purpose of this requirement is that physical access to the CDE is controlled via physical security controls such as badge readers or other mechanisms such as lock and key.
+
+**Good Practice**
+
+Whichever mechanism meets this requirement, it must be sufficient for the organization to verify that only authorized personnel are granted
+
+**Definitions**
+
+
+
+**Examples**
+
+Facility entry controls include physical security controls at each computer room, data center, and other physical areas with systems in the CDE. It can also include badge readers or other devices that manage physical access controls, such as lock and key with a current list of all individuals holding the keys.
+
+**Further Information**
+
+
+
+[sections 8](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.2.1.1 Individual physical access to sensitive areas within the CDE is monitored with either video cameras or physical access control mechanisms (or both) as follows:
+• Entry and exit points to/from sensitive areas within the CDE are monitored.
+• Monitoring devices or mechanisms are protected from tampering or disabling.
+• Collected data is reviewed and correlated with other entries.
+• Collected data is stored for at least three months, unless otherwise restricted by law.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Trusted, verifiable records are maintained of individual physical entry to, and exit from, sensitive areas.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.2.1.1.a Observe locations where individual physical access to sensitive areas within the CDE occurs to verify that either video cameras or physical access control mechanisms (or both) are in place to monitor the entry and exit points.
+
+9.2.1.1.b Observe locations where individual physical access to sensitive areas within the CDE occurs to verify that either video cameras or physical access control mechanisms (or both) are protected from tampering or disabling.
+
+9.2.1.1.c Observe the physical access control mechanisms and/or examine video cameras and interview responsible personnel to verify that:
+• Collected data from video cameras and/or physical access control mechanisms is reviewed and correlated with other entries.
+• Collected data is stored for at least three months.
+
+##### GUIDANCE
+
+**Purpose**
+
+Maintaining details of individuals entering and exiting the sensitive areas can help with investigations of physical breaches by identifying individuals that physically accessed the sensitive areas, as well as when they entered and exited.
+
+**Good Practice**
+
+Whichever mechanism meets this requirement, it should effectively monitor all entry and exit points to sensitive areas.
+
+Criminals attempting to gain physical access to sensitive areas will often try to disable or bypass the monitoring controls. To protect these controls from tampering, video cameras could be positioned so they are out of reach and/or be monitored to detect tampering. Similarly, physical access control mechanisms could be monitored or have physical protections installed to prevent them from being damaged or disabled by malicious individuals.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.2.2 Physical and/or logical controls are implemented to restrict use of publicly accessible network jacks within the facility.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Unauthorized devices cannot connect to the entity’s network from public areas within the facility.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.2.2 Interview responsible personnel and observe locations of publicly accessible network jacks to verify that physical and/or logical controls are in place to restrict access to publicly accessible network jacks within the facility.
+
+##### GUIDANCE
+
+**Purpose**
+
+Restricting access to network jacks (or network ports) will prevent malicious individuals from plugging into readily available network jacks and gaining access to the CDE or systems connected to the CDE.
+
+**Good Practice**
+
+Whether logical or physical controls, or a combination of both, are used, they should prevent an individual or device that is not explicitly authorized from being able to connect to the network.
+
+**Definitions**
+
+
+
+**Examples**
+
+Methods to meet this requirement include network jacks located in public areas and areas accessible to visitors could be disabled and only enabled when network access is explicitly authorized. Alternatively, processes could be implemented to ensure that visitors are escorted at all times in areas with active network jacks.
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.2.3 Physical access to wireless access points, gateways, networking/communications hardware, and telecommunication lines within the facility is restricted.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Physical networking equipment cannot be accessed by unauthorized personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.2.3 Interview responsible personnel and observe locations of hardware and lines to verify that physical access to wireless access points, gateways, networking/communications hardware, and telecommunication lines within the facility is restricted.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without appropriate physical security over access to wireless components and devices, and computer networking and telecommunications equipment and lines, malicious users could gain access to the entity’s network resources. Additionally, they could connect their own devices to the network to gain unauthorized access to the CDE or systems connected to the CDE.
+
+Additionally, securing networking and communications hardware prevents malicious users from intercepting network traffic or physically connecting their own devices to wired network resources.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.2.4 Access to consoles in sensitive areas is restricted via locking when not in use.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Physical consoles within sensitive areas cannot be used by unauthorized personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.2.4 Observe a system administrator’s attempt to log into consoles in sensitive areas and verify that they are “locked” to prevent unauthorized use.
+
+##### GUIDANCE
+
+**Purpose**
+
+Locking console login screens prevents unauthorized persons from gaining access to sensitive information, altering system configurations, introducing vulnerabilities into the network, or destroying records.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 9.3
+
+9.3 Physical access for personnel and visitors is authorized and managed.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
@@ -6984,7 +7632,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
 ---
@@ -7031,7 +7679,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
 ---
@@ -7078,7 +7726,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
 ---
@@ -7125,7 +7773,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
 ---
@@ -7172,7 +7820,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
 ---
@@ -7219,7 +7867,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
 ---
@@ -7266,7 +7914,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
 ---
@@ -7313,6 +7961,852 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 
-[sections 8](#sections-8) | 
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
