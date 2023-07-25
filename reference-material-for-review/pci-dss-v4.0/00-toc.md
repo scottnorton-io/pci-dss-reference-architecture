@@ -94,16 +94,11 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 #### SECTIONS 1
 
-[1.1 Processes and mechanisms for installing and maintaining network security controls are defined and understood.](#requirements-and-testing-procedures-11)
-
-[1.2 Network security controls (NSCs) are configured and maintained.](#requirements-and-testing-procedures-12)
-
-[1.3 Network access to and from the cardholder data environment is restricted.](#requirements-and-testing-procedures-13)
-
-[1.4 Network connections between trusted and untrusted networks are controlled.](#requirements-and-testing-procedures-14)
-
-[1.5 Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated.](#requirements-and-testing-procedures-15)
-
+[1.1 Processes and mechanisms for installing and maintaining network security controls are defined and understood.](#requirements-and-testing-procedures-11) | 
+[1.2 Network security controls (NSCs) are configured and maintained.](#requirements-and-testing-procedures-12) | 
+[1.3 Network access to and from the cardholder data environment is restricted.](#requirements-and-testing-procedures-13) | 
+[1.4 Network connections between trusted and untrusted networks are controlled.](#requirements-and-testing-procedures-14) | 
+[1.5 Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated.](#requirements-and-testing-procedures-15) | 
 [requirement 1](#requirement-1-install-and-maintain-network-security-controls) | 
 [requirements](#requirements) | 
 [principles](#principles) |
@@ -187,8 +182,7 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
-[sections 1](#sections-1)
-
+[sections 1](#sections-1) | 
 [top](#pci-dss-v40)
 
 ---
@@ -503,8 +497,7 @@ If the secure configuration for a router is stored in non-volatile memory, when 
 **Further Information**
 
 
-[sections 1](#sections-1)
-
+[sections 1](#sections-1) | 
 [top](#pci-dss-v40)
 
 ---
@@ -625,8 +618,7 @@ The known (or unknown) implementation and exploitation of wireless technology wi
 **Further Information**
 
 
-[sections 1](#sections-1)
-
+[sections 1](#sections-1) | 
 [top](#pci-dss-v40)
 
 ---
@@ -826,8 +818,7 @@ Methods to obscure IP addressing may include, but are not limited to:
 **Further Information**
 
 
-[sections 1](#sections-1)
-
+[sections 1](#sections-1) | 
 [top](#pci-dss-v40)
 
 ---
@@ -884,8 +875,7 @@ Practices include forbidding split-tunneling of VPNs for employee-owned or corpo
 **Further Information**
 
 
-[sections 1](#sections-1)
-
+[sections 1](#sections-1) | 
 [top](#pci-dss-v40)
 
 ---
@@ -901,12 +891,9 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 #### SECTIONS 2
 
-[2.1	Processes and mechanisms for applying secure configurations to all system components are defined and understood.](#requirements-and-testing-procedures-21)
-
-[2.2	System components are configured and managed securely.](#requirements-and-testing-procedures-22)
-
-[2.3	Wireless environments are configured and managed securely.](#requirements-and-testing-procedures-23)
-
+[2.1	Processes and mechanisms for applying secure configurations to all system components are defined and understood.](#requirements-and-testing-procedures-21) | 
+[2.2	System components are configured and managed securely.](#requirements-and-testing-procedures-22) | 
+[2.3	Wireless environments are configured and managed securely.](#requirements-and-testing-procedures-23) | 
 [requirement 2](#requirement-2-apply-secure-configurations-to-all-system-components) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
@@ -1000,8 +987,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 **Further Information**
 
 
-[sections 2](#sections-2)
-
+[sections 2](#sections-2) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1328,8 +1314,7 @@ Cleartext protocols (such as HTTP, telnet, etc.) do not encrypt traffic or logon
 Refer to industry standards and best practices such as NIST SP 800-52 and SP 800-57.
 
 
-[sections 2](#sections-2)
-
+[sections 2](#sections-2) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1382,8 +1367,7 @@ Wireless passwords should be constructed so that they are resistant to offline b
 
 
 
-[sections 2](#sections-2)
-
+[sections 2](#sections-2) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1432,8 +1416,7 @@ In addition, any keys that are known to be, or suspected of being, compromised s
 
 
 
-[sections 2](#sections-2)
-
+[sections 2](#sections-2) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1456,20 +1439,13 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 #### SECTIONS 3
 
-[3.1 Processes and mechanisms for protecting stored account data are defined and understood.](#requirements-and-testing-procedures-31)
-
-[3.2 Storage of account data is kept to a minimum.](#requirements-and-testing-procedures-32)
-
-[3.3 Sensitive authentication data (SAD) is not stored after authorization.](#requirements-and-testing-procedures-33)
-
-[3.4 Access to displays of full PAN and ability to copy cardholder data are restricted.](#requirements-and-testing-procedures-34)
-
-[3.5 Primary account number (PAN) is secured wherever it is stored.](#requirements-and-testing-procedures-35)
-
-[3.6 Cryptographic keys used to protect stored account data are secured.](#requirements-and-testing-procedures-36)
-
-[3.7 Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37)
-
+[3.1 Processes and mechanisms for protecting stored account data are defined and understood.](#requirements-and-testing-procedures-31) | 
+[3.2 Storage of account data is kept to a minimum.](#requirements-and-testing-procedures-32) | 
+[3.3 Sensitive authentication data (SAD) is not stored after authorization.](#requirements-and-testing-procedures-33) | 
+[3.4 Access to displays of full PAN and ability to copy cardholder data are restricted.](#requirements-and-testing-procedures-34) | 
+[3.5 Primary account number (PAN) is secured wherever it is stored.](#requirements-and-testing-procedures-35) | 
+[3.6 Cryptographic keys used to protect stored account data are secured.](#requirements-and-testing-procedures-36) | 
+[3.7 Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37) | 
 [requirement 3](#requirement-3-protect-stored-account-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
@@ -1524,8 +1500,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1572,8 +1547,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1642,8 +1616,7 @@ An automated, programmatic procedure could be run to locate and remove data, or 
 
 See *NIST SP 800-88 Rev. 1, Guidelines for Media Sanitization.*
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1696,8 +1669,7 @@ The authorization process completes when a merchant receives a transaction respo
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1752,8 +1724,7 @@ Data sources to review to ensure that the full contents of any track are not ret
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1805,8 +1776,7 @@ Data sources to review to ensure that the card verification code is not retained
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1860,8 +1830,7 @@ Data sources to review to ensure that PIN and PIN blocks are not retained upon c
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1915,8 +1884,7 @@ The authorization process is completed as soon as the response to an authorizati
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -1968,8 +1936,7 @@ Legitimate issuing business need means that the data is needed to facilitate the
 
 Refer to *ISO/DIS 9564-5 Financial services — Personal Identification Number (PIN) management and security — Part 5: Methods for the generation, change, and verification of PINs and card security data using the advanced encryption standard.*
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2027,8 +1994,7 @@ Masking is not synonymous with truncation and these terms cannot be used interch
 
 For more information about masking and truncation, see PCI SSC’s FAQs on these topics.
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2083,8 +2049,7 @@ Storage devices include, but are not limited to, local hard drives, virtual driv
 
 Vendor documentation for the remote-access technology in use will provide information about the system settings needed to implement this requirement.
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2149,8 +2114,7 @@ Sources for information about index tokens include:
 - PCI SSC’s Tokenization Product Security Guidelines (*https://www.pcisecuritystandards.org/documents/Tokenization_Product_Security_Guidelines.pdf*)
 - *ANSI X9.119-2-2017: Retail Financial Services - Requirements For Protection Of Sensitive Payment Card Data - Part 2: Implementing Post-Authorization Tokenization Systems*
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2207,8 +2171,7 @@ Refer to the following for more information about HMAC, CMAC, and GMAC, respecti
 
 See *NIST SP 800-107 (Revision 1): Recommendation for Applications Using Approved Hash Algorithms §5.3.*
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2265,8 +2228,7 @@ Disk-level and partition-level encryption typically encrypts the entire disk or 
 
 Where available, following vendors’ hardening and industry best practice guidelines can assist in securing PAN on these devices.
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2314,8 +2276,7 @@ Full disk encryption helps to protect data in the event of physical loss of a di
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2371,8 +2332,7 @@ The entity’s key management procedures will benefit through alignment with ind
 - *ISO 11568-1 Banking — Key management (retail) — Part 1: Principles (specifically Chapter 10 and the referenced Parts 2 & 4)*
 - *NIST SP 800-57 Part 1 Revision 5—Recommendation for Key Management, Part 1: General.*
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2425,8 +2385,7 @@ Having an automated reporting mechanism can assist with maintenance of the crypt
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2481,8 +2440,7 @@ Where data-encrypting keys are stored in an HSM, the HSM interaction channel sho
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2526,8 +2484,7 @@ Ideally this will be a very small number of people.
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2570,8 +2527,7 @@ Storing any cryptographic keys in the fewest locations helps an organization tra
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2621,8 +2577,7 @@ Use of strong cryptographic keys significantly increases the level of security o
 
 See the sources referenced at "Cryptographic Key Generation in Appendix G.
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2666,8 +2621,7 @@ Secure distribution or conveyance of secret or private cryptographic keys means 
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2716,8 +2670,7 @@ Secret or private keys that can decrypt data should never be present in source c
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2764,8 +2717,7 @@ A cryptoperiod is the time span during which a cryptographic key can be used for
 
 *NIST SP 800-57 Part 1, Revision 5, Section 5.3 Cryptoperiods* - provides guidance for establishing the time span during which a specific key is authorized for use by legitimate entities, or the keys for a given system will remain in effect. See Table 1 of *SP 800-57* Part 1 for suggested cryptoperiods for different key types.
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2816,8 +2768,7 @@ The encryption solution should provide for and facilitate a process to replace k
 
 Industry best practices for archiving retired keys are outlined in *NIST SP 800-57 Part 1, Revision 5, Section 8.3.1*, and includes maintaining the archive with a trusted third party and storing archived key information separately from operational data.
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2871,8 +2822,7 @@ Industry standards for managing key components include:
 - *ISO 11568-2 Banking — Key management (retail) — Part 2*: Symmetric ciphers, their key management and life cycle [4.7.2.3 Key components and 4.9.3 Key components]
 - *European Payments Council EPC342-08 Guidelines on Cryptographic Algorithms Usage and Key Management* [especially 4.1.4 Key installation].
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2919,8 +2869,7 @@ Controls should include ensuring that individuals with access to key components 
 
 
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -2967,8 +2916,7 @@ Industry guidance for key custodians and their roles and responsibilities includ
 - *NIST SP 800-130 A Framework for Designing Cryptographic Key Management Systems* [5. Roles and Responsibilities (especially) for Key Custodians]
 - *ISO 11568-1 Banking -- Key management (retail) -- Part 1*: Principles [5 Principles of key management (especially b)]
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3011,8 +2959,7 @@ Providing guidance to customers on how to securely transmit, store, and update c
 
 Numerous industry standards for key management are cited above in the Guidance for Requirements 3.7.1-3.7.8.
 
-[sections 3](#sections-3)
-
+[sections 3](#sections-3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3037,10 +2984,8 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 #### SECTIONS 4
 
-[4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41)
-
-[4.2 PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42)
-
+[4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41) | 
+[4.2 PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42) | 
 [requirement 4](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
@@ -3092,8 +3037,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 
-[sections 4](#sections-4)
-
+[sections 4](#sections-4) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3139,8 +3083,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 4](#sections-4)
-
+[sections 4](#sections-4) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3218,8 +3161,7 @@ Vendor recommendations and industry best practices can be consulted for informat
 For more information about strong cryptography and secure protocols, see industry standards and best practices such as *NIST SP 800-52 and SP 800-57.*
 For more information about trusted keys and certificates, see *NIST Cybersecurity Practice Guide Special Publication 1800-16, Securing Web Transactions: Transport Layer Security (TLS) Server Certificate Management.*
 
-[sections 4](#sections-4)
-
+[sections 4](#sections-4) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3264,8 +3206,7 @@ For certificates, the inventory should include the issuing CA and certification 
 
 
 
-[sections 4](#sections-4)
-
+[sections 4](#sections-4) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3310,8 +3251,7 @@ Wireless networks should not permit fallback or downgrade to an insecure protoco
 
 Review the vendor’s specific documentation for more details on the choice of protocols, configurations, and settings related to cryptography.
 
-[sections 4](#sections-4)
-
+[sections 4](#sections-4) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3358,8 +3298,7 @@ E-mail, instant messaging, SMS, and chat are examples of the type of end-user me
 
 
 
-[sections 4](#sections-4)
-
+[sections 4](#sections-4) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3379,14 +3318,10 @@ Using anti-malware solutions that address all types of malware helps to protect 
 
 
 #### SECTIONS 5
-[5.1 Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51)
-
-[5.2 Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52)
-
-[5.3 Anti-malware mechanisms and processes are active, maintained, and monitored.](#requirements-and-testing-procedures-53)
-
-[5.4 Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54)
-
+[5.1 Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51) | 
+[5.2 Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52) | 
+[5.3 Anti-malware mechanisms and processes are active, maintained, and monitored.](#requirements-and-testing-procedures-53) | 
+[5.4 Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54) | 
 [requirement 5](#requirement-5-protect-all-systems-and-networks-from-malicious-software) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
@@ -3438,8 +3373,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3485,8 +3419,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3535,8 +3468,7 @@ System components known to be affected by malware have active malware exploits a
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3585,8 +3517,7 @@ Types of malware include, but are not limited to, viruses, Trojans, worms, spywa
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3642,8 +3573,7 @@ Trends in malware should be included in the identification of new security vulne
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3688,8 +3618,7 @@ Entities determine the optimum period to undertake the evaluation based on crite
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3743,8 +3672,7 @@ Updates may be automatically downloaded to a central location—for example, to 
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3796,8 +3724,7 @@ Active, or real-time, scanning checks files for malware upon any attempt to open
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3844,8 +3771,7 @@ Entities can determine the optimum period to undertake periodic scans based on t
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3895,8 +3821,7 @@ Portable media devices are often overlooked as an entry method for malware. Atta
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3939,8 +3864,7 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -3985,8 +3909,7 @@ Additional security measures that may need to be implemented for the period duri
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4048,8 +3971,7 @@ See the following for more information about phishing:
 
 *US Cybersecurity & Infrastructure Security Agency - Report Phishing Sites.*
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4071,9 +3993,9 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 
 #### SECTIONS 6
-[6.1 Processes and mechanisms for developing and maintaining secure systems and software are defined and understood.]()
+[6.1 Processes and mechanisms for developing and maintaining secure systems and software are defined and understood.](#requirements-and-testing-procedures-61)
 
-[6.2 Bespoke and custom software are developed securely.]()
+[6.2 Bespoke and custom software are developed securely.](#requirements-and-testing-procedures-62)
 
 [6.3 Security vulnerabilities are identified and addressed.]()
 
@@ -4086,7 +4008,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [principles](#principles) | 
 [top](#pci-dss-v40)
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 6.1
 
 6.1 Processes and mechanisms for developing and maintaining secure systems and software are defined and understood.
 
@@ -4132,8 +4054,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 
-[sections 6](#sections-6)
-
+[sections 6](#sections-6) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4180,8 +4101,112 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 6](#sections-6)
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
 
+---
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 6.2
+
+6.2 Bespoke and custom software are developed securely.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.2.1 Bespoke and custom software are developed securely, as follows:
+• Based on industry standards and/or best practices for secure development.
+• In accordance with PCI DSS (for example, secure authentication and logging).
+• Incorporating consideration of information security issues during each stage of the software development lifecycle.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Bespoke and custom software is developed in accordance with PCI DSS and secure development processes throughout the software lifecycle.
+
+###### APPLICABILITY NOTES
+
+This applies to all software developed for or by the entity for the entity’s own use. This includes both bespoke and custom software. This does not apply to third-party software.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.2.1 Examine documented software development procedures to verify that processes are defined that include all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without the inclusion of security during the requirements definition, design, analysis, and testing phases of software development, security vulnerabilities can be inadvertently or maliciously introduced into the production environment.
+
+**Good Practice**
+
+Understanding how sensitive data is handled by the application—including when stored, transmitted, and in memory—can help identify where data needs to be protected.
+
+PCI DSS requirements must be considered when developing software to meet those requirements by design, rather than trying to retrofit the software later.
+
+**Definitions**
+
+
+
+**Examples**
+
+Secure software lifecycle management methodologies and frameworks include PCI Software Security Framework, BSIMM, OPENSAMM, and works from NIST, ISO, and SAFECode.
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+6.2.2 Software development personnel working on bespoke and custom software are trained at least once every 12 months as follows:
+• On software security relevant to their job function and development languages.
+• Including secure software design and secure coding techniques.
+• Including, if security testing tools are used, how to use the tools for detecting vulnerabilities in software.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Software development personnel remain knowledgeable about secure development practices; software security; and attacks against the languages, frameworks, or applications they develop. Personnel are able to access assistance and guidance when required.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+6.2.2.a Examine software development procedures to verify that processes are defined for training of software development personnel developing bespoke and custom software that includes all elements specified in this requirement.
+
+6.2.2.b Examine training records and interview personnel to verify that software development personnel working on bespoke and custom software received software security training that is relevant to their job function and development languages in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Having staff knowledgeable in secure coding methods, including techniques defined in Requirement 6.2.4, will help minimize the number of security vulnerabilities introduced through poor coding practices.
+
+**Good Practice**
+
+Training for developers may be provided in-house or by third parties.
+
+Training should include, but is not limited to, development languages in use, secure software design, secure coding techniques, use of techniques/methods for finding vulnerabilities in code, processes to prevent reintroducing previously resolved vulnerabilities, and how to use any automated security testing tools for detecting vulnerabilities in software.
+
+As industry-accepted secure coding practices change, organizational coding practices and developer training may need to be updated to address new threats.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 6](#sections-6) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4229,8 +4254,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4278,8 +4302,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4327,8 +4350,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4376,8 +4398,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4425,8 +4446,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4474,8 +4494,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
@@ -4523,106 +4542,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 5](#sections-5)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 5](#sections-5)
-
-[top](#pci-dss-v40)
-
----
-
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 5](#sections-5)
-
+[sections 5](#sections-5) | 
 [top](#pci-dss-v40)
 
 ---
