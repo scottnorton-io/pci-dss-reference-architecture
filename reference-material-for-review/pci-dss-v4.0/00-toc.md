@@ -8221,8 +8221,8 @@ Without careful inventory methods and storage controls, stolen or missing electr
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.4.6 Hard-copy materials with cardholder data are destroyed when no longer needed for business or legal reasons, as follows:
-• Materials are cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed.
-• Materials are stored in secure storage containers prior to destruction.
+- Materials are cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed.
+- Materials are stored in secure storage containers prior to destruction.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -8272,8 +8272,8 @@ See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitizat
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.4.7 Electronic media with cardholder data is destroyed when no longer needed for business or legal reasons via one of the following:
-• The electronic media is destroyed.
-• The cardholder data is rendered unrecoverable so that it cannot be reconstructed.
+- The electronic media is destroyed.
+- The cardholder data is rendered unrecoverable so that it cannot be reconstructed.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -8323,9 +8323,9 @@ See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitizat
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.5.1 POI devices that capture payment card data via direct physical interaction with the payment card form factor are protected from tampering and unauthorized substitution, including the following:
-• Maintaining a list of POI devices.
-• Periodically inspecting POI devices to look for tampering or unauthorized substitution.
-• Training personnel to be aware of suspicious behavior and to report tampering or unauthorized substitution of devices.
+- Maintaining a list of POI devices.
+- Periodically inspecting POI devices to look for tampering or unauthorized substitution.
+- Training personnel to be aware of suspicious behavior and to report tampering or unauthorized substitution of devices.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -8375,9 +8375,9 @@ Additional best practices on skimming prevention are available on the PCI SSC we
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.5.1.1 An up-to-date list of POI devices is maintained, including:
-• Make and model of the device.
-• Location of device.
-• Device serial number or other methods of unique identification.
+- Make and model of the device.
+- Location of device.
+- Device serial number or other methods of unique identification.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -8439,8 +8439,8 @@ Point of Interaction Devices cannot be tampered with, substituted without author
 9.5.1.2.a Examine documented procedures to verify processes are defined for periodic inspections of POI device surfaces to detect tampering and unauthorized substitution.
 
 9.5.1.2.b Interview responsible personnel and observe inspection processes to verify:
-• Personnel are aware of procedures for inspecting devices.
-• All devices are periodically inspected for evidence of tampering and unauthorized substitution.
+- Personnel are aware of procedures for inspecting devices.
+- All devices are periodically inspected for evidence of tampering and unauthorized substitution.
 
 ##### GUIDANCE
 
@@ -8461,10 +8461,10 @@ Methods for periodic inspection include checking the serial number or other devi
 The type of inspection will depend on the device. For instance, photographs of devices known to be secure can be used to compare a device’s current appearance with its original appearance to see whether it has changed. Another option may be to use a secure marker pen, such as a UV light marker, to mark device surfaces and device openings so any tampering or replacement will be apparent. Criminals will often replace the outer casing of a device to hide their tampering, and these methods may help to detect such activities. Device vendors may also provide security guidance and “how to” guides to help determine whether the device has been subject to tampering.
 
 Signs that a device might have been tampered with or substituted include:
-• Unexpected attachments or cables plugged into the device.
-• Missing or changed security labels.
-• Broken or differently colored casing.
-• Changes to the serial number or other external markings.
+- Unexpected attachments or cables plugged into the device.
+- Missing or changed security labels.
+- Broken or differently colored casing.
+- Changes to the serial number or other external markings.
 
 **Further Information**
 
@@ -8523,10 +8523,10 @@ The frequency of inspections will depend on factors such as the location of a de
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.5.1.3 Training is provided for personnel in POI environments to be aware of attempted tampering or replacement of POI devices, and includes:
-• Verifying the identity of any third-party persons claiming to be repair or maintenance personnel, before granting them access to modify or troubleshoot devices.
-• Procedures to ensure devices are not installed, replaced, or returned without verification.
-• Being aware of suspicious behavior around devices.
-• Reporting suspicious behavior and indications of device tampering or substitution to appropriate personnel.
+- Verifying the identity of any third-party persons claiming to be repair or maintenance personnel, before granting them access to modify or troubleshoot devices.
+- Procedures to ensure devices are not installed, replaced, or returned without verification.
+- Being aware of suspicious behavior around devices.
+- Reporting suspicious behavior and indications of device tampering or substitution to appropriate personnel.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -8611,10 +8611,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.1.1 All security policies and operational procedures that are identified in Requirement 10 are:
-• Documented.
-• Kept up to date.
-• In use.
-• Known to all affected parties.
+- Documented.
+- Kept up to date.
+- In use.
+- Known to all affected parties.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -8794,17 +8794,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A record of all individual access to cardholder data can identify which accounts may have been compromised or misused.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Records of all actions performed by individuals with elevated privileges are captured.
 
 ###### APPLICABILITY NOTES
 
@@ -8812,13 +8808,56 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.2.1.2 Examine audit log configurations and log data to verify that all actions taken by any individual with administrative access, including any interactive use of application or system accounts, are logged.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Accounts with increased access privileges, such as the “administrator” or “root” account, have the potential to significantly impact the security or operational functionality of a system. Without a log of the activities performed, an organization is cannot trace any issues resulting from an administrative mistake or misuse of privilege back to the specific action and account.
 
+**Good Practice**
+
+
+
+**Definitions**
+
+Accounts with administrative access are those assigned with specific privileges or abilities for that account to manage systems, networks, and/or applications. The functions or activities considered to be administrative are beyond those performed by regular users as part of routine business functions.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.2.1.3 Audit logs capture all access to audit logs.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Records of all access to audit logs are captured.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.2.1.3 Examine audit log configurations and log data to verify that access to all audit logs is captured.
+
+##### GUIDANCE
+
+**Purpose**
+
+Malicious users often attempt to alter audit logs to hide their actions. A record of access allows an organization to trace any inconsistencies or potential tampering of the logs to an individual account. Having logs identify changes, additions, and deletions to the audit logs can help retrace steps made by unauthorized personnel.
 
 **Good Practice**
 
@@ -8841,17 +8880,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.2.1.4 Audit logs capture all invalid logical access attempts.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Records of all invalid access attempts are captured.
 
 ###### APPLICABILITY NOTES
 
@@ -8859,13 +8894,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.2.1.4 Examine audit log configurations and log data to verify that invalid logical access attempts are captured.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Malicious individuals will often perform multiple access attempts on targeted systems. Multiple invalid login attempts may be an indication of an unauthorized user’s attempts to “brute force” or guess a password.
 
 **Good Practice**
 
@@ -8888,17 +8923,16 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.2.1.5 Audit logs capture all changes to identification and authentication credentials including, but not limited to:
+- Creation of new accounts.
+- Elevation of privileges.
+- All changes, additions, or deletions to accounts with administrative access.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Records of all changes to identification and authentication credentials are captured.
 
 ###### APPLICABILITY NOTES
 
@@ -8906,13 +8940,15 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.2.1.5 Examine audit log configurations and log data to verify that changes to identification and authentication credentials are captured in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Logging changes to authentication credentials (including elevation of privileges, additions, and deletions of accounts with administrative access) provides residual evidence of activities.
 
+Malicious users may attempt to manipulate authentication credentials to bypass them or impersonate a valid account.
 
 **Good Practice**
 
@@ -8935,17 +8971,15 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.2.1.6 Audit logs capture the following:
+- All initialization of new audit logs, and
+- All starting, stopping, or pausing of the existing audit logs.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Records of all changes to audit log activity status are captured.
 
 ###### APPLICABILITY NOTES
 
@@ -8953,13 +8987,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.2.1.6 Examine audit log configurations and log data to verify that all elements specified in this requirement are captured.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Turning off or pausing audit logs before performing illicit activities is common practice for malicious users who want to avoid detection. Initialization of audit logs could indicate that that a user disabled the log function to hide their actions.
 
 **Good Practice**
 
@@ -8982,17 +9016,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.2.1.7 Audit logs capture all creation and deletion of system-level objects.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Records of alterations that indicate a system has been modified from its intended functionality are captured.
 
 ###### APPLICABILITY NOTES
 
@@ -9000,13 +9030,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.2.1.7 Examine audit log configurations and log data to verify that creation and deletion of system level objects is captured.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Malicious software, such as malware, often creates or replaces system-level objects on the target system to control a particular function or operation on that system. By logging when system-level objects are created or deleted, it will be easier to determine whether such modifications were authorized.
 
 **Good Practice**
 
@@ -9029,17 +9059,19 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.2.2 Audit logs record the following details for each auditable event:
+- User identification.
+- Type of event.
+- Date and time.
+- Success and failure indication.
+- Origination of event.
+- Identity or name of affected data, system component, resource, or service (for example, name and protocol).
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Sufficient data to be able to identify successful and failed attempts and who, what, when, where, and how for each event listed in requirement 10.2.1 are captured.
 
 ###### APPLICABILITY NOTES
 
@@ -9047,13 +9079,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.2.2 Interview personnel and examine audit log configurations and log data to verify that all elements specified in this requirement are included in log entries for each auditable event (from 10.2.1.1 through 10.2.1.7).
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+By recording these details for the auditable events at 10.2.1.1 through 10.2.1.7, a potential compromise can be quickly identified, with sufficient detail to facilitate following up on suspicious activities.
 
 **Good Practice**
 
@@ -9076,17 +9108,17 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 10.3
 
-
+10.3 Audit logs are protected from destruction and unauthorized modifications.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.3.1 Read access to audit logs files is limited to those with a job-related need.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Stored activity records cannot be accessed by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
 
@@ -9094,17 +9126,17 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.3.1 Interview system administrators and examine system configurations and privileges to verify that only individuals with a job-related need have read access to audit log files.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Audit log files contain sensitive information, and read access to the log files must be limited only to those with a valid business need. This access includes audit log files on the originating systems as well as anywhere else they are stored.
 
 **Good Practice**
 
-
+Adequate protection of the audit logs includes strong access control that limits access to logs based on “need to know” only and the use of physical or network segregation to make the logs harder to find and modify.
 
 **Definitions**
 
@@ -9123,17 +9155,13 @@ A record of all individual access to cardholder data can identify which accounts
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.3.2 Audit log files are protected to prevent modifications by individuals.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Stored activity records cannot be modified by personnel.
 
 ###### APPLICABILITY NOTES
 
@@ -9141,64 +9169,17 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
+10.3.2 Examine system configurations and privileges and interview system administrators to verify that current audit log files are protected from modifications by individuals via access control mechanisms, physical segregation, and/or network segregation.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Often a malicious individual who has entered the network will try to edit the audit logs to hide their activity. Without adequate protection of audit logs, their completeness, accuracy, and integrity cannot be guaranteed, and the audit logs can be rendered useless as an investigation tool after a compromise. Therefore, audit logs should be protected on the originating systems as well as anywhere else they are stored.
 
 **Good Practice**
 
-
+Entities should attempt to prevent logs from being exposed in public-accessible locations.
 
 **Definitions**
 
