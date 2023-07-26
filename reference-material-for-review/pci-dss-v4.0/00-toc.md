@@ -14,7 +14,7 @@
 
 [PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy](#principle-pci-dss-requirement-maintain-an-information-security-policy)
 
-[Appendix A Additonal PCI Requirements]()
+[Appendix A Additonal PCI Requirements](#appendix-a-additonal-pci-requirements)
 
 [Appendix B Compensating Controls]()
 
@@ -12314,17 +12314,66 @@ Different types of TPSPs include those that:
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+12.8.2 Written agreements with TPSPs are maintained as follows:
+- Written agreements are maintained with all TPSPs with which account data is shared or that could affect the security of the CDE.
+- Written agreements include acknowledgments from TPSPs that they are responsible for the security of account data the TPSPs possess or otherwise store, process, or transmit on behalf of the entity, or to the extent that they could impact the security of the entity’s CDE.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
+Records are maintained of each TPSP’s acknowledgment of its responsibility to protect account data.
 
+###### APPLICABILITY NOTES
+
+The exact wording of an acknowledgment will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgment does not have to include the exact wording provided in this requirement.
+
+Evidence that a TPSP is meeting PCI DSS requirements (for example, a PCI DSS Attestation of Compliance (AOC) or a declaration on a company’s website) is not the same as a written agreement specified in this requirement.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.8.2.a Examine policies and procedures to verify that processes are defined to maintain written agreements with all TPSPs in accordance with all elements specified in this requirement.
+
+12.8.2.b Examine written agreements with TPSPs to verify they are maintained in accordance with all elements as specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+The written acknowledgment from a TPSP demonstrates its commitment to maintaining proper security of account data that it obtains from its customers and that the TPSP is fully aware of the assets that could be affected during the provisioning of the TPSP’s service. The extent to which a specific TPSP is responsible for the security of account data will depend on the service provided and the agreement between the provider and assessed entity (the customer).
+
+In conjunction with Requirement 12.9.1, this requirement is intended to promote a consistent level of understanding between parties about their applicable PCI DSS responsibilities. For example, the agreement may include the applicable PCI DSS requirements to be maintained as part of the provided service.
+
+**Good Practice**
+
+The entity may also want to consider including in their written agreement with a TPSP that the TPSP will support the entity’s request for information per Requirement 12.9.2. Entities will also want to understand whether any TPSPs have “nested” relationships with other TPSPs, meaning the primary TPSP contracts with another TPSP(s) for the purposes of providing a service.
+
+It is important to understand whether the primary TPSP is relying on the secondary TPSP(s) to achieve overall compliance of a service, and what types of written agreements the primary TPSP has in place with the secondary TPSPs. Entities can consider including coverage in their written agreement for any “nested” TPSPs a primary TPSP may use.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to the *“Information Supplement: Third-Party Security Assurance* for further guidance.
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.8.3 An established process is implemented for engaging TPSPs, including proper due diligence prior to engagement.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The capability, intent, and resources of a prospective TPSP to adequately protect account data are assessed before the TPSP is engaged.
 
 ###### APPLICABILITY NOTES
 
@@ -12332,13 +12381,168 @@ Different types of TPSPs include those that:
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+12.8.3.a Examine policies and procedures to verify that processes are defined for engaging TPSPs, including proper due diligence prior to engagement.
 
+12.8.3.b Examine evidence and interview responsible personnel to verify the process for engaging TPSPs includes proper due diligence prior to engagement.
 
 ##### GUIDANCE
 
 **Purpose**
 
+A thorough process for engaging TPSPs, including details for selection and vetting prior to engagement, helps ensure that a TPSP is thoroughly vetted internally by an entity prior to establishing a formal relationship and that the risk to cardholder data associated with the engagement of the TPSP is understood.
 
+**Good Practice**
+
+Specific due-diligence processes and goals will vary for each organization. Elements that should be considered include the provider’s reporting practices, breach-notification and incident response procedures, details of how PCI DSS responsibilities are assigned between each party, how the TPSP validates their PCI DSS compliance and what evidence they provide.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.8.4 A program is implemented to monitor TPSPs’ PCI DSS compliance status at least once every 12 months.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The PCI DSS compliance status of TPSPs is verified periodically.
+
+###### APPLICABILITY NOTES
+
+Where an entity has an agreement with a TPSP for meeting PCI DSS requirements on behalf of the entity (for example, via a firewall service), the entity must work with the TPSP to make sure the applicable PCI DSS requirements are met. If the TPSP does not meet those applicable PCI DSS requirements, then those r
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.8.4.a Examine policies and procedures to verify that processes are defined to monitor TPSPs’ PCI DSS compliance status at least once every 12 months.
+
+12.8.4.b Examine documentation and interview responsible personnel to verify that the PCI DSS compliance status of each TPSP is monitored at least once every 12 months.
+
+##### GUIDANCE
+
+**Purpose**
+
+Knowing the PCI DSS compliance status of all engaged TPSPs provides assurance and awareness about whether they comply with the requirements applicable to the services they offer to the organization.
+
+**Good Practice**
+
+If the TPSP offers a variety of services, the compliance status the entity monitors should be specific to those services delivered to the entity and those services in scope for the entity’s PCI DSS assessment.
+
+If a TPSP has a PCI DSS Attestation of Compliance (AOC), the expectation is that the TPSP should provide that to customers upon request to demonstrate their PCI DSS compliance status.
+
+If the TPSP did not undergo a PCI DSS assessment, it may be able to provide other sufficient evidence to demonstrate that it has met the applicable requirements without undergoing a formal compliance validation. For example, the TPSP can provide specific evidence to the entity’s assessor so the assessor can confirm applicable requirements are met. Alternatively, the TPSP can elect to undergo multiple on-demand assessments by each of its customers’ assessors, with each assessment targeted to confirm that applicable requirements are met.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+For more information about third-party service providers, refer to:
+- PCI DSS section: *Use of Third-Party Service Providers*.
+- *Information Supplement: Third-Party Security Assurance*.
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.8.5 Information is maintained about which PCI DSS requirements are managed by each TPSP, which are managed by the entity, and any that are shared between the TPSP and the entity.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Records detailing the PCI DSS requirements and related system components for which each TPSP is solely or jointly responsible, are maintained and reviewed periodically.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.8.5.a Examine policies and procedures to verify that processes are defined to maintain information about which PCI DSS requirements are managed by each TPSP, which are managed by the entity, and any that are shared between both the TPSP and the entity.
+
+12.8.5.b Examine documentation and interview personnel to verify the entity maintains information about which PCI DSS requirements are managed by each TPSP, which are managed by the entity, and any that are shared between both entities.
+
+##### GUIDANCE
+
+**Purpose**
+
+It is important that the entity understands which PCI DSS requirements and sub-requirements its TPSPs have agreed to meet, which requirements are shared between the TPSP and the entity, and for those that are shared, specifics about how the requirements are shared and which entity is responsible for meeting each sub-requirement.
+
+Without this shared understanding, it is inevitable that the entity and the TPSP will assume a given PCI DSS sub-requirement is the responsibility of the other party, and therefore that sub-requirement may not be addressed at all.
+
+The specific information an entity maintains will depend on the particular agreement with their providers, the type of service, etc. TPSPs may define their PCI DSS responsibilities to be the same for all their customers; otherwise, this responsibility should be agreed upon by both the entity and TPSP.
+
+**Good Practice**
+
+Entities can document these responsibilities via a matrix that identifies all applicable PCI DSS requirements and indicates for each requirement whether the entity or TPSP is responsible for meeting that requirement or whether it is a shared responsibility. This type of document is often referred to as a *responsibility matrix*.
+
+It is also important for entities to understand whether any TPSPs have “nested” relationships with other TPSPs, meaning the primary TPSP contracts with another TPSP(s) for the purposes of providing a service. It is important to understand whether the primary TPSP is relying on the secondary TPSP(s) to achieve overall compliance of a service, and how the primary TPSP is monitoring performance of the service and the PCI DSS compliance status of the secondary TPSP(s). Note that it is the responsibility of the primary TPSP to manage and monitor any secondary TPSPs.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to *Information Supplement: Third-Party Security Assurance* for a sample responsibility matrix template.
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 12.9
+
+12.9 Third-party service providers (TPSPs) support their customers’ PCI DSS compliance.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**12.9.1 Additional requirement for service providers only**: TPSPs acknowledge in writing to customers that they are responsible for the security of account data the TPSP possesses or otherwise stores, processes, or transmits on behalf of the customer, or to the extent that they could impact the security of the customer’s CDE.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+TPSPs formally acknowledge their security responsibilities to their customers.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+The exact wording of an acknowledgment will depend on the agreement between the two parties, the details of the service being provided, and the responsibilities assigned to each party. The acknowledgment does not have to include the exact wording provided in this requirement.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**12.9.1 Additional testing procedure for service provider assessments only**: Examine TPSP policies, procedures, and templates used for written agreements to verify processes are defined for the TPSP to provide written acknowledgments to customers in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+In conjunction with Requirement 12.8.2, this requirement is intended to promote a consistent level of understanding between TPSPs and their customers about their applicable PCI DSS responsibilities. The acknowledgment of the TPSPs evidences their commitment to maintaining proper security of account data that it obtains from its clients.
+
+The method by which the TPSP provides written acknowledgment should be agreed between the provider and its customers.
 
 **Good Practice**
 
@@ -12357,6 +12561,1041 @@ Different types of TPSPs include those that:
 
 
 [sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**12.9.2 Additional requirement for service providers only**: TPSPs support their customers’ requests for information to meet Requirements 12.8.4 and 12.8.5 by providing the following upon customer request:
+- PCI DSS compliance status information for any service the TPSP performs on behalf of customers (Requirement 12.8.4).
+- Information about which PCI DSS requirements are the responsibility of the TPSP and which are the responsibility of the customer, including any shared responsibilities (Requirement 12.8.5).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+TPSPs provide information as needed to support their customers’ PCI DSS compliance efforts.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**12.9.2 Additional testing procedure for service provider assessments only**: Examine policies and procedures to verify processes are defined for the TPSPs to support customers’ request for information to meet Requirements 12.8.4 and 12.8.5 in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+If a TPSP does not provide the necessary information to enable its customers to meet their security and compliance requirements, the customers will not be able to protect cardholder data nor meet their own contractual obligations.
+
+**Good Practice**
+
+If a TPSP has a PCI DSS Attestation of Compliance (AOC), the expectation is that the TPSP should provide that to customers upon request to demonstrate their PCI DSS compliance status.
+
+If the TPSP did not undergo a PCI DSS assessment, they may be able to provide other sufficient evidence to demonstrate that it has met the applicable requirements without undergoing a formal compliance validation. For example, the TPSP can provide specific evidence to the entity’s assessor so the assessor can confirm applicable requirements are met. Alternatively, the TPSP can elect to undergo multiple on-demand assessments by each of its customers’ assessors, with each assessment targeted to confirm that applicable requirements are met.
+
+TPSPs should provide sufficient evidence to their customers to verify that the scope of the TPSP’s PCI DSS assessment covered the services applicable to the customer and that the relevant PCI DSS requirements were examined and determined to be in place.
+
+TPSPs may define their PCI DSS responsibilities to be the same for all their customers; otherwise, this responsibility should be agreed upon by both the customer and TPSP. It is important that the customer understands which PCI DSS requirements and sub-requirements its TPSPs have agreed to meet, which requirements are shared between the TPSP and the customer, and for those that are shared, specifics about how the requirements are shared and which entity is responsible for meeting each sub-requirement. An example of a way to document these responsibilities is via a matrix that identifies all applicable PCI DSS requirements and indicates whether the customer or TPSP is responsible for meeting that requirement or whether it is a shared responsibility.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+For further guidance, refer to:
+- PCI DSS section: *Use of Third-Party Service Providers*.
+- *Information Supplement: Third-Party Security Assurance* (includes a sample responsibility matrix template).
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 12.10
+
+12.10 Suspected and confirmed security incidents that could impact the CDE are responded to immediately.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.1 An incident response plan exists and is ready to be activated in the event of a suspected or confirmed security incident. The plan includes, but is not limited to:
+- Roles, responsibilities, and communication and contact strategies in the event of a suspected or confirmed security incident, including notification of payment brands and acquirers, at a minimum.
+- Incident response procedures with specific containment and mitigation activities for different types of incidents.
+- Business recovery and continuity procedures.
+- Data backup processes.
+- Analysis of legal requirements for reporting compromises.
+- Coverage and responses of all critical system components.
+- Reference or inclusion of incident response procedures from the payment brands.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+A comprehensive incident response plan that meets card brand expectations is maintained.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.1.a Examine the incident response plan to verify that the plan exists and includes at least the elements specified in this requirement.
+
+12.10.1.b Interview personnel and examine documentation from previously reported incidents or alerts to verify that the documented incident response plan and procedures were followed.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without a comprehensive incident response plan that is properly disseminated, read, and understood by the parties responsible, confusion and lack of a unified response could create further downtime for the business, unnecessary public media exposure, as well as risk of financial and/or reputational loss and legal liabilities.
+
+**Good Practice**
+
+The incident response plan should be thorough and contain all the key elements for stakeholders (for example, legal, communications) to allow the entity to respond effectively in the event of a breach that could impact account data. It is important to keep the plan up to date with current contact information of all individuals designated as having a role in incident response. Other relevant parties for notifications may include customers, financial institutions (acquirers and issuers), and business partners.
+
+Entities should consider how to address all compromises of data within the CDE in their incident response plans, including to account data, wireless encryption keys, encryption keys used for transmission and storage or account data or cardholder data, etc.
+
+**Definitions**
+
+
+
+**Examples**
+
+Legal requirements for reporting compromises include those in most US states, the EU General Data Protection Regulation (GDPR), and the Personal Data Protection Act (Singapore).
+
+**Further Information**
+
+For more information, refer to the *NIST SP 800-61 Rev. 2, Computer Security Incident Handling Guide*.
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.2 At least once every 12 months, the security incident response plan is:
+- Reviewed and the content is updated as needed.
+- Tested, including all elements listed in Requirement 12.10.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The incident response plan is kept current and tested periodically.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.2 Interview personnel and review documentation to verify that, at least once every 12 months, the security incident response plan is:
+- Reviewed and updated as needed.
+- Tested, including all elements listed in Requirement 12.10.1.
+
+##### GUIDANCE
+
+**Purpose**
+
+Proper testing of the security incident response plan can identify broken business processes and ensure key steps are not missed, which could result in increased exposure during an incident. Periodic testing of the plan ensures that the processes remain viable, as well as ensuring that all relevant personnel in the organization are familiar with the plan.
+
+**Good Practice**
+
+The test of the incident response plan can include simulated incidents and the corresponding responses in the form of a “table-top exercise”, that include participation by relevant personnel. A review of the incident and the quality of the response can provide entities with the assurance that all required elements are included in the plan.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.3 Specific personnel are designated to be available on a 24/7 basis to respond to suspected or confirmed security incidents.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Incidents are responded to immediately where appropriate.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.3 Examine documentation and interview responsible personnel occupying designated roles to verify that specific personnel are designated to be available on a 24/7 basis to respond to security incidents.
+
+##### GUIDANCE
+
+**Purpose**
+
+An incident could occur at any time, therefore if a person who is trained in incident response and familiar with the entity’s plan is available when an incident is detected, the entity’s ability to correctly respond to the incident is increased.
+
+**Good Practice**
+
+Often, specific personnel are designated to be part of a security incident response team, with the team having overall responsibility for responding to incidents (perhaps on a rotating schedule basis) and managing those incidents in accordance with the plan. The incident response team can consist of core members who are permanently assigned or “on-demand” personnel who may be called up as necessary, depending on their expertise and the specifics of the incident.
+
+Having available resources to respond quickly to incidents minimizes disruption to the organization.
+
+Examples of types of activity the team or individuals should respond to include any evidence of unauthorized activity, detection of unauthorized wireless access points, critical IDS alerts, and reports of unauthorized critical system or content file changes.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.4 Personnel responsible for responding to suspected and confirmed security incidents are appropriately and periodically trained on their incident response responsibilities.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Personnel are knowledgeable about their role and responsibilities in incident response and are able to access assistance and guidance when required.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.4 Examine training documentation and interview incident response personnel to verify that personnel are appropriately and periodically trained on their incident response responsibilities.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without a trained and readily available incident response team, extended damage to the network could occur, and critical data and systems may become “polluted” by inappropriate handling of the targeted systems. This can hinder the success of a post-incident investigation.
+
+**Good Practice**
+
+It is important that all personnel involved in incident response are trained and knowledgeable about managing evidence for forensics and investigations.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.4.1 The frequency of periodic training for incident response personnel is defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Incident response personnel are trained at a frequency that addresses the entity’s risk.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.4.1.a Examine the entity’s targeted risk analysis for the frequency of training for incident response personnel to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1.
+
+12.10.4.1.b Examine documented results of periodic training of incident response personnel and interview personnel to verify training is performed at the frequency defined in the entity’s targeted risk analysis performed for this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Each entity’s environment and incident response plan are different and the approach will depend on a number of factors, including the size and complexity of the entity, the degree of change in the environment, the size of the incident response team, and the turnover in personnel.
+Performing a risk analysis will allow the entity to determine the optimum frequency for training personnel with incident response responsibilities.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.5 The security incident response plan includes monitoring and responding to alerts from security monitoring systems, including but not limited to:
+- Intrusion-detection and intrusion-prevention systems.
+- Network security controls.
+- Change-detection mechanisms for critical files.
+- The change-and tamper-detection mechanism for payment pages. *This bullet is a best practice until its effective date; refer to Applicability Notes below for details*.
+- Detection of unauthorized wireless access points.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Alerts generated by monitoring and detection technologies are responded to in a structured, repeatable manner.
+
+###### APPLICABILITY NOTES
+
+*The bullet above (for monitoring and responding to alerts from a change- and tamper-detection mechanism for payment pages) is a best practice until 31 March 2025, after which it will be required as part of Requirement 12.10.5 and must be fully considered during a PCI DSS assessment.*
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.5 Examine documentation and observe incident response processes to verify that monitoring and responding to alerts from security monitoring systems are covered in the security incident response plan, including but not limited to the systems specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Responding to alerts generated by security monitoring systems that are explicitly designed to focus on potential risk to data is critical to prevent a breach and therefore, this must be included in the incident-response processes.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.6 The security incident response plan is modified and evolved according to lessons learned and to incorporate industry developments.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The effectiveness and accuracy of the incident response plan is reviewed and updated after each invocation.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.6.a Examine policies and procedures to verify that processes are defined to modify and evolve the security incident response plan according to lessons learned and to incorporate industry developments.
+
+12.10.6.b Examine the security incident response plan and interview responsible personnel to verify that the incident response plan is modified and evolved according to lessons learned and to incorporate industry developments.
+
+##### GUIDANCE
+
+**Purpose**
+
+Incorporating lessons learned into the incident response plan after an incident occurs and in-step with industry developments, helps keep the plan current and able to react to emerging threats and security trends.
+
+**Good Practice**
+
+The lessons-learned exercise should include all levels of personnel. Although it is often included as part of the review of the entire incident, it should focus on how the entity’s response to the incident could be improved.
+
+It is important to not just consider elements of the response that did not have the planned outcomes but also to understand what worked well and whether lessons from those elements that worked well can be applied areas of the plan that didn’t.
+
+Another way to optimize an entity’s incident response plan is to understand the attacks made against other organizations and use that information to fine-tune the entity’s detection, containment, mitigation, or recovery procedures.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.10.7 Incident response procedures are in place, to be initiated upon the detection of stored PAN anywhere it is not expected, and include:
+- Determining what to do if PAN is discovered outside the CDE, including its retrieval, secure deletion, and/or migration into the currently defined CDE, as applicable.
+- Identifying whether sensitive authentication data is stored with PAN.
+- Determining where the account data came from and how it ended up where it was not expected.
+- Remediating data leaks or process gaps that resulted in the account data being where it was not expected.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Processes are in place to quickly respond, analyze, and address situations in the event that cleartext PAN is detected where it is not expected.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.10.7.a Examine documented incident response procedures to verify that procedures for responding to the detection of stored PAN anywhere it is not expected to exist, ready to be initiated, and include all elements specified in this requirement.
+
+12.10.7.b Interview personnel and examine records of response actions to verify that incident response procedures are performed upon detection of stored PAN anywhere it is not expected.
+
+##### GUIDANCE
+
+**Purpose**
+
+Having documented incident response procedures that are followed in the event that stored PAN is found anywhere it is not expected to be, helps to identify the necessary remediation actions and prevent future leaks.
+
+**Good Practice**
+
+If PAN was found outside the CDE, analysis should be performed to 1) determine whether it was saved independently of other data or with sensitive authentication data, 2) identify the source of the data, and 3) identify the control gaps that resulted in the data being outside the CDE.
+
+Entities should consider whether there are contributory factors, such as business processes, user behavior, improper system configurations, etc. that caused the PAN to be stored in an unexpected location. If such contributory factors are present, they should be addressed per this Requirement to prevent recurrence.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+## Appendix A Additonal PCI Requirements
+
+#### OVERVIEW
+This appendix contains additional PCI DSS requirements for different types of entities.
+
+Guidance and applicability information is provided in each section.
+
+
+#### SECTIONS A
+[Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers]()
+
+[Appendix A2: Additional PCI DSS Requirements for Entities Using SSL/early TLS for Card-Present POS POI Terminal Connections]()
+
+[Appendix A3: Designated Entities Supplemental Validation (DESV)]()
+
+[Appendix A](#appendix-a-additonal-pci-requirements) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
+---
+
+## Appendix A Additonal PCI Requirements
+
+### Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers
+
+#### OVERVIEW
+All service providers are responsible for meeting PCI DSS requirements for their own environments as applicable to the services offered to their customers. In addition, multi-tenant service providers must meet the requirements in this Appendix.
+
+Multi-tenant service providers are a type of third-party service provider that offers various shared services to merchants and other service providers, where customers share system resources (such as physical or virtual servers), infrastructure, applications (including Software as a Service (SaaS)), and/or databases. Services may include, but are not limited to, hosting multiple entities on a single shared server, providing e-commerce and/or “shopping cart” services, web- based hosting services, payment applications, various cloud applications and services, and connections to payment gateways and processors.
+
+Service providers that provide only shared data center services (often called co-location or “co-lo” providers), where equipment, space, and bandwidth are available on a rental basis, are not considered multi-tenant service providers for purposes of this Appendix.
+
+Note: Even though a multi-tenant service provider may meet these requirements, each customer is still responsible to comply with the PCI DSS requirements that are applicable to its environment and validate compliance as applicable. Often, there are PCI DSS requirements for which responsibility is shared between the provider and the customer (for perhaps different aspects of the environment). Requirements 12.8 and 12.9 delineate requirements specific to the relationships between all third-party service providers (TPSPs) and their customers, and the responsibilities of both. This includes defining the specific services the customer is receiving, along with which PCI DSS requirements are the responsibility of the customer to meet, which are the responsibility of the TPSP, and which requirements are shared between both customer and the TPSP.
+
+
+#### SECTIONS A1
+[A1.1 Multi-tenant service providers protect and separate all customer environments and data.](#requirements-and-testing-procedures-a11)
+
+[A1.2 Multi-tenant service providers facilitate logging and incident response for all customers.](#requirements-and-testing-procedures-a12)
+
+[Appendix A1](#appendix-a1-additional-pci-dss-requirements-for-multi-tenant-service-providers) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES A1.1
+
+A1.1 Multi-tenant service providers protect and separate all customer environments and data.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A1.1.1 Logical separation is implemented as follows:
+• The provider cannot access its customers’ environments without authorization.
+• Customers cannot access the provider’s environment without authorization.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Customers cannot access the provider’s environment. The provider cannot access its customers’ environments without authorization.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A1.1.1 Examine documentation and system and network configurations and interview personnel to verify that logical separation is implemented in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without controls between the provider’s environment and the customer’s environment, a malicious actor within the provider’s environment could compromise the customer’s environment, and similarly, a malicious actor in a customer environment could compromise the provider and potentially other of the provider’s customers.
+
+Multi-tenant environments should be isolated from each other and from the provider’s infrastructure such that they can be separately managed entities with no connectivity between them.
+
+**Good Practice**
+
+Providers should ensure strong separation between the environments that are designed for customer access, for example, configuration and billing portals, and the provider’s private environment that should only be accessed by authorized provider personnel.
+Service provider access to customer environments is performed in accordance with requirement 8.2.3.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to the *Information Supplement: PCI SSC Cloud Computing Guidelines* for further guidance on cloud environments.
+
+[Section A1](#sections-a1) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A1.1.2 Controls are implemented such that each customer only has permission to access its own cardholder data and CDE.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Customers cannot access other customers’ environments.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A1.1.2.a Examine documentation to verify controls are defined such that each customer only has permission to access its own cardholder data and CDE.
+
+A1.1.2.b Examine system configurations to verify that customers have privileges established to only access their own account data and CDE.
+
+##### GUIDANCE
+
+**Purpose**
+
+It is important that a multi-tenant service provider define controls so that each customer can only access their own environment and CDE to prevent unauthorized access from one customer’s environment to another.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+In a cloud-based infrastructure, such as an infrastructure as a service (IaaS) offering, the customers’ CDE may include virtual network devices and virtual servers that are configured and managed by the customers, including operating systems, files, memory, etc.
+
+**Further Information**
+
+
+
+[Section A1](#sections-a1) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A1.1.3 Controls are implemented such that each customer can only access resources allocated to them.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Customers cannot impact resources allocated to other customers.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A1.1.3 Examine customer privileges to verify each customer can only access resources allocated to them.
+
+##### GUIDANCE
+
+**Purpose**
+
+To prevent any inadvertent or intentional impact to other customers’ environments or account data, it is important that each customer can access only resources allocated to that customer
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A1](#sections-a1) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A1.1.4 The effectiveness of logical separation controls used to separate customer environments is confirmed at least once every six months via penetration testing.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Segmentation of customer environments from other environments is periodically validated to be effective.
+
+###### APPLICABILITY NOTES
+
+The testing of adequate separation between customers in a multi-tenant service provider environment is in addition to the penetration tests specified in Requirement 11.4.6.
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A1.1.4 Examine the results from the most recent penetration test to verify that testing confirmed the effectiveness of logical separation controls used to separate customer environments.
+
+##### GUIDANCE
+
+**Purpose**
+
+Multi-tenant services providers are responsible for managing the segmentation between their customers.
+
+Without technical assurance that segmentation controls are effective, it is possible that changes to the service provider’s technology would inadvertently create a vulnerability that could be exploited across all the service provider’s customers.
+
+**Good Practice**
+
+Effectiveness of separation techniques can be confirmed by using service-provider-created temporary (mock-up) environments that represent customer environments and attempting to 1) access one temporary environment from another environment, and 2) access a temporary environment from the Internet.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A1](#sections-a1) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES A1.2
+
+A1.2 Multi-tenant service providers facilitate logging and incident response for all customers.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A1.2.1 Audit log capability is enabled for each customer’s environment that is consistent with PCI DSS Requirement 10, including:
+• Logs are enabled for common third-party applications.
+• Logs are active by default.
+• Logs are available for review only by the owning customer.
+• Log locations are clearly communicated to the owning customer.
+• Log data and availability is consistent with PCI DSS Requirement 10.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Log capability is available to all customers without affecting the confidentiality of other customers.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A1.2.1 Examine documentation and system configuration settings to verify the provider has enabled audit log capability for each customer environment in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Log information is useful for detecting and troubleshooting security incidents and is invaluable for forensic investigations. Customers therefore need to have access to these logs.
+
+However, log information can also be used by an attacker for reconnaissance, and so a customer’s log information must only be accessible by the customer that the log relates to.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A1](#sections-a1) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A1.2.2 Processes or mechanisms are implemented to support and/or facilitate prompt forensic investigations in the event of a suspected or confirmed security incident for any customer.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Forensic investigation is readily available to all customers in the event of a suspected or confirmed security incident.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A1.2.2 Examine documented procedures to verify that the provider has processes or mechanisms to support and/or facilitate a prompt forensic investigation of related servers in the event of a suspected or confirmed security incident for any customer.
+
+##### GUIDANCE
+
+**Purpose**
+
+In the event of a suspected or confirmed breach of confidentiality of cardholder data, a customer’s forensic investigator aims to find the cause of the breach, exclude the attacker from the environment, and ensure all unauthorized access is removed.
+Prompt and efficient responses to forensic investigators’ requests can significantly reduce the time taken for the investigator to secure the customer’s environment.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A1](#sections-a1) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A1.2.3 Processes or mechanisms are implemented for reporting and addressing suspected or confirmed security incidents and vulnerabilities, including:
+• Customers can securely report security incidents and vulnerabilities to the provider.
+• The provider addresses and remediates suspected or confirmed security incidents and vulnerabilities according to Requirement 6.3.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Suspected or confirmed security incidents or vulnerabilities are discovered and addressed. Customers are informed where appropriate.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A1.2.3 Examine documented procedures and interview personnel to verify that the provider has a mechanism for reporting and addressing suspected or confirmed security incidents and vulnerabilities, in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Security vulnerabilities in the provided services can impact the security of all the service provider’s customers and therefore must be managed in accordance with the service provider’s established processes, with priority given to resolving vulnerabilities that have the highest probability of compromise.
+
+Customers are likely to notice vulnerabilities and security misconfigurations while using the service.
+
+Implementing secure methods for customers to report security incidents and vulnerabilities encourages customers to report potential issues and enable the provider to quickly learn about and address potential issues within their environment.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A1](#sections-a1) | 
+[top](#pci-dss-v40)
+
+---
+
+## Appendix A Additonal PCI Requirements
+
+### Appendix A2: Additional PCI DSS Requirements for Entities Using SSL/Early TLS for Card- Present POS POI Terminal Connections
+
+#### OVERVIEW
+This Appendix applies only to entities using SSL/early TLS as a security control to protect POS POI terminals, including service providers that provide connections into POS POI terminals.
+
+Entities using SSL and early TLS for POS POI terminal connections must work toward upgrading to a strong cryptographic protocol as soon as possible. Additionally, SSL and/or early TLS must not be introduced into environments where those protocols don’t already exist. At the time of publication, the known vulnerabilities are difficult to exploit in POS POI payment terminals. However, new vulnerabilities could emerge at any time, and it is up to the organization to remain up to date with vulnerability trends and determine whether it is susceptible to any known exploits.
+
+The PCI DSS requirements directly affected are:
+•	Requirement 2.2.5: Where any insecure services, protocols, or daemons are present; business justification is documented, and additional security features are documented and implemented that reduce the risk of using insecure services, protocols, or daemons.
+•	Requirement 2.2.7: All non-console administrative access is encrypted using strong cryptography.
+•	Requirement 4.2.1: Strong cryptography and security protocols are implemented to safeguard PAN during transmission over open, public networks.
+SSL and early TLS must not be used as a security control to meet these requirements, except in the case of POS POI terminal connections, as detailed in this appendix. To support entities working to migrate from SSL/early TLS on POS POI terminals, the following provisions are included:
+•	New POS POI terminal implementations must not use SSL or early TLS as a security control.
+•	All POS POI terminal service providers must provide a secure service offering.
+•	Service providers supporting existing POS POI terminal implementations that use SSL and/or early TLS must have a formal Risk Mitigation and Migration Plan in place.
+•	POS POI terminals in card-present environments that can be verified as not being susceptible to any known exploits for SSL and early TLS,
+and the SSL/TLS termination points to which they connect, may continue using SSL/early TLS as a security control.
+
+Requirements in this Appendix are not eligible for the Customized Approach.
+
+
+#### SECTIONS A2
+[A2.1 POI terminals using SSL and/or early TLS are confirmed as not susceptible to known SSL/TLS exploits.](#requirements-and-testing-procedures-a21)
+
+[Appendix A2](#appendix-a2-additional-pci-dss-requirements-for-entities-using-sslearly-tls-for-card--present-pos-poi-terminal-connections) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
+
+##### REQUIREMENTS and TESTING PROCEDURES A2.1
+
+A2.1 POI terminals using SSL and/or early TLS are confirmed as not susceptible to known SSL/TLS exploits.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A2.1.1 Where POS POI terminals at the merchant or payment acceptance location use SSL and/or early TLS, the entity confirms the devices are not susceptible to any known exploits for those protocols.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+This requirement is intended to apply to the entity with the POS POI terminal, such as a merchant. This requirement is not intended for service providers who serve as the termination or connection point to those POS POI terminals. Requirements A2.1.2 and A2.1.3 apply to POS POI service providers.
+
+The allowance for POS POI terminals that are not currently susceptible to exploits is based on currently known risks. If new exploits are introduced to which POS POI terminals are susceptible, the POS POI terminals will need to be updated immediately.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+A2.1.1 For POS POI terminals using SSL and/or early TLS, confirm the entity has documentation (for example, vendor documentation, system/network configuration details) that verifies the devices are not susceptible to any known exploits for SSL/early TLS.
+
+##### GUIDANCE
+
+**Purpose**
+
+POS POI terminals used in card-present environments can continue using SSL/early TLS when it can be shown that the POS POI terminal is not susceptible to the currently known exploits.
+
+**Good Practice**
+
+However, SSL is outdated technology and could be susceptible to additional security vulnerabilities in the future; it is therefore strongly recommended that POS POI terminals be upgraded to a secure protocol as soon as possible. If SSL/early TLS is not needed in the environment, use of, and fallback to these versions should be disabled.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to the current PCI SSC Information Supplements on SSL/Early TLS for further guidance.
+
+[Section A2](#sections-a2) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**A2.1.2 Additional requirement for service providers only**: All service providers with existing connection points to POS POI terminals that use SSL and/or early TLS as defined in A2.1 have a formal Risk Mitigation and Migration Plan in place that includes:
+• Description of usage, including what data is being transmitted, types and number of systems that use and/or support SSL/early TLS, and type of environment.
+• Risk-assessment results and risk-reduction controls in place.
+• Description of processes to monitor for new vulnerabilities associated with SSL/early TLS.
+• Description of change control processes that are implemented to ensure SSL/early TLS is not implemented into new environments.
+• Overview of migration project plan to replace SSL/early TLS at a future date.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**A2.1.2 Additional testing procedure for service provider assessments only**: Review the documented Risk Mitigation and Migration Plan to verify it includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+POS POI termination points, including but not limited to service providers such as acquirers or acquirer processors, can continue using SSL/early TLS when it can be shown that the service provider has controls in place that mitigate the risk of supporting those connections for the service provider environment.
+
+**Good Practice**
+
+Service providers should communicate to all customers using SSL/early TLS about the risks associated with its use and the need to migrate to a secure protocol.
+
+**Definitions**
+
+The Risk Mitigation and Migration Plan is a document prepared by the entity that details its plans for migrating to a secure protocol and describes controls the entity has in place to reduce the risk associated with SSL/early TLS until the migration is complete.
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to the current PCI SSC Information Supplements on SSL/early TLS for further guidance on Risk Mitigation and Migration Plans.
+
+[Section A2](#sections-a2) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**A2.1.3 Additional requirement for service providers only**: All service providers provide a secure service offering.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**A2.1.3 Additional testing procedure for service provider assessments only**: Examine system configurations and supporting documentation to verify the service provider offers a secure protocol option for its service.
+
+##### GUIDANCE
+
+**Purpose**
+
+Customers must be able to choose to upgrade their POIs to eliminate the vulnerability in using SSL and early TLS. In many cases, customers will need to take a phased or gradual approach to migrate their POS POI estate from the insecure protocol to a secure protocol and so will require the service provider to support a secure offering.
+
+**Good Practice**
+
+Refer to the current PCI SSC Information Supplements on SSL/Early TLS for further guidance.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A2](#sections-a2) | 
+[top](#pci-dss-v40)
+
+---
+
+## Appendix A Additonal PCI Requirements
+
+### Appendix A3: Designated Entities Supplemental Validation (DESV)
+
+#### OVERVIEW
+This Appendix applies only to entities designated by a payment brand(s) or acquirer as requiring additional validation of existing PCI DSS requirements. An entity is required to undergo an assessment according to this Appendix ONLY if instructed to do so by an acquirer or a payment brand. Examples of entities that this Appendix could apply to include:
+• Those storing, processing, and/or transmitting large volumes of account data,
+• Those providing aggregation points for account data, or
+• Those that have suffered significant or repeated breaches of account data.
+Additionally, other PCI standards may reference completion of this Appendix.
+
+These supplemental validation steps are intended to provide greater assurance that PCI DSS controls are maintained effectively and on a continuous basis through validation of business-as-usual (BAU) processes and increased validation and scoping consideration.
+
+**Note**: Some requirements have defined timeframes (for example, at least once every three months or at least once every six months) within which certain activities are to be performed. For initial assessment to this document, it is not required that an activity has been performed for every such timeframe during the previous year, if the assessor verifies:
+• The activity was performed in accordance with the applicable requirement within the most recent timeframe (for example, the most recent three-month or six-month period), and
+• The entity has documented policies and procedures for continuing to perform the activity within the defined timeframe.
+For subsequent years after the initial assessment, an activity must have been performed within each required timeframe (for example, an activity required every three months must have been performed at least four times during the previous year at an interval that does not exceed 90 days).
+
+Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS assessment. It is for this reason that some PCI DSS Requirements are duplicated in this appendix. Any questions about this appendix should be addressed to acquirers or payment brands.
+
+
+
+#### SECTIONS
+[A3.1 A PCI DSS compliance program is implemented.]()
+
+[A3.2 PCI DSS scope is documented and validated.]()
+
+[A3.3 PCI DSS is incorporated into business-as-usual (BAU) activities.]()
+
+[A3.4 Logical access to the cardholder data environment is controlled and managed.]()
+
+[A3.5 Suspicious events are identified and responded to.]()
+
+[Appendix A3](#appendix-a3-designated-entities-supplemental-validation-desv) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12403,7 +13642,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12450,7 +13689,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12497,7 +13736,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12544,7 +13783,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12591,7 +13830,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12638,7 +13877,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12685,7 +13924,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12732,7 +13971,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12779,7 +14018,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12826,7 +14065,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12873,7 +14112,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12920,7 +14159,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -12967,7 +14206,7 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
 ---
@@ -13014,6 +14253,335 @@ Different types of TPSPs include those that:
 
 
 
-[sections 12](#sections-12) | 
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
 [top](#pci-dss-v40)
 
