@@ -11149,10 +11149,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.1.1 An overall information security policy is:
-• Established.
-• Published.
-• Maintained.
-• Disseminated to all relevant personnel, as well as to relevant vendors and business partners.
+- Established.
+- Published.
+- Maintained.
+- Disseminated to all relevant personnel, as well as to relevant vendors and business partners.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11206,8 +11206,8 @@ It is important that all relevant personnel within the organization, as well as 
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.1.2 The information security policy is:
-• Reviewed at least once every 12 months.
-• Updated as needed to reflect changes to business objectives or risks to the environment.
+- Reviewed at least once every 12 months.
+- Updated as needed to reflect changes to business objectives or risks to the environment.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11347,9 +11347,9 @@ Entities should also consider transition and/or succession plans for these key p
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.2.1 Acceptable use policies for end-user technologies are documented and implemented, including:
-• Explicit approval by authorized parties.
-• Acceptable uses of the technology.
-• List of products approved by the company for employee use, including hardware and software.
+- Explicit approval by authorized parties.
+- Acceptable uses of the technology.
+- List of products approved by the company for employee use, including hardware and software.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11401,12 +11401,12 @@ Structuring polices as simple “do” and “do not” requirements that are li
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.1 Each PCI DSS requirement that provides flexibility for how frequently it is performed (for example, requirements to be performed periodically) is supported by a targeted risk analysis that is documented and includes:
-• Identification of the assets being protected.
-• Identification of the threat(s) that the requirement is protecting against.
-• Identification of factors that contribute to the likelihood and/or impact of a threat being realized.
-• Resulting analysis that determines, and includes justification for, how frequently the requirement must be performed to minimize the likelihood of the threat being realized.
-• Review of each targeted risk analysis at least once every 12 months to determine whether the results are still valid or if an updated risk analysis is needed.
-• Performance of updated risk analyses when needed, as determined by the annual review.
+- Identification of the assets being protected.
+- Identification of the threat(s) that the requirement is protecting against.
+- Identification of factors that contribute to the likelihood and/or impact of a threat being realized.
+- Resulting analysis that determines, and includes justification for, how frequently the requirement must be performed to minimize the likelihood of the threat being realized.
+- Review of each targeted risk analysis at least once every 12 months to determine whether the results are still valid or if an updated risk analysis is needed.
+- Performance of updated risk analyses when needed, as determined by the annual review.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11458,9 +11458,9 @@ Examples of risk-assessment methodologies for enterprise-wide risk assessments i
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.2 A targeted risk analysis is performed for each PCI DSS requirement that the entity meets with the customized approach, to include:
-• Documented evidence detailing each element specified in Appendix D: Customized Approach (including, at a minimum, a controls matrix and risk analysis).
-• Approval of documented evidence by senior management.
-• Performance of the targeted analysis of risk at least once every 12 months.
+- Documented evidence detailing each element specified in Appendix D: Customized Approach (including, at a minimum, a controls matrix and risk analysis).
+- Approval of documented evidence by senior management.
+- Performance of the targeted analysis of risk at least once every 12 months.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11506,9 +11506,9 @@ See Appendix E Sample Templates to Support Customized Approach for templates tha
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.3 Cryptographic cipher suites and protocols in use are documented and reviewed at least once every 12 months, including at least the following:
-• An up-to-date inventory of all cryptographic cipher suites and protocols in use, including purpose and where used.
-• Active monitoring of industry trends regarding continued viability of all cryptographic cipher suites and protocols in use.
-• A documented strategy to respond to anticipated changes in cryptographic vulnerabilities.
+- An up-to-date inventory of all cryptographic cipher suites and protocols in use, including purpose and where used.
+- Active monitoring of industry trends regarding continued viability of all cryptographic cipher suites and protocols in use.
+- A documented strategy to respond to anticipated changes in cryptographic vulnerabilities.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11553,10 +11553,10 @@ Refer to *NIST SP 800-131a, Transitioning the Use of Cryptographic Algorithms an
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.4 Hardware and software technologies in use are reviewed at least once every 12 months, including at least the following:
-• Analysis that the technologies continue to receive security fixes from vendors promptly.
-• Analysis that the technologies continue to support (and do not preclude) the entity’s PCI DSS compliance.
-• Documentation of any industry announcements or trends related to a technology, such as when a vendor has announced “end of life” plans for a technology.
-• Documentation of a plan, approved by senior management, to remediate outdated technologies, including those for which vendors have announced “end of life” plans.
+- Analysis that the technologies continue to receive security fixes from vendors promptly.
+- Analysis that the technologies continue to support (and do not preclude) the entity’s PCI DSS compliance.
+- Documentation of any industry announcements or trends related to a technology, such as when a vendor has announced “end of life” plans for a technology.
+- Documentation of a plan, approved by senior management, to remediate outdated technologies, including those for which vendors have announced “end of life” plans.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11606,8 +11606,8 @@ Regular reviews of technologies that impact or influence PCI DSS controls can as
 ###### DEFINED APPROACH REQUIREMENTS
 
 **12.4.1 Additional requirement for service providers only**: Responsibility is established by executive management for the protection of cardholder data and a PCI DSS compliance program to include:
-• Overall accountability for maintaining PCI DSS compliance.
-• Defining a charter for a PCI DSS compliance program and communication to executive management.
+- Overall accountability for maintaining PCI DSS compliance.
+- Defining a charter for a PCI DSS compliance program and communication to executive management.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11658,25 +11658,80 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+**12.4.2 Additional requirement for service providers only**: Reviews are performed at least once every three months to confirm that personnel are performing their tasks in accordance with all security policies and operational procedures. Reviews are performed by personnel other than those responsible for performing the given task and include, but are not limited to, the following tasks:
+- Daily log reviews.
+- Configuration reviews for network security controls.
+- Applying configuration standards to new systems.
+- Responding to security alerts.
+- Change-management processes.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+The operational effectiveness of critical PCI DSS controls is verified periodically by manual inspection of records.
 
 ###### APPLICABILITY NOTES
 
-
+This requirement applies only when the entity being assessed is a service provider.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+**12.4.2.a Additional testing procedure for service provider assessments only**: Examine policies and procedures to verify that processes are defined for conducting reviews to confirm that personnel are performing their tasks in accordance with all security policies and all operational procedures, including but not limited to the tasks specified in this requirement.
 
+**12.4.2.b Additional testing procedure for service provider assessments only**: Interview responsible personnel and examine records of reviews to verify that reviews are performed:
+- At least once every three months.
+- By personnel other than those responsible for performing the given task.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Regularly confirming that security policies and procedures are being followed provides assurance that the expected controls are active and working as intended. This requirement is distinct from other requirements that specify a task to be performed. The objective of these reviews is not to reperform other PCI DSS requirements, but to confirm that security activities are being performed on an ongoing basis.
 
+**Good Practice**
+
+These reviews can also be used to verify that appropriate evidence is being maintained—for example, audit logs, vulnerability scan reports, reviews of network security control rulesets—to assist in the entity’s preparation for its next PCI DSS assessment.
+
+**Definitions**
+
+
+
+**Examples**
+
+Looking at Requirement 1.2.7 as one example, Requirement 12.4.2 is met by confirming, at least once every three months, that reviews of configurations of network security controls have occurred at the required frequency. On the other hand, Requirement 1.2.7 is met by reviewing those configurations as specified in the requirement.
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**12.4.2.1 Additional requirement for service providers only**: Reviews conducted in accordance with Requirement 12.4.2 are documented to include:
+- Results of the reviews.
+- Documented remediation actions taken for any tasks that were found to not be performed at Requirement 12.4.2.
+- Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Findings from operational effectiveness reviews are evaluated by management; appropriate remediation activities are implemented.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**12.4.2.1 Additional testing procedure for service provider assessments only**: Examine documentation from the reviews conducted in accordance with PCI DSS Requirement 12.4.2 to verify the documentation includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+The intent of these independent checks is to confirm whether security activities are being performed on an ongoing basis. These reviews can also be used to verify that appropriate evidence is being maintained—for example, audit logs, vulnerability scan reports, reviews of network security control rulesets—to assist in the entity’s preparation for its next PCI DSS assessment.
 
 **Good Practice**
 
@@ -11699,17 +11754,17 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 12.5
 
-
+12.5 PCI DSS scope is documented and validated.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+12.5.1 An inventory of system components that are in scope for PCI DSS, including a description of function/use, is maintained and kept current.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+All system components in scope for PCI DSS are identified and known.
 
 ###### APPLICABILITY NOTES
 
@@ -11717,13 +11772,131 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+12.5.1.a Examine the inventory to verify it includes all in-scope system components and a description of function/use for each.
 
+12.5.1.b Interview personnel to verify the inventory is kept current.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Maintaining a current list of all system components will enable an organization to define the scope of its environment and implement PCI DSS requirements accurately and efficiently. Without an inventory, some system components could be overlooked and be inadvertently excluded from the organization’s configuration standards.
 
+**Good Practice**
+
+If an entity keeps an inventory of all assets, those system components in scope for PCI DSS should be clearly identifiable among the other assets.
+Inventories should include containers or images that may be instantiated.
+
+Assigning an owner to the inventory helps to ensure the inventory stays current.
+
+**Definitions**
+
+
+
+**Examples**
+
+Methods to maintain an inventory include as a database, as a series of files, or in an inventory-management tool.
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.5.2 PCI DSS scope is documented and confirmed by the entity at least once every 12 months and upon significant change to the in-scope environment. At a minimum, the scoping validation includes:
+- Identifying all data flows for the various payment stages (for example, authorization, capture settlement, chargebacks, and refunds) and acceptance channels (for example, card-present, card-not-present, and e-commerce).
+- Updating all data-flow diagrams per Requirement 1.2.4.
+- Identifying all locations where account data is stored, processed, and transmitted, including but not limited to: 1) any locations outside of the currently defined CDE, 2) applications that process CHD, 3) transmissions between systems and networks, and 4) file backups.
+- Identifying all system components in the CDE, connected to the CDE, or that could impact security of the CDE.
+- Identifying all segmentation controls in use and the environment(s) from which the CDE is segmented, including justification for environments being out of scope.
+- Identifying all connections from third-party entities with access to the CDE.
+- Confirming that all identified data flows, account data, system components, segmentation controls, and connections from third parties with access to the CDE are included in scope.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+PCI DSS scope is verified periodically, and after significant changes, by comprehensive analysis and appropriate technical measures.
+
+###### APPLICABILITY NOTES
+
+This annual confirmation of PCI DSS scope is an activity expected to be performed by the entity under assessment, and is not the same, nor is it intended to be replaced by, the scoping confirmation performed by the entity’s assessor during the annual assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.5.2.a Examine documented results of scope reviews and interview personnel to verify that the reviews are performed:
+- At least once every 12 months.
+- After significant changes to the in-scope environment.
+
+12.5.2.b Examine documented results of scope reviews performed by the entity to verify that PCI DSS scoping confirmation activity includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Frequent validation of PCI DSS scope helps to ensure PCI DSS scope remains up to date and aligned with changing business objectives, and therefore that security controls are protecting all appropriate system components.
+
+**Good Practice**
+
+Accurate scoping involves critically evaluating the CDE and all connected system components to determine the necessary coverage for PCI DSS requirements. Scoping activities, including careful analysis and ongoing monitoring, help to ensure that in-scope systems are appropriately secured. When documenting account data locations, the entity can consider creating a table or spreadsheet that includes the following information:
+- Data stores (databases, files, cloud, etc.), including the purpose of data storage and the retention period,
+- Which CHD elements are stored (PAN, expiry date, cardholder name, and/or any elements of SAD prior to completion of authorization),
+- How data is secured (type of encryption and strength, hashing algorithm and strength, truncation, tokenization),
+- How access to data stores is logged, including a description of logging mechanism(s) in use (enterprise solution, application level, operating system level, etc.).
+
+In addition to internal systems and networks, all connections from third-party entities—for example, business partners, entities providing remote support services, and other service providers—need to be identified to determine inclusion for PCI DSS scope. Once the in-scope connections have been identified, the applicable PCI DSS controls can be implemented to reduce the risk of a third-party connection being used to compromise an entity’s CDE.
+
+A data discovery tool or methodology can be used to facilitate identifying all sources and locations of PAN, and to look for PAN that resides on systems and networks outside the currently defined CDE or in unexpected places within the defined CDE—for example, in an error log or memory dump file. This approach can help ensure that previously unknown locations of PAN are detected and that the PAN is either eliminated or properly secured.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+For additional guidance, refer to *Information Supplement: Guidance for PCI DSS Scoping and Network Segmentation*.
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**12.5.2.1 Additional requirement for service providers only**: PCI DSS scope is documented and confirmed by the entity at least once every six months and upon significant change to the in-scope environment. At a minimum, the scoping validation includes all the elements specified in Requirement 12.5.2.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The accuracy of PCI DSS scope is verified to be continuously accurate by comprehensive analysis and appropriate technical measures.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**12.5.2.1.a Additional testing procedure for service provider assessments only**: Examine documented results of scope reviews and interview personnel to verify that reviews per Requirement 12.5.2 are performed:
+- At least once every six months, and
+- After significant changes
+
+**12.5.2.1.b Additional testing procedure for service provider assessments only**: Examine documented results of scope reviews to verify that scoping validation includes all elements specified in Requirement 12.5.2.
+
+##### GUIDANCE
+
+**Purpose**
+
+Service providers typically have access to greater volumes of cardholder data than do merchants, or can provide an entry point that can be exploited to then compromise multiple other entities. Service providers also typically have larger and more complex networks that are subject to more frequent change. The probability of overlooked changes to scope in complex and dynamic networks is greater in service providers’ environments.
+
+Validating PCI DSS scope more frequently is likely to discover such overlooked changes before they can be exploited by an attacker.
 
 **Good Practice**
 
@@ -11746,17 +11919,64 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+**12.5.3 Additional requirement for service providers only**: Significant changes to organizational structure result in a documented (internal) review of the impact to PCI DSS scope and applicability of controls, with results communicated to executive management.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
+PCI DSS scope is confirmed after significant organizational change.
 
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**12.5.3.a Additional testing procedure for service provider assessments only**: Examine policies and procedures to verify that processes are defined such that a significant change to organizational structure results in documented review of the impact to PCI DSS scope and applicability of controls.
+
+**12.5.3.b Additional testing procedure for service provider assessments only**: Examine documentation (for example, meeting minutes) and interview responsible personnel to verify that significant changes to organizational structure resulted in documented reviews that included all elements specified in this requirement, with results communicated to executive management.
+
+##### GUIDANCE
+
+**Purpose**
+
+An organization’s structure and management define the requirements and protocol for effective and secure operations. Changes to this structure could have negative effects to existing controls and frameworks by reallocating or removing resources that once supported PCI DSS controls or inheriting new responsibilities that may not have established controls in place. Therefore, it is important to revisit PCI DSS scope and controls when there are changes to an organization’s structure and management to ensure controls are in place and active.
+
+**Good Practice**
+
+Changes to organizational structure include, but are not limited to, company mergers or acquisitions, and significant changes or reassignments of personnel with responsibility for security controls.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 12.6
+
+12.6 Security awareness education is an ongoing activity.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.6.1 A formal security awareness program is implemented to make all personnel aware of the entity’s information security policy and procedures, and their role in protecting the cardholder data.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Personnel are knowledgeable about the threat landscape, their responsibility for the operation of relevant security controls, and are able to access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
 
@@ -11764,13 +11984,13 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+12.6.1 Examine the security awareness program to verify it provides awareness to all personnel about the entity’s information security policy and procedures, and personnel’s role in protecting the cardholder data.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+If personnel are not educated about their company’s information security policies and procedures and their own security responsibilities, security safeguards and processes that have been implemented may become ineffective through unintentional errors or intentional actions.
 
 **Good Practice**
 
@@ -11793,31 +12013,29 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+12.6.2 The security awareness program is:
+- Reviewed at least once every 12 months, and
+- Updated as needed to address any new threats and vulnerabilities that may impact the security of the entity’s CDE, or the information provided to personnel about their role in protecting cardholder data.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+The content of security awareness material is reviewed and updated periodically.
 
 ###### APPLICABILITY NOTES
 
-
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+12.6.2 Examine security awareness program content, evidence of reviews, and interview personnel to verify that the security awareness program is in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+The threat environment and an entity’s defenses are not static. As such, the security awareness program materials must be updated as frequently as needed to ensure that the education received by personnel is up to date and represents the current threat environment.
 
 **Good Practice**
 
@@ -11840,17 +12058,16 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+12.6.3 Personnel receive security awareness training as follows:
+- Upon hire and at least once every 12 months.
+- Multiple methods of communication are used.
+- Personnel acknowledge at least once every 12 months that they have read and understood the information security policy and procedures.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Personnel remain knowledgeable about the threat landscape, their responsibility for the operation of relevant security controls, and are able to access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
 
@@ -11858,13 +12075,120 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+12.6.3.a Examine security awareness program records to verify that personnel attend security awareness training upon hire and at least once every 12 months.
 
+12.6.3.b Examine security awareness program materials to verify the program includes multiple methods of communicating awareness and educating personnel.
+
+12.6.3.c Interview personnel to verify they have completed awareness training and are aware of their role in protecting cardholder data.
+
+12.6.3.d Examine security awareness program materials and personnel acknowledgments to verify that personnel acknowledge at least once every 12 months that they have read and understand the information security policy and procedures.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Training of personnel ensures they receive the information about the importance of information security and that they understand their role in protecting the organization.
+Requiring an acknowledgment by personnel helps ensure that they have read and understood the security policies and procedures, and that they have made and will continue to make a commitment to comply with these policies.
 
+**Good Practice**
+
+Entities may incorporate new-hire training as part of the Human Resources onboarding process. Training should outline the security-related “dos” and “don’ts.” Periodic refresher training reinforces key security processes and procedures that may be forgotten or bypassed.
+
+Entities should consider requiring security awareness training anytime personnel transfer into roles where they can impact the security of account data from roles where they did not have this impact.
+
+Methods and training content can vary, depending on personnel roles.
+
+**Definitions**
+
+
+
+**Examples**
+
+Different methods that can be used to provide security awareness and education include posters, letters, web-based training, in-person training, team meetings, and incentives.
+
+Personnel acknowledgments may be recorded in writing or electronically.
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.6.3.1 Security awareness training includes awareness of threats and vulnerabilities that could impact the security of the CDE, including but not limited to:
+- Phishing and related attacks.
+- Social engineering.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Personnel are knowledgeable about their own human vulnerabilities and how threat actors will attempt to exploit such vulnerabilities. Personnel are able to access assistance and guidance when required.
+
+###### APPLICABILITY NOTES
+
+See Requirement 5.4.1 for guidance on the difference between technical and automated controls to detect and protect users from phishing attacks, and this requirement for providing users security awareness training about phishing and social engineering. These are two separate and distinct requirements, and one is not met by implementing controls required by the other one.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.6.3.1 Examine security awareness training content to verify it includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Educating personnel on how to detect, react to, and report potential phishing and related attacks and social engineering attempts is essential to minimizing the probability of successful attacks.
+
+**Good Practice**
+
+An effective security awareness program should include examples of phishing emails and periodic testing to determine the prevalence of personnel reporting such attacks. Training material an entity can consider for this topic include:
+- How to identify phishing and other social engineering attacks.
+- How to react to suspected phishing and social engineering.
+- Where and how to report suspected phishing and social engineering activity.
+An emphasis on reporting allows the organization to reward positive behavior, to optimize technical defenses (see Requirement 5.4.1), and to take immediate action to remove similar phishing emails that evaded technical defenses from recipient inboxes.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.6.3.2 Security awareness training includes awareness about the acceptable use of end-user technologies in accordance with Requirement 12.2.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Personnel are knowledgeable about their responsibility for the security and operation of end-user technologies and are able to access assistance and guidance when required.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.6.3.2 Examine security awareness training content to verify it includes awareness about acceptable use of end-user technologies in accordance with Requirement 12.2.1.
+
+##### GUIDANCE
+
+**Purpose**
+
+By including the key points of the acceptable use policy in regular training and the related context, personnel will understand their responsibilities and how these impact the security of an organization’s systems.
 
 **Good Practice**
 
@@ -11887,35 +12211,39 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 12.7
 
-
+12.7 Personnel are screened to reduce risks from insider threats.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+12.7.1 Potential personnel who will have access to the CDE are screened, within the constraints of local laws, prior to hire to minimize the risk of attacks from internal sources.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+The risk related to allowing new members of staff access to the CDE is understood and managed.
 
 ###### APPLICABILITY NOTES
 
-
+For those potential personnel to be hired for positions such as store cashiers, who only have access to one card number at a time when facilitating a transaction, this requirement is a recommendation only.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+12.7.1 Interview responsible Human Resource department management to verify that screening is conducted, within the constraints of local laws, prior to hiring potential personnel who will have access to the CDE.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Performing thorough screening prior to hiring potential personnel who are expected to be given access to the CDE provides entities with the information necessary to make informed risk decisions regarding personnel they hire that will have access to the CDE.
 
+Other benefits of screening potential personnel include helping to ensure workplace safety and confirming information provided by prospective employees on their resumes.
 
 **Good Practice**
 
+Entities should consider screening for existing personnel anytime they transfer into roles where they have access to the CDE from roles where they did not have this access.
 
+To be effective, the level of screening should be appropriate for the position. For example, positions requiring greater responsibility or that have administrative access to critical data or systems may warrant more detailed or more frequent screening than positions with less responsibility and access.
 
 **Definitions**
 
@@ -11923,7 +12251,7 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 **Examples**
 
-
+Screening options can include, as appropriate for the entity’s region, previous employment history, review of public information/social media resources, criminal record, credit history, and reference checks.
 
 **Further Information**
 
@@ -11934,31 +12262,33 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 12.8
 
-
+12.8 Risk to information assets associated with third-party service provider (TPSP) relationships is managed.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+12.8.1 A list of all third-party service providers (TPSPs) with which account data is shared or that could affect the security of account data is maintained, including a description for each of the services provided.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Records are maintained of TPSPs and the services provided.
 
 ###### APPLICABILITY NOTES
 
-
+The use of a PCI DSS compliant TPSP does not make an entity PCI DSS compliant, nor does it remove the entity’s responsibility for its own PCI DSS compliance.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+12.8.1.a Examine policies and procedures to verify that processes are defined to maintain a list of TPSPs, including a description for each of the services provided, for all TPSPs with whom account data is shared or that could affect the security of account data.
 
+12.8.1.b Examine documentation to verify that a list of all TPSPs is maintained that includes a description of the services provided.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Maintaining a list of all TPSPs identifies where potential risk extends outside the organization and defines the organization’s extended attack surface.
 
 **Good Practice**
 
@@ -11970,289 +12300,10 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 **Examples**
 
-
-
-**Further Information**
-
-
-
-[sections 12](#sections-12) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 12](#sections-12) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 12](#sections-12) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 12](#sections-12) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 12](#sections-12) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 12](#sections-12) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
+Different types of TPSPs include those that:
+- Store, process, or transmit account data on the entity’s behalf (such as payment gateways, payment processors, payment service providers (PSPs), and off-site storage providers).
+- Manage system components included in the entity’s PCI DSS assessment (such as providers of network security control services, anti-malware services, and security incident and event management (SIEM); contact and call centers; web-hosting companies; and IaaS, PaaS, SaaS, and FaaS cloud providers).
+- Could impact the security of the entity’s CDE (such as vendors providing support via remote access, and bespoke software developers).
 
 **Further Information**
 
