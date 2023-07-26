@@ -13855,10 +13855,10 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.2 PCI DSS scope impact for all changes to systems or networks is determined, including additions of new systems and new network connections. Processes include:
-• Performing a formal PCI DSS impact assessment.
-• Identifying applicable PCI DSS requirements to the system or network.
-• Updating PCI DSS scope as appropriate.
-• Documented sign-off of the results of the impact assessment by responsible personnel (as defined in A3.1.3).
+- Performing a formal PCI DSS impact assessment.
+- Identifying applicable PCI DSS requirements to the system or network.
+- Updating PCI DSS scope as appropriate.
+- Documented sign-off of the results of the impact assessment by responsible personnel (as defined in A3.1.3).
 PCI DSS Reference: Scope of PCI DSS Requirements; Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -13991,10 +13991,10 @@ PCI DSS Reference: Requirement 12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.4 If segmentation is used, PCI DSS scope is confirmed as follows:
-• Per the entity’s methodology defined at Requirement 11.4.1.
-• Penetration testing is performed on segmentation controls at least once every six months and after any changes to segmentation controls/methods.
-• The penetration testing covers all segmentation controls/methods in use.
-• The penetration testing verifies that segmentation controls/methods are operational and effective, and isolate the CDE from all out-of-scope systems.
+- Per the entity’s methodology defined at Requirement 11.4.1.
+- Penetration testing is performed on segmentation controls at least once every six months and after any changes to segmentation controls/methods.
+- The penetration testing covers all segmentation controls/methods in use.
+- The penetration testing verifies that segmentation controls/methods are operational and effective, and isolate the CDE from all out-of-scope systems.
 PCI DSS Reference: Requirement 11
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14039,9 +14039,9 @@ PCI DSS Reference: Requirement 11
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.5 A data-discovery methodology is implemented that:
-• Confirms PCI DSS scope.
-• Locates all sources and locations of cleartext PAN at least once every three months and upon significant changes to the CDE or processes.
-• Addresses the potential for cleartext PAN to reside on systems and networks outside the currently defined CDE.
+- Confirms PCI DSS scope.
+- Locates all sources and locations of cleartext PAN at least once every three months and upon significant changes to the CDE or processes.
+- Addresses the potential for cleartext PAN to reside on systems and networks outside the currently defined CDE.
 PCI DSS Reference: Scope of PCI DSS Requirements
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14086,9 +14086,9 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.5.1 Data discovery methods are confirmed as follows:
-• Effectiveness of methods is tested.
-• Methods are able to discover cleartext PAN on all types of system components and file formats in use.
-• The effectiveness of data-discovery methods is confirmed at least once every 12 months.
+- Effectiveness of methods is tested.
+- Methods are able to discover cleartext PAN on all types of system components and file formats in use.
+- The effectiveness of data-discovery methods is confirmed at least once every 12 months.
 PCI DSS Reference: Scope of PCI DSS Requirements
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14133,11 +14133,11 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.5.2 Response procedures are implemented to be initiated upon the detection of cleartext PAN outside the CDE to include:
-• Determining what to do if cleartext PAN is discovered outside the CDE, including its retrieval, secure deletion, and/or migration into the currently defined CDE, as applicable.
-• Determining how the data ended up outside the CDE.
-• Remediating data leaks or process gaps that resulted in the data being outside the CDE.
-• Identifying the source of the data.
-• Identifying whether any track data is stored with the PANs.
+- Determining what to do if cleartext PAN is discovered outside the CDE, including its retrieval, secure deletion, and/or migration into the currently defined CDE, as applicable.
+- Determining how the data ended up outside the CDE.
+- Remediating data leaks or process gaps that resulted in the data being outside the CDE.
+- Identifying the source of the data.
+- Identifying whether any track data is stored with the PANs.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14181,9 +14181,9 @@ A3.2.5.2 Response procedures are implemented to be initiated upon the detection 
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.6 Mechanisms are implemented for detecting and preventing cleartext PAN from leaving the CDE via an unauthorized channel, method, or process, including mechanisms that are:
-• Actively running.
-• Configured to detect and prevent cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
-• Generating audit logs and alerts upon detection of cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
+- Actively running.
+- Configured to detect and prevent cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
+- Generating audit logs and alerts upon detection of cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
 PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14228,8 +14228,8 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.6.1 Response procedures are implemented to be initiated upon the detection of attempts to remove cleartext PAN from the CDE via an unauthorized channel, method, or process. Response procedures include:
-• Procedures for the prompt investigation of alerts by responsible personnel.
-• Procedures for remediating data leaks or process gaps, as necessary, to prevent any data loss.
+- Procedures for the prompt investigation of alerts by responsible personnel.
+- Procedures for remediating data leaks or process gaps, as necessary, to prevent any data loss.
 PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14278,16 +14278,16 @@ A3.3 PCI DSS is incorporated into business-as-usual (BAU) activities.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.3.1 Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited to failure of:
-• Network security controls
-• IDS/IPS
-• FIM
-• Anti-malware solutions
-• Physical access controls
-• Logical access controls
-• Audit logging mechanisms
-• Segmentation controls (if used)
-• Automated audit log review mechanisms. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
-• Automated code review tools (if used). This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+- Network security controls
+- IDS/IPS
+- FIM
+- Anti-malware solutions
+- Physical access controls
+- Logical access controls
+- Audit logging mechanisms
+- Segmentation controls (if used)
+- Automated audit log review mechanisms. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+- Automated code review tools (if used). This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
 PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14332,13 +14332,13 @@ PCI DSS Reference: Requirements 1-12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.3.1.2 Failures of any critical security control systems are responded to promptly. Processes for responding to failures in security control systems include:
-• Restoring security functions.
-• Identifying and documenting the duration (date and time from start to end) of the security failure.
-• Identifying and documenting the cause(s) of failure, including root cause, and documenting remediation required to address the root cause.
-• Identifying and addressing any security issues that arose during the failure.
-• Determining whether further actions are required as a result of the security failure.
-• Implementing controls to prevent the cause of failure from reoccurring.
-• Resuming monitoring of security controls.
+- Restoring security functions.
+- Identifying and documenting the duration (date and time from start to end) of the security failure.
+- Identifying and documenting the cause(s) of failure, including root cause, and documenting remediation required to address the root cause.
+- Identifying and addressing any security issues that arose during the failure.
+- Determining whether further actions are required as a result of the security failure.
+- Implementing controls to prevent the cause of failure from reoccurring.
+- Resuming monitoring of security controls.
 PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14427,12 +14427,12 @@ PCI DSS Reference: Requirements 2, 6, 12.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.3.3 Reviews are performed at least once every three months to verify BAU activities are being followed. Reviews are performed by personnel assigned to the PCI DSS compliance program (as identified in A3.1.3), and include:
-• Confirmation that all BAU activities, including A3.2.2, A3.2.6, and A3.3.1, are being performed.
-• Confirmation that personnel are following security policies and operational procedures (for example, daily log reviews, ruleset reviews for network security controls, configuration standards for new systems).
-• Documenting how the reviews were completed, including how all BAU activities were verified as being in place.
-• Collection of documented evidence as required for the annual PCI DSS assessment.
-• Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program, as identified in A3.1.3.
-• Retention of records and documentation for at least 12 months, covering all BAU activities.
+- Confirmation that all BAU activities, including A3.2.2, A3.2.6, and A3.3.1, are being performed.
+- Confirmation that personnel are following security policies and operational procedures (for example, daily log reviews, ruleset reviews for network security controls, configuration standards for new systems).
+- Documenting how the reviews were completed, including how all BAU activities were verified as being in place.
+- Collection of documented evidence as required for the annual PCI DSS assessment.
+- Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program, as identified in A3.1.3.
+- Retention of records and documentation for at least 12 months, covering all BAU activities.
 PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -14529,9 +14529,9 @@ A3.5 Suspicious events are identified and responded to.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.5.1 A methodology is implemented for the prompt identification of attack patterns and undesirable behavior across systems that includes:
-• Identification of anomalies or suspicious activity as it occurs.
-• Issuance of prompt alerts upon detection of suspicious activity or anomaly to responsible personnel.
-• Response to alerts in accordance with documented response procedures.
+- Identification of anomalies or suspicious activity as it occurs.
+- Issuance of prompt alerts upon detection of suspicious activity or anomaly to responsible personnel.
+- Response to alerts in accordance with documented response procedures.
 PCI DSS Reference: Requirements 10, 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
