@@ -16,7 +16,7 @@
 
 [Appendix A Additonal PCI Requirements](#appendix-a-additonal-pci-requirements)
 
-[Appendix B Compensating Controls]()
+[Appendix B Compensating Controls](#appendix-b-compensating-controls)
 
 [Appendix C Compensating Controls Worksheet]()
 
@@ -54,22 +54,25 @@
 
 [Requirement 12: Support Information Security with Organizational Policies and Programs](#requirement-12-support-information-security-with-organizational-policies-and-programs)
 
-[]()
+### Appendices
 
-[]()
+[Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers](#appendix-a1-additional-pci-dss-requirements-for-multi-tenant-service-providers)
 
-[]()
+[Appendix A2: Additional PCI DSS Requirements for Entities Using SSL/Early TLS for Card- Present POS POI Terminal Connections](#appendix-a2-additional-pci-dss-requirements-for-entities-using-sslearly-tls-for-card--present-pos-poi-terminal-connections)
 
-[]()
+[Appendix A3: Designated Entities Supplemental Validation (DESV)](#appendix-a3-designated-entities-supplemental-validation-desv)
 
-[]()
+[Appendix B: Compensating Controls](#appendix-b-compensating-controls)
 
-[]()
+[Appendix C: Compensating Controls Worksheet]()
 
-[]()
+[Appendix D Customized Approach]()
 
-[]()
+[Appendix E Sample Templates to Support Customized Approach]()
 
+[Appendix F Leveraging the PCI Software Security Framework to Support Requirement 6]()
+
+[Appendix G PCI DSS Glossary of Terms, Abbreviations, and Acronyms]()
 
 
 ---
@@ -13023,7 +13026,7 @@ Guidance and applicability information is provided in each section.
 [Appendix A3: Designated Entities Supplemental Validation (DESV)]()
 
 [Appendix A](#appendix-a-additonal-pci-requirements) | 
-[requirements](#requirements) | 
+[appendices](#appendices) | 
 [principles](#principles) | 
 [top](#pci-dss-v40)
 
@@ -13049,7 +13052,7 @@ Note: Even though a multi-tenant service provider may meet these requirements, e
 [A1.2 Multi-tenant service providers facilitate logging and incident response for all customers.](#requirements-and-testing-procedures-a12)
 
 [Appendix A1](#appendix-a1-additional-pci-dss-requirements-for-multi-tenant-service-providers) | 
-[requirements](#requirements) | 
+[appendices](#appendices) | 
 [principles](#principles) | 
 [top](#pci-dss-v40)
 
@@ -13062,8 +13065,8 @@ A1.1 Multi-tenant service providers protect and separate all customer environmen
 ###### DEFINED APPROACH REQUIREMENTS
 
 A1.1.1 Logical separation is implemented as follows:
-• The provider cannot access its customers’ environments without authorization.
-• Customers cannot access the provider’s environment without authorization.
+- The provider cannot access its customers’ environments without authorization.
+- Customers cannot access the provider’s environment without authorization.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13248,11 +13251,11 @@ A1.2 Multi-tenant service providers facilitate logging and incident response for
 ###### DEFINED APPROACH REQUIREMENTS
 
 A1.2.1 Audit log capability is enabled for each customer’s environment that is consistent with PCI DSS Requirement 10, including:
-• Logs are enabled for common third-party applications.
-• Logs are active by default.
-• Logs are available for review only by the owning customer.
-• Log locations are clearly communicated to the owning customer.
-• Log data and availability is consistent with PCI DSS Requirement 10.
+- Logs are enabled for common third-party applications.
+- Logs are active by default.
+- Logs are available for review only by the owning customer.
+- Log locations are clearly communicated to the owning customer.
+- Log data and availability is consistent with PCI DSS Requirement 10.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13342,8 +13345,8 @@ Prompt and efficient responses to forensic investigators’ requests can signifi
 ###### DEFINED APPROACH REQUIREMENTS
 
 A1.2.3 Processes or mechanisms are implemented for reporting and addressing suspected or confirmed security incidents and vulnerabilities, including:
-• Customers can securely report security incidents and vulnerabilities to the provider.
-• The provider addresses and remediates suspected or confirmed security incidents and vulnerabilities according to Requirement 6.3.1.
+- Customers can securely report security incidents and vulnerabilities to the provider.
+- The provider addresses and remediates suspected or confirmed security incidents and vulnerabilities according to Requirement 6.3.1.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13415,7 +13418,7 @@ Requirements in this Appendix are not eligible for the Customized Approach.
 [A2.1 POI terminals using SSL and/or early TLS are confirmed as not susceptible to known SSL/TLS exploits.](#requirements-and-testing-procedures-a21)
 
 [Appendix A2](#appendix-a2-additional-pci-dss-requirements-for-entities-using-sslearly-tls-for-card--present-pos-poi-terminal-connections) | 
-[requirements](#requirements) | 
+[appendices](#appendices) | 
 [principles](#principles) | 
 [top](#pci-dss-v40)
 
@@ -13472,11 +13475,11 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 ###### DEFINED APPROACH REQUIREMENTS
 
 **A2.1.2 Additional requirement for service providers only**: All service providers with existing connection points to POS POI terminals that use SSL and/or early TLS as defined in A2.1 have a formal Risk Mitigation and Migration Plan in place that includes:
-• Description of usage, including what data is being transmitted, types and number of systems that use and/or support SSL/early TLS, and type of environment.
-• Risk-assessment results and risk-reduction controls in place.
-• Description of processes to monitor for new vulnerabilities associated with SSL/early TLS.
-• Description of change control processes that are implemented to ensure SSL/early TLS is not implemented into new environments.
-• Overview of migration project plan to replace SSL/early TLS at a future date.
+- Description of usage, including what data is being transmitted, types and number of systems that use and/or support SSL/early TLS, and type of environment.
+- Risk-assessment results and risk-reduction controls in place.
+- Description of processes to monitor for new vulnerabilities associated with SSL/early TLS.
+- Description of change control processes that are implemented to ensure SSL/early TLS is not implemented into new environments.
+- Overview of migration project plan to replace SSL/early TLS at a future date.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13566,47 +13569,52 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 
 #### OVERVIEW
 This Appendix applies only to entities designated by a payment brand(s) or acquirer as requiring additional validation of existing PCI DSS requirements. An entity is required to undergo an assessment according to this Appendix ONLY if instructed to do so by an acquirer or a payment brand. Examples of entities that this Appendix could apply to include:
-• Those storing, processing, and/or transmitting large volumes of account data,
-• Those providing aggregation points for account data, or
-• Those that have suffered significant or repeated breaches of account data.
+- Those storing, processing, and/or transmitting large volumes of account data,
+- Those providing aggregation points for account data, or
+- Those that have suffered significant or repeated breaches of account data.
 Additionally, other PCI standards may reference completion of this Appendix.
 
 These supplemental validation steps are intended to provide greater assurance that PCI DSS controls are maintained effectively and on a continuous basis through validation of business-as-usual (BAU) processes and increased validation and scoping consideration.
 
 **Note**: Some requirements have defined timeframes (for example, at least once every three months or at least once every six months) within which certain activities are to be performed. For initial assessment to this document, it is not required that an activity has been performed for every such timeframe during the previous year, if the assessor verifies:
-• The activity was performed in accordance with the applicable requirement within the most recent timeframe (for example, the most recent three-month or six-month period), and
-• The entity has documented policies and procedures for continuing to perform the activity within the defined timeframe.
+- The activity was performed in accordance with the applicable requirement within the most recent timeframe (for example, the most recent three-month or six-month period), and
+- The entity has documented policies and procedures for continuing to perform the activity within the defined timeframe.
 For subsequent years after the initial assessment, an activity must have been performed within each required timeframe (for example, an activity required every three months must have been performed at least four times during the previous year at an interval that does not exceed 90 days).
 
 Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS assessment. It is for this reason that some PCI DSS Requirements are duplicated in this appendix. Any questions about this appendix should be addressed to acquirers or payment brands.
 
 
 
-#### SECTIONS
-[A3.1 A PCI DSS compliance program is implemented.]()
+#### SECTIONS A3
+[A3.1 A PCI DSS compliance program is implemented.](#requirements-and-testing-procedures-a31)
 
-[A3.2 PCI DSS scope is documented and validated.]()
+[A3.2 PCI DSS scope is documented and validated.](#requirements-and-testing-procedures-a32)
 
-[A3.3 PCI DSS is incorporated into business-as-usual (BAU) activities.]()
+[A3.3 PCI DSS is incorporated into business-as-usual (BAU) activities.](#requirements-and-testing-procedures-a33)
 
-[A3.4 Logical access to the cardholder data environment is controlled and managed.]()
+[A3.4 Logical access to the cardholder data environment is controlled and managed.](#requirements-and-testing-procedures-a34)
 
-[A3.5 Suspicious events are identified and responded to.]()
+[A3.5 Suspicious events are identified and responded to.](#requirements-and-testing-procedures-a35)
 
 [Appendix A3](#appendix-a3-designated-entities-supplemental-validation-desv) | 
-[requirements](#requirements) | 
+[appendices](#appendices) | 
 [principles](#principles) | 
 [top](#pci-dss-v40)
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES A3.1
 
-
+A3.1 A PCI DSS compliance program is implemented.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
+A3.1.1 Responsibility is established by executive management for the protection of account data and a PCI DSS compliance program that includes:
+- Overall accountability for maintaining PCI DSS compliance.
+- Defining a charter for a PCI DSS compliance program.
+- Providing updates to executive management and board of directors on PCI DSS compliance initiatives and issues, including remediation activities, at least once every 12 months.
 
+PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13647,13 +13655,15 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
+A3.1.2 A formal PCI DSS compliance program is in place that includes:
+- Definition of activities for maintaining and monitoring overall PCI DSS compliance, including business-as-usual activities.
+- Annual PCI DSS assessment processes.
+- Processes for the continuous validation of PCI DSS requirements (for example, daily, weekly, every three months, as applicable per the requirement).
+- A process for performing business-impact analysis to determine potential PCI DSS impacts for strategic business decisions.
 
+PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13694,13 +13704,14 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.1.3 PCI DSS compliance roles and responsibilities are specifically defined and formally assigned to one or more personnel, including:
+- Managing PCI DSS business-as-usual activities.
+- Managing annual PCI DSS assessments.
+- Managing continuous validation of PCI DSS requirements (for example, daily, weekly, every three months, as applicable per the requirement).
+- Managing business-impact analysis to determine potential PCI DSS impacts for strategic business decisions.
+PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13741,13 +13752,10 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.1.4 Up-to-date PCI DSS and/or information security training is provided at least once every 12 months to personnel with PCI DSS compliance responsibilities (as identified in A3.1.3).
+PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13788,13 +13796,22 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES A3.2
 
-
+A3.2 PCI DSS scope is documented and validated.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.1 PCI DSS scope is documented and confirmed for accuracy at least once every three months and upon significant changes to the in-scope environment. At a minimum, the scoping validation includes:
+- Identifying all data flows for the various payment stages (for example, authorization, capture, settlement, chargebacks, and refunds) and acceptance channels (for example, card-present, card-not-present, and e-commerce).
+- Updating all data-flow diagrams per Requirement 1.2.4.
+- Identifying all locations where account data is stored, processed, and transmitted, including but not limited to 1) any locations outside of the currently defined CDE, 2) applications that process CHD, 3) transmissions between systems and networks, and 4) file backups.
+- For any account data found outside of the currently defined CDE, either 1) securely delete it, 2) migrate it into the currently defined CDE, or 3) expand the currently defined CDE to include it.
+- Identifying all system components in the CDE, connected to the CDE, or that could impact security of the CDE.
+- Identifying all segmentation controls in use and the environment(s) from which the CDE is segmented, including justification for environments being out of scope.
+- Identifying all connections to third-party entities with access to the CDE.
+- Confirming that all identified data flows, account data, system components, segmentation controls, and connections from third parties with access to the CDE are included in scope.
+PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13835,13 +13852,14 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.2 PCI DSS scope impact for all changes to systems or networks is determined, including additions of new systems and new network connections. Processes include:
+• Performing a formal PCI DSS impact assessment.
+• Identifying applicable PCI DSS requirements to the system or network.
+• Updating PCI DSS scope as appropriate.
+• Documented sign-off of the results of the impact assessment by responsible personnel (as defined in A3.1.3).
+PCI DSS Reference: Scope of PCI DSS Requirements; Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13882,13 +13900,10 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.2.1 Upon completion of a change, all relevant PCI DSS requirements are confirmed to be implemented on all new or changed systems and networks, and documentation is updated as applicable.
+PCI DSS Reference: Scope of PCI DSS Requirements; Requirement 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13929,13 +13944,10 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.3 Changes to organizational structure result in a formal (internal) review of the impact to PCI DSS scope and applicability of controls.
+PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -13976,13 +13988,14 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.4 If segmentation is used, PCI DSS scope is confirmed as follows:
+• Per the entity’s methodology defined at Requirement 11.4.1.
+• Penetration testing is performed on segmentation controls at least once every six months and after any changes to segmentation controls/methods.
+• The penetration testing covers all segmentation controls/methods in use.
+• The penetration testing verifies that segmentation controls/methods are operational and effective, and isolate the CDE from all out-of-scope systems.
+PCI DSS Reference: Requirement 11
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14023,13 +14036,13 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.5 A data-discovery methodology is implemented that:
+• Confirms PCI DSS scope.
+• Locates all sources and locations of cleartext PAN at least once every three months and upon significant changes to the CDE or processes.
+• Addresses the potential for cleartext PAN to reside on systems and networks outside the currently defined CDE.
+PCI DSS Reference: Scope of PCI DSS Requirements
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14070,13 +14083,13 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.5.1 Data discovery methods are confirmed as follows:
+• Effectiveness of methods is tested.
+• Methods are able to discover cleartext PAN on all types of system components and file formats in use.
+• The effectiveness of data-discovery methods is confirmed at least once every 12 months.
+PCI DSS Reference: Scope of PCI DSS Requirements
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14117,13 +14130,14 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.5.2 Response procedures are implemented to be initiated upon the detection of cleartext PAN outside the CDE to include:
+• Determining what to do if cleartext PAN is discovered outside the CDE, including its retrieval, secure deletion, and/or migration into the currently defined CDE, as applicable.
+• Determining how the data ended up outside the CDE.
+• Remediating data leaks or process gaps that resulted in the data being outside the CDE.
+• Identifying the source of the data.
+• Identifying whether any track data is stored with the PANs.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14164,13 +14178,13 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.6 Mechanisms are implemented for detecting and preventing cleartext PAN from leaving the CDE via an unauthorized channel, method, or process, including mechanisms that are:
+• Actively running.
+• Configured to detect and prevent cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
+• Generating audit logs and alerts upon detection of cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
+PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14211,13 +14225,12 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.2.6.1 Response procedures are implemented to be initiated upon the detection of attempts to remove cleartext PAN from the CDE via an unauthorized channel, method, or process. Response procedures include:
+• Procedures for the prompt investigation of alerts by responsible personnel.
+• Procedures for remediating data leaks or process gaps, as necessary, to prevent any data loss.
+PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14258,13 +14271,24 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES A3.3
 
-
+A3.3 PCI DSS is incorporated into business-as-usual (BAU) activities.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.3.1 Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited to failure of:
+• Network security controls
+• IDS/IPS
+• FIM
+• Anti-malware solutions
+• Physical access controls
+• Logical access controls
+• Audit logging mechanisms
+• Segmentation controls (if used)
+• Automated audit log review mechanisms. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+• Automated code review tools (if used). This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
+PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14305,13 +14329,17 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.3.1.2 Failures of any critical security control systems are responded to promptly. Processes for responding to failures in security control systems include:
+• Restoring security functions.
+• Identifying and documenting the duration (date and time from start to end) of the security failure.
+• Identifying and documenting the cause(s) of failure, including root cause, and documenting remediation required to address the root cause.
+• Identifying and addressing any security issues that arose during the failure.
+• Determining whether further actions are required as a result of the security failure.
+• Implementing controls to prevent the cause of failure from reoccurring.
+• Resuming monitoring of security controls.
+PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14352,13 +14380,10 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.3.2 Hardware and software technologies are reviewed at least once every 12 months to confirm whether they continue to meet the organization’s PCI DSS requirements.
+PCI DSS Reference: Requirements 2, 6, 12.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14399,13 +14424,16 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.3.3 Reviews are performed at least once every three months to verify BAU activities are being followed. Reviews are performed by personnel assigned to the PCI DSS compliance program (as identified in A3.1.3), and include:
+• Confirmation that all BAU activities, including A3.2.2, A3.2.6, and A3.3.1, are being performed.
+• Confirmation that personnel are following security policies and operational procedures (for example, daily log reviews, ruleset reviews for network security controls, configuration standards for new systems).
+• Documenting how the reviews were completed, including how all BAU activities were verified as being in place.
+• Collection of documented evidence as required for the annual PCI DSS assessment.
+• Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program, as identified in A3.1.3.
+• Retention of records and documentation for at least 12 months, covering all BAU activities.
+PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14446,13 +14474,14 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES A3.4
 
-
+A3.4 Logical access to the cardholder data environment is controlled and managed.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+A3.4.1 User accounts and access privileges to in-scope system components are reviewed at least once every six months to ensure user accounts and access privileges remain appropriate based on job function, and that all access is authorized.
+PCI DSS Reference: Requirement 7
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -14489,6 +14518,84 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 
 [Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES A3.5
+
+A3.5 Suspicious events are identified and responded to.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+A3.5.1 A methodology is implemented for the prompt identification of attack patterns and undesirable behavior across systems that includes:
+• Identification of anomalies or suspicious activity as it occurs.
+• Issuance of prompt alerts upon detection of suspicious activity or anomaly to responsible personnel.
+• Response to alerts in accordance with documented response procedures.
+PCI DSS Reference: Requirements 10, 12
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[Section A3](#sections-a3) | 
+[top](#pci-dss-v40)
+
+---
+
+## Appendix B Compensating Controls
+
+#### OVERVIEW
+Compensating controls may be considered when an entity cannot meet a PCI DSS requirement explicitly as stated, due to legitimate and documented technical or business constraints but has sufficiently mitigated the risk associated with the requirement through implementation of other, or compensating, controls.
+
+Compensating controls must satisfy the following criteria:
+1. Meet the intent and rigor of the original PCI DSS requirement.
+2. Provide a similar level of defense as the original PCI DSS requirement, such that the compensating control sufficiently offsets the risk that the original PCI DSS requirement was designed to defend against. To understand the intent of a requirement, see the Customized Approach Objective for most PCI DSS requirements. If a requirement is not eligible for the Customized Approach and therefore does not have a Customized Approach Objective, refer to the Purpose in the Guidance column for that requirement.
+3. Be “above and beyond” other PCI DSS requirements. (Simply being in compliance with other PCI DSS requirements is not a compensating control.)
+4. When evaluating “above and beyond” for compensating controls, consider the following:
+
+**Note**: All compensating controls must be reviewed and validated for sufficiency by the assessor who conducts the PCI DSS assessment. The effectiveness of a compensating control is dependent on the specifics of the environment in which the control is implemented, the surrounding security controls, and the configuration of the control. Entities should be aware that a given compensating control will not be effective in all environments.
+
+a. Existing PCI DSS requirements CANNOT be considered as compensating controls if they are already required for the item under review. For example, passwords for non-console administrative access must be sent encrypted to mitigate the risk of intercepting cleartext administrative passwords. An entity cannot use other PCI DSS password requirements (intruder lockout, complex passwords, etc.) to compensate for lack of encrypted passwords, since those other password requirements do not mitigate the risk of interception of cleartext passwords. Also, the other password controls are already PCI DSS requirements for the item under review (passwords).
+b. Existing PCI DSS requirements MAY be considered as compensating controls if they are required for another area but are not required for the item under review.
+c. Existing PCI DSS requirements may be combined with new controls to become a compensating control. For example, if a company is unable to address a vulnerability that is exploitable through a network interface because a security update is not yet available from a vendor, a compensating control could consist of controls that include all of the following: 1) internal network segmentation, 2) limiting network access to the vulnerable interface to only required devices (IP address or MAC address filtering), and 3) IDS/IPS monitoring of all traffic destined to the vulnerable interface.
+5. Address the additional risk imposed by not adhering to the PCI DSS requirement.
+6. Address the requirement currently and in the future. A compensating control cannot address a requirement that was missed in the past (for example, where performance of a task was required two quarters ago, but that task was not performed).
+The assessor is required to thoroughly evaluate compensating controls during each annual PCI DSS assessment to confirm that each compensating control adequately addresses the risk that the original PCI DSS requirement was designed to address, per items 1-6 above.
+To maintain compliance, processes and controls must be in place to ensure compensating controls remain effective after the assessment is complete. Additionally, compensating control results must be documented in the applicable report for the assessment (for example, a Report on Compliance or a Self-Assessment Questionnaire) in the corresponding PCI DSS requirement section, and included when the applicable report is submitted to the requesting organization.
+
+[appendices](#appendices) | 
+[principles](#principles) | 
 [top](#pci-dss-v40)
 
 ---
