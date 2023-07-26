@@ -10,7 +10,7 @@
 
 [PRINCIPLE PCI DSS REQUIREMENT: Implement Strong Access Control Measures](#principle-pci-dss-requirement-implement-strong-access-control-measures)
 
-[PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks]()
+[PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks](#principle-pci-dss-requirement-regularly-monitor-and-test-networks)
 
 [PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy]()
 
@@ -48,7 +48,7 @@
 
 [Requirement 9: Restrict Physical Access to Cardholder Data](#requirement-9-restrict-physical-access-to-cardholder-data)
 
-[Requirement 10: Log and Monitor All Access to System Components and Cardholder Data]()
+[Requirement 10: Log and Monitor All Access to System Components and Cardholder Data](#requirement-10-log-and-monitor-all-access-to-system-components-and-cardholder-data)
 
 [Requirement 11: Test Security of Systems and Networks Regularly]()
 
@@ -7943,17 +7943,13 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+9.4.1.2 The security of the offline media backup location(s) with cardholder data is reviewed at least once every 12 months.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+The security controls protecting offline backups are verified periodically by inspection.
 
 ###### APPLICABILITY NOTES
 
@@ -7961,13 +7957,15 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+9.4.1.2.a Examine documentation to verify that procedures are defined for reviewing the security of the offline media backup location(s) with cardholder data at least once every 12 months.
 
+9.4.1.2.b Examine documented procedures, logs, or other documentation, and interview responsible personnel at the storage location(s) to verify that the storage location’s security is reviewed at least once every 12 months.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Conducting regular reviews of the storage facility enables the organization to address identified security issues promptly, minimizing the potential risk. It is important for the entity to be aware of the security of the area where media is being stored.
 
 **Good Practice**
 
@@ -7986,6 +7984,812 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 [sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.2 All media with cardholder data is classified in accordance with the sensitivity of the data.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Media are classified and protected appropriately.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.2.a Examine documentation to verify that procedures are defined for classifying media with cardholder data in accordance with the sensitivity of the data.
+
+9.4.2.b Examine media logs or other documentation to verify that all media is classified in accordance with the sensitivity of the data.
+
+##### GUIDANCE
+
+**Purpose**
+
+Media not identified as confidential may not be adequately protected or may be lost or stolen.
+
+**Good Practice**
+
+It is important that media be identified such that its classification status is apparent. This does not mean however that the media needs to have a “confidential” label.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.3 Media with cardholder data sent outside the facility is secured as follows:
+- Media sent outside the facility is logged.
+- Media is sent by secured courier or other delivery method that can be accurately tracked.
+- Offsite tracking logs include details about media location.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Media is secured and tracked when transported outside the facility.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.3.a Examine documentation to verify that procedures are defined for securing media sent outside the facility in accordance with all elements specified in this requirement.
+
+9.4.3.b Interview personnel and examine records to verify that all media sent outside the facility is logged and sent via secured courier or other delivery method that can be tracked.
+
+9.4.3.c Examine offsite tracking logs for all media to verify tracking details are documented.
+
+##### GUIDANCE
+
+**Purpose**
+
+Media may be lost or stolen if sent via a non-trackable method such as regular postal mail. The use of secure couriers to deliver any media that contains cardholder data allows organizations to use their tracking systems to maintain inventory and location of shipments.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.4 Management approves all media with cardholder data that is moved outside the facility (including when media is distributed to individuals).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Media cannot leave a facility without the approval of accountable personnel.
+
+###### APPLICABILITY NOTES
+
+Individuals approving media movements should have the appropriate level of management authority to grant this approval. However, it is not specifically required that such individuals have “manager” as part of their title.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.4.a Examine documentation to verify that procedures are defined to ensure that media moved outside the facility is approved by management.
+
+9.4.4.b Examine offsite media tracking logs and interview responsible personnel to verify that proper management authorization is obtained for all media moved outside the facility (including media distributed to individuals).
+
+##### GUIDANCE
+
+**Purpose**
+
+Without a firm process for ensuring that all media movements are approved before the media is removed from secure areas, the media would not be tracked or appropriately protected, and its location would be unknown, leading to lost or stolen media.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.5 Inventory logs of all electronic media with cardholder data are maintained.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Accurate inventories of stored electronic media are maintained.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.5.a Examine documentation to verify that procedures are defined to maintain electronic media inventory logs.
+
+9.4.5.b Examine electronic media inventory logs and interview responsible personnel to verify that logs are maintained.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without careful inventory methods and storage controls, stolen or missing electronic media could go unnoticed for an indefinite amount of time.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.5.1 Inventories of electronic media with cardholder data are conducted at least once every 12 months.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Media inventories are verified periodically.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.5.1.a Examine documentation to verify that procedures are defined to conduct inventories of electronic media with cardholder data at least once every 12 months.
+
+9.4.5.1.b Examine electronic media inventory logs and interview personnel to verify that electronic media inventories are performed at least once every 12 months.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without careful inventory methods and storage controls, stolen or missing electronic media could go unnoticed for an indefinite amount of time.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.6 Hard-copy materials with cardholder data are destroyed when no longer needed for business or legal reasons, as follows:
+• Materials are cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed.
+• Materials are stored in secure storage containers prior to destruction.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cardholder data cannot be recovered from media that has been destroyed or which is pending destruction.
+
+###### APPLICABILITY NOTES
+
+These requirements for media destruction when that media is no longer needed for business or legal reasons are separate and distinct from PCI DSS Requirement 3.2.1, which is for securely deleting cardholder data when no longer needed per the entity’s cardholder data retention policies.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.6.a Examine the periodic media destruction policy to verify that procedures are defined to destroy hard-copy media with cardholder data when no longer needed for business or legal reasons in accordance with all elements specified in this requirement.
+
+9.4.6.b Observe processes and interview personnel to verify that hard-copy materials are cross-cut shredded, incinerated, or pulped such that cardholder data cannot be reconstructed.
+
+9.4.6.c Observe storage containers used for materials that contain information to be destroyed to verify that the containers are secure.
+
+##### GUIDANCE
+
+**Purpose**
+
+If steps are not taken to destroy information contained on hard-copy media before disposal, malicious individuals may retrieve information from the disposed media, leading to a data compromise. For example, malicious individuals may use a technique known as “dumpster diving,” where they search through trashcans and recycle bins looking for hard-copy materials with information they can use to launch an attack.
+
+Securing storage containers used for materials that are going to be destroyed prevents sensitive information from being capture
+
+**Good Practice**
+
+Consider “to-be-shredded” containers with a lock that prevents access to its contents or that physically prevent access to the inside of the container.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.4.7 Electronic media with cardholder data is destroyed when no longer needed for business or legal reasons via one of the following:
+• The electronic media is destroyed.
+• The cardholder data is rendered unrecoverable so that it cannot be reconstructed.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Cardholder data cannot be recovered from media that has been erased or destroyed.
+
+###### APPLICABILITY NOTES
+
+These requirements for media destruction when that media is no longer needed for business or legal reasons are separate and distinct from PCI DSS Requirement 3.2.1, which is for securely deleting cardholder data when no longer needed per the entity’s cardholder data retention policies.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.4.7.a Examine the periodic media destruction policy to verify that procedures are defined to destroy electronic media when no longer needed for business or legal reasons in accordance with all elements specified in this requirement.
+
+9.4.7.b Observe the media destruction process and interview responsible personnel to verify that electronic media with cardholder data is destroyed via one of the methods specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+If steps are not taken to destroy information contained on electronic media when no longer needed, malicious individuals may retrieve information from the disposed media, leading to a data compromise. For example, malicious individuals may use a technique known as “dumpster diving,” where they search through trashcans and recycle bins looking for information they can use to launch an attack.
+
+**Good Practice**
+
+The deletion function in most operating systems allows deleted data to be recovered, so instead, a dedicated secure deletion function or application should be used to make data unrecoverable.
+
+**Definitions**
+
+
+
+**Examples**
+
+Methods for securely destroying electronic media include secure wiping in accordance with industry-accepted standards for secure deletion, degaussing, or physical destruction (such as grinding or shredding hard disks).
+
+**Further Information**
+
+See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 9.5
+
+9.5 Point-of-interaction (POI) devices are protected from tampering and unauthorized substitution.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.5.1 POI devices that capture payment card data via direct physical interaction with the payment card form factor are protected from tampering and unauthorized substitution, including the following:
+• Maintaining a list of POI devices.
+• Periodically inspecting POI devices to look for tampering or unauthorized substitution.
+• Training personnel to be aware of suspicious behavior and to report tampering or unauthorized substitution of devices.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The entity has defined procedures to protect and manage point of interaction devices. Expectations, controls, and oversight for the management and protection of POI devices are defined and adhered to by affected personnel.
+
+###### APPLICABILITY NOTES
+
+These requirements apply to deployed POI devices used in card-present transactions (that is, a payment card form factor such as a card that is swiped, tapped, or dipped). This requirement is not intended to apply to manual PAN key-entry components such as computer keyboards.
+
+This requirement is recommended, but not required, for manual PAN key-entry components such as computer keyboards.
+
+This requirement does not apply to commercial off-the-shelf (COTS) devices (for example, smartphones or tablets), which are mobile merchant-owned devices designed for mass-market distribution.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.5.1 Examine documented policies and procedures to verify that processes are defined that include all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Criminals attempt to steal payment card data by stealing and/or manipulating card-reading devices and terminals. Criminals will try to steal devices so they can learn how to break into them, and they often try to replace legitimate devices with fraudulent devices that send them payment card data every time a card is entered.
+
+They will also try to add “skimming” components to the outside of devices, which are designed to capture payment card data before it enters the device—for example, by attaching an additional card reader on top of the legitimate card reader so that the payment card data is captured twice: once by the criminal’s component and then by the device’s legitimate component. In this way, transactions may still be completed without interruption while the criminal is “skimming” the payment card data during the process.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Additional best practices on skimming prevention are available on the PCI SSC website.
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.5.1.1 An up-to-date list of POI devices is maintained, including:
+• Make and model of the device.
+• Location of device.
+• Device serial number or other methods of unique identification.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The identity and location of POI devices is recorded and known at all times.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.5.1.1.a Examine the list of POI devices to verify it includes all elements specified in this requirement.
+
+9.5.1.1.b Observe POI devices and device locations and compare to devices in the list to verify that the list is accurate and up to date.
+
+9.5.1.1.c Interview personnel to verify the list of POI devices is updated when devices are added, relocated, decommissioned, etc.
+
+##### GUIDANCE
+
+**Purpose**
+
+Keeping an up-to-date list of POI devices helps an organization track where devices are supposed to be and quickly identify if a device is missing or lost.
+
+**Good Practice**
+
+The method for maintaining a list of devices may be automated (for example, a device-management system) or manual (for example, documented in electronic or paper records). For on-the-road devices, the location may include the name of the personnel to whom the device is assigned.
+
+**Definitions**
+
+
+
+**Examples**
+
+Methods to maintain device locations include identifying the address of the site or facility where the device is located.
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.5.1.2 POI device surfaces are periodically inspected to detect tampering and unauthorized substitution.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Point of Interaction Devices cannot be tampered with, substituted without authorization, or have skimming attachments installed without timely detection.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.5.1.2.a Examine documented procedures to verify processes are defined for periodic inspections of POI device surfaces to detect tampering and unauthorized substitution.
+
+9.5.1.2.b Interview responsible personnel and observe inspection processes to verify:
+• Personnel are aware of procedures for inspecting devices.
+• All devices are periodically inspected for evidence of tampering and unauthorized substitution.
+
+##### GUIDANCE
+
+**Purpose**
+
+Regular inspections of devices will help organizations detect tampering more quickly via external evidence—for example, the addition of a card skimmer—or replacement of a device, thereby minimizing the potential impact of using fraudulent devices.
+
+**Good Practice**
+
+Methods for periodic inspection include checking the serial number or other device characteristics and comparing the information to the list of POI devices to verify the device has not been swapped with a fraudulent device.
+
+**Definitions**
+
+
+
+**Examples**
+
+The type of inspection will depend on the device. For instance, photographs of devices known to be secure can be used to compare a device’s current appearance with its original appearance to see whether it has changed. Another option may be to use a secure marker pen, such as a UV light marker, to mark device surfaces and device openings so any tampering or replacement will be apparent. Criminals will often replace the outer casing of a device to hide their tampering, and these methods may help to detect such activities. Device vendors may also provide security guidance and “how to” guides to help determine whether the device has been subject to tampering.
+
+Signs that a device might have been tampered with or substituted include:
+• Unexpected attachments or cables plugged into the device.
+• Missing or changed security labels.
+• Broken or differently colored casing.
+• Changes to the serial number or other external markings.
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.5.1.2.1 The frequency of periodic POI device inspections and the type of inspections performed is defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+POI devices are inspected at a frequency that addresses the entity’s risk.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.5.1.2.1.a Examine the entity’s targeted risk analysis for the frequency of periodic POI device inspections and type of inspections performed to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1.
+
+9.5.1.2.1.b Examine documented results of periodic device inspections and interview personnel to verify that the frequency and type of POI device inspections performed match what is defined in the entity’s targeted risk analysis conducted for this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Entities are best placed to determine the frequency of POI device inspections based on the environment in which the device operates.
+
+**Good Practice**
+
+The frequency of inspections will depend on factors such as the location of a device and whether the device is attended or unattended. For example, devices left in public areas without supervision by the organization’s personnel might have more frequent inspections than devices kept in secure areas or supervised when accessible to the public. In addition, many POI vendors include guidance in their user documentation about how often POI devices should be checked, and for what – entities should consult their vendors’ documentation and incorporate those recommendations into their periodic inspections.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+9.5.1.3 Training is provided for personnel in POI environments to be aware of attempted tampering or replacement of POI devices, and includes:
+• Verifying the identity of any third-party persons claiming to be repair or maintenance personnel, before granting them access to modify or troubleshoot devices.
+• Procedures to ensure devices are not installed, replaced, or returned without verification.
+• Being aware of suspicious behavior around devices.
+• Reporting suspicious behavior and indications of device tampering or substitution to appropriate personnel.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Personnel are knowledgeable about the types of attacks against POI devices, the entity’s technical and procedural countermeasures, and can access assistance and guidance when required.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+9.5.1.3.a Review training materials for personnel in POI environments to verify they include all elements specified in this requirement.
+
+9.5.1.3.b Interview personnel in POI environments to verify they have received training and know the procedures for all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Criminals will often pose as authorized maintenance personnel to gain access to POI devices.
+
+**Good Practice**
+
+Personnel training should include being alert to and questioning anyone who shows up to do POI maintenance to ensure they are authorized and have a valid work order, including any agents, maintenance or repair personnel, technicians, service providers, or other third parties. All third parties requesting access to devices should always be verified before being provided access—for example, by checking with management or phoning the POI maintenance company, such as the vendor or acquirer, for verification. Many criminals will try to fool personnel by dressing for the part (for example, carrying toolboxes and dressed in work apparel), and could also be knowledgeable about locations of devices, so personnel should be trained to always follow procedures.
+
+Another trick that criminals use is to send a “new” POI device with instructions for swapping it with a legitimate device and “returning” the legitimate device. The criminals may even provide return postage to their specified address. Therefore, personnel should always verify with their manager or supplier that the device is legitimate and came from a trusted source before installing it or using it for business.
+
+**Definitions**
+
+
+
+**Examples**
+
+Suspicious behavior that personnel should be aware of includes attempts by unknown persons to unplug or open devices.
+
+Ensuring personnel are aware of mechanisms for reporting suspicious behavior and who to report such behavior to—for example, a manager or security officer—will help reduce the likelihood and potential impact of a device being tampered with or substituted.
+
+**Further Information**
+
+
+
+[sections 9](#sections-9) | 
+[top](#pci-dss-v40)
+
+---
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks
+
+
+### Requirement 10: Log and Monitor All Access to System Components and Cardholder Data
+
+#### OVERVIEW
+Logging mechanisms and the ability to track user activities are critical in preventing, detecting, or minimizing the impact of a data compromise. The presence of logs on all system components and in the cardholder data environment (CDE) allows thorough tracking, alerting, and analysis when something does go wrong. Determining the cause of a compromise is difficult, if not impossible, without system activity logs.
+
+This requirement applies to user activities, including those by employees, contractors, consultants, and internal and external vendors, and other third parties (for example, those providing support or maintenance services).
+
+These requirements do not apply to user activity of consumers (cardholders).
+
+Refer to Appendix G for definitions of PCI DSS terms.
+
+
+#### SECTIONS 10
+[10.1 Processes and mechanisms for logging and monitoring all access to system components and cardholder data are defined and documented.](#requirements-and-testing-procedures-101)
+
+[10.2 Audit logs are implemented to support the detection of anomalies and suspicious activity, and the forensic analysis of events.](#requirements-and-testing-procedures-102)
+
+[10.3 Audit logs are protected from destruction and unauthorized modifications.](#requirements-and-testing-procedures-103)
+
+[10.4 Audit logs are reviewed to identify anomalies or suspicious activity.](#requirements-and-testing-procedures-104)
+
+[10.5 Audit log history is retained and available for analysis.](#requirements-and-testing-procedures-105)
+
+[10.6 Time-synchronization mechanisms support consistent time settings across all systems.](#requirements-and-testing-procedures-106)
+
+[10.7 Failures of critical security control systems are detected, reported, and responded to promptly.](#requirements-and-testing-procedures-107)
+
+##### REQUIREMENTS and TESTING PROCEDURES 10.1
+
+10.1 Processes and mechanisms for logging and monitoring all access to system components and cardholder data are defined and documented.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.1.1 All security policies and operational procedures that are identified in Requirement 10 are:
+• Documented.
+• Kept up to date.
+• In use.
+• Known to all affected parties.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Expectations, controls, and oversight for meeting activities within Requirement 10 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+
+###### APPLICABILITY NOTES
+
+10.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 10 are managed in accordance with all elements specified in this requirement.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+Requirement 10.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 10. While it is important to define the specific policies or procedures called out in Requirement 10, it is equally important to ensure they are properly documented, maintained, and disseminated.
+
+##### GUIDANCE
+
+**Purpose**
+
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.1.2 Roles and responsibilities for performing activities in Requirement 10 are documented, assigned, and understood.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Day-to-day responsibilities for performing all the activities in Requirement 10 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 10 are documented and assigned.
+
+10.1.2.b Interview personnel with responsibility for performing activities in Requirement 10 to verify that roles and responsibilities are assigned as defined and are understood.
+
+##### GUIDANCE
+
+**Purpose**
+
+If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities and critical activities may not occur.
+
+**Good Practice**
+
+Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
+
+As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+
+**Definitions**
+
+
+
+**Examples**
+
+A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 10.2
+
+10.2 Audit logs are implemented to support the detection of anomalies and suspicious activity, and the forensic analysis of events.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.2.1 Audit logs are enabled and active for all system components and cardholder data.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Records of all activities affecting system components and cardholder data are captured.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.2.1 Interview the system administrator and examine system configurations to verify that audit logs are enabled and active for all system components.
+
+##### GUIDANCE
+
+**Purpose**
+
+Audit logs must exist for all system components. Audit logs send alerts the system administrator, provides data to other monitoring mechanisms, such as intrusion-detection systems (IDS) and security information and event monitoring systems (SIEM) tools, and provide a history trail for post-incident investigation.
+
+Logging and analyzing security-relevant events enable an organization to identify and trace potentially malicious activities.
+
+**Good Practice**
+
+When an entity considers which information to record in their logs, it is important to remember that information stored in audit logs is sensitive and should be protected per requirements in this standard. Care should be taken to only store essential information in the audit logs to minimize risk.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.2.1.1 Audit logs capture all individual user access to cardholder data.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Records of all individual user access to cardholder data are captured.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.2.1.1 Examine audit log configurations and log data to verify that all individual user access to cardholder data is logged.
+
+##### GUIDANCE
+
+**Purpose**
+
+It is critical to have a process or system that links user access to system components accessed. Malicious individuals could obtain knowledge of a user account with access to systems in the CDE, or they could create a new, unauthorized account to access cardholder data.
+
+**Good Practice**
+
+A record of all individual access to cardholder data can identify which accounts may have been compromised or misused.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8032,7 +8836,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8079,7 +8883,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8126,7 +8930,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8173,7 +8977,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8220,7 +9024,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8267,7 +9071,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8314,7 +9118,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8361,7 +9165,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8408,7 +9212,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8455,7 +9259,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8502,7 +9306,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8549,7 +9353,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8596,7 +9400,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8643,7 +9447,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8690,7 +9494,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8737,7 +9541,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8784,7 +9588,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
@@ -8831,6 +9635,475 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 
-[sections 9](#sections-9) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
