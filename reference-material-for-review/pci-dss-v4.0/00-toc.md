@@ -12,7 +12,7 @@
 
 [PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks](#principle-pci-dss-requirement-regularly-monitor-and-test-networks)
 
-[PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy]()
+[PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy](#principle-pci-dss-requirement-maintain-an-information-security-policy)
 
 [Appendix A Additonal PCI Requirements]()
 
@@ -52,7 +52,7 @@
 
 [Requirement 11: Test Security of Systems and Networks Regularly](#requirement-11-test-security-of-systems-and-networks-regularly)
 
-[Requirement 12: Support Information Security with Organizational Policies and Programs]()
+[Requirement 12: Support Information Security with Organizational Policies and Programs](#requirement-12-support-information-security-with-organizational-policies-and-programs)
 
 []()
 
@@ -9927,6 +9927,11 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [11.6 Unauthorized changes on payment pages are detected and responded to.](#requirements-and-testing-procedures-116)
 
+[requirement 11](#requirement-11-test-security-of-systems-and-networks-regularly) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
 
 ##### REQUIREMENTS and TESTING PROCEDURES 11.1
 
@@ -10248,13 +10253,183 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.3.1.2 Internal vulnerability scans are performed via authenticated scanning as follows:
-• Systems that are unable to accept credentials for authenticated scanning are documented.
-• Sufficient privileges are used for those systems that accept credentials for scanning.
-• If accounts used for authenticated scanning can be used for interactive login, they are managed in accordance with Requirement 8.2.2.
+- Systems that are unable to accept credentials for authenticated scanning are documented.
+- Sufficient privileges are used for those systems that accept credentials for scanning.
+- If accounts used for authenticated scanning can be used for interactive login, they are managed in accordance with Requirement 8.2.2.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
+Automated tools used to detect vulnerabilities can detect vulnerabilities local to each system, which are not visible remotely.
 
+###### APPLICABILITY NOTES
+
+The authenticated scanning tools can be either host-based or network-based.
+“Sufficient” privileges are those needed to access system resources such that a thorough scan can be conducted that detects known vulnerabilities.
+
+This requirement does not apply to system components that cannot accept credentials for scanning. Examples of systems that may not accept credentials for scanning include some network and security appliances, mainframes, and containers.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.3.1.2.a Examine scan tool configurations to verify that authenticated scanning is used for internal scans, with sufficient privileges, for those systems that accept credentials for scanning.
+
+11.3.1.2.b Examine scan report results and interview personnel to verify that authenticated scans are performed.
+
+11.3.1.2.c If accounts used for authenticated scanning can be used for interactive login, examine the accounts and interview personnel to verify the accounts are managed following all elements specified in Requirement 8.2.2.
+
+11.3.1.2.d Examine documentation to verify that systems that are unable to accept credentials for authenticated scanning are defined.
+
+##### GUIDANCE
+
+**Purpose**
+
+Authenticated scanning provides greater insight into an entity’s vulnerability landscape since it can detect vulnerabilities that unauthenticated scans cannot detect. Attackers may leverage vulnerabilities that an entity is unaware of because certain vulnerabilities will only be detected with authenticated scanning.
+
+Authenticated scanning can yield significant additional information about an organization’s vulnerabilities.
+
+**Good Practice**
+
+The credentials used for these scans should be considered highly privileged. They should be protected and controlled as such, following PCI DSS Requirements 7 and 8 (except for those requirements for multi-factor authentication and application and system accounts).
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.3.1.3 Internal vulnerability scans are performed after any significant change as follows:
+- High-risk and critical vulnerabilities (per the entity’s vulnerability risk rankings defined at Requirement 6.3.1) are resolved.
+- Rescans are conducted as needed.
+- Scans are performed by qualified personnel and organizational independence of the tester exists (not required to be a QSA or ASV).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The security posture of all system components is verified following significant changes to the network or systems, by using automated tools designed to detect vulnerabilities operating inside the network. Detected vulnerabilities are assessed and rectified based on a formal risk assessment framework.
+
+###### APPLICABILITY NOTES
+
+Authenticated internal vulnerability scanning per Requirement 11.3.1.2 is not required for scans performed after significant changes.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.3.1.3.a Examine change control documentation and internal scan reports to verify that system components were scanned after any significant changes.
+
+11.3.1.3.b Interview personnel and examine internal scan and rescan reports to verify that internal scans were performed after significant changes and that high-risk and critical vulnerabilities as defined in Requirement 6.3.1 were resolved.
+
+11.3.1.3.c Interview personnel to verify that internal scans are performed by a qualified internal resource(s) or qualified external third party and that organizational independence of the tester exists.
+
+##### GUIDANCE
+
+**Purpose**
+
+Scanning an environment after any significant changes ensures that changes were completed appropriately such that the security of the environment was not compromised because of the change.
+
+**Good Practice**
+
+Entities should perform scans after significant changes as part of the change process per Requirement 6.5.2 and before considering the change complete. All system components affected by the change will need to be scanned.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.3.2 External vulnerability scans are performed as follows:
+- At least once every three months.
+- By a PCI SSC Approved Scanning Vendor (ASV).
+- Vulnerabilities are resolved and ASV Program Guide requirements for a passing scan are met.
+- Rescans are performed as needed to confirm that vulnerabilities are resolved per the ASV Program Guide requirements for a passing scan.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is not eligible for the customized approach.
+
+###### APPLICABILITY NOTES
+
+For initial PCI DSS compliance, it is not required that four passing scans be completed within 12 months if the assessor verifies: 1) the most recent scan result was a passing scan, 2) the entity has documented policies and procedures requiring scanning at least once every three months, and 3) vulnerabilities noted in the scan results have been corrected as shown in a re-scan(s).
+
+However, for subsequent years after the initial PCI DSS assessment, passing scans at least every three months must have occurred.
+
+ASV scanning tools can scan a vast array of network types and topologies. Any specifics about the target environment (for example, load balancers, third-party providers, ISPs, specific configurations, protocols in use, scan interference) should be worked out between the ASV and scan customer.
+
+Refer to the ASV Program Guide published on the PCI SSC website for scan customer responsibilities, scan preparation, etc.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.3.2.a Examine ASV scan reports from the last 12 months to verify that external vulnerability scans occurred at least once every three months in the most recent 12-month period.
+
+11.3.2.b Examine the ASV scan report from each scan and rescan run in the last 12 months to verify that vulnerabilities are resolved and the ASV Program Guide requirements for a passing scan are met.
+
+11.3.2.c Examine the ASV scan reports to verify that the scans were completed by a PCI SSC Approved Scanning Vendor (ASV).
+
+##### GUIDANCE
+
+**Purpose**
+
+Attackers routinely look for unpatched or vulnerable externally facing servers, which can be leveraged to launch a directed attack. Organizations must ensure these externally facing devices are regularly scanned for weaknesses and that vulnerabilities are patched or remediated to protect the entity.
+
+Because external networks are at greater risk of compromise, external vulnerability scanning must be performed at least once every three months by a PCI SSC Approved Scanning Vendor (ASV).
+
+**Good Practice**
+
+While scans are required at least once every three months, more frequent scans are recommended depending on the network complexity, frequency of change, and types of devices, software, and operating systems used.
+
+Multiple scan reports can be combined to show that all systems were scanned and that all applicable vulnerabilities were resolved as part of the three-month vulnerability scan cycle. However, additional documentation may be required to verify non-remediated vulnerabilities are in the process of being resolved.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.3.2.1 External vulnerability scans are performed after any significant change as follows:
+- Vulnerabilities that are scored 4.0 or higher by the CVSS are resolved.
+- Rescans are conducted as needed.
+- Scans are performed by qualified personnel and organizational independence of the tester exists (not required to be a QSA or ASV).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The security posture of all system components is verified following significant changes to the network or systems, by using tools designed to detect vulnerabilities operating from outside the network. Detected vulnerabilities are assessed and rectified based on a formal risk assessment framework.
 
 ###### APPLICABILITY NOTES
 
@@ -10262,13 +10437,404 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+11.3.2.1.a Examine change control documentation and external scan reports to verify that system components were scanned after any significant changes.
 
+11.3.2.1.b Interview personnel and examine external scan and rescan reports to verify that external scans were performed after significant changes and that vulnerabilities scored 4.0 or higher by the CVSS were resolved.
+
+11.3.2.1.c Interview personnel to verify that external scans are performed by a qualified internal resource(s) or qualified external third party and that organizational independence of the tester exists.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Scanning an environment after any significant changes ensures that changes were completed appropriately such that the security of the environment was not compromised because of the change.
 
+**Good Practice**
+
+Entities should include the need to perform scans after significant changes as part of the change process and before the change is considered complete. All system components affected by the change will need to be scanned.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 11.4
+
+11.4 External and internal penetration testing is regularly performed, and exploitable vulnerabilities and security weaknesses are corrected.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.4.1 A penetration testing methodology is defined, documented, and implemented by the entity, and includes:
+- Industry-accepted penetration testing approaches.
+- Coverage for the entire CDE perimeter and critical systems.
+- Testing from both inside and outside the network.
+- Testing to validate any segmentation and scope-reduction controls.
+- Application-layer penetration testing to identify, at a minimum, the vulnerabilities listed in Requirement 6.2.4.
+- Network-layer penetration tests that encompass all components that support network functions as well as operating systems.
+- Review and consideration of threats and vulnerabilities experienced in the last 12 months.
+- Documented approach to assessing and addressing the risk posed by exploitable vulnerabilities and security weaknesses found during penetration testing.
+- Retention of penetration testing results and remediation activities results for at least 12 months.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+A formal methodology is defined for thorough technical testing that attempts to exploit vulnerabilities and security weaknesses via simulated attack methods by a competent manual attacker.
+
+###### APPLICABILITY NOTES
+
+Testing from inside the network (or “internal penetration testing”) means testing from both inside the CDE and into the CDE from trusted and untrusted internal networks.
+
+Testing from outside the network (or “external penetration testing”) means testing the exposed external perimeter of trusted networks, and critical systems connected to or accessible to public network infrastructures.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.4.1 Examine documentation and interview personnel to verify that the penetration-testing methodology defined, documented, and implemented by the entity includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Attackers spend a lot of time finding external and internal vulnerabilities to leverage to obtain access to cardholder data and then to exfiltrate that data. As such, entities need to test their networks thoroughly, just as an attacker would do. This testing allows the entity to identify and remediate weakness that might be leveraged to compromise the entity’s network and data, and then to take appropriate actions to protect the network and system components from such attacks.
+
+**Good Practice**
+
+Penetration testing techniques will differ based on an organization’s needs and structure and should be suitable for the tested environment—for example, fuzzing, injection, and forgery tests might be appropriate. The type, depth, and complexity of the testing will depend on the specific environment and the needs of the organization.
+
+**Definitions**
+
+Penetration tests simulate a real-world attack situation intending to identify how far an attacker could penetrate an environment, given differing amounts of information provided to the tester. This allows an entity to better understand its potential exposure and develop a strategy to defend against attacks. A penetration test differs from a vulnerability scan, as a penetration test is an active process that usually includes exploiting identified vulnerabilities.
+
+Scanning for vulnerabilities alone is not a penetration test, nor is a penetration test adequate if the focus is solely on trying to exploit vulnerabilities found in a vulnerability scan. Conducting a vulnerability scan may be one of the first steps, but it is not the only step a penetration tester will perform to plan the testing strategy. Even if a vulnerability scan does not detect known vulnerabilities, the penetration tester will often gain enough knowledge about the system to identify possible security gaps.
+
+Penetration testing is a highly manual process. While some automated tools may be used, the tester uses their knowledge of systems to gain access into an environment. Often the tester will chain several types of exploits together with the goal of breaking through layers of defenses. For example, if the tester finds a way to gain access to an application server, the tester will then use the compromised server as a point to stage a new attack based on the resources to which the server has access. In this way, a tester can simulate the techniques used by an attacker to identify areas of potential weakness in the environment. The testing of security monitoring and detection methods—for example, to confirm the effectiveness of logging and file integrity monitoring mechanisms, should also be considered.
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to the *Information Supplement: Penetration Testing Guidance* for additional guidance.
+Industry-accepted penetration testing approaches include:
+*The Open Source Security Testing Methodology and Manual (OSSTMM)*
+*Open Web Application Security Project (OWASP) penetration testing programs*.
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.4.2 Internal penetration testing is performed:
+- Per the entity’s defined methodology,
+- At least once every 12 months
+- After any significant infrastructure or application upgrade or change
+- By a qualified internal resource or qualified external third-party
+- Organizational independence of the tester exists (not required to be a QSA or ASV).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Internal system defenses are verified by technical testing according to the entity’s defined methodology as frequently as needed to address evolving and new attacks and threats and ensure that significant changes do not introduce unknown vulnerabilities.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.4.2.a Examine the scope of work and results from the most recent internal penetration test to verify that penetration testing is performed in accordance with all elements specified in this requirement.
+
+11.4.2.b Interview personnel to verify that the internal penetration test was performed by a qualified internal resource or qualified external third-party and that organizational independence of the tester exists (not required to be a QSA or ASV).
+
+##### GUIDANCE
+
+**Purpose**
+
+Purpose
+Internal penetration testing serves two purposes. Firstly, just like an external penetration test, it discovers vulnerabilities and misconfigurations that could be used by an attacker that had managed to get some degree of access to the internal network, whether that is because the attacker is an authorized user conducting unauthorized activities, or an external attacker that had managed to penetrate the entity’s perimeter.
+
+Secondly, internal penetration testing also helps entities to discover where their change control process failed by detecting previously unknown systems. Additionally, it verifies the status of many of the controls operating within the CDE.
+
+A penetration test is not truly a “test” because the outcome of a penetration test is not something that can be classified as a “pass” or a “fail.” The best outcome of a test is a catalog of vulnerabilities and misconfigurations that an entity did not know about and the penetration tester found them before an attacker could. A penetration test that found nothing is typically indicative of shortcomings of the penetration tester, rather than being a positive reflection of the security posture of the entity.
+
+**Good Practice**
+
+Some considerations when choosing a qualified resource to perform penetration testing include:
+- Specific penetration testing certifications, which may be an indication of the tester’s skill level and competence.
+- Prior experience conducting penetration testing—for example, the number of years of experience, and the type and scope of prior engagements can help confirm whether the tester’s experience is appropriate for the needs of the engagement.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.4.3 External penetration testing is performed:
+- Per the entity’s defined methodology
+- At least once every 12 months
+- After any significant infrastructure or application upgrade or change
+- By a qualified internal resource or qualified external third party
+- Organizational independence of the tester exists (not required to be a QSA or ASV).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+External system defenses are verified by technical testing according to the entity’s defined methodology as frequently as needed to address evolving and new attacks and threats, and to ensure that significant changes do not introduce unknown vulnerabilities.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.4.3.a Examine the scope of work and results from the most recent external penetration test to verify that penetration testing is performed according to all elements specified in this requirement.
+
+11.4.3.b Interview personnel to verify that the external penetration test was performed by a qualified internal resource or qualified external third-party and that organizational independence of the tester exists (not required to be a QSA or ASV).
+
+##### GUIDANCE
+
+**Purpose**
+
+Purpose
+Internal penetration testing serves two purposes. Firstly, just like an external penetration test, it discovers vulnerabilities and misconfigurations that could be used by an attacker that had managed to get some degree of access to the internal network, whether that is because the attacker is an authorized user conducting unauthorized activities, or an external attacker that had managed to penetrate the entity’s perimeter.
+
+Secondly, internal penetration testing also helps entities to discover where their change control process failed by detecting previously unknown systems. Additionally, it verifies the status of many of the controls operating within the CDE.
+
+A penetration test is not truly a “test” because the outcome of a penetration test is not something that can be classified as a “pass” or a “fail.” The best outcome of a test is a catalog of vulnerabilities and misconfigurations that an entity did not know about and the penetration tester found them before an attacker could. A penetration test that found nothing is typically indicative of shortcomings of the penetration tester, rather than being a positive reflection of the security posture of the entity.
+
+**Good Practice**
+
+Some considerations when choosing a qualified resource to perform penetration testing include:
+- Specific penetration testing certifications, which may be an indication of the tester’s skill level and competence.
+- Prior experience conducting penetration testing—for example, the number of years of experience, and the type and scope of prior engagements can help confirm whether the tester’s experience is appropriate for the needs of the engagement.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.4.4 Exploitable vulnerabilities and security weaknesses found during penetration testing are corrected as follows:
+- In accordance with the entity’s assessment of the risk posed by the security issue as defined in Requirement 6.3.1.
+- Penetration testing is repeated to verify the corrections.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Vulnerabilities and security weaknesses found while verifying system defenses are mitigated.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.4.4 Examine penetration testing results to verify that noted exploitable vulnerabilities and security weaknesses were corrected in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+The results of a penetration test are usually a prioritized list of vulnerabilities discovered by the exercise. Often a tester will have chained a number of vulnerabilities together to compromise a system component. Remediating the vulnerabilities found by a penetration test significantly reduces the probability that the same vulnerabilities will be exploited by a malicious attacker.
+
+Using the entity’s own vulnerability risk assessment process (see requirement 6.3.1) ensures that the vulnerabilities that pose the highest risk to the entity will be remediated more quickly.
+
+**Good Practice**
+
+As part of the entity’s assessment of risk, entities should consider how likely the vulnerability is to be exploited and whether there are other controls present in the environment to reduce the risk.
+
+Any weaknesses that point to PCI DSS requirements not being met should be addressed.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.4.5 If segmentation is used to isolate the CDE from other networks, penetration tests are performed on segmentation controls as follows:
+- At least once every 12 months and after any changes to segmentation controls/methods
+- Covering all segmentation controls/methods in use.
+- According to the entity’s defined penetration testing methodology.
+- Confirming that the segmentation controls/methods are operational and effective, and isolate the CDE from all out-of-scope systems.
+- Confirming effectiveness of any use of isolation to separate systems with differing security levels (see Requirement 2.2.3).
+- Performed by a qualified internal resource or qualified external third party.
+- Organizational independence of the tester exists (not required to be a QSA or ASV).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+If segmentation is used, it is verified periodically by technical testing to be continually effective, including after any changes, in isolating the CDE from all out-of-scope systems.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.4.5.a Examine segmentation controls and review penetration-testing methodology to verify that penetration-testing procedures are defined to test all segmentation methods in accordance with all elements specified in this requirement.
+
+11.4.5.b Examine the results from the most recent penetration test to verify the penetration test covers and addresses all elements specified in this requirement.
+
+11.4.5.c Interview personnel to verify that the test was performed by a qualified internal resource or qualified external third party and that organizational independence of the tester exists (not required to be a QSA or ASV).
+
+##### GUIDANCE
+
+**Purpose**
+
+When an entity uses segmentation controls to isolate the CDE from internal untrusted networks, the security of the CDE is dependent on that segmentation functioning. Many attacks have involved the attacker moving laterally from what an entity deemed an isolated network into the CDE. Using penetration testing tools and techniques to validate that an untrusted network is indeed isolated from the CDE can alert the entity to a failure or misconfiguration of the segmentation controls, which can then be rectified.
+
+**Good Practice**
+
+Techniques such as host discovery and port scanning can be used to verify out-of-scope segments have no access to the CDE.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**11.4.6 Additional requirement for service providers only**: If segmentation is used to isolate the CDE from other networks, penetration tests are performed on segmentation controls as follows:
+- At least once every six months and after any changes to segmentation controls/methods.
+- Covering all segmentation controls/methods in use.
+- According to the entity’s defined penetration testing methodology.
+- Confirming that the segmentation controls/methods are operational and effective, and isolate the CDE from all out-of-scope systems.
+- Confirming effectiveness of any use of isolation to separate systems with differing security levels (see Requirement 2.2.3).
+- Performed by a qualified internal resource or qualified external third party.
+- Organizational independence of the tester exists (not required to be a QSA or ASV).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+If segmentation is used, it is verified by technical testing to be continually effective, including after any changes, in isolating the CDE from out-of-scope systems.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**11.4.6.a Additional testing procedure for service provider assessments only**: Examine the results from the most recent penetration test to verify that the penetration covers and addressed all elements specified in this requirement.
+
+**11.4.6.b Additional testing procedure for service provider assessments only**: Interview personnel to verify that the test was performed by a qualified internal resource or qualified external third party and that organizational independence of the tester exists (not required to be a QSA or ASV).
+
+##### GUIDANCE
+
+**Purpose**
+
+Service providers typically have access to greater volumes of cardholder data or can provide an entry point that can be exploited to then compromise multiple other entities. Service providers also typically have larger and more complex networks that are subject to more frequent change. The probability of segmentation controls failing in complex and dynamic networks is greater in service provider environments.
+
+Validating segmentation controls more frequently is likely to discover such failings before they can be exploited by an attacker attempting to pivot laterally from an out-of-scope untrusted network to the CDE.
+
+**Good Practice**
+
+Although the requirement specifies that this scope validation is carried out at least once every six months and after significant change, this exercise should be performed as frequently as possible to ensure it remains effective at isolating the CDE from other networks.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**11.4.7 Additional requirement for multi-tenant service providers only**: Multi-tenant service providers support their customers for external penetration testing per Requirement 11.4.3 and 11.4.4.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Multi-tenant service providers support their customers’ need for technical testing either by providing access or evidence that comparable technical testing has been undertaken.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a multi-tenant service provider.
+To meet this requirement, a multi-tenant service provider may either:
+- Provide evidence to its customers to show that penetration testing has been performed according to Requirements 11.4.3 and 11.4.4 on the customers’ subscribed infrastructure, or
+- Provide prompt access to each of its customers, so customers can perform their own penetration testing.
+Evidence provided to customers can include redacted penetration testing results but needs to include sufficient information to prove that all elements of Requirements 11.4.3 and 11.4.4 have been met on the customer’s behalf.
+Refer also to Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers.
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**11.4.7 Additional testing procedure for multi-tenant service providers only**: Examine evidence to verify that multi-tenant service providers support their customers for external penetration testing per Requirement 11.4.3 and 11.4.4.
+
+##### GUIDANCE
+
+**Purpose**
+
+Entities need to conduct penetration tests in accordance with PCI DSS to simulate attacker behavior and discover vulnerabilities in their environment. In shared and cloud environments, the multi-tenant service provider may be concerned about the activities of a penetration tester affecting other customers’ systems.
+
+Multi-tenant service providers cannot forbid penetration testing because this would leave their customers’ systems open to exploitation. Therefore, multi-tenant service providers must support customer requests to conduct penetration testing or for penetration testing results.
 
 **Good Practice**
 
@@ -10287,6 +10853,801 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 [sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 11.5
+
+11.5 Network intrusions and unexpected file changes are detected and responded to.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.5.1 Intrusion-detection and/or intrusion-prevention techniques are used to detect and/or prevent intrusions into the network as follows:
+- All traffic is monitored at the perimeter of the CDE.
+- All traffic is monitored at critical points in the CDE.
+- Personnel are alerted to suspected compromises.
+- All intrusion-detection and prevention engines, baselines, and signatures are kept up to date.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Mechanisms to detect real-time suspicious or anomalous network traffic that may be indicative of threat actor activity are implemented. Alerts generated by these mechanisms are responded to by personnel, or by automated means that ensure that system components cannot be compromised as a result of the detected activity.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.5.1.a Examine system configurations and network diagrams to verify that intrusion-detection and/or intrusion-prevention techniques are in place to monitor all traffic:
+- At the perimeter of the CDE.
+- At critical points in the CDE.
+
+11.5.1.b Examine system configurations and interview responsible personnel to verify intrusion-detection and/or intrusion-prevention techniques alert personnel of suspected compromises.
+
+11.5.1.c Examine system configurations and vendor documentation to verify intrusion-detection and/or intrusion-prevention techniques are configured to keep all engines, baselines, and signatures up to date.
+
+##### GUIDANCE
+
+**Purpose**
+
+Intrusion-detection and/or intrusion-prevention techniques (such as IDS/IPS) compare the traffic coming into the network with known “signatures” and/or behaviors of thousands of compromise types (hacker tools, Trojans, and other malware), and then send alerts and/or stop the attempt as it happens. Without a proactive approach to detect unauthorized activity, attacks on (or misuse of) computer resources could go unnoticed for long periods of time. The impact of an intrusion into the CDE is, in many ways, a factor of the time that an attacker has in the environment before being detected.
+
+**Good Practice**
+
+Security alerts generated by these techniques should be continually monitored, so that the attempted or actual intrusions can be stopped, and potential damage limited.
+
+**Definitions**
+
+Critical locations could include, but are not limited to, network security controls between network segments (for example, between a DMZ and an internal network or between an in-scope and out-of-scope network) and points protecting connections between a less trusted and a more trusted system component.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**11.5.1.1 Additional requirement for service providers only**: Intrusion-detection and/or intrusion-prevention techniques detect, alert on/prevent, and address covert malware communication channels.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Mechanisms are in place to detect and alert/prevent covert communications with command-and-control systems. Alerts generated by these mechanisms are responded to by personnel, or by automated means that ensure that such communications are blocked.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**11.5.1.1.a Additional testing procedure for service provider assessments only**: Examine documentation and configuration settings to verify that methods to detect and alert on/prevent covert malware communication channels are in place and operating.
+
+**11.5.1.1.b Additional testing procedure for service provider assessments only**: Examine the entity’s incident-response plan (Requirement 12.10.1) to verify it requires and defines a response in the event that covert malware communication channels are detected.
+
+**11.5.1.1.c Additional testing procedure for service provider assessments only**: Interview responsible personnel and observe processes to verify that personnel maintain knowledge of covert malware communication and control techniques and are knowledgeable about how to respond when malware is suspected.
+
+##### GUIDANCE
+
+**Purpose**
+
+Detecting covert malware communication attempts (for example, DNS tunneling) can help block the spread of malware laterally inside a network and the exfiltration of data. When deciding where to place this control, entities should consider critical locations in the network, and likely routes for covert channels.
+
+When malware establishes a foothold in an infected environment, it often tries to establish a communication channel to a command-and-control (C&C) server. Through the C&C server, the attacker communicates with and controls malware on compromised systems to deliver malicious payloads or instructions, or to initiate data exfiltration. In many cases, the malware will communicate with the C&C server indirectly via botnets, bypassing monitoring, blocking controls, and rendering these methods ineffective to detect the covert channels.
+
+**Good Practice**
+
+Methods that can help detect and address malware communications channels include real-time endpoint scanning, egress traffic filtering, an ”allow” listing, data loss prevention tools, and network security monitoring tools such as IDS/IPS. Additionally, DNS queries and responses are a key data source used by network defenders in support of incident response as well as intrusion discovery. When these transactions are collected for processing and analytics, they can enable a number of valuable security analytic scenarios.
+
+It is important that organizations maintain up-to-date knowledge of malware modes of operation, as mitigating these can help detect and limit the impact of malware in the environment.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.5.2 A change-detection mechanism (for example, file integrity monitoring tools) is deployed as follows:
+- To alert personnel to unauthorized modification (including changes, additions, and deletions) of critical files.
+- To perform critical file comparisons at least once weekly.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Critical files cannot be modified by unauthorized personnel without an alert being generated.
+
+###### APPLICABILITY NOTES
+
+For change-detection purposes, critical files are usually those that do not regularly change, but the modification of which could indicate a system compromise or risk of compromise. Change-detection mechanisms such as file integrity monitoring products usually come pre-configured with critical files for the related operating system. Other critical files, such as those for custom applications, must be evaluated and defined by the entity (that is, the merchant or service provider).
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.5.2.a Examine system settings, monitored files, and results from monitoring activities to verify the use of a change-detection mechanism.
+
+11.5.2.b Examine settings for the change-detection mechanism to verify it is configured in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Changes to critical system, configuration, or content files can be an indicator an attacker has accessed an organization’s system. Such changes can allow an attacker to take additional malicious actions, access cardholder data, and/or conduct activities without detection or record.
+
+A change detection mechanism will detect and evaluate such changes to critical files and generate alerts that can be responded to following defined processes so that personnel can take appropriate actions.
+
+If not implemented properly and the output of the change-detection solution monitored, a malicious individual could add, remove, or alter configuration file contents, operating system programs, or application executables. Unauthorized changes, if undetected, could render existing security controls ineffective and/or result in cardholder data being stolen with no perceptible impact to normal processing.
+
+**Good Practice**
+
+Examples of the types of files that should be monitored include, but are not limited to:
+- System executables.
+- Application executables.
+- Configuration and parameter files.
+- Centrally stored, historical, or archived audit logs.
+- Additional critical files determined by entity (for example, through risk assessment or other means).
+
+**Definitions**
+
+
+
+**Examples**
+
+Change-detection solutions such as file integrity monitoring (FIM) tools check for changes, additions, and deletions to critical files, and notify when such changes are detected.
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 11.6
+
+11.6 Unauthorized changes on payment pages are detected and responded to.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+11.6.1 A change- and tamper-detection mechanism is deployed as follows:
+- To alert personnel to unauthorized modification (including indicators of compromise, changes, additions, and deletions) to the HTTP headers and the contents of payment pages as received by the consumer browser.
+- The mechanism is configured to evaluate the received HTTP header and payment page.
+- The mechanism functions are performed as follows:
+ - At least once every seven days
+
+**OR**
+
+ - Periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+E-commerce skimming code or techniques cannot be added to payment pages as received by the consumer browser without a timely alert being generated. Anti-skimming measures cannot be removed from payment pages without a prompt alert being generated.
+
+###### APPLICABILITY NOTES
+
+The intention of this requirement is not that an entity installs software in the systems or browsers of its consumers, but rather that the entity uses techniques such as those described under Examples in the Guidance column to prevent and detect unexpected script activities.
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+11.6.1.a Examine system settings, monitored payment pages, and results from monitoring activities to verify the use of a change- and tamper-detection mechanism.
+
+11.6.1.b Examine configuration settings to verify the mechanism is configured in accordance with all elements specified in this requirement.
+
+11.6.1.c If the mechanism functions are performed at an entity-defined frequency, examine the entity’s targeted risk analysis for determining the frequency to verify the risk analysis was performed in accordance with all elements specified at Requirement 12.3.1.
+
+11.6.1.d Examine configuration settings and interview personnel to verify the mechanism functions are performed either:
+- At least once every seven days
+
+**OR**
+
+- At the frequency defined in the entity’s targeted risk analysis performed for this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Many web pages now rely on assembling objects, including active content (primarily JavaScript), from multiple internet locations. Additionally, the content of many web pages is defined using content management and tag management systems that may not be possible to monitor using traditional change detection mechanisms.
+
+Therefore, the only place to detect changes or indicators of malicious activity is in the consumer browser as the page is constructed and all JavaScript interpreted.
+
+By comparing the current version of the HTTP header and the active content of payment pages as received by the consumer browser with prior or known versions, it is possible to detect unauthorized changes that may indicate a skimming attack.
+
+Additionally, by looking for known indicators of compromise and script elements or behavior typical of skimmers, suspicious alerts can be raised.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+Mechanisms that detect and report on changes to the headers and content of the payment page include but are not limited to:
+- Violations of the Content Security Policy (CSP) can be reported to the entity using the report-to or report-uri CSP directives.
+- Changes to the CSP itself can indicate tampering.
+- External monitoring by systems that request and analyze the received web pages (also known as synthetic user monitoring) can detect changes to JavaScript in payment pages and alert personnel.
+- Embedding tamper-resistant, tamper-detection script in the payment page can alert and block when malicious script behavior is detected.
+- Reverse proxies and Content Delivery Networks can detect changes in scripts and alert personnel.
+Often, these mechanisms are subscription or cloud-based, but can also be based on custom and bespoke solutions.
+
+**Further Information**
+
+
+
+[sections 11](#sections-11) | 
+[top](#pci-dss-v40)
+
+---
+
+## PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy
+
+### Requirement 12: Support Information Security with Organizational Policies and Programs
+
+#### OVERVIEW
+The organization’s overall information security policy sets the tone for the whole entity and informs personnel what is expected of them. All personnel should be aware of the sensitivity of cardholder data and their responsibilities for protecting it.
+
+For the purposes of Requirement 12, “personnel” refers to full-time and part-time employees, temporary employees, contractors, and consultants with security responsibilities for protecting account data or that can impact the security of account data.
+
+Refer to Appendix G for definitions of PCI DSS terms.
+
+
+#### SECTIONS 12
+[12.1 A comprehensive information security policy that governs and provides direction for protection of the entity’s information assets is known and current.](#requirements-and-testing-procedures-121)
+
+[12.2 Acceptable use policies for end-user technologies are defined and implemented.](#requirements-and-testing-procedures-122)
+
+[12.3 Risks to the cardholder data environment are formally identified, evaluated, and managed.](#requirements-and-testing-procedures-123)
+
+[12.4 PCI DSS compliance is managed.](#requirements-and-testing-procedures-124)
+
+[12.5 PCI DSS scope is documented and validated.](#requirements-and-testing-procedures-125)
+
+[12.6 Security awareness education is an ongoing activity.](#requirements-and-testing-procedures-126)
+
+[12.7 Personnel are screened to reduce risks from insider threats.](#requirements-and-testing-procedures-127)
+
+[12.8 Risk to information assets associated with third-party service provider (TPSP) relationships is managed.](#requirements-and-testing-procedures-128)
+
+[12.9 Third-party service providers (TPSPs) support their customers’ PCI DSS compliance.](#requirements-and-testing-procedures-129)
+
+[12.10 Suspected and confirmed security incidents that could impact the CDE are responded to immediately.](#requirements-and-testing-procedures-1210)
+
+[requirement 12](#requirement-12-support-information-security-with-organizational-policies-and-programs) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
+
+##### REQUIREMENTS and TESTING PROCEDURES 12.1
+
+12.1 A comprehensive information security policy that governs and provides direction for protection of the entity’s information assets is known and current.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.1.1 An overall information security policy is:
+• Established.
+• Published.
+• Maintained.
+• Disseminated to all relevant personnel, as well as to relevant vendors and business partners.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The strategic objectives and principles of information security are defined, adopted, and known to all personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.1.1 Examine the information security policy and interview personnel to verify that the overall information security policy is managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+An organization’s overall information security policy ties to and governs all other policies and procedures that define protection of cardholder data.
+
+The information security policy communicates management’s intent and objectives regarding the protection of its most valuable assets, including cardholder data.
+
+Without an information security policy, individuals will make their own value decisions on the controls that are required within the organization which may result in the organization neither meeting its legal, regulatory, and contractual obligations, nor being able to adequately protect its assets in a consistent manner.
+
+To ensure the policy is implemented, it is important that all relevant personnel within the organization, as well as relevant third parties, vendors, and business partners are aware of the organization’s information security policy and their responsibilities for protecting information assets.
+
+**Good Practice**
+
+The security policy for the organization identifies the purpose, scope, accountability, and information that clearly defines the organization’s position regarding information security.
+
+The overall information security policy differs from individual security policies that address specific technology or security disciplines. This policy sets forth the directives for the entire organization whereas individual security policies align and support the overall security policy and communicate specific objectives for technology or security disciplines.
+
+It is important that all relevant personnel within the organization, as well as relevant third parties, vendors, and business partners are aware of the organization’s information security policy and their responsibilities for protecting information assets.
+
+**Definitions**
+
+“Relevant” for this requirement means that the information security policy is disseminated to those with roles applicable to some or all the topics in the policy, either within the company or because of services/functions performed by a vendor or third party.
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.1.2 The information security policy is:
+• Reviewed at least once every 12 months.
+• Updated as needed to reflect changes to business objectives or risks to the environment.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The information security policy continues to reflect the organization’s strategic objectives and principles.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.1.2 Examine the information security policy and interview responsible personnel to verify the policy is managed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Security threats and associated protection methods evolve rapidly. Without updating the information security policy to reflect relevant changes, new measures to defend against these threats may not be addressed.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.1.3 The security policy clearly defines information security roles and responsibilities for all personnel, and all personnel are aware of and acknowledge their information security responsibilities.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Personnel understand their role in protecting the entity’s cardholder data.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.1.3.a Examine the information security policy to verify that they clearly define information security roles and responsibilities for all personnel.
+
+12.1.3.b Interview personnel in various roles to verify they understand their information security responsibilities.
+
+12.1.3.c Examine documented evidence to verify personnel acknowledge their information security responsibilities.
+
+##### GUIDANCE
+
+**Purpose**
+
+Without clearly defined security roles and responsibilities assigned, there could be misuse of the organization’s information assets or inconsistent interaction with information security personnel, leading to insecure implementation of technologies or use of outdated or insecure technologies.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.1.4 Responsibility for information security is formally assigned to a Chief Information Security Officer or other information security knowledgeable member of executive management.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+A designated member of executive management is responsible for information security.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.1.4 Examine the information security policy to verify that information security is formally assigned to a Chief Information Security Officer or other information security-knowledgeable member of executive management.
+
+##### GUIDANCE
+
+**Purpose**
+
+To ensure someone with sufficient authority and responsibility is actively managing and championing the organization’s information security program, accountability and responsibility for information security needs to be assigned at the executive level within an organization.
+
+Common executive management titles for this role include Chief Information Security Officer (CISO) and Chief Security Officer (CSO – to meet this requirement, the CSO role must be responsible for information security). These positions are often at the most senior level of management and are part of the chief executive level or C-level, typically reporting to the Chief Executive Officer or the Board of Directors.
+
+**Good Practice**
+
+Entities should also consider transition and/or succession plans for these key personnel to avoid potential gaps in critical security activities.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 12.2
+
+12.2 Acceptable use policies for end-user technologies are defined and implemented.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.2.1 Acceptable use policies for end-user technologies are documented and implemented, including:
+• Explicit approval by authorized parties.
+• Acceptable uses of the technology.
+• List of products approved by the company for employee use, including hardware and software.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The use of end-user technologies is defined and managed to ensure authorized usage.
+
+###### APPLICABILITY NOTES
+
+Examples of end-user technologies for which acceptable use policies are expected include, but are not limited to, remote access and wireless technologies, laptops, tablets, mobile phones, and removable electronic media, email usage, and Internet usage.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.2.1 Examine the acceptable use policies for end-user technologies and interview responsible personnel to verify processes are documented and implemented in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+End-user technologies are a significant investment and may pose significant risk to an organization if not managed properly. Acceptable use policies outline the expected behavior from personnel when using the organization’s information technology and reflect the organization’s risk tolerance.
+
+These policies instruct personnel on what they can and cannot do with company equipment and instruct personnel on correct and incorrect uses of company Internet and email resources. Such policies can legally protect an organization and allow it to act when the policies are violated.
+
+**Good Practice**
+
+It is important that usage policies are supported by technical controls to manage the enforcement of the policies.
+
+Structuring polices as simple “do” and “do not” requirements that are linked to a purpose can help remove ambiguity and provide personnel with the context for the requirement.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 12.3
+
+12.3 Risks to the cardholder data environment are formally identified, evaluated, and managed.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.3.1 Each PCI DSS requirement that provides flexibility for how frequently it is performed (for example, requirements to be performed periodically) is supported by a targeted risk analysis that is documented and includes:
+• Identification of the assets being protected.
+• Identification of the threat(s) that the requirement is protecting against.
+• Identification of factors that contribute to the likelihood and/or impact of a threat being realized.
+• Resulting analysis that determines, and includes justification for, how frequently the requirement must be performed to minimize the likelihood of the threat being realized.
+• Review of each targeted risk analysis at least once every 12 months to determine whether the results are still valid or if an updated risk analysis is needed.
+• Performance of updated risk analyses when needed, as determined by the annual review.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Up to date knowledge and assessment of risks to the CDE are maintained.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.3.1 Examine documented policies and procedures to verify a process is defined for performing targeted risk analyses for each PCI DSS requirement that provides flexibility for how frequently the requirement is performed, and that the process includes all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Some PCI DSS requirements allow an entity to define how frequently an activity is performed based on the risk to environment. Performing this risk analysis according to a methodology ensures validity and consistency with policies and procedures.
+
+This targeted risk analysis (as opposed to a traditional enterprise-wide risk assessment) focuses on those PCI DSS requirements that allow an entity flexibility about how frequently an entity performs a given control. For this risk analysis, the entity carefully evaluates each PCI DSS requirement that provides this flexibility and determines the frequency that supports adequate security for the entity, and the level of risk the entity is willing to accept.
+
+The risk analysis identifies the specific assets, such as the system components and data—for example, log files, or credentials—that the requirement is intended to protect, as well as the threat(s) or outcomes that the requirement is protecting the assets from—for example, malware, an undetected intruder, or misuse of credentials. Examples of factors that could contribute to likelihood or impact include any that could increase the vulnerability of an asset to a threat—for example, exposure to untrusted networks, complexity of environment, or high staff turnover—as well as the criticality of the system components, or volume and sensitivity of the data, being protected.
+
+Reviewing the results of these targeted risk analyses at least once every 12 months and upon changes that could impact the risk to the environment allows the organization to ensure the risk analysis results remain current with organizational changes and evolving threats, trends, and technologies, and that the selected frequencies still adequately address the entity’s risk.
+
+**Good Practice**
+
+An enterprise-wide risk assessment, which is a point-in-time activity that enables entities to identify threats and associated vulnerabilities, is recommended, but is not required, for entities to determine and understand broader and emerging threats with the potential to negatively impact its business. This enterprise-wide risk assessment could be established as part of an overarching risk management program that is used as an input to the annual review of an organization's overall information security policy (see Requirement 12.1.1).
+
+Examples of risk-assessment methodologies for enterprise-wide risk assessments include, but are not limited to, ISO 27005 and NIST *SP 800-30*.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.3.2 A targeted risk analysis is performed for each PCI DSS requirement that the entity meets with the customized approach, to include:
+• Documented evidence detailing each element specified in Appendix D: Customized Approach (including, at a minimum, a controls matrix and risk analysis).
+• Approval of documented evidence by senior management.
+• Performance of the targeted analysis of risk at least once every 12 months.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+This requirement is part of the customized approach and must be met for those using the customized approach.
+
+###### APPLICABILITY NOTES
+
+This requirement only applies to entities using a Customized Approach.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.3.2 Examine the documented targeted risk-analysis for each PCI DSS requirement that the entity meets with the customized approach to verify that documentation for each requirement exists and is in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+A risk analysis following a repeatable and robust methodology enables an entity to meet the customized approach objective.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+The customized approach to meeting a PCI DSS requirement allows entities to define the controls used to meet a given requirement’s stated Customized Approach Objective in a way that does not strictly follow the defined requirement. These controls are expected to at least meet or exceed the security provided by the defined requirement and require extensive documentation by the entity using the customized approach.
+
+**Examples**
+
+
+
+**Further Information**
+
+See Appendix D: Customized Approach for instructions on how to document the required evidence for the customized approach.
+
+See Appendix E Sample Templates to Support Customized Approach for templates that entities may use to document their customized controls. Note that while use of the templates is optional, the information specified within each template must be documented and provided to each entity’s assessor.
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.3.3 Cryptographic cipher suites and protocols in use are documented and reviewed at least once every 12 months, including at least the following:
+• An up-to-date inventory of all cryptographic cipher suites and protocols in use, including purpose and where used.
+• Active monitoring of industry trends regarding continued viability of all cryptographic cipher suites and protocols in use.
+• A documented strategy to respond to anticipated changes in cryptographic vulnerabilities.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The entity is able to respond quickly to any vulnerabilities in cryptographic protocols or algorithms, where those vulnerabilities affect protection of cardholder data.
+
+###### APPLICABILITY NOTES
+
+The requirement applies to all cryptographic suites and protocols used to meet PCI DSS requirements.
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.3.3 Examine documentation for cryptographic suites and protocols in use and interview personnel to verify the documentation and review is in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Protocols and encryption strengths may quickly change or be deprecated due to identification of vulnerabilities or design flaws. In order to support current and future data security needs, entities need to know where cryptography is used and understand how they would be able to respond rapidly to changes impacting the strength of their cryptographic implementations.
+
+**Good Practice**
+
+Cryptographic agility is important to ensure an alternative to the original encryption method or cryptographic primitive is available, with plans to upgrade to the alternative without significant change to system infrastructure. For example, if the entity is aware of when protocols or algorithms will be deprecated by standards bodies, it can make proactive plans to upgrade before the deprecation is impactful to operations.
+
+**Definitions**
+
+“Cryptographic agility” refers to the ability to monitor and manage the encryption and related verification technologies deployed across an organization.
+
+**Examples**
+
+
+
+**Further Information**
+
+Refer to *NIST SP 800-131a, Transitioning the Use of Cryptographic Algorithms and Key Lengths*.
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+12.3.4 Hardware and software technologies in use are reviewed at least once every 12 months, including at least the following:
+• Analysis that the technologies continue to receive security fixes from vendors promptly.
+• Analysis that the technologies continue to support (and do not preclude) the entity’s PCI DSS compliance.
+• Documentation of any industry announcements or trends related to a technology, such as when a vendor has announced “end of life” plans for a technology.
+• Documentation of a plan, approved by senior management, to remediate outdated technologies, including those for which vendors have announced “end of life” plans.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The entity’s hardware and software technologies are up to date and supported by the vendor. Plans to remove or replace all unsupported system components are reviewed periodically.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+12.3.4 Examine documentation for the review of hardware and software technologies in use and interview personnel to verify that the review is in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Hardware and software technologies are constantly evolving, and organizations need to be aware of changes to the technologies they use, as well as the evolving threats to those technologies to ensure that they can prepare for, and manage, vulnerabilities in hardware and software that will not be remediated by the vendor or developer.
+
+**Good Practice**
+
+Organizations should review firmware versions to ensure they remain current and supported by the vendors. Organizations also need to be aware of changes made by technology vendors to their products or processes to understand how such changes may impact the organization’s use of the technology.
+
+Regular reviews of technologies that impact or influence PCI DSS controls can assist with purchasing, usage, and deployment strategies, and ensure controls that rely on those technologies remain effective. These reviews include, but are not limited to, reviewing technologies that are no longer supported by the vendor and/or no longer meet the security needs of the organization.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 12.4
+
+12.4 PCI DSS compliance is managed.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+**12.4.1 Additional requirement for service providers only**: Responsibility is established by executive management for the protection of cardholder data and a PCI DSS compliance program to include:
+• Overall accountability for maintaining PCI DSS compliance.
+• Defining a charter for a PCI DSS compliance program and communication to executive management.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Executives are responsible and accountable for security of cardholder data.
+
+###### APPLICABILITY NOTES
+
+This requirement applies only when the entity being assessed is a service provider.
+
+Executive management may include C-level positions, board of directors, or equivalent. The specific titles will depend on the particular organizational structure.
+
+Responsibility for the PCI DSS compliance program may be assigned to individual roles and/or to business units within the organization.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+**12.4.1 Additional testing procedure for service provider assessments only**: Examine documentation to verify that executive management has established responsibility for the protection of cardholder data and a PCI DSS compliance program in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Executive management assignment of PCI DSS compliance responsibilities ensures executive-level visibility into the PCI DSS compliance program and allows for the opportunity to ask appropriate questions to determine the effectiveness of the program and influence strategic priorities.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10333,7 +11694,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10380,7 +11741,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10427,7 +11788,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10474,7 +11835,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10521,7 +11882,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10568,7 +11929,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10615,7 +11976,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10662,7 +12023,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10709,7 +12070,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10756,7 +12117,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10803,7 +12164,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10850,7 +12211,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10897,7 +12258,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10944,7 +12305,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -10991,7 +12352,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -11038,7 +12399,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -11085,7 +12446,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -11132,7 +12493,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
@@ -11179,7 +12540,429 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 
-[sections 11](#sections-11) | 
+[sections 12](#sections-12) | 
 [top](#pci-dss-v40)
 
 ---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES x.y
+
+
+
+###### DEFINED APPROACH REQUIREMENTS
+
+
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+
+
+##### GUIDANCE
+
+**Purpose**
+
+
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 12](#sections-12) | 
+[top](#pci-dss-v40)
+
