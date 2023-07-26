@@ -50,7 +50,7 @@
 
 [Requirement 10: Log and Monitor All Access to System Components and Cardholder Data](#requirement-10-log-and-monitor-all-access-to-system-components-and-cardholder-data)
 
-[Requirement 11: Test Security of Systems and Networks Regularly]()
+[Requirement 11: Test Security of Systems and Networks Regularly](#requirement-11-test-security-of-systems-and-networks-regularly)
 
 [Requirement 12: Support Information Security with Organizational Policies and Programs]()
 
@@ -8604,6 +8604,11 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [10.7 Failures of critical security control systems are detected, reported, and responded to promptly.](#requirements-and-testing-procedures-107)
 
+[requirement 10](#requirement-10-log-and-monitor-all-access-to-system-components-and-cardholder-data) | 
+[requirements](#requirements) | 
+[principles](#principles) | 
+[top](#pci-dss-v40)
+
 ##### REQUIREMENTS and TESTING PROCEDURES 10.1
 
 10.1 Processes and mechanisms for logging and monitoring all access to system components and cardholder data are defined and documented.
@@ -9198,17 +9203,13 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.3.3 Audit log files, including those for external-facing technologies, are promptly backed up to a secure, central, internal log server(s) or other media that is difficult to modify.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Stored activity records are secured and preserved in a central location to prevent unauthorized modification.
 
 ###### APPLICABILITY NOTES
 
@@ -9216,13 +9217,203 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
+10.3.3 Examine backup configurations or log files to verify that current audit log files, including those for external-facing technologies, are promptly backed up to a secure, central, internal log server(s) or other media that is difficult to modify.
 
 ##### GUIDANCE
 
 **Purpose**
 
+Promptly backing up the logs to a centralized log server or media that is difficult to alter keeps the logs protected, even if the system generating the logs becomes compromised.
 
+Writing logs from external-facing technologies such as wireless, network security controls, DNS, and mail servers, reduces the risk of those logs being lost or altered.
+
+**Good Practice**
+
+Each entity determines the best way to back up log files, whether via one or more centralized log servers or other secure media. Logs may be written directly, offloaded, or copied from external systems to the secure internal system or media.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.3.4 File integrity monitoring or change-detection mechanisms is used on audit logs to ensure that existing log data cannot be changed without generating alerts.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Stored activity records cannot be modified without an alert being generated.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.3.4 Examine system settings, monitored files, and results from monitoring activities to verify the use of file integrity monitoring or change-detection software on audit logs.
+
+##### GUIDANCE
+
+**Purpose**
+
+File integrity monitoring or change-detection systems check for changes to critical files and notify when such changes are identified. For file integrity monitoring purposes, an entity usually monitors files that do not regularly change, but when changed, indicate a possible compromise.
+
+**Good Practice**
+
+Software used to monitor changes to audit logs should be configured to provide alerts when existing log data or files are changed or deleted. However, new log data being added to an audit log should not generate an alert.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 10.4
+
+10.4 Audit logs are reviewed to identify anomalies or suspicious activity.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.4.1 The following audit logs are reviewed at least once daily:
+- All security events.
+- Logs of all system components that store, process, or transmit CHD and/or SAD.
+- Logs of all critical system components.
+- Logs of all servers and system components that perform security functions (for example, network security controls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Potentially suspicious or anomalous activities are quickly identified to minimize impact.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.4.1.a Examine security policies and procedures to verify that processes are defined for reviewing all elements specified in this requirement at least once daily.
+
+10.4.1.b Observe processes and interview personnel to verify that all elements specified in this requirement are reviewed at least once daily.
+
+##### GUIDANCE
+
+**Purpose**
+
+Many breaches occur months before being detected. Regular log reviews mean incidents can be quickly identified and proactively addressed.
+
+**Good Practice**
+
+Checking logs daily (7 days a week, 365 days a year, including holidays) minimizes the amount of time and exposure of a potential breach. Log harvesting, parsing, and alerting tools, centralized log management systems, event log analyzers, and security information and event management (SIEM) solutions are examples of automated tools that can be used to meet this requirement.
+
+Daily review of security events—for example, notifications or alerts that identify suspicious or anomalous activities—as well as logs from critical system components, and logs from systems that perform security functions, such as firewalls, IDS/IPS, file integrity monitoring (FIM) systems, etc., is necessary to identify potential issues.
+
+The determination of “security event” will vary for each organization and may include consideration for the type of technology, location, and function of the device. Organizations may also wish to maintain a baseline of “normal” traffic to help identify anomalous behavior.
+An entity that uses third-party service providers to perform log review services is responsible to provide context about the entity’s environment to the service providers, so it understands the entity’s environment, has a baseline of “normal” traffic for the entity, and can detect potential security issues and provide accurate exceptions and anomaly notifications.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.4.1.1 Automated mechanisms are used to perform audit log reviews.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Potentially suspicious or anomalous activities are identified via a repeatable and consistent mechanism.
+
+###### APPLICABILITY NOTES
+
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.4.1.1 Examine log review mechanisms and interview personnel to verify that automated mechanisms are used to perform log reviews.
+
+##### GUIDANCE
+
+**Purpose**
+
+Manual log reviews are difficult to perform, even for one or two systems, due to the amount of log data that is generated. However, using log harvesting, parsing, and alerting tools, centralized log management systems, event log analyzers, and security information and event management (SIEM) solutions can help facilitate the process by identifying log events that need to be reviewed.
+
+**Good Practice**
+
+The entity should keep logging tools aligned with any changes in their environment by periodically reviewing tool settings and updating settings to reflect any changes.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.4.2 Logs of all other system components (those not specified in Requirement 10.4.1) are reviewed periodically.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Potentially suspicious or anomalous activities for other system components (not included in 10.4.1) are reviewed in accordance with the entity’s identified risk.
+
+###### APPLICABILITY NOTES
+
+This requirement is applicable to all other in-scope system components not included in Requirement 10.4.1.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.4.2.a Examine security policies and procedures to verify that processes are defined for reviewing logs of all other system components periodically.
+10.4.2.b Examine documented results of log reviews and interview personnel to verify that log reviews are performed periodically.
+
+##### GUIDANCE
+
+**Purpose**
+
+Periodic review of logs for all other system components (not specified in Requirement 10.4.1) helps to identify indications of potential issues or attempts to access critical systems via less-critical systems.
 
 **Good Practice**
 
@@ -9245,31 +9436,29 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.4.2.1 The frequency of periodic log reviews for all other system components (not defined in Requirement 10.4.1) is defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Log reviews for lower-risk system components are performed at a frequency that addresses the entity’s risk.
 
 ###### APPLICABILITY NOTES
 
-
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+10.4.2.1.a Examine the entity’s targeted risk analysis for the frequency of periodic log reviews for all other system components (not defined in Requirement 10.4.1) to verify the risk analysis was performed in accordance with all elements specified at Requirement 12.3.1.
 
+10.4.2.1.b Examine documented results of periodic log reviews of all other system components (not defined in Requirement 10.4.1) and interview personnel to verify log reviews are performed at the frequency specified in the entity’s targeted risk analysis performed for this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Entities can determine the optimum period to review these logs based on criteria such as the complexity of each entity’s environment, the number of types of systems that are required to be evaluated, and the functions of such systems.
 
 **Good Practice**
 
@@ -9292,17 +9481,13 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.4.3 Exceptions and anomalies identified during the review process are addressed.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Suspicious or anomalous activities are addressed.
 
 ###### APPLICABILITY NOTES
 
@@ -9310,13 +9495,219 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+10.4.3.a Examine security policies and procedures to verify that processes are defined for addressing exceptions and anomalies identified during the review process.
 
+10.4.3.b Observe processes and interview personnel to verify that, when exceptions and anomalies are identified, they are addressed.
 
 ##### GUIDANCE
 
 **Purpose**
 
+If exceptions and anomalies identified during the log-review process are not investigated, the entity may be unaware of unauthorized and potentially malicious activities occurring within their network.
 
+**Good Practice**
+
+Entities should consider how to address the following when developing their processes for defining and managing exceptions and anomalies:
+- How log review activities are recorded,
+- How to rank and prioritize exceptions and anomalies,
+- What procedures should be in place to report and escalate exceptions and anomalies, and
+- Who is responsible for investigating and for any remediation tasks.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 10.5
+
+10.5 Audit log history is retained and available for analysis.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.5.1 Retain audit log history for at least 12 months, with at least the most recent three months immediately available for analysis.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Historical records of activity are available immediately to support incident response and are retained for at least 12 months.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.5.1.a Examine documentation to verify that the following is defined:
+- Audit log retention policies.
+- Procedures for retaining audit log history for at least 12 months, with at least the most recent three months immediately available online.
+
+10.5.1.b Examine configurations of audit log history, interview personnel and examine audit logs to verify that audit logs history is retained for at least 12 months.
+
+10.5.1.c Interview personnel and observe processes to verify that at least the most recent three months’ audit log history is immediately available for analysis.
+
+##### GUIDANCE
+
+**Purpose**
+
+Retaining historical audit logs for at least 12 months is necessary because compromises often go unnoticed for significant lengths of time. Having centrally stored log history allows investigators to better determine the length of time a potential breach was occurring, and the possible system(s) impacted. By having three months of logs immediately available, an entity can quickly identify and minimize impact of a data breach.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+Methods that allow logs to be immediately available include storing logs online, archiving logs, or restoring logs quickly from backups.
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+##### REQUIREMENTS and TESTING PROCEDURES 10.6
+
+10.6 Time-synchronization mechanisms support consistent time settings across all systems.
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.6.1 System clocks and time are synchronized using time-synchronization technology.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Common time is established across all systems.
+
+###### APPLICABILITY NOTES
+
+Keeping time-synchronization technology current includes managing vulnerabilities and patching the technology according to PCI DSS Requirements 6.3.1 and 6.3.3.
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.6.1 Examine system configuration settings to verify that time-synchronization technology is implemented and kept current.
+
+##### GUIDANCE
+
+**Purpose**
+
+Time synchronization technology is used to synchronize clocks on multiple systems. When clocks are not properly synchronized, it can be difficult, if not impossible, to compare log files from different systems and establish an exact sequence of events, which is crucial for forensic analysis following a breach.
+
+For post-incident forensics teams, the accuracy and consistency of time across all systems and the time of each activity are critical in determining how the systems were compromised.
+
+**Good Practice**
+
+
+
+**Definitions**
+
+
+
+**Examples**
+
+Network Time Protocol (NTP) is one example of time-synchronization technology.
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.6.2 Systems are configured to the correct and consistent time as follows:
+- One or more designated time servers are in use.
+- Only the designated central time server(s) receives time from external sources.
+- Time received from external sources is based on International Atomic Time or Coordinated Universal Time (UTC).
+- The designated time server(s) accept time updates only from specific industry-accepted external sources.
+- Where there is more than one designated time server, the time servers peer with one another to keep accurate time.
+- Internal systems receive time information only from designated central time server(s).
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+The time on all systems is accurate and consistent.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.6.2 Examine system configuration settings for acquiring, distributing, and storing the correct time to verify the settings are configured in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Using reputable time servers is a critical component of the time synchronization process.
+
+Accepting time updates from specific, industry-accepted external sources helps prevent a malicious individual from changing time settings on systems.
+
+**Good Practice**
+
+Another option to prevent unauthorized use of internal time servers is to encrypt updates with a symmetric key and create access control lists that specify the IP addresses of client machines that will be provided with the time updates.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 10](#sections-10) | 
+[top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+10.6.3 Time synchronization settings and data are protected as follows:
+- Access to time data is restricted to only personnel with a business need.
+- Any changes to time settings on critical systems are logged, monitored, and reviewed.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+System time settings cannot be modified by unauthorized personnel.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+10.6.3.a Examine system configurations and time-synchronization settings to verify that access to time data is restricted to only personnel with a business need.
+
+10.6.3.b Examine system configurations and time synchronization settings and logs and observe processes to verify that any changes to time settings on critical systems are logged, monitored, and reviewed.
+
+##### GUIDANCE
+
+**Purpose**
+
+Attackers will try to change time configurations to hide their activity. Therefore, restricting the ability to change or modify time synchronization configurations or the system time to administrators will lessen the probability of an attacker successfully changing time configurations.
 
 **Good Practice**
 
@@ -9339,35 +9730,47 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+##### REQUIREMENTS and TESTING PROCEDURES 10.7
 
-
+10.7 Failures of critical security control systems are detected, reported, and responded to promptly.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+**10.7.1 Additional requirement for service providers only**: Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited to failure of the following critical security control systems:
+- Network security controls.
+- IDS/IPS.
+- FIM.
+- Anti-malware solutions.
+- Physical access controls.
+- Logical access controls.
+- Audit logging mechanisms.
+- Segmentation controls (if used).
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Failures in critical security control systems are promptly identified and addressed.
 
 ###### APPLICABILITY NOTES
 
+This requirement applies only when the entity being assessed is a service provider.
 
+This requirement will be superseded by Requirement 10.7.2 as of 31 March 2025.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+**10.7.1.a Additional testing procedure for service provider assessments only**: Examine documentation to verify that processes are defined for the prompt detection and addressing of failures of critical security control systems, including but not limited to failure of all elements specified in this requirement.
 
+**10.7.1.b Additional testing procedure for service provider assessments only**: Observe detection and alerting processes and interview personnel to verify that failures of critical security control systems are detected and reported, and that failure of a critical security control results in the generation of an alert.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Without formal processes to detect and alert when critical security controls fail, failures may go undetected for extended periods and provide attackers ample time to compromise system components and steal account data from the CDE.
 
 **Good Practice**
 
-
+The specific types of failures may vary, depending on the function of the device system component and technology in use. Typical failures include a system ceasing to perform its security function or not functioning in its intended manner, such as a firewall erasing all its rules or going offline.
 
 **Definitions**
 
@@ -9386,35 +9789,45 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.7.2 Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited to failure of the following critical security control systems:
+- Network security controls.
+- IDS/IPS.
+- Change-detection mechanisms.
+- Anti-malware solutions.
+- Physical access controls.
+- Logical access controls.
+- Audit logging mechanisms.
+- Segmentation controls (if used).
+- Audit log review mechanisms.
+- Automated security testing tools (if used).
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Failures in critical security control systems are promptly identified and addressed.
 
 ###### APPLICABILITY NOTES
 
+This requirement applies to all entities, including service providers, and will supersede Requirement 10.7.1 as of 31 March 2025. It includes two additional critical security control systems not in Requirement 10.7.1.
 
+This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+10.7.2.a Examine documentation to verify that processes are defined for the prompt detection and addressing of failures of critical security control systems, including but not limited to failure of all elements specified in this requirement.
 
+10.7.2.b Observe detection and alerting processes and interview personnel to verify that failures of critical security control systems are detected and reported, and that failure of a critical security control results in the generation of an alert.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+Without formal processes to detect and alert when critical security controls fail, failures may go undetected for extended periods and provide attackers ample time to compromise system components and steal account data from the CDE.
 
 **Good Practice**
 
-
+The specific types of failures may vary, depending on the function of the device system component and technology in use. However, typical failures include a system no longer performing its security function or not functioning in its intended manner—for example, a firewall erasing its rules or going offline.
 
 **Definitions**
 
@@ -9433,35 +9846,45 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
-
+10.7.3 Failures of any critical security controls systems are responded to promptly, including but not limited to:
+- Restoring security functions.
+- Identifying and documenting the duration (date and time from start to end) of the security failure.
+- Identifying and documenting the cause(s) of failure and documenting required remediation.
+- Identifying and addressing any security issues that arose during the failure.
+- Determining whether further actions are required as a result of the security failure.
+- Implementing controls to prevent the cause of failure from reoccurring.
+- Resuming monitoring of security controls.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
+Failures of critical security control systems are analyzed, contained, and resolved, and security controls restored to minimize impact. Resulting security issues are addressed, and measures taken to prevent reoccurrence.
 
 ###### APPLICABILITY NOTES
 
+This requirement applies only when the entity being assessed is a service provider until 31 March 2025, after which this requirement will apply to all entities.
 
+*This is a current v3.2.1 requirement that applies to service providers only. However, this requirement is a best practice for all other entities until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.*
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
+10.7.3.a Examine documentation and interview personnel to verify that processes are defined and implemented to respond to a failure of any critical security control system and include at least all elements specified in this requirement.
 
+10.7.3.b Examine records to verify that failures of critical security control systems are documented to include:
+- Identification of cause(s) of the failure.
+- Duration (date and time start and end) of the security failure.
+- Details of the remediation required to address the root cause.
 
 ##### GUIDANCE
 
 **Purpose**
 
-
+If alerts from failures of critical security control systems are not responded to quickly and effectively, attackers may use this time to insert malicious software, gain control of a system, or steal data from the entity’s environment.
 
 **Good Practice**
 
-
+Documented evidence (for example, records within a problem management system) should provide support that processes and procedures are in place to respond to security failures. In addition, personnel should be aware of their responsibilities in the event of a failure. Actions and responses to the failure should be captured in the documented evidence.
 
 **Definitions**
 
@@ -9480,385 +9903,34 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES x.y
+## PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks
 
 
+### Requirement 11:	Test Security of Systems and Networks Regularly
 
-###### DEFINED APPROACH REQUIREMENTS
+#### OVERVIEW
+Vulnerabilities are being discovered continually by malicious individuals and researchers, and being introduced by new software. System components, processes, and bespoke and custom software should be tested frequently to ensure security controls continue to reflect a changing environment.
 
+Refer to Appendix G for definitions of PCI DSS terms.
 
 
-###### CUSTOMIZED APPROACH OBJECTIVE
+#### SECTIONS 11
+[11.1 Processes and mechanisms for regularly testing security of systems and networks are defined and understood.](#requirements-and-testing-procedures-111)
 
+[11.2 Wireless access points are identified and monitored, and unauthorized wireless access points are addressed.](#requirements-and-testing-procedures-112)
 
+[11.3 External and internal vulnerabilities are regularly identified, prioritized, and addressed.](#requirements-and-testing-procedures-113)
 
-###### APPLICABILITY NOTES
+[11.4 External and internal penetration testing is regularly performed, and exploitable vulnerabilities and security weaknesses are corrected.](#requirements-and-testing-procedures-114)
 
+[11.5 Network intrusions and unexpected file changes are detected and responded to.](#requirements-and-testing-procedures-115)
 
+[11.6 Unauthorized changes on payment pages are detected and responded to.](#requirements-and-testing-procedures-116)
 
-###### DEFINED APPROACH TESTING PROCEDURES
 
+##### REQUIREMENTS and TESTING PROCEDURES 11.1
 
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
-
-###### DEFINED APPROACH REQUIREMENTS
-
-
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-
-
-###### APPLICABILITY NOTES
-
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
-
-**Purpose**
-
-
-
-**Good Practice**
-
-
-
-**Definitions**
-
-
-
-**Examples**
-
-
-
-**Further Information**
-
-
-
-[sections 10](#sections-10) | 
-[top](#pci-dss-v40)
-
----
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
+11.1 Processes and mechanisms for regularly testing security of systems and networks are defined and understood.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
