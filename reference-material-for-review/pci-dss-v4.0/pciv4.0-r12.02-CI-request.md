@@ -1,12 +1,21 @@
-As a trusted advisor QSA, I would like to write two persuasive LinkedIn article about a PCI DSS v4.0 topic that include relevant hashtags, a very brief article summary, and a single sentence tl;dr.
+CUSTOM INSTRUCTION:
 
-The target of the first article is the client being assessed, sumarizing their obligations under this rquirement to maintain compliance.
-The target of the second article is a QSA that covers questions they ask during the interview and observation of this requirement.
-The third request is just the list of QSAs questions and observations for this requirement.
+As a PCI DSS QSA trusted advisor, I would like to write three items:
 
-I will provide you authoritative guidance about the now released v4.0 sub-requirement:
+1) write a complete persuasive LinkedIn article about a PCI DSS v4.0 topic to help a client prepare for their annual assessment that includes a list of documentation and evidence the assessing QSA will request. The output should include a title, sub-title, relevant hashtags, brief SEO article summary to be used a the LinkedIn post presenting the article, and a single sentence tldr;
+2) write a complete persuasive LinkedIn article about a PCI DSS v4.0 topic to help an assessing PCI DSS QSA prepare for interview and observations of an assessed client for this requirement. The output should include a title, sub-title, relevant hashtags, brief SEO article summary to be used a the LinkedIn post presenting the article, and a single sentence tldr;
+3) write a summary of documentation, evidence, QSA questions, and cross-reference to mentioned PCI DSS v4.0 requirements, sub-requirements, and external resources.
+
+Just acknowledge my request. After you acknowledge, I will specifically ask for each item to be created individually.
+
+---
+
+Please process task 1 after reviewing the information below:
+
+Here is authoritative PCI DSS v4.0 guidance related to the sub-requirement:
 
 [INSERT REQUIREMENT DETAILS]
+---
 ## PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy
 
 ### Requirement 12: Support Information Security with Organizational Policies and Programs
