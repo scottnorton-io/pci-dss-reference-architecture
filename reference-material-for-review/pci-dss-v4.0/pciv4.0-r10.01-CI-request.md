@@ -17,23 +17,24 @@ Here is authoritative PCI DSS v4.0 guidance related to the sub-requirement:
 [INSERT REQUIREMENT DETAILS]
 ---
 ## PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks
-
-### Requirement 11:	Test Security of Systems and Networks Regularly
-
+### Requirement 10: Log and Monitor All Access to System Components and Cardholder Data
 #### OVERVIEW
-Vulnerabilities are being discovered continually by malicious individuals and researchers, and being introduced by new software. System components, processes, and bespoke and custom software should be tested frequently to ensure security controls continue to reflect a changing environment.
+Logging mechanisms and the ability to track user activities are critical in preventing, detecting, or minimizing the impact of a data compromise. The presence of logs on all system components and in the cardholder data environment (CDE) allows thorough tracking, alerting, and analysis when something does go wrong. Determining the cause of a compromise is difficult, if not impossible, without system activity logs.
+
+This requirement applies to user activities, including those by employees, contractors, consultants, and internal and external vendors, and other third parties (for example, those providing support or maintenance services).
+
+These requirements do not apply to user activity of consumers (cardholders).
 
 Refer to Appendix G for definitions of PCI DSS terms.
 
 ---
+##### REQUIREMENTS and TESTING PROCEDURES 10.1
 
-##### REQUIREMENTS and TESTING PROCEDURES 11.1
-
-11.1 Processes and mechanisms for regularly testing security of systems and networks are defined and understood.
+10.1 Processes and mechanisms for logging and monitoring all access to system components and cardholder data are defined and documented.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-11.1.1 All security policies and operational procedures that are identified in Requirement 11 are:
+10.1.1 All security policies and operational procedures that are identified in Requirement 10 are:
 - Documented.
 - Kept up to date.
 - In use.
@@ -41,25 +42,25 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-Expectations, controls, and oversight for meeting activities within Requirement 11 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+Expectations, controls, and oversight for meeting activities within Requirement 10 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
 
-
+10.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 10 are managed in accordance with all elements specified in this requirement.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-11.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures are managed in accordance with all elements specified in this requirement.
+Requirement 10.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 10. While it is important to define the specific policies or procedures called out in Requirement 10, it is equally important to ensure they are properly documented, maintained, and disseminated.
 
 ##### GUIDANCE
 
 **Purpose**
 
-Requirement 11.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 11. While it is important to define the specific policies or procedures called out in Requirement 11, it is equally important to ensure they are properly documented, maintained, and disseminated.
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
 
 **Good Practice**
 
-It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+
 
 **Definitions**
 
@@ -73,18 +74,18 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 
-[sections 11](#sections-11) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-11.1.2 Roles and responsibilities for performing activities in Requirement 11 are documented, assigned, and understood.
+10.1.2 Roles and responsibilities for performing activities in Requirement 10 are documented, assigned, and understood.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-Day-to-day responsibilities for performing all the activities in Requirement 11 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
+Day-to-day responsibilities for performing all the activities in Requirement 10 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
 
@@ -92,9 +93,9 @@ Day-to-day responsibilities for performing all the activities in Requirement 11 
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-11.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 11 are documented and assigned.
+10.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 10 are documented and assigned.
 
-11.1.2.b Interview personnel with responsibility for performing activities in Requirement 11 to verify that roles and responsibilities are assigned as documented and are understood.
+10.1.2.b Interview personnel with responsibility for performing activities in Requirement 10 to verify that roles and responsibilities are assigned as defined and are understood.
 
 ##### GUIDANCE
 
@@ -120,6 +121,6 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 
-[sections 11](#sections-11) | 
+[sections 10](#sections-10) | 
 [top](#pci-dss-v40)
 
