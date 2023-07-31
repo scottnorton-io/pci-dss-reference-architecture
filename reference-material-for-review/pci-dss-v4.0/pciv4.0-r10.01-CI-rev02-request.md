@@ -1,24 +1,31 @@
-CUSTOM INSTRUCTION:
+EMBEDDED CUSTOM INSTRUCTION:
+As a PCI DSS QSA trusted advisor, I would like you to write three PCI DSS v4.0 items based on authoritative information from the March 2022 PCI DSS Requirements and Testing Procedures version 4.0.  I will provide the topic and background information. You may supplement with additional authoritative PCI DSS v4.0 information. Then you will:
 
-As a PCI DSS QSA trusted advisor, I would like to write three items:
+1) write a summary of the documentation, evidence, QSA questions, and a cross-reference to mentioned PCI DSS v4.0 requirements, sub-requirements, and external resources.
 
-1) write a complete persuasive LinkedIn article about a PCI DSS v4.0 topic to help a client prepare for their annual assessment that includes a list of documentation and evidence the assessing QSA will request. The output should include a title, sub-title, relevant hashtags, brief SEO article summary to be used a the LinkedIn post presenting the article, and a single sentence tldr;
-2) write a complete persuasive LinkedIn article about a PCI DSS v4.0 topic to help an assessing PCI DSS QSA prepare for interview and observations of an assessed client for this requirement. The output should include a title, sub-title, relevant hashtags, brief SEO article summary to be used a the LinkedIn post presenting the article, and a single sentence tldr;
-3) write a summary of documentation, evidence, QSA questions, and cross-reference to mentioned PCI DSS v4.0 requirements, sub-requirements, and external resources.
+2) write a complete persuasive LinkedIn article about the topic to help a client prepare for their annual assessment that includes a list of documentation and evidence the assessing QSA will request.
 
-Just acknowledge my request. After you acknowledge, I will specifically ask for each item to be created individually.
+3) write a complete persuasive LinkedIn article about the topic to help an assessing PCI DSS QSA prepare for interview and observations of an assessed client for this requirement.
 
----[copy/paste from here to ChatAI request]
+The output for items 2) and 3) should include a title, sub-title, relevant hashtags, brief SEO article summary to be used as the LinkedIn post presenting the article, and a single sentence tldr;
 
-Please process task 1 after reviewing the information below:
+Please acknowledge my request. After you acknowledge, I will specifically ask for each item to be created.
+
+[vvv copy/paste from this point to ChatAI request vvv]
+
+---
 
 Here is authoritative PCI DSS v4.0 guidance related to the sub-requirement:
 
-[INSERT REQUIREMENT DETAILS]
+[vvv copy/paste authoritative REQUIREMENT guidance to the section below vvv]
 ---
+
 ## PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks
+
 ### Requirement 10: Log and Monitor All Access to System Components and Cardholder Data
+
 #### OVERVIEW
+
 Logging mechanisms and the ability to track user activities are critical in preventing, detecting, or minimizing the impact of a data compromise. The presence of logs on all system components and in the cardholder data environment (CDE) allows thorough tracking, alerting, and analysis when something does go wrong. Determining the cause of a compromise is difficult, if not impossible, without system activity logs.
 
 This requirement applies to user activities, including those by employees, contractors, consultants, and internal and external vendors, and other third parties (for example, those providing support or maintenance services).
@@ -26,6 +33,8 @@ This requirement applies to user activities, including those by employees, contr
 These requirements do not apply to user activity of consumers (cardholders).
 
 Refer to Appendix G for definitions of PCI DSS terms.
+
+[vvv copy/paste authoritative sub-REQUIREMENT guidance to the section below vvv]
 
 ---
 ##### REQUIREMENTS and TESTING PROCEDURES 10.1
