@@ -7257,6 +7257,7 @@ Refer to Appendix G for definitions of “media,” “personnel,” “sensitiv
 [principles](#principles) | 
 [top](#pci-dss-v40)
 
+---
 
 ##### REQUIREMENTS and TESTING PROCEDURES 9.1
 
@@ -11654,10 +11655,6 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 [top](#pci-dss-v40)
 
 ---
-
-##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
 
 ###### DEFINED APPROACH REQUIREMENTS
 
