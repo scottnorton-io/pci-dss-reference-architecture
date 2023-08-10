@@ -138,3 +138,4 @@ A method to document roles and responsibilities is a responsibility assignment m
 [sections 9](#sections-9) | 
 [top](#pci-dss-v40)
 
+
