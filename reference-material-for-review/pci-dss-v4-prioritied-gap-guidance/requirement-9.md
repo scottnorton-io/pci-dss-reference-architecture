@@ -4,7 +4,6 @@
 
 #### Defined Approach Testing Procedures
 
-
 | Sub-Requirement | Type of Interview/Observation              | Documentation & Evidence Expected                                                                       | QSA Questions                                                                                                                                                                                                                                                                                                            |
 | --------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 9.1.1           | Documentation Review & Personnel Interview | Security policies and operational procedures related to Requirement 9                                   | 1. Can you provide the relevant documentation that outlines your security policies and procedures as they pertain to Requirement 9?<br> 2. How are these policies and procedures managed and maintained over time? <br> 3. How are personnel informed about these policies and procedures?                       |
