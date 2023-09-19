@@ -1,4 +1,6 @@
-### Table: Network Security Controls (Requirement 1) Defined Approach Testing Procedures
+## Build and Maintain a Secure Network and Systems
+### Requirement 1: Install and Maintain Network Security Controls
+#### Defined Approach Testing Procedures
 
 | Sub-Requirement | Type of Interview/Observation                | Documentation & Evidence Expected                                                                                                           | QSA Questions                                                                                                                                                                                                                                                           |
 | --------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
