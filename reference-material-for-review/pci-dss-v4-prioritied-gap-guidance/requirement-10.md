@@ -4,7 +4,6 @@
 
 #### Defined Approach Testing Procedures
 
-
 | Sub-Requirement | Type of Interview/Observation                | Documentation & Evidence Expected                                                                           | QSA Questions                                                                                                                                                                                   |
 | --------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 10.1.1          | Document Examination and Personnel Interview | Security policies and operational procedures documentation related to Requirement 10.                       | 1. Can you provide the security policies and operational procedures for Requirement 10?<br>2. How are these policies managed and maintained in line with the stipulations of Requirement 10? |
