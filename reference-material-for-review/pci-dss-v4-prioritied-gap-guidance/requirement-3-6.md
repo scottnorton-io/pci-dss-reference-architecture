@@ -1,0 +1,16 @@
+
+### Table: Requirement 3.6 Defined Approach Testing Procedures
+
+| Sub-Requirement | Type of Interview/Observation              | Documentation & Evidence Expected                                               | QSA Questions                                                                                                                                                                                                  |
+| --------------- | ------------------------------------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3.6.1           | Document Examination                       | Documented key-management policies and procedures                               | Can you provide the documented policies and procedures that detail the protection processes for cryptographic keys used to safeguard stored account data?                                                      |
+| 3.6.1.1         | Personnel Interview & Document Examination | Documentation describing the cryptographic architecture (for service providers) | Can you present a document that describes the cryptographic architecture, including all the elements specified in this requirement? (Service provider assessments only)                                        |
+| 3.6.1.2.a       | Document Examination                       | Documented procedures on forms of cryptographic keys                            | Can you show the documented procedures that define the allowable forms of cryptographic keys used to encrypt/decrypt stored account data?                                                                      |
+| 3.6.1.2.b       | System Configuration Examination           | System configurations and key storage locations                                 | Can you demonstrate that cryptographic keys used to encrypt/decrypt stored account data exist only in the forms specified in this requirement, as verified by system configurations and key storage locations? |
+| 3.6.1.2.c       | System Configuration Examination           | System configurations and key storage locations for key-encrypting keys         | Can you confirm that:  |
+| | | | The key-encrypting keys are at least as strong as the data-encrypting keys they protect?
+| | | | Key-encrypting keys are stored separately from data-encrypting keys?                                                                                  |
+   | 3.6.1.3         | User Access List Examination          | User access lists                                                                         | Can you provide user access lists that show restricted access to cleartext cryptographic key components, limited to the fewest number of custodians necessary?               |
+   | 3.6.1.4        * | Process Observation & Location Examination | Key storage locations and processes                                                        | Can you demonstrate that keys are stored in the minimum possible number of locations, as observed through key storage locations and processes?                              |
+
+
