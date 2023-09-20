@@ -14761,7 +14761,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **1.5.1.b** | Document Examination & Observation           | Configuration settings on the concerned computing devices                                                                                        | 1. Can you show the configuration settings on computing devices that connect to both untrusted networks and the CDE?<br>2. Can you verify that these settings adhere to all the elements outlined in this requirement?                                                              |
 
 [annotations 1](#annotations-requirement-1) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -14802,7 +14802,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **2.3.2**           | Interview and Document Examination   | Interviews with responsible personnel and key-management documentation                         | Can you confirm that wireless encryption keys are changed as specified in this requirement?                                              |
 
 [annotations 2](#annotations-requirement-2) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -14855,7 +14855,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **3.6.1.4**   | Process Observation & Location Examination | Key storage locations and processes                                                                                        | 1. Can you demonstrate that keys are stored in the minimum possible number of locations, as observed through key storage locations and processes?                                                                                                                                   |
 
 [annotations 3](#annotations-requirement-3) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -14881,7 +14881,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **4.2.2.b**         | System Configurations and Vendor Documentation Examination | System configuration documents and vendor documentation showing the securing of PAN with strong cryptography for end-user messaging technologies.               | 1. Can you demonstrate the system configurations that secure PAN during transmission via end-user messaging technologies?<br>2. How do you verify that the cryptography applied is robust and secure?                 |
 
 [annotations 4](#annotations-requirement-4) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -14920,7 +14920,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **5.4.1**           | Process and mechanism observation                          | Observation and mechanisms confirming controls against phishing attacks                                         | 1. Can you demonstrate the controls in place to detect and protect personnel against phishing attacks?                                                          |
 
 [annotations 5](#annotations-requirement-5) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -14970,7 +14970,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 6.5.6.c         | Data and Account Examination                           | Data and account evaluations to confirm the absence of test data or accounts in production systems. | 1. Can you provide evidence that there are no test data or accounts present in the production systems, especially for recently installed or updated software?               |
 
 [annotations 6](#annotations-requirement-6) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -15005,7 +15005,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **7.3.3**                     | Document Examination and System Settings Inspection | Vendor documentation, system settings showcasing the "deny all" default setting                     | 1. Can you show the system settings where the access control system is set to "deny all" by default?<br> 2. How does the organization ensure that the "deny all" default setting is maintained and effectively implemented?                                  |
 
 [annotations 7](#annotations-requirement-7) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -15069,7 +15069,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **8.6.3.c**         | Personnel Interview & Document Examination | Interviews with responsible personnel and system configuration settings documentation.                 | 1. How are passwords/passphrases protected against misuse as per the specified elements in this requirement?<br>2. Can you provide documentation and setting configurations that demonstrate this?      |
 
 [annotations 8](#annotations-requirement-8) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -15138,7 +15138,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 9.5.1.3.b       | Interview                         | Training records, personnel testimony regarding training received                           | 1. Can you verify that personnel in POI environments have received adequate training and are knowledgeable about the procedures as specified in this sub-requirement?   |
 
 [annotations 9](#annotations-requirement-9) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -15189,7 +15189,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 10.7.3.b        | Records Examination                                                             | - Records showing documentation of security control system failures including identified causes, the duration, and remediation details.                                                                                                 | 1. Could you showcase records where security control system failures were documented with necessary details?<br>2. How is the root cause addressed during these occurrences?  |
 
 [annotations 10](#annotations-requirement-10) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -15253,7 +15253,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 11.6.1.d        | Configuration Review, Personnel Interview      | Configuration settings, interviews with personnel responsible for the mechanism, documentation on targeted risk analysis | 1. How often does the change- and tamper-detection mechanism function and how does this frequency align with either the once every seven days standard or the entity's targeted risk analysis? |
 
 [annotations 11](#annotations-requirement-11) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
@@ -15323,7 +15323,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 
 [annotations 12](#annotations-requirement-12) | 
-[annotations](#annotations)
+[annotations](#annotations) | 
 [requirements](#requirements) | 
 [principles](#principles) |
 [top](#pci-dss-v40-annotated)
