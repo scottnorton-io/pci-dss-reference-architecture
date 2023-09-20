@@ -1,5 +1,7 @@
 # PCI DSS v4.0
 
+This reference is based on information sourced from [PCI DSS v4.0 Resource Hub](https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub)
+
 ## Principles
 
 [PRINCIPLE PCI DSS REQUIREMENT: Build and Maintain a Secure Network and Systems](#principle-pci-dss-requirement-build-and-maintain-a-secure-network-and-systems)
