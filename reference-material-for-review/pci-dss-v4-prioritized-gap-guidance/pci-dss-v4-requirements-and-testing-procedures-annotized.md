@@ -78,6 +78,29 @@ This annotated reference is based on information sourced from [PCI SSC and the P
 
 ### Annotations
 
+[Annotation Requirement 1](#annotations-requirement-1)
+
+[Annotation Requirement 2](#annotations-requirement-2)
+
+[Annotation Requirement 3](#annotations-requirement-3)
+
+[Annotation Requirement 4](#annotations-requirement-4)
+
+[Annotation Requirement 5](#annotations-requirement-5)
+
+[Annotation Requirement 6](#annotations-requirement-6)
+
+[Annotation Requirement 7](#annotations-requirement-7)
+
+[Annotation Requirement 8](#annotations-requirement-8)
+
+[Annotation Requirement 9](#annotations-requirement-9)
+
+[Annotation Requirement 10](#annotations-requirement-10)
+
+[Annotation Requirement 11](#annotations-requirement-11)
+
+[Annotation Requirement 12](#annotations-requirement-12)
 
 ---
 
