@@ -1,6 +1,6 @@
-# PCI DSS v4.0
+# PCI DSS v4.0 (Annotated)
 
-This reference is based on information sourced from [PCI DSS v4.0 Resource Hub](https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub)
+This annotated reference is based on information sourced from [PCI SSC and the PCI DSS v4.0 Resource Hub](https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub)
 
 ## Principles
 
