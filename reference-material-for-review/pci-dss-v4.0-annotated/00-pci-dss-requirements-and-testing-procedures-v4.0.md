@@ -32,11 +32,11 @@
 
 [Requirement 1: Install and Maintain Network Security Controls](#requirement-1-install-and-maintain-network-security-controls)
 
-[Requirement 2:	Apply Secure Configurations to All System Components](#requirement-2-apply-secure-configurations-to-all-system-components)
+[Requirement 2: Apply Secure Configurations to All System Components](#requirement-2-apply-secure-configurations-to-all-system-components)
 
-[Requirement 3:	Protect Stored Account Data](#requirement-3-protect-stored-account-data)
+[Requirement 3: Protect Stored Account Data](#requirement-3-protect-stored-account-data)
 
-[Requirement 4:	Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks)
+[Requirement 4: Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks)
 
 [Requirement 5: Protect All Systems and Networks from Malicious Software](#requirement-5-protect-all-systems-and-networks-from-malicious-software)
 
@@ -66,13 +66,13 @@
 
 [Appendix C: Compensating Controls Worksheet]()
 
-[Appendix D Customized Approach]()
+[Appendix D: Customized Approach]()
 
-[Appendix E Sample Templates to Support Customized Approach]()
+[Appendix E: Sample Templates to Support Customized Approach]()
 
-[Appendix F Leveraging the PCI Software Security Framework to Support Requirement 6]()
+[Appendix F: Leveraging the PCI Software Security Framework to Support Requirement 6]()
 
-[Appendix G PCI DSS Glossary of Terms, Abbreviations, and Acronyms]()
+[Appendix G: PCI DSS Glossary of Terms, Abbreviations, and Acronyms]()
 
 
 ---
