@@ -152,7 +152,7 @@
 
 ---
 
-## Protect Account Data
+## PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data
 
 ### Requirement 3: Protect Stored Account Data
 
@@ -206,8 +206,6 @@
 
 ---
 
-## Protect Account Data
-
 ### Requirement 4: Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks
 
 #### Annotations Requirement 4
@@ -233,7 +231,7 @@
 
 ---
 
-## Maintain a Vulnerability Management Program
+## PRINCIPLE PCI DSS REQUIREMENT: Maintain a Vulnerability Management Program
 
 ### Requirement 5: Protect All Systems and Networks from Malicious Software
 
