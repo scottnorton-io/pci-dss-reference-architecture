@@ -137,7 +137,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 1](#requirement-1-install-and-maintain-network-security-controls) | 
 [requirements](#requirements) | 
 [principles](#principles) |
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -218,7 +218,7 @@ As part of communicating roles and responsibilities, entities can consider havin
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -533,7 +533,7 @@ If the secure configuration for a router is stored in non-volatile memory, when 
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -654,7 +654,7 @@ The known (or unknown) implementation and exploitation of wireless technology wi
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 ##### REQUIREMENTS and TESTING PROCEDURES 1.4
@@ -854,7 +854,7 @@ Methods to obscure IP addressing may include, but are not limited to:
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -911,7 +911,7 @@ Practices include forbidding split-tunneling of VPNs for employee-owned or corpo
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -935,7 +935,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 2](#requirement-2-apply-secure-configurations-to-all-system-components) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ---
@@ -1026,7 +1026,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1353,7 +1353,7 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1406,7 +1406,7 @@ Wireless passwords should be constructed so that they are resistant to offline b
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1455,7 +1455,7 @@ In addition, any keys that are known to be, or suspected of being, compromised s
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1494,7 +1494,7 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 [requirement 3](#requirement-3-protect-stored-account-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1546,7 +1546,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1593,7 +1593,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1662,7 +1662,7 @@ An automated, programmatic procedure could be run to locate and remove data, or 
 See *NIST SP 800-88 Rev. 1, Guidelines for Media Sanitization.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1715,7 +1715,7 @@ The authorization process completes when a merchant receives a transaction respo
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1770,7 +1770,7 @@ Data sources to review to ensure that the full contents of any track are not ret
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1822,7 +1822,7 @@ Data sources to review to ensure that the card verification code is not retained
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1876,7 +1876,7 @@ Data sources to review to ensure that PIN and PIN blocks are not retained upon c
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1930,7 +1930,7 @@ The authorization process is completed as soon as the response to an authorizati
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1982,7 +1982,7 @@ Legitimate issuing business need means that the data is needed to facilitate the
 Refer to *ISO/DIS 9564-5 Financial services — Personal Identification Number (PIN) management and security — Part 5: Methods for the generation, change, and verification of PINs and card security data using the advanced encryption standard.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2040,7 +2040,7 @@ Masking is not synonymous with truncation and these terms cannot be used interch
 For more information about masking and truncation, see PCI SSC’s FAQs on these topics.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2095,7 +2095,7 @@ Storage devices include, but are not limited to, local hard drives, virtual driv
 Vendor documentation for the remote-access technology in use will provide information about the system settings needed to implement this requirement.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2160,7 +2160,7 @@ Sources for information about index tokens include:
 - *ANSI X9.119-2-2017: Retail Financial Services - Requirements For Protection Of Sensitive Payment Card Data - Part 2: Implementing Post-Authorization Tokenization Systems*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2217,7 +2217,7 @@ Refer to the following for more information about HMAC, CMAC, and GMAC, respecti
 See *NIST SP 800-107 (Revision 1): Recommendation for Applications Using Approved Hash Algorithms §5.3.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2274,7 +2274,7 @@ Disk-level and partition-level encryption typically encrypts the entire disk or 
 Where available, following vendors’ hardening and industry best practice guidelines can assist in securing PAN on these devices.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2322,7 +2322,7 @@ Full disk encryption helps to protect data in the event of physical loss of a di
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2378,7 +2378,7 @@ The entity’s key management procedures will benefit through alignment with ind
 - *NIST SP 800-57 Part 1 Revision 5—Recommendation for Key Management, Part 1: General.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2431,7 +2431,7 @@ Having an automated reporting mechanism can assist with maintenance of the crypt
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2486,7 +2486,7 @@ Where data-encrypting keys are stored in an HSM, the HSM interaction channel sho
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2530,7 +2530,7 @@ Ideally this will be a very small number of people.
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2573,7 +2573,7 @@ Storing any cryptographic keys in the fewest locations helps an organization tra
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2623,7 +2623,7 @@ Use of strong cryptographic keys significantly increases the level of security o
 See the sources referenced at "Cryptographic Key Generation in Appendix G.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2667,7 +2667,7 @@ Secure distribution or conveyance of secret or private cryptographic keys means 
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2716,7 +2716,7 @@ Secret or private keys that can decrypt data should never be present in source c
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2763,7 +2763,7 @@ A cryptoperiod is the time span during which a cryptographic key can be used for
 *NIST SP 800-57 Part 1, Revision 5, Section 5.3 Cryptoperiods* - provides guidance for establishing the time span during which a specific key is authorized for use by legitimate entities, or the keys for a given system will remain in effect. See Table 1 of *SP 800-57* Part 1 for suggested cryptoperiods for different key types.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2814,7 +2814,7 @@ The encryption solution should provide for and facilitate a process to replace k
 Industry best practices for archiving retired keys are outlined in *NIST SP 800-57 Part 1, Revision 5, Section 8.3.1*, and includes maintaining the archive with a trusted third party and storing archived key information separately from operational data.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2868,7 +2868,7 @@ Industry standards for managing key components include:
 - *European Payments Council EPC342-08 Guidelines on Cryptographic Algorithms Usage and Key Management* [especially 4.1.4 Key installation].
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2915,7 +2915,7 @@ Controls should include ensuring that individuals with access to key components 
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2962,7 +2962,7 @@ Industry guidance for key custodians and their roles and responsibilities includ
 - *ISO 11568-1 Banking -- Key management (retail) -- Part 1*: Principles [5 Principles of key management (especially b)]
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3005,7 +3005,7 @@ Providing guidance to customers on how to securely transmit, store, and update c
 Numerous industry standards for key management are cited above in the Guidance for Requirements 3.7.1-3.7.8.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3036,7 +3036,7 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 [requirement 4](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 4.1
 
@@ -3085,7 +3085,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3131,7 +3131,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3209,7 +3209,7 @@ For more information about strong cryptography and secure protocols, see industr
 For more information about trusted keys and certificates, see *NIST Cybersecurity Practice Guide Special Publication 1800-16, Securing Web Transactions: Transport Layer Security (TLS) Server Certificate Management.*
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3254,7 +3254,7 @@ For certificates, the inventory should include the issuing CA and certification 
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3299,7 +3299,7 @@ Wireless networks should not permit fallback or downgrade to an insecure protoco
 Review the vendor’s specific documentation for more details on the choice of protocols, configurations, and settings related to cryptography.
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3346,7 +3346,7 @@ E-mail, instant messaging, SMS, and chat are examples of the type of end-user me
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3376,7 +3376,7 @@ Using anti-malware solutions that address all types of malware helps to protect 
 [requirement 5](#requirement-5-protect-all-systems-and-networks-from-malicious-software) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 5.1
 
@@ -3425,7 +3425,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3471,7 +3471,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3520,7 +3520,7 @@ System components known to be affected by malware have active malware exploits a
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3569,7 +3569,7 @@ Types of malware include, but are not limited to, viruses, Trojans, worms, spywa
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3625,7 +3625,7 @@ Trends in malware should be included in the identification of new security vulne
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3670,7 +3670,7 @@ Entities determine the optimum period to undertake the evaluation based on crite
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3724,7 +3724,7 @@ Updates may be automatically downloaded to a central location—for example, to 
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3776,7 +3776,7 @@ Active, or real-time, scanning checks files for malware upon any attempt to open
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3823,7 +3823,7 @@ Entities can determine the optimum period to undertake periodic scans based on t
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3873,7 +3873,7 @@ Portable media devices are often overlooked as an entry method for malware. Atta
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3916,7 +3916,7 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3961,7 +3961,7 @@ Additional security measures that may need to be implemented for the period duri
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4023,7 +4023,7 @@ See the following for more information about phishing:
 *US Cybersecurity & Infrastructure Security Agency - Report Phishing Sites.*
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4057,7 +4057,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 6](#requirement-6-develop-and-maintain-secure-systems-and-software) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 6.1
 
@@ -4106,7 +4106,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4153,7 +4153,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4206,7 +4206,7 @@ Secure software lifecycle management methodologies and frameworks include PCI So
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4258,7 +4258,7 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4317,7 +4317,7 @@ The following items should be considered for inclusion in code reviews:
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4374,7 +4374,7 @@ Entitles that rely solely on manual code review should ensure that reviewers mai
 See the OWASP Code Review Guide.
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4429,7 +4429,7 @@ Techniques include automated processes and practices that scan code early in the
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4493,7 +4493,7 @@ For bespoke and custom software, the organization may obtain information about l
 For control over in-house developed software, the organization may receive such information from external sources. The organization can consider using a “bug bounty” program where it posts information (for example, on its website) so third parties can contact the organization with vulnerability information. External sources may include independent investigators or companies that report to the organization about identified vulnerabilities and may include sources such as the Common Vulnerability Scoring System (CVSS) or the OWASP Risk Rating Methodology.
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4542,7 +4542,7 @@ There are many different types of solutions that can help with managing software
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4591,7 +4591,7 @@ An entity’s patching cadence should factor in any re-evaluation of vulnerabili
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4665,7 +4665,7 @@ Another example of an automated technical solution is Runtime Application Self-P
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4714,7 +4714,7 @@ A web application firewall (WAF), which can be either on-premise or cloud-based,
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4775,7 +4775,7 @@ The integrity of scripts can be enforced by several different mechanisms includi
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4835,7 +4835,7 @@ For each change, it is important to have documented procedures that address any 
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4884,7 +4884,7 @@ Applicable PCI DSS requirements that could be impacted include, but are not limi
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4931,7 +4931,7 @@ Pre-production environments include development, testing, user acceptance testin
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4980,7 +4980,7 @@ Separating roles and functions, also referred to as separation or segregation of
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5029,7 +5029,7 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5076,7 +5076,7 @@ This data may give away information about the functioning of an application or s
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5110,7 +5110,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 7](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES 7.1
@@ -5160,7 +5160,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5207,7 +5207,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5266,7 +5266,7 @@ Access control models that entities can consider include role-based access contr
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5320,7 +5320,7 @@ Entities may wish to consider use of Privileged Access Management (PAM), which i
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5373,7 +5373,7 @@ Documented approval (for example, in writing or electronically) assures that tho
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5428,7 +5428,7 @@ Entities can consider implementing a regular, repeatable process for conducting 
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5479,7 +5479,7 @@ Entities may want to consider establishing a baseline when setting up these appl
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5530,7 +5530,7 @@ Regular review of access rights helps to detect excessive access rights remainin
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5579,7 +5579,7 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5627,7 +5627,7 @@ Without a mechanism to restrict access based on user’s need to know, a user ma
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5670,7 +5670,7 @@ Restricting privileged access with an access control system reduces the opportun
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5713,7 +5713,7 @@ It is important to check the default configuration of access control systems bec
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5763,7 +5763,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 8](#requirement-8-identify-users-and-authenticate-access-to-system-components) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ---
@@ -5815,7 +5815,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5862,7 +5862,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5913,7 +5913,7 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5972,7 +5972,7 @@ An example of an exceptional circumstance is where all other authentication meth
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6023,7 +6023,7 @@ Technologies such as multi-factor mechanisms that provide a unique credential fo
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6070,7 +6070,7 @@ Attackers often compromise an existing account and then escalate the privileges 
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6115,7 +6115,7 @@ If an employee or third party/vendor has left the company and still has access t
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6158,7 +6158,7 @@ Where it may be reasonably anticipated that an account will not be used for an e
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6204,7 +6204,7 @@ Monitoring third-party access helps ensure that third parties are accessing only
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6255,7 +6255,7 @@ One way to meet this requirement is to configure an automated screensaver to lau
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6311,7 +6311,7 @@ A common approach for a malicious individual to compromise a system is to exploi
 See *fidoalliance.org* for more information about using tokens, smart cards, or biometrics as authentication factors.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6358,7 +6358,7 @@ Network devices and applications have been known to transmit unencrypted, readab
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6403,7 +6403,7 @@ Methods to verify a user’s identity include a secret question/answer, knowledg
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6452,7 +6452,7 @@ Before reactivating a locked account, the user’s identity should be confirmed.
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6497,7 +6497,7 @@ If the same password/passphrase is used for every new user, an internal user, fo
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6550,7 +6550,7 @@ Another option for increasing the resistance of passwords to guessing attacks is
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6595,7 +6595,7 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6650,7 +6650,7 @@ Alternatively, entities can implement processes to confirm passwords meet passwo
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6706,7 +6706,7 @@ Dynamically analyzing an account’s security posture is another option that all
 For information about using dynamic analysis to manage user access to resources, see *NIST SP 800-207 Zero Trust Architecture*.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6755,7 +6755,7 @@ Passwords/passphrases that are valid for a long time without a change provide ma
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6815,7 +6815,7 @@ Dynamically analyzing an account’s security posture is another option that all
 For information about using dynamic analysis to manage user access to resources, refer to *NIST SP 800-207 Zero Trust Architecture*.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6864,7 +6864,7 @@ Having physical and/or logical controls (for example, a PIN, biometric data, or 
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6915,7 +6915,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6968,7 +6968,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7019,7 +7019,7 @@ Multi-factor authentication (MFA) requires an individual to present a minimum of
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7082,7 +7082,7 @@ PCI SSC’s *Information Supplement: Multi-Factor Authentication*
 PCI SSC’s Frequently Asked Questions (FAQs) on this topic.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7138,7 +7138,7 @@ Interactive login is the ability for a person to log into a system or applicatio
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7186,7 +7186,7 @@ Tools can facilitate both management and security of authentication factors for 
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7248,7 +7248,7 @@ Best practices are to consider password changes at least once a year, a password
 For information about variability and equivalency of password strength for passwords/passphrases of different formats, see the industry standards (for example, the current version of *NIST SP 800-63 Digital Identity Guidelines*).
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7282,7 +7282,7 @@ Refer to Appendix G for definitions of “media,” “personnel,” “sensitiv
 [requirement 9](#requirement-9-restrict-physical-access-to-cardholder-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7335,7 +7335,7 @@ Policies and procedures, including updates, are actively communicated to all aff
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7384,7 +7384,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7431,7 +7431,7 @@ Facility entry controls include physical security controls at each computer room
 
 
 [sections 8](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7486,7 +7486,7 @@ Criminals attempting to gain physical access to sensitive areas will often try t
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7529,7 +7529,7 @@ Methods to meet this requirement include network jacks located in public areas a
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7574,7 +7574,7 @@ Additionally, securing networking and communications hardware prevents malicious
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7617,7 +7617,7 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7672,7 +7672,7 @@ One way to identify personnel is to assign them badges.
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7724,7 +7724,7 @@ Where possible, organizations should have policies and procedures to ensure that
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7781,7 +7781,7 @@ Visitor controls ensure visitors are identifiable as visitors so personnel can m
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7824,7 +7824,7 @@ Ensuring that visitor badges are returned or deactivated upon expiry or completi
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7878,7 +7878,7 @@ When logging the date and time of visit, including both in and out times is cons
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7925,7 +7925,7 @@ Controls for physically securing media are intended to prevent unauthorized pers
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7970,7 +7970,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8015,7 +8015,7 @@ Conducting regular reviews of the storage facility enables the organization to a
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8060,7 +8060,7 @@ It is important that media be identified such that its classification status is 
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8110,7 +8110,7 @@ Media may be lost or stolen if sent via a non-trackable method such as regular p
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8155,7 +8155,7 @@ Without a firm process for ensuring that all media movements are approved before
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8200,7 +8200,7 @@ Without careful inventory methods and storage controls, stolen or missing electr
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8245,7 +8245,7 @@ Without careful inventory methods and storage controls, stolen or missing electr
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8296,7 +8296,7 @@ Consider “to-be-shredded” containers with a lock that prevents access to its
 See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8343,7 +8343,7 @@ Methods for securely destroying electronic media include secure wiping in accord
 See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8399,7 +8399,7 @@ They will also try to add “skimming” components to the outside of devices, w
 Additional best practices on skimming prevention are available on the PCI SSC website.
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8449,7 +8449,7 @@ Methods to maintain device locations include identifying the address of the site
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8502,7 +8502,7 @@ Signs that a device might have been tampered with or substituted include:
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8547,7 +8547,7 @@ The frequency of inspections will depend on factors such as the location of a de
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8600,7 +8600,7 @@ Ensuring personnel are aware of mechanisms for reporting suspicious behavior and
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 ---
@@ -8638,7 +8638,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 10](#requirement-10-log-and-monitor-all-access-to-system-components-and-cardholder-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 10.1
 
@@ -8687,7 +8687,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8734,7 +8734,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8783,7 +8783,7 @@ When an entity considers which information to record in their logs, it is import
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8826,7 +8826,7 @@ A record of all individual access to cardholder data can identify which accounts
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8869,7 +8869,7 @@ Accounts with administrative access are those assigned with specific privileges 
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8912,7 +8912,7 @@ Malicious users often attempt to alter audit logs to hide their actions. A recor
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8955,7 +8955,7 @@ Malicious individuals will often perform multiple access attempts on targeted sy
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9003,7 +9003,7 @@ Malicious users may attempt to manipulate authentication credentials to bypass t
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9048,7 +9048,7 @@ Turning off or pausing audit logs before performing illicit activities is common
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9091,7 +9091,7 @@ Malicious software, such as malware, often creates or replaces system-level obje
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9140,7 +9140,7 @@ By recording these details for the auditable events at 10.2.1.1 through 10.2.1.7
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9187,7 +9187,7 @@ Adequate protection of the audit logs includes strong access control that limits
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9230,7 +9230,7 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9275,7 +9275,7 @@ Each entity determines the best way to back up log files, whether via one or mor
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9318,7 +9318,7 @@ Software used to monitor changes to audit logs should be configured to provide a
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9376,7 +9376,7 @@ An entity that uses third-party service providers to perform log review services
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9419,7 +9419,7 @@ The entity should keep logging tools aligned with any changes in their environme
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9463,7 +9463,7 @@ Periodic review of logs for all other system components (not specified in Requir
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9508,7 +9508,7 @@ Entities can determine the optimum period to review these logs based on criteria
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9557,7 +9557,7 @@ Entities should consider how to address the following when developing their proc
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9610,7 +9610,7 @@ Methods that allow logs to be immediately available include storing logs online,
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9659,7 +9659,7 @@ Network Time Protocol (NTP) is one example of time-synchronization technology.
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9710,7 +9710,7 @@ Another option to prevent unauthorized use of internal time servers is to encryp
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9757,7 +9757,7 @@ Attackers will try to change time configurations to hide their activity. Therefo
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9816,7 +9816,7 @@ The specific types of failures may vary, depending on the function of the device
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9873,7 +9873,7 @@ The specific types of failures may vary, depending on the function of the device
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9930,7 +9930,7 @@ Documented evidence (for example, records within a problem management system) sh
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9961,7 +9961,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 11](#requirement-11-test-security-of-systems-and-networks-regularly) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES 11.1
@@ -10011,7 +10011,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10058,7 +10058,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10121,7 +10121,7 @@ Methods that may be used include but are not limited to wireless network scans, 
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10164,7 +10164,7 @@ If using a wireless scanner, it is equally important to have a defined list of k
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10228,7 +10228,7 @@ A vulnerability scan is a combination of automated tools, techniques, and/or met
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10277,7 +10277,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10336,7 +10336,7 @@ The credentials used for these scans should be considered highly privileged. The
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10386,7 +10386,7 @@ Entities should perform scans after significant changes as part of the change pr
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10447,7 +10447,7 @@ Multiple scan reports can be combined to show that all systems were scanned and 
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10497,7 +10497,7 @@ Entities should include the need to perform scans after significant changes as p
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10562,7 +10562,7 @@ Industry-accepted penetration testing approaches include:
 *Open Web Application Security Project (OWASP) penetration testing programs*.
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10619,7 +10619,7 @@ Some considerations when choosing a qualified resource to perform penetration te
 Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10676,7 +10676,7 @@ Some considerations when choosing a qualified resource to perform penetration te
 Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10725,7 +10725,7 @@ Any weaknesses that point to PCI DSS requirements not being met should be addres
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10779,7 +10779,7 @@ Techniques such as host discovery and port scanning can be used to verify out-of
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10833,7 +10833,7 @@ Although the requirement specifies that this scope validation is carried out at 
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10884,7 +10884,7 @@ Multi-tenant service providers cannot forbid penetration testing because this wo
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10941,7 +10941,7 @@ Critical locations could include, but are not limited to, network security contr
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10994,7 +10994,7 @@ It is important that organizations maintain up-to-date knowledge of malware mode
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11050,7 +11050,7 @@ Change-detection solutions such as file integrity monitoring (FIM) tools check f
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11130,7 +11130,7 @@ Often, these mechanisms are subscription or cloud-based, but can also be based o
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11170,7 +11170,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 12](#requirement-12-support-information-security-with-organizational-policies-and-programs) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES 12.1
@@ -11230,7 +11230,7 @@ It is important that all relevant personnel within the organization, as well as 
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11275,7 +11275,7 @@ Security threats and associated protection methods evolve rapidly. Without updat
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11322,7 +11322,7 @@ Without clearly defined security roles and responsibilities assigned, there coul
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11367,7 +11367,7 @@ Entities should also consider transition and/or succession plans for these key p
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11421,7 +11421,7 @@ Structuring polices as simple “do” and “do not” requirements that are li
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11482,7 +11482,7 @@ Examples of risk-assessment methodologies for enterprise-wide risk assessments i
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11530,7 +11530,7 @@ See Appendix D: Customized Approach for instructions on how to document the requ
 See Appendix E Sample Templates to Support Customized Approach for templates that entities may use to document their customized controls. Note that while use of the templates is optional, the information specified within each template must be documented and provided to each entity’s assessor.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11577,7 +11577,7 @@ Cryptographic agility is important to ensure an alternative to the original encr
 Refer to *NIST SP 800-131a, Transitioning the Use of Cryptographic Algorithms and Key Lengths*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11626,7 +11626,7 @@ Regular reviews of technologies that impact or influence PCI DSS controls can as
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11679,7 +11679,7 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11731,7 +11731,7 @@ Looking at Requirement 1.2.7 as one example, Requirement 12.4.2 is met by confir
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11777,7 +11777,7 @@ The intent of these independent checks is to confirm whether security activities
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11829,7 +11829,7 @@ Methods to maintain an inventory include as a database, as a series of files, or
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11891,7 +11891,7 @@ A data discovery tool or methodology can be used to facilitate identifying all s
 For additional guidance, refer to *Information Supplement: Guidance for PCI DSS Scoping and Network Segmentation*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11942,7 +11942,7 @@ Validating PCI DSS scope more frequently is likely to discover such overlooked c
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11989,7 +11989,7 @@ Changes to organizational structure include, but are not limited to, company mer
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12036,7 +12036,7 @@ If personnel are not educated about their company’s information security polic
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12081,7 +12081,7 @@ The threat environment and an entity’s defenses are not static. As such, the s
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12140,7 +12140,7 @@ Personnel acknowledgments may be recorded in writing or electronically.
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12191,7 +12191,7 @@ An emphasis on reporting allows the organization to reward positive behavior, to
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12234,7 +12234,7 @@ By including the key points of the acceptable use policy in regular training and
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12285,7 +12285,7 @@ Screening options can include, as appropriate for the entity’s region, previou
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12337,7 +12337,7 @@ Different types of TPSPs include those that:
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12390,7 +12390,7 @@ It is important to understand whether the primary TPSP is relying on the seconda
 Refer to the *“Information Supplement: Third-Party Security Assurance* for further guidance.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12435,7 +12435,7 @@ Specific due-diligence processes and goals will vary for each organization. Elem
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12486,7 +12486,7 @@ For more information about third-party service providers, refer to:
 - *Information Supplement: Third-Party Security Assurance*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12537,7 +12537,7 @@ It is also important for entities to understand whether any TPSPs have “nested
 Refer to *Information Supplement: Third-Party Security Assurance* for a sample responsibility matrix template.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12588,7 +12588,7 @@ The method by which the TPSP provides written acknowledgment should be agreed be
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12641,7 +12641,7 @@ For further guidance, refer to:
 - *Information Supplement: Third-Party Security Assurance* (includes a sample responsibility matrix template).
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12699,7 +12699,7 @@ Legal requirements for reporting compromises include those in most US states, th
 For more information, refer to the *NIST SP 800-61 Rev. 2, Computer Security Incident Handling Guide*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12746,7 +12746,7 @@ The test of the incident response plan can include simulated incidents and the c
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12793,7 +12793,7 @@ Examples of types of activity the team or individuals should respond to include 
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12836,7 +12836,7 @@ It is important that all personnel involved in incident response are trained and
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12882,7 +12882,7 @@ Performing a risk analysis will allow the entity to determine the optimum freque
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12930,7 +12930,7 @@ Responding to alerts generated by security monitoring systems that are explicitl
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12979,7 +12979,7 @@ Another way to optimize an entity’s incident response plan is to understand th
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13030,7 +13030,7 @@ Entities should consider whether there are contributory factors, such as busines
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13052,7 +13052,7 @@ Guidance and applicability information is provided in each section.
 [Appendix A](#appendix-a-additonal-pci-requirements) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13078,7 +13078,7 @@ Note: Even though a multi-tenant service provider may meet these requirements, e
 [Appendix A1](#appendix-a1-additional-pci-dss-requirements-for-multi-tenant-service-providers) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13130,7 +13130,7 @@ Service provider access to customer environments is performed in accordance with
 Refer to the *Information Supplement: PCI SSC Cloud Computing Guidelines* for further guidance on cloud environments.
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13175,7 +13175,7 @@ In a cloud-based infrastructure, such as an infrastructure as a service (IaaS) o
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13218,7 +13218,7 @@ To prevent any inadvertent or intentional impact to other customers’ environme
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13264,7 +13264,7 @@ Effectiveness of separation techniques can be confirmed by using service-provide
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13318,7 +13318,7 @@ However, log information can also be used by an attacker for reconnaissance, and
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13362,7 +13362,7 @@ Prompt and efficient responses to forensic investigators’ requests can signifi
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13411,7 +13411,7 @@ Implementing secure methods for customers to report security incidents and vulne
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13444,7 +13444,7 @@ Requirements in this Appendix are not eligible for the Customized Approach.
 [Appendix A2](#appendix-a2-additional-pci-dss-requirements-for-entities-using-sslearly-tls-for-card--present-pos-poi-terminal-connections) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES A2.1
@@ -13492,7 +13492,7 @@ However, SSL is outdated technology and could be susceptible to additional secur
 Refer to the current PCI SSC Information Supplements on SSL/Early TLS for further guidance.
 
 [Section A2](#sections-a2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13540,7 +13540,7 @@ The Risk Mitigation and Migration Plan is a document prepared by the entity that
 Refer to the current PCI SSC Information Supplements on SSL/early TLS for further guidance on Risk Mitigation and Migration Plans.
 
 [Section A2](#sections-a2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13583,7 +13583,7 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 
 
 [Section A2](#sections-a2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13623,7 +13623,7 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 [Appendix A3](#appendix-a3-designated-entities-supplemental-validation-desv) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13675,7 +13675,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13724,7 +13724,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13772,7 +13772,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13816,7 +13816,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13872,7 +13872,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12.
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13920,7 +13920,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements; Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13964,7 +13964,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements; Requirement 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14008,7 +14008,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14056,7 +14056,7 @@ PCI DSS Reference: Requirement 11
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14103,7 +14103,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14150,7 +14150,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14198,7 +14198,7 @@ A3.2.5.2 Response procedures are implemented to be initiated upon the detection 
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14245,7 +14245,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14291,7 +14291,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14349,7 +14349,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14400,7 +14400,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14444,7 +14444,7 @@ PCI DSS Reference: Requirements 2, 6, 12.
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14494,7 +14494,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14542,7 +14542,7 @@ PCI DSS Reference: Requirement 7
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14593,7 +14593,7 @@ PCI DSS Reference: Requirements 10, 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14620,7 +14620,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14667,7 +14667,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14714,7 +14714,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 ---
@@ -14761,6 +14761,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **1.5.1.b** | Document Examination & Observation           | Configuration settings on the concerned computing devices                                                                                        | 1. Can you show the configuration settings on computing devices that connect to both untrusted networks and the CDE?<br>2. Can you verify that these settings adhere to all the elements outlined in this requirement?                                                              |
 
 [annotations 1](#annotations-requirement-1) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -14799,6 +14802,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **2.3.2**           | Interview and Document Examination   | Interviews with responsible personnel and key-management documentation                         | Can you confirm that wireless encryption keys are changed as specified in this requirement?                                              |
 
 [annotations 2](#annotations-requirement-2) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -14849,6 +14855,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **3.6.1.4**   | Process Observation & Location Examination | Key storage locations and processes                                                                                        | 1. Can you demonstrate that keys are stored in the minimum possible number of locations, as observed through key storage locations and processes?                                                                                                                                   |
 
 [annotations 3](#annotations-requirement-3) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -14872,6 +14881,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **4.2.2.b**         | System Configurations and Vendor Documentation Examination | System configuration documents and vendor documentation showing the securing of PAN with strong cryptography for end-user messaging technologies.               | 1. Can you demonstrate the system configurations that secure PAN during transmission via end-user messaging technologies?<br>2. How do you verify that the cryptography applied is robust and secure?                 |
 
 [annotations 4](#annotations-requirement-4) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -14908,6 +14920,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **5.4.1**           | Process and mechanism observation                          | Observation and mechanisms confirming controls against phishing attacks                                         | 1. Can you demonstrate the controls in place to detect and protect personnel against phishing attacks?                                                          |
 
 [annotations 5](#annotations-requirement-5) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -14955,6 +14970,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 6.5.6.c         | Data and Account Examination                           | Data and account evaluations to confirm the absence of test data or accounts in production systems. | 1. Can you provide evidence that there are no test data or accounts present in the production systems, especially for recently installed or updated software?               |
 
 [annotations 6](#annotations-requirement-6) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -14987,6 +15005,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **7.3.3**                     | Document Examination and System Settings Inspection | Vendor documentation, system settings showcasing the "deny all" default setting                     | 1. Can you show the system settings where the access control system is set to "deny all" by default?<br> 2. How does the organization ensure that the "deny all" default setting is maintained and effectively implemented?                                  |
 
 [annotations 7](#annotations-requirement-7) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -15048,6 +15069,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | **8.6.3.c**         | Personnel Interview & Document Examination | Interviews with responsible personnel and system configuration settings documentation.                 | 1. How are passwords/passphrases protected against misuse as per the specified elements in this requirement?<br>2. Can you provide documentation and setting configurations that demonstrate this?      |
 
 [annotations 8](#annotations-requirement-8) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -15114,6 +15138,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 9.5.1.3.b       | Interview                         | Training records, personnel testimony regarding training received                           | 1. Can you verify that personnel in POI environments have received adequate training and are knowledgeable about the procedures as specified in this sub-requirement?   |
 
 [annotations 9](#annotations-requirement-9) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -15162,6 +15189,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 10.7.3.b        | Records Examination                                                             | - Records showing documentation of security control system failures including identified causes, the duration, and remediation details.                                                                                                 | 1. Could you showcase records where security control system failures were documented with necessary details?<br>2. How is the root cause addressed during these occurrences?  |
 
 [annotations 10](#annotations-requirement-10) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -15223,6 +15253,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 | 11.6.1.d        | Configuration Review, Personnel Interview      | Configuration settings, interviews with personnel responsible for the mechanism, documentation on targeted risk analysis | 1. How often does the change- and tamper-detection mechanism function and how does this frequency align with either the once every seven days standard or the entity's targeted risk analysis? |
 
 [annotations 11](#annotations-requirement-11) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
@@ -15290,6 +15323,9 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 
 [annotations 12](#annotations-requirement-12) | 
+[annotations](#annotations)
+[requirements](#requirements) | 
+[principles](#principles) |
 [top](#pci-dss-v40-annotated)
 
 ---
