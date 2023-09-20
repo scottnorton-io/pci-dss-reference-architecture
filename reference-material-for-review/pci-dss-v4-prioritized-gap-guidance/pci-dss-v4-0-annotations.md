@@ -2,7 +2,7 @@
 
 # TEMPLATE
 [annotations x1](#annotations-requirement-x1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13,6 +13,7 @@
 #### Annotations Requirement x1
 
 # END TEMPLATE
+
 ---
 
 # PCI DSS v4.0 (Annotated)
@@ -104,7 +105,7 @@
 | **1.5.1.b** | Document Examination & Observation           | Configuration settings on the concerned computing devices                                                                                        | 1. Can you show the configuration settings on computing devices that connect to both untrusted networks and the CDE?<br>2. Can you verify that these settings adhere to all the elements outlined in this requirement?                                                              |
 
 [annotations 1](#annotations-requirement-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -143,6 +144,6 @@
 | **2.3.2**           | Interview and Document Examination   | Interviews with responsible personnel and key-management documentation                         | Can you confirm that wireless encryption keys are changed as specified in this requirement?                                              |
 
 [annotations 2](#annotations-requirement-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
