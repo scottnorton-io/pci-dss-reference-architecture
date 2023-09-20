@@ -1,23 +1,4 @@
 
-# TEMPLATE
-
-#### Annotations Requirement x3
-
-[annotations x1](#annotations-requirement-x1) | 
-[top](#pci-dss-v40-annotated)
-
----
-
-## PRINCIPLE PCI DSS REQUIREMENT: xBuild and Maintain a Secure Network and Systems
-
-### Requirement x1: Install and Maintain Network Security Controls
-
-#### Annotations Requirement x1
-
-# END TEMPLATE
-
----
-
 # PCI DSS v4.0 (Annotated)
 
 ## Principles
