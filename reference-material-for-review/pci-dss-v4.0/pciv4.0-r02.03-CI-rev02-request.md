@@ -19,9 +19,7 @@ Here is authoritative PCI DSS v4.0 guidance related to the sub-requirement:
 
 [vvv copy/paste authoritative REQUIREMENT guidance to the section below vvv]
 ---
-
 ### Requirement 2: Apply Secure Configurations to All System Components
-
 #### OVERVIEW
 Malicious individuals, both external and internal to an entity, often use default passwords and other vendor default settings to compromise systems. These passwords and settings are well known and are easily determined via public information.
 
@@ -30,92 +28,105 @@ Applying secure configurations to system components reduces the means available 
 Refer to Appendix G for definitions of PCI DSS terms.
 
 [vvv copy/paste authoritative sub-REQUIREMENT guidance to the section below vvv]
-
 ---
-##### REQUIREMENTS and TESTING PROCEDURES 2.1
 
-2.1	Processes and mechanisms for applying secure configurations to all system components are defined and understood.
+##### REQUIREMENTS and TESTING PROCEDURES 2.3
+
+2.3 Wireless environments are configured and managed securely.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-2.1.1	All security policies and operational procedures that are identified in Requirement 2 are:
-- Documented.
-- Kept up to date.
-- In use.
-- Known to all affected parties.
+2.3.1 For wireless environments connected to the CDE or transmitting account data, all wireless vendor defaults are changed at installation or are confirmed to be secure, including but not limited to:
+- Default wireless encryption keys.
+- Passwords on wireless access points.
+- SNMP defaults.
+- Any other security-related wireless vendor defaults.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-Expectations, controls, and oversight for meeting activities within Requirement 2 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
+Wireless networks cannot be accessed using vendor default passwords or default configurations.
 
 ###### APPLICABILITY NOTES
 
+This includes, but is not limited to, default wireless encryption keys, passwords on wireless access points, SNMP defaults, and any other security-related wireless vendor defaults.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-2.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 2 are managed in accordance with all elements specified in this requirement.
+2.3.1.a Examine policies and procedures and interview responsible personnel to verify that processes are defined for wireless vendor defaults to either change them upon installation or to confirm them to be secure in accordance with all elements of this requirement.
+
+2.3.1.b Examine vendor documentation and observe a system administrator logging into wireless devices to verify:
+- SNMP defaults are not used.
+- Default passwords/passphrases on wireless access points are not used.
+
+2.3.1.c Examine vendor documentation and wireless configuration settings to verify other security-related wireless vendor defaults were changed, if applicable.
 
 ##### GUIDANCE
 
 **Purpose**
 
-Requirement 2.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 2. While it is important to define the specific policies or procedures called out in Requirement 2, it is equally important to ensure they are properly documented, maintained, and disseminated.
+If wireless networks are not implemented with sufficient security configurations (including changing default settings), wireless sniffers can eavesdrop on the traffic, easily capture data and passwords, and easily enter and attack the network.
 
 **Good Practice**
 
-It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle
-
-**Definitions**
-
-Security policies define the entity’s security objectives and principles.
-
-Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
-
-**Examples**
-
-**Further Information**
-
-
----
-
-###### DEFINED APPROACH REQUIREMENTS
-
-2.1.2 Roles and responsibilities for performing activities in Requirement 2 are documented, assigned, and understood.
-
-###### CUSTOMIZED APPROACH OBJECTIVE
-
-Day-to-day responsibilities for performing all the activities in Requirement 2 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
-
-###### APPLICABILITY NOTES
-
-
-###### DEFINED APPROACH TESTING PROCEDURES
-
-2.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned.
-
-2.1.2.b Interview personnel with responsibility for performing activities in Requirement 2 to verify that roles and responsibilities are assigned as documented and are understood.
-
-
-##### GUIDANCE
-
-**Purpose**
-
-If roles and responsibilities are not formally assigned, personnel may not be aware of their day-to-day responsibilities and critical activities may not occur.
-
-**Good Practice**
-
-Roles and responsibilities may be documented within policies and procedures or maintained within separate documents.
-
-As part of communicating roles and responsibilities, entities can consider having personnel acknowledge their acceptance and understanding of their assigned roles and responsibilities.
+Wireless passwords should be constructed so that they are resistant to offline brute force attacks.
 
 **Definitions**
 
 **Examples**
 
-A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
-
 **Further Information**
+
 
 
 [sections 2](#sections-2) | 
 [top](#pci-dss-v40)
+
+---
+
+###### DEFINED APPROACH REQUIREMENTS
+
+2.3.2 For wireless environments connected to the CDE or transmitting account data, wireless encryption keys are changed as follows:
+- Whenever personnel with knowledge of the key leave the company or the role for which the knowledge was necessary.
+- Whenever a key is suspected of or known to be compromised.
+
+###### CUSTOMIZED APPROACH OBJECTIVE
+
+Knowledge of wireless encryption keys cannot allow unauthorized access to wireless networks.
+
+###### APPLICABILITY NOTES
+
+
+
+###### DEFINED APPROACH TESTING PROCEDURES
+
+2.3.2 Interview responsible personnel and examine key-management documentation to verify that wireless encryption keys are changed in accordance with all elements specified in this requirement.
+
+##### GUIDANCE
+
+**Purpose**
+
+Changing wireless encryption keys whenever someone with knowledge of the key leaves the organization or moves to a role that no longer requires knowledge of the key, helps keep knowledge of keys limited to only those with a business need to know.
+
+Also, changing wireless encryption keys whenever a key is suspected or known to be comprised makes a wireless network more resistant to compromise.
+
+**Good Practice**
+
+This goal can be accomplished in multiple ways, including periodic changes of keys, changing keys via a defined “joiners-movers-leavers” (JML) process, implementing additional technical controls, and not using fixed pre-shared keys.
+
+In addition, any keys that are known to be, or suspected of being, compromised should be managed in accordance with the entity’s incident response plan at Requirement 12.10.1.
+
+**Definitions**
+
+
+
+**Examples**
+
+
+
+**Further Information**
+
+
+
+[sections 2](#sections-2) | 
+[top](#pci-dss-v40)
+
