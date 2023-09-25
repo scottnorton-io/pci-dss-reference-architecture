@@ -1,4 +1,6 @@
-# PCI DSS v4.0
+# PCI DSS v4.0 (Annotated)
+
+This annotated reference is based on information sourced from [PCI SSC and the PCI DSS v4.0 Resource Hub](https://blog.pcisecuritystandards.org/pci-dss-v4-0-resource-hub)
 
 ## Principles
 
@@ -32,11 +34,11 @@
 
 [Requirement 1: Install and Maintain Network Security Controls](#requirement-1-install-and-maintain-network-security-controls)
 
-[Requirement 2:	Apply Secure Configurations to All System Components](#requirement-2-apply-secure-configurations-to-all-system-components)
+[Requirement 2: Apply Secure Configurations to All System Components](#requirement-2-apply-secure-configurations-to-all-system-components)
 
-[Requirement 3:	Protect Stored Account Data](#requirement-3-protect-stored-account-data)
+[Requirement 3: Protect Stored Account Data](#requirement-3-protect-stored-account-data)
 
-[Requirement 4:	Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks)
+[Requirement 4: Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks)
 
 [Requirement 5: Protect All Systems and Networks from Malicious Software](#requirement-5-protect-all-systems-and-networks-from-malicious-software)
 
@@ -66,14 +68,39 @@
 
 [Appendix C: Compensating Controls Worksheet]()
 
-[Appendix D Customized Approach]()
+[Appendix D: Customized Approach]()
 
-[Appendix E Sample Templates to Support Customized Approach]()
+[Appendix E: Sample Templates to Support Customized Approach]()
 
-[Appendix F Leveraging the PCI Software Security Framework to Support Requirement 6]()
+[Appendix F: Leveraging the PCI Software Security Framework to Support Requirement 6]()
 
-[Appendix G PCI DSS Glossary of Terms, Abbreviations, and Acronyms]()
+[Appendix G: PCI DSS Glossary of Terms, Abbreviations, and Acronyms]()
 
+### Annotations
+
+[Annotation Requirement 1](#annotations-requirement-1)
+
+[Annotation Requirement 2](#annotations-requirement-2)
+
+[Annotation Requirement 3](#annotations-requirement-3)
+
+[Annotation Requirement 4](#annotations-requirement-4)
+
+[Annotation Requirement 5](#annotations-requirement-5)
+
+[Annotation Requirement 6](#annotations-requirement-6)
+
+[Annotation Requirement 7](#annotations-requirement-7)
+
+[Annotation Requirement 8](#annotations-requirement-8)
+
+[Annotation Requirement 9](#annotations-requirement-9)
+
+[Annotation Requirement 10](#annotations-requirement-10)
+
+[Annotation Requirement 11](#annotations-requirement-11)
+
+[Annotation Requirement 12](#annotations-requirement-12)
 
 ---
 
@@ -110,7 +137,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 1](#requirement-1-install-and-maintain-network-security-controls) | 
 [requirements](#requirements) | 
 [principles](#principles) |
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -191,7 +218,7 @@ As part of communicating roles and responsibilities, entities can consider havin
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -506,7 +533,7 @@ If the secure configuration for a router is stored in non-volatile memory, when 
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -627,7 +654,7 @@ The known (or unknown) implementation and exploitation of wireless technology wi
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 ##### REQUIREMENTS and TESTING PROCEDURES 1.4
@@ -827,7 +854,7 @@ Methods to obscure IP addressing may include, but are not limited to:
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -884,7 +911,7 @@ Practices include forbidding split-tunneling of VPNs for employee-owned or corpo
 
 
 [sections 1](#sections-1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -908,7 +935,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 2](#requirement-2-apply-secure-configurations-to-all-system-components) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ---
@@ -999,7 +1026,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1326,7 +1353,7 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1379,7 +1406,7 @@ Wireless passwords should be constructed so that they are resistant to offline b
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1428,7 +1455,7 @@ In addition, any keys that are known to be, or suspected of being, compromised s
 
 
 [sections 2](#sections-2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1467,7 +1494,7 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 [requirement 3](#requirement-3-protect-stored-account-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1519,7 +1546,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1566,7 +1593,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1635,7 +1662,7 @@ An automated, programmatic procedure could be run to locate and remove data, or 
 See *NIST SP 800-88 Rev. 1, Guidelines for Media Sanitization.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1688,7 +1715,7 @@ The authorization process completes when a merchant receives a transaction respo
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1743,7 +1770,7 @@ Data sources to review to ensure that the full contents of any track are not ret
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1795,7 +1822,7 @@ Data sources to review to ensure that the card verification code is not retained
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1849,7 +1876,7 @@ Data sources to review to ensure that PIN and PIN blocks are not retained upon c
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1903,7 +1930,7 @@ The authorization process is completed as soon as the response to an authorizati
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -1955,7 +1982,7 @@ Legitimate issuing business need means that the data is needed to facilitate the
 Refer to *ISO/DIS 9564-5 Financial services — Personal Identification Number (PIN) management and security — Part 5: Methods for the generation, change, and verification of PINs and card security data using the advanced encryption standard.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2013,7 +2040,7 @@ Masking is not synonymous with truncation and these terms cannot be used interch
 For more information about masking and truncation, see PCI SSC’s FAQs on these topics.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2068,7 +2095,7 @@ Storage devices include, but are not limited to, local hard drives, virtual driv
 Vendor documentation for the remote-access technology in use will provide information about the system settings needed to implement this requirement.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2133,7 +2160,7 @@ Sources for information about index tokens include:
 - *ANSI X9.119-2-2017: Retail Financial Services - Requirements For Protection Of Sensitive Payment Card Data - Part 2: Implementing Post-Authorization Tokenization Systems*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2190,7 +2217,7 @@ Refer to the following for more information about HMAC, CMAC, and GMAC, respecti
 See *NIST SP 800-107 (Revision 1): Recommendation for Applications Using Approved Hash Algorithms §5.3.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2247,7 +2274,7 @@ Disk-level and partition-level encryption typically encrypts the entire disk or 
 Where available, following vendors’ hardening and industry best practice guidelines can assist in securing PAN on these devices.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2295,7 +2322,7 @@ Full disk encryption helps to protect data in the event of physical loss of a di
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2351,7 +2378,7 @@ The entity’s key management procedures will benefit through alignment with ind
 - *NIST SP 800-57 Part 1 Revision 5—Recommendation for Key Management, Part 1: General.*
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2404,7 +2431,7 @@ Having an automated reporting mechanism can assist with maintenance of the crypt
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2459,7 +2486,7 @@ Where data-encrypting keys are stored in an HSM, the HSM interaction channel sho
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2503,7 +2530,7 @@ Ideally this will be a very small number of people.
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2546,7 +2573,7 @@ Storing any cryptographic keys in the fewest locations helps an organization tra
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2596,7 +2623,7 @@ Use of strong cryptographic keys significantly increases the level of security o
 See the sources referenced at "Cryptographic Key Generation in Appendix G.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2640,7 +2667,7 @@ Secure distribution or conveyance of secret or private cryptographic keys means 
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2689,7 +2716,7 @@ Secret or private keys that can decrypt data should never be present in source c
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2736,7 +2763,7 @@ A cryptoperiod is the time span during which a cryptographic key can be used for
 *NIST SP 800-57 Part 1, Revision 5, Section 5.3 Cryptoperiods* - provides guidance for establishing the time span during which a specific key is authorized for use by legitimate entities, or the keys for a given system will remain in effect. See Table 1 of *SP 800-57* Part 1 for suggested cryptoperiods for different key types.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2787,7 +2814,7 @@ The encryption solution should provide for and facilitate a process to replace k
 Industry best practices for archiving retired keys are outlined in *NIST SP 800-57 Part 1, Revision 5, Section 8.3.1*, and includes maintaining the archive with a trusted third party and storing archived key information separately from operational data.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2841,7 +2868,7 @@ Industry standards for managing key components include:
 - *European Payments Council EPC342-08 Guidelines on Cryptographic Algorithms Usage and Key Management* [especially 4.1.4 Key installation].
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2888,7 +2915,7 @@ Controls should include ensuring that individuals with access to key components 
 
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2935,7 +2962,7 @@ Industry guidance for key custodians and their roles and responsibilities includ
 - *ISO 11568-1 Banking -- Key management (retail) -- Part 1*: Principles [5 Principles of key management (especially b)]
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -2978,7 +3005,7 @@ Providing guidance to customers on how to securely transmit, store, and update c
 Numerous industry standards for key management are cited above in the Guidance for Requirements 3.7.1-3.7.8.
 
 [sections 3](#sections-3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3009,7 +3036,7 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 [requirement 4](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 4.1
 
@@ -3058,7 +3085,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3104,7 +3131,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3182,7 +3209,7 @@ For more information about strong cryptography and secure protocols, see industr
 For more information about trusted keys and certificates, see *NIST Cybersecurity Practice Guide Special Publication 1800-16, Securing Web Transactions: Transport Layer Security (TLS) Server Certificate Management.*
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3227,7 +3254,7 @@ For certificates, the inventory should include the issuing CA and certification 
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3272,7 +3299,7 @@ Wireless networks should not permit fallback or downgrade to an insecure protoco
 Review the vendor’s specific documentation for more details on the choice of protocols, configurations, and settings related to cryptography.
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3319,7 +3346,7 @@ E-mail, instant messaging, SMS, and chat are examples of the type of end-user me
 
 
 [sections 4](#sections-4) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3349,7 +3376,7 @@ Using anti-malware solutions that address all types of malware helps to protect 
 [requirement 5](#requirement-5-protect-all-systems-and-networks-from-malicious-software) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 5.1
 
@@ -3398,7 +3425,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3444,7 +3471,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3493,7 +3520,7 @@ System components known to be affected by malware have active malware exploits a
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3542,7 +3569,7 @@ Types of malware include, but are not limited to, viruses, Trojans, worms, spywa
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3598,7 +3625,7 @@ Trends in malware should be included in the identification of new security vulne
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3643,7 +3670,7 @@ Entities determine the optimum period to undertake the evaluation based on crite
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3697,7 +3724,7 @@ Updates may be automatically downloaded to a central location—for example, to 
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3749,7 +3776,7 @@ Active, or real-time, scanning checks files for malware upon any attempt to open
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3796,7 +3823,7 @@ Entities can determine the optimum period to undertake periodic scans based on t
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3846,7 +3873,7 @@ Portable media devices are often overlooked as an entry method for malware. Atta
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3889,7 +3916,7 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3934,7 +3961,7 @@ Additional security measures that may need to be implemented for the period duri
 
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -3996,7 +4023,7 @@ See the following for more information about phishing:
 *US Cybersecurity & Infrastructure Security Agency - Report Phishing Sites.*
 
 [sections 5](#sections-5) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4030,7 +4057,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 6](#requirement-6-develop-and-maintain-secure-systems-and-software) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 6.1
 
@@ -4079,7 +4106,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4126,7 +4153,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4179,7 +4206,7 @@ Secure software lifecycle management methodologies and frameworks include PCI So
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4231,7 +4258,7 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4290,7 +4317,7 @@ The following items should be considered for inclusion in code reviews:
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4347,7 +4374,7 @@ Entitles that rely solely on manual code review should ensure that reviewers mai
 See the OWASP Code Review Guide.
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4402,7 +4429,7 @@ Techniques include automated processes and practices that scan code early in the
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4466,7 +4493,7 @@ For bespoke and custom software, the organization may obtain information about l
 For control over in-house developed software, the organization may receive such information from external sources. The organization can consider using a “bug bounty” program where it posts information (for example, on its website) so third parties can contact the organization with vulnerability information. External sources may include independent investigators or companies that report to the organization about identified vulnerabilities and may include sources such as the Common Vulnerability Scoring System (CVSS) or the OWASP Risk Rating Methodology.
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4515,7 +4542,7 @@ There are many different types of solutions that can help with managing software
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4564,7 +4591,7 @@ An entity’s patching cadence should factor in any re-evaluation of vulnerabili
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4638,7 +4665,7 @@ Another example of an automated technical solution is Runtime Application Self-P
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4687,7 +4714,7 @@ A web application firewall (WAF), which can be either on-premise or cloud-based,
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4748,7 +4775,7 @@ The integrity of scripts can be enforced by several different mechanisms includi
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4808,7 +4835,7 @@ For each change, it is important to have documented procedures that address any 
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4857,7 +4884,7 @@ Applicable PCI DSS requirements that could be impacted include, but are not limi
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4904,7 +4931,7 @@ Pre-production environments include development, testing, user acceptance testin
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -4953,7 +4980,7 @@ Separating roles and functions, also referred to as separation or segregation of
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5002,7 +5029,7 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5049,7 +5076,7 @@ This data may give away information about the functioning of an application or s
 
 
 [sections 6](#sections-6) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5083,7 +5110,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 7](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES 7.1
@@ -5133,7 +5160,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5180,7 +5207,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5239,7 +5266,7 @@ Access control models that entities can consider include role-based access contr
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5293,7 +5320,7 @@ Entities may wish to consider use of Privileged Access Management (PAM), which i
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5346,7 +5373,7 @@ Documented approval (for example, in writing or electronically) assures that tho
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5401,7 +5428,7 @@ Entities can consider implementing a regular, repeatable process for conducting 
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5452,7 +5479,7 @@ Entities may want to consider establishing a baseline when setting up these appl
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5503,7 +5530,7 @@ Regular review of access rights helps to detect excessive access rights remainin
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5552,7 +5579,7 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5600,7 +5627,7 @@ Without a mechanism to restrict access based on user’s need to know, a user ma
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5643,7 +5670,7 @@ Restricting privileged access with an access control system reduces the opportun
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5686,7 +5713,7 @@ It is important to check the default configuration of access control systems bec
 
 
 [sections 7](#sections-7) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5736,7 +5763,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 8](#requirement-8-identify-users-and-authenticate-access-to-system-components) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ---
@@ -5788,7 +5815,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5835,7 +5862,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5886,7 +5913,7 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5945,7 +5972,7 @@ An example of an exceptional circumstance is where all other authentication meth
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -5996,7 +6023,7 @@ Technologies such as multi-factor mechanisms that provide a unique credential fo
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6043,7 +6070,7 @@ Attackers often compromise an existing account and then escalate the privileges 
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6088,7 +6115,7 @@ If an employee or third party/vendor has left the company and still has access t
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6131,7 +6158,7 @@ Where it may be reasonably anticipated that an account will not be used for an e
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6177,7 +6204,7 @@ Monitoring third-party access helps ensure that third parties are accessing only
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6228,7 +6255,7 @@ One way to meet this requirement is to configure an automated screensaver to lau
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6284,7 +6311,7 @@ A common approach for a malicious individual to compromise a system is to exploi
 See *fidoalliance.org* for more information about using tokens, smart cards, or biometrics as authentication factors.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6331,7 +6358,7 @@ Network devices and applications have been known to transmit unencrypted, readab
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6376,7 +6403,7 @@ Methods to verify a user’s identity include a secret question/answer, knowledg
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6425,7 +6452,7 @@ Before reactivating a locked account, the user’s identity should be confirmed.
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6470,7 +6497,7 @@ If the same password/passphrase is used for every new user, an internal user, fo
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6523,7 +6550,7 @@ Another option for increasing the resistance of passwords to guessing attacks is
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6568,7 +6595,7 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6623,7 +6650,7 @@ Alternatively, entities can implement processes to confirm passwords meet passwo
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6679,7 +6706,7 @@ Dynamically analyzing an account’s security posture is another option that all
 For information about using dynamic analysis to manage user access to resources, see *NIST SP 800-207 Zero Trust Architecture*.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6728,7 +6755,7 @@ Passwords/passphrases that are valid for a long time without a change provide ma
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6788,7 +6815,7 @@ Dynamically analyzing an account’s security posture is another option that all
 For information about using dynamic analysis to manage user access to resources, refer to *NIST SP 800-207 Zero Trust Architecture*.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6837,7 +6864,7 @@ Having physical and/or logical controls (for example, a PIN, biometric data, or 
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6888,7 +6915,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6941,7 +6968,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -6992,7 +7019,7 @@ Multi-factor authentication (MFA) requires an individual to present a minimum of
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7055,7 +7082,7 @@ PCI SSC’s *Information Supplement: Multi-Factor Authentication*
 PCI SSC’s Frequently Asked Questions (FAQs) on this topic.
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7111,7 +7138,7 @@ Interactive login is the ability for a person to log into a system or applicatio
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7159,7 +7186,7 @@ Tools can facilitate both management and security of authentication factors for 
 
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7221,7 +7248,7 @@ Best practices are to consider password changes at least once a year, a password
 For information about variability and equivalency of password strength for passwords/passphrases of different formats, see the industry standards (for example, the current version of *NIST SP 800-63 Digital Identity Guidelines*).
 
 [sections 8](#sections-8) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7255,7 +7282,7 @@ Refer to Appendix G for definitions of “media,” “personnel,” “sensitiv
 [requirement 9](#requirement-9-restrict-physical-access-to-cardholder-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7308,7 +7335,7 @@ Policies and procedures, including updates, are actively communicated to all aff
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7357,7 +7384,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7404,7 +7431,7 @@ Facility entry controls include physical security controls at each computer room
 
 
 [sections 8](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7459,7 +7486,7 @@ Criminals attempting to gain physical access to sensitive areas will often try t
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7502,7 +7529,7 @@ Methods to meet this requirement include network jacks located in public areas a
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7547,7 +7574,7 @@ Additionally, securing networking and communications hardware prevents malicious
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7590,7 +7617,7 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7645,7 +7672,7 @@ One way to identify personnel is to assign them badges.
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7697,7 +7724,7 @@ Where possible, organizations should have policies and procedures to ensure that
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7754,7 +7781,7 @@ Visitor controls ensure visitors are identifiable as visitors so personnel can m
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7797,7 +7824,7 @@ Ensuring that visitor badges are returned or deactivated upon expiry or completi
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7851,7 +7878,7 @@ When logging the date and time of visit, including both in and out times is cons
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7898,7 +7925,7 @@ Controls for physically securing media are intended to prevent unauthorized pers
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7943,7 +7970,7 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -7988,7 +8015,7 @@ Conducting regular reviews of the storage facility enables the organization to a
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8033,7 +8060,7 @@ It is important that media be identified such that its classification status is 
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8083,7 +8110,7 @@ Media may be lost or stolen if sent via a non-trackable method such as regular p
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8128,7 +8155,7 @@ Without a firm process for ensuring that all media movements are approved before
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8173,7 +8200,7 @@ Without careful inventory methods and storage controls, stolen or missing electr
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8218,7 +8245,7 @@ Without careful inventory methods and storage controls, stolen or missing electr
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8269,7 +8296,7 @@ Consider “to-be-shredded” containers with a lock that prevents access to its
 See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8316,7 +8343,7 @@ Methods for securely destroying electronic media include secure wiping in accord
 See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8372,7 +8399,7 @@ They will also try to add “skimming” components to the outside of devices, w
 Additional best practices on skimming prevention are available on the PCI SSC website.
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8422,7 +8449,7 @@ Methods to maintain device locations include identifying the address of the site
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8475,7 +8502,7 @@ Signs that a device might have been tampered with or substituted include:
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8520,7 +8547,7 @@ The frequency of inspections will depend on factors such as the location of a de
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8573,7 +8600,7 @@ Ensuring personnel are aware of mechanisms for reporting suspicious behavior and
 
 
 [sections 9](#sections-9) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 ---
@@ -8611,7 +8638,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 10](#requirement-10-log-and-monitor-all-access-to-system-components-and-cardholder-data) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 10.1
 
@@ -8660,7 +8687,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8707,7 +8734,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8756,7 +8783,7 @@ When an entity considers which information to record in their logs, it is import
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8799,7 +8826,7 @@ A record of all individual access to cardholder data can identify which accounts
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8842,7 +8869,7 @@ Accounts with administrative access are those assigned with specific privileges 
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8885,7 +8912,7 @@ Malicious users often attempt to alter audit logs to hide their actions. A recor
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8928,7 +8955,7 @@ Malicious individuals will often perform multiple access attempts on targeted sy
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -8976,7 +9003,7 @@ Malicious users may attempt to manipulate authentication credentials to bypass t
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9021,7 +9048,7 @@ Turning off or pausing audit logs before performing illicit activities is common
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9064,7 +9091,7 @@ Malicious software, such as malware, often creates or replaces system-level obje
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9113,7 +9140,7 @@ By recording these details for the auditable events at 10.2.1.1 through 10.2.1.7
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9160,7 +9187,7 @@ Adequate protection of the audit logs includes strong access control that limits
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9203,7 +9230,7 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9248,7 +9275,7 @@ Each entity determines the best way to back up log files, whether via one or mor
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9291,7 +9318,7 @@ Software used to monitor changes to audit logs should be configured to provide a
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9349,7 +9376,7 @@ An entity that uses third-party service providers to perform log review services
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9392,7 +9419,7 @@ The entity should keep logging tools aligned with any changes in their environme
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9436,7 +9463,7 @@ Periodic review of logs for all other system components (not specified in Requir
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9481,7 +9508,7 @@ Entities can determine the optimum period to review these logs based on criteria
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9530,7 +9557,7 @@ Entities should consider how to address the following when developing their proc
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9583,7 +9610,7 @@ Methods that allow logs to be immediately available include storing logs online,
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9632,7 +9659,7 @@ Network Time Protocol (NTP) is one example of time-synchronization technology.
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9683,7 +9710,7 @@ Another option to prevent unauthorized use of internal time servers is to encryp
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9730,7 +9757,7 @@ Attackers will try to change time configurations to hide their activity. Therefo
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9789,7 +9816,7 @@ The specific types of failures may vary, depending on the function of the device
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9846,7 +9873,7 @@ The specific types of failures may vary, depending on the function of the device
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9903,7 +9930,7 @@ Documented evidence (for example, records within a problem management system) sh
 
 
 [sections 10](#sections-10) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -9934,7 +9961,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 11](#requirement-11-test-security-of-systems-and-networks-regularly) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES 11.1
@@ -9984,7 +10011,7 @@ Security policies define the entity’s security objectives and principles. Oper
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10031,7 +10058,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10094,7 +10121,7 @@ Methods that may be used include but are not limited to wireless network scans, 
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10137,7 +10164,7 @@ If using a wireless scanner, it is equally important to have a defined list of k
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10201,7 +10228,7 @@ A vulnerability scan is a combination of automated tools, techniques, and/or met
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10250,7 +10277,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10309,7 +10336,7 @@ The credentials used for these scans should be considered highly privileged. The
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10359,7 +10386,7 @@ Entities should perform scans after significant changes as part of the change pr
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10420,7 +10447,7 @@ Multiple scan reports can be combined to show that all systems were scanned and 
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10470,7 +10497,7 @@ Entities should include the need to perform scans after significant changes as p
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10535,7 +10562,7 @@ Industry-accepted penetration testing approaches include:
 *Open Web Application Security Project (OWASP) penetration testing programs*.
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10592,7 +10619,7 @@ Some considerations when choosing a qualified resource to perform penetration te
 Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10649,7 +10676,7 @@ Some considerations when choosing a qualified resource to perform penetration te
 Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10698,7 +10725,7 @@ Any weaknesses that point to PCI DSS requirements not being met should be addres
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10752,7 +10779,7 @@ Techniques such as host discovery and port scanning can be used to verify out-of
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10806,7 +10833,7 @@ Although the requirement specifies that this scope validation is carried out at 
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10857,7 +10884,7 @@ Multi-tenant service providers cannot forbid penetration testing because this wo
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10914,7 +10941,7 @@ Critical locations could include, but are not limited to, network security contr
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -10967,7 +10994,7 @@ It is important that organizations maintain up-to-date knowledge of malware mode
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11023,7 +11050,7 @@ Change-detection solutions such as file integrity monitoring (FIM) tools check f
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11103,7 +11130,7 @@ Often, these mechanisms are subscription or cloud-based, but can also be based o
 
 
 [sections 11](#sections-11) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11143,7 +11170,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 [requirement 12](#requirement-12-support-information-security-with-organizational-policies-and-programs) | 
 [requirements](#requirements) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES 12.1
@@ -11203,7 +11230,7 @@ It is important that all relevant personnel within the organization, as well as 
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11248,7 +11275,7 @@ Security threats and associated protection methods evolve rapidly. Without updat
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11295,7 +11322,7 @@ Without clearly defined security roles and responsibilities assigned, there coul
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11340,7 +11367,7 @@ Entities should also consider transition and/or succession plans for these key p
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11394,7 +11421,7 @@ Structuring polices as simple “do” and “do not” requirements that are li
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11455,7 +11482,7 @@ Examples of risk-assessment methodologies for enterprise-wide risk assessments i
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11503,7 +11530,7 @@ See Appendix D: Customized Approach for instructions on how to document the requ
 See Appendix E Sample Templates to Support Customized Approach for templates that entities may use to document their customized controls. Note that while use of the templates is optional, the information specified within each template must be documented and provided to each entity’s assessor.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11550,7 +11577,7 @@ Cryptographic agility is important to ensure an alternative to the original encr
 Refer to *NIST SP 800-131a, Transitioning the Use of Cryptographic Algorithms and Key Lengths*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11599,7 +11626,7 @@ Regular reviews of technologies that impact or influence PCI DSS controls can as
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11652,7 +11679,7 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11704,7 +11731,7 @@ Looking at Requirement 1.2.7 as one example, Requirement 12.4.2 is met by confir
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11750,7 +11777,7 @@ The intent of these independent checks is to confirm whether security activities
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11802,7 +11829,7 @@ Methods to maintain an inventory include as a database, as a series of files, or
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11864,7 +11891,7 @@ A data discovery tool or methodology can be used to facilitate identifying all s
 For additional guidance, refer to *Information Supplement: Guidance for PCI DSS Scoping and Network Segmentation*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11915,7 +11942,7 @@ Validating PCI DSS scope more frequently is likely to discover such overlooked c
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -11962,7 +11989,7 @@ Changes to organizational structure include, but are not limited to, company mer
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12009,7 +12036,7 @@ If personnel are not educated about their company’s information security polic
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12054,7 +12081,7 @@ The threat environment and an entity’s defenses are not static. As such, the s
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12113,7 +12140,7 @@ Personnel acknowledgments may be recorded in writing or electronically.
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12164,7 +12191,7 @@ An emphasis on reporting allows the organization to reward positive behavior, to
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12207,7 +12234,7 @@ By including the key points of the acceptable use policy in regular training and
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12258,7 +12285,7 @@ Screening options can include, as appropriate for the entity’s region, previou
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12310,7 +12337,7 @@ Different types of TPSPs include those that:
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12363,7 +12390,7 @@ It is important to understand whether the primary TPSP is relying on the seconda
 Refer to the *“Information Supplement: Third-Party Security Assurance* for further guidance.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12408,7 +12435,7 @@ Specific due-diligence processes and goals will vary for each organization. Elem
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12459,7 +12486,7 @@ For more information about third-party service providers, refer to:
 - *Information Supplement: Third-Party Security Assurance*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12510,7 +12537,7 @@ It is also important for entities to understand whether any TPSPs have “nested
 Refer to *Information Supplement: Third-Party Security Assurance* for a sample responsibility matrix template.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12561,7 +12588,7 @@ The method by which the TPSP provides written acknowledgment should be agreed be
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12614,7 +12641,7 @@ For further guidance, refer to:
 - *Information Supplement: Third-Party Security Assurance* (includes a sample responsibility matrix template).
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12672,7 +12699,7 @@ Legal requirements for reporting compromises include those in most US states, th
 For more information, refer to the *NIST SP 800-61 Rev. 2, Computer Security Incident Handling Guide*.
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12719,7 +12746,7 @@ The test of the incident response plan can include simulated incidents and the c
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12766,7 +12793,7 @@ Examples of types of activity the team or individuals should respond to include 
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12809,7 +12836,7 @@ It is important that all personnel involved in incident response are trained and
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12855,7 +12882,7 @@ Performing a risk analysis will allow the entity to determine the optimum freque
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12903,7 +12930,7 @@ Responding to alerts generated by security monitoring systems that are explicitl
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -12952,7 +12979,7 @@ Another way to optimize an entity’s incident response plan is to understand th
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13003,7 +13030,7 @@ Entities should consider whether there are contributory factors, such as busines
 
 
 [sections 12](#sections-12) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13025,7 +13052,7 @@ Guidance and applicability information is provided in each section.
 [Appendix A](#appendix-a-additonal-pci-requirements) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13051,7 +13078,7 @@ Note: Even though a multi-tenant service provider may meet these requirements, e
 [Appendix A1](#appendix-a1-additional-pci-dss-requirements-for-multi-tenant-service-providers) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13103,7 +13130,7 @@ Service provider access to customer environments is performed in accordance with
 Refer to the *Information Supplement: PCI SSC Cloud Computing Guidelines* for further guidance on cloud environments.
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13148,7 +13175,7 @@ In a cloud-based infrastructure, such as an infrastructure as a service (IaaS) o
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13191,7 +13218,7 @@ To prevent any inadvertent or intentional impact to other customers’ environme
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13237,7 +13264,7 @@ Effectiveness of separation techniques can be confirmed by using service-provide
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13291,7 +13318,7 @@ However, log information can also be used by an attacker for reconnaissance, and
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13335,7 +13362,7 @@ Prompt and efficient responses to forensic investigators’ requests can signifi
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13384,7 +13411,7 @@ Implementing secure methods for customers to report security incidents and vulne
 
 
 [Section A1](#sections-a1) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13417,7 +13444,7 @@ Requirements in this Appendix are not eligible for the Customized Approach.
 [Appendix A2](#appendix-a2-additional-pci-dss-requirements-for-entities-using-sslearly-tls-for-card--present-pos-poi-terminal-connections) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 
 ##### REQUIREMENTS and TESTING PROCEDURES A2.1
@@ -13465,7 +13492,7 @@ However, SSL is outdated technology and could be susceptible to additional secur
 Refer to the current PCI SSC Information Supplements on SSL/Early TLS for further guidance.
 
 [Section A2](#sections-a2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13513,7 +13540,7 @@ The Risk Mitigation and Migration Plan is a document prepared by the entity that
 Refer to the current PCI SSC Information Supplements on SSL/early TLS for further guidance on Risk Mitigation and Migration Plans.
 
 [Section A2](#sections-a2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13556,7 +13583,7 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 
 
 [Section A2](#sections-a2) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13596,7 +13623,7 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 [Appendix A3](#appendix-a3-designated-entities-supplemental-validation-desv) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13648,7 +13675,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13697,7 +13724,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13745,7 +13772,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13789,7 +13816,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13845,7 +13872,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12.
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13893,7 +13920,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements; Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13937,7 +13964,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements; Requirement 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -13981,7 +14008,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14029,7 +14056,7 @@ PCI DSS Reference: Requirement 11
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14076,7 +14103,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14123,7 +14150,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14171,7 +14198,7 @@ A3.2.5.2 Response procedures are implemented to be initiated upon the detection 
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14218,7 +14245,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14264,7 +14291,7 @@ PCI DSS Reference: Requirement 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14322,7 +14349,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14373,7 +14400,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14417,7 +14444,7 @@ PCI DSS Reference: Requirements 2, 6, 12.
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14467,7 +14494,7 @@ PCI DSS Reference: Requirements 1-12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14515,7 +14542,7 @@ PCI DSS Reference: Requirement 7
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14566,7 +14593,7 @@ PCI DSS Reference: Requirements 10, 12
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14593,7 +14620,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 [appendices](#appendices) | 
 [principles](#principles) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14640,7 +14667,7 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
 ---
 
@@ -14687,5 +14714,618 @@ To maintain compliance, processes and controls must be in place to ensure compen
 
 
 [Section A3](#sections-a3) | 
-[top](#pci-dss-v40)
+[top](#pci-dss-v40-annotated)
 
+---
+---
+
+#### Annotations Requirement 1
+
+
+| Sub-Requirement   | Type of Interview/Observation                | Documentation & Evidence Expected                                                                                                                | QSA Questions                                                                                                                                                                                                                                                                          |
+| ----------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1.1.1**   | Document Examination and Personnel Interview | Security policies and operational procedures documentation pertaining to Requirement 1.                                                          | 1. Can you provide the documents outlining the security policies and operational procedures as mentioned in Requirement 1?<br>2. Can you explain how these policies and procedures are managed and followed in accordance with the specified elements in this requirement?         |
+| **1.1.2.a** | Document Examination                         | Documentation describing the roles and responsibilities for performing activities as specified in Requirement 1.                                 | 1. Can you provide the document that details the roles and responsibilities assigned for activities in Requirement 1?<br>2. How are these roles and responsibilities communicated within the organization?                                                                         |
+| **1.1.2.b** | Personnel Interview                          | Evidence of understanding of assigned roles and responsibilities by relevant personnel; it may include training records or meeting minutes.      | 1. Can you explain your role and responsibilities regarding activities in Requirement 1?<br>2. How were these roles and responsibilities communicated to you?<br>3. Can you provide examples of how you fulfill these responsibilities in your role?                              |
+| **1.2.1.a** | Document Examination                         | Configuration standards documentation for NSC rulesets.                                                                                          | 1. Can you provide the documentation that showcases the configuration standards for NSC rulesets in line with this requirement?                                                                                                                                                        |
+| **1.2.1.b** | Document Examination                         | Documentation or system screenshots showing NSC ruleset configurations.                                                                          | 1. Can you demonstrate that the NSC rulesets are configured according to the documented standards?                                                                                                                                                                                     |
+| **1.2.2.a** | Document Examination                         | Documented procedures for changes in network connections and NSC configurations, aligned with Requirement 6.5.1.                                 | 1. Can you present the documented procedures that govern changes to network connections and NSC configurations?                                                                                                                                                                        |
+| **1.2.2.b** | Document Examination and Personnel Interview | Change control records and evidence of approval for network connection changes.                                                                  | 1. Can you provide records of approved and managed changes to network connections as per Requirement 6.5.1?                                                                                                                                                                            |
+| **1.2.2.c** | Document Examination and Personnel Interview | Change control records and evidence of approval for changes in NSC configurations.                                                               | 1. Can you provide records of approved and managed changes to NSC configurations in accordance with Requirement 6.5.1?                                                                                                                                                                 |
+| **1.2.3.a** | Document Examination                         | Current network diagrams and network configuration documentation.                                                                                | 1. Can you provide the network diagrams that are in accordance with the elements specified in this requirement?                                                                                                                                                                        |
+| **1.2.3.b** | Document Examination and Personnel Interview | Documentation of network diagram updates and evidence of regular review by responsible personnel.                                                | 1. Can you demonstrate that the network diagrams are accurate and updated with changes in the environment?                                                                                                                                                                             |
+| **1.2.4.a** | Document Examination and Personnel Interview | Current data-flow diagrams showcasing all account data flows.                                                                                    | 1. Can you present the data-flow diagrams which illustrate all account data flows as per this requirement?                                                                                                                                                                             |
+| **1.2.4.b** | Document Examination and Personnel Interview | Documentation of data-flow diagram updates and evidence of regular review by responsible personnel.                                              | 1. Can you demonstrate that the data-flow diagrams are accurate and updated with environmental changes?                                                                                                                                                                                |
+| **1.2.5.a** | Document Examination                         | Documentation listing all approved services, protocols, and ports with corresponding business justifications.                                    | 1. Can you present a document that lists all approved services, protocols, and ports, including the business justification for each?                                                                                                                                                   |
+| **1.2.5.b** | Document Examination                         | NSC configuration settings verifying the use of only approved services, protocols, and ports.                                                    | 1. Can you demonstrate that only approved services, protocols, and ports are in use as per the configurations?                                                                                                                                                                         |
+| **1.2.6.a** | Document Examination                         | Documentation identifying all insecure services, protocols, and ports in use with defined security features to mitigate risk.                    | 1. Can you present documentation that identifies all insecure services, protocols, and ports and the defined security features for each?                                                                                                                                               |
+| **1.2.6.b** | Document Examination                         | NSC configuration settings demonstrating the implementation of defined security features for identified insecure services, protocols, and ports. | 1. Can you demonstrate that the defined security features have been implemented for each identified insecure service, protocol, and port?                                                                                                                                              |
+| **1.2.7.a** | Document Examination                         | Documentation defining procedures for semi-annual reviews of NSC configurations.                                                                 | 1. Can you provide documentation that outlines procedures for reviewing NSC configurations at least every six months?                                                                                                                                                                  |
+| **1.2.7.b** | Document Examination and Personnel Interview | Documentation of reviews and interviews corroborating semi-annual reviews of NSC configurations.                                                 | 1. Can you demonstrate that reviews of NSC configurations have occurred at least every six months through documented evidence?                                                                                                                                                         |
+|                   | Document Examination**1.2.7.c**        | NSC configurations demonstrating the removal or update of configurations not supported by business justification.                                | 1. Can you provide evidence of configurations that were removed or updated due to lack of business justification?                                                                                                                                                                      |
+| **1.2.8**   | Document Examination                         | Configuration files of NSCs that comply with this requirement.                                                                                   | 1. Can you present NSC configuration files that are in accordance with all the elements specified in this requirement?                                                                                                                                                                 |
+| **1.3.1.a** | Document Examination & Interview             | NSC configuration standards documentation                                                                                                        | 1. Can you demonstrate how the configuration standards restrict inbound traffic to the CDE as specified in this requirement?                                                                                                                                                           |
+| **1.3.1.b** | Document Examination & Observation           | NSC configurations settings and logs                                                                                                             | 1. Can you provide evidence that the NSC configurations effectively restrict inbound traffic to the CDE in line with the specified standards?                                                                                                                                          |
+| **1.3.2.a** | Document Examination & Interview             | NSC configuration standards documentation                                                                                                        | 1. Can you elucidate how the configuration standards restrict outbound traffic from the CDE as outlined in this requirement?                                                                                                                                                           |
+| **1.3.2.b** | Document Examination & Observation           | NSC configurations settings and logs                                                                                                             | 1. Can you provide evidence that the NSC configurations restrict outbound traffic from the CDE according to the specified standards?                                                                                                                                                   |
+| **1.3.3**   | Document Examination & Interview             | NSC configuration settings and network diagrams                                                                                                  | 1. Can you show how NSCs are implemented between all wireless networks and the CDE, and demonstrate compliance with the specific elements mentioned in this requirement?                                                                                                               |
+| **1.4.1.a** | Document Examination & Interview             | NSC configuration standards and network diagrams                                                                                                 | 1. Can you provide the configuration standards and network diagrams that outline the defined NSCs between trusted and untrusted networks?                                                                                                                                              |
+| **1.4.1.b** | Document Examination & Observation           | Network configurations and NSC documentation                                                                                                     | 1. Can you showcase how the NSCs are implemented between trusted and untrusted networks as per the documented configuration standards and network diagrams?                                                                                                                            |
+| **1.4.2**   | Document Examination & Observation           | Vendor documentation and NSC configurations                                                                                                      | 1. Can you demonstrate how inbound traffic from untrusted networks to trusted networks is restricted as detailed in this requirement?                                                                                                                                                  |
+| **1.4.3**   | Document Examination & Observation           | Vendor documentation and NSC configurations                                                                                                      | 1. Can you elucidate on the anti-spoofing measures in place to detect and block forged source IP addresses from entering the trusted network?                                                                                                                                          |
+| **1.4.4.a** | Document Examination                         | Data-flow diagram and network diagram                                                                                                            | 1. Can you verify from the data-flow and network diagrams that components storing cardholder data are not directly accessible from untrusted networks?                                                                                                                                 |
+| **1.4.4.b** | Document Examination & Observation           | NSC configurations                                                                                                                               | 1. Can you show the NSC configurations that ensure components storing cardholder data are not directly accessible from untrusted networks?                                                                                                                                             |
+| **1.4.5.a** | Document Examination & Observation           | NSC configurations                                                                                                                               | 1. Can you illustrate how the NSC configurations restrict the disclosure of internal IP addresses and routing information to only authorized parties?                                                                                                                                  |
+| **1.4.5.b** | Interview & Document Examination             | Personnel interviews and policy documentation                                                                                                    | 1. Can you confirm the measures in place that restrict the disclosure of internal IP addresses and routing information to authorized parties only?                                                                                                                                     |
+| **1.5.1.a** | Document Examination & Interview             | Policies, configuration standards, and personnel interviews                                                                                      | 1. Can you provide the policies and configuration standards that govern the security controls for computing devices connecting to both untrusted networks and the CDE?<br>2. Can you discuss how these controls are implemented in line with the stipulations of this requirement? |
+| **1.5.1.b** | Document Examination & Observation           | Configuration settings on the concerned computing devices                                                                                        | 1. Can you show the configuration settings on computing devices that connect to both untrusted networks and the CDE?<br>2. Can you verify that these settings adhere to all the elements outlined in this requirement?                                                              |
+
+[annotations 1](#annotations-requirement-1) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 2
+
+
+| Sub-Requirement | Type of Interview/Observation      | Documentation & Evidence Expected                                                                                | QSA Questions                                                                                                                                                                                                                                                                                                                                                      |
+| --------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **2.1.1**           | Interview and document examination | Security policies and operational procedures documentation relating to Requirement 2                             | 1. Can you provide the documentation that outlines the security policies and operational procedures identified in Requirement 2?<br>2. How are these policies and procedures managed and maintained in accordance with the elements specified in this requirement?<br>3. Can you demonstrate how these policies are communicated and adhered to within the organization? |
+| **2.1.2.a**         | Document examination               | Documented descriptions of roles and responsibilities for performing activities in Requirement 2                 | 1. Can you provide the documentation that delineates the roles and responsibilities for activities outlined in Requirement 2?<br>2. Are the descriptions of roles and responsibilities comprehensive and clear?<br>3. How are changes to roles and responsibilities documented and communicated?                                                                         |
+| **2.1.2.b**         | Interview                          | Evidence of assignment and understanding of roles and responsibilities pertaining to activities in Requirement 2 | 1. Can you articulate your roles and responsibilities as they pertain to Requirement 2?<br>2. How were you informed of your roles and responsibilities?<br>3. Can you demonstrate an understanding of the actions to be taken in line with your roles and responsibilities?                                                                                              |
+| **2.2.1.a**         | Document Examination                 | System configuration standards documents                                                                                                               | Can you show the system configuration standards and how they encompass all elements mentioned in this requirement?                       |
+| **2.2.1.b**         | Document Examination and Interview   | Policies, procedures, and evidence of updates regarding vulnerability issues                                                                           | How are the system configuration standards updated when new vulnerabilities are identified as per Requirement 6.3.1?                     |
+| **2.2.1.c**         | Document Examination and Interview   | Evidence of configuration settings being applied during the configuration of new systems                                                               | Can you demonstrate that the system configuration standards are applied and verified when configuring new systems?                       |
+| **2.2.2.a**         | Document Examination                 | System configuration standards highlighting the management of vendor default accounts                                                                  | How do your system configuration standards guide the management of vendor default accounts as per this requirement?                      |
+| **2.2.2.b**         | Document Examination and Observation | Vendor documentation and observation of login process utilizing vendor default accounts                                                                | Can you demonstrate how vendor default accounts are implemented in accordance with this requirement?                                     |
+| **2.2.2.c**         | Document Examination and Interview   | Configuration files and evidence of the removal or disabling of unused vendor default accounts                                                         | Can you confirm that all unused vendor default accounts are either removed or disabled?                                                  |
+| **2.2.3.a**         | Document Examination                 | System configuration standards emphasizing the management of primary functions with varying security levels                                            | How do the system configuration standards ensure the management of primary functions with differing security levels?                     |
+| **2.2.3.b**         | Document Examination                 | System configurations showing the management of primary functions with differing security levels                                                       | Can you show how primary functions with different security levels are managed according to this requirement?                             |
+| **2.2.3.c**         | Document Examination                 | System configurations in cases where virtualization technologies are used                                                                              | How are functions with differing security levels managed on the same system component where virtualization technologies are used?        |
+| **2.2.4.a**         | Document Examination                 | Documentation identifying and detailing necessary system services, protocols, and daemons                                                              | How are necessary system services, protocols, and daemons documented in your system configuration standards?                             |
+| **2.2.4.b**         | Document Examination                 | System configurations showing the removal or disabling of unnecessary functionalities                                                                  | Can you demonstrate that all unnecessary functionalities are removed or disabled and only required functionalities are enabled?          |
+| **2.2.5.a**         | Document Examination and Interview   | System configuration standards and personnel knowledge about the management of insecure services, protocols, or daemons                                | How are insecure services, protocols, or daemons managed and implemented according to this requirement?                                  |
+| **2.2.5.b**         | Document Examination                 | Configuration settings showcasing additional security features implemented to mitigate risks associated with insecure services, protocols, or daemons  | Can you display the security features in place to mitigate the risk of using insecure services, protocols, and daemons?                  |
+| **2.2.6.a**         | Document Examination                 | System configuration standards outlining the prevention of misuse through security parameters                                                          | How do the system configuration standards guide the setting up of system security parameters to prevent misuse?                          |
+| **2.2.6.b**         | Interview                            | Knowledge of system administrators/security managers regarding common security parameter settings                                                      | Can the system administrators/security managers explain the common security parameter settings for the system components?                |
+| **2.2.6.c**         | Document Examination                 | Evidence of appropriate setup of common security parameters in system configurations                                                                   | Can you demonstrate that common security parameters are set appropriately according to the system configuration standards?               |
+| **2.2.7.a**         | Document Examination                 | System configuration standards ensuring the encryption of non-console administrative access                                                            | How do your system configuration standards facilitate the encryption of all non-console administrative access using strong cryptography? |
+| **2.2.7.b**         | Observation and Document Examination | Observation of administrator login process and system configurations emphasizing secure non-console administrative access management                   | Can you demonstrate that non-console administrative access is managed according to this requirement?                                     |
+| **2.2.7.c**         | Document Examination                 | Settings of system components and authentication services highlighting the unavailability of insecure remote login services                            | Can you confirm that insecure remote login services are not available for non-console administrative access?                             |
+| **2.2.7.d**         | Document Examination and Interview   | Vendor documentation and personnel knowledge regarding the implementation of strong cryptography as per industry best practices/vendor recommendations | Can you verify that strong cryptography is implemented according to industry best practices or vendor recommendations?                   |
+| **2.3.1.a**         | Document Examination and Interview   | Policies, procedures and interviews with responsible personnel                                 | Can you outline the processes defined for changing or securing wireless vendor defaults upon installation in line with this requirement? |
+| **2.3.1.b**         | Document Examination and Observation | Vendor documentation and observation of system administrator login process to wireless devices | Can you demonstrate that SNMP defaults and default passwords/passphrases on wireless access points are not used?                         |
+| **2.3.1.c**         | Document Examination                 | Vendor documentation and wireless configuration settings                                       | Can you show any changes made to security-related wireless vendor defaults, if applicable?                                               |
+| **2.3.2**           | Interview and Document Examination   | Interviews with responsible personnel and key-management documentation                         | Can you confirm that wireless encryption keys are changed as specified in this requirement?                                              |
+
+[annotations 2](#annotations-requirement-2) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 3
+
+
+| Sub-Requirement     | Type of Interview/Observation              | Documentation & Evidence Expected                                                                                          | QSA Questions                                                                                                                                                                                                                                                                       |
+| ------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **3.1.1**     | Document Examination/Interview             | Security policies and operational procedures documented in Requirement 3                                                   | 1. Can you demonstrate how the security policies are managed and maintained?<br>2. Have these policies been communicated and understood by the relevant personnel?                                                                                                              |
+| **3.1.2.a**   | Document Examination                       | Documentation detailing the descriptions of roles and responsibilities pertaining to activities mentioned in Requirement 3 | 1. Can you show me the documentation where the roles and responsibilities are outlined for activities mentioned in Requirement 3?<br>2. Have the roles been assigned according to this documentation?                                                                           |
+| **3.1.2.b**   | Interview                                  | Confirmation from personnel regarding their roles and responsibilities                                                     | 1. Can you explain your role and responsibilities in performing the activities detailed in Requirement 3?<br>2. Are these responsibilities well-understood and implemented accordingly?                                                                                         |
+| **3.2.1.a**   | Document Examination and Interview         | Data retention and disposal policies, procedures, and processes                                                            | 1. Can you explain the processes defined in the data retention and disposal policies? Are all elements specified in this requirement included?<br>2. How are these policies communicated to the relevant personnel and how do you ensure adherence?                             |
+| **3.2.1.b**   | Document Examination                       | Files and system records on system components where account data is stored                                                 | 1. Can you demonstrate that the data storage amount and retention time are in compliance with the defined data retention policy?                                                                                                                                                    |
+|                     |                                            | Data retention policy                                                                                                      | 1. How is the data storage monitored to ensure compliance with the data retention policy?                                                                                                                                                                                           |
+| **3.2.1.c**   | Observation                                | Mechanisms used to render account data unrecoverable                                                                       | 1. Can you show the mechanisms in place to ensure account data cannot be recovered once it has been deleted? Are there any controls in place to verify the efficiency of these mechanisms?                                                                                          |
+| **3.3.1.a**   | Document Examination                       | Documented policies, procedures, and system configurations                                                                 | 1. Can you provide the documented policies and system configurations that ensure SAD is not retained post-authorization?<br>2. How do you ensure compliance with these policies and configurations?                                                                             |
+| **3.3.1.b**   | Document Examination/Observation           | Documented procedures and observations of secure data deletion processes                                                   | 1. Can you demonstrate the secure data deletion processes in place to render SAD unrecoverable after authorization?<br>2. How are these processes monitored and validated?                                                                                                      |
+| **3.3.1.1**   | Document Examination                       | Data sources                                                                                                               | 1. Can you verify that no full track data contents are stored post-authorization?<br>2. How is this verified and monitored on a regular basis?                                                                                                                                  |
+| **3.3.1.2**   | Document Examination                       | Data sources                                                                                                               | 1. Can you verify that card verification codes are not stored after the authorization process?<br>2. How do you ensure compliance with this requirement?                                                                                                                        |
+| **3.3.1.3**   | Document Examination                       | Data sources                                                                                                               | 1. Can you demonstrate that PINs and PIN blocks are not stored upon the completion of the authorization process?<br>2. How is the non-storage of this data monitored and ensured?                                                                                               |
+| **3.3.2**     | Document Examination                       | Data stores, system configurations, and/or vendor documentation                                                            | 1. Can you demonstrate that all stored SAD is encrypted using strong cryptography before the completion of authorization?<br>2. How is the strength of the cryptography verified?                                                                                               |
+| **3.3.3.a**   | Document Examination/Interview             | Documented policies and interviews with personnel                                                                          | 1. Is there documented business justification for storing sensitive authentication data? Can personnel explain these justifications?<br>2. How is the necessity for data storage periodically reviewed?                                                                         |
+| **3.3.3.b**   | Document Examination                       | Data stores and system configurations                                                                                      | 1. Can you showcase how sensitive authentication data is stored securely?<br>2. What measures are in place to ensure the security of stored data, especially concerning sensitive authentication data?                                                                          |
+| **3.4.1.a**   | Document Examination                       | Policies and procedures for masking the display of PANs                                                                    | 1. Can you show the documented list of roles with access to more than the BIN and last four digits of the PAN, along with the legitimate business reasons?<br>2. Are there clear policies in place that detail the masking of PAN when displayed?                               |
+| **3.4.1.b**   | System Configuration Examination           | System configurations                                                                                                      | 1. Can you provide evidence that system configurations only allow the display of full PAN for roles with a documented business need?<br>2. How are these configurations monitored and maintained?                                                                               |
+| **3.4.1.c**   | Display Examination                        | Displays of PAN (on screen, on paper receipts)                                                                             | 1. Can you demonstrate that PANs are appropriately masked on displays and only accessible by those with a legitimate business need?<br>2. What measures are in place to ensure this masking is enforced across various display mediums?                                         |
+| **3.4.2.a**   | Document Examination                       | Policies, procedures, and evidence for technical controls regarding remote-access technologies                             | 1. Can you show the documented policies and procedures that prevent unauthorized personnel from copying and/or relocating PAN?<br>2. Can you provide the list of personnel authorized to copy and/or relocate PAN, along with the documented authorizations and business needs? |
+| **3.4.2.b**   | System Configuration Examination           | Configurations for remote-access technologies                                                                              | 1. Can you demonstrate the technical controls in place to prevent the unauthorized copying and/or relocating of PAN via remote-access technologies?<br>2. How are these controls monitored and maintained?                                                                      |
+| **3.4.2.c**   | Observation and Interview                  | Observations of processes and interviews with personnel                                                                    | 1. Can you show that only personnel with documented authorization and a legitimate business need are permitted to copy and/or relocate PAN using remote-access technologies?<br>2. How is compliance with this requirement monitored and enforced?                              |
+| **3.5.1.a**   | Document Examination                       | Documentation about the system rendering PAN unreadable including vendor, type, and encryption algorithms (if applicable)  | 1. Can you provide the documentation detailing the system used to render PAN unreadable, including details on the vendor, type of system/process, and encryption algorithms used?                                                                                                   |
+| **3.5.1.b**   | Data and Logs Examination                  | Data repositories and audit logs including payment application logs                                                        | 1. Can you show that PAN is rendered unreadable in data repositories and audit logs, in accordance with the specified methods in this requirement?                                                                                                                                  |
+| **3.5.1.c**   | Control Examination                        | Implemented controls over hashed and truncated versions of PAN                                                             | 1. Can you demonstrate that controls are in place to prevent the correlation of hashed and truncated versions of PAN to reconstruct the original PAN?                                                                                                                               |
+| **3.5.1.1.a** | Document Examination                       | Documentation on the hashing method, including vendor, type of system/process, and encryption algorithms (if applicable)   | 1. Can you provide documentation detailing the hashing method used for rendering PAN unreadable, including information on the vendor, system/process, and any encryption algorithms?                                                                                                |
+| **3.5.1.1.b** | Document Examination                       | Documentation on key management procedures and processes related to cryptographic hashes                                   | 1. Can you show that key management processes and procedures are in compliance with Requirements 3.6 and 3.7, especially in relation to cryptographic hashes?                                                                                                                       |
+| **3.5.1.1.c** | Data Repository Examination                | Data repositories                                                                                                          | 1. Can you demonstrate that PAN data in repositories is rendered unreadable as mandated?                                                                                                                                                                                            |
+| **3.5.1.1.d** | Logs Examination                           | Audit logs including payment application logs                                                                              | 1. Can you confirm that the audit logs, including those in payment applications, show evidence of PAN being rendered unreadable?                                                                                                                                                    |
+| **3.5.1.2.a** | Encryption Process Examination             | Encryption processes documentation for disk-level or partition-level encryption                                            | Can you verify that the encryption processes in place comply with the stipulations outlined in sub-requirement 3.5.1.2.a for rendering PAN unreadable?                                                                                                                              |
+| **3.5.1.2.b** | Configuration and Process Observation      | Configuration documentation and/or vendor documentation and observation of encryption processes                            | 1. Can you demonstrate that the system configurations align with vendor documentation and effectively render disks or partitions unreadable?                                                                                                                                        |
+| **3.5.1.3.a** | System Configuration and Observation       | System configuration documentation and observation of the authentication process                                           | 1. Can you verify that logical access, as outlined in this requirement, is correctly implemented when disk-level or partition-level encryption is used?                                                                                                                             |
+| **3.5.1.3.b** | File Examination and Personnel Interview   | Files containing authentication factors and interviews with relevant personnel                                             | 1. Can you ensure that authentication factors granting access to unencrypted data are stored securely and independently from the OS's authentication and access control methods?                                                                                                    |
+| **3.6.1**     | Document Examination                       | Documented key-management policies and procedures                                                                          | 1. Can you provide the documented policies and procedures that detail the protection processes for cryptographic keys used to safeguard stored account data?                                                                                                                        |
+| **3.6.1.1**   | Personnel Interview & Document Examination | Documentation describing the cryptographic architecture (for service providers)                                            | 1. Can you present a document that describes the cryptographic architecture, including all the elements specified in this requirement? (Service provider assessments only)                                                                                                          |
+| **3.6.1.2.a** | Document Examination                       | Documented procedures on forms of cryptographic keys                                                                       | 1. Can you show the documented procedures that define the allowable forms of cryptographic keys used to encrypt/decrypt stored account data?                                                                                                                                        |
+| **3.6.1.2.b** | System Configuration Examination           | System configurations and key storage locations                                                                            | 1. Can you demonstrate that cryptographic keys used to encrypt/decrypt stored account data exist only in the forms specified in this requirement, as verified by system configurations and key storage locations?                                                                   |
+| **3.6.1.2.c** | System Configuration Examination           | System configurations and key storage locations for key-encrypting keys                                                    | 1. Can you confirm that:<br>The key-encrypting keys are at least as strong as the data-encrypting keys they protect?<br>Key-encrypting keys are stored separately from data-encrypting keys?                                                                                |
+| **3.6.1.3**   | User Access List Examination               | User access lists                                                                                                          | 1. Can you provide user access lists that show restricted access to cleartext cryptographic key components, limited to the fewest number of custodians necessary?                                                                                                                   |
+| **3.6.1.4**   | Process Observation & Location Examination | Key storage locations and processes                                                                                        | 1. Can you demonstrate that keys are stored in the minimum possible number of locations, as observed through key storage locations and processes?                                                                                                                                   |
+
+[annotations 3](#annotations-requirement-3) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 4
+
+
+| Sub-Requirement | Type of Interview/Observation                | Documentation & Evidence Expected                                                                                                                                                      | QSA Questions                                                                                                                                                                                                                                                                                                   |
+| --------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **4.1.1**           | Document Examination and Personnel Interview | - Security policies pertaining to Requirement 4.<br> - Operational procedures identified in Requirement 4.                                                                         | 1. Can you provide the security policies identified for Requirement 4?<br>2. How are these operational procedures managed and maintained? <br>3. How often are these policies and procedures reviewed and up**dated?                                                                                       |
+| **4.1.2.a**         | Document Examination                         | - Descriptions of roles and responsibilities for activities under Requirement 4.<br> - Documents assigning these roles and responsibilities.                                       |1. Can you present the documentation where the roles and responsibilities for Requirement 4 are defined?<br>2. Are these roles and responsibilities clearly assigned to specific personnel or teams? <br>3. How is the alignment with these documented responsibilities verified?                        |
+| **4.1.2.b**        | Personnel Interview                          | - Records of personnel being assigned specific roles and responsibilities as per Requirement 4.<br> - Evidence of understanding these roles and responsibilities by the personnel. |1. Can you elaborate on the roles and responsibilities assigned to you as part of Requirement 4?<br>2. How were you informed or trained about your roles and responsibilities?<br>3. Can you demonstrate a situation where you had to perform activities as per your assigned role under Requirement 4? |
+| **4.2.1.a**         | Document Examination and Personnel Interview               | - Documented policies and procedures specifying processes under this requirement.<br> - Records of interviews with personnel responsible for these processes. | 1. Can you show the documented processes as per this requirement?<br>2. How are personnel made aware of these processes? <br>3. Can you illustrate how these processes are implemented in practice?               |
+| **4.2.1.b**         | System Configurations Examination                          | System configuration documents showing implementation of strong cryptography and security protocols.                                                            | 1. Can you provide evidence of the implemented strong cryptography and security protocols?<br>2. How are these configurations maintained and updated to ensure data security?                                         |
+| **4.2.1.c**         | Cardholder Data Transmission Examination                   | Records of cardholder data transmissions showing the encryption of PAN using strong cryptography.                                                               | 1. Can you demonstrate how PAN is encrypted during transmission over open, public networks?<br>2. How do you ensure the encryption method used is strong and up-to-date?                                              |
+| **4.2.1.d**         | System Configurations Examination                          | System configuration documents showing the rejection of unverified keys/certificates.                                                                           | 1. Can you show how the system rejects keys or certificates that cannot be verified as trusted?<br>2. What mechanisms are in place to maintain trust with utilized keys and certificates?                             |
+| **4.2.1.1.a**       | Document Examination                                       | Documented policies and procedures on maintaining an inventory of trusted keys and certificates.                                                                | 1. Can you provide the documented policies and procedures for maintaining an inventory of trusted keys and certificates?<br>2. How is the inventory maintained and updated?                                           |
+| **4.2.1.1.b**       | Inventory Examination                                      | The latest inventory of trusted keys and certificates.                                                                                                          | 1. Can you show the current inventory of trusted keys and certificates?<br>2. How frequently is this inventory updated?                                                                                               |
+| **4.2.1.2**         | System Configurations Examination                          | System configuration documents illustrating the use of strong cryptography for wireless network authentication and transmission.                                | 1. Can you demonstrate the implementation of industry best practices for strong cryptography in wireless networks?<br>2. How do you ensure that the wireless networks connected to the CDE adhere to these standards? |
+| **4.2.2.a**         | Document Examination                                       | Documented policies and procedures outlining the processes to secure PAN with strong cryptography for end-user messaging technologies.                          | 1. Can you provide the policies and procedures for securing PAN sent over end-user messaging technologies?<br>2. How are these processes implemented and maintained?                                                  |
+| **4.2.2.b**         | System Configurations and Vendor Documentation Examination | System configuration documents and vendor documentation showing the securing of PAN with strong cryptography for end-user messaging technologies.               | 1. Can you demonstrate the system configurations that secure PAN during transmission via end-user messaging technologies?<br>2. How do you verify that the cryptography applied is robust and secure?                 |
+
+[annotations 4](#annotations-requirement-4) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 5
+
+
+| Sub-Requirement | Type of Interview/Observation                     | Documentation & Evidence Expected                                                                        | QSA Questions                                                                                                                                                   |
+| ------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **5.1.1**           | Documentation examination and personnel interview | Security policies and operational procedures identified in Requirement 5                                 | 1. Can you provide the security policies that align with Requirement 5?<br>2. Can you explain how these policies are managed in accordance with the stipulated elements? |
+| **5.1.2.a**        | Documentation examination                         | Descriptions of roles and responsibilities documented and assigned for Requirement 5 activities          | 1. Can you showcase the documented descriptions of roles and responsibilities for Requirement 5?<br>2. How are these roles assigned and documented?                      |
+| **5.1.2.b**        | Personnel interview                               | Confirmation that roles and responsibilities are understood and assigned as documented for Requirement 5 | 1. Can you explain your role and responsibilities concerning Requirement 5?<br>2. How do you ensure these responsibilities are understood and followed?                  |
+| **5.2.1.a**         | System components examination                              | Evidence of anti-malware solution deployed on all applicable system components                                  | 1. Can you demonstrate how the anti-malware solution is deployed on all system components and how it has been assessed for risk according to Requirement 5.2.3? |
+| **5.2.1.b**         | Periodic evaluations documentation examination             | Records of periodic evaluations indicating components not at risk from malware                                  | 1. Can you provide the periodic evaluations where it was determined that certain system components are not at risk from malware?                                |
+| **5.2.2**           | Vendor documentation and configurations examination        | Vendor documentation and configurations showcasing malware detection, removal, blocking or containment features | 1. Can you showcase how the anti-malware solution detects, removes, blocks or contains all known types of malware as per vendor documentation?                  |
+| **5.2.3.a**         | Policies and procedures documentation examination          | Documented policies and procedures for periodic evaluations                                                     | 1. Can you provide the documented policies and procedures for conducting periodic evaluations as specified in this requirement?                                 |
+| **5.2.3.b**         | Personnel interview                                        | Testimonies confirming adherence to defined evaluation procedures                                               | 1. Can you explain the process followed during periodic evaluations and confirm that all specified elements are included?                                       |
+| **5.2.3.c**         | System components list examination                         | A matching list of system components from requirements 5.2.1 and 5.2.3                                          | 1. Can you verify that the system components identified as not at risk match with those listed under Requirement 5.2.1?                                         |
+| **5.2.3.1.a**       | Risk analysis documentation examination                    | Targeted risk analysis documents in line with Requirement 12.3.1                                                | 1. Can you provide the targeted risk analysis performed in accordance with Requirement 12.3.1 for evaluating system components?                                 |
+| **5.2.3.1.b**       | Periodic evaluations documentation and personnel interview | Documented results of periodic evaluations and interview confirmations                                          | 1. Can you confirm the frequency of the periodic evaluations as defined in the targeted risk analysis, and present the documented results?                      |
+| **5.3.1.a**         | Anti-malware configurations examination                    | Configurations showing automatic updates setup                                                                  | 1. Can you show the configurations of the anti-malware solutions indicating the setup for automatic updates?                                                    |
+| **5.3.1.b**         | System components and logs examination                     | Logs indicating current and promptly deployed anti-malware definitions                                          | 1. Can you provide the logs that confirm the anti-malware solutions and definitions are up to date and deployed promptly?                                       |
+| **5.3.2.a**         | Anti-malware configurations examination                    | Configuration details indicating fulfillment of at least one specified element                                  | 1. Can you showcase the anti-malware solutions configurations meeting at least one of the specified elements in this requirement?                               |
+| **5.3.2.b**         | System components examination                              | Evidence that solution is enabled in line with at least one specified element for operating systems at risk     | 1. Can you confirm that the solution is enabled and configured in accordance with the specified elements for systems at risk of malware?                        |
+| **5.3.2.c**         | Logs and scan results examination                          | Logs and scan results confirming the solution's enablement as per specified elements                            | 1. Can you provide the logs and scan results that verify the anti-malware solution is enabled as per the specified requirements?                                |
+| **5.3.2.1.a**       | Risk analysis documentation examination                    | Targeted risk analysis documents as per Requirement 12.3.1                                                      | 1. Can you showcase the targeted risk analysis done for determining the frequency of malware scans in line with Requirement 12.3.1?                             |
+| **5.3.2.1.b**       | Documentation and personnel interview                      | Documented results of periodic malware scans and interview confirmations                                        | 1. Can you present the documented results of periodic malware scans and confirm the frequency defined in the targeted risk analysis?                            |
+| **5.3.3.a**         | Anti-malware configurations examination                    | Configurations showcasing protections for removable electronic media                                            | 1. Can you demonstrate how the anti-malware solution is configured to protect removable electronic media as specified in this requirement?                      |
+| **5.3.3.b**         | System components examination                              | Evidence of solution enablement on systems with connected removable electronic media                            | 1. Can you verify that the solution is enabled on system components with connected removable electronic media as specified in this requirement?                 |
+| **5.3.3.c**         | Logs and scan results examination                          | Logs and scan results demonstrating solution's effectiveness on removable electronic media                      | 1. Can you provide logs and scan results that confirm the anti-malware solution's enablement and effectiveness on removable electronic media?                   |
+| **5.3.4**           | Anti-malware configurations examination                    | Configurations indicating log enablement and retention as per Requirement 10.5.1                                | 1. Can you show that the anti-malware solution configurations enable and retain logs as mandated by Requirement 10.5.1?                                         |
+| **5.3.5.a**         | Anti-malware configurations examination                    | Configurations indicating restrictions on altering or disabling anti-malware mechanisms                         | 1. Can you verify that the anti-malware mechanisms cannot be altered or disabled by users through the configuration settings?                                   |
+| **5.3.5.b**         | Personnel interview and process observation                | Documented and authorized requests for temporary disabling or alteration of anti-malware mechanisms             | 1. Can you confirm that any requests to alter or disable anti-malware mechanisms are documented and authorized by management?<br>How is this process managed?      |
+| **5.4.1**           | Process and mechanism observation                          | Observation and mechanisms confirming controls against phishing attacks                                         | 1. Can you demonstrate the controls in place to detect and protect personnel against phishing attacks?                                                          |
+
+[annotations 5](#annotations-requirement-5) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 6
+
+| Sub-Requirement | Type of Interview/Observation                | Documentation & Evidence Expected                                                                                                    | QSA Questions                                                                                                                                                                                                                                                                           |
+| --------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|** 6.1.1**           | Document Examination and Personnel Interview | - Security policies and operational procedures concerning Requirement 6<br>- Evidence of policy management & compliance tracking | 1. Can you provide the documentation that details the security policies and operational procedures as mentioned in Requirement 6?<br>2. How are these policies managed and tracked within the organization? <br>3. How is compliance with these policies ensured and monitored? |
+| **6.1.2.a**         | Document Examination                         | - Descriptions of roles and responsibilities regarding activities in Requirement 6<br>- Assignment of roles and responsibilities | 1. Can you provide documentation that outlines the roles and responsibilities assigned for performing activities related to Requirement 6?<br>2. How are these roles and responsibilities communicated within the organization?                                                     |
+| **6.1.2.b**         | Personnel Interview                          | - Evidence of understanding roles and responsibilities among assigned personnel<br>- Training and awareness materials            | 1. Can you describe your role and responsibilities concerning Requirement 6?<br>2. How were you informed or trained about your responsibilities?<br>3. How do you ensure that the roles and responsibilities are effectively executed as documented?                            |
+| **6.2.1**           | Document Examination                         | Documented software development procedures which encompass all elements stated in the requirement                                          | 1. Can you provide the documented procedures for software development that align with the stipulations of this requirement?                                                          |
+| **6.2.2.a**         | Document Examination                         | Software development procedures defining training processes for personnel involved in developing bespoke and custom software               | 1. Can you show the documented processes defined for training software development personnel in developing custom software?                                                          |
+| **6.2.2.b**         | Document Examination and Personnel Interview | Training records indicating the coverage of relevant software security training, aligned with job functions and development languages      | 1. Can you showcase the training records for personnel involved in bespoke and custom software development?<br>2. How is the relevance of the training to job functions ensured? |
+| **6.2.3.a**         | Document Examination and Personnel Interview | Documented software development procedures highlighting processes for reviewing bespoke and custom software                                | 1. Can you illustrate the defined processes for reviewing custom software as documented in your development procedures?                                                              |
+| **6.2.3.b**         | Document Examination                         | Evidence of changes to bespoke and custom software being reviewed as per the stipulated requirements                                       | 1. Could you present evidence demonstrating the review process of code changes in accordance with the specified requirement?                                                         |
+| **6.2.3.1.a**       | Document Examination and Personnel Interview | Documented software development procedures and interviews substantiating the definition of processes for manual code reviews               | 1. Can you describe the processes defined for conducting manual code reviews before releasing the software to production?                                                            |
+| **6.2.3.1.b**       | Document Examination and Personnel Interview | Evidence of manual code reviews being conducted as defined, and personnel testimonials to verify the process                               | 1. Can you show evidence of manual code reviews conducted for bespoke and custom software?<br>2. Can personnel verify adherence to these procedures?                             |
+| **6.2.4**           | Document Examination and Personnel Interview | Documented procedures and testimonials from software development personnel, verifying the use of defined methods to counter common attacks | 1. Can you demonstrate the procedures and techniques implemented to prevent or mitigate common software attacks in custom software development?                                      |
+| **6.3.1.a**         | Document Examination                         | Policies and procedures documents detailing the processes for identifying and managing security vulnerabilities as per the stipulations of this requirement                                                                | 1. Can you provide the existing policies and procedures that delineate the process of identifying and managing security vulnerabilities in line with the directives of this requirement?                |
+| **6.3.1.b**         | Personnel Interview and Process Observation  | Interviews and observation records verifying the management of security vulnerabilities as detailed in the defined processes                                                                                               | 1. Could you elucidate how the processes are followed to identify and manage security vulnerabilities as specified?<br>2. Can you show documentation to substantiate adherence to these processes?  |
+| **6.3.2.a**         | Document Examination and Personnel Interview | Documentation showcasing an inventory of bespoke and custom software along with third-party components incorporated into them, and interviews verifying the usage of this inventory to identify and manage vulnerabilities | 1. Can you present the maintained inventory of custom and third-party software components?<br>2. How is this inventory utilized to identify and address vulnerabilities?                            |
+| **6.3.2.b**         | Document Examination                         | Software documentation corroborating the inclusion of bespoke and custom software and third-party components in the inventory                                                                                              | 1. Could you show the documentation for bespoke and custom software and how it aligns with the inventory?<br>2. How is the inventory updated with third-party software components data?             |
+| **6.3.3.a**         | Document Examination                         | Policies and procedures specifying the processes for addressing vulnerabilities through the installation of pertinent security patches/updates                                                                             | 1. Can you delineate the defined processes for addressing vulnerabilities by installing relevant security patches or updates as mentioned in this requirement?                                          |
+| **6.3.3.b**         | Document Examination and System Observation  | List of installed security patches/updates on system components and corresponding documentation confirming compliance with the recent security patch/update information                                                    | 1. Can you present the current list of installed security patches or updates?<br>2. How do you ensure that the installations are up-to-date with the most recent security patch/update information? |
+| **6.4.1**           | Document Examination, Personnel Interview, Record Examination           | 1. Documented processes relating to vulnerability security assessment tools or methods.<br>2. Records of application security assessments. <br>3. System configuration settings and audit logs.           | 1. Can you walk me through the processes documented for security assessment of public-facing web applications?<br>2. How are identified vulnerabilities managed and rectified?                             |
+|                 | OR                                                                      |                                                                                                                                                                                                                   |                                                                                                                                                                                                                |
+|                 | System Configuration Examination, Audit Log Review, Personnel Interview | 1. System configuration settings validating the installation of automated technical solutions.<br>2. Audit logs indicating the operation of the solution. <br>3. Interviews confirming the setup.         | 1. Can you show the system configurations that validate the installation of automated technical solutions?<br>2. How does the solution detect and prevent web-based attacks continuously?                  |
+| 6.4.2           | System Configuration Examination, Audit Log Review, Personnel Interview | 1. System configuration settings for the deployed automated solution.<br>2. Audit logs demonstrating the detection and prevention of web-based attacks. <br>3. Interviews with the responsible personnel. | 1. Can you provide an overview of the automated solution in place for detecting and preventing web-based attacks?<br>2. How are the system configuration settings configured to facilitate this?           |
+| 6.4.3.a         | Document Examination                                                    | Policies and procedures outlining the management of payment page scripts.                                                                                                                                         | 1. Could you present the policies and procedures that govern the management of payment page scripts?<br>2. How are these scripts managed in line with the stipulations of this requirement?                |
+| 6.4.3.b         | Personnel Interview, Record Examination, System Configuration Review    | 1. Interviews verifying the management of payment page scripts.<br>2. Inventory records and system configurations that document the management of payment page scripts.                                       | 1. Can you elucidate how payment page scripts are managed as per the defined processes?<br>2. Could you show the inventory records and system configurations pertaining to payment page script management? |
+| 6.5.1.a         | Document Examination                                   | Change control procedures documentation.                                                            | 1. Can you provide the documented procedures for change controls pertaining to all system components in the production environment?                                         |
+| 6.5.1.b         | Document Examination and Trace Analysis                | Recent changes documentation and related change control documentation.                              | 1. Can you showcase how recent changes have been documented and how they align with the established change control procedures?                                              |
+| 6.5.2           | Document Examination, Personnel Interview, Observation | Documentation for significant changes and interviews with relevant personnel.                       | 1. How do you ensure that PCI DSS requirements are upheld during system or network changes?<br>2. Can you provide documentation supporting this?                                  |
+| 6.5.3.a         | Document Examination                                   | Policies and procedures governing pre-production and production environment separation.             | 1. Can you detail the policies and procedures that dictate the separation of pre-production and production environments?                                                    |
+| 6.5.3.b         | Document and Configuration Examination                 | Network documentation and configurations of network security controls.                              | 1. How do you ensure that the network configuration enforces the separation between pre-production and production environments?<br>2. Can you provide the relevant documentation? |
+| 6.5.3.c         | Configuration Examination                              | Access control settings documentation.                                                              | 1. Can you showcase the access control settings that enforce separation between the pre-production and production environments?                                             |
+| 6.5.4.a         | Document Examination                                   | Policies and procedures for role and function separation during change deployment.                  | 1. What policies and procedures are in place to separate roles and functions during the deployment of changes?                                                              |
+| 6.5.4.b         | Process Observation, Personnel Interview               | Observations of the process and interviews confirming role separation during deployment.            | 1. How are the roles and functions separated in practice during change deployment?<br>2. Can you provide examples or demonstrations?                                              |
+| 6.5.5.a         | Document Examination                                   | Policies and procedures concerning the use of live PANs in pre-production environments.             | 1. What measures are defined to prevent the use of live PANs in pre-production environments, except for stipulated exceptions?                                              |
+| 6.5.5.b         | Process Observation, Personnel Interview               | Observations and interviews validating the non-use of live PANs in pre-production environments.     | 1. How do you ensure that live PANs are not used in pre-production environments, except where specified?<br>2. Can you provide evidence or examples?                              |
+| 6.5.5.c         | Data Examination                                       | Examination of pre-production test data to confirm the non-use of live PANs.                        | 1. Can you showcase the pre-production test data to confirm that live PANs are not utilized, except where specified?                                                        |
+| 6.5.6.a         | Document Examination                                   | Policies and procedures for the removal of test data and accounts before production deployment.     | 1. What procedures are in place for the removal of test data and accounts before systems move into production?                                                              |
+| 6.5.6.b         | Process Observation, Personnel Interview               | Observations and interviews confirming the removal of test data and accounts before production.     | 1. Can you demonstrate the process of removing test data and accounts before transitioning systems to production?                                                           |
+| 6.5.6.c         | Data and Account Examination                           | Data and account evaluations to confirm the absence of test data or accounts in production systems. | 1. Can you provide evidence that there are no test data or accounts present in the production systems, especially for recently installed or updated software?               |
+
+[annotations 6](#annotations-requirement-6) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 7
+
+| Sub-Requirement | Type of Interview/Observation                     | Documentation & Evidence Expected                                                                      | QSA Questions                                                                                                                                                                                                                                                                                                                             |
+| --------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **7.1.1**           | Documentation Examination and Personnel Interview | Security policies and operational procedures pertaining to Requirement 7                               | 1. Can you provide the documentation that outlines the security policies and operational procedures identified in Requirement 7?<br>2. How are these policies and procedures managed and maintained within the organization?<br>3. Can you demonstrate how access controls are implemented according to the policies outlined in Requirement 7? |
+| **7.1.2.a**         | Documentation Examination                         | Documentation detailing the descriptions of roles and responsibilities for activities in Requirement 7 | 1. Can you provide the documentation that outlines the roles and responsibilities for activities pertaining to Requirement 7?<br>2. How are these roles and responsibilities assigned and documented within the organization?<br>3. How do these roles contribute to maintaining the access control measures specified in Requirement 7?        |
+| **7.1.2.b**         | Personnel Interview                               | Interviews with personnel responsible for activities in Requirement 7                                  | 1. Can you describe your role and responsibilities regarding activities in Requirement 7?<br>2. How were you informed about your responsibilities in relation to Requirement 7?<br>3. Can you illustrate how your role contributes to fulfilling the requirements specified in Requirement 7?                                                   |
+| **7.2.1.a**         | Documentation Examination & Personnel Interview | Documented policies and procedures defining the access control model                                      | 1. Could you provide the documented policies and procedures that define your access control model?<br>2. How is the access control model aligned with the defined elements in this requirement?                        |
+| **7.2.1.b**         | Documentation & Settings Examination            | Access control model settings documentation                                                               | 1. Can you showcase how the access needs are defined in the access control model settings?<br>2. How do these settings adhere to the specified elements in this requirement?                                           |
+| **7.2.2.a**         | Documentation Examination                       | Policies and procedures on assigning access to users                                                      | 1. Could you provide the policies and procedures that detail the process of assigning access to users?<br>2. How are these policies ensuring compliance with the specified elements in this requirement?               |
+| **7.2.2.b**         | Documentation Examination & Personnel Interview | User access settings documentation including for privileged users                                         | 1. Can you demonstrate the privileges assigned to users, especially privileged users?<br>2. How do management personnel ensure that assigned privileges align with the specified elements in this requirement?         |
+| **7.2.2.c**         | Personnel Interview                             | Interviews with personnel responsible for assigning access                                                | 1. Could you explain the process of assigning access to privileged users?<br>2. How do you ensure the process complies with the specified elements in this requirement?                                                |
+| **7.2.3.a**         | Documentation Examination                       | Policies and procedures detailing privilege approval processes                                            | 1. Could you provide the policies and procedures that outline the process for privilege approvals?<br>2. How do these policies facilitate approval by authorized personnel in accordance with this requirement?        |
+| **7.2.3.b**         | Documentation Examination                       | User IDs and assigned privileges documentation, documented approvals                                      | 1. Can you show the documented approvals for assigned privileges?<br>2. How do you ensure that the specified privileges match the roles assigned to individuals?                                                       |
+| **7.2.4.a**         | Documentation Examination                       | Policies and procedures detailing user account and access privilege reviews                               | 1. Could you provide the policies and procedures for reviewing user accounts and access privileges?<br>2. How do these policies ensure compliance with the elements specified in this requirement?                     |
+| **7.2.4.b**         | Personnel Interview & Documentation Examination | Periodic review results of user accounts                                                                  | 1. Could you provide the results of the most recent periodic reviews of user accounts?<br>2. How do these reviews ensure alignment with the specified elements in this requirement?                                    |
+| **7.2.5.a**         | Documentation Examination                       | Policies and procedures detailing the management of system and application accounts and access privileges | 1. Can you present the policies and procedures for managing and assigning access privileges to system and application accounts?<br>2. How do these policies comply with the elements specified in this requirement?    |
+| **7.2.5.b**         | Documentation Examination & Personnel Interview | Documentation of system and application account privileges, interviews with responsible personnel         | 1. Can you demonstrate how system and application account privileges are assigned and managed?<br>2. How do these practices align with the elements specified in this requirement?                                     |
+| **7.2.5.1.a**       | Documentation Examination                       | Policies and procedures for reviewing application and system accounts and access privileges               | 1. Can you provide the policies and procedures for reviewing application and system accounts and access privileges?<br>2. How are these policies ensuring compliance with the elements specified in this requirement?  |
+| **7.2.5.1.b**       | Risk Analysis Examination                       | Risk analysis documentation concerning the frequency of periodic reviews                                  | 1. Could you show the targeted risk analysis for determining the frequency of reviews for application and system accounts and privileges?<br>2. How was this analysis conducted in accordance with Requirement 12.3.1? |
+| **7.2.5.1.c**       | Personnel Interview & Documentation Examination | Results of periodic reviews of system and application accounts and privileges                             | 1. Can you provide the results of the most recent reviews of system and application accounts and privileges?<br>2. How do these reviews adhere to the elements specified in this requirement?                          |
+| **7.2.6.a**         | Documentation Examination & Personnel Interview | Policies and procedures on granting user access to query repositories of stored cardholder data           | 1. Could you provide the policies and procedures for granting user access to query repositories storing cardholder data?<br>2. How do these processes comply with the elements specified in this requirement?          |
+| **7.2.6.b**         | Configuration Settings Examination              | Configuration settings documentation for querying repositories of stored cardholder data                  | 1. Can you demonstrate the configuration settings used for querying repositories of stored cardholder data?<br>2. How do these settings ensure compliance with the elements specified in this requirement?             |
+| **7.3.1**                     | Document Examination and System Settings Inspection | Vendor documentation, system settings detailing access control mechanisms                           | 1. Can you show how the access control system restricts access based on a user’s need to know for each system component?<br> 2. Can you provide documentation that outlines how access is managed across all system components?                             |
+| **7.3.2**                     | Document Examination and System Settings Inspection | Vendor documentation, system settings displaying permissions based on job classification & function | 1. Can you demonstrate how the access control system enforces permissions based on job classification and function?<br> 2. Can you provide examples of how permissions are assigned to individuals, applications, and systems in alignment with their roles? |
+| **7.3.3**                     | Document Examination and System Settings Inspection | Vendor documentation, system settings showcasing the "deny all" default setting                     | 1. Can you show the system settings where the access control system is set to "deny all" by default?<br> 2. How does the organization ensure that the "deny all" default setting is maintained and effectively implemented?                                  |
+
+[annotations 7](#annotations-requirement-7) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 8
+
+| Sub-Requirement | Type of Interview/Observation                   | Documentation & Evidence Expected                                                                              | QSA Questions                                                                                                                                                                                                                                                                                                   |
+| --------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **8.1.1**           | Documentation Examination & Personnel Interview | Security policies and operational procedures documentation that relates to Requirement 8                       | 1. Can you provide the security policies and operational procedures that are in accordance with Requirement 8?<br>2. How are these policies and procedures managed and maintained over time?<br>3. Can you demonstrate how accountability for actions performed is established through these policies?                |
+| **8.1.2.a**         | Documentation Examination                       | Documented descriptions of roles and responsibilities concerning activities in Requirement 8                   | 1. Can you show the documentation where the roles and responsibilities for Requirement 8 activities are described and assigned?<br>2. How are these roles and responsibilities communicated to relevant personnel?<br>3. Can you identify any recent updates or changes to the roles and responsibilities documented? |
+| **8.1.2.b**         | Personnel Interview                             | Records of personnel having understanding and acknowledgment of their roles and responsibilities as documented | 1. Can you explain your role and responsibilities in regards to Requirement 8 activities?<br>2. How were you informed of your roles and responsibilities?<br>3. Can you provide any evidence of training or acknowledgment of understanding your roles and responsibilities concerning Requirement 8?                 |
+| **8.2.1.a**         | Personnel Interview                               | Records of unique IDs assigned to each user for system components and cardholder data access            | 1. How are unique IDs assigned to each user?<br>2. Can you demonstrate the process?                                                    |
+| **8.2.1.b**         | Documentation Examination                         | Audit logs showcasing unique identifiers linked to individual users                                     | 1. Can you provide the audit logs that show unique identification for individuals accessing system components?                   |
+| **8.2.2.a**         | Documentation Examination                         | User account lists and relevant documentation showcasing the usage of shared authentication credentials | 1. How are shared authentication credentials managed? Are they used on a necessary and exception basis?                          |
+| **8.2.2.b**         | Documentation Examination                         | Authentication policies and procedures documentation                                                    | 1. Can you show the processes defined for the usage of shared authentication credentials in the policy documents?                |
+| **8.2.2.c**         | System Administrators Interview                   | Records of the management of shared authentication credentials                                          | 1. Can system administrators verify and explain the conditions under which shared authentication credentials are used?           |
+| **8.2.3**           | Documentation Examination & Personnel Interview   | Authentication policies and procedures and testimonies from personnel                                   | 1. Can you demonstrate that unique authentication factors are used for remote access to each customer premises?                  |
+| **8.2.4**           | Documentation Examination & System Setting Review | Documented authorizations and system settings across different account lifecycle phases                 | 1. Can you show the documentation and system settings that ensure proper management of account lifecycles?                       |
+| **8.2.5.a**         | Documentation Examination                         | Information sources for terminated users and current user access lists                                  | 1. Can you provide evidence of deactivated or removed IDs for terminated users from the access lists?                            |
+| **8.2.5.b**         | Personnel Interview                               | Records of returned or deactivated physical authentication factors for terminated users                 | 1. How is the return or deactivation of physical authentication factors for terminated users managed and documented?             |
+| **8.2.6**           | Documentation Examination & Personnel Interview   | User accounts and last logon information and records                                                    | 1. Can you show the measures in place to remove or disable inactive user accounts within 90 days of inactivity?                  |
+| **8.2.7**           | Documentation Examination & Personnel Interview   | Documentation for managing accounts and evidence of adherence to stipulated elements                    | 1. Can you provide documentation and evidence that third-party remote access accounts are managed according to the requirements? |
+| **8.2.8**           | System Configuration Examination                  | System configuration settings showcasing the session idle timeout features                              | 1. Can you demonstrate that the system/session idle timeout features have been set to 15 minutes or less?                        |
+| **8.3.1.a**           | Document Examination                                                | Documentation detailing the authentication factors used.                                                        | 1. Can you provide the documentation that describes the authentication factor(s) utilized for user access to system components?            |
+| **8.3.1.b**           | Observation                                                         | Demonstrations of various types of authentications across different system components.                          | 1. Can you demonstrate how the authentication functions consistently with the documented authentication factor(s)?                         |
+| **8.3.2.a**           | Document and System Examination                                     | Vendor documentation and system configuration settings.                                                         | 1. Can you showcase the documentation and settings that ensure authentication factors are encrypted both during transmission and storage?  |
+| **8.3.2.b**           | System Examination                                                  | Authentication factor repositories.                                                                             | 1. How are the authentication factors stored securely to ensure unreadability?                                                             |
+| **8.3.2.c**           | System Examination                                                  | Data transmission logs and configurations.                                                                      | 1. Can you demonstrate how authentication factors are rendered unreadable during transmission?                                             |
+| **8.3.3**             | Document Examination and Observation                                | Procedures for modifying authentication factors and evidence of user identity verification before modification. | 1. How do you ensure that a user's identity is verified before allowing modification to their authentication factors?                      |
+| **8.3.4.a**           | System Examination                                                  | System configuration settings regarding account lockout parameters.                                             | 1. How is the system configured to lock out user accounts after a defined number of invalid logon attempts?                                |
+| **8.3.4.b**           | System Examination                                                  | System configuration settings for account lockout durations.                                                    | 1. Can you show the system settings that dictate the lockout duration or the identity verification process to unlock?                      |
+| **8.3.5**             | Document Examination and Observation                                | Password/passphrase setting and resetting procedures and demonstrations of the same.                            | 1. Can you provide the procedures followed for setting and resetting passwords/passphrases, and can this be demonstrated?                  |
+| **8.3.6**             | System Examination                                                  | System configuration settings for password/passphrase complexity.                                               | 1. Can you demonstrate how the system enforces password/passphrase complexity as per the specified parameters?                             |
+| **8.3.7**             | System Examination                                                  | System settings for password/passphrase history.                                                                | 1. How does the system ensure that new passwords/passphrases are not repeated within a certain history length?                             |
+| **8.3.8.a**           | Document Examination and Interview                                  | Authentication policies and procedures and evidence of distribution to users.                                   | 1. How are the authentication policies and procedures distributed to all users and can you provide a copy of the same?                     |
+| **8.3.8.b**           | Document Examination                                                | Copies of distributed authentication policies and procedures.                                                   | 1. Can you show that the distributed authentication policies and procedures encompass all specified elements?                              |
+| **8.3.8.c**           | Interview                                                           | User testimonials.                                                                                              | 1. How familiar are users with the established authentication policies and procedures?                                                     |
+| **8.3.9**             | System Examination                                                  | System configuration settings for managing passwords/passphrases when used as the sole authentication factor.   | 1. Can you detail how passwords/passphrases are managed when used as the only authentication factor in accordance with specified elements? |
+| **8.3.10** & **8.3.10.1** | Document and System Examination (Service provider assessments only) | Guidance provided to customer users and system configuration settings for password/passphrase management.       | 1. How are passwords/passphrases managed for customer user access, and is the guidance inclusive of all specified elements?                |
+| **8.3.11.a**          | Document Examination                                                | Authentication policies and procedures pertaining to physical security tokens, smart cards, and certificates.   | 1. Can you provide the procedures for utilizing physical security tokens, smart cards, and certificates?                                   |
+| **8.3.11.b**          | Interview                                                           | Security personnel testimonials.                                                                                | 1. How do you ensure authentication factors are assigned to individual users and are not shared?                                           |
+| **8.3.11.c**          | System Examination and/or Observation                               | System configuration settings and physical controls for authentication factor utilization.                      | 1. Can you demonstrate the controls implemented to ensure only the intended user can utilize an authentication factor to gain access?      |
+| **8.4.1.a**         | Document Examination & Observation | Network and system configurations detailing the MFA requirements for non-console administrative access into the CDE.            | 1. Can you provide the configuration files that specify the MFA requirements for non-console administrative access?<br>2. How do you ensure that MFA is enforced for all non-console access into the CDE? |
+| **8.4.1.b**         | Observation                        | Evidence of administrator personnel logging into the CDE utilizing MFA (log files, screenshots).                                | 1. Can you demonstrate an instance where MFA is required for an administrator logging into the CDE?<br>2. How are MFA authentications logged and monitored?                                               |
+| **8.4.2.a**         | Document Examination & Observation | Network and system configurations that indicate the implementation of MFA for all access points into the CDE.                   | 1. Can you provide documentation that demonstrates MFA implementation for all access points into the CDE?<br>2. How is this configuration maintained and audited?                                         |
+| **8.4.2.b**         | Observation                        | Evidence showing personnel logging into the CDE using MFA (log files, screenshots).                                             | 1. Can you demonstrate a live instance where MFA is required for personnel logging into the CDE?<br>2. How is adherence to MFA policies ensured?                                                          |
+| **8.4.3.a**         | Document Examination & Observation | Network and system configurations for remote access servers, demonstrating MFA implementation as per the specified requirement. | 1. Can you provide the configurations that verify MFA is implemented for remote access servers?<br>2. How do these configurations align with the elements specified in the requirement?                   |
+| **8.4.3.b**         | Observation                        | Evidence of personnel connecting remotely and utilizing MFA (logs of remote access connections, video demonstrations).          | 1. Can you demonstrate a scenario where personnel connecting remotely are required to use MFA?<br>2. How is the usage of MFA monitored for remote connections?                                            |
+| **8.5.1.a**         | Document Examination          | Vendor system documentation highlighting the MFA system's resistance to replay attacks.                                                                                                      | 1. Can you provide vendor documentation that illustrates the MFA system's resilience against replay attacks?<br>2. How does the MFA system prevent replay attacks?                                     |
+| **8.5.1.b**         | Document Examination          | System configurations showcasing the appropriate setup of the MFA implementation in line with the mentioned requirement.                                                                     | 1. Could you provide the system configuration documents for the MFA implementation?<br>2. How do these configurations ensure adherence to the specifications mentioned in the requirement?             |
+| **8.5.1.c**         | Interview & Observation       | Documented instances of requests to bypass MFA along with the respective managerial approvals and time limitations.                                                                          | 1. Could you discuss the process undertaken to grant exceptions for MFA bypass requests?<br>2. Can you provide examples of documented and authorized requests to bypass MFA for a limited time period? |
+| **8.5.1.d**         | Observation                   | Observational evidence (e.g., video recordings, log files) of personnel logging into system components in the CDE, showcasing the necessity of successful authentication factors for access. | 1. Can you demonstrate the process of logging into system components within the CDE?<br>2. How does the system ensure that access is granted only upon successful authentication across all factors?   |
+| **8.5.1.e**         | Observation                   | Observational evidence (e.g., video recordings, log files) of personnel connecting remotely, emphasizing the requirement of successful authentication across all factors for access.         | 1. Can you showcase the procedure for remote connection to the network?<br>2. How does the system confirm that access is only granted upon successful authentication of all factors?                   |
+| **8.6.1**           | Document Examination & Personnel Interview | Application and system account documentation, Interviews with administrative personnel.                | 1. Can you show how the application and system accounts are managed?<br>2. Can you demonstrate compliance with all elements specified in this requirement?                                              |
+| **8.6.2.a**         | Personnel Interview & Document Examination | System development procedures documentation, Interviews with personnel involved in system development. | 1. Can you describe the process for defining access parameters for interactive logins?<br>2. How do you ensure passwords/passphrases are not hardcoded in scripts or files?                             |
+| **8.6.2.b**         | Document Examination                       | Scripts, configuration/property files, bespoke and custom source code documentation.                   | 1. Can you provide scripts, files, or source code for examination?<br>2. How do you verify that passwords/passphrases are not hardcoded in these resources?                                             |
+| **8.6.3.a**         | Document Examination                       | Policies and procedures documentation focusing on the protection of passwords/passphrases.             | 1. How are procedures defined to protect passwords/passphrases from misuse?<br>2. Can you show the documentation supporting this?                                                                       |
+| **8.6.3.b**         | Document Examination                       | Risk analysis documentation including change frequency and complexity for passwords/passphrases.       | 1. Could you provide the risk analysis documentation regarding the change frequency and complexity of passwords/passphrases?<br>2. How does it align with the elements specified in Requirement 12.3.1? |
+| **8.6.3.c**         | Personnel Interview & Document Examination | Interviews with responsible personnel and system configuration settings documentation.                 | 1. How are passwords/passphrases protected against misuse as per the specified elements in this requirement?<br>2. Can you provide documentation and setting configurations that demonstrate this?      |
+
+[annotations 8](#annotations-requirement-8) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 9
+
+| Sub-Requirement | Type of Interview/Observation              | Documentation & Evidence Expected                                                                       | QSA Questions                                                                                                                                                                                                                                                                                                            |
+| --------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 9.1.1           | Documentation Review & Personnel Interview | Security policies and operational procedures related to Requirement 9                                   | 1. Can you provide the relevant documentation that outlines your security policies and procedures as they pertain to Requirement 9?<br> 2. How are these policies and procedures managed and maintained over time? <br> 3. How are personnel informed about these policies and procedures?                       |
+| 9.1.2.a         | Documentation Review                       | Descriptions of roles and responsibilities regarding activities in Requirement 9                        | 1. Can you show me where the roles and responsibilities for Requirement 9 activities are documented?<br> 2. How are these roles and responsibilities communicated to relevant personnel? <br> 3. Can you provide evidence that these roles and responsibilities are regularly reviewed and updated if necessary? |
+| 9.1.2.b         | Personnel Interview                        | Confirmation from personnel about their understanding of their roles and responsibilities as documented | 1. Can you explain your role and responsibilities regarding Requirement 9?<br> 2. How were you informed about your roles and responsibilities? <br> 3. Can you demonstrate or provide examples of how you fulfill your roles and responsibilities as described?                                                  |
+| **9.2.1**     | Observation & Personnel Interview | Records of physical security controls in place to restrict access to systems in the CDE.                                                                                   | 1. Can you demonstrate the physical security controls in place that restrict access to systems in the CDE?<br> 2. How are these controls monitored and maintained?                                   |
+| **9.2.1.1.a** | Location Observation              | Evidence of video cameras and/or physical access control mechanisms monitoring the entry and exit points of sensitive areas within the CDE.                                | 1. Can you show the functioning of video cameras or access control mechanisms at the entry and exit points?<br> 2. How do these mechanisms ensure the security of sensitive areas within the CDE?    |
+| **9.2.1.1.b** | Location Observation              | Evidence that the video cameras or physical access control mechanisms are protected against tampering or disabling.                                                        | 1. How are the video cameras or access control mechanisms protected from tampering or disabling?<br> 2. Can you provide instances where these protections were tested or validated?                  |
+| **9.2.1.1.c** | Observation & Personnel Interview | Documentation evidencing the review and correlation of collected data, and proof of data storage for at least three months.                                                | 1. How is data from video cameras or access control mechanisms reviewed and correlated with other entries?<br> 2. Can you provide evidence of data storage for at least three months?                |
+| **9.2.2**     | Observation & Personnel Interview | Records showing the controls in place to restrict access to publicly accessible network jacks within the facility.                                                         | 1. Can you demonstrate the physical and/or logical controls restricting access to publicly accessible network jacks within the facility?<br> 2. How are these controls monitored?                    |
+| **9.2.3**     | Observation & Personnel Interview | Documentation showing restricted physical access to wireless access points, gateways, networking/communications hardware, and telecommunication lines within the facility. | 1. Can you show the controls in place that restrict physical access to wireless access points and other related hardware within the facility?<br> 2. How is restricted access ensured and monitored? |
+| **9.2.4**     | Observation                       | Evidence of consoles in sensitive areas being "locked" to prevent unauthorized use.                                                                                        | 1. Can you demonstrate a system administrator's attempt to log into "locked" consoles in sensitive areas?<br> 2. How are these "locks" maintained and updated to prevent unauthorized access?        |
+| **9.3.1.a**   | Document Examination                          | Documented procedures detailing the authorization and management of physical access to the CDE.   | 1. Can you provide the documented procedures that govern physical access to the CDE?<br> 2. How do these procedures ensure compliance with the specified elements in this requirement?                   |
+| **9.3.1.b**   | Observation & Process Verification            | Identification methods such as ID badges utilized within the CDE.                                 | 1. Can you demonstrate how personnel are clearly identified within the CDE?<br> 2. How are these identification methods managed and updated?                                                             |
+| **9.3.1.c**   | Process Observation                           | Processes showcasing that access to the identification system is limited to authorized personnel. | 1. Can you illustrate how the badge system restricts access to authorized personnel only?<br> 2. How is unauthorized access prevented in the identification process?                                     |
+| **9.3.1.1.a** | Observation, Interview & Document Examination | Evidence of authorized access to sensitive areas and justification based on job functions.        | 1. Can you demonstrate how access to sensitive areas is regulated?<br> 2. How is individual’s job function determined to grant access to these areas?                                                   |
+| **9.3.1.1.b** | Process Observation & Personnel Interview     | Processes ensuring immediate revocation of access upon termination of personnel.                  | 1. Can you demonstrate the process for immediate access revocation upon personnel termination?<br> 2. What measures are in place to enforce this?                                                        |
+| **9.3.1.1.c** | Document Examination & Interview              | Evidence of return or disabling of physical access mechanisms for terminated personnel.           | 1. Can you confirm the deactivation or retrieval of access mechanisms for terminated personnel?<br> 2. How is compliance with this requirement ensured?                                                  |
+| **9.3.2.a**   | Document Examination & Personnel Interview    | Documented procedures for authorizing and managing visitor access to the CDE.                     | 1. Can you present the procedures governing visitor access to the CDE?<br> 2. How do these procedures ensure visitor access is managed as per the specified elements?                                    |
+| **9.3.2.b**   | Observation & Interview                       | Processes demonstrating authorization and escort of visitors within the CDE.                      | 1. Can you demonstrate the authorization process for visitors entering the CDE?<br> 2. How is escorting of visitors within the CDE ensured?                                                              |
+| **9.3.2.c**   | Observation                                   | Usage of visitor badges or other identification that prevent unescorted access to the CDE.        | 1. Can you show the features of visitor badges that prevent unescorted access to the CDE?<br> 2. How is unescorted access prevented using these identifications?                                         |
+| **9.3.2.d**   | Observation                                   | Observation of visitor badge utilization and distinct identification of visitors from personnel.  | 1. Can you demonstrate how visitor badges distinguish visitors from personnel?<br> 2. Are all visitors required to use badges or other forms of identification?                                          |
+| **9.3.2.e**   | Examination & Observation                     | Evidence of expiration feature on visitor badges or other identifications.                        | 1. Can you show how visitor badges or identifications expire after a certain time?<br> 2. How is this expiration feature managed and enforced?                                                           |
+| **9.3.3**     | Observation & Interview                       | Processes for the surrender or deactivation of visitor badges upon departure or expiration.       | 1. Can you illustrate the process for surrendering or deactivating visitor badges upon departure or expiration?<br> 2. How is compliance with this procedure ensured?                                    |
+| **9.3.4.a**   | Document Examination & Interview              | A visitor log documenting physical access to the facility and sensitive areas.                    | 1. Can you present the visitor log used to record physical access?<br> 2. How is the log maintained and secured?                                                                                         |
+| **9.3.4.b**   | Document Examination                          | Visitor log containing necessary details of the visit.                                            | 1. Can you confirm that the visitor log contains all the required details about the visitor and the visit?<br> 2. How is the data in the log verified for accuracy?                                      |
+| **9.3.4.c**   | Document Examination & Interview              | Storage locations for visitor logs and evidence of log retention for at least three months.       | 1. Can you indicate where the visitor log is stored and demonstrate its secure storage?<br> 2. How is a minimum of three months retention ensured, and what provisions are there for legal restrictions? |
+| 9.4.1           | Examine documentation                                                                           | Procedures for physically securing all media                                | 1. Can you show me the documented procedures for protecting cardholder data by securing media?     |
+| 9.4.1.1.a       | Examine documentation                                                                           | Procedures for securing offline media backups                               | 1. How are offline media backups physically secured in a secure location?                          |
+| 9.4.1.1.b       | Interview responsible personnel and examine logs or other documentation                         | Secure location details and logs for offline media backups                  | 1. Can you verify that the offline media backups are stored securely?                              |
+| 9.4.1.2.a       | Examine documentation                                                                           | Procedures for annual security review of offline media backup locations     | 1. Are there procedures for annually reviewing the security of offline media backup locations?     |
+| 9.4.1.2.b       | Interview responsible personnel and examine documented procedures, logs, or other documentation | Records of annual reviews of the security of offline media backup locations | 1. Has the security of the storage location been reviewed in the last 12 months?                   |
+| 9.4.2.a         | Examine documentation                                                                           | Procedures for classifying media with cardholder data                       | 1. Can you show me the procedures for classifying media according to data sensitivity?             |
+| 9.4.2.b         | Examine media logs or other documentation                                                       | Media classification logs in accordance with data sensitivity               | 1. Are all media classified according to the sensitivity of the data contained?                    |
+| 9.4.3.a         | Examine documentation                                                                           | Procedures for securing media sent outside the facility                     | 1. How are the procedures defined for securing media sent outside the facility?                    |
+| 9.4.3.b         | Interview personnel and examine records                                                         | Logs and records of secured courier or other tracked delivery methods       | 1. Can you verify that all media sent outside the facility is logged and sent via a secure method? |
+| 9.4.3.c         | Examine offsite tracking logs                                                                   | Documentation of tracking details for media sent outside the facility       | 1. Can I see the tracking logs for all media sent outside the facility?                            |
+| 9.4.4.a         | Examine documentation                                                                           | Procedures for management approval for media moved outside the facility     | 1. What are the procedures for management approval for media transport outside the facility?       |
+| 9.4.4.b         | Interview responsible personnel and examine offsite media tracking logs                         | Management authorization records and offsite media tracking logs            | 1. Can you demonstrate that management authorization was obtained for media moved outside?         |
+| 9.4.5.a         | Examine documentation                                                                           | Procedures for maintaining electronic media inventory logs                  | 1. Can you show me the procedures for maintaining electronic media inventory logs?                 |
+| 9.4.5.b         | Interview responsible personnel and examine electronic media inventory logs                     | Maintained electronic media inventory logs                                  | 1. Are electronic media inventory logs maintained regularly?                                       |
+| 9.4.5.1.a       | Examine documentation                                                                           | Procedures for annual electronic media inventories                          | 1. Can you show me the procedures for conducting annual electronic media inventories?              |
+| 9.4.5.1.b       | Interview personnel and examine electronic media inventory logs                                 | Records of annual electronic media inventories                              | 1. Can you verify that media inventories are conducted at least annually?                          |
+| 9.4.6.a         | Examine the periodic media destruction policy                                                   | Procedures for destroying hard-copy media                                   | 1. What are the procedures for destroying hard-copy media when it's no longer needed?              |
+| 9.4.6.b         | Observe processes and interview personnel                                                       | Evidence of hard-copy media destruction methods                             | 1. How is hard-copy media destroyed to prevent data reconstruction?                                |
+| 9.4.6.c         | Observe storage containers                                                                      | Secure containers for storing materials to be destroyed                     | 1 Can you show me the secure containers used for storing materials awaiting destruction?          |
+| 9.4.7.a         | Examine the periodic media destruction policy                                                   | Procedures for destroying electronic media                                  | 1. Can you detail the procedures for destroying electronic media when it's no longer needed?       |
+| 9.4.7.b         | Observe the media destruction process and interview responsible personnel                       | Evidence of compliant electronic media destruction methods                  | 1. How is electronic media destroyed to ensure cardholder data cannot be reconstructed?            |
+| 9.5.1           | Document Examination              | Documented policies and procedures detailing processes for handling POI devices             | 1. Can you provide the policies and procedures that detail the processes implemented to adhere to requirement 9.5.1?                                                    |
+| 9.5.1.1.a       | Document Examination              | List of POI devices containing all elements specified in this requirement                   | 1. Can you provide the latest list of POI devices and demonstrate that it includes all the necessary elements as specified in this sub-requirement?                     |
+| 9.5.1.1.b       | Observation & Document Comparison | An accurate and up-to-date list of POI devices and device locations                         | 1. Can you demonstrate that the POI device list is accurate and up-to-date by comparing it with the actual devices and their locations?                                 |
+| 9.5.1.1.c       | Interview                         | Evidence of regular updates to the list of POI devices (e.g., change logs, version history) | 1. Can you explain the process followed to update the list of POI devices when devices are added, relocated, or decommissioned?                                         |
+| 9.5.1.2.a       | Document Examination              | Documented procedures for periodic inspections of POI devices                               | 1. Can you provide the documented procedures that detail the periodic inspection process of POI device surfaces to detect tampering and unauthorized substitution?      |
+| 9.5.1.2.b       | Interview & Observation           | Training materials, employee testimonies about awareness of inspection procedures           | 1. Can you demonstrate that personnel are aware of and adhere to the procedures for inspecting devices, and are the inspections conducted periodically?                 |
+| 9.5.1.2.1.a     | Document Examination              | Targeted risk analysis for the frequency of periodic POI device inspections                 | 1. Can you provide the targeted risk analysis documentation that defines the frequency and type of inspections performed for POI devices?                               |
+| 9.5.1.2.1.b     | Interview & Document Examination  | Documented results of periodic device inspections and interview records                     | 1. Can you verify that the frequency and type of POI device inspections performed are in line with what is defined in the risk analysis conducted for this requirement? |
+| 9.5.1.3.a       | Document Examination              | Training materials for personnel in POI environments                                        | 1. Can you provide the training materials prepared for personnel in POI environments that cover all elements specified in this sub-requirement?                         |
+| 9.5.1.3.b       | Interview                         | Training records, personnel testimony regarding training received                           | 1. Can you verify that personnel in POI environments have received adequate training and are knowledgeable about the procedures as specified in this sub-requirement?   |
+
+[annotations 9](#annotations-requirement-9) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 10
+
+| Sub-Requirement | Type of Interview/Observation                | Documentation & Evidence Expected                                                                           | QSA Questions                                                                                                                                                                                   |
+| --------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10.1.1          | Document Examination and Personnel Interview | Security policies and operational procedures documentation related to Requirement 10.                       | 1. Can you provide the security policies and operational procedures for Requirement 10?<br>2. How are these policies managed and maintained in line with the stipulations of Requirement 10? |
+| 10.1.2.a        | Document Examination                         | Documentation detailing the descriptions of roles and responsibilities for activities under Requirement 10. | 1. Can you show where the roles and responsibilities for activities under Requirement 10 are documented?<br> 2. Are these roles clearly assigned to specific personnel or teams?              |
+| 10.1.2.b        | Personnel Interview                          | Direct communication with personnel responsible for activities under Requirement 10.                        | 1. Can you describe your role and responsibilities as they pertain to Requirement 10?<br>2. How were these responsibilities communicated to you?                                             |
+| 10.2.1          | System Administrator Interview and Document Examination | System configurations and evidence of active audit logs for all system components.                                                             | 1. Can you demonstrate that audit logs are enabled and active for all system components?                                                |
+| 10.2.1.1        | Document Examination                                    | Audit log configurations and log data indicating individual user access to cardholder data.                                                    | 1. Can you show where individual user access to cardholder data is logged within the audit configurations?                              |
+| 10.2.1.2        | Document Examination                                    | Audit log configurations and log data capturing actions by individuals with administrative access.                                             | 1. Are all actions undertaken by individuals with administrative access logged?                                                         |
+| 10.2.1.3        | Document Examination                                    | Audit log configurations and log data detailing access to all audit logs.                                                                      | 1. How is access to all audit logs captured in the system?                                                                              |
+| 10.2.1.4        | Document Examination                                    | Audit log configurations and log data indicating invalid logical access attempts.                                                              | 1. How does the system capture and log invalid logical access attempts?                                                                 |
+| 10.2.1.5        | Document Examination                                    | Log data and configurations documenting changes to identification and authentication credentials.                                              | 1. Can you demonstrate how changes to identification and authentication credentials are logged?                                         |
+| 10.2.1.6        | Document Examination                                    | Audit log configurations and log data complying with all elements specified in this requirement.                                               | 1. How does the audit log configuration adhere to the stipulations mentioned in this requirement?                                       |
+| 10.2.1.7        | Document Examination                                    | Audit log configurations and log data capturing creation and deletion of system level objects.                                                 | 1. Can you verify that log data captures the creation and deletion of system-level objects?                                             |
+| 10.2.2          | Personnel Interview and Document Examination            | Audit log configurations and log data showing inclusion of all elements specified in this requirement in log entries for each auditable event. | 1. Can you demonstrate that all specified elements are included in log entries for each auditable event from 10.2.1.1 through 10.2.1.7? |
+| 10.3.1          | System Administrators Interview and Document Examination | System configurations, privileges documentation, and details of individuals granted read access to audit log files based on job necessity.                                                        | 1. Can you provide a list of individuals with read access to audit log files and justify their job-related needs for this access?                                                      |
+| 10.3.2          | Document Examination and System Administrators Interview | System configurations, privileges documentation, and strategies implemented to protect current audit log files from unauthorized modifications.                                                   | 1. Can you demonstrate the measures in place to protect current audit log files from unauthorized modifications, including access control mechanisms, physical or network segregation? |
+| 10.3.3          | Document Examination                                     | Backup configurations or log files detailing the backup strategy for current audit log files, including methods to secure central internal log servers or other media.                            | 1. Can you show the backup configurations that ensure current audit log files are promptly backed up to a secure and central internal log server or other unmodifiable media?          |
+| 10.3.4          | Document Examination                                     | Documentation of system settings, monitored files, and results from monitoring activities that verify the implementation of file integrity monitoring or change-detection software on audit logs. | 1. How is file integrity monitoring or change-detection software utilized for monitoring audit logs?<br>2. Can you provide recent results from these monitoring activities?                  |
+| 10.4.1.a        | Document Examination                         | Security policies and procedures documenting the daily review of all elements specified in the requirement.                                              | 1. Can you provide the policy that outlines the daily review process for all elements specified in this requirement?                      |
+| 10.4.1.b        | Process Observation and Personnel Interview  | Evidence of daily review processes and interviews with personnel involved in the daily review of specified elements.                                     | 1. Can you demonstrate the daily review process in action, and explain how all elements specified in the requirement are reviewed daily?  |
+| 10.4.1.1        | Document Examination and Personnel Interview | Log review mechanisms documentation and interviews confirming the use of automated mechanisms for log reviews.                                           | 1. Can you describe and demonstrate how automated mechanisms are utilized for daily log reviews?                                          |
+| 10.4.2.a        | Document Examination                         | Security policies and procedures detailing the periodic review of logs for all other system components.                                                  | 1. Can you provide the policy that details the periodic review process for logs of all other system components?                           |
+| 10.4.2.b        | Document Examination and Personnel Interview | Documented results of log reviews and interviews confirming the periodic execution of log reviews.                                                       | 1. Can you show the documented results of recent periodic log reviews, and explain the process undertaken for these reviews?              |
+| 10.4.2.1.a      | Document Examination                         | Documentation of targeted risk analysis for the frequency of periodic log reviews concerning elements in Requirement 12.3.1.                             | 1. Can you show the targeted risk analysis for determining the frequency of periodic log reviews in line with Requirement 12.3.1?         |
+| 10.4.2.1.b      | Document Examination and Personnel Interview | Documented results of periodic log reviews as per the risk analysis, and interviews with personnel to confirm the adherence to the stipulated frequency. | 1. Can you present documented results of periodic log reviews as per the risk analysis, and discuss the frequency and findings?           |
+| 10.4.3.a        | Document Examination                         | Security policies and procedures documenting the process for addressing exceptions and anomalies identified during the review process.                   | 1. Can you provide the policies and procedures that detail how exceptions and anomalies identified during log reviews are addressed?      |
+| 10.4.3.b        | Process Observation and Personnel Interview  | Observations and interviews with personnel to verify the active addressing of identified exceptions and anomalies.                                       | 1. Can you demonstrate the process followed when exceptions and anomalies are identified during log reviews, and discuss recent examples? |
+| 10.5.1.a        | Document Examination                                                 | - Audit log retention policies documentation.<br> - Procedures documentation for retaining audit log history for at least 12 months, with a minimum of the recent three months being readily available online.                                       | 1. Could you please provide the documentation defining your audit log retention policies?<br>2. Can you showcase the procedural document detailing the retention of audit log history for at least 12 months, with at least the most recent three months available online?                                      |
+| 10.5.1.b        | Document Examination, Personnel Interview, and Audit Log Examination | - Configurations settings showcasing the audit log history retention.<br> - Interviews with personnel responsible for managing audit logs.<br> 2. Audit logs evidencing retention for at least 12 months.                                         | 1. Can you guide me through the configurations set up to retain audit log history for at least 12 months?<br>2. Can you explain how the process of retaining audit log history is maintained and managed? <br>3. Could you please show the actual audit logs demonstrating a history of at least 12 months? |
+| 10.5.1.c        | Personnel Interview and Process Observation                          | - Interviews with personnel confirming the availability of the most recent three months’ audit log history.<br> - Observation of the processes ensuring the immediate availability of the most recent three months' audit log history for analysis. | 1. Could you elucidate how the most recent three months of audit log history is made immediately available for analysis?<br>2. Can you demonstrate the process ensuring that the recent three months' audit log history is readily accessible?                                                                  |
+| 10.6.1          | System Configuration Settings Examination                                 | - Evidence of the implementation and updating of time-synchronization technology.                                                                       | 1. Can you show how time-synchronization technology is implemented on your systems?<br>2. How is it kept current?                                              |
+| 10.6.2          | System Configuration Settings Examination                                 | - Detailed configuration settings related to the acquisition, distribution, and storage of the correct time.                                            | 1. Can you show the configuration settings that ensure the acquisition, distribution, and storage of the correct time?                                             |
+| 10.6.3.a        | System Configuration and Settings Examination                             | - System configurations displaying restricted access to time data.<br> - List of personnel with granted access.                                     | 1. How is access to time data restricted within the system settings?<br>2. Can you provide a list of personnel who have access based on business needs?        |
+| 10.6.3.b        | System Configuration, Settings, and Logs Examination; Process Observation | - System configurations indicating logging of time setting changes on critical systems.<br> - Logs showing monitored changes and reviews conducted. | 1. Can you demonstrate how changes to time settings on critical systems are logged and monitored?<br>2. Can you showcase the process for reviewing these logs? |
+| 10.7.1.a        | Documentation Examination (Service Provider Assessments Only)                   | - Documentation outlining processes for the detection and addressing of critical security control system failures, inclusive of all elements specified in the requirement.                                                              | 1. Can you show the documentation that details your processes for detecting and addressing failures in critical security control systems?                                         |
+| 10.7.1.b        | Process Observation and Personnel Interview (Service Provider Assessments Only) | - Observational evidence of detection and alerting processes.<br> - Testimonies from personnel regarding the processes and alert generation in case of control failure.                                                             | 1. How are failures in critical security control systems detected and reported?<br>2. Can you demonstrate how a failure triggers an alert?                                    |
+| 10.7.2.a        | Documentation Examination                                                       | - Documentation defining the processes for the prompt detection and addressing of critical security control system failures, including all specified elements.                                                                          | 1. Could you provide documentation that explains the processes in place for the rapid detection and addressing of critical security control system failures?                      |
+| 10.7.2.b        | Process Observation and Personnel Interview                                     | - Evidence of detection and alerting processes in action.<br> - Interview records demonstrating the reporting and alert mechanisms during a critical security control failure.                                                      | 1. How is the detection and alerting process for critical security control system failures conducted?<br>2. Can you showcase a situation where a failure generated an alert?  |
+| 10.7.3.a        | Documentation Examination and Personnel Interview                               | - Documentation verifying defined and implemented processes for responding to critical security control system failures with all specified elements.<br> - Interview records affirming the implementation of the defined processes. | 1. Can you elucidate on the processes defined to respond to failures of critical security control systems?<br>2. How are these processes implemented in real-time situations? |
+| 10.7.3.b        | Records Examination                                                             | - Records showing documentation of security control system failures including identified causes, the duration, and remediation details.                                                                                                 | 1. Could you showcase records where security control system failures were documented with necessary details?<br>2. How is the root cause addressed during these occurrences?  |
+
+[annotations 10](#annotations-requirement-10) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 11
+
+| Sub-Requirement | Type of Interview/Observation                | Documentation & Evidence Expected                                                                                                     | QSA Questions                                                                                                                                                                                                                                                                             |
+| --------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 11.1.1          | Documentation review and Personnel Interview | Security policies and operational procedures documents that outline how the various elements specified in requirement 11 are managed. | 1. Can you provide the security policies and operational procedures that pertain to requirement 11?<br>2. How are these policies and procedures managed and updated to align with requirement 11?<br>3. Can you showcase how these policies align with the defined approach testing procedures? |
+| 11.1.2.a        | Documentation review                         | Formal documentation that explicitly states the roles and responsibilities for activities in requirement 11.                          | 1. Can you provide the documented roles and responsibilities for carrying out activities as per requirement 11?<br>2. How are individuals assigned these roles and responsibilities?<br>3. Can you show where these roles and responsibilities are documented?                                  |
+| 11.1.2.b        | Personnel Interview                          | Evidence that personnel understand and acknowledge their assigned roles and responsibilities in line with requirement 11.             | 1. Can you explain your role and responsibilities in carrying out activities as per requirement 11?<br>2. How were you informed about your responsibilities?<br>3. Can you demonstrate your understanding of your role in adherence to requirement 11?                                          |
+| 11.2.1.a        | Documentation review                         | Policies and procedures documentation that outlines the management processes for both authorized and unauthorized wireless access points as per the requirement.       | 1. Can you provide the policies and procedures that detail the management of authorized and unauthorized wireless access points?<br>2. How do these policies ensure compliance with all the elements specified in this requirement?                                                                                            |
+| 11.2.1.b        | Documentation review and Personnel Interview | Methodology documents that explain how both authorized and unauthorized wireless access points are detected and identified, alongside interviews to confirm adherence. | 1. Can you explain the methodologies in place for identifying and detecting unauthorized and authorized wireless access points?<br>2. How does the methodology ensure alignment with the elements specified in this requirement?<br>3. Can personnel demonstrate their understanding and adherence to the methodologies in place? |
+| 11.2.1.c        | Documentation review and Personnel Interview | Documentation of wireless assessment results and interview notes to confirm the assessments were conducted according to the specified elements in this requirement.    | 1. Can you provide recent wireless assessment results?<br>2. How do these assessments align with the elements outlined in the requirement?<br>3. Can personnel explain the process followed for wireless assessments?                                                                                                             |
+| 11.2.1.d        | Configuration Review                         | Verification of configuration settings to ensure the automated monitoring system generates alerts to notify relevant personnel.                                        | 1. Can you showcase the configuration settings of the automated monitoring system?<br>2. How does the system generate alerts to notify personnel?<br>3. Can you demonstrate a previous instance where the alert mechanism worked as configured?                                                                                   |
+| 11.2.2          | Documentation review                         | Documented inventory of authorized wireless access points, including a business justification for each.                                                                | 1. Can you provide the current inventory of authorized wireless access points?<br>2. Is there a documented business justification for each authorized wireless access point?<br>3. How is the inventory maintained and updated?                                                                                                   |
+| 11.3.1.a        | Document Examination                         | Internal scan report results from the last 12 months                                                                            | 1. Can you show the internal scan reports from each of the last four quarters?<br>2. Can you demonstrate that scans occurred at least quarterly?                                                  |
+| 11.3.1.b        | Document Examination                         | Internal scan and rescan reports highlighting the resolution of high-risk and critical vulnerabilities as per Requirement 6.3.1 | 1. Can you showcase where high-risk and critical vulnerabilities were identified and resolved within the internal scan reports?<br>2. How were these vulnerabilities addressed?                   |
+| 11.3.1.c        | Document Examination and Personnel Interview | Scan tool configurations and latest vulnerability update details                                                                | 1. How do you ensure that the scan tool is up-to-date with the latest vulnerability information?<br>2. Can you demonstrate the current configuration of the scan tool?                            |
+| 11.3.1.d        | Personnel Interview                          | Evidence of qualification and organizational independence of the personnel responsible for the scans                            | 1. Can you confirm who performed the scans?<br>2. Can you verify the organizational independence of the scanner?                                                                                  |
+| 11.3.1.1.a      | Document Examination                         | Entity’s risk analysis documentation as per Requirement 12.3.1                                                                 | 1. Can you provide the risk analysis conducted as per Requirement 12.3.1?<br>2. How does this analysis define the risk associated with various vulnerabilities?                                   |
+| 11.3.1.1.b      | Document Examination and Personnel Interview | Internal scan reports and other documentation evidencing risk analysis adherence                                                | 1. Can you demonstrate how vulnerabilities have been addressed based on the defined risk analysis?<br>2. Can you show evidence of rescans confirming vulnerability resolution?                    |
+| 11.3.1.2.a      | Document Examination                         | Scan tool configurations showcasing authenticated scanning parameters                                                           | 1. Can you show the configuration settings that enable authenticated scanning?<br>2. How do you ensure that scanning credentials have sufficient privileges?                                      |
+| 11.3.1.2.b      | Document Examination and Personnel Interview | Scan report results and evidence of authenticated scanning practices                                                            | 1. Can you provide reports showcasing the results of authenticated scans?<br>2. Can personnel explain the process and benefits of authenticated scanning?                                         |
+| 11.3.1.2.c      | Document Examination and Personnel Interview | Account details used for authenticated scanning and adherence to Requirement 8.2.2                                              | 1. Can you provide details on the accounts used for authenticated scanning?<br>2. How are these accounts managed as per Requirement 8.2.2?                                                        |
+| 11.3.1.2.d      | Document Examination                         | Documentation defining systems unable to accept credentials for authenticated scanning                                          | 1. Can you list the systems that are unable to accept credentials for authenticated scanning?<br>2. How is this information documented and managed?                                               |
+| 11.3.1.3.a      | Document Examination                         | Change control documentation and internal scan reports post significant changes                                                 | 1. Can you provide documentation on significant changes and subsequent scans?<br>2. How do scan reports reflect these changes?                                                                    |
+| 11.3.1.3.b      | Document Examination and Personnel Interview | Internal scan and rescan reports highlighting actions post significant changes                                                  | 1. Can you provide evidence of scans performed after significant changes?<br>2. How were high-risk and critical vulnerabilities addressed?                                                        |
+| 11.3.1.3.c      | Personnel Interview                          | Evidence of qualification and organizational independence of the personnel conducting scans                                     | 1. Can you confirm the qualifications of personnel performing internal scans?<br>2. How do you ensure organizational independence of the scanner?                                                 |
+| 11.3.2.a        | Document Examination                         | Approved Scanning Vendor (ASV) reports from the last 12 months                                                                  | 1. Can you provide the ASV scan reports from each of the last four quarters?<br>2. Can you demonstrate quarterly external vulnerability scans?                                                    |
+| 11.3.2.b        | Document Examination                         | ASV scan and rescan reports showcasing vulnerability resolution and adherence to ASV Program Guide requirements                 | 1. Can you demonstrate the resolution of vulnerabilities as per ASV Program Guide requirements?<br>2. Can you show evidence of passing scan results?                                              |
+| 11.3.2.c        | Document Examination                         | ASV scan reports indicating completion by a PCI SSC Approved Scanning Vendor                                                    | 1. Can you confirm the ASV scan reports were completed by a PCI SSC Approved Scanning Vendor?<br>2. Can you provide credentials of the ASV?                                                       |
+| 11.3.2.1.a      | Document Examination                         | Change control documentation and external scan reports post significant changes                                                 | 1. Can you provide documentation showcasing scans post significant changes?<br>2. How do external scan reports reflect these changes?                                                             |
+| 11.3.2.1.b      | Document Examination and Personnel Interview | External scan and rescan reports with evidence of vulnerability resolution as per CVSS scoring                                  | 1. Can you demonstrate resolution of vulnerabilities scored 4.0 or higher by the CVSS within the scan reports?<br>2. Can personnel explain the process followed to resolve these vulnerabilities? |
+| 11.3.2.1.c      | Personnel Interview                          | Evidence of qualification and organizational independence of the personnel or third party conducting external scans             | 1. Can you confirm the qualifications of the personnel or third party performing external scans?<br>2. How do you ensure organizational independence of the tester?                               |
+| 11.4.1          | Documentation Review, Personnel Interview                             | Penetration testing methodology documentation.                                                         | 1. Can you provide the documented penetration testing methodology that includes all the elements specified in this requirement?           |
+| 11.4.2.a        | Documentation Review, Scope of Work Review                            | Scope of work and results from the most recent internal penetration test.                              | 1. Can you show how the internal penetration test was conducted in accordance with the elements specified in this requirement?            |
+| 11.4.2.b        | Personnel Interview                                                   | Evidence of tester qualifications and organizational independence.                                     | 1. Can you verify that the internal penetration test was conducted by a qualified resource with organizational independence?              |
+| 11.4.3.a        | Documentation Review, Scope of Work Review                            | Scope of work and results from the most recent external penetration test.                              | 1. Can you show how the external penetration test was conducted according to the elements specified in this requirement?                  |
+| 11.4.3.b        | Personnel Interview                                                   | Evidence of tester qualifications and organizational independence.                                     | 1. Can you verify that the external penetration test was conducted by a qualified resource with organizational independence?              |
+| 11.4.4          | Documentation Review                                                  | Penetration testing results and evidence of corrections made for exploitable vulnerabilities.          | 1. Can you show the actions taken to correct exploitable vulnerabilities and security weaknesses identified in the penetration tests?     |
+| 11.4.5.a        | Documentation Review, Segmentation Control Review                     | Segmentation controls documentation and penetration testing methodology covering segmentation methods. | 1. Can you verify that the penetration testing procedures are defined to test all segmentation methods as specified in this requirement?  |
+| 11.4.5.b        | Documentation Review, Penetration Test Review                         | Results from the most recent penetration test covering all specified elements.                         | 1. Can you show that the most recent penetration test covers and addresses all elements specified in this requirement?                    |
+| 11.4.5.c        | Personnel Interview                                                   | Evidence of tester qualifications and organizational independence.                                     | 1. Can you verify that the test was performed by a qualified resource with organizational independence?                                   |
+| 11.4.6.a        | Documentation Review (Service Provider Assessments Only)              | Results from the most recent penetration test covering all specified elements.                         | 1. Can you demonstrate that the most recent penetration test covers and addresses all elements specified in this requirement?             |
+| 11.4.6.b        | Personnel Interview (Service Provider Assessments Only)               | Evidence of tester qualifications and organizational independence.                                     | 1. Can you confirm that the test was performed by a qualified resource with organizational independence?                                  |
+| 11.4.7          | Documentation Review (Multi-Tenant Service Provider Assessments Only) | Evidence supporting external penetration testing per Requirements 11.4.3 and 11.4.4 for customers.     | 1. Can you provide evidence that supports your customers for external penetration testing as specified in Requirements 11.4.3 and 11.4.4? |
+| 11.5.1.a                                       | Documentation Review, Network Diagram Analysis        | System configurations, network diagrams                        | 1. Can you show where the intrusion-detection and/or intrusion-prevention techniques are implemented at the perimeter and critical points in the CDE?                  |
+| 11.5.1.b                                       | Documentation Review, Personnel Interview             | System configurations, testimonials from responsible personnel | 1. Can you demonstrate how the intrusion-detection and/or intrusion-prevention techniques alert personnel of suspected compromises?                                    |
+| 11.5.1.c                                       | Documentation Review                                  | System configurations, vendor documentation                    | 1. How do you ensure that all engines, baselines, and signatures related to intrusion-detection and/or intrusion-prevention techniques are kept up to date?            |
+| 11.5.1.1.a (Service Provider Assessments Only) | Documentation Review, Configuration Settings Analysis | Documentation, configuration settings                          | 1. Can you prove that methods to detect and alert on/prevent covert malware communication channels are operational?                                                    |
+| 11.5.1.1.b (Service Provider Assessments Only) | Documentation Review                                  | Incident-response plan (Requirement 12.10.1)                   | 1. How does your incident-response plan address the detection of covert malware communication channels?                                                                |
+| 11.5.1.1.c (Service Provider Assessments Only) | Personnel Interview, Process Observation              | Testimonials from responsible personnel, process documentation | 1. Can you explain how your personnel maintain knowledge of covert malware communication and control techniques and the procedure for responding to suspected malware? |
+| 11.5.2.a                                       | Documentation Review, System Settings Analysis        | System settings, monitored files, monitoring activity results  | 1. Can you demonstrate the functionality of your change-detection mechanism and how it is used?                                                                        |
+| 11.5.2.b                                       | Configuration Review                                  | Change-detection mechanism settings                            | 1. How is the change-detection mechanism configured to comply with the elements specified in this requirement?                                                         |
+| 11.6.1.a        | Documentation Review, System Settings Analysis | System settings, monitored payment pages, monitoring activity results                                                    | 1. Can you demonstrate how the change- and tamper-detection mechanism operates and how it monitors payment pages?                                                                              |
+| 11.6.1.b        | Configuration Review                           | Configuration settings for the change- and tamper-detection mechanism                                                    | 1. Can you show how the change- and tamper-detection mechanism is configured in accordance with all the elements specified in this requirement?                                                |
+| 11.6.1.c        | Risk Analysis Review                           | Documentation on targeted risk analysis performed in line with Requirement 12.3.1                                        | 1. Can you explain the risk analysis process that determined the frequency of the change- and tamper-detection mechanism's functions and show that it aligns with Requirement 12.3.1?          |
+| 11.6.1.d        | Configuration Review, Personnel Interview      | Configuration settings, interviews with personnel responsible for the mechanism, documentation on targeted risk analysis | 1. How often does the change- and tamper-detection mechanism function and how does this frequency align with either the once every seven days standard or the entity's targeted risk analysis? |
+
+[annotations 11](#annotations-requirement-11) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
+
+#### Annotations Requirement 12
+
+| Sub-Requirement | Type of Interview/Observation                          | Documentation & Evidence Expected                                                                                                | QSA Questions                                                                                                                                                                                                   |
+| --------------- | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 12.1.1          | Document Examination & Personnel Interview             | 1. Information security policy document 2. Records of policy updates and management practices                                    | 1. Can you demonstrate how the information security policy is managed and updated in line with the PCI DSS requirements?<br>2. How are personnel informed about the updates in the information security policy?    |
+| 12.1.2          | Document Examination & Responsible Personnel Interview | 1. Information security policy document 2. Records of policy management procedures                                               | 1. Can you explain the management process for the information security policy?<br>2. How do you ensure that all elements specified in this requirement are included and managed within the policy?                 |
+| 12.1.3.a        | Document Examination                                   | 1. Information security policy document 2. Document outlining defined roles and responsibilities related to information security | 1. Can you show where the information security roles and responsibilities are clearly defined for all personnel within the policy documents?<br>2. How are these roles communicated to the respective personnel?   |
+| 12.1.3.b        | Personnel Interview in Various Roles                   | 1. Training records 2. Documentation outlining information security responsibilities per role                                    | 1. Can you describe your information security responsibilities as per your role?<br>2. How were you informed or trained about these responsibilities?                                                              |
+| 12.1.3.c        | Document Examination                                   | 1. Signed acknowledgments from personnel regarding their information security responsibilities                                   | 1. Can you provide documentation showing that personnel acknowledge their information security responsibilities?<br>2. What process is in place to ensure that all personnel acknowledge their responsibilities?   |
+| 12.1.4          | Document Examination                                   | 1. Information security policy document 2. Official documentation assigning a CISO or equivalent role                            | 1. Can you show where the responsibility for information security is formally assigned within the organization?<br>2. How does the assigned executive manage and oversee information security in the organization? |
+| 12.2.1          | Document Examination & Responsible Personnel Interview | 1. Acceptable use policies for end-user technologies 2. Documentation evidencing the implementation of said policies | 1. Can you provide the acceptable use policy pertaining to end-user technologies?<br>2. How are these policies communicated to and acknowledged by the personnel?<br>3. Can you demonstrate the implementation of the processes as documented in the policy? |
+| 12.3.1          | Document Examination                       | 1. Documented policies and procedures outlining the process for targeted risk analyses 2. Evidence of adherence to the process including frequency and inclusivity of all elements as per this requirement | 1. Can you provide the policies and procedures for targeted risk analyses related to each PCI DSS requirement?<br>2. How do these policies ensure flexibility in the frequency of analyses conducted?<br>3. Can you demonstrate the inclusion of all elements specified in this requirement within the process?                       |
+| 12.3.2          | Document Examination                       | 1. Documented targeted risk analyses for each PCI DSS requirement 2. Evidence that the documentation is in line with all elements specified in this requirement                                            | 1. Can you showcase the documentation for targeted risk analyses pertaining to each PCI DSS requirement?<br>2. How do you ensure that the analyses align with all elements specified in this requirement?                                                                                                                          |
+| 12.3.3          | Document Examination & Personnel Interview | 1. Documentation detailing the cryptographic suites and protocols in use 2. Records of reviews conducted on the aforementioned documentation                                                               | 1. Can you provide the documentation which outlines the cryptographic suites and protocols currently in use?<br>2. Can you demonstrate that the documentation and reviews are in accordance with all the elements specified in this requirement?<br>3. How do you approach the review process for cryptographic suites and protocols? |
+| 12.3.4          | Document Examination & Personnel Interview | 1. Documentation detailing the review of hardware and software technologies in use 2. Records of personnel interviews and reviews conducted in line with this requirement                                  | 1. Could you provide the documentation of the reviews conducted on hardware and software technologies currently in use?<br>2. Can personnel elucidate the process followed for the reviews?<br>3. How do you ensure that the reviews are conducted in accordance with all elements specified in this requirement?                     |
+| 12.4.1          | Document Examination          | 1. Documented proof of executive management establishing responsibility for cardholder data protection 2. Evidence of a PCI DSS compliance program incorporating all elements specified in this requirement                                | 1. Can you provide documentation where executive management has assigned responsibilities for cardholder data protection?<br>2. How does the established PCI DSS compliance program incorporate all the elements specified in this requirement?                        |
+| 12.4.2.a        | Document Examination          | 1. Policies and procedures detailing the process for conducting reviews of personnel tasks 2. Evidence that the processes are in line with all security policies and operational procedures, including those specified in this requirement | 1. Can you provide the policies and procedures that detail how reviews are conducted to confirm personnel adherence to security policies and operational procedures?<br>2. How do these procedures ensure compliance with all the tasks specified in this requirement? |
+| 12.4.2.b        | Document Examination          | 1. Policies and procedures detailing the process for conducting reviews of personnel tasks 2. Evidence that the processes are in line with all security policies and operational procedures, including those specified in this requirement | 1. Can you provide the policies and procedures that detail how reviews are conducted to confirm personnel adherence to security policies and operational procedures?<br>2. How do these procedures ensure compliance with all the tasks specified in this requirement? |
+| 12.4.2.1        | Document Examination          | 1. Documentation from reviews conducted per PCI DSS Requirement 12.4.2 2. Evidence that the documentation encompasses all elements specified in this requirement                                                                           | 1. Can you showcase the documentation derived from reviews conducted as per PCI DSS Requirement 12.4.2?<br>2. How does the documentation comply with all elements specified in this requirement?                                                                       |
+| 12.5.1.a        | Document Examination                         | 1. Inventory list of all in-scope system components 2. Descriptions of function/use for each listed component                                                       | 1. Can you provide the inventory list that includes all in-scope system components?<br>2. How does the inventory detail the function/use of each component?                      |
+| 12.5.1.b        | Personnel Interview                          | Evidence that the inventory list is maintained and updated regularly                                                                                                | 1. How do you ensure that the inventory list is kept current?                                                                                                                    |
+| 12.5.2.a        | Document Examination and Personnel Interview | 1. Documented results of scope reviews 2. Evidence of regular reviews at least annually and post significant changes to the in-scope environment                    | 1. Can you demonstrate the frequency of the scope reviews?<br>2. How are scope reviews conducted following significant changes to the in-scope environment?                      |
+| 12.5.2.b        | Document Examination                         | Documentation that confirms PCI DSS scoping activities include all elements specified in this requirement                                                           | 1. Can you provide documented results of PCI DSS scoping confirmation activities that adhere to the criteria specified in this requirement?                                      |
+| 12.5.2.1.a      | Document Examination and Personnel Interview | 1. Documented results of scope reviews conducted at least semi-annually 2. Evidence of reviews following significant changes                                        | 1. Can you provide documentation of semi-annual scope reviews?<br>2. How are reviews handled following significant changes?                                                      |
+| 12.5.2.1.b      | Document Examination                         | Documentation that confirms scoping validation includes all elements specified in Requirement 12.5.2                                                                | 1. Can you provide evidence that scoping validation activities encompass all elements mentioned in Requirement 12.5.2?                                                           |
+| 12.5.3.a        | Document Examination                         | 1. Policies and procedures outlining the review process for significant organizational structure changes 2. Evidence of review impacting PCI DSS scope and controls | 1. Can you showcase policies and procedures that dictate the review process following substantial changes to the organizational structure?                                       |
+| 12.5.3.b        | Document Examination and Personnel Interview | 1. Documentation of reviews (e.g., meeting minutes) 2. Evidence of communication of review results to executive management                                          | 1. Can you provide documentation of reviews triggered by substantial changes to the organizational structure?<br>2. How were these results communicated to executive management? |
+| 12.6.1          | Document Examination                         | Security awareness program documentation detailing the entity’s information security policy and procedures, and personnel's roles regarding cardholder data protection. | 1. Can you provide documentation that illustrates how the security awareness program informs personnel about the security policy and their roles in protecting cardholder data? |
+| 12.6.2          | Document Examination and Personnel Interview | 1. Content of the security awareness program 2. Evidence of content reviews                                                                                              | 1. Can you demonstrate the content and structure of the security awareness program?<br>2. How are reviews of the program conducted and documented?                              |
+| 12.6.3.a        | Document Examination                         | Records demonstrating that personnel attend security awareness training upon hire and at least annually.                                                                 | 1. Can you provide records showcasing that personnel undergo security awareness training upon hire and at least once every 12 months?                                           |
+| 12.6.3.b        | Document Examination                         | Materials showcasing the various methods used within the security awareness program to communicate awareness and educate personnel.                                      | 2. What different methods are employed in the security awareness program to communicate awareness and educate personnel?                                                        |
+| 12.6.3.c        | Personnel Interview                          | Evidence from personnel interviews indicating completion of awareness training and understanding of their role in protecting cardholder data.                            | 1. Can you confirm that personnel have completed awareness training and are aware of their responsibilities in protecting cardholder data?                                      |
+| 12.6.3.d        | Document Examination                         | Acknowledgments from personnel, dated at least once every 12 months, confirming that they have read and understand the information security policy and procedures.       | 1. Can you present personnel acknowledgments indicating they have read and understood the information security policy and procedures at least annually?                         |
+| 12.6.3.1        | Document Examination                         | Documentation detailing the content of the security awareness training, ensuring it encompasses all elements specified in this requirement.                              | Does the security awareness training content include all elements specified in this sub-requirement?                                                                         |
+| 12.6.3.2        | Document Examination                         | Security awareness training materials showcasing content on the acceptable use of end-user technologies as stipulated in Requirement 12.2.1.                             | 1. Can you demonstrate that the security awareness training content incorporates awareness regarding the acceptable use of end-user technologies per Requirement 12.2.1?        |
+| 12.7.1          | Interview with HR Department Management | 1. HR policies related to personnel screening before hiring 2. Records of screening processes performed for personnel who have access to the Cardholder Data Environment (CDE). | 1. Can you describe the screening process conducted for potential hires who will have access to the CDE?<br>2. How do you ensure compliance with local laws during the screening process?<br>3. Can you provide records of screening processes conducted for recently hired personnel who have access to the CDE? |
+| 12.8.1.a        | Document Examination                       | Policies and procedures describing the maintenance of a list of TPSPs and the services they provide.                                                 | 1. How are the processes defined to maintain a list of TPSPs and the services they provide| 2. Can you provide the relevant documentation?                                                         |
+| 12.8.1.b        | Document Examination                       | A maintained list of all TPSPs with a description of the services provided.                                                                          | 1. Can you provide the current list of TPSPs along with a description of services each one provides?                                                                                            |
+| 12.8.2.a        | Document Examination                       | Policies and procedures documenting the requirement of maintaining written agreements with all TPSPs in line with the specifics of this requirement. | 1. How are the processes defined to maintain written agreements with TPSPs in line with this requirement| 2. Can you provide the relevant documentation?                                           |
+| 12.8.2.b        | Document Examination                       | Copies of written agreements with TPSPs maintained as per the elements specified in this requirement.                                                | 1. Can you provide copies of the written agreements with TPSPs which align with the specifications of this requirement?                                                                         |
+| 12.8.3.a        | Document Examination                       | Policies and procedures outlining the due diligence processes for engaging TPSPs.                                                                    | 2. What processes are defined for conducting due diligence before engaging with TPSPs| 2. Can you provide the relevant documentation?                                                              |
+| 12.8.3.b        | Document Examination & Personnel Interview | Evidence of due diligence undertaken prior to engaging TPSPs.                                                                                        | 1. Can you provide evidence of due diligence conducted prior to engaging with TPSPs| 2. Can I speak with the personnel responsible for this?                                                       |
+| 12.8.4.a        | Document Examination                       | Policies and procedures detailing the monitoring of TPSPs’ PCI DSS compliance status annually.                                                      | 2. What processes are defined for monitoring the PCI DSS compliance status of TPSPs annually| 2. Can you provide the relevant documentation?                                                       |
+| 12.8.4.b        | Document Examination & Personnel Interview | Documentation evidencing the annual monitoring of each TPSP's PCI DSS compliance status.                                                             | 1. Can you provide documentation showing the annual monitoring of TPSPs' PCI DSS compliance status| 2. Can I speak with the personnel responsible for this?                                        |
+| 12.8.5.a        | Document Examination                       | Policies and procedures documenting the information maintenance regarding PCI DSS requirements managed by each TPSP and the entity.                  | 1. How are the processes defined to maintain information about PCI DSS requirements managed by each TPSP and the entity| 2. Can you provide the relevant documentation?                            |
+| 12.8.5.b        | Document Examination & Personnel Interview | Documentation showcasing the information about PCI DSS requirements managed by each TPSP and the entity, and any shared responsibilities.            | 1. Can you provide documentation detailing the PCI DSS requirements managed by each TPSP, the entity, and any shared responsibilities| 2. Can I speak with the personnel knowledgeable about this? |
+| 12.9.1          | Document Examination          | TPSP policies, procedures, and templates used for drafting written agreements including written acknowledgments in line with the specifics of this requirement. | 1. Can you provide the policies, procedures, and templates used for crafting written agreements, especially focusing on written acknowledgments as stipulated in this requirement? |
+| 12.9.2          | Document Examination          | Policies and procedures that detail the processes TPSPs use to support customers’ requests for information as per Requirements 12.8.4 and 12.8.5.              | 1. Can you show the policies and procedures that outline how TPSPs address customers' information requests in line with Requirements 12.8.4 and 12.8.5?                            |
+| 12.10.1.a       | Document Examination                      | Incident response plan documentation, detailing the elements specified in this requirement.                                                                                                                   | 1. Could you provide the incident response plan and illustrate how it encompasses the elements mentioned in the requirement?                                                                            |
+| 12.10.1.b       | Interview & Document Examination          | Documentation and records from previously reported incidents or alerts.                                                                                                                                       | 1. Can you demonstrate with past incident documentation that the incident response plan and procedures were adhered to during previous incidents or alerts?                                             |
+| 12.10.2         | Interview & Document Review               | Documentation evidencing the annual review and testing of the incident response plan, including modifications made based on the testing and elements listed in Requirement 12.10.1.                           | 1. How is the annual review and testing of the security incident response plan conducted, and can you show documentation to verify the inclusion of elements mentioned in Requirement 12.10.1?          |
+| 12.10.3         | Interview & Document Examination          | Documentation specifying personnel assigned for 24/7 availability in case of security incidents.                                                                                                              | 1. Could you identify the personnel designated to be on-call 24/7 for security incidents and how their roles are defined in the documentation?                                                          |
+| 12.10.4         | Interview & Training Documentation Review | Training documentation highlighting the periodic training schedule and content for incident response personnel.                                                                                               | 1. Can you provide evidence of the periodic training undergone by incident response personnel and describe their responsibilities as outlined in the training documentation?                            |
+| 12.10.4.1.a     | Document Examination                      | Documentation detailing the entity's targeted risk analysis pertaining to the frequency of training for incident response personnel, complying with the guidelines specified in Requirement 12.3.1.           | 1. Could you showcase the risk analysis conducted to determine the training frequency for incident response personnel, ensuring it aligns with the elements stated in Requirement 12.3.1?               |
+| 12.10.4.1.b     | Interview & Document Examination          | Records of periodic training results and interviews confirming the adherence to the frequency defined through risk analysis as per this requirement.                                                          | 1. Can you demonstrate through records and personnel interviews that the training is conducted as frequently as defined through the entity's risk analysis for this requirement?                        |
+| 12.10.5         | Document Examination & Observation        | Documentation and practical demonstrations of how monitoring and responding to alerts from security monitoring systems are incorporated into the security incident response plan.                             | 1. Could you detail how the incident response processes encompass monitoring and responding to alerts from security monitoring systems, also demonstrating it practically?                              |
+| 12.10.6.a       | Document Examination                      | Policies and procedures illustrating the defined processes for evolving the security incident response plan based on lessons learned and industry developments.                                               | 1. Could you provide the policies and procedures that detail the processes for adapting the incident response plan based on lessons learned and industry trends?                                        |
+| 12.10.6.b       | Interview & Document Examination          | Documentation of the evolved security incident response plan along with interviews of responsible personnel elucidating on how the plan is modified to incorporate lessons learned and industry advancements. | 1. Can you demonstrate through documentation and interviews how the incident response plan has evolved over time, including adaptations based on lessons learned and industry developments?             |
+| 12.10.7.a       | Document Examination                      | Documented incident response procedures highlighting the steps to be taken upon detection of unexpected stored PAN, including all the elements specified in this requirement.                                 | 1. Could you present the documented procedures outlining the steps to be taken in the event of detecting unexpected stored PAN, ensuring that it encompasses all elements outlined in this requirement? |
+| 12.10.7.b       | Interview & Document Examination          | Personnel interviews and records of response actions detailing the adherence to incident response procedures upon the detection of unexpected stored PAN.                                                     | 1. Can you provide records and personnel testimonials confirming the initiation of incident response procedures upon detecting stored PAN in unexpected locations?                                      |
+
+
+[annotations 12](#annotations-requirement-12) | 
+[annotations](#annotations) | 
+[requirements](#requirements) | 
+[principles](#principles) |
+[top](#pci-dss-v40-annotated)
+
+---
