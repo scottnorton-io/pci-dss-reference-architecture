@@ -157,3 +157,97 @@
 
 **Note**: Both logs and scan results are categorized under "System Evidence" given their nature as technical system-related data, aligning with the PCI DSS v4.0 standards for assessing the enablement of anti-malware solutions.
 
+### sub-requirement 5.3.2.1
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.2.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 5.3.2.1.a Targeted Risk Analysis Review for Malware Scan Frequency
+- **Details**: Evidence for the examination of the entity's targeted risk analysis regarding the frequency of periodic malware scans, verifying that the risk analysis adheres to all elements specified in Requirement 12.3.1.
+
+**Note**: The classification as "Documentation Evidence" is based on the examination of the targeted risk analysis document, focusing on its compliance with the specified elements in Requirement 12.3.1, in line with PCI DSS v4.0 guidelines.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.2.1.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 5.3.2.1.b Periodic Malware Scans Results Review
+   - **Details**: Evidence for the examination of documented results of periodic malware scans to verify that the scans are conducted at the frequency defined in the entity's targeted risk analysis for this requirement.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 5.3.2.1.b Personnel Interview on Malware Scan Frequency
+   - **Details**: Evidence for interviews conducted with personnel to confirm that malware scans are performed in accordance with the frequency defined in the targeted risk analysis.
+
+**Note**: The categorization reflects the dual nature of the evidence being both documentation (for the results of periodic malware scans) and interviews (to verify the frequency of scans), aligning with the specific requirements of PCI DSS v4.0.
+
+### sub-requirement 5.3.3
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.3.a**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 5.3.3.a Anti-Malware Solutions Configuration for Removable Media
+- **Details**: Evidence for the examination of configurations of anti-malware solutions to verify that, for removable electronic media, the solution is configured to perform at least one of the elements specified in this requirement.
+
+**Note**: The classification as "System Evidence" is based on the focus on examining the configurations of anti-malware solutions, specifically regarding their settings for removable electronic media, in accordance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.3.b**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 5.3.3.b System Components with Removable Media Verification
+- **Details**: Evidence for the examination of system components with removable electronic media connected to verify that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement.
+
+**Note**: The categorization into "System Evidence" reflects the focus on examining system components, specifically those with removable electronic media, to ensure compliance with the anti-malware solution requirements as per PCI DSS v4.0.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.3.c**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 5.3.3.c Logs Verification for Anti-Malware Solution Enablement
+   - **Details**: Evidence for the examination of logs to verify that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 5.3.3.c Scan Results Verification for Anti-Malware Solution Enablement
+   - **Details**: Evidence for the examination of scan results to confirm that the anti-malware solution is enabled as per the specified elements of this requirement.
+
+**Note**: Both logs and scan results are categorized under "System Evidence" due to their nature as technical system-related data, aligning with the PCI DSS v4.0 standards for assessing the enablement of anti-malware solutions.
+
+### sub-requirement 5.3.4
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.4**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 5.3.4 Anti-Malware Solutions Configurations for Log Management
+- **Details**: Evidence for the examination of anti-malware solution configurations to verify that logs are enabled and retained in accordance with Requirement 10.5.1.
+
+**Note**: The categorization as "System Evidence" aligns with the focus on examining anti-malware solution configurations, particularly in the context of log management and retention, as specified in PCI DSS v4.0.
+
+### sub-requirement 5.3.5
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.5.a**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 5.3.5.a Anti-Malware Configurations for User Restrictions
+- **Details**: Evidence for the examination of anti-malware configurations to verify that the anti-malware mechanisms cannot be disabled or altered by users.
+
+**Note**: This classification as "System Evidence" is based on the examination of the anti-malware solution configurations, focusing on the security aspect of preventing unauthorized user modifications, in line with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.5.b**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 5.3.5.b Personnel Interview on Anti-Malware Mechanism Alteration
+   - **Details**: Evidence for interviews conducted with responsible personnel to verify that any requests to disable or alter anti-malware mechanisms are documented and authorized by management on a case-by-case basis and for a limited time.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 5.3.5.b Process Observation for Anti-Malware Mechanism Management
+   - **Details**: Evidence for observations of processes to confirm that the management of requests to disable or alter anti-malware mechanisms follows the specified protocol.
+
+**Note**: This categorization into "Interview Evidence" for personnel interactions and "Observation Evidence" for process observations aligns with the PCI DSS v4.0 standards for verifying management approval and documentation procedures for altering anti-malware mechanisms.
+
+### sub-requirement 5.4
+### sub-resuirement 5.4.1
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.4.1**
+
+1. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 5.4.1 Process Observation for Phishing Attack Protection
+   - **Details**: Evidence for the observation of implemented processes to verify that controls are in place for detecting and protecting against phishing attacks.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 5.4.1 Mechanisms Examination for Phishing Protection
+   - **Details**: Evidence for the examination of mechanisms that ensure controls are in place to detect and protect personnel against phishing attacks.
+
+**Note**: The categorization into "Observation Evidence" for observing processes and "System Evidence" for examining mechanisms aligns with the PCI DSS v4.0 guidelines for ensuring the effective detection and prevention of phishing attacks.
+
