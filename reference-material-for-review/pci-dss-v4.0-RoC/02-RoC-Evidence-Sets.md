@@ -105,3 +105,55 @@
    - **Details**: Evidence for interviews conducted with personnel to verify that the periodic evaluations of system components not at risk for malware are performed in accordance with the frequency defined in the targeted risk analysis.
 
 **Note**: This categorization reflects the dual nature of the evidence being both documentation (for the results of periodic evaluations) and interviews (to verify compliance with the frequency of evaluations), aligning with the specific requirements of PCI DSS v4.0.
+
+### sub-requirement 5.3
+### sub-requirement 5.3.1
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.1.a**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 5.3.1.a Anti-Malware Solutions Configuration for Automatic Updates
+- **Details**: Evidence for the examination of configurations of anti-malware solutions, including any master installations, to verify that the solution is configured for performing automatic updates.
+
+**Note**: The categorization into "System Evidence" is based on the focus on examining system configurations, specifically those related to the setup and operation of anti-malware solutions, in accordance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.1.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 5.3.1.b System Components Examination for Anti-Malware Currentness
+   - **Details**: Evidence for the examination of system components to verify that anti-malware solutions and definitions are current and have been promptly deployed.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 5.3.1.b Logs Review for Anti-Malware Updates
+   - **Details**: Evidence for the examination of logs to ensure the currentness and prompt deployment of anti-malware solutions and definitions.
+
+**Note**: The categorization into "System Evidence" for both system components and logs examination is based on their relevance to assessing the up-to-date status and deployment of anti-malware solutions, in line with PCI DSS v4.0 requirements.
+
+### sub-requirement 5.3.2
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.2.a**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 5.3.2.a Anti-Malware Solutions Configuration Review for Specified Elements
+- **Details**: Evidence for the examination of configurations of anti-malware solutions, including any master installations, to verify that the solution is configured to perform at least one of the elements specified in this requirement.
+
+**Note**: This categorization into "System Evidence" is based on the nature of the evidence, focusing on the configurations of anti-malware solutions, which is a key aspect of system-based evidence under PCI DSS v4.0 assessment protocols.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.2.b**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 5.3.2.b System Components Verification for Anti-Malware Enablement
+- **Details**: Evidence for the examination of system components, including all operating system types identified as at risk for malware, to verify that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement.
+
+**Note**: The classification as "System Evidence" is due to the focus on examining system components, which aligns with the PCI DSS v4.0 guidelines for ensuring that anti-malware solutions are appropriately enabled on at-risk operating systems.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 5.3.2.c**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 5.3.2.c Logs Verification for Anti-Malware Enablement
+   - **Details**: Evidence for the examination of logs to verify that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 5.3.2.c Scan Results Verification for Anti-Malware Enablement
+   - **Details**: Evidence for the examination of scan results to confirm that the anti-malware solution is enabled as per the specified elements of this requirement.
+
+**Note**: Both logs and scan results are categorized under "System Evidence" given their nature as technical system-related data, aligning with the PCI DSS v4.0 standards for assessing the enablement of anti-malware solutions.
+
