@@ -91,3 +91,78 @@
 **Note**: This categorization involves "System Evidence" for assessing technical changes in NSC configurations, "Interview Evidence" for verifying the management of these changes, and "Documentation Evidence" for reviewing related change control records, ensuring comprehensive compliance with PCI DSS v4.0 standards.
 
 ### sub-requirement 1.2.3
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 1.2.3.a**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 1.2.3.a Network Diagrams Examination for Accuracy
+   - **Details**: Evidence for the examination of network diagrams to verify their accuracy and compliance with all elements specified in this requirement.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 1.2.3.a Network Configurations Review for Diagram Consistency
+   - **Details**: Evidence for the examination of network configurations to ensure that they correspond accurately with the network diagrams and meet the specified requirements.
+
+**Note**: This categorization involves "Documentation Evidence" for assessing the accuracy and completeness of network diagrams, and "System Evidence" for verifying the consistency between diagrams and actual network configurations, in alignment with PCI DSS v4.0 requirements.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 1.2.3.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 1.2.3.b Documentation Review for Network Diagram Accuracy
+   - **Details**: Evidence for the examination of documentation to verify that network diagrams are accurate and are updated to reflect changes in the environment.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 1.2.3.b Personnel Interview on Network Diagram Maintenance
+   - **Details**: Evidence for interviews conducted with responsible personnel to confirm that network diagrams are kept current and accurately represent the network environment, especially after changes.
+
+**Note**: This categorization involves "Documentation Evidence" for assessing the documentation related to network diagrams, and "Interview Evidence" for verifying through discussions with personnel that the diagrams are actively maintained and updated.
+
+### sub-requirement 1.2.4
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 1.2.4.a**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 1.2.4.a Data-Flow Diagrams Examination
+   - **Details**: Evidence for the examination of data-flow diagrams to verify that they accurately depict all account data flows in accordance with the specified elements of this requirement.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 1.2.4.a Personnel Interview on Data-Flow Management
+   - **Details**: Evidence for interviews conducted with personnel responsible for the creation and maintenance of data-flow diagrams, ensuring these diagrams accurately represent all account data flows as per the requirements.
+
+**Note**: This categorization involves "Documentation Evidence" for assessing the accuracy and completeness of data-flow diagrams, and "Interview Evidence" for verifying the effective management and updating of these diagrams.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 1.2.4.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 1.2.4.b Documentation Review for Data-Flow Diagram Accuracy
+   - **Details**: Evidence for the examination of documentation to verify that data-flow diagrams are accurate and are updated to reflect changes in the environment.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 1.2.4.b Personnel Interview on Data-Flow Diagram Maintenance
+   - **Details**: Evidence for interviews conducted with responsible personnel to confirm that data-flow diagrams are kept current and accurately represent data flows, especially after changes in the environment.
+
+**Note**: This categorization involves "Documentation Evidence" for assessing the documentation related to data-flow diagrams, and "Interview Evidence" for verifying through discussions with personnel that the diagrams are actively maintained and updated.
+
+### sub-requirement 1.2.5
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 1.2.5.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 1.2.5.a Documentation Review for Allowed Services, Protocols, and Ports
+- **Details**: Evidence for the examination of documentation to verify that there is a list of all allowed services, protocols, and ports, including the business justification and approval for each.
+
+**Note**: This classification as "Documentation Evidence" is based on reviewing the documentation that records and justifies the allowed services, protocols, and ports, ensuring compliance with PCI DSS v4.0 requirements for network security management.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 1.2.5.b**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 1.2.5.b Configuration Settings Examination for Approved Services, Protocols, and Ports
+- **Details**: Evidence for the examination of configuration settings for Network Security Controls (NSCs) to verify that only approved services, protocols, and ports are in use.
+
+**Note**: This classification as "System Evidence" is focused on the technical evaluation of NSC configuration settings, ensuring that they align with the approved list of services, protocols, and ports as per PCI DSS v4.0 standards for secure network configuration.
+
+### sub-requirement 1.2.6
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 1.2.6.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 1.2.6.a Review of Documentation for Insecure Services, Protocols, and Ports
+- **Details**: Evidence for the examination of documentation that identifies all insecure services, protocols, and ports in use, verifying that for each, appropriate security features are defined to mitigate the associated risks.
+
+**Note**: This classification as "Documentation Evidence" is based on reviewing the documentation that outlines the insecure services, protocols, and ports, and the corresponding security measures implemented to mitigate the risks, ensuring adherence to PCI DSS v4.0 requirements for secure network practices.
+
