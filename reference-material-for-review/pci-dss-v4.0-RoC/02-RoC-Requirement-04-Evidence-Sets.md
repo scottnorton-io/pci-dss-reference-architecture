@@ -34,7 +34,6 @@
 
 ### sub-requirement 4.2
 ### sub-requirement 4.2.1
-
 **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 4.2.1.a**
 
 1. **Category**: Documentation Evidence
@@ -70,3 +69,50 @@
 - **Details**: Evidence for the examination of system configurations to verify that keys and/or certificates that cannot be verified as trusted are rejected.
 
 **Note**: This categorization as "System Evidence" focuses on the technical evaluation of system configurations, ensuring that only trusted keys and certificates are accepted, in line with PCI DSS v4.0 standards for secure data transmission and authentication.
+
+### sub-requirement 4.2.1.1
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 4.2.1.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 4.2.1.1.a Policies and Procedures for Trusted Keys and Certificates Inventory
+- **Details**: Evidence for the examination of documented policies and procedures to verify that processes are defined for the entity to maintain an inventory of its trusted keys and certificates.
+
+**Note**: The classification as "Documentation Evidence" is based on reviewing the documented policies and procedures that establish the processes for maintaining a secure inventory of trusted keys and certificates, ensuring compliance with PCI DSS v4.0 standards for key and certificate management.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 4.2.1.1.b**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 4.2.1.1.b Examination of Trusted Keys and Certificates Inventory
+- **Details**: Evidence for the examination of the inventory of trusted keys and certificates to verify that it is maintained and kept up to date.
+
+**Note**: This categorization as "Documentation Evidence" is based on the assessment of the inventory records, ensuring that the management of trusted keys and certificates aligns with PCI DSS v4.0 requirements for secure cryptographic practices.
+
+### sub-requirement 4.2.1.2
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 4.2.1.2**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 4.2.1.2 System Configurations Review for Wireless Network Security
+- **Details**: Evidence for the examination of system configurations to verify that wireless networks transmitting Primary Account Number (PAN) data, or those connected to the Cardholder Data Environment (CDE), use industry best practices to implement strong cryptography for authentication and data transmission.
+
+**Note**: The classification as "System Evidence" focuses on the technical evaluation of system configurations, particularly of wireless networks, to ensure the implementation of strong cryptographic measures in accordance with PCI DSS v4.0 standards and industry best practices.
+
+### sub-requirement 4.2.2
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 4.2.2.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 4.2.2.a Policies and Procedures for Securing PAN over Messaging Technologies
+- **Details**: Evidence for the examination of documented policies and procedures to verify that processes are defined to secure Primary Account Number (PAN) data with strong cryptography whenever it is sent over end-user messaging technologies.
+
+**Note**: This classification as "Documentation Evidence" is based on reviewing the documented policies and procedures that establish the security measures for transmitting PAN data via messaging technologies, ensuring compliance with PCI DSS v4.0 standards for data protection and encryption.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 4.2.2.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 4.2.2.b System Configurations Review for PAN Security in Messaging
+   - **Details**: Evidence for the examination of system configurations to verify that Primary Account Number (PAN) is secured with strong cryptography when sent via end-user messaging technologies.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 4.2.2.b Vendor Documentation Review for Messaging Technology Security
+   - **Details**: Evidence for the examination of vendor documentation to confirm that end-user messaging technologies secure PAN data with strong cryptography.
+
+**Note**: This categorization involves "System Evidence" for assessing the technical configurations and "Documentation Evidence" for reviewing vendor documentation, ensuring compliance with PCI DSS v4.0 requirements for the secure transmission of PAN data via messaging technologies.
