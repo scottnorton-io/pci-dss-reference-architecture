@@ -145,3 +145,46 @@
 **Note**: This categorization involves "System Evidence" for assessing the technical aspects of account privileges, and "Interview Evidence" for verifying the implementation and oversight of account management processes, in line with PCI DSS v4.0 requirements.
 
 ### sub-requirement 7.2.5.1
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.5.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 7.2.5.1.a Review Processes for Application and System Accounts Policies and Procedures
+- **Details**: Evidence for the examination of policies and procedures to verify that they define processes for reviewing all application and system accounts and related access privileges, in accordance with all elements specified in this requirement.
+
+**Note**: The classification as "Documentation Evidence" is based on reviewing the policies and procedures that establish the processes for regular review of application and system accounts, ensuring compliance with PCI DSS v4.0 standards for access control and account management.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.5.1.b**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 7.2.5.1.b Targeted Risk Analysis Review for Account Review Frequency
+- **Details**: Evidence for the examination of the entity’s targeted risk analysis concerning the frequency of periodic reviews of application and system accounts and related access privileges, verifying that the risk analysis adheres to all elements specified in Requirement 12.3.1.
+
+**Note**: This categorization as "Documentation Evidence" is focused on assessing the entity's targeted risk analysis document, ensuring that the periodic review frequency for accounts and privileges is determined in line with the specific requirements of PCI DSS v4.0.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.5.1.c**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 7.2.5.1.c Personnel Interview on Periodic Account Reviews
+   - **Details**: Evidence for interviews conducted with responsible personnel to verify that periodic reviews of system and application accounts and related privileges are carried out in accordance with all specified elements of this requirement.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 7.2.5.1.c Documented Results Review for Periodic Account Reviews
+   - **Details**: Evidence for the examination of documented results of periodic reviews of system and application accounts and their access privileges, ensuring that these reviews comply with the specified requirements.
+
+**Note**: This categorization involves "Interview Evidence" for verifying the implementation and oversight of the review process through discussions with responsible staff, and "Documentation Evidence" for assessing the documented results of these periodic reviews, aligning with PCI DSS v4.0 standards for account management and review.
+
+### sub-requirement 7.3
+### sub-requirement 7.3.1
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.3.1**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 7.3.1 Vendor Documentation Review for Access Control Systems
+   - **Details**: Evidence for the examination of vendor documentation to verify that access is managed for each system component through an access control system that restricts access based on a user’s need to know, covering all system components.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 7.3.1 System Settings Examination for Access Control
+   - **Details**: Evidence for the examination of system settings to confirm that access control systems are properly configured to restrict access based on a user’s need to know, encompassing all system components.
+
+**Note**: The categorization into "Documentation Evidence" for reviewing vendor documentation and "System Evidence" for assessing system settings aligns with the PCI DSS v4.0 standards for ensuring effective access control across all system components.
+
+### sub-requirement 7.3.2
