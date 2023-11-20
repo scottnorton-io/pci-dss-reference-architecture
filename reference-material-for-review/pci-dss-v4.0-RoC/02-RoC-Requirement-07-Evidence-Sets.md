@@ -90,3 +90,58 @@
 
 **Note**: This classification as "Documentation Evidence" is based on reviewing the policies and procedures that outline the process for approving privileges, ensuring compliance with PCI DSS v4.0 standards for access control and privilege management.
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.3.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 7.2.3.b User IDs and Privileges Examination
+   - **Details**: Evidence for the examination of user IDs and assigned privileges, focusing on verifying that the privileges are appropriately documented and approved, and that they align with the roles assigned to each individual.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 7.2.3.b Documented Approvals Review for Assigned Privileges
+   - **Details**: Evidence for the examination of documented approvals to confirm that each assigned privilege has been approved by authorized personnel and matches the specified role of the individual.
+
+**Note**: This categorization involves "System Evidence" for assessing user IDs and privileges, and "Documentation Evidence" for reviewing the approvals, ensuring alignment with PCI DSS v4.0 standards for privilege management and approval processes.
+
+### sub-requirement 7.2.4
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.4.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 7.2.4.a Review Processes for User Accounts and Access Privileges
+- **Details**: Evidence for the examination of policies and procedures to verify that they define processes for reviewing all user accounts and related access privileges, including those of third-party/vendors, in accordance with all elements specified in this requirement.
+
+**Note**: This classification as "Documentation Evidence" is based on reviewing the policies and procedures that establish the processes for regular review of user accounts and their access privileges, ensuring compliance with PCI DSS v4.0 standards for access control and account management.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.4.b**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 7.2.4.b Personnel Interview on Account Review Processes
+   - **Details**: Evidence for interviews conducted with responsible personnel to verify that the periodic reviews of user accounts, including those of third-party/vendors, comply with all specified elements of this requirement.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 7.2.4.b Documented Results Review for Periodic Account Reviews
+   - **Details**: Evidence for the examination of documented results from periodic reviews of user accounts to confirm compliance with the specified elements in this requirement.
+
+**Note**: This categorization involves "Interview Evidence" for verifying operational compliance through discussions with responsible staff, and "Documentation Evidence" for assessing the actual documented results of periodic account reviews, aligning with PCI DSS v4.0 standards for account management and review.
+
+### sub-requirement 7.2.5
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.5.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 7.2.5.a Management of Application and System Accounts Policies and Procedures
+- **Details**: Evidence for the examination of policies and procedures to verify that they define processes for managing and assigning application and system accounts and related access privileges, in accordance with all elements specified in this requirement.
+
+**Note**: This classification as "Documentation Evidence" is based on reviewing the policies and procedures that establish the processes for managing and assigning application and system accounts, ensuring adherence to the PCI DSS v4.0 standards for access control and privilege management.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.2.5.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 7.2.5.b Examination of Privileges for System and Application Accounts
+   - **Details**: Evidence for the examination of privileges associated with system and application accounts to verify that these accounts and their access privileges are assigned and managed in accordance with all specified elements of this requirement.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 7.2.5.b Personnel Interview on Account Management
+   - **Details**: Evidence for interviews conducted with responsible personnel to confirm the proper assignment and management of application and system account privileges, ensuring compliance with the specified elements.
+
+**Note**: This categorization involves "System Evidence" for assessing the technical aspects of account privileges, and "Interview Evidence" for verifying the implementation and oversight of account management processes, in line with PCI DSS v4.0 requirements.
+
+### sub-requirement 7.2.5.1
