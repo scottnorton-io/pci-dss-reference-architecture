@@ -188,3 +188,27 @@
 **Note**: The categorization into "Documentation Evidence" for reviewing vendor documentation and "System Evidence" for assessing system settings aligns with the PCI DSS v4.0 standards for ensuring effective access control across all system components.
 
 ### sub-requirement 7.3.2
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.3.2**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 7.3.2 Vendor Documentation Review for Access Control System Configuration
+   - **Details**: Evidence for the examination of vendor documentation to verify that the access control system is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 7.3.2 System Settings Examination for Access Control Enforcement
+   - **Details**: Evidence for the examination of system settings to confirm that the access control systems are properly configured to enforce permissions in alignment with job classifications and functions.
+
+**Note**: The categorization into "Documentation Evidence" for reviewing vendor documentation and "System Evidence" for assessing system settings aligns with the PCI DSS v4.0 standards for ensuring the effective enforcement of permissions through access control systems.
+
+### sub-requirement 7.3.3
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 7.3.3**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 7.3.3 Vendor Documentation Review for Default Deny Access Control
+   - **Details**: Evidence for the examination of vendor documentation to verify that the access control systems are set to a default state of “deny all”.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 7.3.3 System Settings Examination for Default Deny Configuration
+   - **Details**: Evidence for the examination of system settings to confirm that the access control systems are configured to “deny all” by default, as a fundamental security measure.
+
+**Note**: This classification into "Documentation Evidence" for reviewing vendor documentation and "System Evidence" for assessing system settings ensures alignment with PCI DSS v4.0 requirements for robust access control through default denial of access.
