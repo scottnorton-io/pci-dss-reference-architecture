@@ -303,3 +303,276 @@
 
 **Note**: This classification as "System Evidence" focuses on the technical evaluation of encryption processes, especially regarding their application in different types of electronic media, ensuring compliance with PCI DSS v4.0 standards for secure data encryption and storage.
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.2.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.5.1.2.b System Configurations Examination for Disk/Partition Encryption
+   - **Details**: Evidence for the examination of system configurations to verify that the system is configured according to vendor documentation, ensuring that the disk or partition is effectively rendered unreadable through encryption.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 3.5.1.2.b Vendor Documentation Review for Encryption Configuration
+   - **Details**: Evidence for examining vendor documentation related to the encryption process, confirming that it aligns with the system configuration for rendering disks or partitions unreadable.
+
+3. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 3.5.1.2.b Observation of Encryption Processes for Disk/Partition Unreadability
+   - **Details**: Evidence for observing the encryption processes in action, verifying that the implementation results in the disk or partition being rendered unreadable as per the specifications.
+
+**Note**: This categorization involves "System Evidence" for assessing the technical configurations, "Documentation Evidence" for reviewing vendor guidelines, and "Observation Evidence" for witnessing the practical application of encryption processes.
+
+### sub-requirement 3.5.1.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.3.a**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.5.1.3.a System Configuration Examination for Disk/Partition Encryption Access
+   - **Details**: Evidence for the examination of system configurations to verify that if disk-level or partition-level encryption is used to render the Primary Account Number (PAN) unreadable, logical access controls are implemented in accordance with all specified elements of this requirement.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 3.5.1.3.a Observation of Authentication Process for Encrypted Disk/Partition
+   - **Details**: Evidence for observing the authentication process to confirm that access to the encrypted disk or partition is secured and managed as per the required standards.
+
+**Note**: This categorization includes "System Evidence" for reviewing the configuration of encrypted systems, ensuring that logical access controls are properly set up, and "Observation Evidence" for witnessing the actual authentication process in practice, verifying compliance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.3.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.5.1.3.b Examination of Files for Secure Authentication Factor Storage
+   - **Details**: Evidence for the examination of files containing authentication factors (such as passwords, passphrases, or cryptographic keys) to verify that these factors, which allow access to unencrypted data, are stored securely and independently from the native operating system’s authentication and access control methods.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 3.5.1.3.b Personnel Interview on Authentication Factor Management
+   - **Details**: Evidence for interviews conducted with personnel to confirm their understanding and implementation of secure storage and management of authentication factors separate from the operating system’s native mechanisms.
+
+**Note**: This categorization involves "System Evidence" for assessing the security of files where authentication factors are stored, and "Interview Evidence" for verifying personnel knowledge and practices regarding the secure and independent handling of these factors.
+
+### sub-requirement 3.6
+### sub-requirement 3.6.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.6.1**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.6.1 Key-Management Policies and Procedures Documentation Review
+- **Details**: Evidence for the examination of documented key-management policies and procedures to verify that processes to protect cryptographic keys used for securing stored account data against disclosure and misuse are defined, including all elements specified in Requirement 3.6.1.
+
+**Note**: This classification as "Documentation Evidence" is focused on reviewing the written policies and procedures related to key management, ensuring that they comprehensively cover the protection of cryptographic keys as per PCI DSS v4.0 standards.
+
+### sub-requirement 3.6.1.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.6.1.1 (Service Provider Assessments)**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 3.6.1.1 Service Provider Personnel Interview on Cryptographic Architecture
+   - **Details**: Evidence for interviews conducted with responsible personnel at the service provider to verify the existence and understanding of a document that describes the cryptographic architecture, including all elements specified in this requirement.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 3.6.1.1 Cryptographic Architecture Documentation Review for Service Providers
+   - **Details**: Evidence for the examination of documentation at the service provider that describes the cryptographic architecture, ensuring it includes all specified elements in this requirement.
+
+**Note**: This categorization involves "Interview Evidence" for verifying knowledge and practices related to cryptographic architecture through discussions with relevant staff, and "Documentation Evidence" for assessing the completeness and compliance of the cryptographic architecture documentation.
+
+### sub-requirement 3.6.1.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.6.1.2.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.6.1.2.a Procedures Review for Forms of Cryptographic Keys
+- **Details**: Evidence for the examination of documented procedures to verify that cryptographic keys used for encrypting/decrypting stored account data are defined to exist only in one or more of the forms specified in this requirement.
+
+**Note**: This classification as "Documentation Evidence" is focused on reviewing the procedures that detail the permissible forms of cryptographic keys used for account data encryption/decryption, ensuring compliance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.6.1.2.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.6.1.2.b System Configurations Examination for Cryptographic Key Forms
+   - **Details**: Evidence for the examination of system configurations to verify that cryptographic keys used to encrypt/decrypt stored account data exist in one or more of the forms specified in this requirement, in accordance with PCI DSS standards.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.6.1.2.b Key Storage Locations Review for Compliance
+   - **Details**: Evidence for examining key storage locations to confirm that cryptographic keys used for account data encryption/decryption are stored in compliance with the specified forms required by PCI DSS v4.0.
+
+**Note**: Both elements of this requirement are categorized under "System Evidence" as they involve assessing the technical aspects of system configurations and key storage practices for cryptographic keys.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.6.1.2.c**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.6.1.2.c System Configurations Review for Key-Encrypting Key Strength
+   - **Details**: Evidence for examining system configurations to verify that key-encrypting keys (KEKs) are at least as strong as the data-encrypting keys (DEKs) they protect, ensuring adherence to PCI DSS standards for key strength.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.6.1.2.c Key Storage Locations Examination for Separation of KEKs and DEKs
+   - **Details**: Evidence for examining key storage locations to confirm that key-encrypting keys are stored separately from data-encrypting keys, in line with PCI DSS requirements for key management and storage.
+
+**Note**: Both elements of this requirement are classified as "System Evidence" due to their focus on the technical assessment of system configurations and key storage practices, particularly the strength and storage separation of key-encrypting and data-encrypting keys.
+
+### sub-requirement 3.6.1.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.6.1.3**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 3.6.1.3 User Access Lists Examination for Key Access Restriction
+- **Details**: Evidence for the examination of user access lists to verify that access to cleartext cryptographic key components is restricted to the fewest number of custodians necessary, ensuring compliance with PCI DSS v4.0 standards for minimal access to sensitive key components.
+
+**Note**: This classification as "System Evidence" is focused on reviewing user access lists to assess the control measures in place for restricting access to cleartext cryptographic keys, in line with the requirement to limit access to key custodians.
+
+### sub-requirement 3.6.1.4
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.6.1.4**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 3.6.1.4 Key Storage Locations Examination for Minimal Storage
+   - **Details**: Evidence for the examination of key storage locations to verify that cryptographic keys are stored in the fewest possible locations, in line with PCI DSS standards for secure key management.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 3.6.1.4 Observation of Key Management Processes
+   - **Details**: Evidence for observing processes related to key storage and management to confirm that practices are in place to minimize the number of locations where cryptographic keys are stored.
+
+**Note**: This categorization includes "System Evidence" for assessing the physical or logical storage locations of keys and "Observation Evidence" for witnessing the operational processes in practice, ensuring key storage is optimized for security and compliance.
+
+### sub-requirement 3.7
+### sub-requiremetn 3.7.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.1.a Key-Management Policies and Procedures Review for Strong Key Generation
+- **Details**: Evidence for the examination of documented key-management policies and procedures related to keys used for the protection of stored account data, verifying that they define the generation of strong cryptographic keys.
+
+**Note**: This classification as "Documentation Evidence" focuses on reviewing the written policies and procedures concerning key management, particularly the aspects related to the generation of strong cryptographic keys, ensuring compliance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.1.b**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 3.7.1.b Observation of Key Generation Methods for Strong Keys
+- **Details**: Evidence for observing the method used for generating cryptographic keys to verify that strong keys are being generated, in line with PCI DSS standards for secure key management.
+
+**Note**: This classification as "Observation Evidence" focuses on the direct witnessing of the key generation process, ensuring that the methods used are robust and produce strong cryptographic keys as required by PCI DSS v4.0.
+
+### sub-requirement 3.7.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.2.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.2.a Key-Management Policies and Procedures Review for Secure Key Distribution
+- **Details**: Evidence for the examination of documented key-management policies and procedures related to keys used for the protection of stored account data, verifying that they define the secure distribution of cryptographic keys.
+
+**Note**: This classification as "Documentation Evidence" is focused on reviewing the written policies and procedures concerning key management, specifically those related to the secure distribution of cryptographic keys, ensuring alignment with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.2.b**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 3.7.2.b Observation of Cryptographic Key Distribution Methods
+- **Details**: Evidence for observing the method used for distributing cryptographic keys to verify that the keys are distributed securely, ensuring adherence to PCI DSS standards for secure key management.
+
+**Note**: This classification as "Observation Evidence" involves directly witnessing the key distribution process, ensuring that the methods employed are secure and align with the best practices and requirements set forth by PCI DSS v4.0.
+
+### sub-requirement 3.7.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.3.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.3.a Key-Management Policies and Procedures Review for Secure Key Storage
+- **Details**: Evidence for the examination of documented key-management policies and procedures related to keys used for the protection of stored account data, verifying that they define the secure storage of cryptographic keys.
+
+**Note**: This classification as "Documentation Evidence" focuses on assessing the written policies and procedures concerning the secure storage of cryptographic keys, ensuring that these practices are in compliance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.3.b**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 3.7.3.b Observation of Cryptographic Key Storage Methods
+- **Details**: Evidence for observing the method used for storing cryptographic keys to verify that the keys are stored securely, in accordance with PCI DSS standards for key management and security.
+
+**Note**: This classification as "Observation Evidence" involves directly witnessing the key storage process, ensuring that the methods and practices employed provide secure storage of cryptographic keys as required by PCI DSS v4.0.
+
+### sub-requirement 3.7.4
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.4.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.4.a Key-Management Policies and Procedures Review for Cryptoperiod Management
+- **Details**: Evidence for the examination of documented key-management policies and procedures for keys used in the protection of stored account data, verifying that they define the processes for changing cryptographic keys at the end of their cryptoperiod and include all elements specified in this requirement.
+
+**Note**: This classification as "Documentation Evidence" is focused on assessing the written policies and procedures regarding the management of cryptographic keys' cryptoperiods, ensuring they are aligned with PCI DSS v4.0 standards for secure key lifecycle management.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.4.b**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 3.7.4.b Personnel Interview on Key Cryptoperiod Management
+   - **Details**: Evidence for interviews conducted with personnel to verify their understanding and implementation of the processes for changing cryptographic keys at the end of their defined cryptoperiods.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 3.7.4.b Documentation Review for Key Cryptoperiod Compliance
+   - **Details**: Evidence for examining documentation that supports the practice of changing keys at the end of their cryptoperiods, ensuring that these practices are well-documented and in line with PCI DSS standards.
+
+3. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 3.7.4.b Observation of Key Storage Locations for Cryptoperiod Adherence
+   - **Details**: Evidence for observing key storage locations to confirm that cryptographic keys are indeed changed at the end of their defined cryptoperiods, as per the organization's key-management policies and procedures.
+
+**Note**: This categorization includes "Interview Evidence" for assessing personnel knowledge and practices, "Documentation Evidence" for reviewing supporting documents, and "Observation Evidence" for directly witnessing the key storage practices related to cryptoperiod compliance.
+
+### sub-requirement 3.7.5
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.5.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.5.a Key-Management Policies and Procedures Review for Key Retirement/Replacement
+- **Details**: Evidence for the examination of documented key-management policies and procedures for keys used in the protection of stored account data, verifying that they define the retirement, replacement, or destruction of keys in accordance with all elements specified in this requirement.
+
+**Note**: This classification as "Documentation Evidence" focuses on reviewing the written policies and procedures related to the lifecycle management of cryptographic keys, including their retirement, replacement, or destruction, ensuring alignment with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.5.b**
+
+**Category**: Interview Evidence
+- **Reference Name**: Requirement 3.7.5.b Personnel Interviews on Key Retirement/Replacement Processes
+- **Details**: Evidence for interviews conducted with personnel to verify that the processes for the retirement, replacement, or destruction of cryptographic keys used for the protection of stored account data are implemented in accordance with all elements specified in this requirement.
+
+**Note**: This classification as "Interview Evidence" focuses on assessing the practical implementation and understanding of key management processes among personnel, ensuring these processes align with the organization's documented procedures and PCI DSS v4.0 standards.
+
+### sub-requirement 3.7.6
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.6.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.6.a Key-Management Policies and Procedures Review for Split Knowledge and Dual Control
+- **Details**: Evidence for the examination of documented key-management policies and procedures for keys used in the protection of stored account data, verifying that they define the use of split knowledge and dual control principles in key management.
+
+**Note**: This classification as "Documentation Evidence" is focused on reviewing the documented procedures and policies, ensuring they adequately describe the implementation of split knowledge and dual control methods for secure cryptographic key management, in line with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.6.b**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 3.7.6.b Personnel Interviews on Managing Manual Cleartext Keys with Split Knowledge and Dual Control
+   - **Details**: Evidence for interviews conducted with personnel to verify that manual cleartext keys are managed with split knowledge and dual control, ensuring adherence to PCI DSS standards for key management.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 3.7.6.b Observation of Processes for Split Knowledge and Dual Control in Key Management
+   - **Details**: Evidence for observing processes to confirm that manual cleartext keys are managed using split knowledge and dual control principles, in accordance with PCI DSS requirements.
+
+**Note**: This categorization includes "Interview Evidence" for assessing the understanding and practices of personnel regarding key management, and "Observation Evidence" for directly witnessing the operational processes that implement split knowledge and dual control in managing manual cleartext keys.
+
+### sub-requirement 3.7.7
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.7.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.7.a Key-Management Policies and Procedures Review for Preventing Unauthorized Key Substitution
+- **Details**: Evidence for the examination of documented key-management policies and procedures related to keys used for the protection of stored account data, verifying that they define measures to prevent unauthorized substitution of cryptographic keys.
+
+**Note**: This classification as "Documentation Evidence" focuses on reviewing the written policies and procedures that address the security controls in place to prevent the unauthorized substitution of cryptographic keys, ensuring compliance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.7.b**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 3.7.7.b Personnel Interviews on Preventing Unauthorized Key Substitution
+   - **Details**: Evidence for interviews conducted with personnel to verify that processes and controls are in place and understood to prevent unauthorized substitution of cryptographic keys, ensuring the security of key management practices.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 3.7.7.b Observation of Key Management Processes for Unauthorized Substitution Prevention
+   - **Details**: Evidence for observing key management processes to confirm that measures are effectively implemented to prevent unauthorized substitution of cryptographic keys, in line with PCI DSS standards.
+
+**Note**: This categorization includes "Interview Evidence" for assessing the knowledge and practices among personnel regarding the prevention of unauthorized key substitution, and "Observation Evidence" for directly witnessing operational procedures that enforce this security measure.
+
+### sub-requirement 3.7.8
+
+
+
+### sub-requirement 3.7.9
