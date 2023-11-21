@@ -573,6 +573,28 @@
 
 ### sub-requirement 3.7.8
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.8.a**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.8.a Key-Management Policies and Procedures Review for Key Custodian Acknowledgments
+- **Details**: Evidence for the examination of documented key-management policies and procedures related to keys used for the protection of stored account data, verifying that they define the process for acknowledgments by key custodians in accordance with all specified elements of this requirement.
+
+**Note**: This classification as "Documentation Evidence" focuses on reviewing the documented procedures and policies that outline the acknowledgment process for key custodians, ensuring they are comprehensive and in compliance with PCI DSS v4.0 standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.8.b**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.8.b Examination of Key Custodian Acknowledgments Documentation
+- **Details**: Evidence for examining documentation or other forms of evidence showing that key custodians have provided acknowledgments in accordance with all elements specified in this requirement, ensuring adherence to PCI DSS standards for key custodian management.
+
+**Note**: This classification as "Documentation Evidence" focuses on assessing the records or documented acknowledgments provided by key custodians, verifying that they comply with the established key-management policies and procedures.
 
 ### sub-requirement 3.7.9
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.7.9 (Service Provider Assessments)**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 3.7.9 Service Provider Customer Key Management Guidance Review
+- **Details**: Evidence for examining the documentation provided by the service provider to its customers, verifying that it includes comprehensive guidance on how to securely transmit, store, and update customers’ cryptographic keys. This examination ensures the guidance aligns with the standards specified in Requirements 3.7.1 through 3.7.8.
+
+**Note**: This classification as "Documentation Evidence" focuses on assessing the service provider's instructional materials or guidelines provided to customers, ensuring they encompass detailed and secure practices for cryptographic key management as required by PCI DSS v4.0.
