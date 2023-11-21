@@ -4,47 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "693ac7ca875c9051",
+        "id": "cd8d1dff383c41d1",
         "type": "tabs",
         "children": [
           {
-            "id": "0e745801e7fcc804",
+            "id": "e80eb510a33e2c70",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26dac96ceb7e5bfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c33051c43a9eab93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
-                "mode": "source",
-                "source": false
+                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md"
+                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf"
               }
             }
           }
@@ -171,16 +144,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c33051c43a9eab93",
+  "active": "e80eb510a33e2c70",
   "lastOpenFiles": [
     "documentation/third-party/PCI-DSS-v4_0.pdf",
+    "documentation/third-party/PCI_DSS-QRG-v4_0.pdf",
+    "reference-material-for-review/pci-dss-remote-assessment/00-remote-assessment-guidelines-and-procedures-v1.0.md",
+    "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
+    "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+    "reference-material-for-review/pci-dss-v4.0-annotated/pciv4.0-r01.01-CI-rev02-request.md",
+    "reference-material-for-review/pci-dss-v4.0-annotated/01-request-template.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "2023-11-21.md",
     "README.md",
     "reference-material-for-review/pci-dss-v4.0-RoC/Untitled.canvas",
-    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Requirement-01-Evidence-Sets.md",
-    "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md"
+    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Requirement-01-Evidence-Sets.md"
   ]
 }
