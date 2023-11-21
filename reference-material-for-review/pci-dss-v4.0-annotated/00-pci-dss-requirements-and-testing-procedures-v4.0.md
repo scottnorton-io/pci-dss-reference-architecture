@@ -16,7 +16,7 @@ This annotated reference is based on information sourced from [PCI SSC and the P
 
 [PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy](#principle-pci-dss-requirement-maintain-an-information-security-policy)
 
-[Appendix A Additonal PCI Requirements](#appendix-a-additonal-pci-requirements)
+[Appendix A Additional PCI Requirements](#appendix-a-additional-pci-requirements)
 
 [Appendix B Compensating Controls](#appendix-b-compensating-controls)
 

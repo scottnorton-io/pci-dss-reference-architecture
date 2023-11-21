@@ -11,13 +11,40 @@
             "id": "0e745801e7fcc804",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documentation/third-party/PCI-DSS-v4_0.pdf"
+                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26dac96ceb7e5bfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c33051c43a9eab93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -83,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "documentation/third-party/PCI-DSS-v4_0.pdf",
+                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "documentation/third-party/PCI-DSS-v4_0.pdf",
+                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "documentation/third-party/PCI-DSS-v4_0.pdf"
+                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md"
               }
             }
           }
@@ -144,8 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e745801e7fcc804",
+  "active": "c33051c43a9eab93",
   "lastOpenFiles": [
+    "documentation/third-party/PCI-DSS-v4_0.pdf",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
