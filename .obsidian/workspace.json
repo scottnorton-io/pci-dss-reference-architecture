@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "cd8d1dff383c41d1",
+        "id": "2948a5d18188a391",
         "type": "tabs",
         "children": [
           {
-            "id": "e80eb510a33e2c70",
+            "id": "08dce2b31f8e9a7a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf"
+                "file": "reference-material-for-review/obsidian-framework/00.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf",
+                "file": "reference-material-for-review/obsidian-framework/00.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf",
+                "file": "reference-material-for-review/obsidian-framework/00.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf"
+                "file": "reference-material-for-review/obsidian-framework/00.md"
               }
             }
           }
@@ -144,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e80eb510a33e2c70",
+  "active": "08dce2b31f8e9a7a",
   "lastOpenFiles": [
+    "desktop.ini",
+    "reference-material-for-review/obsidian-framework/Untitled.canvas",
+    "documentation/third-party/Prioritized-Approach-For-PCI-DSS-v4-0.pdf",
     "documentation/third-party/PCI-DSS-v4_0.pdf",
     "documentation/third-party/PCI_DSS-QRG-v4_0.pdf",
     "reference-material-for-review/pci-dss-remote-assessment/00-remote-assessment-guidelines-and-procedures-v1.0.md",
