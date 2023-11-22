@@ -236,38 +236,289 @@
 
 ### sub-requirement 8.3.5
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.5**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 8.3.5 Procedures Review for Setting and Resetting Passwords/Passphrases
+   - **Details**: Evidence for examining the procedures related to setting and resetting passwords/passphrases, verifying that these processes align with all elements specified in Requirement 8.3.5, particularly in the context of authentication factors to meet Requirement 8.3.1.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 8.3.5 Observation of Security Personnel in Password/Passphrase Management
+   - **Details**: Evidence for observing security personnel to confirm that the practices of setting and resetting passwords/passphrases are executed in accordance with the established procedures and PCI DSS standards.
+
+**Note**: This categorization involves "Documentation Evidence" for reviewing written procedures on password/passphrase management, and "Observation Evidence" for directly witnessing how these procedures are implemented in practice by security personnel.
 
 ### sub-requirement 8.3.6
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.6**
 
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.3.6 System Configuration Settings Examination for Password/Passphrase Complexity
+- **Details**: Evidence for examining system configuration settings to verify that user password/passphrase complexity parameters are set in accordance with all elements specified in this requirement, ensuring that password security measures are robust and compliant with PCI DSS standards.
+
+**Note**: This classification as "System Evidence" focuses on the technical assessment of system configurations regarding the complexity requirements for user passwords/passphrases, crucial for maintaining strong authentication security.
 
 ### sub-requirement 8.3.7
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.7**
 
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.3.7 System Configuration Settings Review for Password/Passphrase History
+- **Details**: Evidence for examining system configuration settings to verify that password parameters are set to require that new passwords/passphrases cannot be the same as the four previously used passwords/passphrases, ensuring compliance with PCI DSS standards for password management and security.
+
+**Note**: This classification as "System Evidence" focuses on assessing the configuration of systems to ensure that they enforce password history requirements, thereby enhancing password security by preventing reuse of recent passwords/passphrases.
 
 ### sub-requirement 8.3.8
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.8.a**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 8.3.8.a Procedures Review for Distribution of Authentication Policies
+   - **Details**: Evidence for examining the procedures related to the distribution of authentication policies and procedures, verifying that these are effectively communicated to all users as per PCI DSS requirements.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 8.3.8.a Personnel Interviews on Authentication Policy Distribution
+   - **Details**: Evidence for interviews conducted with personnel to confirm their understanding of and compliance with the process for distributing authentication policies and procedures to all users.
+
+**Note**: This categorization includes "Documentation Evidence" for assessing the written procedures regarding the distribution of authentication policies, and "Interview Evidence" for verifying the understanding and implementation of these procedures among staff.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.8.b**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 8.3.8.b Review of Distributed Authentication Policies and Procedures
+- **Details**: Evidence for reviewing the authentication policies and procedures that are distributed to users, verifying that they include all the elements specified in this requirement, in accordance with PCI DSS standards for user authentication and access control.
+
+**Note**: This classification as "Documentation Evidence" focuses on assessing the content of the authentication policies and procedures provided to users, ensuring they are comprehensive and include all necessary elements specified by PCI DSS.
 
 ### sub-requirement 8.3.9
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.9**
 
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.3.9 System Configuration Settings Inspection for Password Management
+- **Details**: Evidence for inspecting system configuration settings to verify that passwords/passphrases, when used as the sole authentication factor for user access, are managed in accordance with at least one of the elements specified in this requirement, ensuring compliance with PCI DSS standards for secure password management.
+
+**Note**: This classification as "System Evidence" focuses on the technical verification of system settings related to password/passphrase management, particularly when they are the only method of user authentication, to ensure these settings meet the specific requirements outlined in PCI DSS.
 
 ### sub-requirement 8.3.10
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.10 (Service Provider Assessments)**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 8.3.10 Service Provider Customer User Guidance Review for Password Management
+- **Details**: Evidence for examining the guidance provided by the service provider to customer users, specifically when passwords/passphrases are used as the sole authentication factor for accessing cardholder data. This involves verifying that the guidance includes all elements specified in this requirement, ensuring adherence to PCI DSS standards for secure authentication.
+
+**Note**: This classification as "Documentation Evidence" focuses on assessing the instructional materials or guidelines given to customer users by service providers, particularly regarding the management and security of passwords/passphrases used for authentication to access cardholder data.
 
 ### sub-requirement 8.3.10.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.10.1 (Service Provider Assessments)**
 
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.3.10.1 System Configuration Settings Inspection for Customer User Password Management
+- **Details**: Evidence for inspecting the system configuration settings to verify that when passwords/passphrases are used as the only authentication factor for customer user access, they are managed in accordance with at least one of the elements specified in this requirement, ensuring secure password management practices are in place for service provider systems.
+
+**Note**: This classification as "System Evidence" involves the technical assessment of the system configurations set by the service provider, focusing on how passwords/passphrases used by customer users for accessing cardholder data are managed to comply with PCI DSS standards.
 
 ### sub-requirement 8.3.11
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.11.a**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 8.3.11.a Authentication Policies and Procedures Review for Security Tokens, Smart Cards, and Certificates
+- **Details**: Evidence for examining authentication policies and procedures, verifying that the procedures for using authentication factors such as physical security tokens, smart cards, and certificates are well-defined and include all elements specified in this requirement, in accordance with PCI DSS standards.
+
+**Note**: This classification as "Documentation Evidence" focuses on reviewing the written policies and procedures regarding the use of specific authentication factors like security tokens, smart cards, and certificates, ensuring they are comprehensive and meet the required standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.11.b**
+
+**Category**: Interview Evidence
+- **Reference Name**: Requirement 8.3.11.b Security Personnel Interviews on Individual Assignment of Authentication Factors
+- **Details**: Evidence for interviews conducted with security personnel to verify that authentication factors, such as physical security tokens, smart cards, and certificates, are assigned individually to users and not shared among multiple users, ensuring compliance with PCI DSS authentication standards.
+
+**Note**: This classification as "Interview Evidence" focuses on assessing through direct dialogue with security staff the practices related to the assignment and management of authentication factors, confirming adherence to the principle of individual user assignment.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.3.11.c**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 8.3.11.c System Configuration Settings Examination for User-Specific Authentication Controls
+   - **Details**: Evidence for examining system configuration settings to verify that controls are implemented to ensure that only the intended user can use specific authentication factors for accessing system components, in line with PCI DSS requirements.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 8.3.11.c Observation of Physical Controls for Authentication Factors
+   - **Details**: Evidence for observing physical controls to confirm that they are designed and implemented to ensure that authentication factors, such as physical tokens or smart cards, are used exclusively by the intended user.
+
+**Note**: This categorization includes "System Evidence" for assessing the technical configuration of authentication systems, and "Observation Evidence" for directly witnessing physical controls in place to secure the use of authentication factors.
 
 ### sub-requirement 8.4
 ### sub-requirement 8.4.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.4.1.a**
 
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.4.1.a Examination of Network/System Configurations for MFA Implementation
+- **Details**: Evidence for examining network and/or system configurations to verify that Multi-Factor Authentication (MFA) is required for all non-console access into the Cardholder Data Environment (CDE) for personnel with administrative access, ensuring compliance with PCI DSS standards for secure authentication.
 
+**Note**: This classification as "System Evidence" focuses on the technical assessment of network and system configurations, particularly reviewing the implementation of MFA for administrative access to the CDE via non-console methods.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.4.1.b**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 8.4.1.b Observation of Administrator Logins to CDE with MFA
+- **Details**: Evidence for observing administrator personnel logging into the Cardholder Data Environment (CDE) to verify that Multi-Factor Authentication (MFA) is required, ensuring adherence to PCI DSS requirements for secure access control.
+
+**Note**: This classification as "Observation Evidence" involves directly witnessing the login process of administrators to the CDE, focusing on the practical implementation and effectiveness of MFA in securing access.
+
+### sub-requirement 8.4.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.4.2.a**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.4.2.a Examination of Network/System Configurations for MFA in CDE Access
+- **Details**: Evidence for examining network and/or system configurations to verify that Multi-Factor Authentication (MFA) is implemented for all access into the Cardholder Data Environment (CDE), ensuring comprehensive security measures in line with PCI DSS standards.
+
+**Note**: This classification as "System Evidence" focuses on the technical review of network and system settings, specifically assessing the presence and configuration of MFA for securing all access points into the CDE.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.4.2.b**
+
+1. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 8.4.2.b Observation of Personnel Logins to CDE with MFA
+   - **Details**: Evidence for observing personnel as they log into the Cardholder Data Environment (CDE), verifying that Multi-Factor Authentication (MFA) is a mandatory requirement for access, consistent with PCI DSS security protocols.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 8.4.2.b Examination of Additional Evidence for MFA Implementation in CDE Access
+   - **Details**: Evidence for examining additional forms of evidence, such as system logs or access records, to confirm the implementation and effectiveness of MFA for all personnel accessing the CDE.
+
+**Note**: This categorization includes "Observation Evidence" for directly witnessing the login process into the CDE, ensuring MFA is utilized, and "System Evidence" for assessing any supplementary evidence that supports the verification of MFA use in access control.
+
+### sub-requirement 8.4.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.4.3.a**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.4.3.a Network/System Configurations Examination for MFA in Remote Access
+- **Details**: Evidence for examining the network and/or system configurations for remote access servers and systems to verify that Multi-Factor Authentication (MFA) is required and implemented in accordance with all elements specified in this PCI DSS requirement, ensuring secure remote access control.
+
+**Note**: This classification as "System Evidence" focuses on the technical assessment of configurations related to remote access servers and systems, particularly evaluating the implementation and requirement of MFA to enhance security for remote access.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.4.3.b**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 8.4.3.b Observation of Personnel Remote Network Connections with MFA
+- **Details**: Evidence for observing personnel, including both users and administrators, as they connect remotely to the network, to verify that Multi-Factor Authentication (MFA) is indeed a required step in the remote connection process, ensuring compliance with PCI DSS standards for secure remote access.
+
+**Note**: This classification as "Observation Evidence" involves directly witnessing the remote connection process, focusing on the practical implementation and usage of MFA by personnel when accessing the network remotely.
+
+### sub-requirement 8.5
+### sub-requirement 8.5.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.5.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 8.5.1.a Vendor System Documentation Review for MFA Replay Attack Resistance
+- **Details**: Evidence for examining vendor system documentation to verify that the Multi-Factor Authentication (MFA) system is designed and implemented in a way that it is not susceptible to replay attacks, aligning with PCI DSS requirements for robust and secure authentication systems.
+
+**Note**: This classification as "Documentation Evidence" focuses on assessing the technical specifications and security features of the MFA system as described in vendor documentation, particularly its resilience against replay attacks.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.5.1.b**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.5.1.b System Configurations Examination for MFA Implementation Compliance
+- **Details**: Evidence for examining system configurations related to the Multi-Factor Authentication (MFA) implementation to verify that it is configured in accordance with all elements specified in this PCI DSS requirement, ensuring that the MFA system is set up securely and effectively.
+
+**Note**: This classification as "System Evidence" focuses on the technical verification of how the MFA system is configured within the network or system environment, ensuring its setup aligns with PCI DSS standards for secure authentication.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.5.1.c**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 8.5.1.c Interviews on MFA Bypass Procedures
+   - **Details**: Evidence for interviews conducted with responsible personnel to verify that any requests to bypass Multi-Factor Authentication (MFA) are specifically documented and authorized by management on an exception basis and for a limited time period, in compliance with PCI DSS security standards.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 8.5.1.c Observation of MFA Bypass Process Documentation and Authorization
+   - **Details**: Evidence for observing the processes related to the documentation and authorization of MFA bypass requests, confirming that these processes are managed appropriately and align with the required security protocols.
+
+**Note**: This categorization includes "Interview Evidence" for assessing the knowledge and practices of personnel regarding MFA bypass procedures, and "Observation Evidence" for directly witnessing the process and its adherence to established security policies.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.5.1.d**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 8.5.1.d Observation of Personnel Logins in CDE with MFA
+- **Details**: Evidence for observing personnel as they log into system components in the Cardholder Data Environment (CDE) to verify that access is granted only after the successful verification of all required authentication factors, ensuring compliance with PCI DSS standards for secure access control.
+
+**Note**: This classification as "Observation Evidence" involves directly witnessing the login process into the CDE, focusing on the practical implementation and effectiveness of Multi-Factor Authentication (MFA) in securing access.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.5.1.e**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 8.5.1.e Observation of Remote Access Authentication Compliance
+- **Details**: Evidence for observing personnel as they connect remotely from outside the entity’s network to verify that access is only granted after the successful verification of all required authentication factors, in line with PCI DSS standards for secure remote access.
+
+**Note**: This classification as "Observation Evidence" focuses on directly witnessing the remote access process, ensuring that Multi-Factor Authentication (MFA) is effectively implemented and adhered to for external connections to the entity's network.
+
+### sub-requirement 8.6
+### sub-requirement 8.6.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.6.1**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 8.6.1 Examination of Application and System Accounts for Interactive Use
+   - **Details**: Evidence for examining application and system accounts that can be used interactively, verifying that these accounts are managed in accordance with all elements specified in this PCI DSS requirement, ensuring proper account control and security measures.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 8.6.1 Interviews with Administrative Personnel on Account Management
+   - **Details**: Evidence for interviews conducted with administrative personnel to confirm their understanding and practices regarding the management of application and system accounts, in compliance with the specified standards.
+
+**Note**: This categorization includes "System Evidence" for assessing the setup and management of application and system accounts, and "Interview Evidence" for understanding the administrative processes and compliance from a personnel perspective.
+
+### sub-requirement 8.6.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.6.2.a**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 8.6.2.a Interviews on Interactive Login Account Management
+   - **Details**: Evidence for interviews conducted with personnel to verify that they are aware of and comply with processes defining the management of application and system accounts used for interactive login, specifically the prohibition of hardcoding passwords/passphrases in scripts, configuration files, or code.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 8.6.2.a System Development Procedures Review for Account Security
+   - **Details**: Evidence for examining system development procedures to confirm that they include clear guidelines on managing application and system accounts for interactive login, ensuring that passwords/passphrases are not hardcoded.
+
+**Note**: This categorization includes "Interview Evidence" for assessing personnel understanding and adherence to security practices, and "Documentation Evidence" for reviewing written procedures related to secure account management in system development.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.6.2.b**
+
+**Category**: System Evidence
+- **Reference Name**: Requirement 8.6.2.b Examination of Scripts, Configurations, and Source Code for Secure Account Management
+- **Details**: Evidence for examining scripts, configuration/property files, and bespoke and custom source code associated with application and system accounts that can be used for interactive login, to verify that passwords/passphrases for these accounts are not hardcoded or otherwise insecurely stored, in compliance with PCI DSS requirements for secure account management.
+
+**Note**: This classification as "System Evidence" focuses on the technical review of scripts, configuration files, and source code to ensure that they adhere to security best practices, specifically the prohibition of hardcoded passwords/passphrases.
+
+### sub-requirement 8.6.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.6.3.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 8.6.3.a Policies and Procedures Review for Account Password/Passphrase Protection
+- **Details**: Evidence for examining policies and procedures to verify that they include defined procedures to protect passwords/passphrases for application or system accounts against misuse, ensuring that these procedures align with all elements specified in this PCI DSS requirement for secure account management.
+
+**Note**: This classification as "Documentation Evidence" focuses on reviewing the organization's written policies and procedures, specifically assessing how they address the protection and management of passwords/passphrases for application and system accounts to prevent misuse.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.6.3.b**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 8.6.3.b Targeted Risk Analysis Review for Password/Passphrase Management
+- **Details**: Evidence for examining the entity's targeted risk analysis concerning the change frequency and complexity of passwords/passphrases used for interactive login to application and system accounts. This involves verifying that the risk analysis was conducted in accordance with Requirement 12.3.1 and adequately addresses the frequency of password/phrase changes and the appropriateness of their complexity relative to this frequency.
+
+**Note**: This classification as "Documentation Evidence" emphasizes reviewing the entity's risk analysis documentation to assess its thoroughness and compliance with specified PCI DSS requirements, particularly focusing on password/phrase management strategies and their security implications.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 8.6.3.c**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 8.6.3.c Interviews on Protection of Interactive Login Account Passwords/Passphrases
+   - **Details**: Evidence for interviews conducted with responsible personnel to verify their understanding and practices regarding the protection of passwords/passphrases for application and system accounts that can be used for interactive login, ensuring compliance with PCI DSS standards.
+
+2. **Category**: System Evidence
+   - **Reference Name**: Requirement 8.6.3.c System Configuration Settings Review for Account Password/Passphrase Security
+   - **Details**: Evidence for examining system configuration settings to confirm that passwords/passphrases for application and system accounts used for interactive logins are protected against misuse, in accordance with all specified elements of this PCI DSS requirement.
+
+**Note**: This categorization includes "Interview Evidence" for assessing personnel knowledge and implementation practices, and "System Evidence" for the technical verification of how passwords/passphrases are managed and secured within system configurations.
