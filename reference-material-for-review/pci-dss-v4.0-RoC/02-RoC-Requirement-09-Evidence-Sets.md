@@ -333,22 +333,258 @@
 
 **Note**: This classification as "Documentation Evidence" focuses on the review of procedural documents to confirm that regular security assessments of offline media backup storage locations are defined and scheduled, in line with the PCI DSS's emphasis on periodic security evaluations.
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.1.2.b**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 9.4.1.2.b Examination of Records for Annual Security Review of Storage Locations
+   - **Details**: Evidence for examining documented procedures, logs, or other relevant records to verify that the security of the storage locations for offline media backups with cardholder data is reviewed at least once every 12 months, in accordance with PCI DSS requirements.
 
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.4.1.2.b Interviews on Security Review Practices at Storage Locations
+   - **Details**: Evidence for interviews conducted with personnel responsible for the storage locations, aimed at verifying their adherence to and execution of the procedures for the annual security review of these locations as required by PCI DSS standards.
+
+**Note**: This categorization includes "Documentation Evidence" for reviewing the formal procedures and records that document the annual security review process, and "Interview Evidence" for assessing the understanding and implementation of these procedures by the staff responsible for the security of the storage locations.
 
 ### sub-requirement 9.4.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.2.a**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.2.a Review of Media Classification Procedures
+- **Details**: Evidence for examining documentation to verify that procedures are in place for classifying media containing cardholder data based on the sensitivity of the information, ensuring that these classification procedures align with PCI DSS requirements for data protection and management.
 
+**Note**: This classification as "Documentation Evidence" focuses on the review of documented procedures that detail how media containing cardholder data is classified, emphasizing the importance of categorizing media according to the sensitivity of the data it holds, in line with PCI DSS security guidelines.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.2.b**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.2.b Examination of Media Classification Records
+- **Details**: Evidence for examining media logs or other relevant documentation to verify that all media containing cardholder data is appropriately classified, consistent with its data sensitivity, in line with PCI DSS requirements for secure data handling and media management.
+
+**Note**: This classification as "Documentation Evidence" involves a thorough assessment of media logs or records, focusing on ensuring that the media is classified according to the sensitivity of the cardholder data it contains, adhering to the prescribed data protection and classification standards.
 
 ### sub-requirement 9.4.3
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.3.a**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.3.a Review of Procedures for Securing Media Sent Outside Facility
+- **Details**: Evidence for examining documentation to verify that procedures are established for securing media containing cardholder data when it is sent outside the facility, ensuring these procedures align with all elements specified in PCI DSS for the secure handling and transportation of sensitive data.
+
+**Note**: This classification as "Documentation Evidence" involves a detailed review of the organization's documented procedures related to the secure transport or mailing of media outside the facility, focusing on adherence to the PCI DSS's prescribed security measures for external media handling.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.3.b**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.4.3.b Interviews on Procedures for Media Shipment Outside Facility
+   - **Details**: Evidence for interviews conducted with personnel involved in the process of sending media outside the facility, aimed at verifying their understanding and execution of procedures for logging and using secured courier services or other trackable delivery methods.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 9.4.3.b Examination of Shipping Records for Tracked Media Delivery
+   - **Details**: Evidence for examining records related to the shipment of media outside the facility to confirm that all such media is logged and sent via methods that allow for secure and trackable delivery, in compliance with PCI DSS requirements.
+
+**Note**: This categorization includes "Interview Evidence" for assessing the awareness and practices of personnel responsible for media shipment, and "Documentation Evidence" for reviewing records that demonstrate compliance with secure and trackable shipping protocols for media containing cardholder data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.3.c**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.3.c Review of Offsite Media Tracking Logs
+- **Details**: Evidence for examining offsite tracking logs of all media containing cardholder data to verify that tracking details, including shipment dates, destinations, and receipt confirmations, are adequately documented, in accordance with PCI DSS guidelines for maintaining a secure chain of custody for sensitive data.
+
+**Note**: This classification as "Documentation Evidence" focuses on the thorough review of offsite tracking logs, ensuring that all aspects of media movement outside the facility are documented, thereby maintaining a traceable record of media handling and transportation.
 
 ### sub-requirement 9.4.4
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.4.a**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.4.a Review of Management Approval Procedures for Media Movement
+- **Details**: Evidence for examining documentation to verify that procedures are clearly defined for obtaining management approval before moving media containing cardholder data outside the facility, in line with PCI DSS requirements for maintaining control over sensitive media.
 
+**Note**: This classification as "Documentation Evidence" involves assessing documented procedures to ensure they stipulate the requirement for management approval for the external movement of media, underscoring the importance of managerial oversight in the secure handling of sensitive data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.4.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 9.4.4.b Review of Offsite Media Tracking Logs for Management Authorization
+   - **Details**: Evidence for examining offsite media tracking logs to verify that each instance of media being moved outside the facility, including distribution to individuals, has been properly authorized by management, in accordance with PCI DSS guidelines for secure media handling.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.4.4.b Interviews on Management Approval for Media Movement
+   - **Details**: Evidence for interviews conducted with personnel responsible for moving media outside the facility, aimed at verifying their adherence to obtaining management authorization for each instance of media distribution, as mandated by PCI DSS standards.
+
+**Note**: This categorization includes "Documentation Evidence" for assessing the thoroughness and compliance of offsite media tracking logs with management authorization requirements, and "Interview Evidence" for understanding the practices and compliance of personnel involved in media movement with management approval processes.
 
 ### sub-requirement 9.4.5
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.5.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.5.a Review of Procedures for Electronic Media Inventory Logs
+- **Details**: Evidence for examining documentation to verify that procedures are clearly established for maintaining electronic media inventory logs, ensuring these logs accurately reflect all media containing cardholder data and are in line with PCI DSS requirements for comprehensive media tracking.
+
+**Note**: This classification as "Documentation Evidence" focuses on the review of procedural documents that outline the process for maintaining up-to-date and accurate electronic media inventory logs, a critical aspect of PCI DSS compliance in managing and safeguarding media containing sensitive cardholder data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.5.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 9.4.5.b Examination of Electronic Media Inventory Logs
+   - **Details**: Evidence for examining electronic media inventory logs to verify their maintenance and accuracy, ensuring they reflect a current and comprehensive inventory of all media containing cardholder data as per PCI DSS standards.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.4.5.b Interviews on Media Inventory Log Maintenance
+   - **Details**: Evidence for interviews conducted with personnel responsible for maintaining electronic media inventory logs, aimed at verifying their understanding of and adherence to procedures for log maintenance and accuracy, consistent with PCI DSS requirements.
+
+**Note**: This categorization involves both "Documentation Evidence" for reviewing the actual media inventory logs to assess their completeness and "Interview Evidence" to understand the process and responsible personnel’s adherence to the procedures for maintaining these logs.
+
+### sub-requirement 9.4.5.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.5.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.5.1.a Review of Annual Electronic Media Inventory Procedures
+- **Details**: Evidence for examining documentation to confirm that procedures are defined for conducting annual inventories of all electronic media containing cardholder data, ensuring compliance with PCI DSS standards for regular media inventory management.
+
+**Note**: This classification as "Documentation Evidence" pertains to the scrutiny of documents detailing the methods and frequency of electronic media inventories, emphasizing the PCI DSS requirement for at least annual checks to ensure all media is accounted for and properly managed.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.5.1.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 9.4.5.1.b Examination of Electronic Media Inventory Logs for Annual Reviews
+   - **Details**: Evidence for examining electronic media inventory logs to verify that inventories of media containing cardholder data are conducted and logged at least once every 12 months, as per PCI DSS guidelines for regular and systematic media tracking.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.4.5.1.b Interviews on Annual Electronic Media Inventory Practices
+   - **Details**: Evidence for interviews conducted with personnel responsible for managing electronic media inventories, aimed at confirming their adherence to the procedure of performing and documenting these inventories annually, in compliance with PCI DSS standards.
+
+**Note**: This categorization encompasses "Documentation Evidence" for reviewing the actual inventory logs to assess compliance with the annual inventory schedule, and "Interview Evidence" for understanding and validating the inventory process as implemented and practiced by the responsible staff.
+
+### sub-requirement 9.4.6
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.6.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.6.a Review of Periodic Media Destruction Policy
+- **Details**: Evidence for examining the periodic media destruction policy to ensure it includes defined procedures for destroying hard-copy media containing cardholder data when it is no longer needed for business or legal reasons, aligning with PCI DSS requirements for secure data disposal.
+
+**Note**: This classification as "Documentation Evidence" focuses on the thorough evaluation of the organization's media destruction policy, particularly verifying that it comprehensively covers the aspects of securely destroying hard-copy media in accordance with PCI DSS guidelines for data protection and disposal.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.6.b**
+
+1. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 9.4.6.b Observation of Hard-Copy Media Destruction Methods
+   - **Details**: Evidence for observing the processes of hard-copy media destruction to verify that materials are cross-cut shredded, incinerated, or pulped in a manner that ensures cardholder data cannot be reconstructed, as per PCI DSS data protection standards.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.4.6.b Interviews on Media Destruction Procedures
+   - **Details**: Evidence for interviews conducted with personnel involved in the destruction of hard-copy media, aimed at confirming their understanding and adherence to the prescribed methods of shredding, incinerating, or pulping to securely dispose of cardholder data.
+
+**Note**: This categorization includes "Observation Evidence" for directly assessing the physical processes of media destruction and "Interview Evidence" for gaining insights into the practices and compliance of personnel responsible for implementing media destruction procedures.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.6.c**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 9.4.6.c Observation of Security of Destruction Material Storage Containers
+- **Details**: Evidence for observing the storage containers used for holding materials containing cardholder data that are awaiting destruction, to verify that these containers are secure and effectively protect the contained information from unauthorized access, in line with PCI DSS standards for secure data handling and destruction.
+
+**Note**: This classification as "Observation Evidence" is focused on the physical assessment of the security features and measures in place for the storage containers used for materials slated for destruction, ensuring they meet the requisite standards for safeguarding sensitive data until destruction.
+
+### sub-requirement 9.4.7
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.7.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.4.7.a Review of Periodic Electronic Media Destruction Policy
+- **Details**: Evidence for examining the periodic media destruction policy, specifically focusing on ensuring that it includes defined procedures for the destruction of electronic media containing cardholder data when it is no longer necessary for business or legal purposes, complying with PCI DSS guidelines for secure data disposal.
+
+**Note**: This classification as "Documentation Evidence" pertains to the review of policy documents that outline the organization's approach and procedures for the destruction of electronic media. The aim is to ensure these procedures align with the standards set by PCI DSS for the secure and effective destruction of sensitive data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.4.7.b**
+
+1. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 9.4.7.b Observation of Electronic Media Destruction Process
+   - **Details**: Evidence for observing the process of electronic media destruction to ensure that the destruction methods for media containing cardholder data adhere to the methods specified in PCI DSS, such as degaussing, pulverizing, shredding, or incineration.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.4.7.b Interviews on Electronic Media Destruction Practices
+   - **Details**: Evidence for interviews conducted with personnel responsible for the destruction of electronic media, aimed at verifying their understanding and implementation of the approved destruction methods that render cardholder data irrecoverable, as required by PCI DSS.
+
+**Note**: This categorization includes "Observation Evidence" for directly witnessing the destruction methods employed and "Interview Evidence" for validating the knowledge and practices of the personnel responsible for executing these data protection measures.
+
+### sub-requirement 9.5
+### sub-requirement 9.5.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.5.1 Review of Documented Policies and Procedures
+- **Details**: Evidence for examining the organization's documented policies and procedures to verify that they include comprehensive processes covering all elements specified in PCI DSS Requirement 9.5.1, ensuring adherence to standards for secure handling and protection of cardholder data.
+
+**Note**: This classification as "Documentation Evidence" focuses on the evaluation of the organization's formal policy and procedural documents. The aim is to confirm that these documents adequately define the processes and practices required for maintaining the security and integrity of cardholder data in accordance with PCI DSS guidelines.
+
+### sub-requirement 9.5.1.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.5.1.1.a Examination of List of POI Devices
+- **Details**: Evidence for examining the list of Point of Interaction (POI) devices to confirm that it includes all elements specified in PCI DSS Requirement 9.5.1.1.a, ensuring comprehensive coverage and tracking of all POI devices used for cardholder data transactions.
+
+**Note**: This classification as "Documentation Evidence" is centered around the scrutiny of lists or inventories detailing POI devices. The focus is to ensure that these lists are complete and compliant with the detailed requirements set out by PCI DSS, including aspects like device descriptions, locations, and other relevant information.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.1.b**
+
+**Category**: Observation Evidence
+- **Reference Name**: Requirement 9.5.1.1.b Observation of POI Devices and Locations
+- **Details**: Evidence for observing Point of Interaction (POI) devices and their locations, followed by comparison with the documented device list to verify its accuracy and current status, ensuring alignment with PCI DSS standards for maintaining accurate records of devices involved in cardholder data transactions.
+
+**Note**: This classification as "Observation Evidence" involves physical verification of POI devices and their locations against the documented list. The objective is to ensure that the list reflects the actual deployment and status of all POI devices, thereby upholding PCI DSS requirements for accurate and up-to-date device tracking.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.1.c**
+
+**Category**: Interview Evidence
+- **Reference Name**: Requirement 9.5.1.1.c Interviews on Updating POI Device List
+- **Details**: Evidence for interviews conducted with personnel responsible for Point of Interaction (POI) devices to confirm that the list of these devices is regularly updated whenever there are changes such as additions, relocations, or decommissioning of devices, in line with PCI DSS standards for maintaining accurate device records.
+
+**Note**: This classification as "Interview Evidence" focuses on verbal confirmation from staff involved in managing POI devices. The goal is to ensure that processes are in place for keeping the POI device list current and reflective of the actual status of these critical devices in the payment processing infrastructure.
+
+### sub-requirement 9.5.1.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.2.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.5.1.2.a Review of Documented Procedures for POI Device Inspections
+- **Details**: Evidence for examining the documented procedures to ensure they define processes for regular inspections of Point of Interaction (POI) device surfaces. This is to verify that the procedures are geared towards detecting any signs of tampering or unauthorized substitution, as per PCI DSS requirements.
+
+**Note**: This classification as "Documentation Evidence" emphasizes the evaluation of procedural documentation. The aim is to confirm that there are explicit and actionable guidelines in place for conducting thorough and regular inspections of POI devices, crucial for the prevention of security breaches and data compromise.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.2.b**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 9.5.1.2.b Interviews on POI Device Inspection Awareness
+   - **Details**: Evidence for interviews conducted with personnel responsible for Point of Interaction (POI) devices. The focus is on verifying their awareness and understanding of the procedures for inspecting these devices, particularly for signs of tampering or unauthorized changes, in line with PCI DSS standards.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 9.5.1.2.b Observation of POI Device Inspection Processes
+   - **Details**: Evidence obtained from observing the actual processes of inspecting POI devices. This includes verifying that all devices are periodically checked for evidence of tampering and unauthorized substitution, ensuring compliance with PCI DSS requirements.
+
+**Note**: These classifications include "Interview Evidence" for ascertaining personnel's knowledge and adherence to inspection procedures, and "Observation Evidence" for directly witnessing the inspection methods employed. Both are crucial for validating the organization's commitment to securing POI devices against potential security threats.
+
+### sub-requirement 9.5.1.2.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.2.1.a**
+
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.5.1.2.1.a Review of Targeted Risk Analysis for POI Device Inspections
+- **Details**: Evidence for examining the entity’s targeted risk analysis, focusing on the frequency and type of periodic inspections of Point of Interaction (POI) devices. This includes verifying that the risk analysis adheres to all elements specified in PCI DSS Requirement 12.3.1, ensuring a risk-based approach to securing POI devices.
+
+**Note**: This classification as "Documentation Evidence" underscores the necessity to rigorously assess the entity's risk analysis documentation. The intent is to ensure that the frequency and nature of POI device inspections are determined based on a thorough, risk-informed process, conforming to PCI DSS guidelines.
+
+
+
+
+### sub-requirement 9.5.1.3
+
+
+
 
