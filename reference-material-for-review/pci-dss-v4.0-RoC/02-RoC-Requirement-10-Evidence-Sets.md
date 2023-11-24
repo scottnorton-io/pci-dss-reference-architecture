@@ -260,11 +260,39 @@
 
 **Note**: Requirement 10.4.2.a emphasizes the necessity of having well-defined processes in security policies and procedures for the periodic review of logs across all system components. This examination ensures that the entity has a systematic approach to log review, which is critical for identifying and addressing security incidents and maintaining the overall integrity of the cardholder data environment.
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.4.2.b**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.4.2.b Documented Results of Log Reviews
+   - **Details**: Examination of the documented results of log reviews to confirm they are conducted periodically, as mandated by PCI DSS v4.0 Requirement 10.4.2.b. This ensures that the log review process is not only defined but also actively executed and documented.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.4.2.b Personnel Interviews on Log Review Process
+   - **Details**: Conducting interviews with personnel responsible for log reviews to verify the periodic execution of log reviews, in line with PCI DSS v4.0 Requirement 10.4.2.b. This assessment confirms the practical implementation and adherence to the defined log review processes.
+
+**Note**: Requirement 10.4.2.b focuses on the importance of not only having a procedure for log reviews but also ensuring that these reviews are conducted periodically and documented appropriately. The combination of examining documented results and interviewing responsible personnel provides a comprehensive understanding of the entity's commitment to regular log analysis, a crucial aspect of maintaining a secure cardholder data environment.
 
 ### sub-requirement 10.4.2.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.4.2.1.a**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.4.2.1.a Entity's Targeted Risk Analysis for Log Review Frequency
+   - **Details**: Examination of the entity's targeted risk analysis concerning the frequency of periodic log reviews for system components not covered in Requirement 10.4.1. The analysis must comply with the directives specified in Requirement 12.3.1 of PCI DSS v4.0. This verification ensures that the frequency of log reviews is aligned with the entity's risk profile and the specific needs of its cardholder data environment.
+
+**Note**: Requirement 10.4.2.1.a emphasizes the importance of tailoring log review practices to the specific risk landscape of the entity. By examining the targeted risk analysis, assessors can ensure that the entity's approach to log reviews is not only compliant with PCI DSS standards but also effectively addresses the unique risks and challenges inherent in their specific operational context. This targeted approach enhances the efficacy of log reviews as a tool for identifying and mitigating potential security threats.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.4.2.1.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.4.2.1.b Documented Results of Periodic Log Reviews
+   - **Details**: Examination of the documented results of periodic log reviews for system components not covered in Requirement 10.4.1. This documentation validates that log reviews are conducted with a frequency consistent with the entity’s targeted risk analysis, ensuring adherence to PCI DSS v4.0 standards and effective monitoring of system component activities.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.4.2.1.b Interviews on Periodic Log Review Practices
+   - **Details**: Interviews conducted with personnel responsible for log reviews of system components not defined in Requirement 10.4.1. These interviews are crucial for verifying that log review practices are in line with the entity's risk analysis and are effectively implemented.
+
+**Note**: Requirement 10.4.2.1.b focuses on ensuring that the entity’s log review practices for specific system components are consistent with its targeted risk analysis. The examination of documented results and interviews with personnel play a pivotal role in confirming that these practices are not only compliant with PCI DSS standards but also tailored to address the unique risks associated with specific system components. This tailored approach enhances the overall effectiveness of log reviews in identifying potential security threats and vulnerabilities.
 
 ### sub-requirement 10.4.3
 
@@ -274,3 +302,18 @@
 ### sub-requirement 10.5.1
 
 
+
+### sub-requirement 10.6
+### sub-requiremetn 10.6.1
+
+
+
+### sub-requiremetn 10.6.2
+
+
+
+### sub-requiremetn 10.6.3
+
+
+
+### sub-requiremetn 10.6.4
