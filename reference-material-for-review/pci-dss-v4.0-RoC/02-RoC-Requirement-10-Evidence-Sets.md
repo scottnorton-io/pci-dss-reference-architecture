@@ -296,17 +296,63 @@
 
 ### sub-requirement 10.4.3
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.4.3.a**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.4.3.a Security Policies and Procedures for Exception Handling
+   - **Details**: Examination of security policies and procedures that outline the processes for addressing exceptions and anomalies detected during log review processes. This documentation is critical in establishing a structured approach to managing and resolving security-related irregularities, ensuring compliance with PCI DSS v4.0 standards and maintaining the integrity of the cardholder data environment.
+
+   **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.4.3.b**
+
+1. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 10.4.3.b Observation of Exception and Anomaly Management Processes
+   - **Details**: Observation of operational processes to assess the handling and resolution of exceptions and anomalies identified in the security framework. This observation ensures that identified irregularities are effectively managed and addressed, in compliance with PCI DSS v4.0 guidelines, safeguarding the security and integrity of the cardholder data environment.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.4.3.b Interviews on Exception and Anomaly Management
+   - **Details**: Interviews with personnel responsible for managing and addressing exceptions and anomalies in the security framework. These interviews provide insights into the practical application and effectiveness of established procedures for handling identified security irregularities, ensuring adherence to PCI DSS v4.0 standards and maintaining the security of the cardholder data environment.
 
 ### sub-requirement 10.5
 ### sub-requirement 10.5.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.5.1.a**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.5.1.a Audit Log Retention Policies and Procedures Documentation
+   - **Details**: Examination of the entity’s formal documentation outlining the policies and procedures for audit log retention. This documentation should detail the guidelines for maintaining audit log history for a minimum period of 12 months, with a focus on ensuring at least the most recent three months of audit logs are readily accessible online. The documentation is critical for verifying compliance with PCI DSS v4.0 standards, ensuring the entity maintains adequate historical records for audit purposes and facilitates prompt and efficient review when necessary.
+
+   **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.5.1.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 10.5.1.b Audit Log Configuration Examination
+   - **Details**: Examination of the configurations of audit log history systems to confirm that they are set up to retain audit log history for a minimum of 12 months. This ensures compliance with the standards for maintaining a comprehensive and accessible log history for security and auditing purposes.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.5.1.b Personnel Interview on Audit Log History Retention
+   - **Details**: Interviews conducted with personnel responsible for managing audit logs to confirm understanding and adherence to the protocol of retaining audit log history for at least 12 months. This serves to validate that the staff is aware of and effectively implementing the audit log retention policies.
+
+3. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.5.1.b Audit Log History Examination
+   - **Details**: Examination of actual audit logs to verify that they have indeed been retained for a minimum period of 12 months. This direct evidence of the logs themselves is crucial for confirming that the entity's practices align with their stated policies and the PCI DSS requirements.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.5.1.c**
+
+1. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.5.1.c Personnel Interview on Audit Log Availability
+   - **Details**: Conducting interviews with personnel involved in the management of audit logs to ascertain their understanding and implementation of practices ensuring the immediate availability of the most recent three months' audit log history. This evaluation is vital to confirm compliance with the requirement that recent log data is readily accessible for analysis.
+
+2. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 10.5.1.c Process Observation of Audit Log Accessibility
+   - **Details**: Observing the processes in place for maintaining and accessing audit logs, with a specific focus on verifying the immediate availability of the last three months' audit log history. This observation is crucial for ensuring that the entity's operational practices align with the mandated standards for audit log management and accessibility.
 
 ### sub-requirement 10.6
 ### sub-requiremetn 10.6.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.6.1**
 
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 10.6.1 Time-Synchronization Technology System Configuration Review
+   - **Details**: Reviewing system configuration settings to confirm the implementation and current status of time-synchronization technology across relevant system components. This process is essential to ensure that all systems are synchronized in terms of time, a critical aspect for maintaining accurate logs and coordinating security-related events across the network.
 
 ### sub-requiremetn 10.6.2
 
@@ -316,4 +362,13 @@
 
 
 
-### sub-requiremetn 10.6.4
+### sub-requiremetn 10.7
+### sub-requirement 10.7.1
+
+
+
+### sub-requirement 10.7.2
+
+
+
+### sub-requirement 10.7.3
