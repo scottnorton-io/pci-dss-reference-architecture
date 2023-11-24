@@ -356,19 +356,86 @@
 
 ### sub-requiremetn 10.6.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.6.2**
 
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 10.6.2 Time Distribution and Storage System Configuration Review
+   - **Details**: The examination focuses on the system configuration settings related to the acquisition, distribution, and storage of the correct time. This inspection ensures that these time-related configurations are aligned with the specified PCI DSS requirements, providing assurance that the systems handling cardholder data are operating with synchronized and accurate time settings, a key factor in maintaining system integrity and facilitating effective log management.
 
 ### sub-requiremetn 10.6.3
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.6.3.a**
 
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 10.6.3.a Time Data Access Control System Configuration Review
+   - **Details**: This evidence involves a thorough examination of system configurations and time-synchronization settings. The focus is to confirm that access to time data is strictly limited to individuals who require this information for business purposes. The review is essential to ensure that critical time-related data, which is crucial for accurate logging and tracking activities within the cardholder data environment, is not tampered with or accessed inappropriately. Restricting access to time data helps in maintaining the integrity and reliability of system logs and other time-sensitive operations.
 
+  **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.6.3.b**
+
+1. **Category**: System Evidence
+   - **Reference Name**: Requirement 10.6.3.b Critical System Time Settings Change Log Review
+   - **Details**: This evidence includes a detailed examination of system configurations, time synchronization settings, and relevant logs. The primary objective is to ensure that any modifications to time settings on critical systems are meticulously logged, actively monitored, and systematically reviewed. This process is crucial for maintaining the integrity of time-dependent functions and security controls within the cardholder data environment. The observation of related processes further solidifies the understanding of how time settings changes are managed, ensuring adherence to strict security protocols and guidelines set forth by PCI DSS.
+
+2. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.6.3.b Time Synchronization Settings and Configurations Examination
+   - **Details**: This part of the evidence focuses on the thorough examination of documented time synchronization settings and configurations. It verifies the procedural adherence and the technical accuracy of the time synchronization mechanisms deployed within the system. The evaluation of these documents is essential for confirming that time synchronization is correctly configured and aligns with the stringent security requirements of PCI DSS.
+
+3. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 10.6.3.b Time Setting Change Process Observation
+   - **Details**: The observation evidence pertains to the direct observation of the processes involved in changing time settings on critical systems. This evidence is critical in understanding the practical application of policies and procedures related to time setting changes, ensuring that these changes are conducted securely, logged appropriately, and reviewed consistently in alignment with PCI DSS requirements.
+   
 ### sub-requiremetn 10.7
 ### sub-requirement 10.7.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.7.1.a**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.7.1.a Service Provider Critical Security Control System Failure Response Procedures
+   - **Details**: This evidence includes a comprehensive examination of the documented processes established by the service provider for the prompt identification and rectification of failures in critical security control systems. The focus is on ensuring that the procedures cover not only the detection of such failures but also the steps for addressing them efficiently. The scope of this evidence encompasses a wide range of critical security controls, underlining the service provider's commitment to maintaining robust security mechanisms in line with PCI DSS guidelines.
+
+   **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.7.1.b**
+
+1. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 10.7.1.b Service Provider Critical Security Control System Failure Detection and Alerting Processes
+   - **Details**: This evidence is focused on the observed practices and protocols related to the detection and alerting of failures in critical security control systems within a service provider's infrastructure. The observation covers the methodologies and tools employed to ensure timely and effective detection of any system failures, underscoring the provider's commitment to maintaining a secure and reliable operational environment.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.7.1.b Service Provider Personnel Interviews on Critical Security Control System Failures
+   - **Details**: This evidence comprises interviews with personnel responsible for monitoring and managing critical security control systems. The interviews aim to ascertain the personnel’s awareness, understanding, and responsiveness to system failures, including their proficiency in generating alerts in the event of such failures. These discussions provide insights into the organization's preparedness and capability to handle and report security system anomalies effectively.
 
 ### sub-requirement 10.7.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.7.2.a**
 
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.7.2.a Critical Security Control System Failure Detection and Response Process Documentation
+   - **Details**: This evidence comprises a thorough examination of documented processes specifically tailored to the prompt detection and effective addressing of failures in critical security control systems. The documentation outlines procedures and guidelines, which include but are not limited to, the identification of failure elements, response protocols, and mechanisms to ensure the resilience and reliability of security controls. This set of documents is critical for maintaining operational integrity and ensuring that any disruptions to security controls are swiftly and effectively managed.
+
+   **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.7.2.b**
+
+1. **Category**: Observation Evidence
+   - **Reference Name**: Requirement 10.7.2.b Observation of Critical Security Control System Failure Detection and Alerting Processes
+   - **Details**: This evidence encompasses the direct observation of processes and mechanisms employed to detect and alert personnel about failures in critical security control systems. The focus is on validating the efficacy of the detection methodologies and the promptness and accuracy of the alerting mechanisms in response to identified failures. This observation is crucial for assessing the real-time operational effectiveness of the security systems and ensuring prompt responses to potential threats or system malfunctions.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.7.2.b Interviews Regarding Critical Security Control System Failure Detection and Reporting
+   - **Details**: This evidence involves interviews with personnel responsible for managing, monitoring, and responding to the security control systems. The objective is to verify their understanding and adherence to procedures related to the detection and reporting of failures in critical security control systems. The interviews aim to assess the knowledge and competence of the personnel in managing such situations, ensuring that system failures are not just detected but are also effectively communicated and addressed as per the established protocols.
 
 ### sub-requirement 10.7.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.7.3.a**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.7.3.a Examination of Documentation for Critical Security Control System Failure Response Processes
+   - **Details**: This evidence involves the examination of documented processes and protocols established for responding to failures in critical security control systems. The focus is on verifying that the documentation comprehensively covers all elements specified in the requirement, ensuring a structured and effective response to such failures. The documentation typically includes detailed procedures, roles and responsibilities, response strategies, and communication protocols to be followed in the event of a security control system failure.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 10.7.3.a Interviews Regarding Implementation of Response Processes for Critical Security Control System Failures
+   - **Details**: This evidence is derived from interviews with personnel responsible for managing and executing the response to failures in critical security control systems. The objective of these interviews is to ascertain that the processes and procedures documented for responding to such failures are not only understood by the personnel but are also effectively implemented in practice. These interviews help in evaluating the practical readiness and capability of the personnel to handle critical system failures as per the defined procedures.
+
+   **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 10.7.3.b**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 10.7.3.b Examination of Records for Documentation of Critical Security Control System Failures
+   - **Details**: This evidence involves the examination of records documenting failures in critical security control systems. These records are scrutinized to ensure they comprehensively include the identification of the causes of failures, the exact duration of these failures (including start and end dates and times), and detailed information on the remediation actions required to address the root causes. The focus is on ensuring that the documentation provides a thorough and insightful analysis of each failure incident, which is crucial for effective incident management and future prevention strategies.
+   
