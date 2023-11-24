@@ -580,11 +580,22 @@
 
 **Note**: This classification as "Documentation Evidence" underscores the necessity to rigorously assess the entity's risk analysis documentation. The intent is to ensure that the frequency and nature of POI device inspections are determined based on a thorough, risk-informed process, conforming to PCI DSS guidelines.
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.2.1.b**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.5.1.2.1.b Review of Documented Results for POI Device Inspections
+- **Details**: Evidence for examining the documented results of the periodic inspections of Point of Interaction (POI) devices. This includes a comparison with the entity’s targeted risk analysis to ensure that the actual frequency and type of inspections conducted align with the planned risk-based approach as outlined in PCI DSS Requirement 12.3.1.
 
+**Note**: This classification as "Documentation Evidence" emphasizes the importance of cross-referencing the actual inspection activities with the entity’s targeted risk analysis. It ensures that POI device security measures are not only planned but also effectively implemented in line with identified risk levels and PCI DSS standards.
 
 ### sub-requirement 9.5.1.3
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 9.5.1.3.a**
 
+**Category**: Documentation Evidence
+- **Reference Name**: Requirement 9.5.1.3.a Review of Training Materials for Personnel in POI Environments
+- **Details**: Evidence from examining the training materials provided to personnel working in Point of Interaction (POI) environments. The focus is on ensuring these materials include all the necessary elements specified in the PCI DSS requirement, thereby guaranteeing comprehensive training on POI device security and handling.
+
+**Note**: This classification as "Documentation Evidence" highlights the need to scrutinize the content and comprehensiveness of training materials. It’s crucial to verify that personnel in POI environments are adequately informed and trained, in accordance with PCI DSS guidelines, to handle POI devices securely and respond effectively to potential security threats.
 
 
