@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "2948a5d18188a391",
+        "id": "386165518c6dd42e",
         "type": "tabs",
         "children": [
           {
-            "id": "08dce2b31f8e9a7a",
+            "id": "7c9ce770e72885c8",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -138,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08dce2b31f8e9a7a",
+  "active": "7c9ce770e72885c8",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "README.md",
     "index.md",
     "2023-11-21.md",
@@ -161,7 +162,6 @@
     "reference-material-for-review/pci-dss-v4.0-annotated/01-request-template.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "reference-material-for-review/pci-dss-v4.0-RoC/Untitled.canvas",
     "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Requirement-01-Evidence-Sets.md"
   ]

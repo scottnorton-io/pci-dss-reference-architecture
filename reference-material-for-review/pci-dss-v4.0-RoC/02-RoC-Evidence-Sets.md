@@ -4290,12 +4290,81 @@
 **Details**: 
 - **Incident-Response Plan for Covert Malware Communication for Service Providers**: This evidence entails reviewing the entity's incident-response plan, as outlined in PCI DSS Requirement 12.10.1, to ensure it includes a comprehensive response strategy for dealing with covert malware communication channels. The purpose of the examination is to verify that the plan not only requires a response in the event of detecting such channels but also clearly defines the steps to be taken. This includes identifying the protocols, personnel roles, and actions needed to effectively manage and mitigate any incidents involving covert malware communications. By ensuring a well-defined response mechanism is in place, service providers demonstrate their preparedness to handle sophisticated cybersecurity threats that use covert channels to compromise systems. This evidence is essential to assess the readiness and robustness of the service provider’s incident response capabilities in addressing complex malware threats.
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.1.1.c**
 
+**Category**: Interview Evidence and Observation Evidence
+
+**Reference Name**: Requirement 11.5.1.1.c Covert Malware Communication Knowledge and Response in Service Providers
+
+**Details**: 
+- **Personnel Interviews on Covert Malware Communication and Control Techniques**: This evidence comprises interviews with responsible personnel within the service provider's organization. The focus of these interviews is to ascertain the level of understanding and awareness personnel have regarding covert malware communication and control techniques. This evaluation helps in determining if the staff are adequately trained and informed about the nuances of such malware threats, which is a critical aspect of cybersecurity preparedness.
+
+- **Observation of Processes for Responding to Suspected Malware**: This evidence includes the observation of actual processes and procedures implemented by the service provider to respond when malware is suspected. This observation helps in assessing the practical application of the knowledge and training provided to the personnel. It ensures that there are active and effective measures in place to identify, control, and mitigate the risks associated with covert malware communications. This aspect of evidence gathering is instrumental in evaluating the readiness and efficacy of the service provider’s response mechanisms to potential malware threats, thereby ensuring the security and integrity of the cardholder data environment.
 
 ### sub-requirement 11.5.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.2.a**
 
+**Category**: System Evidence
+
+**Reference Name**: Requirement 11.5.2.a Change-Detection Mechanism Verification
+
+**Details**: 
+- **System Settings Analysis for Change-Detection Mechanism**: This evidence consists of an examination of the system settings relevant to the implementation of a change-detection mechanism. The goal is to ascertain that the system settings are configured correctly to support an effective change-detection process. This analysis is vital to ensure that any unauthorized modifications to critical system files, configurations, and content are promptly identified, thereby safeguarding the integrity of the cardholder data environment.
+
+- **Review of Monitored Files Under Change-Detection Mechanism**: This evidence involves reviewing the files that are under the surveillance of the change-detection mechanism. The purpose is to verify that all critical files are being monitored appropriately and consistently. This scrutiny helps in ensuring comprehensive monitoring, which is a cornerstone for effective change detection and subsequent action.
+
+- **Assessment of Results from Change-Detection Monitoring Activities**: This evidence includes the evaluation of the results derived from the change-detection monitoring activities. It involves checking whether the change-detection mechanism effectively identifies and reports any alterations to monitored files. This assessment is crucial in determining the effectiveness of the change-detection system in capturing and alerting on any unauthorized modifications, which is essential for maintaining the security of the system and compliance with PCI DSS requirements.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.2.b**
+
+**Category**: System Evidence
+
+**Reference Name**: Requirement 11.5.2.b Change-Detection Mechanism Configuration Assessment
+
+**Details**: 
+- **Change-Detection Mechanism Configuration Review**: This evidence involves a thorough examination of the configuration settings for the change-detection mechanism implemented within the cardholder data environment. The primary focus is to verify that the change-detection mechanism is configured in alignment with all the specified elements in PCI DSS Requirement 11.5.2.b. This assessment is crucial for ensuring that the change-detection mechanism is set up correctly and is capable of effectively monitoring and alerting on any unauthorized alterations to critical system components, thus playing a key role in safeguarding the integrity and security of the cardholder data environment.
 
 ### sub-requirement 11.6
 ### sub-requirement 11.6.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.6.1.a**
+
+**Category**: System Evidence
+
+**Reference Name**: Requirement 11.6.1.a Payment Page Change and Tamper-Detection Analysis
+
+**Details**: 
+- **Payment Page Change and Tamper-Detection Review**: This evidence consists of an analysis of system settings, monitoring of payment pages, and the results from monitoring activities focused on change and tamper-detection mechanisms. The objective is to ensure that mechanisms are actively employed to detect any unauthorized changes or tampering attempts on payment pages. This evaluation is essential to maintain the integrity and security of online payment transactions, safeguarding against potential threats that may compromise sensitive cardholder data. The analysis aids in verifying the effectiveness and proper configuration of these mechanisms in line with PCI DSS requirements, thereby contributing to the overall security posture of the payment processing system.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.6.1.b**
+
+**Category**: System Evidence
+
+**Reference Name**: Requirement 11.6.1.b Payment Page Mechanism Configuration Verification
+
+**Details**: 
+- **Mechanism Configuration Review**: This evidence involves examining the configuration settings of mechanisms employed for change and tamper detection on payment pages. The aim is to ensure that these mechanisms are configured according to the specifications outlined in the PCI DSS v4.0 requirements. Proper configuration is critical for the effectiveness of these mechanisms in identifying and alerting on any unauthorized modifications or tampering activities targeting payment pages. This review is pivotal in maintaining the security of payment transaction processes, as it validates the robustness and appropriateness of the configurations set for the detection mechanisms, thereby upholding the integrity and confidentiality of cardholder data during transactions.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.6.1.c**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.6.1.c Risk Analysis for Change Detection Frequency
+
+**Details**: 
+- **Targeted Risk Analysis Review**: This evidence encompasses an evaluation of the entity's targeted risk analysis that is utilized to determine the frequency of change and tamper detection mechanism functions on payment pages. The primary focus of this review is to ensure that the risk analysis process adheres to all specified elements in PCI DSS Requirement 12.3.1. This risk analysis is essential as it forms the basis for deciding how frequently the mechanisms should operate to effectively monitor for any unauthorized changes or tampering, balancing between security needs and operational feasibility. By verifying the compliance of this risk analysis with PCI DSS requirements, we can ascertain that the entity has a well-founded and justified approach to setting the frequency of change and tamper detection, thereby contributing to the ongoing protection of cardholder data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.6.1.d**
+
+**Category**: System Evidence, Interview Evidence
+
+**Reference Name**: Requirement 11.6.1.d Change Detection Mechanism Frequency Analysis
+
+**Details**: 
+- **Configuration Settings Review**: This evidence includes an examination of the configuration settings related to the change and tamper detection mechanisms. The key aspect of this review is to ascertain whether these mechanisms are set to function at a minimum frequency of once every seven days, or as per the frequency outlined in the entity’s targeted risk analysis. Ensuring the optimal frequency of these mechanisms is crucial for timely detection of unauthorized modifications, maintaining the security integrity of the payment pages.
+
+- **Personnel Interviews**: In addition to the configuration review, interviews with relevant personnel are conducted. These interviews aim to gather insights on the operational aspects of the change detection mechanism, confirming whether the frequency of operation aligns with the prescribed requirements or the entity’s risk-based decisions. Personnel understanding and adherence to these settings are vital for effective implementation and maintenance of the security controls in place.
+
+---
 
