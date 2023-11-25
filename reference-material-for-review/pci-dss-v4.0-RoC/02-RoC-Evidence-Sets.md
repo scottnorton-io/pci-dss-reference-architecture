@@ -4622,29 +4622,161 @@ Identify the evidence reference number(s) from Section 6 for all interview(s) co
 
 ### sub-requirement 12.6.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.2**
 
+**Category**: Documentation Evidence, Interview Evidence
+
+**Reference Name**: Requirement 12.6.2 Security Awareness Program Evaluation
+
+**Details**:
+- **Security Awareness Program Content Examination**: Analysis of the content within the security awareness program to ensure it aligns with PCI DSS standards. This includes reviewing the program's structure, topics covered, and relevance to cardholder data protection.
+- **Review Evidence Assessment**: Scrutiny of evidence demonstrating regular reviews of the security awareness program. This aims to confirm that the program is periodically updated and remains relevant to the current security landscape and PCI DSS requirements.
+- **Personnel Interviews**: Conducting interviews with personnel involved in the security awareness program. These discussions aim to verify personnel understanding of the program, its objectives, and their role in upholding data security as per the program's guidelines. 
+
+This comprehensive evaluation ensures that the security awareness program is not only well-documented and regularly reviewed but also effectively understood and implemented by all relevant personnel, thereby reinforcing the organization's commitment to maintaining a robust security culture.
 
 ### sub-requirement 12.6.3
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.3.a**
 
+**Category**: Documentation Evidence
 
+**Reference Name**: Requirement 12.6.3.a Security Awareness Training Compliance Records
+
+**Details**:
+- **Security Awareness Training Records Review**: Scrutiny of the records pertaining to the security awareness training program, focusing on verifying adherence to training schedules. This includes:
+  - **Initial Training Verification**: Confirmation that all personnel received security awareness training upon their hiring, establishing a baseline understanding of security practices relevant to the protection of cardholder data.
+  - **Annual Training Compliance**: Examination of records to ensure that all personnel undergo security awareness training at least once every 12 months. This is critical for maintaining an up-to-date understanding of security threats and the evolving landscape of data protection.
+
+This evaluation process is essential for ensuring continuous and consistent awareness of security protocols among all personnel, which is a fundamental aspect of safeguarding cardholder data as per PCI DSS requirements. Regular training not only reinforces existing knowledge but also introduces new security concepts and practices that evolve with the changing nature of cybersecurity threats.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.3.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.6.3.b Diverse Methods in Security Awareness Program
+
+**Details**: 
+- **Security Awareness Program Material Review**: An in-depth analysis of the materials used in the security awareness program. This investigation focuses on:
+  - **Variety in Educational Methods**: Assessing the range of methods employed to communicate and educate personnel about security awareness. This variety is crucial for effective learning, catering to different learning styles and reinforcing important security concepts through multiple channels.
+  - **Content Appropriateness and Effectiveness**: Ensuring that the materials cover essential security topics comprehensively and are designed to effectively impart critical information to all personnel.
+
+The diversity of methods in security education is vital for maintaining a high level of awareness and understanding of security practices among personnel. This is instrumental in safeguarding cardholder data, as it ensures that all personnel, regardless of their learning preferences, are well-informed and vigilant about security protocols and potential threats.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.3.c**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 12.6.3.c Personnel Security Awareness Confirmation
+
+**Details**: 
+- **Personnel Interviews for Security Awareness**: Conducted to ensure compliance with the organization's security awareness program. Key points of assessment include:
+  - **Completion of Security Awareness Training**: Verification that each interviewed personnel has undergone the mandatory security awareness training as per the organization's protocols.
+  - **Understanding of Role in Protecting Cardholder Data**: Evaluating personnel’s awareness and comprehension of their specific roles and responsibilities in safeguarding cardholder data. This understanding is critical to ensure that all staff members are aligned with the security objectives and contribute effectively to the protection of sensitive data.
+
+These interviews are crucial in gauging the effectiveness of the security awareness program and ensuring that all personnel are not only trained but also clearly understand their role in the security infrastructure, directly contributing to the overall security posture of the organization in relation to cardholder data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.3.d**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.6.3.d Security Awareness Acknowledgment Analysis
+
+**Details**: 
+- **Security Awareness Program Material Review**: Involves the thorough examination of the materials constituting the security awareness program. This review aims to ensure that the content is comprehensive, up-to-date, and effectively communicates the entity's information security policy and procedures to all relevant personnel.
+  
+- **Personnel Acknowledgment Records Analysis**: Entails scrutinizing acknowledgments signed by personnel, which serve as documented proof that they have received, read, and understood the information security policy and procedures. The focus is on confirming that these acknowledgments are renewed annually, reflecting a continuous commitment to security awareness and understanding among all staff members.
+
+This evidence is pivotal in demonstrating the organization's dedication to maintaining a high level of security awareness among its personnel. Regular updates and acknowledgments of the security policies and procedures are essential components of an effective security culture, reinforcing the importance of protecting cardholder data and ensuring ongoing compliance with PCI DSS standards.
 
 ### sub-requirement 12.6.3.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.3.1**
 
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.6.3.1 Security Awareness Training Content Review
+
+**Details**: 
+- **Security Awareness Training Content Analysis**: This evidence involves a detailed examination of the content within the security awareness training program. The primary focus is to ensure that the training material comprehensively covers all the elements specified in PCI DSS Requirement 12.6.3.1. These elements typically include aspects like the importance of cardholder data security, specific security policies and procedures of the entity, and the roles and responsibilities of personnel in maintaining data security.
+
+This evidence is crucial for verifying that the organization's security awareness training program is not only comprehensive but also tailored to effectively educate its personnel on the key aspects of data security in line with PCI DSS standards. By ensuring that all necessary topics are covered, the organization demonstrates its commitment to maintaining a robust security posture and fostering a culture of continuous security awareness among its staff.
 
 ### sub-requirement 12.6.3.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.3.2**
 
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.6.3.2 Security Awareness Training on End-User Technology Use
+
+**Details**:
+- **Security Awareness Training on End-User Technology Use Analysis**: This evidence entails the review of security awareness training content, focusing on the inclusion of information about the acceptable use of end-user technologies as outlined in PCI DSS Requirement 12.2.1. The objective is to confirm that the training material effectively communicates guidelines and policies related to the proper and secure use of end-user technologies within the organization.
+
+This evidence is vital for validating that the organization's security awareness training adequately addresses the risks associated with end-user technologies. It ensures that all personnel are not only aware of the security policies but also understand their role in adhering to these guidelines to protect cardholder data. This aspect of the training is essential in fostering a security-conscious culture among staff and minimizing risks associated with end-user technology misuse or mismanagement.
 
 ### sub-requirement 12.7
 ### sub-requirement 12.7.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.7.1**
 
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 12.7.1 HR Screening for CDE Access Personnel
+
+**Details**:
+- **Human Resource Screening Process Assessment**: This evidence involves interviews with responsible Human Resource department management to confirm that a screening process is in place for potential employees who will have access to the Cardholder Data Environment (CDE). The screening is conducted within the constraints of local laws. 
+
+The goal of this evidence is to verify that the organization is taking proactive measures to minimize the risk of security breaches by ensuring that individuals granted access to sensitive data areas are thoroughly vetted. This includes background checks, reference checks, or other screening methods as permitted by law. By conducting these interviews, the organization demonstrates its commitment to maintaining a secure data environment by carefully selecting personnel who have the responsibility and privilege of accessing the CDE.
 
 ### sub-requirement 12.8
 ### sub-requirement 12.8.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.1.a**
 
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.1.a TPSPs Policies and Procedures Review
+
+**Details**: 
+- **Third-Party Service Providers (TPSPs) Policies and Procedures Documentation**: This evidence consists of an examination of policies and procedures that outline the processes for maintaining a comprehensive list of Third-Party Service Providers (TPSPs). The list includes a description of the services provided by each TPSP and covers those entities with whom account data is shared or that could impact the security of account data.
+
+The intent of reviewing this documentation is to ensure that the organization has a clear and well-documented understanding of its relationships with TPSPs and the specific roles they play in handling or influencing the security of account data. This evidence is crucial for verifying that all TPSPs are properly identified, evaluated, and managed to maintain the security and integrity of sensitive account information.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.1.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.1.b TPSPs List Review
+
+**Details**: 
+- **List of Third-Party Service Providers (TPSPs) Documentation**: This evidence involves the examination of the organization's maintained list of all Third-Party Service Providers (TPSPs). The review focuses on ensuring that the list is comprehensive and includes detailed descriptions of the services each TPSP provides.
+
+The purpose of this review is to ascertain the organization’s vigilance in keeping a detailed record of all TPSPs, which is essential for understanding the potential impact of these providers on the security of account data. The list forms a critical part of the organization’s overall strategy to manage and monitor the risks associated with third-party engagements, particularly those handling or potentially affecting the security of sensitive payment data.
 
 ### sub-requirement 12.8.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.2.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.2.a TPSPs Written Agreements Policy Analysis
+
+**Details**: 
+- **Analysis of Policies and Procedures for TPSPs Written Agreements**: This evidence consists of a thorough examination of the organization's policies and procedures that outline the processes for maintaining written agreements with all Third-Party Service Providers (TPSPs). 
+
+The focal point of this analysis is to validate that the organization's policies and procedures comprehensively dictate how written agreements with TPSPs are established, managed, and maintained. These agreements are crucial for ensuring that TPSPs acknowledge and adhere to their responsibilities in terms of protecting and handling cardholder data. This process is integral to the organization's broader strategy for managing third-party risks and ensuring ongoing compliance with PCI DSS standards, especially regarding the security and confidentiality obligations of TPSPs handling sensitive payment information.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.2.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.2.b TPSPs Agreements Compliance Analysis
+
+**Details**: 
+- **Analysis of Compliance in TPSPs Written Agreements**: This evidence involves an in-depth review of the written agreements established with Third-Party Service Providers (TPSPs). The focus is to ensure that these agreements are fully compliant with the stipulated elements of PCI DSS Requirement 12.8.2.b.
+
+The primary objective is to confirm that all agreements with TPSPs clearly delineate their roles and responsibilities in protecting cardholder data. This includes assessing the provisions within these agreements for data security, incident response, and adherence to applicable PCI DSS standards. This analysis is pivotal in ensuring that all third-party engagements are underpinned by robust and compliant contractual foundations, thereby safeguarding the security and integrity of cardholder data across all external partnerships.
+
+### sub-requirement 12.8.3
+
