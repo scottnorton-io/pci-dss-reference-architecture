@@ -4272,6 +4272,24 @@
 
 ### sub-requirement 11.5.1.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.1.1.a**
+
+**Category**: System Evidence and Documentation Evidence
+
+**Reference Name**: Requirement 11.5.1.1.a Covert Malware Communication Detection for Service Providers
+
+**Details**: 
+- **Covert Malware Communication Detection for Service Providers**: This evidence consists of an examination of documentation and configuration settings to confirm that service providers have implemented effective methods for detecting and responding to covert malware communication channels. The focus is on verifying that such systems are not only in place but are also actively operational. The review of documentation provides insights into the policies, procedures, and technological solutions adopted by the service provider to identify and mitigate covert malware communications, which are often used by malicious actors to bypass standard security measures. The examination of configuration settings ensures that these detection and alert/prevention systems are correctly configured to effectively identify and manage such security threats. This evidence is crucial for service providers in maintaining robust security measures against sophisticated malware threats, thereby protecting both their infrastructure and their clients' sensitive data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.1.1.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.5.1.1.b Incident-Response Plan for Covert Malware Communication for Service Providers
+
+**Details**: 
+- **Incident-Response Plan for Covert Malware Communication for Service Providers**: This evidence entails reviewing the entity's incident-response plan, as outlined in PCI DSS Requirement 12.10.1, to ensure it includes a comprehensive response strategy for dealing with covert malware communication channels. The purpose of the examination is to verify that the plan not only requires a response in the event of detecting such channels but also clearly defines the steps to be taken. This includes identifying the protocols, personnel roles, and actions needed to effectively manage and mitigate any incidents involving covert malware communications. By ensuring a well-defined response mechanism is in place, service providers demonstrate their preparedness to handle sophisticated cybersecurity threats that use covert channels to compromise systems. This evidence is essential to assess the readiness and robustness of the service provider’s incident response capabilities in addressing complex malware threats.
+
 
 
 ### sub-requirement 11.5.2
