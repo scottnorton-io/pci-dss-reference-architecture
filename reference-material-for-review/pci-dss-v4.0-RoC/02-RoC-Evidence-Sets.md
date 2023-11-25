@@ -3925,9 +3925,155 @@
 
 ### sub-requirement 11.2.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.2.2**
 
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.2.2 Authorized Wireless Access Points Inventory and Justification Documentation
+
+**Details**: This evidence involves the examination of documentation that maintains an inventory of authorized wireless access points within the organization. The focus is to ensure that each authorized wireless access point is accompanied by a documented business justification. This evidence is essential to validate the organization's adherence to PCI DSS standards regarding the controlled usage and management of wireless access points. It demonstrates a systematic approach to network security, where each access point is accounted for and justified, reinforcing the organization's commitment to safeguarding cardholder data against unauthorized wireless access.
 
 ### sub-requirement 11.3
 ### sub-requiremetn 11.3.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.1.a Internal Scan Report Results Quarterly Review
+
+**Details**: This evidence involves the examination of internal scan report results from the past 12 months. The key focus is to validate that internal network vulnerability scans have been conducted at least quarterly within the most recent year. This evidence is critical for assessing the organization's compliance with PCI DSS standards regarding regular monitoring of internal networks for vulnerabilities. It demonstrates the organization's proactive approach in identifying and mitigating potential security risks within their internal network infrastructure, thereby contributing to the overall protection of cardholder data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.1.b Internal Scan High-Risk and Critical Vulnerabilities Resolution
+
+**Details**: This evidence entails the examination of internal scan report results from each scan and rescan conducted over the past 12 months. The primary focus is to ensure that all high-risk and critical vulnerabilities, as outlined in PCI DSS Requirement 6.3.1, have been effectively resolved. This evidence is crucial in assessing the organization's commitment to maintaining a secure network environment by promptly addressing and mitigating vulnerabilities that pose significant risks to the security of cardholder data. Regular resolution of such vulnerabilities demonstrates the organization's adherence to rigorous security standards and its dedication to safeguarding sensitive information.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.c**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.1.c Scan Tool Updates and Personnel Interviews
+
+**Details**: This evidence includes an examination of the configurations of the scan tools used for internal vulnerability scans, ensuring they are updated with the latest vulnerability information. Additionally, it involves conducting interviews with personnel responsible for managing these tools. This evidence is vital in verifying that the organization's vulnerability scanning tools are current and effective in identifying potential security threats. Keeping these tools updated is essential for maintaining a robust security posture and ensuring compliance with PCI DSS standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.d**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.3.1.d Internal or External Scanning Personnel Interviews
+
+**Details**: This evidence entails interviews with responsible personnel to confirm that internal vulnerability scans were conducted by either a qualified internal resource or a qualified external third party. Additionally, it involves verifying the organizational independence of the tester. This evidence is crucial to ensure that the vulnerability scanning process is carried out by competent and independent individuals, thereby maintaining the integrity and effectiveness of the scanning process. These interviews help to ascertain that the scans are comprehensive and unbiased, aligning with the PCI DSS requirements for rigorous and independent security assessments.
+
+### sub-requirement 11.3.1.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.1.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.1.1.a Targeted Risk Analysis for Addressing Vulnerabilities
+
+**Details**: This evidence involves the examination of the entity's targeted risk analysis, which is essential for identifying and categorizing vulnerabilities that are not classified as high-risk or critical as per the entity’s own vulnerability risk rankings (Requirement 6.3.1). The targeted risk analysis must be conducted in alignment with the standards outlined in Requirement 12.3.1. The examination of this document ensures that the entity has a thorough understanding of the various risks associated with different vulnerabilities and has established an appropriate strategy for addressing them based on their specific risk profiles. This process is crucial for prioritizing remediation efforts and effectively managing vulnerabilities within the entity's network and systems.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.1.b**
+
+**Category**: Interview Evidence and Documentation Evidence
+
+**Reference Name**: Requirement 11.3.1.1.b Vulnerability Addressing and Rescan Confirmation Interviews and Reports
+
+**Details**: This evidence involves both conducting interviews with responsible personnel and examining internal scan report results or other relevant documentation. The purpose is to confirm that all applicable vulnerabilities, especially those not ranked as high-risk or critical as per the entity's vulnerability risk rankings at Requirement 6.3.1, are addressed according to the risk defined in the entity's targeted risk analysis. Additionally, it includes verification that the scan process encompasses rescans as necessary to confirm that these vulnerabilities have been adequately addressed. This approach ensures a comprehensive evaluation of the entity's practices in managing and mitigating vulnerabilities, particularly those that may not be immediately apparent as high-risk or critical but still pose a potential threat to the security of the cardholder data environment.
+
+### sub-requirement 11.3.1.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.2.a**
+
+**Category**: System Evidence
+
+**Reference Name**: Requirement 11.3.1.2.a Authenticated Scanning Tool Configurations
+
+**Details**: This evidence involves the examination of scan tool configurations to ensure that authenticated scanning is used for internal scans. The focus is on systems that accept credentials for scanning, with an emphasis on confirming that the scanning process is conducted with sufficient privileges. This verification is crucial for ensuring that the scanning tools have the necessary access to thoroughly assess the security posture of the systems, identifying vulnerabilities that might be otherwise overlooked in an unauthenticated scan. The goal is to provide a comprehensive evaluation of system vulnerabilities, particularly those requiring authenticated access, to enhance the overall security of the cardholder data environment.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.2.b**
+
+**Category**: Documentation Evidence and Interview Evidence
+
+**Reference Name**: Requirement 11.3.1.2.b Authenticated Scan Reports and Personnel Interviews
+
+**Details**: This evidence consists of two parts: First, the examination of scan report results to confirm that authenticated scans are being performed correctly. These scan reports provide detailed insights into the security vulnerabilities of the system and the effectiveness of the authenticated scanning process. The second part involves interviewing personnel responsible for conducting or overseeing these scans. The interviews aim to verify the personnel's understanding and implementation of authenticated scanning procedures. This dual approach of examining both the scan reports and interviewing the personnel ensures a comprehensive verification of the authenticated scanning process, confirming its effectiveness and adherence to the defined security protocols.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.2.c**
+
+**Category**: System Evidence and Interview Evidence
+
+**Reference Name**: Requirement 11.3.1.2.c Authenticated Scanning Accounts Examination and Personnel Interviews
+
+**Details**: This evidence encompasses the examination of accounts used for authenticated scanning to ensure they comply with the protocols specified in PCI DSS Requirement 8.2.2. This involves a detailed review of the accounts to ascertain if they are being used for interactive login and are managed according to the stipulated security standards. Additionally, interviews with personnel responsible for managing these accounts are conducted. These interviews aim to understand the processes in place for managing these accounts and to verify that these processes align with the requirements of PCI DSS. The combination of account examination and personnel interviews provides a comprehensive insight into the management and security of the accounts used for authenticated scanning, ensuring adherence to the prescribed PCI DSS guidelines.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.2.d**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.1.2.d Systems Documentation for Non-Authenticated Scanning
+
+**Details**: This evidence includes the examination of documentation pertaining to systems that cannot accept credentials for authenticated scanning. The purpose of this examination is to ensure that such systems are clearly defined and identified within the entity's security framework. This step is crucial for maintaining comprehensive security measures, as it helps in recognizing and addressing the unique risks associated with systems that do not support authenticated scanning. The documentation under review typically outlines the nature of these systems, the reasons why they cannot accept credentials, and the alternative security measures or compensating controls in place to safeguard these systems. This examination forms a critical part of the entity's security assessment, ensuring that all systems, including those that cannot undergo authenticated scanning, are accounted for in the overall security strategy in compliance with PCI DSS standards.
+
+### sub-requirement 11.3.1.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.3.a**
+
+**Category**: Documentation Evidence and System Evidence
+
+**Reference Names**: 
+1. Requirement 11.3.1.3.a Change Control Documentation for Post-Change Scanning
+2. Requirement 11.3.1.3.a Internal Scan Reports Post Significant Changes
+
+**Details**: 
+1. **Change Control Documentation for Post-Change Scanning**: This evidence involves the examination of change control documentation to verify that system components were scanned after any significant changes. It focuses on ensuring that the entity's change management processes include provisions for security scanning post substantial modifications to the system components. This documentation typically contains records of significant changes made, the rationale behind these changes, and the subsequent actions taken to reassess the system's security posture, including the conduction of internal scans.
+
+2. **Internal Scan Reports Post Significant Changes**: This evidence includes the review of internal scan reports generated after significant changes to the system components. The purpose of this examination is to confirm that the entity conducts thorough security scanning of its system components following major modifications. These reports provide insights into the security vulnerabilities and risks introduced or mitigated by the changes, thereby playing a critical role in the entity's ongoing security management and compliance with PCI DSS standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.3.b**
+
+**Category**: Interview Evidence and System Evidence
+
+**Reference Names**: 
+1. Requirement 11.3.1.3.b Interviews on Post-Change Internal Scans
+2. Requirement 11.3.1.3.b Internal Scan and Rescan Reports Post Significant Changes
+
+**Details**: 
+1. **Interviews on Post-Change Internal Scans**: This evidence involves interviews with personnel responsible for conducting internal scans after significant changes to system components. The purpose of these interviews is to verify the implementation and effectiveness of internal scanning processes following major modifications. These discussions help in assessing whether the personnel are aware of the procedures, their roles in the process, and if they are executed as per PCI DSS standards, particularly concerning identifying and resolving high-risk and critical vulnerabilities.
+
+2. **Internal Scan and Rescan Reports Post Significant Changes**: This evidence comprises the review of internal scan and rescan reports generated after significant changes to the system components. These reports are critical for verifying that the scans were indeed performed as required post significant changes and that any identified high-risk and critical vulnerabilities (as defined in Requirement 6.3.1) were appropriately addressed and resolved. The reports provide a detailed account of the vulnerabilities found, the risks they pose, and the measures taken to mitigate them, thereby ensuring the maintenance of a secure and compliant environment.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.1.3.c**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.3.1.3.c Interviews on Qualifications and Independence of Internal Scan Personnel
+
+**Details**: 
+- **Interviews on Qualifications and Independence of Internal Scan Personnel**: This evidence includes interviews with personnel responsible for conducting internal scans. The focus of these interviews is to confirm that the internal scans are carried out by individuals who are qualified to perform such tasks, whether they are internal resources or external third parties. Additionally, these interviews help to establish the organizational independence of the testers, ensuring that there is no conflict of interest and that the tests are conducted objectively and impartially. This verification is crucial for maintaining the integrity and reliability of the internal scanning process, as stipulated by PCI DSS standards.
+
+### sub-requirement 11.3.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.2.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.2.a ASV Scan Reports Analysis
+
+**Details**: 
+- **ASV Scan Reports Analysis**: This evidence encompasses the examination of Approved Scanning Vendor (ASV) scan reports for the last 12 months. The primary objective is to confirm that external vulnerability scans were conducted at least quarterly in the most recent year. These ASV scan reports provide crucial insights into the external security posture of the system, ensuring compliance with PCI DSS requirements. By verifying the regularity of these scans, the organization can demonstrate its ongoing commitment to identifying and mitigating external vulnerabilities, which is a critical aspect of maintaining the security and integrity of cardholder data environments (CDEs).
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.2.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.2.b ASV Scan Resolutions Analysis
+
+**Details**:
+- **ASV Scan Resolutions Analysis**: This evidence consists of a detailed examination of the ASV scan reports for each scan and subsequent rescans over the last 12 months. The primary aim is to ensure that all identified vulnerabilities have been effectively resolved and that the scans meet the criteria set forth in the ASV Program Guide for a passing assessment. These reports are critical in demonstrating the organization's commitment to resolving external vulnerabilities in a timely and effective manner, contributing significantly to the security of the cardholder data environment. Regular assessment and resolution of vulnerabilities are essential components of the organization’s overall security posture, ensuring compliance with PCI DSS standards and safeguarding against potential external threats.
 
