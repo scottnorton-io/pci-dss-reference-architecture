@@ -4561,18 +4561,90 @@
 
 ### sub-requirement 12.5.2
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.5.2.a**
 
+**Category**: Documentation and Interview Evidence
+
+**Reference Name**: Requirement 12.5.2.a Annual and Post-Change Scope Reviews
+
+**Details**: 
+- **Annual and Post-Change Scope Reviews**: This evidence comprises both documented results of scope reviews and interviews with personnel involved in these reviews. The focus is to ensure that the scope reviews of the in-scope environment for PCI DSS compliance are conducted annually and after any significant changes. These reviews are critical for maintaining the accuracy and relevance of the PCI DSS scope, thereby ensuring that all system components that store, process, or transmit cardholder data, or could impact the security of the cardholder data environment, are appropriately identified and secured. The documented results provide a record of the reviews conducted, while the interviews offer insights into the review process, frequency, and any changes made to the scope based on these reviews. This evidence is essential for demonstrating ongoing vigilance in identifying and managing components that contribute to the security of the cardholder data environment.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.5.2.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.5.2.b PCI DSS Scoping Confirmation Review Analysis
+
+**Details**: 
+- **PCI DSS Scoping Confirmation Review Analysis**: This evidence involves the examination of documented results from scope reviews conducted by the entity. The purpose is to ascertain that these scope reviews comprehensively include all elements specified under PCI DSS requirements. Such reviews are pivotal in confirming that the entity's approach to PCI DSS compliance accurately encompasses all system components within the cardholder data environment (CDE). These documented results offer a detailed perspective on how the entity identifies and manages its scope in relation to PCI DSS, ensuring that all necessary components are accounted for and no critical elements are overlooked. The thoroughness of these reviews is essential for maintaining robust security measures and ensuring comprehensive compliance with PCI DSS standards.
 
 ### sub-requirement 12.5.2.1
 
+12.5.2.1.a Additional testing procedure for service provider assessments only: Examine documented results of scope reviews and interview personnel to verify that reviews per Requirement 12.5.2 are performed: 
+•	At least once every six months, and 
+•	After significant changes
+Identify the evidence reference number(s) from Section 6 for all documented results of scope reviews examined for this testing procedure.
 
+Identify the evidence reference number(s) from Section 6 for all interview(s) conducted for this testing procedure.
 
 ### sub-requirement 12.5.3
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.5.3.a**
 
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.5.3.a Service Provider Organizational Change Impact Analysis
+
+**Details**: 
+- **Service Provider Organizational Change Impact Analysis**: This evidence involves reviewing policies and procedures to ensure they define clear processes for assessing the impact of significant organizational changes on PCI DSS scope and the applicability of controls. The analysis focuses on verifying that service providers have established methodologies to document and review how major structural shifts within the organization could affect compliance with PCI DSS standards. This is essential for maintaining continuous compliance, particularly in dynamic environments where organizational changes could potentially alter the scope or effectiveness of existing security controls. By systematically evaluating the implications of such changes, service providers can proactively adjust their security measures and compliance strategies to align with the evolving nature of their organizational structure and operations.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.5.3.b**
+
+**Category**: Documentation Evidence and Interview Evidence
+
+**Reference Name**: Requirement 12.5.3.b Service Provider Organizational Change Documentation Review
+
+**Details**: 
+- **Service Provider Organizational Change Documentation Review**: This evidence includes a thorough examination of documentation, such as meeting minutes, and interviews with responsible personnel to confirm that any significant changes to the organizational structure of a service provider have led to documented reviews. These reviews must cover all aspects specified in PCI DSS v4.0, ensuring that any implications for the organization's security posture and compliance status are fully assessed and understood. The focus is to ensure that these reviews, following major organizational changes, include a comprehensive analysis of the impact on PCI DSS scope and controls, and that the findings are effectively communicated to the executive management. This process is vital for maintaining continuous vigilance and adaptability in security practices, particularly in response to significant structural changes within the organization.
 
 ### sub-requirement 12.6
 ### sub-requirement 12.6.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.6.1**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.6.1 Security Awareness Program Review
+
+**Details**: 
+- **Security Awareness Program Review**: This evidence involves a detailed review of the security awareness program to ensure it comprehensively covers information about the entity's information security policies and procedures. The focus is on verifying that the program effectively communicates to all personnel their roles and responsibilities in protecting cardholder data. The program is expected to encompass various aspects of security awareness, including but not limited to data handling, password management, physical security, and response to security incidents. By scrutinizing the content and scope of the security awareness program, it can be confirmed that all personnel are adequately informed and trained on the essential security practices required to safeguard cardholder data in line with PCI DSS standards. This is a crucial step in ensuring that every member of the organization is equipped with the necessary knowledge and understanding to contribute to the overall security posture and compliance.
+
+### sub-requirement 12.6.2
 
 
+
+### sub-requirement 12.6.3
+
+
+
+
+### sub-requirement 12.6.3.1
+
+
+
+### sub-requirement 12.6.3.2
+
+
+
+### sub-requirement 12.7
+### sub-requirement 12.7.1
+
+
+
+### sub-requirement 12.8
+### sub-requirement 12.8.1
+
+
+
+### sub-requirement 12.8.2
