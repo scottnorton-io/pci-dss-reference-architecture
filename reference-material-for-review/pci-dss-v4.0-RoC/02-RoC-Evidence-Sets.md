@@ -3848,3 +3848,10 @@
    - **Reference Name**: Requirement 10.7.3.b Examination of Records for Documentation of Critical Security Control System Failures
    - **Details**: This evidence involves the examination of records documenting failures in critical security control systems. These records are scrutinized to ensure they comprehensively include the identification of the causes of failures, the exact duration of these failures (including start and end dates and times), and detailed information on the remediation actions required to address the root causes. The focus is on ensuring that the documentation provides a thorough and insightful analysis of each failure incident, which is crucial for effective incident management and future prevention strategies.
 
+---
+
+### requirement 11
+### subrequirement 11.1
+### sub-requirement 11.1.1
+
+
