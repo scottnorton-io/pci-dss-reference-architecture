@@ -3854,4 +3854,80 @@
 ### subrequirement 11.1
 ### sub-requirement 11.1.1
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.1.1**
+
+1. **Category**: Documentation Evidence
+   - **Reference Name**: Requirement 11.1.1 Examination of Security Policies and Procedures Documentation
+   - **Details**: This evidence consists of a thorough examination of the entity's security policies and operational procedures documentation, ensuring compliance with all specified elements of PCI DSS v4.0 Requirement 11.1.1. The focus is on assessing whether the documented policies and procedures effectively address the security aspects relevant to this requirement.
+
+2. **Category**: Interview Evidence
+   - **Reference Name**: Requirement 11.1.1 Interviews with Personnel Regarding Management of Security Policies and Procedures
+   - **Details**: This evidence encompasses interviews with relevant personnel, aimed at verifying the effective management and understanding of security policies and operational procedures in line with PCI DSS v4.0 Requirement 11.1.1. The goal is to ascertain whether personnel are adequately informed and equipped to adhere to and implement these policies and procedures as part of their operational responsibilities.
+
+### sub-requirement 11.1.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.1.2.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.1.2.a Examination of Roles and Responsibilities Documentation
+
+**Details**: This evidence involves the examination of documentation to confirm that roles and responsibilities associated with PCI DSS v4.0 Requirement 11 are clearly defined and assigned. The focus is on ensuring that the documentation accurately delineates the specific roles and responsibilities required for compliance with Requirement 11, highlighting the assigned individuals or teams and their respective duties in the context of the entity's security posture and operational framework.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.1.2.b**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.1.2.b Interview Verification of Assigned Roles and Responsibilities Understanding
+
+**Details**: This evidence includes conducting interviews with personnel responsible for activities under PCI DSS v4.0 Requirement 11. The objective is to ascertain if the roles and responsibilities, as documented, are not only assigned but also clearly understood by the assigned individuals. The interviews should probe into how well these personnel comprehend their roles, the extent of their responsibilities, and the relevance of these roles in maintaining the entity's compliance with Requirement 11. This ensures that the implementation of security measures and protocols is effectively understood and executed by those responsible.
+
+### sub-requirement 11.2
+### sub-requirement 11.2.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.2.1.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.2.1.a Examination of Policies and Procedures for Wireless Access Points
+
+**Details**: This evidence entails a thorough examination of the organization's policies and procedures regarding the management of both authorized and unauthorized wireless access points. The focus is to verify that these policies and procedures are comprehensive and align with all the specified elements in Requirement 11.2.1.a, ensuring a robust approach to wireless network security. The evaluation checks for clear definitions and guidelines on how wireless access points are to be handled, including protocols for approval, monitoring, and response to unauthorized access points.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.2.1.b**
+
+**Category 1**: Documentation Evidence
+
+**Reference Name**: Requirement 11.2.1.b Examination of Wireless Access Point Detection Methodologies and Documentation
+
+**Details**: This evidence involves the examination of methodologies and related documentation employed for detecting and identifying both authorized and unauthorized wireless access points. The documentation should detail the processes and tools used, ensuring they align with the specified elements in Requirement 11.2.1.b, which focuses on wireless security.
+
+**Category 2**: Interview Evidence
+
+**Reference Name**: Requirement 11.2.1.b Interview Verification of Wireless Access Point Detection Processes
+
+**Details**: This evidence includes interviews with personnel responsible for the implementation and management of wireless access point detection processes. The interviews aim to verify the understanding and execution of the defined processes for detecting both authorized and unauthorized wireless access points, ensuring compliance with Requirement 11.2.1.b's elements. The focus is on how effectively the staff can identify and manage wireless access in the context of organizational security protocols.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.2.1.c**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.2.1.c Examination of Wireless Assessment Results and Personnel Interviews
+
+**Details**: This evidence involves the thorough examination of results from wireless network assessments, as well as interviews with personnel responsible for conducting these assessments. The goal is to validate that the wireless assessments were carried out effectively and in full compliance with all elements specified in Requirement 11.2.1.c. This includes ensuring that the assessments were comprehensive, covering all necessary aspects of wireless network security, and that the personnel involved have a clear understanding of the procedures and their responsibilities in this context. The evidence demonstrates the organization's commitment to identifying and mitigating risks associated with wireless networks.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.2.1.d**
+
+**Category**: System Evidence
+
+**Reference Name**: Requirement 11.2.1.d Configuration Settings Examination for Automated Monitoring Alerts
+
+**Details**: This evidence pertains to the examination of configuration settings within systems that utilize automated monitoring methods. The focus is to ascertain whether these settings are appropriately configured to generate alerts that notify personnel of relevant events or anomalies. This verification ensures that the automated monitoring systems are not only operational but also effectively integrated into the organization's incident response protocols. The evidence is crucial for demonstrating the organization's proactive approach to network security, particularly in managing and responding to potential wireless network threats or breaches.
+
+### sub-requirement 11.2.2
+
+
+
+### sub-requirement 11.3
+### sub-requiremetn 11.3.1
+
 
