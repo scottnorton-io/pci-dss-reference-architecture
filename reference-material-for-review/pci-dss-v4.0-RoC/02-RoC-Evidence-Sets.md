@@ -4077,3 +4077,207 @@
 **Details**:
 - **ASV Scan Resolutions Analysis**: This evidence consists of a detailed examination of the ASV scan reports for each scan and subsequent rescans over the last 12 months. The primary aim is to ensure that all identified vulnerabilities have been effectively resolved and that the scans meet the criteria set forth in the ASV Program Guide for a passing assessment. These reports are critical in demonstrating the organization's commitment to resolving external vulnerabilities in a timely and effective manner, contributing significantly to the security of the cardholder data environment. Regular assessment and resolution of vulnerabilities are essential components of the organization’s overall security posture, ensuring compliance with PCI DSS standards and safeguarding against potential external threats.
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.2.c**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.2.c ASV Validation Analysis
+
+**Details**:
+- **ASV Validation Analysis**: This evidence involves scrutinizing the Approved Scanning Vendor (ASV) scan reports to confirm that the scans were indeed conducted by a PCI Security Standards Council (PCI SSC) Approved Scanning Vendor. The objective is to authenticate the legitimacy and compliance of the external scanning process. Ensuring that the scans are executed by a PCI SSC ASV is crucial for maintaining the integrity and validity of the vulnerability scanning process, as ASVs are specifically certified to understand and apply the PCI DSS requirements for external vulnerability scanning. This evidence, therefore, plays a pivotal role in verifying the organization's adherence to PCI DSS standards for external vulnerability assessments, contributing to the overall security framework safeguarding cardholder data.
+
+### sub-requirement 11.3.2.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.2.1.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.3.2.1.a Change Control and External Scan Verification
+
+**Details**:
+- **Change Control and External Scan Verification**: This evidence involves the examination of change control documentation alongside external scan reports. The focus is to ascertain that system components underwent scanning following any significant changes. This check is essential to ensure that any modifications to the system do not introduce new vulnerabilities or compromise the existing security posture. By aligning change control records with external scan outcomes, this evidence provides a comprehensive view of how changes are managed and validated security-wise, highlighting the organization’s proactive approach to maintaining a secure environment in alignment with PCI DSS requirements. Such vigilance is critical in a dynamic technological landscape where changes can potentially impact the security of cardholder data.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.2.1.b**
+
+**Category**: Interview and Documentation Evidence
+
+**Reference Name**: Requirement 11.3.2.1.b Post-Change External Scan Validation
+
+**Details**:
+- **Post-Change External Scan Validation**: This evidence involves interviews with relevant personnel and examination of external scan and rescan reports. The objective is to confirm that external scans were conducted after any significant changes to system components and that any identified vulnerabilities, particularly those with a CVSS score of 4.0 or higher, were adequately addressed. This process ensures the entity's compliance with PCI DSS standards by demonstrating proactive measures to maintain a secure network environment, especially after changes that could potentially introduce new vulnerabilities. It also highlights the organization’s commitment to regularly reviewing and updating their security measures in response to evolving threats and changes in their technological infrastructure.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.3.2.1.c**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.3.2.1.c External Scan Independence Verification
+
+**Details**:
+- **External Scan Independence Verification**: This evidence is derived from interviews with personnel responsible for overseeing or conducting external vulnerability scans. The focus is on verifying that these scans are performed by either a qualified internal resource or an external third party, ensuring that there is no conflict of interest or lack of objectivity in the scanning process. The independence of the tester is crucial to ensure unbiased and comprehensive identification of potential vulnerabilities. This approach helps maintain the integrity and effectiveness of the external scanning process, ensuring compliance with PCI DSS requirements and contributing to the overall security posture of the entity.
+
+### sub-requirement 11.4
+### sub-requirement 11.4.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.1**
+
+**Category**: Documentation Evidence and Interview Evidence
+
+**Reference Name**: Requirement 11.4.1 Penetration-Testing Methodology Assessment
+
+**Details**:
+- **Penetration-Testing Methodology Assessment**: This evidence includes the examination of documentation and interviews with personnel to verify the comprehensiveness and effectiveness of the penetration-testing methodology used by the entity. It is essential to ensure that this methodology encompasses all the elements specified in PCI DSS v4.0 Requirement 11.4.1. The evaluation of the documentation provides insights into the theoretical and planned aspects of the penetration testing, while interviews with relevant personnel offer a practical perspective on the implementation and execution of these methodologies. This dual approach ensures a holistic assessment of the penetration-testing practices, highlighting areas of strength and potential improvement to uphold robust security measures.
+
+### sub-requirement 11.4.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.2.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.4.2.a Internal Penetration Test Scope and Results Review
+
+**Details**:
+- **Internal Penetration Test Scope and Results Review**: This evidence involves the examination of the scope of work and the outcomes from the most recent internal penetration test. It is aimed at verifying that the internal penetration testing adheres to all the stipulated requirements of PCI DSS v4.0. The scope of work document details the planned extent and boundaries of the penetration test, providing a clear understanding of the targeted areas and objectives. Meanwhile, the analysis of the test results sheds light on the effectiveness of the internal security controls and identifies any potential vulnerabilities within the system. This comprehensive review ensures that internal penetration testing is not only performed but also aligns with the stringent standards required for safeguarding cardholder data environments.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.2.b**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.4.2.b Internal Penetration Test Personnel Qualifications and Independence Verification
+
+**Details**:
+- **Internal Penetration Test Personnel Qualifications and Independence Verification**: This evidence comprises interviews conducted with personnel involved in the internal penetration testing process. The objective is to confirm that the internal penetration test was executed by a qualified individual or entity, either an internal resource or an external third-party. The key focus is on validating the qualifications of the tester(s) and ensuring they possess the necessary expertise and skills to conduct a thorough and effective penetration test. Additionally, the interviews seek to establish the organizational independence of the tester, ensuring that there is no conflict of interest, which could potentially bias the test outcomes. This verification is critical to uphold the integrity of the penetration testing process and to ensure that it provides an accurate and unbiased assessment of the security posture of the organization's cardholder data environment.
+
+### sub-requiremetn 11.4.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.3.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.4.3.a External Penetration Test Scope and Results Review
+
+**Details**:
+- **External Penetration Test Scope and Results Review**: This evidence involves the examination of the scope of work and the results from the most recent external penetration test. The focus is on verifying that the external penetration testing was conducted according to the predefined elements and criteria, as stipulated in PCI DSS requirements. By reviewing the scope of work, the assessment ensures that the penetration test covered all necessary areas and system components that are crucial for maintaining a secure cardholder data environment. Similarly, the analysis of test results provides insights into the effectiveness of current security measures and identifies potential vulnerabilities or areas of improvement. This comprehensive review is pivotal in ensuring that the external penetration test is thorough, relevant, and aligned with the latest security standards, thereby contributing to the robustness of the organization's cybersecurity defenses.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.3.b**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.4.3.b External Penetration Test Personnel Validation
+
+**Details**:
+- **External Penetration Test Personnel Validation**: This evidence comprises interviews conducted with personnel involved in the external penetration testing process. The objective is to confirm that the external penetration test was carried out by a qualified internal resource or a qualified external third party. Additionally, it is crucial to establish the organizational independence of the tester, ensuring that there is no conflict of interest and that the test results are unbiased and reliable. The interviews provide an opportunity to validate the qualifications, expertise, and independence of the individuals or entities responsible for conducting the external penetration test. This verification is essential to ascertain that the test was executed effectively, professionally, and in a manner that aligns with the PCI DSS standards, contributing to the integrity and security of the cardholder data environment.
+
+### sub-requirement 11.4.4
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.4**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.4.4 Penetration Testing Vulnerability Resolution
+
+**Details**: 
+- **Penetration Testing Vulnerability Resolution**: This evidence involves the examination of the results from penetration testing activities. The primary focus is to verify that any identified exploitable vulnerabilities and security weaknesses were appropriately addressed and corrected. The penetration testing results offer critical insights into the effectiveness of the organization's security measures and their capability to protect cardholder data against potential breaches. By ensuring that all noted vulnerabilities and weaknesses are resolved promptly and in accordance with PCI DSS standards, the organization demonstrates its commitment to maintaining a robust and secure cardholder data environment. The resolution of these vulnerabilities is a key aspect of safeguarding sensitive payment information and upholding the trust of customers and partners.
+
+### sub-requirement 11.4.5
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.5.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.4.5.a Segmentation Controls and Penetration Testing Methodology Review
+
+**Details**: 
+- **Segmentation Controls Review**: Involves the examination of the organization's segmentation controls. This evidence assesses the effectiveness and adequacy of these controls in isolating and securing the cardholder data environment (CDE) from other networks. The purpose is to confirm that the segmentation controls are robust and effectively minimize the scope of the CDE, thereby reducing the risk of unauthorized access.
+  
+- **Penetration Testing Methodology Review**: Entails reviewing the organization's penetration-testing methodology. This evidence ensures that the penetration-testing procedures are comprehensive and include testing all segmentation methods used by the organization. The objective is to validate that the penetration tests adequately challenge the effectiveness of the segmentation controls and accurately identify potential vulnerabilities in the CDE.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.5.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.4.5.b Latest Penetration Test Results Analysis
+
+**Details**: 
+- **Latest Penetration Test Results Analysis**: Consists of examining the results from the most recent penetration test conducted by the organization. This evidence is crucial for evaluating the thoroughness and effectiveness of the penetration test in covering and addressing all specified elements in PCI DSS Requirement 11.4.5. The focus is to ensure that the penetration test rigorously assessed the security measures and controls in place, particularly in relation to the segmentation of the cardholder data environment (CDE) from other networks. The analysis of these results is vital in identifying potential vulnerabilities and ensuring that the CDE is securely isolated and protected against unauthorized access or breaches.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.5.c**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.4.5.c Penetration Test Personnel Verification
+
+**Details**: 
+- **Penetration Test Personnel Verification**: Involves conducting interviews with personnel responsible for the penetration testing process. This evidence is vital to confirm that the penetration test was executed by a qualified internal resource or a qualified external third party. The primary objective is to ensure the organizational independence of the tester, thereby upholding the credibility and impartiality of the test results. These interviews serve to validate the qualifications and independence of the individuals or entities conducting the penetration test, a crucial aspect in maintaining the integrity and thoroughness of the security assessment process as outlined in PCI DSS Requirement 11.4.5.
+
+### sub-requirement 11.4.6
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.6.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.4.6.a Service Provider Penetration Test Results Analysis
+
+**Details**: 
+- **Service Provider Penetration Test Results Analysis**: Involves a detailed examination of the results from the most recent penetration test conducted for a service provider. This evidence is pivotal for confirming that the penetration test comprehensively covers and addresses all specified elements of PCI DSS Requirement 11.4.6.a. The objective is to ensure that the penetration test adequately evaluates the security measures implemented by the service provider, focusing on the effectiveness of their security controls and the identification of potential vulnerabilities. Such an analysis plays a critical role in validating the service provider's commitment to maintaining a secure environment for handling cardholder data, thereby reinforcing trust and compliance with PCI DSS standards.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.6.b**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 11.4.6.b Service Provider Penetration Test Independence Verification
+
+**Details**: 
+- **Service Provider Penetration Test Independence Verification**: This evidence comprises interviews with personnel involved in the most recent penetration test for a service provider. The focus is on verifying that the test was executed by a qualified internal resource or an external third party, independent of the organization's regular operational structure. It's essential to establish that the tester possesses the necessary qualifications and is not required to be a Qualified Security Assessor (QSA) or an Approved Scanning Vendor (ASV). This verification process is critical in ensuring the objectivity and credibility of the penetration test, as it confirms that the assessment was conducted without any conflicts of interest or bias, thereby providing a reliable evaluation of the service provider's security posture.
+
+### sub-requirement 11.4.7
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.4.7**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 11.4.7 Multi-Tenant Service Provider External Penetration Testing Support Verification
+
+**Details**: 
+- **Multi-Tenant Service Provider External Penetration Testing Support Verification**: This evidence involves the examination of materials that confirm whether multi-tenant service providers are facilitating their customers in conducting external penetration testing as per the stipulations of Requirements 11.4.3 and 11.4.4. The focus is on ensuring that the service provider has adequate mechanisms and processes in place to support these critical security assessments. This support could manifest in various forms, such as providing necessary documentation, offering guidance, or ensuring the availability of relevant systems for testing. The objective is to ascertain that multi-tenant service providers are actively contributing to the security of their shared environment by enabling their customers to thoroughly assess external vulnerabilities and address any identified security weaknesses. This ensures that the multi-tenant infrastructure's integrity is maintained, protecting not only the service provider but also the multitude of clients relying on their services for secure data handling and processing.
+
+### sub-requirement 11.5
+### sub-requirement 11.5.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.1.a**
+
+**Category**: System Evidence
+
+**Reference Name**: Requirement 11.5.1.a Intrusion-Detection and Prevention System Configuration Analysis
+
+**Details**: 
+- **Intrusion-Detection and Prevention System Configuration Analysis**: This evidence includes the review of system configurations and network diagrams that confirm the presence and appropriate setup of intrusion-detection and/or intrusion-prevention systems at key locations within the Cardholder Data Environment (CDE). These locations include both the perimeter and critical internal points of the CDE. The aim is to ensure that these systems are strategically placed to effectively monitor all traffic and identify potential security breaches or unauthorized access attempts. By analyzing system configurations and network diagrams, we can determine the comprehensiveness and effectiveness of the deployed intrusion-detection and prevention measures. This review is vital in confirming that the organization's security infrastructure is robust and capable of identifying and responding to threats in real-time, thereby safeguarding sensitive cardholder data against unauthorized access and potential data breaches.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.1.b**
+
+**Category**: System Evidence and Interview Evidence
+
+**Reference Name**: Requirement 11.5.1.b Intrusion-Detection and Prevention Alert Verification
+
+**Details**: 
+- **Intrusion-Detection and Prevention Alert Verification**: This evidence involves the examination of system configurations and interviews with responsible personnel to ensure that intrusion-detection and/or intrusion-prevention systems are correctly configured to alert personnel of suspected compromises. The review of system configurations focuses on verifying the settings and parameters that govern how and when alerts are triggered in response to potential security incidents. By interviewing responsible personnel, insights are gained into how these alerts are managed, including the processes for responding to and investigating alerts. This verification is crucial for ensuring that the organization's security systems are not only capable of detecting potential intrusions but are also effectively configured to promptly alert the relevant personnel, thereby enabling swift and appropriate response actions to potential security threats. This proactive approach to managing security alerts is essential for maintaining the integrity and security of the Cardholder Data Environment (CDE).
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 11.5.1.c**
+
+**Category**: System Evidence and Documentation Evidence
+
+**Reference Name**: Requirement 11.5.1.c Intrusion-Detection and Prevention Configuration Verification
+
+**Details**: 
+- **Intrusion-Detection and Prevention Configuration Verification**: This evidence involves examining system configurations and vendor documentation to ensure that intrusion-detection and/or intrusion-prevention systems are properly configured to maintain updated engines, baselines, and signatures. The inspection of system configurations is focused on verifying the settings that ensure the timely update and maintenance of detection engines, baselines for normal network behavior, and signatures for known threats. Additionally, the review of vendor documentation provides insights into recommended practices and requirements for keeping these systems updated. This verification is vital for ensuring the effectiveness of intrusion-detection and prevention systems, as outdated engines, baselines, or signatures can lead to gaps in detecting and preventing security incidents. Keeping these components current is critical for safeguarding against evolving security threats and maintaining the security of the Cardholder Data Environment (CDE).
+
+### sub-requirement 11.5.1.1
+
+
+
+### sub-requirement 11.5.2
+
+
+
+### sub-requirement 11.6
+### sub-requirement 11.6.1
+
