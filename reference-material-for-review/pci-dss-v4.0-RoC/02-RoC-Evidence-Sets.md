@@ -4368,3 +4368,211 @@
 
 ---
 
+### requirement 12
+### sub-requirement 12.1
+### sub-requirement 12.1.1
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.1.1**
+
+**Category**: Documentation Evidence, Interview Evidence
+
+**Reference Name**: Requirement 12.1.1 Information Security Policy Management Analysis
+
+**Details**: 
+- **Information Security Policy Review**: This evidence entails a thorough examination of the entity’s information security policy. The focus of the review is to ensure that the policy comprehensively addresses all the elements specified in PCI DSS v4.0 Requirement 12.1.1. The policy should reflect a holistic approach to information security, encompassing various aspects like scope, responsibilities, compliance, risk management strategies, and procedural guidelines. The completeness and relevance of the policy are vital for establishing a robust security foundation within the organization.
+
+- **Personnel Interviews**: Alongside the policy review, interviews with relevant personnel are conducted to gauge the level of understanding and implementation of the information security policy across the organization. These interviews seek to verify if the staff is well-informed about the policy's provisions, their roles, and responsibilities, and how the policy is integrated into their daily operations and decision-making processes. Effective dissemination and adherence to the information security policy are crucial for its successful implementation and maintenance of a secure processing environment.
+
+### sub-requirement 12.1.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.1.2**
+
+**Category**: Documentation Evidence, Interview Evidence
+
+**Reference Name**: Requirement 12.1.2 Information Security Policy Management Review
+
+**Details**:
+- **Information Security Policy Examination**: Involves a detailed analysis of the information security policy to ensure it aligns with the stipulated criteria of PCI DSS v4.0 Requirement 12.1.2. This includes evaluating the policy’s scope, objectives, and effectiveness in addressing security requirements. The assessment focuses on how the policy is structured, its comprehensiveness in covering all necessary security aspects, and its relevance to current security standards and practices.
+
+- **Personnel Interviews**: Comprises engaging with responsible personnel to ascertain their understanding and adherence to the information security policy. These interviews aim to confirm that the policy is not only a documented artifact but is actively guiding the organization's security practices. The discussions also help to understand how the policy is disseminated, enforced, and integrated into daily operations, ensuring that it is a living document effectively managing the entity's security posture.
+
+### sub-requirement 12.1.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.1.3.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.1.3.a Information Security Roles and Responsibilities
+
+**Details**:
+- **Information Security Policy Review**: This involves a thorough review of the information security policy to ensure it explicitly defines the roles and responsibilities related to information security for all personnel within the organization. The focus of this review is to assess how the policy outlines the specific security-related duties and expectations for each role, whether it's for management, IT staff, or general employees. The goal is to confirm that every member of the organization understands their part in maintaining and enhancing the security of information assets, particularly those related to cardholder data. The review also checks for clarity and comprehensiveness in the description of these responsibilities, ensuring they cover all aspects of security management, from data handling to incident response.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.1.3.b**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 12.1.3.b Information Security Responsibility Awareness
+
+**Details**:
+- **Personnel Interviews for Security Awareness**: This evidence includes a series of interviews conducted with personnel across various roles within the organization. The primary focus of these interviews is to ascertain the level of understanding each individual has regarding their specific information security responsibilities as outlined in the organization's policies. The goal is to evaluate how well the information security policies have been communicated and understood by staff at different levels, including management, IT staff, and general employees. The interviews assess the awareness of security practices, procedures, and the role of each individual in safeguarding cardholder data and maintaining the overall security posture of the organization. These interviews are crucial for identifying gaps in knowledge and understanding, which can then be addressed through targeted training and policy reinforcement.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.1.3.c**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.1.3.c Personnel Security Acknowledgement Documentation
+
+**Details**:
+- **Personnel Security Acknowledgement Analysis**: This evidence involves a thorough examination of documented acknowledgments from personnel regarding their information security responsibilities. The focus is on verifying that all personnel have formally recognized and agreed to adhere to the information security policies and procedures set forth by the organization. These acknowledgments are typically in the form of signed documents or digital confirmations where employees affirm their understanding and commitment to uphold the organization's security protocols, especially in handling and protecting cardholder data. By ensuring that all staff members have acknowledged their security responsibilities, the organization can demonstrate due diligence in promoting a security-aware culture and ensuring that employees are aware of their roles in safeguarding sensitive information.
+
+### sub-requirement 12.1.4
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.1.4**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.1.4 Information Security Officer Assignment Documentation
+
+**Details**:
+- **Information Security Officer Assignment Analysis**: This evidence pertains to the examination of the information security policy, specifically focusing on the assignment of information security responsibilities to a designated individual, such as a Chief Information Security Officer (CISO) or an equivalent role. The key aspect is to confirm that the policy formally assigns the overall responsibility for information security to a member of executive management who possesses the requisite knowledge in this domain. This ensures that information security is given appropriate priority and oversight at a high level within the organization, which is essential for effective governance and management of security risks related to cardholder data and the Cardholder Data Environment (CDE). This evidence demonstrates the organization's commitment to maintaining a robust security posture by entrusting information security responsibilities to a qualified and high-ranking official.
+
+### sub-requirement 12.2
+### sub-requirement 12.2.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.2.1**
+
+**Category**: Documentation Evidence, Interview Evidence
+
+**Reference Name**: Requirement 12.2.1 Acceptable Use Policy Review
+
+**Details**:
+- **Acceptable Use Policies Analysis**: This evidence involves the examination of acceptable use policies related to end-user technologies. The focus is on ensuring that these policies are well-documented and effectively implemented, covering all essential elements as specified by PCI DSS. These policies guide users on the appropriate use of technology resources, emphasizing the protection of cardholder data.
+- **Interviews with Responsible Personnel**: These interviews are conducted to confirm that the personnel responsible for enforcing and adhering to the acceptable use policies are well-informed and compliant with the documented procedures. The interviews help ascertain the effectiveness of the implementation and adherence to these policies within the organization.
+
+### sub-requirement 12.3
+### sub-requiremetn 12.3.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.3.1**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.3.1 Targeted Risk Analysis Process Evaluation
+
+**Details**:
+- **Targeted Risk Analysis Process Documentation Review**: The focus here is on examining the organization's documented policies and procedures that outline the process for conducting targeted risk analyses. This examination ensures that the process adheres to the specific elements outlined in PCI DSS v4.0, particularly in relation to the flexibility provided for the frequency of performing various PCI DSS requirements. The assessment aims to validate that the process is comprehensive and includes all necessary elements to effectively analyze risks associated with payment card data security.
+
+### sub-requirement 12.3.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.3.2**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.3.2 Customized Approach Risk Analysis Documentation Review
+
+**Details**:
+- **Customized Approach Risk Analysis Documentation Inspection**: This refers to the thorough review of the documented targeted risk analyses for each PCI DSS requirement met through a customized approach by the entity. The objective is to confirm that documentation for each requirement not only exists but also aligns with all the stipulated elements in PCI DSS v4.0. This process ensures that the entity's approach to meeting PCI DSS requirements through tailored risk analysis methods is properly documented, reflecting a comprehensive understanding and application of risk management principles specific to payment card data security.
+
+### sub-requirement 12.3.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.3.3**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.3.3 Cryptographic Suites and Protocols Review
+
+**Details**:
+- **Cryptographic Suites and Protocols Documentation Review**: This involves a detailed examination of the documentation related to cryptographic suites and protocols currently in use within the entity. The aim is to ensure that this documentation comprehensively covers and complies with all aspects specified in the PCI DSS v4.0 requirements. Such documentation is crucial for demonstrating the entity's adherence to robust cryptographic standards, ensuring that data encryption and secure communications protocols are effectively safeguarded against vulnerabilities.
+- **Personnel Interviews on Cryptographic Practices**: Conducting interviews with relevant personnel is an integral part of verifying the practical application and management of cryptographic suites and protocols. These interviews are designed to assess whether the entity's staff is adequately informed and adheres to the documented procedures, thereby ensuring a consistent and secure approach to cryptography within the organization's operations.
+
+### sub-requiremetn 13.3.4
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.3.4**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.3.4 Hardware and Software Technology Review
+
+**Details**:
+- **Hardware and Software Technologies Documentation Review**: This involves an in-depth examination of the documentation pertaining to the hardware and software technologies used by the entity. The focus is on verifying that the documentation is up-to-date and aligns with the PCI DSS v4.0 requirements, ensuring that the technologies in use are appropriate for protecting cardholder data and supporting secure payment environments.
+- **Personnel Interviews on Technology Management**: Conducting interviews with personnel responsible for managing and overseeing the hardware and software technologies provides insights into how these technologies are practically applied within the entity. These interviews are essential to confirm that the staff is knowledgeable and compliant with the procedures and standards outlined in the entity’s documentation. It ensures that the organization's approach to technology management effectively supports its data security and PCI DSS compliance objectives.
+
+### sub-requirement 12.4
+### sub-requirement 12.4.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.4.1 (Service Provider Assessments)**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.4.1 Executive Management Responsibility for Cardholder Data Protection
+
+**Details**:
+- **Executive Management Responsibility Documentation**: This component involves reviewing the specific documentation created and maintained by the executive management of the service provider. The focus is on ensuring that the documentation clearly establishes executive management's responsibility for the protection of cardholder data and the overall PCI DSS compliance program. The review aims to confirm that the leadership is actively involved and committed to maintaining a secure and compliant payment processing environment, as per the guidelines of PCI DSS v4.0. This documentation serves as a testament to the organization's commitment to data security and compliance at the highest level of its operational hierarchy.
+
+### sub-requirement 12.4.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.4.2.a (Service Provider Assessments)**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.4.2.a Service Provider Personnel Task Review Policies and Procedures
+
+**Details**:
+- **Personnel Task Review Policies and Procedures Documentation**: This component involves a thorough review of the policies and procedures established by the service provider to ensure ongoing compliance with PCI DSS v4.0. The focus is on verifying that there are clearly defined processes for conducting regular reviews, which confirm that personnel are adhering to all security policies and operational procedures. This encompasses a range of tasks as specified in PCI DSS v4.0, with an emphasis on maintaining high standards of data security through consistent and effective execution of assigned responsibilities. The existence and adequacy of these policies and procedures are crucial in demonstrating the service provider's commitment to a disciplined and methodical approach to cardholder data protection.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.4.2.b (Service Provider Assessments)**
+
+**Category**: Interview Evidence, Documentation Evidence
+
+**Reference Name**: Requirement 12.4.2.b Service Provider Quarterly Review Processes and Records
+
+**Details**:
+- **Quarterly Review Processes and Records Assessment**: This evidence consists of interviews with responsible personnel and an examination of review records at the service provider. The aim is to ascertain that reviews of personnel's adherence to security policies and operational procedures are conducted at least every three months. Additionally, it is crucial to ensure that these reviews are carried out by individuals other than those responsible for the tasks being reviewed. This process forms a vital part of the service provider's internal control and oversight mechanisms, playing a key role in the ongoing evaluation and improvement of security practices, particularly in the context of protecting cardholder data as per PCI DSS requirements. The frequency and independence of these reviews are essential in maintaining objectivity and effectiveness in the service provider's compliance efforts.
+
+### sub-requirement 12.4.2.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.4.2.1 (Service Provider Assessments)**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.4.2.1 Service Provider Review Documentation Analysis
+
+**Details**: 
+- **Service Provider Review Documentation Analysis**: This evidence entails an examination of the documentation generated from reviews conducted by the service provider in compliance with PCI DSS Requirement 12.4.2. The objective is to ensure that the documentation effectively captures all the essential elements specified in Requirement 12.4.2.1. This includes, but is not limited to, the scope of the review, the methodology used, the findings, and any actions taken as a result of the review. Such documentation is critical in demonstrating the service provider's commitment to regularly assessing and improving its compliance with PCI DSS standards, particularly in areas related to the protection of cardholder data. The thoroughness and completeness of this documentation are vital for verifying the effectiveness of the service provider's internal control mechanisms and for ensuring continuous adherence to PCI DSS requirements.
+
+### sub-requirement 12.5
+### sub-requirement 12.5.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.5.1.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.5.1.a System Components Inventory Analysis
+
+**Details**: 
+- **System Components Inventory Analysis**: This evidence involves reviewing the inventory that lists all in-scope system components relevant to the PCI DSS assessment. The focus is to ensure that the inventory is comprehensive and includes a detailed description of the function or use of each component. The inventory is a critical tool for maintaining oversight of the system components that are part of, or connected to, the cardholder data environment (CDE). It serves as a foundational element for the organization's information security program, enabling effective management and protection of system components that process, store, or transmit cardholder data. Accurate and up-to-date inventories are essential for ensuring that all necessary security controls are applied to each component, thereby helping to maintain the overall security posture of the CDE.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.5.1.b**
+
+**Category**: Interview Evidence
+
+**Reference Name**: Requirement 12.5.1.b Inventory Management Interviews
+
+**Details**: 
+- **Inventory Management Interviews**: This evidence consists of interviews with personnel responsible for maintaining the inventory of in-scope system components. The purpose of these interviews is to verify that the inventory is kept current and accurately reflects the system components within the cardholder data environment. Maintaining an up-to-date inventory is crucial for effective information security management, as it ensures that all components are accounted for and appropriately secured in line with PCI DSS requirements. These interviews provide insight into the processes and practices employed by the organization to keep the inventory current, including how often it is updated, the method of updating, and the roles and responsibilities assigned for this task. Proper management of the inventory is fundamental to identifying and mitigating risks associated with system components that could impact the security of cardholder data.
+
+### sub-requirement 12.5.2
+
+
+
+### sub-requirement 12.5.2.1
+
+
+
+### sub-requirement 12.5.3
+
+
+
+### sub-requirement 12.6
+### sub-requirement 12.6.1
+
+
+
