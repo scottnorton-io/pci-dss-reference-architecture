@@ -4780,3 +4780,205 @@ The primary objective is to confirm that all agreements with TPSPs clearly delin
 
 ### sub-requirement 12.8.3
 
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.3.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.3.a TPSP Engagement and Due Diligence Procedures Review
+
+**Details**: 
+- **Review of TPSP Engagement and Due Diligence Procedures**: This evidence encompasses the thorough examination of the entity's established policies and procedures for engaging Third-Party Service Providers (TPSPs). The focus is on ensuring that these processes include comprehensive due diligence activities prior to the formal engagement of any TPSP.
+
+The objective of this review is to validate that the entity has in place a well-defined and effective framework for assessing TPSPs. This includes verifying that the policies and procedures outline the necessary steps for conducting due diligence, such as evaluating the TPSP’s ability to adhere to PCI DSS requirements and maintain the security of cardholder data. This evidence is crucial in demonstrating the entity's commitment to ensuring that all TPSPs engaged are capable of upholding the required standards for data protection and security, thereby safeguarding the entity's cardholder data environment.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.3.b**
+
+**Category**: Documentation and Interview Evidence
+
+**Reference Name**: Requirement 12.8.3.b TPSP Engagement Due Diligence Process Verification
+
+**Details**: 
+- **Verification of TPSP Engagement Due Diligence Process**: This evidence consists of examining the actual process followed for engaging Third-Party Service Providers (TPSPs) and includes interviews with responsible personnel. The focus is on verifying that due diligence is properly conducted prior to the engagement of any TPSP.
+
+The objective is to ensure that the entity not only has defined procedures in place for engaging TPSPs (as per 12.8.3.a) but also effectively implements these procedures in practice. This involves examining various forms of evidence and conducting interviews to confirm that due diligence activities, such as assessing the TPSP’s security practices and compliance with PCI DSS, are rigorously executed. This evidence is essential to demonstrate that the entity actively and effectively manages the risks associated with engaging TPSPs, thus maintaining the integrity and security of the cardholder data environment.
+
+### sub-requirement 12.8.4
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.4.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.4.a TPSP Compliance Monitoring Policy Review
+
+**Details**: 
+- **Review of TPSP Compliance Monitoring Policy**: This evidence involves examining the entity's policies and procedures that define the process for monitoring the PCI DSS compliance status of Third-Party Service Providers (TPSPs). The focus is on ensuring that these processes are formally documented and mandate monitoring at least annually.
+
+The objective is to confirm that the entity has established and documented formal procedures for regularly assessing the compliance status of its TPSPs with PCI DSS. This is critical to ensure that TPSPs continually adhere to the required security standards, thereby safeguarding the entity's cardholder data environment. Regular monitoring of TPSPs’ compliance is a proactive measure to manage potential risks associated with outsourcing services that impact the security of cardholder data. This evidence is essential for demonstrating the entity’s commitment to maintaining a robust and secure data processing environment through vigilant oversight of its service providers.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.4.b**
+
+**Category**: Documentation Evidence, Interview Evidence
+
+**Reference Name**: Requirement 12.8.4.b TPSP Annual Compliance Status Review
+
+**Details**: 
+- **Documentation Review for TPSP Compliance Status**: Examination of the documentation that records the monitoring of each Third-Party Service Provider's (TPSP) PCI DSS compliance status. This ensures that the entity reviews and verifies the compliance status of its TPSPs at least once annually, as mandated by PCI DSS standards.
+- **Interviews with Responsible Personnel**: Conducting interviews with personnel responsible for overseeing TPSP compliance. These interviews aim to ascertain whether the process for monitoring TPSPs’ compliance with PCI DSS is executed as per established policies and that it occurs on an annual basis.
+
+The objective is to validate the entity’s diligence in regularly assessing the PCI DSS compliance of its TPSPs. This is a crucial aspect of risk management, ensuring that all service providers handling or affecting the security of cardholder data maintain the required security standards. Regular monitoring not only helps in identifying compliance gaps but also reinforces the importance of adhering to PCI DSS requirements. This evidence underscores the entity's commitment to maintaining a secure data processing environment and its proactive approach in managing potential risks posed by external service providers.
+
+### sub-requirement 12.8.5
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.5.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.5.a TPSP and Entity PCI DSS Responsibilities Documentation
+
+**Details**: 
+- **Review of Policies and Procedures for TPSP Management**: This evidence involves examining the policies and procedures that outline how the entity and its Third-Party Service Providers (TPSPs) divide the responsibilities for managing PCI DSS requirements. The focus is on ensuring clarity and understanding of which PCI DSS requirements are managed by the TPSPs, which are directly managed by the entity, and which responsibilities are shared. 
+
+The objective of this evidence is to confirm that the entity has well-defined processes in place for delineating responsibilities with TPSPs regarding PCI DSS compliance. This is crucial for ensuring that all aspects of PCI DSS requirements are adequately covered and that there is no ambiguity about who is responsible for each compliance element. Proper documentation and understanding of these roles help in maintaining a consistent and secure cardholder data environment, which is vital for the protection of sensitive cardholder information. This evidence is indicative of the entity's commitment to maintaining comprehensive oversight and collaboration with its TPSPs in managing PCI DSS compliance effectively.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.8.5.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.8.5.b TPSP and Entity PCI DSS Shared Responsibilities Documentation
+
+**Details**: 
+- **Assessment of Shared Responsibilities Documentation**: This evidence includes the review of documentation and interviews with personnel to validate that the entity effectively maintains information delineating which PCI DSS requirements are managed by each Third-Party Service Provider (TPSP), those managed by the entity itself, and any responsibilities shared between the two. 
+
+The focus is on ensuring that both the entity and its TPSPs have a clear and mutual understanding of their respective roles in managing PCI DSS compliance. This evidence plays a crucial role in highlighting the entity's diligence in ensuring that all aspects of PCI DSS requirements are addressed, either independently or in collaboration with its TPSPs. By verifying these responsibilities, it helps to minimize gaps in compliance and enhance the overall security posture of the cardholder data environment. This evidence reflects the entity's commitment to maintaining comprehensive and transparent relationships with its TPSPs, ensuring a cohesive approach to PCI DSS compliance.
+
+### sub-requirement 12.9
+### sub-requirement 12.9.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.9.1**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.9.1 TPSP Written Acknowledgment Process Documentation
+
+**Details**: 
+- **TPSP Policies, Procedures, and Templates for Written Agreements**: The evidence consists of examining the policies, procedures, and templates used by Third-Party Service Providers (TPSPs) for creating written agreements. The purpose is to verify that these documents and processes are set up to provide written acknowledgments to customers, as specified in PCI DSS Requirement 12.9.1.
+
+This evidence is critical to ensure that TPSPs formally recognize and commit to their role in protecting cardholder data as part of the service provided to customers. By examining these documents, we can confirm that TPSPs have established and adhered to structured processes for creating written acknowledgments, thereby upholding their responsibilities under PCI DSS. This ensures a clear and formalized understanding between TPSPs and their customers regarding the protection of cardholder data, which is a fundamental aspect of maintaining a secure cardholder data environment.
+
+### sub-requirement 12.9.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.9.2**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.9.2 TPSP Support for Customer Information Requests
+
+**Details**: 
+- **TPSP Policies and Procedures for Customer Support**: This evidence entails a thorough examination of the policies and procedures established by Third-Party Service Providers (TPSPs). The focus is on verifying that these policies and procedures are designed to support customer requests for information necessary to meet PCI DSS Requirements 12.8.4 and 12.8.5.
+
+This evidence is significant as it highlights the TPSPs’ commitment to assisting their customers in complying with PCI DSS. By maintaining and following clear processes for responding to customer requests regarding PCI DSS compliance, TPSPs demonstrate their role as reliable partners in the payment ecosystem. This support is essential for customers to effectively manage and document their PCI DSS compliance, particularly in areas where TPSPs' services intersect with or impact the customers’ cardholder data environment. It ensures that there is a transparent and consistent approach to handling such information requests, thereby facilitating a collaborative effort in maintaining overall compliance with PCI DSS standards.
+
+### sub-requirement 12.10
+### sub-requirement 12.10.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.10.1.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.10.1.a Incident Response Plan Analysis
+
+**Details**: 
+- **Incident Response Plan Content Analysis**: The focus of this evidence is the examination of the incident response plan to ensure its existence and completeness. The plan is assessed against the specific elements outlined in PCI DSS Requirement 12.10.1 to ensure comprehensive coverage of incident response protocols.
+
+The significance of this evidence lies in its demonstration of the organization's preparedness to respond effectively to security incidents. A well-crafted incident response plan is a critical component of an organization's overall security strategy, especially concerning the protection of cardholder data. The plan should detail specific procedures for responding to various types of incidents, roles and responsibilities, communication strategies, and other key factors that contribute to a coordinated and effective response. This evidence confirms that the organization not only recognizes the importance of such preparedness but also has taken tangible steps to ensure that appropriate measures are in place to respond to and manage security incidents, thereby maintaining the integrity and security of cardholder data environments.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.10.1.b**
+
+**Category**: Interview Evidence, Documentation Evidence
+
+**Reference Name**: Requirement 12.10.1.b Incident Response Procedure Adherence Analysis
+
+**Details**: 
+- **Incident Response Procedure Adherence Interviews**: This evidence involves interviewing personnel who have been involved in responding to security incidents or alerts. The aim is to assess their understanding and application of the documented incident response plan and procedures. This interview process helps gauge the practical effectiveness of the incident response plan and the staff's familiarity with it.
+
+- **Incident Response Documentation Review**: This part of the evidence involves examining documentation from previously reported incidents or alerts. The focus is to verify that the incident response plan and procedures were followed as documented. This review is crucial in understanding how the plan is executed in real-world scenarios, identifying any gaps or areas for improvement, and ensuring that the plan is not only comprehensive on paper but also effective in practice.
+
+The combination of interviews and documentation review provides a thorough evaluation of the organization's readiness and efficiency in managing security incidents. This evidence ensures that the organization is not only prepared theoretically but also practically capable of responding to and managing incidents effectively, which is vital for maintaining the security and integrity of the cardholder data environment.
+
+### sub-requirement 12.10.2
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.10.2**
+
+**Category**: Interview Evidence, Documentation Evidence
+
+**Reference Name**: Requirement 12.10.2 Incident Response Plan Review and Testing Analysis
+
+**Details**: 
+- **Incident Response Plan Review Interviews**: This evidence consists of interviews with personnel responsible for the security incident response plan. The objective is to verify their involvement in the annual review and update process of the plan. These interviews provide insights into how actively the plan is managed and updated to reflect changing threats and business practices.
+
+- **Incident Response Plan Testing Documentation Review**: This part of the evidence includes examining documentation related to the testing of the incident response plan. The aim is to confirm that the plan is tested at least once every 12 months, including all elements listed in Requirement 12.10.1. This review evaluates the efficacy and practical applicability of the plan through simulated scenarios or actual incident responses.
+
+The combination of personnel interviews and the review of testing documentation is crucial in ensuring that the incident response plan is not only theoretically sound but also practically viable and regularly updated to meet emerging security challenges. This evidence underscores the importance of not only having a response plan in place but also regularly testing and updating it to ensure continued effectiveness in protecting the cardholder data environment.
+
+### sub-requirement 12.10.3
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.10.3**
+
+**Category**: Documentation Evidence, Interview Evidence
+
+**Reference Name**: Requirement 12.10.3 Security Incident Response Team Availability Analysis
+
+**Details**: 
+- **Security Incident Response Team Designation Documentation**: The evidence includes an examination of documentation specifying the personnel designated as part of the security incident response team. This documentation aims to verify that the entity has designated specific individuals who are available 24/7 to respond to security incidents. The presence of such documentation is a key indicator of the entity's readiness to promptly and effectively handle security incidents.
+
+- **Interviews with Designated Security Personnel**: This evidence comprises interviews with personnel occupying designated roles in the security incident response team. Through these interviews, the effectiveness of the 24/7 availability protocol can be assessed, ensuring that team members are aware of their responsibilities and the processes to follow in the event of a security incident. 
+
+Collectively, this evidence validates the organization's preparedness for responding to security incidents around the clock. It demonstrates a commitment to maintaining continuous vigilance and rapid response capabilities, which are critical in minimizing the impact of security incidents on the cardholder data environment.
+
+### sub-requirement 12.10.4
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.10.4**
+
+**Category**: Documentation Evidence, Interview Evidence
+
+**Reference Name**: Requirement 12.10.4 Incident Response Personnel Training Analysis
+
+**Details**: 
+- **Incident Response Training Documentation**: This evidence involves reviewing documentation related to the training provided to incident response personnel. The focus is on verifying that the training covers the incident response responsibilities as outlined in the organization's policies and procedures. This documentation provides insight into the comprehensiveness and relevance of the training content, ensuring that personnel are well-equipped to handle incident response tasks effectively.
+
+- **Interviews with Incident Response Personnel**: The evidence also includes interviews with personnel involved in incident response. These interviews are conducted to assess the personnel's understanding and implementation of their training in practical scenarios. The interviews help confirm that the training is not only provided but also effectively internalized and applied by the incident response team members.
+
+Together, this evidence demonstrates the organization's commitment to ensuring that its incident response team is adequately trained and prepared to manage security incidents. This preparedness is critical for effective and timely responses to potential security breaches, thereby safeguarding the cardholder data environment.
+
+### sub-requirement 12.10.4.1
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.10.4.1.a**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.10.4.1.a Incident Response Training Frequency Risk Analysis
+
+**Details**: 
+- **Incident Response Training Frequency Risk Analysis**: This evidence involves the examination of the entity's targeted risk analysis that determines the frequency of training for incident response personnel. The analysis is reviewed to ensure it aligns with all elements specified in Requirement 12.3.1 of the PCI DSS. This risk analysis is crucial as it helps in identifying the optimal training intervals needed to keep incident response personnel adequately informed and prepared for potential security incidents. The documentation provides insights into how the entity assesses risks associated with training frequency and takes decisions to maintain the effectiveness and timeliness of the training programs. This is an essential aspect of ensuring ongoing vigilance and preparedness in the face of evolving security threats and challenges.
+
+**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 12.10.4.1.b**
+
+**Category**: Documentation Evidence
+
+**Reference Name**: Requirement 12.10.4.1.b Incident Response Personnel Training Records Analysis
+
+**Details**: 
+- **Incident Response Personnel Training Records Analysis**: This evidence consists of the examination of documented results of periodic training of incident response personnel, as well as interviews conducted with these personnel. The aim is to verify that training for incident response personnel is carried out at the frequency defined in the entity's targeted risk analysis, as per Requirement 12.10.4.1. These records and interviews are key in demonstrating that the organization is actively maintaining and updating the skills and knowledge of its incident response team, ensuring they are adequately prepared to handle security incidents effectively. This evidence highlights the organization's commitment to continuous learning and adaptation in response to the dynamic nature of information security threats and challenges.
+
+### sub-requirement 12.10.5
+
+
+
+### sub-requirement 12.10.6
+
+
+
+### sub-requirement 12.10.7
+
+
+
