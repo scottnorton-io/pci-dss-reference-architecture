@@ -287,584 +287,388 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 2.1
 ### sub-requirement 2.1.1
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.1.1**
+    TESTING PROCEDURE: 2.1.1 (Part 1 - Examine Documentation)
+        Reference Name: Requirement 2 1 1 Security Policies and Operational Procedures for Requirement 2 Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 2 are managed in accordance with all specified elements, fitting under the review of documents.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.1.1 Security Policies and Procedures Documentation Review
-   - **Details**: Evidence for the examination of documentation to verify that security policies and operational procedures identified in Requirement 2 are managed in accordance with all specified elements.
-
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.1.1 Personnel Interview on Security Policy Management
-   - **Details**: Evidence for interviews conducted with personnel to confirm the management and implementation of security policies and operational procedures as per Requirement 2.
-
-**Note**: This categorization involves "Documentation Evidence" for reviewing security policies and operational procedures, and "Interview Evidence" for verifying the practical implementation and understanding of these policies, ensuring alignment with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 2.1.1 (Part 2 - Interview Personnel)
+        Reference Name: Requirement 2 1 1 Security Policies and Operational Procedures for Requirement 2 Management Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 2 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 ### sub-requirement 2.1.2
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.1.2.a**
+    TESTING PROCEDURE: 2.1.2.a
+        Reference Name: Requirement 2 1 2 a Roles and Responsibilities for Requirement 2 Activities Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned, fitting under the review of documents.
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 2.1.2.a Roles and Responsibilities Documentation Review for Requirement 2
-- **Details**: Evidence for the examination of documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned.
-
-**Note**: This classification as "Documentation Evidence" is based on reviewing documentation related to roles and responsibilities, ensuring compliance with the specific requirements of PCI DSS v4.0 in the context of Requirement 2.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.1.2.b**
-
-**Category**: Interview Evidence
-- **Reference Name**: Requirement 2.1.2.b Personnel Interview on Roles and Responsibilities Understanding for Requirement 2
-- **Details**: Evidence for interviews conducted with personnel responsible for activities in Requirement 2, verifying that roles and responsibilities are not only assigned but also understood.
-
-**Note**: The categorization as "Interview Evidence" reflects the focus on verifying through interviews that personnel understand and are effectively assigned roles and responsibilities, aligning with the objectives of PCI DSS v4.0 Requirement 2.
+    TESTING PROCEDURE: 2.1.2.b
+        Reference Name: Requirement 2 1 2 b Roles and Responsibilities for Requirement 2 Activities Understanding Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel with responsibility for performing activities in Requirement 2 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
 
 ### sub-requirement 2.2
 ### sub-requirement 2.2.1
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.1.a**
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 2.2.1.a System Configuration Standards Review
-- **Details**: Evidence for the examination of system configuration standards to verify that they define processes including all elements specified in Requirement 2.2.1.a.
+    TESTING PROCEDURE: 2.2.1.a
+        Reference Name: Requirement 2 2 1 a System Configuration Standards Comprehensive Process Definition Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining system configuration standards to verify they define processes that include all elements specified in this requirement, fitting under the review of documents.
 
-**Note**: This classification as "Documentation Evidence" is based on reviewing the system configuration standards, ensuring that they comprehensively include all the specified elements as per PCI DSS v4.0 standards for secure system configurations.
+    TESTING PROCEDURE: 2.2.1.b (Part 1 - Examine Policies and Procedures)
+        Reference Name: Requirement 2 2 1 b System Configuration Standards Vulnerability Issue Update Policies and Procedures Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining policies and procedures to verify that system configuration standards are updated as new vulnerability issues are identified, as defined in Requirement 6.3.1, aligning with the review of documents.
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.1.b**
+    TESTING PROCEDURE: 2.2.1.b (Part 2 - Interview Personnel)
+        Reference Name: Requirement 2 2 1 b System Configuration Standards Update Process Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel to confirm that system configuration standards are regularly updated in response to new vulnerability issues, aligning with the collection of interview notes.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.2.1.b Policies and Procedures Review for System Configuration Standard Updates
-   - **Details**: Evidence for the examination of policies and procedures to verify that system configuration standards are updated as new vulnerability issues are identified, in line with Requirement 6.3.1.
+    TESTING PROCEDURE: 2.2.1.c (Part 1 - Examine Configuration Settings)
+        Reference Name: Requirement 2 2 1 c System Configuration Standards Application in New Systems Configuration Settings Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining configuration settings to verify that system configuration standards are applied when new systems are configured and verified as being in place before or immediately after a system component is connected to a production environment, fitting under the review of documents.
 
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.2.1.b Personnel Interview on Configuration Standard Updates
-   - **Details**: Evidence for interviews conducted with personnel to confirm that system configuration standards are regularly updated in response to new vulnerability issues, as defined in Requirement 6.3.1.
-
-**Note**: This categorization involves "Documentation Evidence" for assessing policies and procedures related to updating system configuration standards, and "Interview Evidence" for verifying the implementation and understanding of these updates.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.1.c**
-
-1. **Category**: System Evidence
-   - **Reference Name**: Requirement 2.2.1.c Configuration Settings Examination for New System Standards Application
-   - **Details**: Evidence for the examination of configuration settings to verify that system configuration standards are applied when new systems are configured and verified as being in place before or immediately after a system component is connected to a production environment.
-
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.2.1.c Personnel Interview on Implementation of Configuration Standards
-   - **Details**: Evidence for interviews conducted with personnel to confirm that system configuration standards are appropriately applied to new systems and verified upon their connection to the production environment.
-
-**Note**: This categorization involves "System Evidence" for assessing the technical application of configuration settings on new systems, and "Interview Evidence" for verifying the practical implementation and oversight of these standards.
+    TESTING PROCEDURE: 2.2.1.c (Part 2 - Interview Personnel)
+        Reference Name: Requirement 2 2 1 c New Systems Configuration Standards Application Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel to confirm that system configuration standards are appropriately applied in the configuration of new systems, which aligns with the collection of interview notes.
 
 ### sub-requirement 2.2.2
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.2.a**
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 2.2.2.a System Configuration Standards Review for Managing Vendor Default Accounts
-- **Details**: Evidence for the examination of system configuration standards to verify that they include processes for managing vendor default accounts in accordance with all elements specified in this requirement.
+    TESTING PROCEDURE: 2.2.2.a
+        Reference Name: Requirement 2 2 2 a Vendor Default Accounts Management in System Configuration Standards Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining system configuration standards to verify they include managing vendor default accounts in accordance with all specified elements, fitting under the review of documents.
 
-**Note**: This classification as "Documentation Evidence" is based on assessing the system configuration standards to ensure they encompass the management of vendor default accounts, aligning with PCI DSS v4.0 standards for secure system setup and maintenance.
+    TESTING PROCEDURE: 2.2.2.b (Part 1 - Examine Vendor Documentation)
+        Reference Name: Requirement 2 2 2 b Vendor Default Accounts Implementation Vendor Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining vendor documentation to verify accounts are implemented in accordance with all specified elements, aligning with the review of documents.
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.2.b**
+    TESTING PROCEDURE: 2.2.2.b (Part 2 - Observe System Administrator Login)
+        Reference Name: Requirement 2 2 2 b Vendor Default Accounts Usage Observation
+        Evidence Category: Observation Evidence
+        Reasoning: This requires observing a system administrator logging on using vendor default accounts to confirm their implementation is in accordance with the requirement, aligning with the observation of processes.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.2.2.b Vendor Documentation Review for Default Account Management
-   - **Details**: Evidence for the examination of vendor documentation to verify that vendor default accounts are managed in accordance with all elements specified in this requirement.
+    TESTING PROCEDURE: 2.2.2.c (Part 1 - Examine Configuration Files)
+        Reference Name: Requirement 2 2 2 c Unused Vendor Default Accounts Removal or Disabling Configuration Files Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining configuration files to verify that all vendor default accounts that will not be used are removed or disabled, fitting under the review of documents.
 
-2. **Category**: Observation Evidence
-   - **Reference Name**: Requirement 2.2.2.b Observation of System Administrator Using Vendor Default Accounts
-   - **Details**: Evidence for the observation of a system administrator logging on using vendor default accounts, confirming that these accounts are implemented and managed as specified.
-
-**Note**: This categorization involves "Documentation Evidence" for assessing vendor documentation regarding default account policies and "Observation Evidence" for verifying the practical application and management of these accounts in real-world settings.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.2.c**
-
-1. **Category**: System Evidence
-   - **Reference Name**: Requirement 2.2.2.c Configuration Files Examination for Default Account Removal/Disabling
-   - **Details**: Evidence for the examination of configuration files to verify that all vendor default accounts that are not going to be used are either removed or disabled.
-
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.2.2.c Personnel Interview on Managing Vendor Default Accounts
-   - **Details**: Evidence for interviews conducted with personnel to confirm the removal or disabling of vendor default accounts that are not in use.
-
-**Note**: This categorization involves "System Evidence" for assessing the technical aspect of configuration files related to default accounts, and "Interview Evidence" for verifying the implementation of practices regarding the management of these accounts.
+    TESTING PROCEDURE: 2.2.2.c (Part 2 - Interview Personnel)
+        Reference Name: Requirement 2 2 2 c Unused Vendor Default Accounts Management Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel to confirm that unused vendor default accounts are appropriately managed, which aligns with the collection of interview notes.
 
 ### sub-requirement 2.2.3
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.3.a**
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 2.2.3.a System Configuration Standards Review for Managing Primary Functions
-- **Details**: Evidence for the examination of system configuration standards to verify that they include processes for managing primary functions that require different security levels, as specified in this requirement.
+    TESTING PROCEDURE: 2.2.3.a
+        Reference Name: Requirement 2 2 3 a Management of Primary Functions with Different Security Levels in System Configuration Standards Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining system configuration standards to verify they include managing primary functions requiring different security levels as specified in this requirement, fitting under the review of documents.
 
-**Note**: This classification as "Documentation Evidence" is based on reviewing the system configuration standards to ensure they properly address the management of primary functions with varying security needs, in accordance with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 2.2.3.b
+        Reference Name: Requirement 2 2 3 b Primary Functions with Different Security Levels Management in System Configurations Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining system configurations to verify that primary functions requiring different security levels are managed as specified in the requirement, aligning with the review of documents.
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.3.b**
+    TESTING PROCEDURE: 2.2.3.c (Virtualization Technologies)
+        Reference Name: Requirement 2 2 3 c Virtualization Technology System Functions Security Level Management Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining system configurations, particularly where virtualization technologies are used, to verify that system functions requiring different security levels are managed in one of the specified ways: ensuring non-coexistence on the same system component, isolation on the same component, or securing to the level of the function with the highest security need, fitting under the review of documents.
 
-**Category**: System Evidence
-- **Reference Name**: Requirement 2.2.3.b System Configurations Examination for Managing Primary Functions
-- **Details**: Evidence for the examination of system configurations to verify that primary functions requiring different security levels are managed in accordance with one of the ways specified in this requirement.
-
-**Note**: This classification as "System Evidence" focuses on the technical assessment of system configurations, ensuring they are set up to properly manage primary functions with varying security requirements as per PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.3.c**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 2.2.3.c System Configurations Examination for Virtualization Technology Management
-- **Details**: Evidence for the examination of system configurations in virtualization environments to verify that system functions with different security needs are managed appropriately, either by not co-existing on the same system component, being isolated from each other, or being secured to the highest security need level.
-
-**Note**: This classification as "System Evidence" is focused on the technical evaluation of system configurations within virtualization technologies, ensuring that they comply with the PCI DSS v4.0 standards for managing functions with varying security requirements.
 
 ### sub-requirement 2.2.4
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.4.a**
+    TESTING PROCEDURE: 2.2.4.a
+        Reference Name: Requirement 2 2 4 a System Services Protocols and Daemons Necessity Identification in Configuration Standards Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining system configuration standards to verify that necessary system services, protocols, and daemons are identified and documented, fitting under the review of documents.
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 2.2.4.a System Configuration Standards Review for Necessary Services, Protocols, and Daemons
-- **Details**: Evidence for the examination of system configuration standards to verify that necessary system services, protocols, and daemons are properly identified and documented.
+    TESTING PROCEDURE: 2.2.4.b
+        Reference Name: Requirement 2 2 4 b System Unnecessary Functionality Removal and Required Functionality Verification Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining system configurations to verify that all unnecessary functionality is removed or disabled and only required functionality, as documented in the configuration standards, is enabled, aligning with the review of documents.
 
-**Note**: This classification as "Documentation Evidence" is based on reviewing system configuration standards to ensure they include a clear identification and documentation of essential services, protocols, and daemons, in line with PCI DSS v4.0 standards for secure system management.
+### sub-requirement 2.2.5
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.4.b**
+    TESTING PROCEDURE: 2.2.5.a
+        Reference Name: Requirement 2 2 5 a Insecure Services Protocols Daemons Management in Configuration Standards and Personnel Interviews Examination
+        Evidence Category: Documentation Evidence and Interview Evidence
+        Reasoning: This involves examining system configuration standards and interviewing personnel to verify that any insecure services, protocols, or daemons present are managed and implemented in accordance with all specified elements, fitting under the review of documents and aligning with the collection of interview notes.
 
-**Category**: System Evidence
-- **Reference Name**: Requirement 2.2.4.b System Configurations Examination for Unnecessary Functionality Removal
-- **Details**: Evidence for the examination of system configurations to verify that all unnecessary functionality is removed or disabled and that only the required functionality, as documented in the configuration standards, is enabled.
-
-**Note**: This classification as "System Evidence" is focused on the technical assessment of system configurations, ensuring that they align with PCI DSS v4.0 standards for minimizing security risks by removing or disabling unnecessary functions and maintaining only essential functionality.
-
-### sub-reuirement 2.2.5
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.5.a**
-
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.2.5.a System Configuration Standards Review for Insecure Services
-   - **Details**: Evidence for the examination of system configuration standards to verify that any insecure services, protocols, or daemons present are managed and implemented in accordance with all specified elements of this requirement.
-
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.2.5.a Personnel Interview on Management of Insecure Services
-   - **Details**: Evidence for interviews conducted with personnel to confirm that insecure services, protocols, or daemons are appropriately managed and implemented as per the system configuration standards.
-
-**Note**: This categorization involves "Documentation Evidence" for assessing how the system configuration standards address insecure services, and "Interview Evidence" for verifying practical implementation and understanding of these standards by responsible personnel.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.5.b**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 2.2.5.b Configuration Settings Examination for Insecure Services Risk Mitigation
-- **Details**: Evidence for the examination of configuration settings to verify that, if any insecure services, protocols, or daemons are present, additional security features are implemented to reduce the risks associated with using these insecure components.
-
-**Note**: This classification as "System Evidence" is focused on the technical evaluation of configuration settings, ensuring that appropriate security measures are in place to mitigate risks when using insecure services, protocols, and daemons, in alignment with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 2.2.5.b
+        Reference Name: Requirement 2 2 5 b Insecure Services Protocols Daemons Risk Mitigation Configuration Settings Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining configuration settings to verify that additional security features are implemented to reduce the risk of using insecure services, daemons, and protocols, aligning with the review of documents.
 
 ### sub-requirement 2.2.6
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.6.a**
+    TESTING PROCEDURE: 2.2.6.a
+        Reference Name: Requirement 2 2 6 a System Misuse Prevention via Security Parameter Configuration in System Configuration Standards Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining system configuration standards to verify they include configuring system security parameters to prevent misuse, fitting under the review of documents.
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 2.2.6.a System Configuration Standards Review for Security Parameter Configuration
-- **Details**: Evidence for the examination of system configuration standards to verify that they include configuring system security parameters to prevent misuse.
+    TESTING PROCEDURE: 2.2.6.b
+        Reference Name: Requirement 2 2 6 b System Administrators and Security Managers Knowledge on Security Parameter Settings Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing system administrators and/or security managers to verify they have knowledge of common security parameter settings for system components, aligning with the collection of interview notes.
 
-**Note**: This classification as "Documentation Evidence" is based on assessing system configuration standards to ensure they adequately address the configuration of security parameters, focusing on preventing misuse in line with PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.6.b**
-
-**Category**: Interview Evidence
-- **Reference Name**: Requirement 2.2.6.b Personnel Interview on Knowledge of Security Parameter Settings
-- **Details**: Evidence for interviews conducted with system administrators and/or security managers to verify that they possess knowledge of common security parameter settings for system components.
-
-**Note**: This classification as "Interview Evidence" focuses on verifying through interviews that key personnel are knowledgeable about the critical aspect of security parameter settings in system components, in accordance with PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.6.c**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 2.2.6.c System Configurations Examination for Security Parameter Settings
-- **Details**: Evidence for the examination of system configurations to verify that common security parameters are set appropriately and in accordance with the established system configuration standards.
-
-**Note**: This classification as "System Evidence" is focused on the technical assessment of system configurations, ensuring that security parameters are configured correctly to maintain system integrity and security as per PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 2.2.6.c
+        Reference Name: Requirement 2 2 6 c Appropriateness of Common Security Parameters in System Configurations Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining system configurations to verify that common security parameters are set appropriately and in accordance with the system configuration standards, aligning with the review of documents.
 
 ### sub-requirement 2.2.7
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.7.a**
+    TESTING PROCEDURE: 2.2.7.a
+        Reference Name: Requirement 2 2 7 a Non-Console Administrative Access Encryption in System Configuration Standards Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining system configuration standards to verify they include encrypting all non-console administrative access using strong cryptography, fitting under the review of documents.
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 2.2.7.a System Configuration Standards Review for Encrypting Non-Console Administrative Access
-- **Details**: Evidence for the examination of system configuration standards to verify that they include encrypting all non-console administrative access using strong cryptography.
+    TESTING PROCEDURE: 2.2.7.b (Part 1 - Observe Administrator Log On)
+        Reference Name: Requirement 2 2 7 b Non-Console Administrative Access Management Observation
+        Evidence Category: Observation Evidence
+        Reasoning: This requires observing an administrator log on to system components to verify that non-console administrative access is managed in accordance with this requirement, aligning with the observation of processes.
 
-**Note**: This classification as "Documentation Evidence" is based on reviewing system configuration standards to ensure they mandate the use of strong cryptography for securing non-console administrative access, in line with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 2.2.7.b (Part 2 - Examine System Configurations)
+        Reference Name: Requirement 2 2 7 b Non-Console Administrative Access Configuration Compliance Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining system configurations to confirm that non-console administrative access is encrypted as per the system configuration standards, fitting under the review of documents.
+    TESTING PROCEDURE: 2.2.7.c
+        Reference Name: Requirement 2 2 7 c Insecure Remote Login Services Non-Availability for Non-Console Access in System Components and Authentication Services Settings Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining settings for system components and authentication services to verify that insecure remote login services are not available for non-console administrative access, fitting under the review of documents.
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.7.b**
+    TESTING PROCEDURE: 2.2.7.d (Part 1 - Examine Vendor Documentation)
+        Reference Name: Requirement 2 2 7 d Strong Cryptography Implementation According to Industry Best Practices and Vendor Recommendations Vendor Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining vendor documentation to verify that strong cryptography for the technology in use is implemented according to industry best practices and/or vendor recommendations, aligning with the review of documents.
 
-1. **Category**: Observation Evidence
-   - **Reference Name**: Requirement 2.2.7.b Observation of Administrator Log On for Non-Console Access
-   - **Details**: Evidence for observing an administrator log on to system components to verify that non-console administrative access is managed in accordance with the requirement for strong cryptography.
-
-2. **Category**: System Evidence
-   - **Reference Name**: Requirement 2.2.7.b System Configurations Examination for Non-Console Access Management
-   - **Details**: Evidence for the examination of system configurations to confirm that non-console administrative access is secured and managed as per the specified standards.
-
-**Note**: This categorization involves "Observation Evidence" for witnessing the administrative login process and verifying security measures in practice, and "System Evidence" for assessing the technical configurations that underpin secure non-console access.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.7.c**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 2.2.7.c Examination of Settings for Insecure Remote Login Service Restriction
-- **Details**: Evidence for the examination of settings for system components and authentication services to verify that insecure remote login services are not available for non-console administrative access.
-
-**Note**: This classification as "System Evidence" is focused on the technical evaluation of system and authentication service settings, ensuring that insecure remote login services are not accessible for non-console administrative purposes, in compliance with PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.2.7.d**
-
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.2.7.d Vendor Documentation Review for Strong Cryptography Implementation
-   - **Details**: Evidence for the examination of vendor documentation to verify that strong cryptography for the technology in use is implemented according to industry best practices and/or vendor recommendations.
-
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.2.7.d Personnel Interview on Cryptography Implementation Practices
-   - **Details**: Evidence for interviews conducted with personnel to confirm the implementation of strong cryptography in accordance with industry best practices and vendor guidelines.
-
-**Note**: This categorization includes "Documentation Evidence" for reviewing vendor guidelines and industry standards, and "Interview Evidence" for verifying the knowledge and application of these standards in the implementation of strong cryptography.
+    TESTING PROCEDURE: 2.2.7.d (Part 2 - Interview Personnel)
+        Reference Name: Requirement 2 2 7 d Strong Cryptography Implementation Knowledge Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel to confirm their understanding and implementation of strong cryptography in accordance with industry best practices and vendor recommendations, aligning with the collection of interview notes.
 
 ### sub-requirement 2.3
 ### sub-requirement 2.3.1
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.3.1.a**
+    TESTING PROCEDURE: 2.3.1.a
+        Reference Name: Requirement 2 3 1 a Wireless Vendor Defaults Management Processes Policies and Procedures Examination
+        Evidence Category: Documentation Evidence and Interview Evidence
+        Reasoning: This involves examining policies and procedures and interviewing responsible personnel to verify that processes are defined for managing wireless vendor defaults either by changing them upon installation or confirming them to be secure, aligning with the review of documents and the collection of interview notes.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.3.1.a Policies and Procedures Review for Wireless Vendor Defaults
-   - **Details**: Evidence for the examination of policies and procedures to verify that processes are defined for handling wireless vendor defaults, ensuring they are either changed upon installation or confirmed to be secure, in line with all elements of this requirement.
+    TESTING PROCEDURE: 2.3.1.b (Part 1 - Examine Vendor Documentation)
+        Reference Name: Requirement 2 3 1 b Wireless Device SNMP Defaults and Default Passwords Security Vendor Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining vendor documentation to verify that SNMP defaults are not used and default passwords/passphrases on wireless access points are not used, fitting under the review of documents.
 
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.3.1.a Personnel Interview on Wireless Vendor Default Management
-   - **Details**: Evidence for interviews conducted with responsible personnel to confirm the implementation and understanding of processes related to managing wireless vendor default settings.
+    TESTING PROCEDURE: 2.3.1.b (Part 2 - Observe System Administrator Login)
+        Reference Name: Requirement 2 3 1 b Wireless Device Security Settings Administrator Login Observation
+        Evidence Category: Observation Evidence
+        Reasoning: This requires observing a system administrator logging into wireless devices to confirm compliance with security requirements, aligning with the observation of processes.
 
-**Note**: This categorization involves "Documentation Evidence" for assessing the policies and procedures related to wireless vendor defaults, and "Interview Evidence" for verifying practical implementation and compliance through discussions with relevant staff.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.3.1.b**
-
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.3.1.b Vendor Documentation Review for Wireless Device Security
-   - **Details**: Evidence for the examination of vendor documentation to verify that Simple Network Management Protocol (SNMP) defaults are not used and default passwords/passphrases on wireless access points are not utilized.
-
-2. **Category**: Observation Evidence
-   - **Reference Name**: Requirement 2.3.1.b Observation of System Administrator Wireless Device Login
-   - **Details**: Evidence for observing a system administrator logging into wireless devices, confirming the non-use of SNMP defaults and default passwords/passphrases on wireless access points.
-
-**Note**: This categorization involves "Documentation Evidence" for reviewing vendor documentation regarding wireless device security settings, and "Observation Evidence" for witnessing the practical application of security measures during administrator logins to wireless devices.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.3.1.c**
-
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.3.1.c Vendor Documentation Review for Wireless Security Defaults
-   - **Details**: Evidence for the examination of vendor documentation to verify that any security-related wireless vendor defaults were changed, where applicable.
-
-2. **Category**: System Evidence
-   - **Reference Name**: Requirement 2.3.1.c Wireless Configuration Settings Examination for Default Changes
-   - **Details**: Evidence for the examination of wireless configuration settings to confirm that security-related wireless vendor defaults were appropriately modified as required.
-
-**Note**: This categorization includes "Documentation Evidence" for assessing vendor documentation regarding wireless security defaults and "System Evidence" for verifying the implementation of these security settings in wireless configuration settings.
+    TESTING PROCEDURE: 2.3.1.c
+        Reference Name: Requirement 2 3 1 c Security-Related Wireless Vendor Defaults Modification in Vendor Documentation and Configuration Settings Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining vendor documentation and wireless configuration settings to verify that other security-related wireless vendor defaults were changed if applicable, fitting under the review of documents.
 
 ### sub-requirement 2.3.2
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 2.3.2**
 
-1. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 2.3.2 Personnel Interview on Wireless Encryption Key Management
-   - **Details**: Evidence for interviews conducted with responsible personnel to verify that wireless encryption keys are managed and changed in accordance with all specified elements of this requirement.
+    TESTING PROCEDURE: 2.3.2 (Part 1 - Interview Responsible Personnel)
+        Reference Name: Requirement 2 3 2 Wireless Encryption Key Management Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing responsible personnel to verify that wireless encryption keys are changed in accordance with all elements specified in the requirement, aligning with the collection of interview notes.
 
-2. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 2.3.2 Key-Management Documentation Review for Wireless Encryption
-   - **Details**: Evidence for the examination of key-management documentation to confirm that wireless encryption keys are changed and managed as per the requirement guidelines.
-
-**Note**: This categorization involves "Interview Evidence" for verifying the knowledge and practices of personnel responsible for wireless encryption key management, and "Documentation Evidence" for assessing the related key-management documentation, ensuring compliance with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 2.3.2 (Part 2 - Examine Key-Management Documentation)
+        Reference Name: Requirement 2 3 2 Wireless Encryption Key Change Management Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining key-management documentation to confirm that wireless encryption keys are managed and changed as per the specified elements, fitting under the review of documents.
 
 ---
-
 
 ## Requirement 3
 ### sub-requirement 3.1
 ### sub-requirement 3.1.1
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.1.1**
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.1.1 Security Policies and Procedures Documentation Review
-   - **Details**: Evidence for the examination of documentation to verify that security policies and operational procedures identified in Requirement 3 are managed in accordance with all specified elements.
+    TESTING PROCEDURE: 3.1.1 (Part 1 - Examine Documentation)
+        Reference Name: Requirement 3 1 1 Security Policies and Operational Procedures for Requirement 3 Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 3 are managed in accordance with all specified elements, fitting under the review of documents.
 
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 3.1.1 Personnel Interview on Security Policy Management
-   - **Details**: Evidence for interviews conducted with personnel to confirm the management and implementation of security policies and operational procedures as per Requirement 3.
-
-**Note**: This categorization includes "Documentation Evidence" for reviewing the security policies and procedures documentation, and "Interview Evidence" for verifying the practical implementation and understanding of these policies, ensuring alignment with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 3.1.1 (Part 2 - Interview Personnel)
+        Reference Name: Requirement 3 1 1 Security Policies and Operational Procedures for Requirement 3 Management Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 3 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 ### sub-requirement 3.1.2
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.1.2.a**
+    TESTING PROCEDURE: 3.1.2.a
+        Reference Name: Requirement 3 1 2 a Roles and Responsibilities for Requirement 3 Activities Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 3 are documented and assigned, fitting under the review of documents.
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 3.1.2.a Roles and Responsibilities Documentation Review for Requirement 3
-- **Details**: Evidence for the examination of documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 3 are documented and assigned.
-
-**Note**: This classification as "Documentation Evidence" is based on reviewing documentation related to roles and responsibilities, ensuring compliance with the specific requirements of PCI DSS v4.0 in the context of Requirement 3.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.1.2.b**
-
-**Category**: Interview Evidence
-- **Reference Name**: Requirement 3.1.2.b Personnel Interview on Roles and Responsibilities Understanding for Requirement 3
-- **Details**: Evidence for interviews conducted with personnel responsible for activities in Requirement 3, verifying that roles and responsibilities are not only assigned but also understood.
-
-**Note**: The categorization as "Interview Evidence" reflects the focus on verifying through interviews that personnel understand and are effectively assigned roles and responsibilities, aligning with the objectives of PCI DSS v4.0 Requirement 3.
+    TESTING PROCEDURE: 3.1.2.b
+        Reference Name: Requirement 3 1 2 b Roles and Responsibilities for Requirement 3 Activities Understanding Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This requires interviewing personnel with responsibility for performing activities in Requirement 3 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
 
 ### sub-requirement 3.2
 ### sub-requirement 3.2.1
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.2.1.a**
+    TESTING PROCEDURE: 3.2.1.a
+        Reference Name: Requirement 3 2 1 a Data Retention and Disposal Policies Procedures and Processes Examination
+        Evidence Category: Documentation Evidence and Interview Evidence
+        Reasoning: This involves examining the data retention and disposal policies, procedures, and processes and interviewing personnel to verify processes are defined to include all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.2.1.a Data Retention and Disposal Policies, Procedures, and Processes Review
-   - **Details**: Evidence for the examination of data retention and disposal policies, procedures, and processes to verify that they include all elements specified in Requirement 3.2.1.a.
+    TESTING PROCEDURE: 3.2.1.b
+        Reference Name: Requirement 3 2 1 b Account Data Storage and Retention Compliance in Files and System Records Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining files and system records on system components where account data is stored to verify that the data storage amount and retention time does not exceed the requirements defined in the data retention policy, aligning with the review of documents.
 
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 3.2.1.a Personnel Interview on Data Retention and Disposal Processes
-   - **Details**: Evidence for interviews conducted with personnel to confirm their understanding and implementation of the processes defined in the data retention and disposal policies, procedures, and processes.
-
-**Note**: This categorization involves "Documentation Evidence" for assessing the written policies and procedures related to data retention and disposal, and "Interview Evidence" for verifying practical understanding and compliance through discussions with relevant staff.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.2.1.b**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.2.1.b Examination of Files and System Records for Data Storage and Retention Compliance
-- **Details**: Evidence for the examination of files and system records on system components where account data is stored, to verify that the amount of data stored and the retention time do not exceed the limits defined in the data retention policy.
-
-**Note**: This classification as "System Evidence" focuses on the technical assessment of files and system records, ensuring that data storage and retention practices align with the organization's policy and PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.2.1.c**
-
-**Category**: Observation Evidence
-- **Reference Name**: Requirement 3.2.1.c Observation of Data Unrecoverability Mechanisms
-- **Details**: Evidence for observing the mechanisms used to render account data unrecoverable, to verify that the data indeed cannot be recovered following disposal or deletion processes.
-
-**Note**: This classification as "Observation Evidence" is focused on directly witnessing the practical application of data destruction or disposal mechanisms, ensuring that they effectively render account data unrecoverable in compliance with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 3.2.1.c
+        Reference Name: Requirement 3 2 1 c Account Data Unrecoverability Mechanisms Observation
+        Evidence Category: Observation Evidence
+        Reasoning: This requires observing the mechanisms used to render account data unrecoverable to verify data cannot be recovered, aligning with the observation of processes.
 
 ### sub-requirement 3.3
 ### sub-requirement 3.3.1
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.1.a**
+    TESTING PROCEDURE: 3.3.1.a
+        Reference Name: Requirement 3 3 1 a SAD Post-Authorization Non-Retention Policies Procedures and System Configurations Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documented policies, procedures, and system configurations to verify that Sensitive Authentication Data (SAD) is not retained after authorization, fitting under the review of documents.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.3.1.a Policies and Procedures Review for Non-Retention of Sensitive Authentication Data
-   - **Details**: Evidence for the examination of documented policies and procedures to verify that Sensitive Authentication Data (SAD) is not retained after authorization.
+    TESTING PROCEDURE: 3.3.1.b (Part 1 - Examine Documented Procedures)
+        Reference Name: Requirement 3 3 1 b SAD Secure Deletion Post-Authorization Procedures Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining the documented procedures to verify that SAD is rendered unrecoverable upon completion of the authorization process, aligning with the review of documents.
 
-2. **Category**: System Evidence
-   - **Reference Name**: Requirement 3.3.1.a System Configurations Examination for SAD Non-Retention
-   - **Details**: Evidence for the examination of system configurations to confirm that SAD is not retained post-authorization, in line with the established policies and procedures.
-
-**Note**: This categorization involves "Documentation Evidence" for assessing the policies and procedures regarding the handling of SAD, and "System Evidence" for verifying the technical implementation of these policies in system configurations.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.1.b**
-
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.3.1.b Documented Procedures Review for SAD Deletion
-   - **Details**: Evidence for the examination of documented procedures to verify that Sensitive Authentication Data (SAD) is rendered unrecoverable upon completion of the authorization process.
-
-2. **Category**: Observation Evidence
-   - **Reference Name**: Requirement 3.3.1.b Observation of Secure Data Deletion Processes
-   - **Details**: Evidence for observing the secure data deletion processes to confirm that SAD is effectively rendered unrecoverable after authorization.
-
-**Note**: This categorization involves "Documentation Evidence" for assessing the procedures documented for secure deletion of SAD, and "Observation Evidence" for witnessing the practical application of these data deletion processes.
+    TESTING PROCEDURE: 3.3.1.b (Part 2 - Observe Secure Data Deletion Processes)
+        Reference Name: Requirement 3 3 1 b SAD Secure Deletion Post-Authorization Process Observation
+        Evidence Category: Observation Evidence
+        Reasoning: This requires observing the secure data deletion processes to confirm that SAD is rendered unrecoverable after authorization, aligning with the observation of processes.
 
 ### sub-requirement 3.3.1.1
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.1.1**
+TESTING PROCEDURE: 3.3.1.1
 
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.3.1.1 Examination of Data Sources for Track Data Storage Post-Authorization
-- **Details**: Evidence for the examination of data sources to verify that the full contents of any track from the magnetic stripe (or equivalent on a chip) of a payment card are not stored upon completion of the authorization process.
-
-**Note**: This classification as "System Evidence" focuses on the technical assessment of data sources, ensuring that track data from payment cards is not retained post-authorization, in compliance with PCI DSS v4.0 standards for data protection.
+    Reference Name: Requirement 3 3 1 1 Full Track Data Non-Retention Post-Authorization in Data Sources Examination
+    Evidence Category: Documentation Evidence
+    Reasoning: This involves examining data sources to verify that the full contents of any track (from the magnetic stripe or equivalent on a card) are not stored upon completion of the authorization process, aligning with the review of documents.
 
 ### sub-requirement 3.3.1.2
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.1.2**
+TESTING PROCEDURE: 3.3.1.2
 
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.3.1.2 Examination of Data Sources for Card Verification Code Storage
-- **Details**: Evidence for the examination of data sources to verify that the card verification code or value (such as CVV, CVV2, CVC2, CID) is not stored upon completion of the authorization process.
-
-**Note**: This classification as "System Evidence" is focused on the technical assessment of data sources, ensuring that card verification codes or values are not retained post-authorization, in line with PCI DSS v4.0 standards for secure handling of sensitive authentication data.
+    Reference Name: Requirement 3 3 1 2 Card Verification Code Non-Retention Post-Authorization in Data Sources Examination
+    Evidence Category: Documentation Evidence
+    Reasoning: This involves examining data sources to verify that the card verification code (such as the CVV, CVC2, CID) is not stored upon completion of the authorization process, fitting under the review of documents.
 
 ### sub-requirement 3.3.1.3
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.1.3**
+TESTING PROCEDURE: 3.3.1.3
 
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.3.1.3 Examination of Data Sources for PIN and PIN Block Storage
-- **Details**: Evidence for the examination of data sources to verify that Personal Identification Numbers (PINs) and PIN blocks are not stored upon completion of the authorization process.
-
-**Note**: This classification as "System Evidence" focuses on the technical evaluation of data sources to ensure compliance with PCI DSS v4.0 standards, specifically regarding the non-retention of PINs and PIN blocks post-authorization.
+    Reference Name: Requirement 3 3 1 3 PINs and PIN Blocks Non-Retention Post-Authorization in Data Sources Examination
+    Evidence Category: Documentation Evidence
+    Reasoning: This involves examining data sources to verify that Personal Identification Numbers (PINs) and PIN blocks are not stored upon completion of the authorization process, aligning with the review of documents.
 
 ### sub-requirement 3.3.2
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.2**
+    TESTING PROCEDURE: 3.3.2 (Part 1 - Examine Data Stores)
+        Reference Name: Requirement 3 3 2 SAD Pre-Authorization Electronic Storage Encryption in Data Stores Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining data stores to verify that all Sensitive Authentication Data (SAD) that is stored electronically prior to completion of authorization is encrypted using strong cryptography, aligning with the review of documents.
 
-1. **Category**: System Evidence
-   - **Reference Name**: Requirement 3.3.2 Data Stores Examination for SAD Encryption
-   - **Details**: Evidence for the examination of data stores to verify that all Sensitive Authentication Data (SAD) stored electronically prior to completion of authorization is encrypted using strong cryptography.
+    TESTING PROCEDURE: 3.3.2 (Part 2 - Examine System Configurations)
+        Reference Name: Requirement 3 3 2 SAD Pre-Authorization Electronic Storage Encryption in System Configurations Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining system configurations to confirm that SAD stored electronically before authorization completion is encrypted with strong cryptography, fitting under the review of documents.
 
-2. **Category**: System Evidence
-   - **Reference Name**: Requirement 3.3.2 System Configurations Review for SAD Encryption
-   - **Details**: Evidence for the examination of system configurations to confirm that encryption mechanisms for SAD are implemented according to PCI DSS v4.0 standards.
-
-3. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.3.2 Vendor Documentation Review for SAD Encryption Standards
-   - **Details**: Evidence for the examination of vendor documentation to ensure that the guidelines for encrypting SAD prior to authorization completion comply with strong cryptography standards.
-
-**Note**: This categorization includes "System Evidence" for both data stores and system configurations to assess the technical implementation of SAD encryption, and "Documentation Evidence" for evaluating vendor documentation regarding encryption standards.
+    TESTING PROCEDURE: 3.3.2 (Part 3 - Examine Vendor Documentation)
+        Reference Name: Requirement 3 3 2 SAD Pre-Authorization Electronic Storage Encryption Vendor Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This requires examining vendor documentation to ensure that encryption of SAD stored electronically before authorization complies with strong cryptographic standards, aligning with the review of documents.
 
 ### sub-requirement 3.3.3
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.3.a (For Issuers and Companies Supporting Issuing Services)**
+    TESTING PROCEDURE: 3.3.3.a
+        Reference Name: Requirement 3 3 3 a Issuer Services SAD Storage Business Justification Policies and Interviews Examination
+        Evidence Category: Documentation Evidence and Interview Evidence
+        Reasoning: This involves examining documented policies and interviewing personnel to verify there is a documented business justification for the storage of SAD, aligning with the review of documents and the collection of interview notes.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.3.3.a Documented Policies Review for Business Justification of SAD Storage
-   - **Details**: Evidence for the examination of documented policies to verify that there is a documented business justification for the storage of Sensitive Authentication Data (SAD) by issuers and companies supporting issuing services.
-
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 3.3.3.a Personnel Interview on Business Justification for SAD Storage
-   - **Details**: Evidence for interviews conducted with personnel to confirm their understanding and compliance with the business justification for storing SAD.
-
-**Note**: This categorization involves "Documentation Evidence" for assessing the written policies regarding the storage of SAD and its business justification, and "Interview Evidence" for verifying practical understanding and application of these policies by relevant staff.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.3.3.b (For Issuers and Companies Supporting Issuing Services)**
-
-1. **Category**: System Evidence
-   - **Reference Name**: Requirement 3.3.3.b Data Stores Examination for Secure SAD Storage
-   - **Details**: Evidence for the examination of data stores to verify that Sensitive Authentication Data (SAD) is stored securely by issuers and companies supporting issuing services.
-
-2. **Category**: System Evidence
-   - **Reference Name**: Requirement 3.3.3.b System Configurations Review for SAD Storage Security
-   - **Details**: Evidence for the examination of system configurations to confirm that SAD is securely stored and protected in compliance with PCI DSS v4.0 standards.
-
-**Note**: This categorization as "System Evidence" includes both data stores and system configurations, focusing on the technical aspects of how SAD is stored and ensuring that it is done securely in line with industry best practices and regulatory requirements.
+    TESTING PROCEDURE: 3.3.3.b
+        Reference Name: Requirement 3 3 3 b Issuer Services SAD Secure Storage in Data Stores and System Configurations Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining data stores and system configurations to verify that the SAD is stored securely, fitting under the review of documents.
 
 ### sub-requirement 3.4
 ### sub-requirement 3.4.1
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.4.1.a**
+    TESTING PROCEDURE: 3.4.1.a
+        Reference Name: Requirement 3 4 1 a PAN Display Masking Policies and Procedures Roles and Business Need Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documented policies and procedures for masking the display of Primary Account Numbers (PANs) to verify: a list of roles that need access to more than the BIN and last four digits of the PAN is documented with a legitimate business need for each role, and that PAN is masked when displayed for unauthorized roles, aligning with the review of documents.
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 3.4.1.a Documented Policies and Procedures Review for PAN Masking
-- **Details**: Evidence for the examination of documented policies and procedures for masking the display of Primary Account Numbers (PANs) to verify:
-   - A list of roles needing access to more than the Bank Identification Number (BIN) and last four digits of the PAN is documented, with a legitimate business need for each role.
-   - PAN is masked when displayed, allowing only authorized personnel to see more than the BIN and last four digits.
-   - Roles not authorized to view the full PAN can only see masked PANs.
+    TESTING PROCEDURE: 3.4.1.b
+        Reference Name: Requirement 3 4 1 b PAN Display Access Control in System Configurations Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining system configurations to verify that full PAN is only displayed for roles with a documented business need, and that PAN is masked for all other requests, fitting under the review of documents.
 
-**Note**: This classification as "Documentation Evidence" is based on reviewing the policies and procedures related to the secure handling and display of PANs, ensuring compliance with PCI DSS v4.0 standards for data protection and privacy.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.4.1.b**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.4.1.b System Configurations Examination for PAN Display Control
-- **Details**: Evidence for the examination of system configurations to verify that the full Primary Account Number (PAN) is only displayed for roles with a documented business need, and that PAN is masked for all other access requests.
-
-**Note**: This classification as "System Evidence" is focused on the technical assessment of system configurations, ensuring that they are set up to restrict the visibility of full PANs in accordance with the roles and business needs documented, in line with PCI DSS v4.0 standards for data protection and access control.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.4.1.c**
-
-**Category**: Observation Evidence
-- **Reference Name**: Requirement 3.4.1.c Observation of PAN Display for Masking Compliance
-- **Details**: Evidence for examining various displays of Primary Account Number (PAN) – such as on screens or paper receipts – to verify that PANs are appropriately masked when displayed, ensuring that only individuals with a legitimate business need can view more than the Bank Identification Number (BIN) and/or the last four digits of the PAN.
-
-**Note**: This classification as "Observation Evidence" involves directly witnessing how PANs are displayed across different mediums, confirming that masking protocols are correctly implemented to protect sensitive cardholder data in line with PCI DSS v4.0 requirements.
+    TESTING PROCEDURE: 3.4.1.c
+        Reference Name: Requirement 3 4 1 c PAN Display Masking Verification on Screens and Paper Receipts Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining displays of PAN (such as on screen, on paper receipts) to verify that PANs are masked when displayed, and that only those with a legitimate business need are able to see more than the BIN and/or last four digits of the PAN, aligning with the review of documents.
 
 ### sub-requirement 3.4.2
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.4.2.a**
+    TESTING PROCEDURE: 3.4.2.a
+        Reference Name: Requirement 3 4 2 a PAN Copy and Relocation Prevention Policies and Technical Controls Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documented policies and procedures and evidence for technical controls that prevent copying and/or relocation of PAN using remote-access technologies to verify that only authorized personnel are allowed such actions and that a list of such personnel is maintained with documented authorization and legitimate business need, aligning with the review of documents.
 
-1. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.4.2.a Policies and Procedures Review for PAN Copy/Relocation Controls
-   - **Details**: Evidence for the examination of documented policies and procedures to verify that technical controls are in place to prevent unauthorized copying and/or relocation of Primary Account Number (PAN) when using remote-access technologies.
+    TESTING PROCEDURE: 3.4.2.b
+        Reference Name: Requirement 3 4 2 b Remote-Access Technology PAN Copy and Relocation Prevention Technical Controls Configuration Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining configurations for remote-access technologies to verify that technical controls are in place to prevent copy and/or relocation of PAN for all personnel, unless explicitly authorized, fitting under the review of documents.
 
-2. **Category**: Documentation Evidence
-   - **Reference Name**: Requirement 3.4.2.a Technical Controls Documentation Review for PAN Management
-   - **Details**: Evidence for examining documented evidence of technical controls to ensure that only personnel with explicit authorization can copy and/or relocate PAN, along with a maintained list of such authorized personnel and their business need for this access.
+    TESTING PROCEDURE: 3.4.2.c (Part 1 - Observe Processes)
+        Reference Name: Requirement 3 4 2 c Authorized Personnel PAN Copy and Relocation in Remote-Access Technologies Process Observation
+        Evidence Category: Observation Evidence
+        Reasoning: This requires observing processes to verify that only personnel with documented, explicit authorization and a legitimate, defined business need have permission to copy and/or relocate PAN when using remote-access technologies, aligning with the observation of processes.
 
-**Note**: Both elements of this requirement are categorized under "Documentation Evidence" because they involve reviewing the policies, procedures, and documented evidence of technical controls related to the management and protection of PAN during remote access operations.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.4.2.b**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.4.2.b Configuration Examination for PAN Copy/Relocation Control in Remote Access
-- **Details**: Evidence for the examination of configurations for remote-access technologies to verify that technical controls are in place to prevent the copying and/or relocation of Primary Account Number (PAN) by all personnel, unless they are explicitly authorized.
-
-**Note**: This classification as "System Evidence" is focused on the technical evaluation of configurations within remote-access technologies, ensuring they effectively restrict unauthorized copying or relocation of PAN, in compliance with PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.4.2.c**
-
-1. **Category**: Observation Evidence
-   - **Reference Name**: Requirement 3.4.2.c Process Observation for Authorized PAN Copy/Relocation in Remote Access
-   - **Details**: Evidence for observing processes to verify that only personnel with documented, explicit authorization and a legitimate, defined business need have permission to copy and/or relocate Primary Account Number (PAN) when using remote-access technologies.
-
-2. **Category**: Interview Evidence
-   - **Reference Name**: Requirement 3.4.2.c Personnel Interview on Authorization for PAN Handling in Remote Access
-   - **Details**: Evidence for interviews conducted with personnel to confirm their understanding and adherence to policies regarding the authorization to copy and/or relocate PAN during remote-access operations.
-
-**Note**: This categorization involves "Observation Evidence" for directly witnessing processes related to PAN handling in remote access, and "Interview Evidence" for verifying compliance and understanding of authorization requirements through personnel interviews.
+    TESTING PROCEDURE: 3.4.2.c (Part 2 - Interview Personnel)
+        Reference Name: Requirement 3 4 2 c Authorized Personnel for PAN Copy and Relocation in Remote-Access Technologies Verification Interviews
+        Evidence Category: Interview Evidence
+        Reasoning: This involves interviewing personnel to confirm that only authorized individuals with documented permission and business need are allowed to copy and/or relocate PAN using remote-access technologies, which aligns with the collection of interview notes.
 
 ### sub-requirement 3.5
 ### sub-requirement 3.5.1
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.a**
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 3.5.1.a Documentation Review for Systems Rendering PAN Unreadable
-- **Details**: Evidence for the examination of documentation about the system used to render the Primary Account Number (PAN) unreadable, including details on the vendor, type of system/process, and encryption algorithms (if applicable), to verify compliance with the specified methods for making PAN unreadable.
+    TESTING PROCEDURE: 3.5.1.a
+        Reference Name: Requirement 3 5 1 a PAN Rendering Unreadable System Documentation Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining documentation about the system used to render Primary Account Numbers (PANs) unreadable, including the vendor, type of system/process, and the encryption algorithms (if applicable) to verify that the PAN is rendered unreadable using any of the methods specified in this requirement, aligning with the review of documents.
 
-**Note**: This classification as "Documentation Evidence" is focused on reviewing the documentation that describes the systems or processes employed to ensure the unreadability of PAN, including the technical specifications and methods used, in accordance with PCI DSS v4.0 standards.
+    TESTING PROCEDURE: 3.5.1.b
+        Reference Name: Requirement 3 5 1 b PAN Rendering Unreadable Verification in Data Repositories and Audit Logs Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This part involves examining data repositories and audit logs, including payment application logs, to verify the PAN is rendered unreadable using any of the specified methods, fitting under the review of documents.
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.b**
-
-1. **Category**: System Evidence
-   - **Reference Name**: Requirement 3.5.1.b Data Repositories Examination for Unreadable PAN
-   - **Details**: Evidence for the examination of data repositories to verify that the Primary Account Number (PAN) is rendered unreadable using methods specified in this requirement, such as encryption, truncation, masking, or tokenization.
-
-2. **Category**: System Evidence
-   - **Reference Name**: Requirement 3.5.1.b Audit Logs Review for PAN Unreadability
-   - **Details**: Evidence for examining audit logs, including payment application logs, to confirm that PAN is consistently rendered unreadable as per the specified methods.
-
-**Note**: This categorization as "System Evidence" includes both data repositories and audit logs, focusing on the technical verification that PAN is maintained in an unreadable state in all relevant data storage and logging mechanisms, in line with PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.c**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.5.1.c Examination of Controls for Hashed and Truncated PAN Correlation Prevention
-- **Details**: Evidence for the examination of implemented controls to verify that when both hashed and truncated versions of the same Primary Account Number (PAN) are present in the environment, they cannot be correlated to reconstruct the original PAN.
-
-**Note**: This classification as "System Evidence" is focused on the technical assessment of controls in place to prevent the correlation between hashed and truncated versions of PAN, ensuring that the original PAN cannot be reconstructed, in compliance with PCI DSS v4.0 standards for data protection.
+    TESTING PROCEDURE: 3.5.1.c
+        Reference Name: Requirement 3 5 1 c Correlation Prevention for Hashed and Truncated PAN Versions Controls Examination
+        Evidence Category: Documentation Evidence
+        Reasoning: This involves examining implemented controls to verify that hashed and truncated versions of the same PAN present in the environment cannot be correlated to reconstruct the original PAN, aligning with the review of documents.
 
 ### sub-requirement 3.5.1.1
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.1.a**
 
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 3.5.1.1.a Documentation Review for Hashing Method of PAN
-- **Details**: Evidence for the examination of documentation about the hashing method used to render the Primary Account Number (PAN) unreadable. This includes details on the vendor, type of system/process, and encryption algorithms (if applicable), verifying that the hashing method results in keyed cryptographic hashes of the entire PAN, along with associated key management processes and procedures.
 
-**Note**: This classification as "Documentation Evidence" focuses on reviewing the documentation that describes the hashing method and its implementation, ensuring it meets the criteria for securely rendering PAN unreadable through cryptographic hashes, in line with PCI DSS v4.0 standards.
 
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.1.b**
-
-**Category**: Documentation Evidence
-- **Reference Name**: Requirement 3.5.1.1.b Key Management Procedures Documentation Review for Cryptographic Hashes
-- **Details**: Evidence for the examination of documentation about the key management procedures and processes associated with keyed cryptographic hashes. This includes verifying that keys are managed in accordance with PCI DSS Requirements 3.6 and 3.7, which pertain to key management practices and standards.
-
-**Note**: This classification as "Documentation Evidence" is focused on reviewing the documentation related to key management procedures and processes, ensuring they adhere to PCI DSS standards for secure key management in the context of cryptographic hashing of PANs.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.1.c**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.5.1.1.c Data Repositories Examination for PAN Unreadability
-- **Details**: Evidence for the examination of data repositories to verify that the Primary Account Number (PAN) is rendered unreadable, in line with PCI DSS requirements, through methods such as encryption, truncation, masking, or hashing.
-
-**Note**: This classification as "System Evidence" is focused on the technical assessment of data repositories, ensuring that PANs stored within these repositories are maintained in an unreadable state using appropriate security measures as required by PCI DSS v4.0 standards.
-
-**Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.1.d**
-
-**Category**: System Evidence
-- **Reference Name**: Requirement 3.5.1.1.d Audit Logs Examination for Unreadable PAN
-- **Details**: Evidence for the examination of audit logs, including payment application logs, to verify that the Primary Account Number (PAN) is rendered unreadable using methods such as encryption, truncation, masking, or hashing.
-
-**Note**: This classification as "System Evidence" focuses on reviewing audit logs to ensure that any PAN data contained within these logs is maintained in an unreadable state, complying with PCI DSS v4.0 standards for the protection of cardholder data.
-
-### sub-requirement 3.5.1.2
+## sub-requirement 3.5.1.2
 **Evidence Categorization and Reference Naming for PCI DSS v4.0 Requirement 3.5.1.2.a**
 
 **Category**: System Evidence
