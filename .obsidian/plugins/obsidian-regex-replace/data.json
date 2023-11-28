@@ -1,7 +1,7 @@
 {
-  "findText": " **TESTING PROCEDURE**",
-  "replaceText": "**TESTING PROCEDURE**",
-  "useRegEx": false,
+  "findText": "^[ \\t]*(Evidence Category:)",
+  "replaceText": "*Evidence Category*: ",
+  "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,
   "processLineBreak": false,

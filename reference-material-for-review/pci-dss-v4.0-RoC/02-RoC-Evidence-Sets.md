@@ -1102,895 +1102,745 @@ This recommendation is in line with the evidence categories defined in my knowle
 ## Requirement 6
 ### sub-requirement 6.1
 #### sub-requirement 6.1.1
-
-    TESTING PROCEDURE: 6.1.1 (Part 1 - Examine Documentation)
-        Reference Name: Requirement 6 1 1 Security Policies and Operational Procedures for Requirement 6 Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 6 are managed in accordance with all specified elements, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.1.1 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 6 1 1 Security Policies and Operational Procedures for Requirement 6 Management Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 6 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.1.1 (Part 1 - Examine Documentation)
+*Reference Name*: Requirement 6 1 1 Security Policies and Operational Procedures for Requirement 6 Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 6 are managed in accordance with all specified elements, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.1.1 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 6 1 1 Security Policies and Operational Procedures for Requirement 6 Management Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 6 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 6.1.2
-
-    TESTING PROCEDURE: 6.1.2.a
-        Reference Name: Requirement 6 1 2 a Roles and Responsibilities for Requirement 6 Activities Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 6 are documented and assigned, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.1.2.b
-        Reference Name: Requirement 6 1 2 b Roles and Responsibilities for Requirement 6 Activities Understanding Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel responsible for performing activities in Requirement 6 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.1.2.a
+*Reference Name*: Requirement 6 1 2 a Roles and Responsibilities for Requirement 6 Activities Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 6 are documented and assigned, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.1.2.b
+*Reference Name*: Requirement 6 1 2 b Roles and Responsibilities for Requirement 6 Activities Understanding Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel responsible for performing activities in Requirement 6 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
 
 ### sub-requirement 6.2
 #### sub-requirement 6.2.1
-
-TESTING PROCEDURE: 6.2.1
-
-    Reference Name: Requirement 6 2 1 Software Development Procedures Process Inclusion Documentation Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves examining documented software development procedures to verify that processes are defined that include all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.2.1
+*Reference Name*: Requirement 6 2 1 Software Development Procedures Process Inclusion Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented software development procedures to verify that processes are defined that include all elements specified in this requirement, fitting under the review of documents.
 
 #### sub-requirement 6.2.2
-
-    TESTING PROCEDURE: 6.2.2.a
-        Reference Name: Requirement 6 2 2 a Software Development Personnel Training Processes for Bespoke and Custom Software Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining software development procedures to verify that processes are defined for training of software development personnel developing bespoke and custom software that includes all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.2.2.b (Part 1 - Examine Training Records)
-        Reference Name: Requirement 6 2 2 b Bespoke and Custom Software Development Personnel Training Records Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining training records to verify that software development personnel working on bespoke and custom software received software security training that is relevant to their job function and development languages in accordance with all elements specified in this requirement, aligning with the review of documents.
-
-    TESTING PROCEDURE: 6.2.2.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 6 2 2 b Bespoke and Custom Software Development Personnel Training Compliance Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that they received relevant software security training for their job functions in bespoke and custom software development, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.2.2.a
+*Reference Name*: Requirement 6 2 2 a Software Development Personnel Training Processes for Bespoke and Custom Software Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining software development procedures to verify that processes are defined for training of software development personnel developing bespoke and custom software that includes all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.2.2.b (Part 1 - Examine Training Records)
+*Reference Name*: Requirement 6 2 2 b Bespoke and Custom Software Development Personnel Training Records Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining training records to verify that software development personnel working on bespoke and custom software received software security training that is relevant to their job function and development languages in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.2.2.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 6 2 2 b Bespoke and Custom Software Development Personnel Training Compliance Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that they received relevant software security training for their job functions in bespoke and custom software development, aligning with the collection of interview notes.
 
 #### sub-requirement 6.2.3
-
-    TESTING PROCEDURE: 6.2.3.a
-        Reference Name: Requirement 6 2 3 a Bespoke and Custom Software Development Review Process Documentation and Personnel Interview Examination
-        Evidence Category: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining documented software development procedures and interviewing responsible personnel to verify that processes are defined that require all bespoke and custom software to be reviewed in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 6.2.3.b
-        Reference Name: Requirement 6 2 3 b Bespoke and Custom Software Code Changes Review Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining evidence of changes to bespoke and custom software to verify that the code changes were reviewed in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.2.3.a
+*Reference Name*: Requirement 6 2 3 a Bespoke and Custom Software Development Review Process Documentation and Personnel Interview Examination
+*Evidence Category*: Documentation Evidence and Interview Evidence
+*Reasoning*: This involves examining documented software development procedures and interviewing responsible personnel to verify that processes are defined that require all bespoke and custom software to be reviewed in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.2.3.b
+*Reference Name*: Requirement 6 2 3 b Bespoke and Custom Software Code Changes Review Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining evidence of changes to bespoke and custom software to verify that the code changes were reviewed in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 ### sub-requiement 6.2.3.1
-
-    TESTING PROCEDURE: 6.2.3.1.a
-        Reference Name: Requirement 6 2 3 1 a Manual Code Review Process for Bespoke and Custom Software Documentation and Personnel Interview Examination
-        Evidence Category: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining documented software development procedures and interviewing responsible personnel to verify that processes are defined for manual code reviews to be conducted in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 6.2.3.1.b (Part 1 - Examine Evidence of Changes)
-        Reference Name: Requirement 6 2 3 1 b Manual Code Review Compliance in Bespoke and Custom Software Changes Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining evidence of changes to bespoke and custom software to verify that manual code reviews were conducted in accordance with all elements specified in this requirement, aligning with the review of documents.
-
-    TESTING PROCEDURE: 6.2.3.1.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 6 2 3 1 b Manual Code Review Implementation in Bespoke and Custom Software Development Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that manual code reviews for bespoke and custom software were conducted in accordance with all specified elements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.2.3.1.a
+*Reference Name*: Requirement 6 2 3 1 a Manual Code Review Process for Bespoke and Custom Software Documentation and Personnel Interview Examination
+*Evidence Category*: Documentation Evidence and Interview Evidence
+*Reasoning*: This involves examining documented software development procedures and interviewing responsible personnel to verify that processes are defined for manual code reviews to be conducted in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.2.3.1.b (Part 1 - Examine Evidence of Changes)
+*Reference Name*: Requirement 6 2 3 1 b Manual Code Review Compliance in Bespoke and Custom Software Changes Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining evidence of changes to bespoke and custom software to verify that manual code reviews were conducted in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.2.3.1.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 6 2 3 1 b Manual Code Review Implementation in Bespoke and Custom Software Development Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that manual code reviews for bespoke and custom software were conducted in accordance with all specified elements, aligning with the collection of interview notes.
 
 #### sub-requirement 6.2.4
-
-    TESTING PROCEDURE: 6.2.4 (Part 1 - Examine Documented Procedures)
-        Reference Name: Requirement 6 2 4 Bespoke and Custom Software Development Attack Mitigation Techniques Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented procedures to verify that software engineering techniques or other methods are defined and in use by developers of bespoke and custom software to prevent or mitigate all common software attacks as specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.2.4 (Part 2 - Interview Responsible Software Development Personnel)
-        Reference Name: Requirement 6 2 4 Software Attack Mitigation Techniques Implementation in Bespoke and Custom Software Development Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible software development personnel to confirm that appropriate software engineering techniques or other methods are in use to prevent or mitigate common software attacks in bespoke and custom software development, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.2.4 (Part 1 - Examine Documented Procedures)
+*Reference Name*: Requirement 6 2 4 Bespoke and Custom Software Development Attack Mitigation Techniques Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented procedures to verify that software engineering techniques or other methods are defined and in use by developers of bespoke and custom software to prevent or mitigate all common software attacks as specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.2.4 (Part 2 - Interview Responsible Software Development Personnel)
+*Reference Name*: Requirement 6 2 4 Software Attack Mitigation Techniques Implementation in Bespoke and Custom Software Development Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible software development personnel to confirm that appropriate software engineering techniques or other methods are in use to prevent or mitigate common software attacks in bespoke and custom software development, aligning with the collection of interview notes.
 
 ### sub-requirement 6.3
 #### sub-requirement 6.3.1
-
-    TESTING PROCEDURE: 6.3.1.a
-        Reference Name: Requirement 6 3 1 a Security Vulnerability Identification and Management Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures for identifying and managing security vulnerabilities to verify that processes are defined in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.3.1.b (Part 1 - Interview Responsible Personnel)
-        Reference Name: Requirement 6 3 1 b Security Vulnerability Management Implementation Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to verify that security vulnerabilities are identified and managed in accordance with all specified elements, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 6.3.1.b (Part 2 - Examine Documentation)
-        Reference Name: Requirement 6 3 1 b Security Vulnerability Management Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documentation related to the management of security vulnerabilities, aligning with the review of documents.
-
-    TESTING PROCEDURE: 6.3.1.b (Part 3 - Observe Processes)
-        Reference Name: Requirement 6 3 1 b Security Vulnerability Management Process Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This involves observing processes to confirm that security vulnerabilities are identified and managed in accordance with all specified elements, fitting under the observation of processes.
+**TESTING PROCEDURE**: 6.3.1.a
+*Reference Name*: Requirement 6 3 1 a Security Vulnerability Identification and Management Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures for identifying and managing security vulnerabilities to verify that processes are defined in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.3.1.b (Part 1 - Interview Responsible Personnel)
+*Reference Name*: Requirement 6 3 1 b Security Vulnerability Management Implementation Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to verify that security vulnerabilities are identified and managed in accordance with all specified elements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.3.1.b (Part 2 - Examine Documentation)
+*Reference Name*: Requirement 6 3 1 b Security Vulnerability Management Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documentation related to the management of security vulnerabilities, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.3.1.b (Part 3 - Observe Processes)
+*Reference Name*: Requirement 6 3 1 b Security Vulnerability Management Process Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This involves observing processes to confirm that security vulnerabilities are identified and managed in accordance with all specified elements, fitting under the observation of processes.
 
 #### sub-requirement 6.3.2
-
-    TESTING PROCEDURE: 6.3.2.a
-        Reference Name: Requirement 6 3 2 a Bespoke, Custom, and Third-Party Software Component Inventory Maintenance and Vulnerability Identification Documentation and Interview Examination
-        Evidence Category: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining documentation and interviewing personnel to verify that an inventory of bespoke and custom software and third-party software components is maintained, and that the inventory is used to identify and address vulnerabilities, fitting under the review of documents and aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 6.3.2.b
-        Reference Name: Requirement 6 3 2 b Bespoke, Custom, and Third-Party Software Component Inventory Accuracy and Completeness Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining software documentation, including for bespoke and custom software that integrates third-party software components, and comparing it to the inventory to verify that the inventory includes the bespoke and custom software and third-party software components, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.3.2.a
+*Reference Name*: Requirement 6 3 2 a Bespoke, Custom, and Third-Party Software Component Inventory Maintenance and Vulnerability Identification Documentation and Interview Examination
+*Evidence Category*: Documentation Evidence and Interview Evidence
+*Reasoning*: This involves examining documentation and interviewing personnel to verify that an inventory of bespoke and custom software and third-party software components is maintained, and that the inventory is used to identify and address vulnerabilities, fitting under the review of documents and aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.3.2.b
+*Reference Name*: Requirement 6 3 2 b Bespoke, Custom, and Third-Party Software Component Inventory Accuracy and Completeness Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining software documentation, including for bespoke and custom software that integrates third-party software components, and comparing it to the inventory to verify that the inventory includes the bespoke and custom software and third-party software components, aligning with the review of documents.
 
 #### sub-requirement 6.3.3
-
-    TESTING PROCEDURE: 6.3.3.a
-        Reference Name: Requirement 6 3 3 a Security Patch and Update Installation Process Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify processes are defined for addressing vulnerabilities by installing applicable security patches/updates in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.3.3.b
-        Reference Name: Requirement 6 3 3 b Security Patch and Update Installation on System Components Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system components and related software and comparing the list of installed security patches/updates to the most recent security patch/update information to verify vulnerabilities are addressed in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.3.3.a
+*Reference Name*: Requirement 6 3 3 a Security Patch and Update Installation Process Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify processes are defined for addressing vulnerabilities by installing applicable security patches/updates in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.3.3.b
+*Reference Name*: Requirement 6 3 3 b Security Patch and Update Installation on System Components Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system components and related software and comparing the list of installed security patches/updates to the most recent security patch/update information to verify vulnerabilities are addressed in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 ### sub-requirement 6.4
 ### sub-requierment 6.4.1
-
-    TESTING PROCEDURE: 6.4.1 (Part 1 - If Using Vulnerability Security Assessment Tools or Methods)
+**TESTING PROCEDURE**: 6.4.1 (Part 1 - If Using Vulnerability Security Assessment Tools or Methods)
         Reference Name for Documented Processes: Requirement 6 4 1 Public-Facing Web Applications Vulnerability Security Assessment Tools or Methods Process Documentation Examination
         Reference Name for Interview: Requirement 6 4 1 Public-Facing Web Applications Security Assessment Personnel Interview
         Reference Name for Records of Application Security Assessments: Requirement 6 4 1 Public-Facing Web Applications Security Assessment Records Examination
         Evidence Categories: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining documented processes, interviewing personnel, and examining records of application security assessments to verify that public-facing web applications are reviewed in accordance with all elements of the requirement specific to the tool/method used.
-
-    TESTING PROCEDURE: 6.4.1 (Part 2 - If Using an Automated Technical Solution for Web-Based Attacks)
+*Reasoning*: This involves examining documented processes, interviewing personnel, and examining records of application security assessments to verify that public-facing web applications are reviewed in accordance with all elements of the requirement specific to the tool/method used.
+**TESTING PROCEDURE**: 6.4.1 (Part 2 - If Using an Automated Technical Solution for Web-Based Attacks)
         Reference Name for System Configuration Settings: Requirement 6 4 1 Public-Facing Web Applications Automated Technical Solution Configuration Settings Examination
         Reference Name for Audit Logs: Requirement 6 4 1 Public-Facing Web Applications Attack Prevention Audit Logs Examination
         Reference Name for Interview: Requirement 6 4 1 Automated Technical Solution Implementation for Web Applications Verification Interview
         Evidence Categories: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining the system configuration settings and audit logs, and interviewing responsible personnel to verify that the automated technical solution is installed and functioning in accordance with all elements of the requirement specific to the solution(s) used.
+*Reasoning*: This involves examining the system configuration settings and audit logs, and interviewing responsible personnel to verify that the automated technical solution is installed and functioning in accordance with all elements of the requirement specific to the solution(s) used.
 
 #### sub-requirement 6.4.2
-
-    TESTING PROCEDURE: 6.4.2 (Part 1 - Examine System Configuration Settings)
-        Reference Name: Requirement 6 4 2 Public-Facing Web Applications Attack Prevention Technical Solution Configuration Settings Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the system configuration settings to verify that an automated technical solution that detects and prevents web-based attacks is in place in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.4.2 (Part 2 - Examine Audit Logs)
-        Reference Name: Requirement 6 4 2 Public-Facing Web Applications Attack Prevention Solution Audit Logs Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining audit logs to confirm that the automated technical solution for detecting and preventing web-based attacks on public-facing web applications is functioning as specified, aligning with the review of documents.
-
-    TESTING PROCEDURE: 6.4.2 (Part 3 - Interview Responsible Personnel)
-        Reference Name: Requirement 6 4 2 Automated Web Attack Prevention Technical Solution Implementation Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to verify that the automated technical solution for preventing web-based attacks on public-facing web applications is in place and operational as per the specified requirement, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.4.2 (Part 1 - Examine System Configuration Settings)
+*Reference Name*: Requirement 6 4 2 Public-Facing Web Applications Attack Prevention Technical Solution Configuration Settings Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the system configuration settings to verify that an automated technical solution that detects and prevents web-based attacks is in place in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.4.2 (Part 2 - Examine Audit Logs)
+*Reference Name*: Requirement 6 4 2 Public-Facing Web Applications Attack Prevention Solution Audit Logs Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining audit logs to confirm that the automated technical solution for detecting and preventing web-based attacks on public-facing web applications is functioning as specified, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.4.2 (Part 3 - Interview Responsible Personnel)
+*Reference Name*: Requirement 6 4 2 Automated Web Attack Prevention Technical Solution Implementation Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to verify that the automated technical solution for preventing web-based attacks on public-facing web applications is in place and operational as per the specified requirement, aligning with the collection of interview notes.
 
 #### sub-requirement 6.4.3
-
-    TESTING PROCEDURE: 6.4.3.a
-        Reference Name: Requirement 6 4 3 a Payment Page Scripts Management Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify that processes are defined for managing all payment page scripts that are loaded and executed in the consumer’s browser, in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.4.3.b (Part 1 - Interview Responsible Personnel)
-        Reference Name: Requirement 6 4 3 b Payment Page Scripts Management in Consumer Browser Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to verify that all payment page scripts that are loaded and executed in the consumer’s browser are managed in accordance with all specified elements, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 6.4.3.b (Part 2 - Examine Inventory Records)
-        Reference Name: Requirement 6 4 3 b Payment Page Scripts Inventory Records Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining inventory records to confirm that payment page scripts are managed as per the PCI DSS requirements, aligning with the review of documents.
-
-    TESTING PROCEDURE: 6.4.3.b (Part 3 - Examine System Configurations)
-        Reference Name: Requirement 6 4 3 b Payment Page Scripts System Configuration Management Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining system configurations to ensure that payment page scripts executed in the consumer’s browser are managed in accordance with all specified elements, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.4.3.a
+*Reference Name*: Requirement 6 4 3 a Payment Page Scripts Management Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify that processes are defined for managing all payment page scripts that are loaded and executed in the consumer’s browser, in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.4.3.b (Part 1 - Interview Responsible Personnel)
+*Reference Name*: Requirement 6 4 3 b Payment Page Scripts Management in Consumer Browser Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to verify that all payment page scripts that are loaded and executed in the consumer’s browser are managed in accordance with all specified elements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.4.3.b (Part 2 - Examine Inventory Records)
+*Reference Name*: Requirement 6 4 3 b Payment Page Scripts Inventory Records Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining inventory records to confirm that payment page scripts are managed as per the PCI DSS requirements, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.4.3.b (Part 3 - Examine System Configurations)
+*Reference Name*: Requirement 6 4 3 b Payment Page Scripts System Configuration Management Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system configurations to ensure that payment page scripts executed in the consumer’s browser are managed in accordance with all specified elements, fitting under the review of documents.
 
 ### sub-requirement 6.5
 #### sub-requirement 6.5.1
-
-    TESTING PROCEDURE: 6.5.1.a
-        Reference Name: Requirement 6 5 1 a Change Control Procedures for System Components Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented change control procedures to verify procedures are defined for changes to all system components in the production environment to include all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.5.1.b (Part 1 - Examine Recent Changes)
-        Reference Name: Requirement 6 5 1 b Recent System Component Changes Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining recent changes to system components and tracing those changes back to related change control documentation, to verify the change is implemented in accordance with all elements specified in this requirement, aligning with the review of documents.
-
-    TESTING PROCEDURE: 6.5.1.b (Part 2 - Examine Change Control Documentation)
-        Reference Name: Requirement 6 5 1 b Change Control Documentation for System Component Changes Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining change control documentation for each change to system components to ensure each change is implemented in accordance with all specified elements, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.1.a
+*Reference Name*: Requirement 6 5 1 a Change Control Procedures for System Components Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented change control procedures to verify procedures are defined for changes to all system components in the production environment to include all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.1.b (Part 1 - Examine Recent Changes)
+*Reference Name*: Requirement 6 5 1 b Recent System Component Changes Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining recent changes to system components and tracing those changes back to related change control documentation, to verify the change is implemented in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.5.1.b (Part 2 - Examine Change Control Documentation)
+*Reference Name*: Requirement 6 5 1 b Change Control Documentation for System Component Changes Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining change control documentation for each change to system components to ensure each change is implemented in accordance with all specified elements, fitting under the review of documents.
 
 #### sub-requirement 6.5.2
-
-    TESTING PROCEDURE: 6.5.2 (Part 1 - Examine Documentation for Significant Changes)
-        Reference Name: Requirement 6 5 2 Significant Changes Documentation Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation for significant changes to verify that the entity confirmed applicable PCI DSS requirements were in place on all new or changed systems and networks, and that documentation was updated as applicable, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.5.2 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 6 5 2 PCI DSS Requirements Confirmation in System and Network Changes Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to verify that the applicable PCI DSS requirements were confirmed and documented for all new or changed systems and networks, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 6.5.2 (Part 3 - Observe Affected Systems/Networks)
-        Reference Name: Requirement 6 5 2 New or Changed Systems and Networks PCI DSS Compliance Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This involves observing the affected systems/networks to confirm that applicable PCI DSS requirements were in place and documentation was updated accordingly, fitting under the observation of processes.
+**TESTING PROCEDURE**: 6.5.2 (Part 1 - Examine Documentation for Significant Changes)
+*Reference Name*: Requirement 6 5 2 Significant Changes Documentation Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation for significant changes to verify that the entity confirmed applicable PCI DSS requirements were in place on all new or changed systems and networks, and that documentation was updated as applicable, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.2 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 6 5 2 PCI DSS Requirements Confirmation in System and Network Changes Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to verify that the applicable PCI DSS requirements were confirmed and documented for all new or changed systems and networks, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.5.2 (Part 3 - Observe Affected Systems/Networks)
+*Reference Name*: Requirement 6 5 2 New or Changed Systems and Networks PCI DSS Compliance Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This involves observing the affected systems/networks to confirm that applicable PCI DSS requirements were in place and documentation was updated accordingly, fitting under the observation of processes.
 
 #### sub-requirement 6.5.3
-
-    TESTING PROCEDURE: 6.5.3.a
-        Reference Name: Requirement 6 5 3 a Pre-Production and Production Environment Separation Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify that processes are defined for separating the pre-production environment from the production environment via access controls that enforce the separation, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.5.3.b (Part 1 - Examine Network Documentation)
-        Reference Name: Requirement 6 5 3 b Pre-Production and Production Environment Network Separation Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining network documentation to verify that the pre-production environment is separate from the production environment(s), aligning with the review of documents.
-
-    TESTING PROCEDURE: 6.5.3.b (Part 2 - Examine Configurations)
-        Reference Name: Requirement 6 5 3 b Network Security Controls for Environment Separation Configuration Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining configurations of network security controls to confirm that the pre-production environment is separate from the production environment(s), fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.5.3.c
-        Reference Name: Requirement 6 5 3 c Pre-Production and Production Environment Access Control Settings Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining access control settings to verify that access controls are in place to enforce separation between the pre-production and production environment(s), aligning with the review of documents.
+**TESTING PROCEDURE**: 6.5.3.a
+*Reference Name*: Requirement 6 5 3 a Pre-Production and Production Environment Separation Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify that processes are defined for separating the pre-production environment from the production environment via access controls that enforce the separation, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.3.b (Part 1 - Examine Network Documentation)
+*Reference Name*: Requirement 6 5 3 b Pre-Production and Production Environment Network Separation Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining network documentation to verify that the pre-production environment is separate from the production environment(s), aligning with the review of documents.
+**TESTING PROCEDURE**: 6.5.3.b (Part 2 - Examine Configurations)
+*Reference Name*: Requirement 6 5 3 b Network Security Controls for Environment Separation Configuration Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining configurations of network security controls to confirm that the pre-production environment is separate from the production environment(s), fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.3.c
+*Reference Name*: Requirement 6 5 3 c Pre-Production and Production Environment Access Control Settings Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining access control settings to verify that access controls are in place to enforce separation between the pre-production and production environment(s), aligning with the review of documents.
 
 #### sub-requirement 6.5.4
-
-    TESTING PROCEDURE: 6.5.4.a
-        Reference Name: Requirement 6 5 4 a Role and Function Separation for Change Deployment Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify that processes are defined for separating roles and functions to provide accountability such that only reviewed and approved changes are deployed, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.5.4.b (Part 1 - Observe Processes)
-        Reference Name: Requirement 6 5 4 b Role and Function Separation in Change Deployment Process Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This requires observing processes to verify implemented controls separate roles and functions and provide accountability such that only reviewed and approved changes are deployed, fitting under the observation of processes.
-
-    TESTING PROCEDURE: 6.5.4.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 6 5 4 b Change Deployment Accountability and Role Separation Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This involves interviewing personnel to confirm that the implemented controls effectively separate roles and functions, ensuring that only reviewed and approved changes are deployed, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.5.4.a
+*Reference Name*: Requirement 6 5 4 a Role and Function Separation for Change Deployment Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify that processes are defined for separating roles and functions to provide accountability such that only reviewed and approved changes are deployed, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.4.b (Part 1 - Observe Processes)
+*Reference Name*: Requirement 6 5 4 b Role and Function Separation in Change Deployment Process Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This requires observing processes to verify implemented controls separate roles and functions and provide accountability such that only reviewed and approved changes are deployed, fitting under the observation of processes.
+**TESTING PROCEDURE**: 6.5.4.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 6 5 4 b Change Deployment Accountability and Role Separation Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This involves interviewing personnel to confirm that the implemented controls effectively separate roles and functions, ensuring that only reviewed and approved changes are deployed, aligning with the collection of interview notes.
 
 #### sub-requirement 6.5.5
-
-    TESTING PROCEDURE: 6.5.5.a
-        Reference Name: Requirement 6 5 5 a Policies and Procedures for Live PANs Usage in Pre-Production Environments Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify that processes are defined for not using live PANs in pre-production environments, except where those environments are in a Cardholder Data Environment (CDE) and protected in accordance with all applicable PCI DSS requirements, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.5.5.b (Part 1 - Observe Testing Processes)
-        Reference Name: Requirement 6 5 5 b Live PANs Usage in Pre-Production Environments Testing Process Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This requires observing testing processes to verify procedures are in place to ensure live PANs are not used in pre-production environments, except where those environments are in a CDE and protected in accordance with all applicable PCI DSS requirements, fitting under the observation of processes.
-
-    TESTING PROCEDURE: 6.5.5.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 6 5 5 b Compliance Verification for Live PANs Usage in Pre-Production Environments Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This involves interviewing personnel to confirm that procedures are in place to ensure live PANs are not used in pre-production environments, except where those environments are in a CDE and protected in accordance with all applicable PCI DSS requirements, aligning with the collection of interview notes.
-
-TESTING PROCEDURE: 6.5.5.c
-
-    Reference Name: Requirement 6 5 5 c Live PANs Usage Verification in Pre-Production Test Data Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves examining pre-production test data to verify live PANs are not used in pre-production environments, except where those environments are in a Cardholder Data Environment (CDE) and protected in accordance with all applicable PCI DSS requirements, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.5.a
+*Reference Name*: Requirement 6 5 5 a Policies and Procedures for Live PANs Usage in Pre-Production Environments Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify that processes are defined for not using live PANs in pre-production environments, except where those environments are in a Cardholder Data Environment (CDE) and protected in accordance with all applicable PCI DSS requirements, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.5.b (Part 1 - Observe Testing Processes)
+*Reference Name*: Requirement 6 5 5 b Live PANs Usage in Pre-Production Environments Testing Process Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This requires observing testing processes to verify procedures are in place to ensure live PANs are not used in pre-production environments, except where those environments are in a CDE and protected in accordance with all applicable PCI DSS requirements, fitting under the observation of processes.
+**TESTING PROCEDURE**: 6.5.5.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 6 5 5 b Compliance Verification for Live PANs Usage in Pre-Production Environments Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This involves interviewing personnel to confirm that procedures are in place to ensure live PANs are not used in pre-production environments, except where those environments are in a CDE and protected in accordance with all applicable PCI DSS requirements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.5.5.c
+*Reference Name*: Requirement 6 5 5 c Live PANs Usage Verification in Pre-Production Test Data Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining pre-production test data to verify live PANs are not used in pre-production environments, except where those environments are in a Cardholder Data Environment (CDE) and protected in accordance with all applicable PCI DSS requirements, fitting under the review of documents.
 
 #### sub-requirement 6.5.6
-
-    TESTING PROCEDURE: 6.5.6.a
-        Reference Name: Requirement 6 5 6 a Test Data and Accounts Removal Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify that processes are defined for the removal of test data and test accounts from system components before the system goes into production, fitting under the review of documents.
-
-    TESTING PROCEDURE: 6.5.6.b (Part 1 - Observe Testing Processes)
-        Reference Name: Requirement 6 5 6 b Test Data and Accounts Removal Process Observation for Software
-        Evidence Category: Observation Evidence
-        Reasoning: This requires observing testing processes for both off-the-shelf software and in-house applications to verify test data and test accounts are removed before a system goes into production, fitting under the observation of processes.
-
-    TESTING PROCEDURE: 6.5.6.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 6 5 6 b Test Data and Accounts Removal Verification Interview for Software
-        Evidence Category: Interview Evidence
-        Reasoning: This involves interviewing personnel to confirm that test data and test accounts are removed before a system goes into production, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 6.5.6.c
-        Reference Name: Requirement 6 5 6 c Production Systems Test Data and Accounts Presence Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining data and accounts for recently installed or updated off-the-shelf software and in-house applications to verify there is no test data or test accounts on systems in production, aligning with the review of documents.
+**TESTING PROCEDURE**: 6.5.6.a
+*Reference Name*: Requirement 6 5 6 a Test Data and Accounts Removal Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify that processes are defined for the removal of test data and test accounts from system components before the system goes into production, fitting under the review of documents.
+**TESTING PROCEDURE**: 6.5.6.b (Part 1 - Observe Testing Processes)
+*Reference Name*: Requirement 6 5 6 b Test Data and Accounts Removal Process Observation for Software
+*Evidence Category*: Observation Evidence
+*Reasoning*: This requires observing testing processes for both off-the-shelf software and in-house applications to verify test data and test accounts are removed before a system goes into production, fitting under the observation of processes.
+**TESTING PROCEDURE**: 6.5.6.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 6 5 6 b Test Data and Accounts Removal Verification Interview for Software
+*Evidence Category*: Interview Evidence
+*Reasoning*: This involves interviewing personnel to confirm that test data and test accounts are removed before a system goes into production, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 6.5.6.c
+*Reference Name*: Requirement 6 5 6 c Production Systems Test Data and Accounts Presence Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining data and accounts for recently installed or updated off-the-shelf software and in-house applications to verify there is no test data or test accounts on systems in production, aligning with the review of documents.
 
 ---
 
 ## Requirement 7
 ### sub-requirement 7.1
 #### sub-requirement 7.1.1
-
-    TESTING PROCEDURE: 7.1.1 (Part 1 - Examine Documentation)
-        Reference Name: Requirement 7 1 1 Security Policies and Procedures for Requirement 7 Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 7 are managed in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.1.1 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 7 1 1 Security Policies and Procedures for Requirement 7 Management Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 7 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.1.1 (Part 1 - Examine Documentation)
+*Reference Name*: Requirement 7 1 1 Security Policies and Procedures for Requirement 7 Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 7 are managed in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.1.1 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 7 1 1 Security Policies and Procedures for Requirement 7 Management Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 7 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 ### sub-requirement 7.1.2
-
-    TESTING PROCEDURE: 7.1.2.a
-        Reference Name: Requirement 7 1 2 a Roles and Responsibilities for Requirement 7 Activities Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 7 are documented and assigned, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.1.2.b
-        Reference Name: Requirement 7 1 2 b Roles and Responsibilities for Requirement 7 Activities Understanding Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel with responsibility for performing activities in Requirement 7 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.1.2.a
+*Reference Name*: Requirement 7 1 2 a Roles and Responsibilities for Requirement 7 Activities Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 7 are documented and assigned, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.1.2.b
+*Reference Name*: Requirement 7 1 2 b Roles and Responsibilities for Requirement 7 Activities Understanding Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel with responsibility for performing activities in Requirement 7 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
 
 ### sub-requirement 7.2
 #### sub-requirement 7.2.1
-
-    TESTING PROCEDURE: 7.2.1.a
-        Reference Name: Requirement 7 2 1 a Access Control Model Definition Policies and Procedures Documentation and Personnel Interview Examination
-        Evidence Category: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining documented policies and procedures and interviewing personnel to verify the access control model is defined in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 7.2.1.b
-        Reference Name: Requirement 7 2 1 b Access Control Model Settings Appropriateness Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining access control model settings and verifying that access needs are appropriately defined in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.2.1.a
+*Reference Name*: Requirement 7 2 1 a Access Control Model Definition Policies and Procedures Documentation and Personnel Interview Examination
+*Evidence Category*: Documentation Evidence and Interview Evidence
+*Reasoning*: This involves examining documented policies and procedures and interviewing personnel to verify the access control model is defined in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.2.1.b
+*Reference Name*: Requirement 7 2 1 b Access Control Model Settings Appropriateness Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining access control model settings and verifying that access needs are appropriately defined in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 #### sub-requirement 7.2.2
-
-    TESTING PROCEDURE: 7.2.2.a
-        Reference Name: Requirement 7 2 2 a Access Assignment Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify they cover assigning access to users in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.2.2.b (Part 1 - Examine User Access Settings)
-        Reference Name: Requirement 7 2 2 b User and Privileged Access Settings Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining user access settings, including for privileged users, to verify that privileges assigned are in accordance with all elements specified in this requirement, aligning with the review of documents.
-
-    TESTING PROCEDURE: 7.2.2.b (Part 2 - Interview Management Personnel)
-        Reference Name: Requirement 7 2 2 b Privileged Access Assignment Management Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible management personnel to confirm that privileges assigned to users, including privileged users, are in accordance with all specified elements, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 7.2.2.c
-        Reference Name: Requirement 7 2 2 c Privileged User Access Assignment Process Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This involves interviewing personnel responsible for assigning access to verify that privileged user access is assigned in accordance with all elements specified in this requirement, fitting under the collection of interview notes.
+**TESTING PROCEDURE**: 7.2.2.a
+*Reference Name*: Requirement 7 2 2 a Access Assignment Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify they cover assigning access to users in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.2.b (Part 1 - Examine User Access Settings)
+*Reference Name*: Requirement 7 2 2 b User and Privileged Access Settings Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining user access settings, including for privileged users, to verify that privileges assigned are in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.2.2.b (Part 2 - Interview Management Personnel)
+*Reference Name*: Requirement 7 2 2 b Privileged Access Assignment Management Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible management personnel to confirm that privileges assigned to users, including privileged users, are in accordance with all specified elements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.2.2.c
+*Reference Name*: Requirement 7 2 2 c Privileged User Access Assignment Process Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This involves interviewing personnel responsible for assigning access to verify that privileged user access is assigned in accordance with all elements specified in this requirement, fitting under the collection of interview notes.
 
 #### sub-requirement 7.2.3
-
-    TESTING PROCEDURE: 7.2.3.a
-        Reference Name: Requirement 7 2 3 a Privilege Approval Processes Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify they define processes for approval of all privileges by authorized personnel, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.2.3.b (Part 1 - Examine User IDs and Assigned Privileges)
-        Reference Name: Requirement 7 2 3 b User IDs and Privileges Assignment Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining user IDs and assigned privileges to verify that documented approval exists for the assigned privileges, that the approval was by authorized personnel, and that specified privileges match the roles assigned to the individual, aligning with the review of documents.
-
-    TESTING PROCEDURE: 7.2.3.b (Part 2 - Examine Documented Approvals)
-        Reference Name: Requirement 7 2 3 b Privilege Assignment Authorized Approvals Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented approvals to confirm that they align with the privileges assigned to user IDs and were authorized by appropriate personnel, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.3.a
+*Reference Name*: Requirement 7 2 3 a Privilege Approval Processes Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify they define processes for approval of all privileges by authorized personnel, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.3.b (Part 1 - Examine User IDs and Assigned Privileges)
+*Reference Name*: Requirement 7 2 3 b User IDs and Privileges Assignment Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining user IDs and assigned privileges to verify that documented approval exists for the assigned privileges, that the approval was by authorized personnel, and that specified privileges match the roles assigned to the individual, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.2.3.b (Part 2 - Examine Documented Approvals)
+*Reference Name*: Requirement 7 2 3 b Privilege Assignment Authorized Approvals Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented approvals to confirm that they align with the privileges assigned to user IDs and were authorized by appropriate personnel, fitting under the review of documents.
 
 #### sub-requirement 7.2.4
-
-    TESTING PROCEDURE: 7.2.4.a
-        Reference Name: Requirement 7 2 4 a User Accounts and Access Privileges Review Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify they define processes to review all user accounts and related access privileges, including third-party/vendor accounts, in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.2.4.b (Part 1 - Interview Responsible Personnel)
-        Reference Name: Requirement 7 2 4 b User Accounts Review Process Compliance Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to verify that periodic reviews of user accounts are conducted and that the results align with all specified elements, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 7.2.4.b (Part 2 - Examine Documented Results)
-        Reference Name: Requirement 7 2 4 b Periodic User Accounts Review Results Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining the documented results of periodic reviews of user accounts to confirm that all the results are in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.4.a
+*Reference Name*: Requirement 7 2 4 a User Accounts and Access Privileges Review Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify they define processes to review all user accounts and related access privileges, including third-party/vendor accounts, in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.4.b (Part 1 - Interview Responsible Personnel)
+*Reference Name*: Requirement 7 2 4 b User Accounts Review Process Compliance Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to verify that periodic reviews of user accounts are conducted and that the results align with all specified elements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.2.4.b (Part 2 - Examine Documented Results)
+*Reference Name*: Requirement 7 2 4 b Periodic User Accounts Review Results Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining the documented results of periodic reviews of user accounts to confirm that all the results are in accordance with all elements specified in this requirement, fitting under the review of documents.
 
 #### sub-requirement 7.2.5
-
-    TESTING PROCEDURE: 7.2.5.a
-        Reference Name: Requirement 7 2 5 a System and Application Accounts Management Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify they define processes to manage and assign application and system accounts and related access privileges in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.2.5.b (Part 1 - Examine Privileges)
-        Reference Name: Requirement 7 2 5 b System and Application Accounts Access Privileges Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining privileges associated with system and application accounts to verify that application and system accounts and related access privileges are assigned and managed in accordance with all elements specified in this requirement, aligning with the review of documents.
-
-    TESTING PROCEDURE: 7.2.5.b (Part 2 - Interview Responsible Personnel)
-        Reference Name: Requirement 7 2 5 b System and Application Accounts Management Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to confirm that application and system accounts and related access privileges are assigned and managed as per the PCI DSS specifications, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.2.5.a
+*Reference Name*: Requirement 7 2 5 a System and Application Accounts Management Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify they define processes to manage and assign application and system accounts and related access privileges in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.5.b (Part 1 - Examine Privileges)
+*Reference Name*: Requirement 7 2 5 b System and Application Accounts Access Privileges Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining privileges associated with system and application accounts to verify that application and system accounts and related access privileges are assigned and managed in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.2.5.b (Part 2 - Interview Responsible Personnel)
+*Reference Name*: Requirement 7 2 5 b System and Application Accounts Management Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to confirm that application and system accounts and related access privileges are assigned and managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 7.2.5.1
-
-    TESTING PROCEDURE: 7.2.5.1.a
-        Reference Name: Requirement 7 2 5 1 a Application and System Accounts Review Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify they define processes to review all application and system accounts and related access privileges in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.2.5.1.b
-        Reference Name: Requirement 7 2 5 1 b Periodic Account Review Frequency Risk Analysis Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining the entity’s targeted risk analysis for the frequency of periodic reviews of application and system accounts and related access privileges to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1, aligning with the review of documents.
-
-    TESTING PROCEDURE: 7.2.5.1.c (Part 1 - Interview Responsible Personnel)
-        Reference Name: Requirement 7 2 5 1 c Periodic Account Review Process Compliance Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to verify that periodic reviews of system and application accounts and related privileges occur in accordance with all specified elements, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 7.2.5.1.c (Part 2 - Examine Documented Results)
-        Reference Name: Requirement 7 2 5 1 c Documented Results of Periodic Account Reviews Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented results of periodic reviews of system and application accounts and related privileges to confirm that the reviews are conducted as per the PCI DSS specifications, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.5.1.a
+*Reference Name*: Requirement 7 2 5 1 a Application and System Accounts Review Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify they define processes to review all application and system accounts and related access privileges in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.2.5.1.b
+*Reference Name*: Requirement 7 2 5 1 b Periodic Account Review Frequency Risk Analysis Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining the entity’s targeted risk analysis for the frequency of periodic reviews of application and system accounts and related access privileges to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.2.5.1.c (Part 1 - Interview Responsible Personnel)
+*Reference Name*: Requirement 7 2 5 1 c Periodic Account Review Process Compliance Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to verify that periodic reviews of system and application accounts and related privileges occur in accordance with all specified elements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.2.5.1.c (Part 2 - Examine Documented Results)
+*Reference Name*: Requirement 7 2 5 1 c Documented Results of Periodic Account Reviews Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented results of periodic reviews of system and application accounts and related privileges to confirm that the reviews are conducted as per the PCI DSS specifications, fitting under the review of documents.
 
 ### sub-requirement 7.2.6
-
-    TESTING PROCEDURE: 7.2.6.a
-        Reference Name: Requirement 7 2 6 a User Access Granting to Cardholder Data Repositories Policies and Procedures Documentation and Interview Examination
-        Evidence Category: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining policies and procedures and interviewing personnel to verify processes are defined for granting user access to query repositories of stored cardholder data, in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 7.2.6.b
-        Reference Name: Requirement 7 2 6 b Cardholder Data Repositories Query Access Configuration Settings Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining configuration settings for querying repositories of stored cardholder data to verify they are in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.2.6.a
+*Reference Name*: Requirement 7 2 6 a User Access Granting to Cardholder Data Repositories Policies and Procedures Documentation and Interview Examination
+*Evidence Category*: Documentation Evidence and Interview Evidence
+*Reasoning*: This involves examining policies and procedures and interviewing personnel to verify processes are defined for granting user access to query repositories of stored cardholder data, in accordance with all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 7.2.6.b
+*Reference Name*: Requirement 7 2 6 b Cardholder Data Repositories Query Access Configuration Settings Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining configuration settings for querying repositories of stored cardholder data to verify they are in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 ### sub-requirement 7.3
 #### sub-requirement 7.3.1
-
-    TESTING PROCEDURE: 7.3.1 (Part 1 - Examine Vendor Documentation)
-        Reference Name: Requirement 7 3 1 Access Control Systems Vendor Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining vendor documentation to verify that access is managed for each system component via an access control system(s) that restricts access based on a user’s need to know, covering all system components, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.3.1 (Part 2 - Examine System Settings)
-        Reference Name: Requirement 7 3 1 System Components Access Control Settings Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system settings to confirm that access is managed for each system component via an access control system in accordance with the user’s need to know and that it covers all system components, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.3.1 (Part 1 - Examine Vendor Documentation)
+*Reference Name*: Requirement 7 3 1 Access Control Systems Vendor Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining vendor documentation to verify that access is managed for each system component via an access control system(s) that restricts access based on a user’s need to know, covering all system components, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.3.1 (Part 2 - Examine System Settings)
+*Reference Name*: Requirement 7 3 1 System Components Access Control Settings Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system settings to confirm that access is managed for each system component via an access control system in accordance with the user’s need to know and that it covers all system components, aligning with the review of documents.
 
 #### sub-requirement 7.3.2
-
-    TESTING PROCEDURE: 7.3.2 (Part 1 - Examine Vendor Documentation)
-        Reference Name: Requirement 7 3 2 Access Control System Configuration Vendor Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining vendor documentation to verify that the access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.3.2 (Part 2 - Examine System Settings)
-        Reference Name: Requirement 7 3 2 Job Classification Based Access Control System Settings Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system settings to confirm that the access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.3.2 (Part 1 - Examine Vendor Documentation)
+*Reference Name*: Requirement 7 3 2 Access Control System Configuration Vendor Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining vendor documentation to verify that the access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.3.2 (Part 2 - Examine System Settings)
+*Reference Name*: Requirement 7 3 2 Job Classification Based Access Control System Settings Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system settings to confirm that the access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function, aligning with the review of documents.
 
 #### sub-requirement 7.3.3
-
-    TESTING PROCEDURE: 7.3.3 (Part 1 - Examine Vendor Documentation)
-        Reference Name: Requirement 7 3 3 Access Control Systems Deny All Default Vendor Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining vendor documentation to verify that the access control system(s) is set to “deny all” by default, fitting under the review of documents.
-
-    TESTING PROCEDURE: 7.3.3 (Part 2 - Examine System Settings)
-        Reference Name: Requirement 7 3 3 Deny All Default Access Control System Settings Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system settings to confirm that the access control system(s) is set to “deny all” by default, aligning with the review of documents.
+**TESTING PROCEDURE**: 7.3.3 (Part 1 - Examine Vendor Documentation)
+*Reference Name*: Requirement 7 3 3 Access Control Systems Deny All Default Vendor Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining vendor documentation to verify that the access control system(s) is set to “deny all” by default, fitting under the review of documents.
+**TESTING PROCEDURE**: 7.3.3 (Part 2 - Examine System Settings)
+*Reference Name*: Requirement 7 3 3 Deny All Default Access Control System Settings Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system settings to confirm that the access control system(s) is set to “deny all” by default, aligning with the review of documents.
 
 ---
 
 ## Requirement 8
 ### sub-requirement 8.1
 #### sub-requirement 8.1.1
-
-    TESTING PROCEDURE: 8.1.1 (Part 1 - Examine Documentation)
-        Reference Name: Requirement 8 1 1 Security Policies and Procedures for Requirement 8 Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 8 are managed in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.1.1 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 8 1 1 Security Policies and Procedures for Requirement 8 Management Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 8 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.1.1 (Part 1 - Examine Documentation)
+*Reference Name*: Requirement 8 1 1 Security Policies and Procedures for Requirement 8 Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 8 are managed in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.1.1 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 8 1 1 Security Policies and Procedures for Requirement 8 Management Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 8 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 8.1.2
-
-    TESTING PROCEDURE: 8.1.2.a
-        Reference Name: Requirement 8 1 2 a Roles and Responsibilities for Requirement 8 Activities Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 8 are documented and assigned, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.1.2.b
-        Reference Name: Requirement 8 1 2 b Roles and Responsibilities for Requirement 8 Activities Understanding Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel with responsibility for performing activities in Requirement 8 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.1.2.a
+*Reference Name*: Requirement 8 1 2 a Roles and Responsibilities for Requirement 8 Activities Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 8 are documented and assigned, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.1.2.b
+*Reference Name*: Requirement 8 1 2 b Roles and Responsibilities for Requirement 8 Activities Understanding Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel with responsibility for performing activities in Requirement 8 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
 
 #### sub-requirement 8.2
 #### sub-requirement 8.2.1
-
-    TESTING PROCEDURE: 8.2.1.a
-        Reference Name: Requirement 8 2 1 a Unique User ID Assignment Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This involves interviewing responsible personnel to verify that all users are assigned a unique ID for access to system components and cardholder data, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 8.2.1.b (Part 1 - Examine Audit Logs)
-        Reference Name: Requirement 8 2 1 b System Access Unique Identification Audit Logs Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining audit logs to verify that access to system components and cardholder data can be uniquely identified and associated with individuals, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.2.1.b (Part 2 - Examine Other Evidence)
-        Reference Name: Requirement 8 2 1 b Individual User Access Identification Evidence Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining any other evidence to confirm that access to system components and cardholder data can be uniquely identified and associated with individuals, aligning with the review of documents.
+**TESTING PROCEDURE**: 8.2.1.a
+*Reference Name*: Requirement 8 2 1 a Unique User ID Assignment Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This involves interviewing responsible personnel to verify that all users are assigned a unique ID for access to system components and cardholder data, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.2.1.b (Part 1 - Examine Audit Logs)
+*Reference Name*: Requirement 8 2 1 b System Access Unique Identification Audit Logs Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining audit logs to verify that access to system components and cardholder data can be uniquely identified and associated with individuals, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.2.1.b (Part 2 - Examine Other Evidence)
+*Reference Name*: Requirement 8 2 1 b Individual User Access Identification Evidence Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining any other evidence to confirm that access to system components and cardholder data can be uniquely identified and associated with individuals, aligning with the review of documents.
 
 #### sub-requirement 8.2.2
-
-    TESTING PROCEDURE: 8.2.2.a
-        Reference Name: Requirement 8 2 2 a Shared Authentication Credentials Management User Account Lists and Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining user account lists on system components and applicable documentation to verify that shared authentication credentials are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.2.2.b
-        Reference Name: Requirement 8 2 2 b Shared Authentication Credentials Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining authentication policies and procedures to verify processes are defined for shared authentication credentials such that they are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement, aligning with the review of documents.
-
-    TESTING PROCEDURE: 8.2.2.c
-        Reference Name: Requirement 8 2 2 c Shared Authentication Credentials Usage Compliance Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing system administrators to verify that shared authentication credentials are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.2.2.a
+*Reference Name*: Requirement 8 2 2 a Shared Authentication Credentials Management User Account Lists and Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining user account lists on system components and applicable documentation to verify that shared authentication credentials are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.2.2.b
+*Reference Name*: Requirement 8 2 2 b Shared Authentication Credentials Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining authentication policies and procedures to verify processes are defined for shared authentication credentials such that they are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 8.2.2.c
+*Reference Name*: Requirement 8 2 2 c Shared Authentication Credentials Usage Compliance Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing system administrators to verify that shared authentication credentials are only used when necessary, on an exception basis, and are managed in accordance with all elements specified in this requirement, aligning with the collection of interview notes.
 
 #### sub-requirement 8.2.3
-
-    TESTING PROCEDURE: 8.2.3 (Part 1 - Examine Authentication Policies and Procedures)
-        Reference Name: Requirement 8 2 3 Service Provider Unique Authentication for Customer Remote Access Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining authentication policies and procedures to verify that service providers with remote access to customer premises use unique authentication factors for remote access to each customer premises, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.2.3 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 8 2 3 Service Provider Unique Authentication for Customer Remote Access Compliance Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that service providers with remote access to customer premises use unique authentication factors for remote access to each customer premises, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.2.3 (Part 1 - Examine Authentication Policies and Procedures)
+*Reference Name*: Requirement 8 2 3 Service Provider Unique Authentication for Customer Remote Access Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining authentication policies and procedures to verify that service providers with remote access to customer premises use unique authentication factors for remote access to each customer premises, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.2.3 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 8 2 3 Service Provider Unique Authentication for Customer Remote Access Compliance Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that service providers with remote access to customer premises use unique authentication factors for remote access to each customer premises, aligning with the collection of interview notes.
 
 #### sub-requirement 8.2.4
-
-    TESTING PROCEDURE: 8.2.4 (Part 1 - Examine Documented Authorizations)
-        Reference Name: Requirement 8 2 4 Account Lifecycle Management Authorizations Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented authorizations across various phases of the account lifecycle (additions, modifications, and deletions) to verify the activity has been managed in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.2.4 (Part 2 - Examine System Settings)
-        Reference Name: Requirement 8 2 4 Account Lifecycle Management System Settings Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system settings to confirm that account lifecycle management activities (additions, modifications, and deletions) have been managed in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 8.2.4 (Part 1 - Examine Documented Authorizations)
+*Reference Name*: Requirement 8 2 4 Account Lifecycle Management Authorizations Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented authorizations across various phases of the account lifecycle (additions, modifications, and deletions) to verify the activity has been managed in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.2.4 (Part 2 - Examine System Settings)
+*Reference Name*: Requirement 8 2 4 Account Lifecycle Management System Settings Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system settings to confirm that account lifecycle management activities (additions, modifications, and deletions) have been managed in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 #### sub-requirement 8.2.5
-
-    TESTING PROCEDURE: 8.2.5.a
-        Reference Name: Requirement 8 2 5 a Terminated User IDs Deactivation and Removal Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining information sources for terminated users and reviewing current user access lists—for both local and remote access—to verify that terminated user IDs have been deactivated or removed from the access lists, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.2.5.b
-        Reference Name: Requirement 8 2 5 b Physical Authentication Factors Retrieval for Terminated Users Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to verify that all physical authentication factors—such as smart cards, tokens, etc.—have been returned or deactivated for terminated users, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.2.5.a
+*Reference Name*: Requirement 8 2 5 a Terminated User IDs Deactivation and Removal Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining information sources for terminated users and reviewing current user access lists—for both local and remote access—to verify that terminated user IDs have been deactivated or removed from the access lists, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.2.5.b
+*Reference Name*: Requirement 8 2 5 b Physical Authentication Factors Retrieval for Terminated Users Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to verify that all physical authentication factors—such as smart cards, tokens, etc.—have been returned or deactivated for terminated users, aligning with the collection of interview notes.
 
 #### sub-requirement 8.2.6
-
-    TESTING PROCEDURE: 8.2.6 (Part 1 - Examine User Accounts and Last Logon Information)
-        Reference Name: Requirement 8 2 6 Inactive User Accounts Deactivation or Removal within 90 Days Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining user accounts and last logon information to verify that any inactive user accounts are removed or disabled within 90 days of inactivity, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.2.6 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 8 2 6 Inactive User Accounts Management Compliance Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that inactive user accounts are appropriately managed (removed or disabled) within 90 days of inactivity, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.2.6 (Part 1 - Examine User Accounts and Last Logon Information)
+*Reference Name*: Requirement 8 2 6 Inactive User Accounts Deactivation or Removal within 90 Days Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining user accounts and last logon information to verify that any inactive user accounts are removed or disabled within 90 days of inactivity, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.2.6 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 8 2 6 Inactive User Accounts Management Compliance Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that inactive user accounts are appropriately managed (removed or disabled) within 90 days of inactivity, aligning with the collection of interview notes.
 
 #### sub-requirement 8.2.7
-
-    TESTING PROCEDURE: 8.2.7 (Part 1 - Interview Personnel)
-        Reference Name: Requirement 8 2 7 Third Party Remote Access Account Management Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This involves interviewing personnel to verify that accounts used by third parties for remote access are managed according to all elements specified in this requirement, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 8.2.7 (Part 2 - Examine Documentation)
-        Reference Name: Requirement 8 2 7 Third Party Remote Access Account Management Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documentation for managing accounts to confirm that accounts used by third parties for remote access are managed in accordance with all specified elements, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.2.7 (Part 3 - Examine Other Evidence)
-        Reference Name: Requirement 8 2 7 Third Party Remote Access Account Management Compliance Evidence Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining any other evidence related to the management of accounts used by third parties for remote access to ensure compliance with all specified elements, aligning with the review of documents.
+**TESTING PROCEDURE**: 8.2.7 (Part 1 - Interview Personnel)
+*Reference Name*: Requirement 8 2 7 Third Party Remote Access Account Management Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This involves interviewing personnel to verify that accounts used by third parties for remote access are managed according to all elements specified in this requirement, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 8.2.7 (Part 2 - Examine Documentation)
+*Reference Name*: Requirement 8 2 7 Third Party Remote Access Account Management Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documentation for managing accounts to confirm that accounts used by third parties for remote access are managed in accordance with all specified elements, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.2.7 (Part 3 - Examine Other Evidence)
+*Reference Name*: Requirement 8 2 7 Third Party Remote Access Account Management Compliance Evidence Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining any other evidence related to the management of accounts used by third parties for remote access to ensure compliance with all specified elements, aligning with the review of documents.
 
 #### sub-requirement 8.2.8
-
-    TESTING PROCEDURE: 8.2.8
-        Reference Name: Requirement 8 2 8 User Session Idle Timeout System Configuration Settings Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining system configuration settings to verify that system/session idle timeout features for user sessions have been set to 15 minutes or less, fitting under the review of system configuration documents to ensure compliance with the PCI DSS specifications.
+**TESTING PROCEDURE**: 8.2.8
+*Reference Name*: Requirement 8 2 8 User Session Idle Timeout System Configuration Settings Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system configuration settings to verify that system/session idle timeout features for user sessions have been set to 15 minutes or less, fitting under the review of system configuration documents to ensure compliance with the PCI DSS specifications.
 
 ### sub-requirement 8.3
 #### sub-requirement 8.3.1
-
-    TESTING PROCEDURE: 8.3.1.a
-        Reference Name: Requirement 8 3 1 a User Access Authentication Factors Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation describing the authentication factor(s) used to verify that user access to system components is authenticated via at least one authentication factor specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.3.1.b
-        Reference Name: Requirement 8 3 1 b Authentication Factors Functionality Consistency Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing an authentication for each type of authentication factor used with each type of system component to verify that authentication is functioning consistently with documented authentication factor(s), aligning with the observation of authentication processes.
+**TESTING PROCEDURE**: 8.3.1.a
+*Reference Name*: Requirement 8 3 1 a User Access Authentication Factors Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation describing the authentication factor(s) used to verify that user access to system components is authenticated via at least one authentication factor specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.3.1.b
+*Reference Name*: Requirement 8 3 1 b Authentication Factors Functionality Consistency Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing an authentication for each type of authentication factor used with each type of system component to verify that authentication is functioning consistently with documented authentication factor(s), aligning with the observation of authentication processes.
 
 #### sub-requirement 8.3.2
-
-    TESTING PROCEDURE: 8.3.2.a
-        Reference Name: Requirement 8 3 2 a Authentication Factors Cryptography Protection Vendor Documentation and System Settings Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining vendor documentation and system configuration settings to verify that authentication factors are rendered unreadable with strong cryptography during transmission and storage, fitting under the review of documents.
-
-    TESTING PROCEDURE: 8.3.2.b
-        Reference Name: Requirement 8 3 2 b Authentication Factors Unreadable Storage Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining repositories of authentication factors to verify that they are unreadable during storage, aligning with the review of documents.
-
-    TESTING PROCEDURE: 8.3.2.c
-        Reference Name: Requirement 8 3 2 c Authentication Factors Transmission Cryptography Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining data transmissions to verify that authentication factors are unreadable during transmission, fitting under the review of transmission data and security measures.
+**TESTING PROCEDURE**: 8.3.2.a
+*Reference Name*: Requirement 8 3 2 a Authentication Factors Cryptography Protection Vendor Documentation and System Settings Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining vendor documentation and system configuration settings to verify that authentication factors are rendered unreadable with strong cryptography during transmission and storage, fitting under the review of documents.
+**TESTING PROCEDURE**: 8.3.2.b
+*Reference Name*: Requirement 8 3 2 b Authentication Factors Unreadable Storage Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining repositories of authentication factors to verify that they are unreadable during storage, aligning with the review of documents.
+**TESTING PROCEDURE**: 8.3.2.c
+*Reference Name*: Requirement 8 3 2 c Authentication Factors Transmission Cryptography Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining data transmissions to verify that authentication factors are unreadable during transmission, fitting under the review of transmission data and security measures.
 
 #### sub-requirement 8.3.3
-
-    TESTING PROCEDURE: 8.3.3 (Part 1 - Examine Procedures)
-        Reference Name: Requirement 8 3 3 Authentication Factor Modification Procedures Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining procedures for modifying authentication factors to verify that when a user requests a modification of an authentication factor, the user’s identity is verified before the authentication factor is modified, fitting under the review of documented procedures.
-
-    TESTING PROCEDURE: 8.3.3 (Part 2 - Observe Security Personnel)
-        Reference Name: Requirement 8 3 3 User Identity Verification for Authentication Factor Modification Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing security personnel to verify that when a user requests a modification of an authentication factor, the user’s identity is verified before the authentication factor is modified, aligning with the observation of security practices and procedures.
+**TESTING PROCEDURE**: 8.3.3 (Part 1 - Examine Procedures)
+*Reference Name*: Requirement 8 3 3 Authentication Factor Modification Procedures Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining procedures for modifying authentication factors to verify that when a user requests a modification of an authentication factor, the user’s identity is verified before the authentication factor is modified, fitting under the review of documented procedures.
+**TESTING PROCEDURE**: 8.3.3 (Part 2 - Observe Security Personnel)
+*Reference Name*: Requirement 8 3 3 User Identity Verification for Authentication Factor Modification Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing security personnel to verify that when a user requests a modification of an authentication factor, the user’s identity is verified before the authentication factor is modified, aligning with the observation of security practices and procedures.
 
 #### sub-requirement 8.3.4
-
-    TESTING PROCEDURE: 8.3.4.a
-        Reference Name: Requirement 8 3 4 a User Account Lockout Policy Configuration Settings Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining system configuration settings to verify that authentication parameters are set to require that user accounts be locked out after not more than 10 invalid logon attempts, fitting under the review of system configuration settings.
-
-    TESTING PROCEDURE: 8.3.4.b
-        Reference Name: Requirement 8 3 4 b User Account Post-Lockout Duration Configuration Settings Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system configuration settings to verify that password parameters are set to require that once a user account is locked out, it remains locked for a minimum of 30 minutes or until the user’s identity is confirmed, aligning with the review of system configuration settings.
+**TESTING PROCEDURE**: 8.3.4.a
+*Reference Name*: Requirement 8 3 4 a User Account Lockout Policy Configuration Settings Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system configuration settings to verify that authentication parameters are set to require that user accounts be locked out after not more than 10 invalid logon attempts, fitting under the review of system configuration settings.
+**TESTING PROCEDURE**: 8.3.4.b
+*Reference Name*: Requirement 8 3 4 b User Account Post-Lockout Duration Configuration Settings Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system configuration settings to verify that password parameters are set to require that once a user account is locked out, it remains locked for a minimum of 30 minutes or until the user’s identity is confirmed, aligning with the review of system configuration settings.
 
 #### sub-requirement 8.3.5
-
-    TESTING PROCEDURE: 8.3.5 (Part 1 - Examine Procedures)
-        Reference Name: Requirement 8 3 5 Passwords Passphrases Setting and Resetting Procedures Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining procedures for setting and resetting passwords/passphrases (if used as authentication factors to meet Requirement 8.3.1) to verify that passwords/passphrases are set and reset in accordance with all elements specified in this requirement, fitting under the review of documented procedures.
-
-    TESTING PROCEDURE: 8.3.5 (Part 2 - Observe Security Personnel)
-        Reference Name: Requirement 8 3 5 Passwords Passphrases Management Compliance Verification Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing security personnel to verify that passwords/passphrases are set and reset in accordance with all elements specified in this requirement, aligning with the observation of security practices and procedures.
+**TESTING PROCEDURE**: 8.3.5 (Part 1 - Examine Procedures)
+*Reference Name*: Requirement 8 3 5 Passwords Passphrases Setting and Resetting Procedures Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining procedures for setting and resetting passwords/passphrases (if used as authentication factors to meet Requirement 8.3.1) to verify that passwords/passphrases are set and reset in accordance with all elements specified in this requirement, fitting under the review of documented procedures.
+**TESTING PROCEDURE**: 8.3.5 (Part 2 - Observe Security Personnel)
+*Reference Name*: Requirement 8 3 5 Passwords Passphrases Management Compliance Verification Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing security personnel to verify that passwords/passphrases are set and reset in accordance with all elements specified in this requirement, aligning with the observation of security practices and procedures.
 
 #### sub-requirement 8.3.6
-
-    TESTING PROCEDURE: 8.3.6
-        Reference Name: Requirement 8 3 6 Password Passphrase Complexity Configuration Settings Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining system configuration settings to verify that user password/passphrase complexity parameters are set in accordance with all elements specified in this requirement, fitting under the review of system configuration settings.
+**TESTING PROCEDURE**: 8.3.6
+*Reference Name*: Requirement 8 3 6 Password Passphrase Complexity Configuration Settings Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system configuration settings to verify that user password/passphrase complexity parameters are set in accordance with all elements specified in this requirement, fitting under the review of system configuration settings.
 
 #### sub-requirement 8.3.7
-
-    TESTING PROCEDURE: 8.3.7
-        Reference Name: Requirement 8 3 7 Password Passphrase History Configuration Settings Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining system configuration settings to verify that password parameters are set to require that new passwords/passphrases cannot be the same as the four previously used passwords/passphrases, aligning with the review of system configuration settings to ensure adherence to the password history policy.
+**TESTING PROCEDURE**: 8.3.7
+*Reference Name*: Requirement 8 3 7 Password Passphrase History Configuration Settings Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system configuration settings to verify that password parameters are set to require that new passwords/passphrases cannot be the same as the four previously used passwords/passphrases, aligning with the review of system configuration settings to ensure adherence to the password history policy.
 
 #### sub-requirement 8.3.8
-
-    TESTING PROCEDURE: 8.3.8.a
-        Reference Name: Requirement 8 3 8 a Authentication Policies Procedures Distribution Verification Examination and Interview
-        Evidence Category:
+**TESTING PROCEDURE**: 8.3.8.a
+*Reference Name*: Requirement 8 3 8 a Authentication Policies Procedures Distribution Verification Examination and Interview
+*Evidence Category*: 
             Documentation Evidence (for examining procedures)
             Interview Evidence (for interviewing personnel)
-        Reasoning: This involves examining procedures and interviewing personnel to verify that authentication policies and procedures are distributed to all users, fitting under the review of documented procedures and collection of interview notes.
-
-    TESTING PROCEDURE: 8.3.8.b
-        Reference Name: Requirement 8 3 8 b Authentication Policies Procedures Content Compliance Review
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves reviewing authentication policies and procedures that are distributed to users and verifying they include the elements specified in this requirement, aligning with the review of documents.
-
-    TESTING PROCEDURE: 8.3.8.c
-        Reference Name: Requirement 8 3 8 c User Familiarity with Authentication Policies Procedures Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing users to verify that they are familiar with authentication policies and procedures, aligning with the collection of interview notes.
+*Reasoning*: This involves examining procedures and interviewing personnel to verify that authentication policies and procedures are distributed to all users, fitting under the review of documented procedures and collection of interview notes.
+**TESTING PROCEDURE**: 8.3.8.b
+*Reference Name*: Requirement 8 3 8 b Authentication Policies Procedures Content Compliance Review
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves reviewing authentication policies and procedures that are distributed to users and verifying they include the elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 8.3.8.c
+*Reference Name*: Requirement 8 3 8 c User Familiarity with Authentication Policies Procedures Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing users to verify that they are familiar with authentication policies and procedures, aligning with the collection of interview notes.
 
 #### sub-requirement 8.3.9
-
-    TESTING PROCEDURE: 8.3.9
-        Reference Name: Requirement 8 3 9 Single-Factor Password Passphrase Management Configuration Settings Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves inspecting system configuration settings to verify that passwords/passphrases are managed in accordance with one of the elements specified in this requirement, aligning with the review of system configuration settings, particularly for scenarios where passwords/passphrases are the sole authentication factor.
+**TESTING PROCEDURE**: 8.3.9
+*Reference Name*: Requirement 8 3 9 Single-Factor Password Passphrase Management Configuration Settings Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves inspecting system configuration settings to verify that passwords/passphrases are managed in accordance with one of the elements specified in this requirement, aligning with the review of system configuration settings, particularly for scenarios where passwords/passphrases are the sole authentication factor.
 
 #### sub-requirement 8.3.10
-
-    TESTING PROCEDURE: 8.3.10
-        Reference Name: Requirement 8 3 10 Service Provider Customer User Single-Factor Authentication Guidance Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining guidance provided to customer users to verify that the guidance includes all elements specified in this requirement, particularly for scenarios where passwords/passphrases are the sole authentication factor for customer user access to cardholder data. This fits under the review of guidance documents provided by the service provider.
+**TESTING PROCEDURE**: 8.3.10
+*Reference Name*: Requirement 8 3 10 Service Provider Customer User Single-Factor Authentication Guidance Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining guidance provided to customer users to verify that the guidance includes all elements specified in this requirement, particularly for scenarios where passwords/passphrases are the sole authentication factor for customer user access to cardholder data. This fits under the review of guidance documents provided by the service provider.
 
 #### sub-requirement 8.3.10.1
-
-TESTING PROCEDURE: 8.3.10.1
-
-    Reference Name: Requirement 8 3 10 1 Service Provider Customer Access Single-Factor Authentication Configuration Settings Compliance Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves inspecting system configuration settings to verify that passwords/passphrases, when used as the only authentication factor for customer user access, are managed in accordance with one of the elements specified in this requirement. This fits under the review of system conf
+**TESTING PROCEDURE**: 8.3.10.1
+*Reference Name*: Requirement 8 3 10 1 Service Provider Customer Access Single-Factor Authentication Configuration Settings Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves inspecting system configuration settings to verify that passwords/passphrases, when used as the only authentication factor for customer user access, are managed in accordance with one of the elements specified in this requirement. This fits under the review of system conf
 
 #### sub-requirement 8.3.11
-
-    TESTING PROCEDURE: 8.3.11.a
-        Reference Name: Requirement 8 3 11 a Authentication Factors Policy and Procedure Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining authentication policies and procedures to verify that procedures for using authentication factors such as physical security tokens, smart cards, and certificates are defined and include all elements specified in this requirement, fitting under the review of documented policies and procedures.
-
-    TESTING PROCEDURE: 8.3.11.b
-        Reference Name: Requirement 8 3 11 b Individual User Authentication Factor Assignment Verification Interview
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing security personnel to verify authentication factors are assigned to an individual user and not shared among multiple users, aligning with the collection of interview notes for compliance verification.
-
-    TESTING PROCEDURE: 8.3.11.c (Part 1 - System Configuration Settings)
-        Reference Name: Requirement 8 3 11 c Authentication Factor Usage Control System Settings Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system configuration settings to verify that controls are implemented to ensure only the intended user can use that factor to gain access, fitting under the review of system configuration settings.
-
-    TESTING PROCEDURE: 8.3.11.c (Part 2 - Physical Controls)
-        Reference Name: Requirement 8 3 11 c Authentication Factor Physical Usage Control Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This requires observing physical controls, as applicable, to verify that controls are implemented to ensure only the intended user can use that factor to gain access, aligning with the observation of physical controls and their effectiveness.
+**TESTING PROCEDURE**: 8.3.11.a
+*Reference Name*: Requirement 8 3 11 a Authentication Factors Policy and Procedure Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining authentication policies and procedures to verify that procedures for using authentication factors such as physical security tokens, smart cards, and certificates are defined and include all elements specified in this requirement, fitting under the review of documented policies and procedures.
+**TESTING PROCEDURE**: 8.3.11.b
+*Reference Name*: Requirement 8 3 11 b Individual User Authentication Factor Assignment Verification Interview
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing security personnel to verify authentication factors are assigned to an individual user and not shared among multiple users, aligning with the collection of interview notes for compliance verification.
+**TESTING PROCEDURE**: 8.3.11.c (Part 1 - System Configuration Settings)
+*Reference Name*: Requirement 8 3 11 c Authentication Factor Usage Control System Settings Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system configuration settings to verify that controls are implemented to ensure only the intended user can use that factor to gain access, fitting under the review of system configuration settings.
+**TESTING PROCEDURE**: 8.3.11.c (Part 2 - Physical Controls)
+*Reference Name*: Requirement 8 3 11 c Authentication Factor Physical Usage Control Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This requires observing physical controls, as applicable, to verify that controls are implemented to ensure only the intended user can use that factor to gain access, aligning with the observation of physical controls and their effectiveness.
 
 ### sub-requirement 8.4
 #### sub-requirement 8.4.1
-
-    TESTING PROCEDURE: 8.4.1.a
-        Reference Name: Requirement 8 4 1 a MFA for Administrative Access to CDE Network System Configuration Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining network and/or system configurations to verify that Multi-Factor Authentication (MFA) is required for all non-console access into the Cardholder Data Environment (CDE) for personnel with administrative access, fitting under the review of network and system configuration settings.
-
-    TESTING PROCEDURE: 8.4.1.b
-        Reference Name: Requirement 8 4 1 b MFA Implementation for CDE Administrative Login Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing administrator personnel logging into the CDE and verifying that MFA is required, aligning with the observation of authentication processes and practices in action.
+**TESTING PROCEDURE**: 8.4.1.a
+*Reference Name*: Requirement 8 4 1 a MFA for Administrative Access to CDE Network System Configuration Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining network and/or system configurations to verify that Multi-Factor Authentication (MFA) is required for all non-console access into the Cardholder Data Environment (CDE) for personnel with administrative access, fitting under the review of network and system configuration settings.
+**TESTING PROCEDURE**: 8.4.1.b
+*Reference Name*: Requirement 8 4 1 b MFA Implementation for CDE Administrative Login Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing administrator personnel logging into the CDE and verifying that MFA is required, aligning with the observation of authentication processes and practices in action.
 
 #### sub-requirement 8.4.2
-
-    TESTING PROCEDURE: 8.4.2.a
-        Reference Name: Requirement 8 4 2 a MFA Implementation for All CDE Access Network System Configuration Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining network and/or system configurations to verify that Multi-Factor Authentication (MFA) is implemented for all access into the Cardholder Data Environment (CDE), fitting under the review of network and system configuration settings.
-
-    TESTING PROCEDURE: 8.4.2.b (Part 1 - Observe Personnel Logging In)
-        Reference Name: Requirement 8 4 2 b MFA Requirement for CDE Login Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing personnel logging in to the CDE and verifying that MFA is required, aligning with the observation of authentication processes in practice.
-
-    TESTING PROCEDURE: 8.4.2.b (Part 2 - Examine Additional Evidence)
-        Reference Name: Requirement 8 4 2 b MFA Requirement for CDE Access Compliance Additional Evidence Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining any additional evidence to verify that MFA is required for accessing the CDE, fitting under the review of supplementary documentation or evidence supporting the implementation of MFA.
+**TESTING PROCEDURE**: 8.4.2.a
+*Reference Name*: Requirement 8 4 2 a MFA Implementation for All CDE Access Network System Configuration Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining network and/or system configurations to verify that Multi-Factor Authentication (MFA) is implemented for all access into the Cardholder Data Environment (CDE), fitting under the review of network and system configuration settings.
+**TESTING PROCEDURE**: 8.4.2.b (Part 1 - Observe Personnel Logging In)
+*Reference Name*: Requirement 8 4 2 b MFA Requirement for CDE Login Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing personnel logging in to the CDE and verifying that MFA is required, aligning with the observation of authentication processes in practice.
+**TESTING PROCEDURE**: 8.4.2.b (Part 2 - Examine Additional Evidence)
+*Reference Name*: Requirement 8 4 2 b MFA Requirement for CDE Access Compliance Additional Evidence Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining any additional evidence to verify that MFA is required for accessing the CDE, fitting under the review of supplementary documentation or evidence supporting the implementation of MFA.
 
 #### sub-requirement 8.4.3
-
-    TESTING PROCEDURE: 8.4.3.a
-        Reference Name: Requirement 8 4 3 a MFA Requirement for Remote Access Server System Configuration Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining network and/or system configurations for remote access servers and systems to verify that Multi-Factor Authentication (MFA) is required in accordance with all elements specified in this requirement, fitting under the review of network and system configuration settings.
-
-    TESTING PROCEDURE: 8.4.3.b
-        Reference Name: Requirement 8 4 3 b MFA Implementation for Remote Network Access Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing personnel (for example, users and administrators) connecting remotely to the network and verifying that multi-factor authentication is required, aligning with the observation of authentication processes in action during remote network access.
+**TESTING PROCEDURE**: 8.4.3.a
+*Reference Name*: Requirement 8 4 3 a MFA Requirement for Remote Access Server System Configuration Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining network and/or system configurations for remote access servers and systems to verify that Multi-Factor Authentication (MFA) is required in accordance with all elements specified in this requirement, fitting under the review of network and system configuration settings.
+**TESTING PROCEDURE**: 8.4.3.b
+*Reference Name*: Requirement 8 4 3 b MFA Implementation for Remote Network Access Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing personnel (for example, users and administrators) connecting remotely to the network and verifying that multi-factor authentication is required, aligning with the observation of authentication processes in action during remote network access.
 
 ### sub-requirement 8.5
 #### sub-requirement 8.5.1
-
-    TESTING PROCEDURE: 8.5.1.a
-        Reference Name: Requirement 8 5 1 a MFA System Replay Attack Resistance Vendor Documentation Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining vendor system documentation to verify that the Multi-Factor Authentication (MFA) system is not susceptible to replay attacks, fitting under the review of vendor system documentation.
-
-    TESTING PROCEDURE: 8.5.1.b
-        Reference Name: Requirement 8 5 1 b MFA Implementation Configuration Compliance Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system configurations for the MFA implementation to verify it is configured in accordance with all elements specified in this requirement, aligning with the review of system configuration settings.
-
-    TESTING PROCEDURE: 8.5.1.c
-        Reference Name: Requirement 8 5 1 c MFA Bypass Request Documentation and Authorization Verification Interview and Observation
-        Evidence Category:
+**TESTING PROCEDURE**: 8.5.1.a
+*Reference Name*: Requirement 8 5 1 a MFA System Replay Attack Resistance Vendor Documentation Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining vendor system documentation to verify that the Multi-Factor Authentication (MFA) system is not susceptible to replay attacks, fitting under the review of vendor system documentation.
+**TESTING PROCEDURE**: 8.5.1.b
+*Reference Name*: Requirement 8 5 1 b MFA Implementation Configuration Compliance Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system configurations for the MFA implementation to verify it is configured in accordance with all elements specified in this requirement, aligning with the review of system configuration settings.
+**TESTING PROCEDURE**: 8.5.1.c
+*Reference Name*: Requirement 8 5 1 c MFA Bypass Request Documentation and Authorization Verification Interview and Observation
+*Evidence Category*: 
             Interview Evidence (for interviewing personnel)
             Observation Evidence (for observing processes)
-        Reasoning: This requires interviewing responsible personnel and observing processes to verify that any requests to bypass MFA are specifically documented and authorized by management on an exception basis, for a limited time period.
-
-    TESTING PROCEDURE: 8.5.1.d
-        Reference Name: Requirement 8 5 1 d MFA Success Prior to CDE Access Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This involves observing personnel logging into system components in the CDE to verify that access is granted only after all authentication factors are successful, fitting under the observation of authentication processes.
-
-    TESTING PROCEDURE: 8.5.1.e
-        Reference Name: Requirement 8 5 1 e MFA Success for Remote Access from External Network Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part requires observing personnel connecting remotely from outside the entity’s network to verify that access is granted only after all authentication factors are successful, aligning with the observation of remote access authentication.
+*Reasoning*: This requires interviewing responsible personnel and observing processes to verify that any requests to bypass MFA are specifically documented and authorized by management on an exception basis, for a limited time period.
+**TESTING PROCEDURE**: 8.5.1.d
+*Reference Name*: Requirement 8 5 1 d MFA Success Prior to CDE Access Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This involves observing personnel logging into system components in the CDE to verify that access is granted only after all authentication factors are successful, fitting under the observation of authentication processes.
+**TESTING PROCEDURE**: 8.5.1.e
+*Reference Name*: Requirement 8 5 1 e MFA Success for Remote Access from External Network Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part requires observing personnel connecting remotely from outside the entity’s network to verify that access is granted only after all authentication factors are successful, aligning with the observation of remote access authentication.
 
 ### sub-requirement 8.6
 #### sub-requirement 8.6.1
-
-    TESTING PROCEDURE: 8.6.1
-        Reference Name: Requirement 8 6 1 Application System Account Interactive Use Management Compliance Examination and Interview
-        Evidence Category:
+**TESTING PROCEDURE**: 8.6.1
+*Reference Name*: Requirement 8 6 1 Application System Account Interactive Use Management Compliance Examination and Interview
+*Evidence Category*: 
             Documentation Evidence (for examining application and system accounts)
             Interview Evidence (for interviewing administrative personnel)
-        Reasoning: This involves examining application and system accounts that can be used interactively and interviewing administrative personnel to verify that these accounts are managed in accordance with all elements specified in this requirement. The examination part aligns with the review of application and system account configurations, while the interview part aligns with the collection of insights from personnel responsible for managing these accounts.
+*Reasoning*: This involves examining application and system accounts that can be used interactively and interviewing administrative personnel to verify that these accounts are managed in accordance with all elements specified in this requirement. The examination part aligns with the review of application and system account configurations, while the interview part aligns with the collection of insights from personnel responsible for managing these accounts.
 
 #### sub-requirement 8.6.2
-
-    TESTING PROCEDURE: 8.6.2.a
-        Reference Name: Requirement 8 6 2 a Password Passphrase Hardcoding Prevention in Interactive Login Accounts Procedures Examination and Interview
-        Evidence Category:
+**TESTING PROCEDURE**: 8.6.2.a
+*Reference Name*: Requirement 8 6 2 a Password Passphrase Hardcoding Prevention in Interactive Login Accounts Procedures Examination and Interview
+*Evidence Category*: 
             Interview Evidence (for interviewing personnel)
             Documentation Evidence (for examining system development procedures)
-        Reasoning: This involves interviewing personnel and examining system development procedures to verify that processes are defined for application and system accounts that can be used for interactive login, specifying that passwords/passphrases are not hard coded in scripts, configuration/property files, or bespoke and custom source code. The interview part aligns with the collection of insights from personnel responsible for managing these procedures, while the examination part aligns with the review of documented procedures.
-
-    TESTING PROCEDURE: 8.6.2.b
-        Reference Name: Requirement 8 6 2 b Interactive Login Accounts Password Passphrase Hardcoding Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining scripts, configuration/property files, and bespoke and custom source code for application and system accounts that can be used for interactive login, to verify that passwords/passphrases for those accounts are not present. This aligns with the review of scripts, configuration files, and source code to ensure compliance with security practices.
+*Reasoning*: This involves interviewing personnel and examining system development procedures to verify that processes are defined for application and system accounts that can be used for interactive login, specifying that passwords/passphrases are not hard coded in scripts, configuration/property files, or bespoke and custom source code. The interview part aligns with the collection of insights from personnel responsible for managing these procedures, while the examination part aligns with the review of documented procedures.
+**TESTING PROCEDURE**: 8.6.2.b
+*Reference Name*: Requirement 8 6 2 b Interactive Login Accounts Password Passphrase Hardcoding Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining scripts, configuration/property files, and bespoke and custom source code for application and system accounts that can be used for interactive login, to verify that passwords/passphrases for those accounts are not present. This aligns with the review of scripts, configuration files, and source code to ensure compliance with security practices.
 
 #### sub-requirement 8.6.3
-
-    TESTING PROCEDURE: 8.6.3.a
-        Reference Name: Requirement 8 6 3 a Application System Account Password Passphrase Misuse Protection Policy Procedure Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining policies and procedures to verify that procedures are defined to protect passwords/passphrases for application or system accounts against misuse, fitting under the review of documented policies and procedures.
-
-    TESTING PROCEDURE: 8.6.3.b
-        Reference Name: Requirement 8 6 3 b Password Passphrase Change Frequency Complexity Risk Analysis Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining the entity’s targeted risk analysis for the change frequency and complexity for passwords/passphrases used for interactive login to application and system accounts, ensuring the risk analysis is performed in accordance with Requirement 12.3.1 and addresses the specified elements.
-
-    TESTING PROCEDURE: 8.6.3.c
-        Reference Name: Requirement 8 6 3 c Interactive Login Account Password Passphrase Protection Compliance Verification Interview and System Settings Examination
-        Evidence Category:
+**TESTING PROCEDURE**: 8.6.3.a
+*Reference Name*: Requirement 8 6 3 a Application System Account Password Passphrase Misuse Protection Policy Procedure Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining policies and procedures to verify that procedures are defined to protect passwords/passphrases for application or system accounts against misuse, fitting under the review of documented policies and procedures.
+**TESTING PROCEDURE**: 8.6.3.b
+*Reference Name*: Requirement 8 6 3 b Password Passphrase Change Frequency Complexity Risk Analysis Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining the entity’s targeted risk analysis for the change frequency and complexity for passwords/passphrases used for interactive login to application and system accounts, ensuring the risk analysis is performed in accordance with Requirement 12.3.1 and addresses the specified elements.
+**TESTING PROCEDURE**: 8.6.3.c
+*Reference Name*: Requirement 8 6 3 c Interactive Login Account Password Passphrase Protection Compliance Verification Interview and System Settings Examination
+*Evidence Category*: 
             Interview Evidence (for interviewing responsible personnel)
             Documentation Evidence (for examining system configuration settings)
-        Reasoning: This involves interviewing responsible personnel and examining system configuration settings to verify that passwords/passphrases for any application and system accounts that can be used for interactive login are protected against misuse in accordance with all elements specified in this requirement.
+*Reasoning*: This involves interviewing responsible personnel and examining system configuration settings to verify that passwords/passphrases for any application and system accounts that can be used for interactive login are protected against misuse in accordance with all elements specified in this requirement.
 
 ---
 
