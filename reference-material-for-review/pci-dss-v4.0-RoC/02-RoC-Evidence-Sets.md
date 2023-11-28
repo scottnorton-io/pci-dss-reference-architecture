@@ -4,24 +4,24 @@
 ### sub-requirement 1.1
 #### sub-requirement 1.1.1
 
- **TESTING PROCEDURE**: 1.1.1 (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 1.1.1 (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 1 1 1 Security Policies and Operational Procedures Management Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 1 are managed in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.1.1 (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 1.1.1 (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 1 1 1 Security Policies and Operational Procedures Management Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 1 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 1.1.2
 
- **TESTING PROCEDURE**: 1.1.2.a
+**TESTING PROCEDURE**: 1.1.2.a
 *Reference Name*: Requirement 1 1 2 a Roles and Responsibilities for Requirement 1 Activities Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 1 are documented and assigned, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.1.2.b
+**TESTING PROCEDURE**: 1.1.2.b
 *Reference Name*: Requirement 1 1 2 b Roles and Responsibilities for Requirement 1 Activities Understanding Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel responsible for performing activities in Requirement 1 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
@@ -29,125 +29,124 @@
 ### sub-requirement 1.2
 #### sub-requirement 1.2.1
 
- **TESTING PROCEDURE**: 1.2.1.a
+**TESTING PROCEDURE**: 1.2.1.a
 *Reference Name*: Requirement 1 2 1 a NSC Rulesets Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining the configuration standards for Network Security Controls (NSC) rulesets to verify that the standards are in accordance with all specified elements in the requirement, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.1.b
+**TESTING PROCEDURE**: 1.2.1.b
 *Reference Name*: Requirement 1 2 1 b NSC Rulesets Configuration Settings Implementation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the configuration settings for NSC rulesets to verify that the rulesets are implemented according to the configuration standards, aligning with the review of documents.
 
 #### sub-requirement 1.2.2
 
- **TESTING PROCEDURE**: 1.2.2.a
+**TESTING PROCEDURE**: 1.2.2.a
 *Reference Name*: Requirement 1 2 2 a Network Connections and NSC Configuration Change Control Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documented procedures to verify that changes to network connections and configurations of Network Security Controls (NSCs) are included in the formal change control process in accordance with Requirement 6.5.1, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.2.b (Part 1 - Examine Network Configuration Settings)
+**TESTING PROCEDURE**: 1.2.2.b (Part 1 - Examine Network Configuration Settings)
 *Reference Name*: Requirement 1 2 2 b Network Connections Change Control Configuration Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining network configuration settings to identify changes made to network connections, ensuring they align with the change control requirements of Requirement 6.5.1, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.2.b (Part 2 - Interview Personnel and Examine Change Control Records)
+**TESTING PROCEDURE**: 1.2.2.b (Part 2 - Interview Personnel and Examine Change Control Records)
 *Reference Name*: Requirement 1 2 2 b Network Connections Change Control Approval and Management Verification Interviews and Records Examination
 *Evidence Category*: Documentation Evidence and Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel and examining change control records to verify that identified changes to network connections were approved and managed in accordance with Requirement 6.5.1, aligning with the collection of interview notes and the review of documents.
 
- **TESTING PROCEDURE**: 1.2.2.c (Part 1 - Examine Network Configuration Settings)
+**TESTING PROCEDURE**: 1.2.2.c (Part 1 - Examine Network Configuration Settings)
 *Reference Name*: Requirement 1 2 2 c NSC Configuration Change Control Configuration Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining network configuration settings to identify changes made to configurations of NSCs, ensuring they adhere to the change control process as per Requirement 6.5.1, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.2.c (Part 2 - Interview Personnel and Examine Change Control Records)
+**TESTING PROCEDURE**: 1.2.2.c (Part 2 - Interview Personnel and Examine Change Control Records)
 *Reference Name*: Requirement 1 2 2 c NSC Configuration Change Control Approval and Management Verification Interviews and Records Examination
 *Evidence Category*: Documentation Evidence and Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel and examining change control records to verify that identified changes to NSC configurations were approved and managed in accordance with Requirement 6.5.1, aligning with the collection of interview notes and the review of documents.
 
 #### sub-requirement 1.2.3
 
- **TESTING PROCEDURE**: 1.2.3.a
+**TESTING PROCEDURE**: 1.2.3.a
 *Reference Name*: Requirement 1 2 3 a Network Diagrams and Configurations Accuracy Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining network diagrams and network configurations to verify that an accurate network diagram exists in accordance with all elements specified in the requirement, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.3.b (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 1.2.3.b (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 1 2 3 b Network Diagrams Accuracy and Update Process Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation to verify that the network diagram is accurate and updated when there are changes to the environment, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 1.2.3.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 1.2.3.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 1 2 3 b Network Diagrams Accuracy and Update Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel to confirm that the network diagrams are accurate and maintained up-to-date with environmental changes, which aligns with the collection of interview notes.
 
 #### sub-requirement 1.2.4
 
- **TESTING PROCEDURE**: 1.2.4.a
+**TESTING PROCEDURE**: 1.2.4.a
 *Reference Name*: Requirement 1 2 4 a Account Data Flow Diagrams Completeness Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining data-flow diagrams and interviewing personnel to verify that the diagrams accurately show all account data flows in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.4.b (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 1.2.4.b (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 1 2 4 b Data Flow Diagrams Accuracy and Update Process Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation to verify that the data-flow diagrams are accurate and updated when there are changes to the environment, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 1.2.4.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 1.2.4.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 1 2 4 b Data Flow Diagrams Accuracy and Update Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel to confirm that the data-flow diagrams are accurate and maintained up-to-date with environmental changes, which aligns with the collection of interview notes.
 #### sub-requirement 1.2.5
 
- **TESTING PROCEDURE**: 1.2.5.a
+**TESTING PROCEDURE**: 1.2.5.a
 *Reference Name*: Requirement 1 2 5 a Approved Services Protocols and Ports List Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that a list exists of all allowed services, protocols, and ports, including business justification and approval for each, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.5.b
+**TESTING PROCEDURE**: 1.2.5.b
 *Reference Name*: Requirement 1 2 5 b NSC Approved Services Protocols and Ports Usage Configuration Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configuration settings for Network Security Controls (NSCs) to verify that only approved services, protocols, and ports are in use, aligning with the review of documents.
 
 #### sub-requirement 1.2.6
 
- **TESTING PROCEDURE**: 1.2.6.a
+**TESTING PROCEDURE**: 1.2.6.a
 *Reference Name*: Requirement 1 2 6 a Insecure Services Protocols and Ports Mitigation Measures Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation that identifies all insecure services, protocols, and ports in use, verifying that security features are defined to mitigate the risk, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.6.b
+**TESTING PROCEDURE**: 1.2.6.b
 *Reference Name*: Requirement 1 2 6 b NSC Insecure Services Protocols and Ports Security Features Implementation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configuration settings for Network Security Controls (NSCs) to verify that the defined security features are implemented for each identified insecure service, protocol, and port, aligning with the review of documents.
 
 #### sub-requirement 1.2.7
 
- **TESTING PROCEDURE**: 1.2.7.a
+**TESTING PROCEDURE**: 1.2.7.a
 *Reference Name*: Requirement 1 2 7 a NSC Configuration Review Procedures Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify procedures are defined for reviewing configurations of Network Security Controls (NSCs) at least once every six months, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.2.7.b (Part 1 - Examine Documentation of Reviews)
+**TESTING PROCEDURE**: 1.2.7.b (Part 1 - Examine Documentation of Reviews)
 *Reference Name*: Requirement 1 2 7 b NSC Configuration Review Frequency Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation of reviews of configurations for NSCs to verify that reviews occur at least once every six months, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 1.2.7.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 1.2.7.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 1 2 7 b NSC Configuration Review Frequency Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel to confirm that reviews of NSC configurations are conducted biannually, which aligns with the collection of interview notes.
 
- **TESTING PROCEDURE**: 1.2.7.c
+**TESTING PROCEDURE**: 1.2.7.c
 *Reference Name*: Requirement 1 2 7 c NSC Unsupported Configuration Removal or Update Verification
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configurations for NSCs to verify that configurations identified as no longer being supported by a business justification are removed or updated, fitting under the review of documents.
 
 #### sub-requirement 1.2.8
-
-TESTING PROCEDURE: 1.2.8
+**TESTING PROCEDURE**: 1.2.8
 
 *Reference Name*: Requirement 1 2 8 NSC Configuration Files Compliance Examination
 *Evidence Category*: Documentation Evidence
@@ -156,36 +155,36 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 1.3
 #### sub-requirement 1.3.1
 
- **TESTING PROCEDURE**: 1.3.1.a
+**TESTING PROCEDURE**: 1.3.1.a
 *Reference Name*: Requirement 1 3 1 a NSC Inbound Traffic Restriction to CDE Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration standards for Network Security Controls (NSCs) to verify that they define the restriction of inbound traffic to the Cardholder Data Environment (CDE) in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.3.1.b
+**TESTING PROCEDURE**: 1.3.1.b
 *Reference Name*: Requirement 1 3 1 b NSC Inbound Traffic to CDE Restriction Configuration Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configurations of NSCs to verify that inbound traffic to the CDE is restricted in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 #### sub-requirement 1.3.2
 
- **TESTING PROCEDURE**: 1.3.2.a
+**TESTING PROCEDURE**: 1.3.2.a
 *Reference Name*: Requirement 1 3 2 a NSC Outbound Traffic Restriction from CDE Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration standards for Network Security Controls (NSCs) to verify that they define the restriction of outbound traffic from the Cardholder Data Environment (CDE) in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.3.2.b
+**TESTING PROCEDURE**: 1.3.2.b
 *Reference Name*: Requirement 1 3 2 b NSC Outbound Traffic from CDE Restriction Configuration Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configurations of NSCs to verify that outbound traffic from the CDE is restricted in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 #### sub-requirement 1.3.3
 
- **TESTING PROCEDURE**: 1.3.3 (Part 1 - Examine Configuration Settings)
+**TESTING PROCEDURE**: 1.3.3 (Part 1 - Examine Configuration Settings)
 *Reference Name*: Requirement 1 3 3 NSC Implementation for Wireless Networks to CDE Configuration Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration settings to verify that Network Security Controls (NSCs) are implemented between all wireless networks and the Cardholder Data Environment (CDE) in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.3.3 (Part 2 - Examine Network Diagrams)
+**TESTING PROCEDURE**: 1.3.3 (Part 2 - Examine Network Diagrams)
 *Reference Name*: Requirement 1 3 3 NSC Implementation in Wireless Networks to CDE Network Diagrams Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining network diagrams to confirm the implementation of NSCs between wireless networks and the CDE, ensuring compliance with the specified elements, which aligns with the review of documents.
@@ -193,65 +192,65 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 1.4
 #### sub-requirement 1.4.1
 
- **TESTING PROCEDURE**: 1.4.1.a
+**TESTING PROCEDURE**: 1.4.1.a
 *Reference Name*: Requirement 1 4 1 a NSCs Between Trusted and Untrusted Networks Configuration Standards and Diagrams Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration standards and network diagrams to verify that Network Security Controls (NSCs) are defined between trusted and untrusted networks, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.4.1.b
+**TESTING PROCEDURE**: 1.4.1.b
 *Reference Name*: Requirement 1 4 1 b NSCs Implementation Between Trusted and Untrusted Networks Configuration Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining network configurations to verify that NSCs are in place between trusted and untrusted networks, in accordance with the documented configuration standards and network diagrams, aligning with the review of documents.
 
 #### sub-requirement 1.4.2
 
- **TESTING PROCEDURE**: 1.4.2 (Part 1 - Examine Vendor Documentation)
+**TESTING PROCEDURE**: 1.4.2 (Part 1 - Examine Vendor Documentation)
 *Reference Name*: Requirement 1 4 2 Inbound Traffic Restriction from Untrusted to Trusted Networks Vendor Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining vendor documentation to verify that inbound traffic from untrusted networks to trusted networks is restricted in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.4.2 (Part 2 - Examine Configurations)
+**TESTING PROCEDURE**: 1.4.2 (Part 2 - Examine Configurations)
 *Reference Name*: Requirement 1 4 2 NSC Inbound Traffic Restriction Configuration Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the configurations of Network Security Controls (NSCs) to verify that inbound traffic restriction from untrusted to trusted networks complies with all elements specified in this requirement, aligning with the review of documents.
 
 #### sub-requirement 1.4.3
 
- **TESTING PROCEDURE**: 1.4.3 (Part 1 - Examine Vendor Documentation)
+**TESTING PROCEDURE**: 1.4.3 (Part 1 - Examine Vendor Documentation)
 *Reference Name*: Requirement 1 4 3 NSC Anti-Spoofing Measures Vendor Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining vendor documentation to verify that anti-spoofing measures are implemented to detect and block forged source IP addresses from entering the trusted network, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.4.3 (Part 2 - Examine Configurations)
+**TESTING PROCEDURE**: 1.4.3 (Part 2 - Examine Configurations)
 *Reference Name*: Requirement 1 4 3 NSC Anti-Spoofing Configuration Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the configurations of Network Security Controls (NSCs) to verify that anti-spoofing measures are effectively implemented, aligning with the review of documents.
 
 #### sub-requirement 1.4.4
 
- **TESTING PROCEDURE**: 1.4.4.a
+**TESTING PROCEDURE**: 1.4.4.a
 *Reference Name*: Requirement 1 4 4 a Non-Direct Accessibility of Cardholder Data from Untrusted Networks Data-Flow and Network Diagrams Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining the data-flow diagram and network diagram to verify that it is documented that system components storing cardholder data are not directly accessible from untrusted networks, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.4.4.b
+**TESTING PROCEDURE**: 1.4.4.b
 *Reference Name*: Requirement 1 4 4 b NSC Configuration for Non-Direct Accessibility of Cardholder Data from Untrusted Networks Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configurations of Network Security Controls (NSCs) to verify that controls are implemented such that system components storing cardholder data are not directly accessible from untrusted networks, aligning with the review of documents.
 
 #### sub-requirement 1.4.5
 
- **TESTING PROCEDURE**: 1.4.5.a
+**TESTING PROCEDURE**: 1.4.5.a
 *Reference Name*: Requirement 1 4 5 a NSC Configurations for Internal IP and Routing Information Disclosure Control Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configurations of Network Security Controls (NSCs) to verify that the disclosure of internal IP addresses and routing information is limited to only authorized parties, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.4.5.b (Part 1 - Interview Personnel)
+**TESTING PROCEDURE**: 1.4.5.b (Part 1 - Interview Personnel)
 *Reference Name*: Requirement 1 4 5 b Internal IP and Routing Information Disclosure Control Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to verify that controls are implemented such that any disclosure of internal IP addresses and routing information is limited to only authorized parties, aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 1.4.5.b (Part 2 - Examine Documentation)
+**TESTING PROCEDURE**: 1.4.5.b (Part 2 - Examine Documentation)
 *Reference Name*: Requirement 1 4 5 b Documentation of Internal IP and Routing Information Disclosure Control Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation to confirm that measures are in place to restrict the disclosure of internal IP addresses and routing information to authorized parties only, aligning with the review of documents.
@@ -259,22 +258,22 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 1.5
 #### sub-requirement 1.5.1
 
- **TESTING PROCEDURE**: 1.5.1.a (Part 1 - Examine Policies)
+**TESTING PROCEDURE**: 1.5.1.a (Part 1 - Examine Policies)
 *Reference Name*: Requirement 1 5 1 a Security Controls for Dual-Connected Devices Policies Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies related to security controls for computing devices that connect to both untrusted networks and the Cardholder Data Environment (CDE) to verify compliance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.5.1.a (Part 2 - Examine Configuration Standards)
+**TESTING PROCEDURE**: 1.5.1.a (Part 2 - Examine Configuration Standards)
 *Reference Name*: Requirement 1 5 1 a Security Controls for Dual-Connected Devices Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configuration standards for such computing devices, ensuring they align with the specified requirements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 1.5.1.a (Part 3 - Interview Personnel)
+**TESTING PROCEDURE**: 1.5.1.a (Part 3 - Interview Personnel)
 *Reference Name*: Requirement 1 5 1 a Dual-Connected Devices Security Controls Implementation Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to verify that security controls for devices connecting to both untrusted networks and the CDE are implemented as per the policies and standards, aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 1.5.1.b
+**TESTING PROCEDURE**: 1.5.1.b
 *Reference Name*: Requirement 1 5 1 b Dual-Connected Devices Configuration Settings Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration settings on computing devices that connect to both untrusted networks and the CDE to verify settings are implemented in accordance with all specified elements, aligning with the review of documents.
@@ -285,24 +284,24 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 2.1
 #### sub-requirement 2.1.1
 
- **TESTING PROCEDURE**: 2.1.1 (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 2.1.1 (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 2 1 1 Security Policies and Operational Procedures for Requirement 2 Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 2 are managed in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.1.1 (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 2.1.1 (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 2 1 1 Security Policies and Operational Procedures for Requirement 2 Management Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 2 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 2.1.2
 
- **TESTING PROCEDURE**: 2.1.2.a
+**TESTING PROCEDURE**: 2.1.2.a
 *Reference Name*: Requirement 2 1 2 a Roles and Responsibilities for Requirement 2 Activities Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.1.2.b
+**TESTING PROCEDURE**: 2.1.2.b
 *Reference Name*: Requirement 2 1 2 b Roles and Responsibilities for Requirement 2 Activities Understanding Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel with responsibility for performing activities in Requirement 2 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
@@ -310,71 +309,71 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 2.2
 #### sub-requirement 2.2.1
 
- **TESTING PROCEDURE**: 2.2.1.a
+**TESTING PROCEDURE**: 2.2.1.a
 *Reference Name*: Requirement 2 2 1 a System Configuration Standards Comprehensive Process Definition Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining system configuration standards to verify they define processes that include all elements specified in this requirement, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.1.b (Part 1 - Examine Policies and Procedures)
+**TESTING PROCEDURE**: 2.2.1.b (Part 1 - Examine Policies and Procedures)
 *Reference Name*: Requirement 2 2 1 b System Configuration Standards Vulnerability Issue Update Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining policies and procedures to verify that system configuration standards are updated as new vulnerability issues are identified, as defined in Requirement 6.3.1, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 2.2.1.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 2.2.1.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 2 2 1 b System Configuration Standards Update Process Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm that system configuration standards are regularly updated in response to new vulnerability issues, aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 2.2.1.c (Part 1 - Examine Configuration Settings)
+**TESTING PROCEDURE**: 2.2.1.c (Part 1 - Examine Configuration Settings)
 *Reference Name*: Requirement 2 2 1 c System Configuration Standards Application in New Systems Configuration Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration settings to verify that system configuration standards are applied when new systems are configured and verified as being in place before or immediately after a system component is connected to a production environment, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.1.c (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 2.2.1.c (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 2 2 1 c New Systems Configuration Standards Application Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm that system configuration standards are appropriately applied in the configuration of new systems, which aligns with the collection of interview notes.
 
 #### sub-requirement 2.2.2
 
- **TESTING PROCEDURE**: 2.2.2.a
+**TESTING PROCEDURE**: 2.2.2.a
 *Reference Name*: Requirement 2 2 2 a Vendor Default Accounts Management in System Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining system configuration standards to verify they include managing vendor default accounts in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.2.b (Part 1 - Examine Vendor Documentation)
+**TESTING PROCEDURE**: 2.2.2.b (Part 1 - Examine Vendor Documentation)
 *Reference Name*: Requirement 2 2 2 b Vendor Default Accounts Implementation Vendor Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining vendor documentation to verify accounts are implemented in accordance with all specified elements, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 2.2.2.b (Part 2 - Observe System Administrator Login)
+**TESTING PROCEDURE**: 2.2.2.b (Part 2 - Observe System Administrator Login)
 *Reference Name*: Requirement 2 2 2 b Vendor Default Accounts Usage Observation
 *Evidence Category*: Observation Evidence
 *Reasoning*: This requires observing a system administrator logging on using vendor default accounts to confirm their implementation is in accordance with the requirement, aligning with the observation of processes.
 
- **TESTING PROCEDURE**: 2.2.2.c (Part 1 - Examine Configuration Files)
+**TESTING PROCEDURE**: 2.2.2.c (Part 1 - Examine Configuration Files)
 *Reference Name*: Requirement 2 2 2 c Unused Vendor Default Accounts Removal or Disabling Configuration Files Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration files to verify that all vendor default accounts that will not be used are removed or disabled, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.2.c (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 2.2.2.c (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 2 2 2 c Unused Vendor Default Accounts Management Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm that unused vendor default accounts are appropriately managed, which aligns with the collection of interview notes.
 
 #### sub-requirement 2.2.3
 
- **TESTING PROCEDURE**: 2.2.3.a
+**TESTING PROCEDURE**: 2.2.3.a
 *Reference Name*: Requirement 2 2 3 a Management of Primary Functions with Different Security Levels in System Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining system configuration standards to verify they include managing primary functions requiring different security levels as specified in this requirement, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.3.b
+**TESTING PROCEDURE**: 2.2.3.b
 *Reference Name*: Requirement 2 2 3 b Primary Functions with Different Security Levels Management in System Configurations Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining system configurations to verify that primary functions requiring different security levels are managed as specified in the requirement, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 2.2.3.c (Virtualization Technologies)
+**TESTING PROCEDURE**: 2.2.3.c (Virtualization Technologies)
 *Reference Name*: Requirement 2 2 3 c Virtualization Technology System Functions Security Level Management Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining system configurations, particularly where virtualization technologies are used, to verify that system functions requiring different security levels are managed in one of the specified ways: ensuring non-coexistence on the same system component, isolation on the same component, or securing to the level of the function with the highest security need, fitting under the review of documents.
@@ -382,72 +381,72 @@ TESTING PROCEDURE: 1.2.8
 
 #### sub-requirement 2.2.4
 
- **TESTING PROCEDURE**: 2.2.4.a
+**TESTING PROCEDURE**: 2.2.4.a
 *Reference Name*: Requirement 2 2 4 a System Services Protocols and Daemons Necessity Identification in Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining system configuration standards to verify that necessary system services, protocols, and daemons are identified and documented, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.4.b
+**TESTING PROCEDURE**: 2.2.4.b
 *Reference Name*: Requirement 2 2 4 b System Unnecessary Functionality Removal and Required Functionality Verification Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining system configurations to verify that all unnecessary functionality is removed or disabled and only required functionality, as documented in the configuration standards, is enabled, aligning with the review of documents.
 
 #### sub-requirement 2.2.5
 
- **TESTING PROCEDURE**: 2.2.5.a
+**TESTING PROCEDURE**: 2.2.5.a
 *Reference Name*: Requirement 2 2 5 a Insecure Services Protocols Daemons Management in Configuration Standards and Personnel Interviews Examination
 *Evidence Category*: Documentation Evidence and Interview Evidence
 *Reasoning*: This involves examining system configuration standards and interviewing personnel to verify that any insecure services, protocols, or daemons present are managed and implemented in accordance with all specified elements, fitting under the review of documents and aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 2.2.5.b
+**TESTING PROCEDURE**: 2.2.5.b
 *Reference Name*: Requirement 2 2 5 b Insecure Services Protocols Daemons Risk Mitigation Configuration Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configuration settings to verify that additional security features are implemented to reduce the risk of using insecure services, daemons, and protocols, aligning with the review of documents.
 
 #### sub-requirement 2.2.6
 
- **TESTING PROCEDURE**: 2.2.6.a
+**TESTING PROCEDURE**: 2.2.6.a
 *Reference Name*: Requirement 2 2 6 a System Misuse Prevention via Security Parameter Configuration in System Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining system configuration standards to verify they include configuring system security parameters to prevent misuse, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.6.b
+**TESTING PROCEDURE**: 2.2.6.b
 *Reference Name*: Requirement 2 2 6 b System Administrators and Security Managers Knowledge on Security Parameter Settings Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing system administrators and/or security managers to verify they have knowledge of common security parameter settings for system components, aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 2.2.6.c
+**TESTING PROCEDURE**: 2.2.6.c
 *Reference Name*: Requirement 2 2 6 c Appropriateness of Common Security Parameters in System Configurations Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining system configurations to verify that common security parameters are set appropriately and in accordance with the system configuration standards, aligning with the review of documents.
 
 #### sub-requirement 2.2.7
 
- **TESTING PROCEDURE**: 2.2.7.a
+**TESTING PROCEDURE**: 2.2.7.a
 *Reference Name*: Requirement 2 2 7 a Non-Console Administrative Access Encryption in System Configuration Standards Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining system configuration standards to verify they include encrypting all non-console administrative access using strong cryptography, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.7.b (Part 1 - Observe Administrator Log On)
+**TESTING PROCEDURE**: 2.2.7.b (Part 1 - Observe Administrator Log On)
 *Reference Name*: Requirement 2 2 7 b Non-Console Administrative Access Management Observation
 *Evidence Category*: Observation Evidence
 *Reasoning*: This requires observing an administrator log on to system components to verify that non-console administrative access is managed in accordance with this requirement, aligning with the observation of processes.
 
- **TESTING PROCEDURE**: 2.2.7.b (Part 2 - Examine System Configurations)
+**TESTING PROCEDURE**: 2.2.7.b (Part 2 - Examine System Configurations)
 *Reference Name*: Requirement 2 2 7 b Non-Console Administrative Access Configuration Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining system configurations to confirm that non-console administrative access is encrypted as per the system configuration standards, fitting under the review of documents.
- **TESTING PROCEDURE**: 2.2.7.c
+**TESTING PROCEDURE**: 2.2.7.c
 *Reference Name*: Requirement 2 2 7 c Insecure Remote Login Services Non-Availability for Non-Console Access in System Components and Authentication Services Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining settings for system components and authentication services to verify that insecure remote login services are not available for non-console administrative access, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.2.7.d (Part 1 - Examine Vendor Documentation)
+**TESTING PROCEDURE**: 2.2.7.d (Part 1 - Examine Vendor Documentation)
 *Reference Name*: Requirement 2 2 7 d Strong Cryptography Implementation According to Industry Best Practices and Vendor Recommendations Vendor Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining vendor documentation to verify that strong cryptography for the technology in use is implemented according to industry best practices and/or vendor recommendations, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 2.2.7.d (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 2.2.7.d (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 2 2 7 d Strong Cryptography Implementation Knowledge Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm their understanding and implementation of strong cryptography in accordance with industry best practices and vendor recommendations, aligning with the collection of interview notes.
@@ -455,34 +454,34 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 2.3
 #### sub-requirement 2.3.1
 
- **TESTING PROCEDURE**: 2.3.1.a
+**TESTING PROCEDURE**: 2.3.1.a
 *Reference Name*: Requirement 2 3 1 a Wireless Vendor Defaults Management Processes Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence and Interview Evidence
 *Reasoning*: This involves examining policies and procedures and interviewing responsible personnel to verify that processes are defined for managing wireless vendor defaults either by changing them upon installation or confirming them to be secure, aligning with the review of documents and the collection of interview notes.
 
- **TESTING PROCEDURE**: 2.3.1.b (Part 1 - Examine Vendor Documentation)
+**TESTING PROCEDURE**: 2.3.1.b (Part 1 - Examine Vendor Documentation)
 *Reference Name*: Requirement 2 3 1 b Wireless Device SNMP Defaults and Default Passwords Security Vendor Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining vendor documentation to verify that SNMP defaults are not used and default passwords/passphrases on wireless access points are not used, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 2.3.1.b (Part 2 - Observe System Administrator Login)
+**TESTING PROCEDURE**: 2.3.1.b (Part 2 - Observe System Administrator Login)
 *Reference Name*: Requirement 2 3 1 b Wireless Device Security Settings Administrator Login Observation
 *Evidence Category*: Observation Evidence
 *Reasoning*: This requires observing a system administrator logging into wireless devices to confirm compliance with security requirements, aligning with the observation of processes.
 
- **TESTING PROCEDURE**: 2.3.1.c
+**TESTING PROCEDURE**: 2.3.1.c
 *Reference Name*: Requirement 2 3 1 c Security-Related Wireless Vendor Defaults Modification in Vendor Documentation and Configuration Settings Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining vendor documentation and wireless configuration settings to verify that other security-related wireless vendor defaults were changed if applicable, fitting under the review of documents.
 
 #### sub-requirement 2.3.2
 
- **TESTING PROCEDURE**: 2.3.2 (Part 1 - Interview Responsible Personnel)
+**TESTING PROCEDURE**: 2.3.2 (Part 1 - Interview Responsible Personnel)
 *Reference Name*: Requirement 2 3 2 Wireless Encryption Key Management Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel to verify that wireless encryption keys are changed in accordance with all elements specified in the requirement, aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 2.3.2 (Part 2 - Examine Key-Management Documentation)
+**TESTING PROCEDURE**: 2.3.2 (Part 2 - Examine Key-Management Documentation)
 *Reference Name*: Requirement 2 3 2 Wireless Encryption Key Change Management Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining key-management documentation to confirm that wireless encryption keys are managed and changed as per the specified elements, fitting under the review of documents.
@@ -493,24 +492,24 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 3.1
 #### sub-requirement 3.1.1
 
- **TESTING PROCEDURE**: 3.1.1 (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 3.1.1 (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 3 1 1 Security Policies and Operational Procedures for Requirement 3 Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 3 are managed in accordance with all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 3.1.1 (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 3.1.1 (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 3 1 1 Security Policies and Operational Procedures for Requirement 3 Management Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 3 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 3.1.2
 
- **TESTING PROCEDURE**: 3.1.2.a
+**TESTING PROCEDURE**: 3.1.2.a
 *Reference Name*: Requirement 3 1 2 a Roles and Responsibilities for Requirement 3 Activities Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 3 are documented and assigned, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 3.1.2.b
+**TESTING PROCEDURE**: 3.1.2.b
 *Reference Name*: Requirement 3 1 2 b Roles and Responsibilities for Requirement 3 Activities Understanding Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel with responsibility for performing activities in Requirement 3 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
@@ -518,17 +517,17 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 3.2
 #### sub-requirement 3.2.1
 
- **TESTING PROCEDURE**: 3.2.1.a
+**TESTING PROCEDURE**: 3.2.1.a
 *Reference Name*: Requirement 3 2 1 a Data Retention and Disposal Policies Procedures and Processes Examination
 *Evidence Category*: Documentation Evidence and Interview Evidence
 *Reasoning*: This involves examining the data retention and disposal policies, procedures, and processes and interviewing personnel to verify processes are defined to include all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 3.2.1.b
+**TESTING PROCEDURE**: 3.2.1.b
 *Reference Name*: Requirement 3 2 1 b Account Data Storage and Retention Compliance in Files and System Records Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining files and system records on system components where account data is stored to verify that the data storage amount and retention time does not exceed the requirements defined in the data retention policy, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 3.2.1.c
+**TESTING PROCEDURE**: 3.2.1.c
 *Reference Name*: Requirement 3 2 1 c Account Data Unrecoverability Mechanisms Observation
 *Evidence Category*: Observation Evidence
 *Reasoning*: This requires observing the mechanisms used to render account data unrecoverable to verify data cannot be recovered, aligning with the observation of processes.
@@ -536,40 +535,37 @@ TESTING PROCEDURE: 1.2.8
 ### sub-requirement 3.3
 #### sub-requirement 3.3.1
 
- **TESTING PROCEDURE**: 3.3.1.a
+**TESTING PROCEDURE**: 3.3.1.a
 *Reference Name*: Requirement 3 3 1 a SAD Post-Authorization Non-Retention Policies Procedures and System Configurations Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documented policies, procedures, and system configurations to verify that Sensitive Authentication Data (SAD) is not retained after authorization, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 3.3.1.b (Part 1 - Examine Documented Procedures)
+**TESTING PROCEDURE**: 3.3.1.b (Part 1 - Examine Documented Procedures)
 *Reference Name*: Requirement 3 3 1 b SAD Secure Deletion Post-Authorization Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the documented procedures to verify that SAD is rendered unrecoverable upon completion of the authorization process, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 3.3.1.b (Part 2 - Observe Secure Data Deletion Processes)
+**TESTING PROCEDURE**: 3.3.1.b (Part 2 - Observe Secure Data Deletion Processes)
 *Reference Name*: Requirement 3 3 1 b SAD Secure Deletion Post-Authorization Process Observation
 *Evidence Category*: Observation Evidence
 *Reasoning*: This requires observing the secure data deletion processes to confirm that SAD is rendered unrecoverable after authorization, aligning with the observation of processes.
 
 #### sub-requirement 3.3.1.1
-
-TESTING PROCEDURE: 3.3.1.1
+**TESTING PROCEDURE**: 3.3.1.1
 
 *Reference Name*: Requirement 3 3 1 1 Full Track Data Non-Retention Post-Authorization in Data Sources Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining data sources to verify that the full contents of any track (from the magnetic stripe or equivalent on a card) are not stored upon completion of the authorization process, aligning with the review of documents.
 
 #### sub-requirement 3.3.1.2
-
-TESTING PROCEDURE: 3.3.1.2
+**TESTING PROCEDURE**: 3.3.1.2
 
 *Reference Name*: Requirement 3 3 1 2 Card Verification Code Non-Retention Post-Authorization in Data Sources Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining data sources to verify that the card verification code (such as the CVV, CVC2, CID) is not stored upon completion of the authorization process, fitting under the review of documents.
 
 #### sub-requirement 3.3.1.3
-
-TESTING PROCEDURE: 3.3.1.3
+**TESTING PROCEDURE**: 3.3.1.3
 
 *Reference Name*: Requirement 3 3 1 3 PINs and PIN Blocks Non-Retention Post-Authorization in Data Sources Examination
 *Evidence Category*: Documentation Evidence
@@ -577,29 +573,29 @@ TESTING PROCEDURE: 3.3.1.3
 
 #### sub-requirement 3.3.2
 
- **TESTING PROCEDURE**: 3.3.2 (Part 1 - Examine Data Stores)
+**TESTING PROCEDURE**: 3.3.2 (Part 1 - Examine Data Stores)
 *Reference Name*: Requirement 3 3 2 SAD Pre-Authorization Electronic Storage Encryption in Data Stores Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining data stores to verify that all Sensitive Authentication Data (SAD) that is stored electronically prior to completion of authorization is encrypted using strong cryptography, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 3.3.2 (Part 2 - Examine System Configurations)
+**TESTING PROCEDURE**: 3.3.2 (Part 2 - Examine System Configurations)
 *Reference Name*: Requirement 3 3 2 SAD Pre-Authorization Electronic Storage Encryption in System Configurations Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining system configurations to confirm that SAD stored electronically before authorization completion is encrypted with strong cryptography, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 3.3.2 (Part 3 - Examine Vendor Documentation)
+**TESTING PROCEDURE**: 3.3.2 (Part 3 - Examine Vendor Documentation)
 *Reference Name*: Requirement 3 3 2 SAD Pre-Authorization Electronic Storage Encryption Vendor Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This requires examining vendor documentation to ensure that encryption of SAD stored electronically before authorization complies with strong cryptographic standards, aligning with the review of documents.
 
 #### sub-requirement 3.3.3
 
- **TESTING PROCEDURE**: 3.3.3.a
+**TESTING PROCEDURE**: 3.3.3.a
 *Reference Name*: Requirement 3 3 3 a Issuer Services SAD Storage Business Justification Policies and Interviews Examination
 *Evidence Category*: Documentation Evidence and Interview Evidence
 *Reasoning*: This involves examining documented policies and interviewing personnel to verify there is a documented business justification for the storage of SAD, aligning with the review of documents and the collection of interview notes.
 
- **TESTING PROCEDURE**: 3.3.3.b
+**TESTING PROCEDURE**: 3.3.3.b
 *Reference Name*: Requirement 3 3 3 b Issuer Services SAD Secure Storage in Data Stores and System Configurations Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining data stores and system configurations to verify that the SAD is stored securely, fitting under the review of documents.
@@ -607,39 +603,39 @@ TESTING PROCEDURE: 3.3.1.3
 ### sub-requirement 3.4
 #### sub-requirement 3.4.1
 
- **TESTING PROCEDURE**: 3.4.1.a
+**TESTING PROCEDURE**: 3.4.1.a
 *Reference Name*: Requirement 3 4 1 a PAN Display Masking Policies and Procedures Roles and Business Need Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documented policies and procedures for masking the display of Primary Account Numbers (PANs) to verify: a list of roles that need access to more than the BIN and last four digits of the PAN is documented with a legitimate business need for each role, and that PAN is masked when displayed for unauthorized roles, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 3.4.1.b
+**TESTING PROCEDURE**: 3.4.1.b
 *Reference Name*: Requirement 3 4 1 b PAN Display Access Control in System Configurations Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining system configurations to verify that full PAN is only displayed for roles with a documented business need, and that PAN is masked for all other requests, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 3.4.1.c
+**TESTING PROCEDURE**: 3.4.1.c
 *Reference Name*: Requirement 3 4 1 c PAN Display Masking Verification on Screens and Paper Receipts Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining displays of PAN (such as on screen, on paper receipts) to verify that PANs are masked when displayed, and that only those with a legitimate business need are able to see more than the BIN and/or last four digits of the PAN, aligning with the review of documents.
 
 #### sub-requirement 3.4.2
 
- **TESTING PROCEDURE**: 3.4.2.a
+**TESTING PROCEDURE**: 3.4.2.a
 *Reference Name*: Requirement 3 4 2 a PAN Copy and Relocation Prevention Policies and Technical Controls Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documented policies and procedures and evidence for technical controls that prevent copying and/or relocation of PAN using remote-access technologies to verify that only authorized personnel are allowed such actions and that a list of such personnel is maintained with documented authorization and legitimate business need, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 3.4.2.b
+**TESTING PROCEDURE**: 3.4.2.b
 *Reference Name*: Requirement 3 4 2 b Remote-Access Technology PAN Copy and Relocation Prevention Technical Controls Configuration Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining configurations for remote-access technologies to verify that technical controls are in place to prevent copy and/or relocation of PAN for all personnel, unless explicitly authorized, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 3.4.2.c (Part 1 - Observe Processes)
+**TESTING PROCEDURE**: 3.4.2.c (Part 1 - Observe Processes)
 *Reference Name*: Requirement 3 4 2 c Authorized Personnel PAN Copy and Relocation in Remote-Access Technologies Process Observation
 *Evidence Category*: Observation Evidence
 *Reasoning*: This requires observing processes to verify that only personnel with documented, explicit authorization and a legitimate, defined business need have permission to copy and/or relocate PAN when using remote-access technologies, aligning with the observation of processes.
 
- **TESTING PROCEDURE**: 3.4.2.c (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 3.4.2.c (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 3 4 2 c Authorized Personnel for PAN Copy and Relocation in Remote-Access Technologies Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This involves interviewing personnel to confirm that only authorized individuals with documented permission and business need are allowed to copy and/or relocate PAN using remote-access technologies, which aligns with the collection of interview notes.
@@ -647,552 +643,459 @@ TESTING PROCEDURE: 3.3.1.3
 ### sub-requirement 3.5
 #### sub-requirement 3.5.1
 
- **TESTING PROCEDURE**: 3.5.1.a
+**TESTING PROCEDURE**: 3.5.1.a
 *Reference Name*: Requirement 3 5 1 a PAN Rendering Unreadable System Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation about the system used to render Primary Account Numbers (PANs) unreadable, including the vendor, type of system/process, and the encryption algorithms (if applicable) to verify that the PAN is rendered unreadable using any of the methods specified in this requirement, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 3.5.1.b
+**TESTING PROCEDURE**: 3.5.1.b
 *Reference Name*: Requirement 3 5 1 b PAN Rendering Unreadable Verification in Data Repositories and Audit Logs Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining data repositories and audit logs, including payment application logs, to verify the PAN is rendered unreadable using any of the specified methods, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 3.5.1.c
+**TESTING PROCEDURE**: 3.5.1.c
 *Reference Name*: Requirement 3 5 1 c Correlation Prevention for Hashed and Truncated PAN Versions Controls Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining implemented controls to verify that hashed and truncated versions of the same PAN present in the environment cannot be correlated to reconstruct the original PAN, aligning with the review of documents.
 
 #### sub-requirement 3.5.1.1
-
-    TESTING PROCEDURE: 3.5.1.1.a
-        Reference Name: Requirement 3 5 1 1 a Hashing Method for PAN Rendering Unreadable Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation about the hashing method used to render the Primary Account Number (PAN) unreadable, including details about the vendor, system/process type, and encryption algorithms, to verify that the hashing method results in keyed cryptographic hashes of the entire PAN with associated key management processes and procedures, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.5.1.1.b
-        Reference Name: Requirement 3 5 1 1 b Key Management Procedures for Keyed Cryptographic Hashes Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documentation about key management procedures and processes associated with the keyed cryptographic hashes to verify that keys are managed in accordance with PCI DSS Requirements 3.6 and 3.7, aligning with the review of documents.
-
-    TESTING PROCEDURE: 3.5.1.1.c
-        Reference Name: Requirement 3 5 1 1 c PAN Rendering Unreadable in Data Repositories Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining data repositories to verify the PAN is rendered unreadable, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.5.1.1.d
-        Reference Name: Requirement 3 5 1 1 d PAN Rendering Unreadable Verification in Audit and Payment Application Logs Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining audit logs, including payment application logs, to verify that the PAN is rendered unreadable, aligning with the review of documents.
+**TESTING PROCEDURE**: 3.5.1.1.a
+*Reference Name*: Requirement 3 5 1 1 a Hashing Method for PAN Rendering Unreadable Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation about the hashing method used to render the Primary Account Number (PAN) unreadable, including details about the vendor, system/process type, and encryption algorithms, to verify that the hashing method results in keyed cryptographic hashes of the entire PAN with associated key management processes and procedures, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.5.1.1.b
+*Reference Name*: Requirement 3 5 1 1 b Key Management Procedures for Keyed Cryptographic Hashes Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documentation about key management procedures and processes associated with the keyed cryptographic hashes to verify that keys are managed in accordance with PCI DSS Requirements 3.6 and 3.7, aligning with the review of documents.
+**TESTING PROCEDURE**: 3.5.1.1.c
+*Reference Name*: Requirement 3 5 1 1 c PAN Rendering Unreadable in Data Repositories Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining data repositories to verify the PAN is rendered unreadable, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.5.1.1.d
+*Reference Name*: Requirement 3 5 1 1 d PAN Rendering Unreadable Verification in Audit and Payment Application Logs Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining audit logs, including payment application logs, to verify that the PAN is rendered unreadable, aligning with the review of documents.
 
 ## sub-requirement 3.5.1.2
-
-    TESTING PROCEDURE: 3.5.1.2.a
-        Reference Name: Requirement 3 5 1 2 a Disk or Partition-Level Encryption for PAN Rendering Unreadable Processes Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining encryption processes to verify that, if disk-level or partition-level encryption is used to render Primary Account Number (PAN) unreadable, it is implemented correctly: either on removable electronic media or, if used for non-removable electronic media, that PAN is also rendered unreadable via another method meeting Requirement 3.5.1, aligning with the review of documents.
-
-    TESTING PROCEDURE: 3.5.1.2.b (Part 1 - Examine Configurations and Vendor Documentation)
-        Reference Name: Requirement 3 5 1 2 b Disk or Partition-Level Encryption Configuration and Vendor Documentation Compliance Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining configurations and vendor documentation to verify that the system is configured according to vendor guidelines and that the result is the disk or partition being rendered unreadable, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.5.1.2.b (Part 2 - Observe Encryption Processes)
-        Reference Name: Requirement 3 5 1 2 b Disk or Partition-Level Encryption Process Implementation Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This requires observing the encryption processes to confirm that the system is configured to render the disk or partition unreadable as per vendor documentation, aligning with the observation of processes.
+**TESTING PROCEDURE**: 3.5.1.2.a
+*Reference Name*: Requirement 3 5 1 2 a Disk or Partition-Level Encryption for PAN Rendering Unreadable Processes Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining encryption processes to verify that, if disk-level or partition-level encryption is used to render Primary Account Number (PAN) unreadable, it is implemented correctly: either on removable electronic media or, if used for non-removable electronic media, that PAN is also rendered unreadable via another method meeting Requirement 3.5.1, aligning with the review of documents.
+**TESTING PROCEDURE**: 3.5.1.2.b (Part 1 - Examine Configurations and Vendor Documentation)
+*Reference Name*: Requirement 3 5 1 2 b Disk or Partition-Level Encryption Configuration and Vendor Documentation Compliance Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining configurations and vendor documentation to verify that the system is configured according to vendor guidelines and that the result is the disk or partition being rendered unreadable, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.5.1.2.b (Part 2 - Observe Encryption Processes)
+*Reference Name*: Requirement 3 5 1 2 b Disk or Partition-Level Encryption Process Implementation Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This requires observing the encryption processes to confirm that the system is configured to render the disk or partition unreadable as per vendor documentation, aligning with the observation of processes.
 
 #### sub-requirement 3.5.1.3
-
-    TESTING PROCEDURE: 3.5.1.3.a
-        Reference Name: Requirement 3 5 1 3 a Disk or Partition-Level Encryption Logical Access Control System Configurations and Authentication Process Observation
-        Evidence Category: Documentation Evidence and Observation Evidence
-        Reasoning: This involves examining the system configuration and observing the authentication process to verify that logical access is implemented in accordance with all specified elements when disk-level or partition-level encryption is used to render the Primary Account Number (PAN) unreadable, aligning with the review of documents and the observation of processes.
-
-    TESTING PROCEDURE: 3.5.1.3.b (Part 1 - Examine Files Containing Authentication Factors)
-        Reference Name: Requirement 3 5 1 3 b Authentication Factors Secure Storage for Disk or Partition-Level Encryption Files Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining files containing authentication factors (such as passwords, passphrases, or cryptographic keys) to verify that they are stored securely and are independent from the native operating system’s authentication and access control methods, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.5.1.3.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 3 5 1 3 b Authentication Factors Independent Storage and Security Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that authentication factors allowing access to unencrypted data are stored securely and independently from the operating system's native methods, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 3.5.1.3.a
+*Reference Name*: Requirement 3 5 1 3 a Disk or Partition-Level Encryption Logical Access Control System Configurations and Authentication Process Observation
+*Evidence Category*: Documentation Evidence and Observation Evidence
+*Reasoning*: This involves examining the system configuration and observing the authentication process to verify that logical access is implemented in accordance with all specified elements when disk-level or partition-level encryption is used to render the Primary Account Number (PAN) unreadable, aligning with the review of documents and the observation of processes.
+**TESTING PROCEDURE**: 3.5.1.3.b (Part 1 - Examine Files Containing Authentication Factors)
+*Reference Name*: Requirement 3 5 1 3 b Authentication Factors Secure Storage for Disk or Partition-Level Encryption Files Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining files containing authentication factors (such as passwords, passphrases, or cryptographic keys) to verify that they are stored securely and are independent from the native operating system’s authentication and access control methods, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.5.1.3.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 3 5 1 3 b Authentication Factors Independent Storage and Security Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that authentication factors allowing access to unencrypted data are stored securely and independently from the operating system's native methods, aligning with the collection of interview notes.
 
 ### sub-requirement 3.6
 #### sub-requirement 3.6.1
-
-TESTING PROCEDURE: 3.6.1
-
-    Reference Name: Requirement 3 6 1 Key-Management Policies and Procedures for Stored Account Data Protection Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves examining documented key-management policies and procedures to verify that processes to protect cryptographic keys used to protect stored account data against disclosure and misuse are defined to include all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.6.1
+*Reference Name*: Requirement 3 6 1 Key-Management Policies and Procedures for Stored Account Data Protection Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented key-management policies and procedures to verify that processes to protect cryptographic keys used to protect stored account data against disclosure and misuse are defined to include all elements specified in this requirement, fitting under the review of documents.
 
 This recommendation is in line with the evidence categories defined in my knowledge source, "guidance-builder part I section 6.txt," ensuring that the evidence is correctly categorized and stored in the appropriate repository for efficient and effective assessment and compliance verification.
 
 #### sub-requirement 3.6.1.1
-
-    TESTING PROCEDURE: 3.6.1.1 (Part 1 - Interview Responsible Personnel)
-        Reference Name: Requirement 3 6 1 1 Service Provider Cryptographic Architecture Documentation Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This involves interviewing responsible personnel to verify that a document exists describing the cryptographic architecture, which includes all elements specified in the requirement, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 3.6.1.1 (Part 2 - Examine Documentation)
-        Reference Name: Requirement 3 6 1 1 Service Provider Cryptographic Architecture Comprehensive Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documentation to confirm that there is a comprehensive document describing the cryptographic architecture, including all specified elements for service providers, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.6.1.1 (Part 1 - Interview Responsible Personnel)
+*Reference Name*: Requirement 3 6 1 1 Service Provider Cryptographic Architecture Documentation Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This involves interviewing responsible personnel to verify that a document exists describing the cryptographic architecture, which includes all elements specified in the requirement, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 3.6.1.1 (Part 2 - Examine Documentation)
+*Reference Name*: Requirement 3 6 1 1 Service Provider Cryptographic Architecture Comprehensive Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documentation to confirm that there is a comprehensive document describing the cryptographic architecture, including all specified elements for service providers, fitting under the review of documents.
 
 #### sub-requirement 3.6.1.2
-
-    TESTING PROCEDURE: 3.6.1.2.a
-        Reference Name: Requirement 3 6 1 2 a Cryptographic Keys for Stored Account Data Forms Definition in Documented Procedures Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented procedures to verify that it is defined that cryptographic keys used to encrypt/decrypt stored account data must exist only in one or more of the forms specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.6.1.2.b
-        Reference Name: Requirement 3 6 1 2 b Stored Account Data Cryptographic Key Forms Compliance in System Configurations and Key Storage Locations Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system configurations and key storage locations to verify that cryptographic keys used to encrypt/decrypt stored account data exist in one or more of the specified forms, aligning with the review of documents.
-
-    TESTING PROCEDURE: 3.6.1.2.c
-        Reference Name: Requirement 3 6 1 2 c Key-Encrypting Keys Strength and Storage Separation Verification in System Configurations and Key Storage Locations Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining system configurations and key storage locations to verify that key-encrypting keys are at least as strong as the data-encrypting keys they protect and that they are stored separately from data-encrypting keys, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.6.1.2.a
+*Reference Name*: Requirement 3 6 1 2 a Cryptographic Keys for Stored Account Data Forms Definition in Documented Procedures Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented procedures to verify that it is defined that cryptographic keys used to encrypt/decrypt stored account data must exist only in one or more of the forms specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.6.1.2.b
+*Reference Name*: Requirement 3 6 1 2 b Stored Account Data Cryptographic Key Forms Compliance in System Configurations and Key Storage Locations Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system configurations and key storage locations to verify that cryptographic keys used to encrypt/decrypt stored account data exist in one or more of the specified forms, aligning with the review of documents.
+**TESTING PROCEDURE**: 3.6.1.2.c
+*Reference Name*: Requirement 3 6 1 2 c Key-Encrypting Keys Strength and Storage Separation Verification in System Configurations and Key Storage Locations Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system configurations and key storage locations to verify that key-encrypting keys are at least as strong as the data-encrypting keys they protect and that they are stored separately from data-encrypting keys, fitting under the review of documents.
 
 #### sub-requirement 3.6.1.3
-
-TESTING PROCEDURE: 3.6.1.3
-
-    Reference Name: Requirement 3 6 1 3 Cleartext Cryptographic Key Component Access Restriction User Access Lists Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves examining user access lists to verify that access to cleartext cryptographic key components is restricted to the fewest number of custodians necessary, aligning with the review of documents.
+**TESTING PROCEDURE**: 3.6.1.3
+*Reference Name*: Requirement 3 6 1 3 Cleartext Cryptographic Key Component Access Restriction User Access Lists Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining user access lists to verify that access to cleartext cryptographic key components is restricted to the fewest number of custodians necessary, aligning with the review of documents.
 
 #### sub-requirement 3.6.1.4
-
-    TESTING PROCEDURE: 3.6.1.4 (Part 1 - Examine Key Storage Locations)
-        Reference Name: Requirement 3 6 1 4 Cryptographic Keys Minimal Storage Locations Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining key storage locations to verify that keys are stored in the fewest possible locations, aligning with the review of documents for minimal and secure key storage practices.
-
-    TESTING PROCEDURE: 3.6.1.4 (Part 2 - Observe Processes)
-        Reference Name: Requirement 3 6 1 4 Cryptographic Key Storage Process Efficiency Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This requires observing the processes related to cryptographic key storage to confirm that the practices minimize the number of storage locations, aligning with the observation of processes to ensure adherence to secure key storage principles.
+**TESTING PROCEDURE**: 3.6.1.4 (Part 1 - Examine Key Storage Locations)
+*Reference Name*: Requirement 3 6 1 4 Cryptographic Keys Minimal Storage Locations Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining key storage locations to verify that keys are stored in the fewest possible locations, aligning with the review of documents for minimal and secure key storage practices.
+**TESTING PROCEDURE**: 3.6.1.4 (Part 2 - Observe Processes)
+*Reference Name*: Requirement 3 6 1 4 Cryptographic Key Storage Process Efficiency Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This requires observing the processes related to cryptographic key storage to confirm that the practices minimize the number of storage locations, aligning with the observation of processes to ensure adherence to secure key storage principles.
 
 ### sub-requirement 3.7
 ### sub-requiremetn 3.7.1
-
-    TESTING PROCEDURE: 3.7.1.a
-        Reference Name: Requirement 3 7 1 a Strong Cryptographic Keys Generation Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the generation of strong cryptographic keys, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.1.b
-        Reference Name: Requirement 3 7 1 b Strong Cryptographic Keys Generation Method Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing the method for generating keys to verify that strong keys are generated, aligning with the observation of processes to ensure the generation of robust cryptographic keys.
+**TESTING PROCEDURE**: 3.7.1.a
+*Reference Name*: Requirement 3 7 1 a Strong Cryptographic Keys Generation Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the generation of strong cryptographic keys, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.1.b
+*Reference Name*: Requirement 3 7 1 b Strong Cryptographic Keys Generation Method Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing the method for generating keys to verify that strong keys are generated, aligning with the observation of processes to ensure the generation of robust cryptographic keys.
 
 #### sub-requirement 3.7.2
-
-    TESTING PROCEDURE: 3.7.2.a
-        Reference Name: Requirement 3 7 2 a Cryptographic Keys Secure Distribution Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the secure distribution of cryptographic keys, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.2.b
-        Reference Name: Requirement 3 7 2 b Cryptographic Keys Secure Distribution Method Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing the method for distributing keys to verify that keys are distributed securely, aligning with the observation of processes to ensure the secure and safe distribution of cryptographic keys.
+**TESTING PROCEDURE**: 3.7.2.a
+*Reference Name*: Requirement 3 7 2 a Cryptographic Keys Secure Distribution Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the secure distribution of cryptographic keys, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.2.b
+*Reference Name*: Requirement 3 7 2 b Cryptographic Keys Secure Distribution Method Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing the method for distributing keys to verify that keys are distributed securely, aligning with the observation of processes to ensure the secure and safe distribution of cryptographic keys.
 
 #### sub-requirement 3.7.3
-
-    TESTING PROCEDURE: 3.7.3.a
-        Reference Name: Requirement 3 7 3 a Cryptographic Keys Secure Storage Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the secure storage of cryptographic keys, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.3.b
-        Reference Name: Requirement 3 7 3 b Cryptographic Keys Secure Storage Method Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This part involves observing the method for storing keys to verify that keys are stored securely, aligning with the observation of processes to ensure the secure and proper storage of cryptographic keys.
+**TESTING PROCEDURE**: 3.7.3.a
+*Reference Name*: Requirement 3 7 3 a Cryptographic Keys Secure Storage Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the secure storage of cryptographic keys, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.3.b
+*Reference Name*: Requirement 3 7 3 b Cryptographic Keys Secure Storage Method Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This part involves observing the method for storing keys to verify that keys are stored securely, aligning with the observation of processes to ensure the secure and proper storage of cryptographic keys.
 
 #### sub-requirement 3.7.4
-
-    TESTING PROCEDURE: 3.7.4.a
-        Reference Name: Requirement 3 7 4 a Cryptographic Keys End of Cryptoperiod Change Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define changes to cryptographic keys that have reached the end of their cryptoperiod and include all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.4.b (Part 1 - Interview Personnel)
-        Reference Name: Requirement 3 7 4 b Cryptographic Key Cryptoperiod Expiration Management Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to verify that keys are changed at the end of the defined cryptoperiod(s), aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 3.7.4.b (Part 2 - Examine Documentation)
-        Reference Name: Requirement 3 7 4 b Cryptographic Key Cryptoperiod Expiration Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documentation related to the management of cryptographic key cryptoperiods to ensure compliance with the policies, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.4.b (Part 3 - Observe Key Storage Locations)
-        Reference Name: Requirement 3 7 4 b Cryptographic Key Cryptoperiod Expiration in Key Storage Locations Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This requires observing key storage locations to confirm that keys are changed at the end of their cryptoperiods, aligning with the observation of processes and storage practices.
+**TESTING PROCEDURE**: 3.7.4.a
+*Reference Name*: Requirement 3 7 4 a Cryptographic Keys End of Cryptoperiod Change Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define changes to cryptographic keys that have reached the end of their cryptoperiod and include all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.4.b (Part 1 - Interview Personnel)
+*Reference Name*: Requirement 3 7 4 b Cryptographic Key Cryptoperiod Expiration Management Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to verify that keys are changed at the end of the defined cryptoperiod(s), aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 3.7.4.b (Part 2 - Examine Documentation)
+*Reference Name*: Requirement 3 7 4 b Cryptographic Key Cryptoperiod Expiration Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documentation related to the management of cryptographic key cryptoperiods to ensure compliance with the policies, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.4.b (Part 3 - Observe Key Storage Locations)
+*Reference Name*: Requirement 3 7 4 b Cryptographic Key Cryptoperiod Expiration in Key Storage Locations Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This requires observing key storage locations to confirm that keys are changed at the end of their cryptoperiods, aligning with the observation of processes and storage practices.
 
 #### sub-requirement 3.7.5
-
-    TESTING PROCEDURE: 3.7.5.a
-        Reference Name: Requirement 3 7 5 a Cryptographic Keys Retirement Replacement or Destruction Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the retirement, replacement, or destruction of keys in accordance with all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.5.b
-        Reference Name: Requirement 3 7 5 b Key Management Processes Implementation Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to verify that processes for the retirement, replacement, or destruction of cryptographic keys are implemented in accordance with all specified elements, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 3.7.5.a
+*Reference Name*: Requirement 3 7 5 a Cryptographic Keys Retirement Replacement or Destruction Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the retirement, replacement, or destruction of keys in accordance with all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.5.b
+*Reference Name*: Requirement 3 7 5 b Key Management Processes Implementation Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to verify that processes for the retirement, replacement, or destruction of cryptographic keys are implemented in accordance with all specified elements, aligning with the collection of interview notes.
 
 #### sub-requirement 3.7.6
-
-    TESTING PROCEDURE: 3.7.6.a
-        Reference Name: Requirement 3 7 6 a Split Knowledge and Dual Control in Key Management Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the use of split knowledge and dual control, aligning with the review of documents.
-
-    TESTING PROCEDURE: 3.7.6.b (Part 1 - Interview Personnel)
-        Reference Name: Requirement 3 7 6 b Manual Cleartext Key Management with Split Knowledge and Dual Control Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to verify that manual cleartext keys are managed with split knowledge and dual control, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 3.7.6.b (Part 2 - Observe Processes)
-        Reference Name: Requirement 3 7 6 b Manual Cleartext Key Management Process Observation for Split Knowledge and Dual Control
-        Evidence Category: Observation Evidence
-        Reasoning: This involves observing processes to confirm that manual cleartext keys are managed in accordance with the principles of split knowledge and dual control, aligning with the observation of processes.
+**TESTING PROCEDURE**: 3.7.6.a
+*Reference Name*: Requirement 3 7 6 a Split Knowledge and Dual Control in Key Management Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the use of split knowledge and dual control, aligning with the review of documents.
+**TESTING PROCEDURE**: 3.7.6.b (Part 1 - Interview Personnel)
+*Reference Name*: Requirement 3 7 6 b Manual Cleartext Key Management with Split Knowledge and Dual Control Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to verify that manual cleartext keys are managed with split knowledge and dual control, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 3.7.6.b (Part 2 - Observe Processes)
+*Reference Name*: Requirement 3 7 6 b Manual Cleartext Key Management Process Observation for Split Knowledge and Dual Control
+*Evidence Category*: Observation Evidence
+*Reasoning*: This involves observing processes to confirm that manual cleartext keys are managed in accordance with the principles of split knowledge and dual control, aligning with the observation of processes.
 
 #### sub-requirement 3.7.7
-
-    TESTING PROCEDURE: 3.7.7.a
-        Reference Name: Requirement 3 7 7 a Unauthorized Cryptographic Key Substitution Prevention Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the prevention of unauthorized substitution of cryptographic keys, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.7.b (Part 1 - Interview Personnel)
-        Reference Name: Requirement 3 7 7 b Unauthorized Key Substitution Prevention Measures Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to verify that unauthorized substitution of cryptographic keys is prevented, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 3.7.7.b (Part 2 - Observe Processes)
-        Reference Name: Requirement 3 7 7 b Cryptographic Key Substitution Prevention Process Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This involves observing processes to confirm that unauthorized substitution of cryptographic keys is effectively prevented, aligning with the observation of processes.
+**TESTING PROCEDURE**: 3.7.7.a
+*Reference Name*: Requirement 3 7 7 a Unauthorized Cryptographic Key Substitution Prevention Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define the prevention of unauthorized substitution of cryptographic keys, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.7.b (Part 1 - Interview Personnel)
+*Reference Name*: Requirement 3 7 7 b Unauthorized Key Substitution Prevention Measures Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to verify that unauthorized substitution of cryptographic keys is prevented, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 3.7.7.b (Part 2 - Observe Processes)
+*Reference Name*: Requirement 3 7 7 b Cryptographic Key Substitution Prevention Process Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This involves observing processes to confirm that unauthorized substitution of cryptographic keys is effectively prevented, aligning with the observation of processes.
 
 #### sub-requirement 3.7.8
-
-    TESTING PROCEDURE: 3.7.8.a
-        Reference Name: Requirement 3 7 8 a Key Custodian Acknowledgments in Key Management Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define acknowledgments for key custodians in accordance with all specified elements, fitting under the review of documents.
-
-    TESTING PROCEDURE: 3.7.8.b
-        Reference Name: Requirement 3 7 8 b Key Custodian Acknowledgments Compliance Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documentation or other evidence showing that key custodians have provided acknowledgments in accordance with all elements specified in this requirement, aligning with the review of documents.
+**TESTING PROCEDURE**: 3.7.8.a
+*Reference Name*: Requirement 3 7 8 a Key Custodian Acknowledgments in Key Management Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documented key-management policies and procedures for keys used for the protection of stored account data to verify that they define acknowledgments for key custodians in accordance with all specified elements, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.8.b
+*Reference Name*: Requirement 3 7 8 b Key Custodian Acknowledgments Compliance Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documentation or other evidence showing that key custodians have provided acknowledgments in accordance with all elements specified in this requirement, aligning with the review of documents.
 
 #### sub-requirement 3.7.9
-
-TESTING PROCEDURE: 3.7.9
-
-    Reference Name: Requirement 3 7 9 Service Provider Customer Key Management Guidance Documentation Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves examining the documentation that the service provider provides to its customers to verify it includes guidance on how to securely transmit, store, and update customers’ cryptographic keys. This guidance must be in accordance with all elements specified in Requirements 3.7.1 through 3.7.8, fitting under the review of documents.
+**TESTING PROCEDURE**: 3.7.9
+*Reference Name*: Requirement 3 7 9 Service Provider Customer Key Management Guidance Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the documentation that the service provider provides to its customers to verify it includes guidance on how to securely transmit, store, and update customers’ cryptographic keys. This guidance must be in accordance with all elements specified in Requirements 3.7.1 through 3.7.8, fitting under the review of documents.
 
 ---
 
 ## Requirement 4
 ### sub-requirement 4.1
 #### sub-requirement 4.1.1
-
-    TESTING PROCEDURE: 4.1.1 (Part 1 - Examine Documentation)
-        Reference Name: Requirement 4 1 1 Security Policies and Operational Procedures for Requirement 4 Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 4 are managed in accordance with all specified elements, fitting under the review of documents.
-
-    TESTING PROCEDURE: 4.1.1 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 4 1 1 Security Policies and Operational Procedures for Requirement 4 Management Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 4 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 4.1.1 (Part 1 - Examine Documentation)
+*Reference Name*: Requirement 4 1 1 Security Policies and Operational Procedures for Requirement 4 Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 4 are managed in accordance with all specified elements, fitting under the review of documents.
+**TESTING PROCEDURE**: 4.1.1 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 4 1 1 Security Policies and Operational Procedures for Requirement 4 Management Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 4 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 4.1.2
-
-    TESTING PROCEDURE: 4.1.2.a
-        Reference Name: Requirement 4 1 2 a Roles and Responsibilities for Requirement 4 Activities Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 4 are documented and assigned, fitting under the review of documents.
-
-    TESTING PROCEDURE: 4.1.2.b
-        Reference Name: Requirement 4 1 2 b Roles and Responsibilities for Requirement 4 Activities Understanding Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel with responsibility for performing activities in Requirement 4 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 4.1.2.a
+*Reference Name*: Requirement 4 1 2 a Roles and Responsibilities for Requirement 4 Activities Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 4 are documented and assigned, fitting under the review of documents.
+**TESTING PROCEDURE**: 4.1.2.b
+*Reference Name*: Requirement 4 1 2 b Roles and Responsibilities for Requirement 4 Activities Understanding Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel with responsibility for performing activities in Requirement 4 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
 
 ### sub-requirement 4.2
 #### sub-requirement 4.2.1
-
-    TESTING PROCEDURE: 4.2.1.a
-        Reference Name: Requirement 4 2 1 a Policies and Procedures for Strong Cryptography and Security Protocols Documentation Examination
-        Evidence Category: Documentation Evidence and Interview Evidence
-        Reasoning: This involves examining documented policies and procedures and interviewing personnel to verify that processes are defined to include all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 4.2.1.b
-        Reference Name: Requirement 4 2 1 b Strong Cryptography and Security Protocols Implementation in System Configurations Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system configurations to verify that strong cryptography and security protocols are implemented in accordance with all specified elements, aligning with the review of documents.
-
-    TESTING PROCEDURE: 4.2.1.c
-        Reference Name: Requirement 4 2 1 c PAN Encryption in Cardholder Data Transmissions over Open Public Networks Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining cardholder data transmissions to verify that all Primary Account Number (PAN) is encrypted with strong cryptography when it is transmitted over open, public networks, fitting under the review of documents.
-
-    TESTING PROCEDURE: 4.2.1.d
-        Reference Name: Requirement 4 2 1 d Untrusted Keys and Certificates Rejection in System Configurations Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining system configurations to verify that keys and/or certificates that cannot be verified as trusted are rejected, aligning with the review of documents.
+**TESTING PROCEDURE**: 4.2.1.a
+*Reference Name*: Requirement 4 2 1 a Policies and Procedures for Strong Cryptography and Security Protocols Documentation Examination
+*Evidence Category*: Documentation Evidence and Interview Evidence
+*Reasoning*: This involves examining documented policies and procedures and interviewing personnel to verify that processes are defined to include all elements specified in this requirement, fitting under the review of documents and aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 4.2.1.b
+*Reference Name*: Requirement 4 2 1 b Strong Cryptography and Security Protocols Implementation in System Configurations Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system configurations to verify that strong cryptography and security protocols are implemented in accordance with all specified elements, aligning with the review of documents.
+**TESTING PROCEDURE**: 4.2.1.c
+*Reference Name*: Requirement 4 2 1 c PAN Encryption in Cardholder Data Transmissions over Open Public Networks Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining cardholder data transmissions to verify that all Primary Account Number (PAN) is encrypted with strong cryptography when it is transmitted over open, public networks, fitting under the review of documents.
+**TESTING PROCEDURE**: 4.2.1.d
+*Reference Name*: Requirement 4 2 1 d Untrusted Keys and Certificates Rejection in System Configurations Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining system configurations to verify that keys and/or certificates that cannot be verified as trusted are rejected, aligning with the review of documents.
 
 #### sub-requirement 4.2.1.1
-
-    TESTING PROCEDURE: 4.2.1.1.a
-        Reference Name: Requirement 4 2 1 1 a Trusted Keys and Certificates Inventory Maintenance Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented policies and procedures to verify that processes are defined for the entity to maintain an inventory of its trusted keys and certificates, fitting under the review of documents.
-
-    TESTING PROCEDURE: 4.2.1.1.b
-        Reference Name: Requirement 4 2 1 1 b Trusted Keys and Certificates Inventory Up-to-Date Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining the inventory of trusted keys and certificates to verify it is kept up to date, aligning with the review of documents.
+**TESTING PROCEDURE**: 4.2.1.1.a
+*Reference Name*: Requirement 4 2 1 1 a Trusted Keys and Certificates Inventory Maintenance Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented policies and procedures to verify that processes are defined for the entity to maintain an inventory of its trusted keys and certificates, fitting under the review of documents.
+**TESTING PROCEDURE**: 4.2.1.1.b
+*Reference Name*: Requirement 4 2 1 1 b Trusted Keys and Certificates Inventory Up-to-Date Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining the inventory of trusted keys and certificates to verify it is kept up to date, aligning with the review of documents.
 
 #### sub-requirement 4.2.1.2
-
-TESTING PROCEDURE: 4.2.1.2
-
-    Reference Name: Requirement 4 2 1 2 Wireless Networks Strong Cryptography Implementation for PAN Transmission and CDE Connection System Configurations Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves examining system configurations to verify that wireless networks transmitting Primary Account Number (PAN) or connected to the Cardholder Data Environment (CDE) use industry best practices to implement strong cryptography for authentication and transmission, fitting under the review of documents.
+**TESTING PROCEDURE**: 4.2.1.2
+*Reference Name*: Requirement 4 2 1 2 Wireless Networks Strong Cryptography Implementation for PAN Transmission and CDE Connection System Configurations Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system configurations to verify that wireless networks transmitting Primary Account Number (PAN) or connected to the Cardholder Data Environment (CDE) use industry best practices to implement strong cryptography for authentication and transmission, fitting under the review of documents.
 
 #### sub-requirement 4.2.2
-
-    TESTING PROCEDURE: 4.2.2.a
-        Reference Name: Requirement 4 2 2 a PAN Security via Strong Cryptography in End-User Messaging Technologies Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented policies and procedures to verify that processes are defined to secure the Primary Account Number (PAN) with strong cryptography whenever sent over end-user messaging technologies, fitting under the review of documents.
-
-    TESTING PROCEDURE: 4.2.2.b (Part 1 - Examine System Configurations)
-        Reference Name: Requirement 4 2 2 b PAN Security in End-User Messaging Technologies System Configurations Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system configurations to verify that PAN is secured with strong cryptography whenever it is sent via end-user messaging technologies, aligning with the review of documents.
-
-    TESTING PROCEDURE: 4.2.2.b (Part 2 - Examine Vendor Documentation)
-        Reference Name: Requirement 4 2 2 b End-User Messaging Technologies PAN Security Vendor Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining vendor documentation to confirm the implementation of strong cryptographic security for PAN when transmitted via end-user messaging technologies, fitting under the review of documents.
+**TESTING PROCEDURE**: 4.2.2.a
+*Reference Name*: Requirement 4 2 2 a PAN Security via Strong Cryptography in End-User Messaging Technologies Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented policies and procedures to verify that processes are defined to secure the Primary Account Number (PAN) with strong cryptography whenever sent over end-user messaging technologies, fitting under the review of documents.
+**TESTING PROCEDURE**: 4.2.2.b (Part 1 - Examine System Configurations)
+*Reference Name*: Requirement 4 2 2 b PAN Security in End-User Messaging Technologies System Configurations Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system configurations to verify that PAN is secured with strong cryptography whenever it is sent via end-user messaging technologies, aligning with the review of documents.
+**TESTING PROCEDURE**: 4.2.2.b (Part 2 - Examine Vendor Documentation)
+*Reference Name*: Requirement 4 2 2 b End-User Messaging Technologies PAN Security Vendor Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining vendor documentation to confirm the implementation of strong cryptographic security for PAN when transmitted via end-user messaging technologies, fitting under the review of documents.
 
 ---
 
 ## Requirement 5
 #### sub-requirement 5.1.1
-
-    TESTING PROCEDURE: 5.1.1 (Part 1 - Examine Documentation)
-        Reference Name: Requirement 5 1 1 Security Policies and Operational Procedures for Requirement 5 Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 5 are managed in accordance with all specified elements, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.1.1 (Part 2 - Interview Personnel)
-        Reference Name: Requirement 5 1 1 Security Policies and Operational Procedures for Requirement 5 Management Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 5 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 5.1.1 (Part 1 - Examine Documentation)
+*Reference Name*: Requirement 5 1 1 Security Policies and Operational Procedures for Requirement 5 Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that security policies and operational procedures identified in Requirement 5 are managed in accordance with all specified elements, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.1.1 (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 5 1 1 Security Policies and Operational Procedures for Requirement 5 Management Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that security policies and operational procedures for Requirement 5 are managed as per the PCI DSS specifications, aligning with the collection of interview notes.
 
 #### sub-requirement 5.1.2
-
-    TESTING PROCEDURE: 5.1.2.a
-        Reference Name: Requirement 5 1 2 a Roles and Responsibilities for Requirement 5 Activities Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 5 are documented and assigned, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.1.2.b
-        Reference Name: Requirement 5 1 2 b Roles and Responsibilities for Requirement 5 Activities Understanding Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel with responsibility for performing activities in Requirement 5 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 5.1.2.a
+*Reference Name*: Requirement 5 1 2 a Roles and Responsibilities for Requirement 5 Activities Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 5 are documented and assigned, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.1.2.b
+*Reference Name*: Requirement 5 1 2 b Roles and Responsibilities for Requirement 5 Activities Understanding Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel with responsibility for performing activities in Requirement 5 to verify that roles and responsibilities are assigned as documented and are understood, aligning with the collection of interview notes.
 
 ### sub-requiement 5.2
 #### sub-requirement 5.2.1
-
-    TESTING PROCEDURE: 5.2.1.a
-        Reference Name: Requirement 5 2 1 a Anti-Malware Solution Deployment on System Components Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining system components to verify that an anti-malware solution is deployed on all system components, except for those determined to not be at risk from malware, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.2.1.b
-        Reference Name: Requirement 5 2 1 b Periodic Malware Risk Evaluations for System Components Without Anti-Malware Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining the periodic evaluations for any system components without an anti-malware solution to verify that each component was evaluated and the evaluation concludes that the component is not at risk from malware, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.2.1.a
+*Reference Name*: Requirement 5 2 1 a Anti-Malware Solution Deployment on System Components Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining system components to verify that an anti-malware solution is deployed on all system components, except for those determined to not be at risk from malware, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.2.1.b
+*Reference Name*: Requirement 5 2 1 b Periodic Malware Risk Evaluations for System Components Without Anti-Malware Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining the periodic evaluations for any system components without an anti-malware solution to verify that each component was evaluated and the evaluation concludes that the component is not at risk from malware, aligning with the review of documents.
 
 #### sub-requirement 5.2.2
-
-    TESTING PROCEDURE: 5.2.2 (Part 1 - Examine Vendor Documentation)
-        Reference Name: Requirement 5 2 2 Anti-Malware Solution Comprehensive Malware Detection Vendor Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining vendor documentation of the anti-malware solution(s) to verify that the solution detects all known types of malware, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.2.2 (Part 2 - Examine Configurations)
-        Reference Name: Requirement 5 2 2 Anti-Malware Solution Malware Removal, Blocking, or Containment Capabilities Configuration Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining the configurations of the anti-malware solution(s) to confirm that the solution removes, blocks, or contains all known types of malware, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.2.2 (Part 1 - Examine Vendor Documentation)
+*Reference Name*: Requirement 5 2 2 Anti-Malware Solution Comprehensive Malware Detection Vendor Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining vendor documentation of the anti-malware solution(s) to verify that the solution detects all known types of malware, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.2.2 (Part 2 - Examine Configurations)
+*Reference Name*: Requirement 5 2 2 Anti-Malware Solution Malware Removal, Blocking, or Containment Capabilities Configuration Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining the configurations of the anti-malware solution(s) to confirm that the solution removes, blocks, or contains all known types of malware, aligning with the review of documents.
 
 #### sub-requirement 5.2.3
-
-    TESTING PROCEDURE: 5.2.3.a
-        Reference Name: Requirement 5 2 3 a Malware Risk Evaluation Process for System Components Policies and Procedures Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining documented policies and procedures to verify that a process is defined for periodic evaluations of any system components that are not at risk for malware, which includes all elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.2.3.b
-        Reference Name: Requirement 5 2 3 b Malware Risk Evaluation Process Implementation Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to verify that the evaluations include all elements specified in this requirement, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 5.2.3.c
-        Reference Name: Requirement 5 2 3 c System Components Malware Risk and Anti-Malware Solution Deployment Consistency Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the list of system components identified as not at risk of malware and comparing it to the system components without an anti-malware solution deployed per Requirement 5.2.1 to verify that the system components match for both requirements, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.2.3.a
+*Reference Name*: Requirement 5 2 3 a Malware Risk Evaluation Process for System Components Policies and Procedures Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining documented policies and procedures to verify that a process is defined for periodic evaluations of any system components that are not at risk for malware, which includes all elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.2.3.b
+*Reference Name*: Requirement 5 2 3 b Malware Risk Evaluation Process Implementation Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to verify that the evaluations include all elements specified in this requirement, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 5.2.3.c
+*Reference Name*: Requirement 5 2 3 c System Components Malware Risk and Anti-Malware Solution Deployment Consistency Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the list of system components identified as not at risk of malware and comparing it to the system components without an anti-malware solution deployed per Requirement 5.2.1 to verify that the system components match for both requirements, fitting under the review of documents.
 
 #### sub-requirement 5.2.3.1
-
-    TESTING PROCEDURE: 5.2.3.1.a
-        Reference Name: Requirement 5 2 3 1 a Targeted Risk Analysis for Malware Risk Evaluation Frequency Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the entity's targeted risk analysis for the frequency of periodic evaluations of system components identified as not at risk for malware to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.2.3.1.b (Part 1 - Examine Documented Results)
-        Reference Name: Requirement 5 2 3 1 b Periodic Malware Risk Evaluation Results in Accordance with Risk Analysis Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documented results of periodic evaluations of system components identified as not at risk for malware to verify that evaluations are performed at the frequency defined in the entity’s targeted risk analysis, aligning with the review of documents.
-
-    TESTING PROCEDURE: 5.2.3.1.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 5 2 3 1 b Periodic Malware Risk Evaluation Process Adherence Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that evaluations of system components not at risk for malware are performed at the frequency defined in the entity’s targeted risk analysis, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 5.2.3.1.a
+*Reference Name*: Requirement 5 2 3 1 a Targeted Risk Analysis for Malware Risk Evaluation Frequency Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the entity's targeted risk analysis for the frequency of periodic evaluations of system components identified as not at risk for malware to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.2.3.1.b (Part 1 - Examine Documented Results)
+*Reference Name*: Requirement 5 2 3 1 b Periodic Malware Risk Evaluation Results in Accordance with Risk Analysis Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documented results of periodic evaluations of system components identified as not at risk for malware to verify that evaluations are performed at the frequency defined in the entity’s targeted risk analysis, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.2.3.1.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 5 2 3 1 b Periodic Malware Risk Evaluation Process Adherence Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that evaluations of system components not at risk for malware are performed at the frequency defined in the entity’s targeted risk analysis, aligning with the collection of interview notes.
 
 ### sub-requirement 5.3
 #### sub-requirement 5.3.1
-
-    TESTING PROCEDURE: 5.3.1.a
-        Reference Name: Requirement 5 3 1 a Anti-Malware Solutions Automatic Update Configuration Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining anti-malware solution(s) configurations, including any master installation of the software, to verify the solution is configured to perform automatic updates, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.3.1.b (Part 1 - Examine System Components)
-        Reference Name: Requirement 5 3 1 b Current and Prompt Deployment of Anti-Malware Solutions in System Components Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system components to verify that the anti-malware solution(s) and definitions are current and have been promptly deployed, aligning with the review of documents.
-
-    TESTING PROCEDURE: 5.3.1.b (Part 2 - Examine Logs)
-        Reference Name: Requirement 5 3 1 b Anti-Malware Solutions Update Logs Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining logs to confirm that the anti-malware solutions and definitions are up-to-date and have been deployed in a timely manner, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.1.a
+*Reference Name*: Requirement 5 3 1 a Anti-Malware Solutions Automatic Update Configuration Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining anti-malware solution(s) configurations, including any master installation of the software, to verify the solution is configured to perform automatic updates, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.1.b (Part 1 - Examine System Components)
+*Reference Name*: Requirement 5 3 1 b Current and Prompt Deployment of Anti-Malware Solutions in System Components Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system components to verify that the anti-malware solution(s) and definitions are current and have been promptly deployed, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.3.1.b (Part 2 - Examine Logs)
+*Reference Name*: Requirement 5 3 1 b Anti-Malware Solutions Update Logs Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining logs to confirm that the anti-malware solutions and definitions are up-to-date and have been deployed in a timely manner, fitting under the review of documents.
 
 #### sub-requirement 5.3.2
-
-    TESTING PROCEDURE: 5.3.2.a
-        Reference Name: Requirement 5 3 2 a Anti-Malware Solutions Specific Functionality Configuration Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining anti-malware solution(s) configurations, including any master installation of the software, to verify the solution is configured to perform at least one of the elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.3.2.b
-        Reference Name: Requirement 5 3 2 b Anti-Malware Solution Functionality Activation in System Components Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system components, including all operating system types identified as at risk for malware, to verify the solution is enabled in accordance with at least one of the specified elements, aligning with the review of documents.
-
-    TESTING PROCEDURE: 5.3.2.c (Part 1 - Examine Logs)
-        Reference Name: Requirement 5 3 2 c Anti-Malware Solution Functionality in Logs Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining logs to confirm that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.3.2.c (Part 2 - Examine Scan Results)
-        Reference Name: Requirement 5 3 2 c Anti-Malware Solution Functionality in Scan Results Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining scan results to verify that the anti-malware solution is enabled and functioning in accordance with at least one of the specified elements, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.3.2.a
+*Reference Name*: Requirement 5 3 2 a Anti-Malware Solutions Specific Functionality Configuration Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining anti-malware solution(s) configurations, including any master installation of the software, to verify the solution is configured to perform at least one of the elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.2.b
+*Reference Name*: Requirement 5 3 2 b Anti-Malware Solution Functionality Activation in System Components Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system components, including all operating system types identified as at risk for malware, to verify the solution is enabled in accordance with at least one of the specified elements, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.3.2.c (Part 1 - Examine Logs)
+*Reference Name*: Requirement 5 3 2 c Anti-Malware Solution Functionality in Logs Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining logs to confirm that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.2.c (Part 2 - Examine Scan Results)
+*Reference Name*: Requirement 5 3 2 c Anti-Malware Solution Functionality in Scan Results Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining scan results to verify that the anti-malware solution is enabled and functioning in accordance with at least one of the specified elements, aligning with the review of documents.
 
 #### sub-requirement 5.3.2.1
-
-    TESTING PROCEDURE: 5.3.2.1.a
-        Reference Name: Requirement 5 3 2 1 a Periodic Malware Scan Frequency Targeted Risk Analysis Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining the entity's targeted risk analysis for the frequency of periodic malware scans to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.3.2.1.b (Part 1 - Examine Documented Results)
-        Reference Name: Requirement 5 3 2 1 b Periodic Malware Scans Adherence to Risk Analysis Results Documentation Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining documented results of periodic malware scans to verify that scans are performed at the frequency defined in the entity’s targeted risk analysis, aligning with the review of documents.
-
-    TESTING PROCEDURE: 5.3.2.1.b (Part 2 - Interview Personnel)
-        Reference Name: Requirement 5 3 2 1 b Periodic Malware Scan Frequency Implementation Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing personnel to confirm that periodic malware scans are conducted at the frequency defined in the entity’s targeted risk analysis, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 5.3.2.1.a
+*Reference Name*: Requirement 5 3 2 1 a Periodic Malware Scan Frequency Targeted Risk Analysis Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining the entity's targeted risk analysis for the frequency of periodic malware scans to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.2.1.b (Part 1 - Examine Documented Results)
+*Reference Name*: Requirement 5 3 2 1 b Periodic Malware Scans Adherence to Risk Analysis Results Documentation Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining documented results of periodic malware scans to verify that scans are performed at the frequency defined in the entity’s targeted risk analysis, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.3.2.1.b (Part 2 - Interview Personnel)
+*Reference Name*: Requirement 5 3 2 1 b Periodic Malware Scan Frequency Implementation Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing personnel to confirm that periodic malware scans are conducted at the frequency defined in the entity’s targeted risk analysis, aligning with the collection of interview notes.
 
 #### sub-requirement 5.3.3
-
-    TESTING PROCEDURE: 5.3.3.a
-        Reference Name: Requirement 5 3 3 a Anti-Malware Solutions for Removable Electronic Media Configuration Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining anti-malware solution(s) configurations to verify that, for removable electronic media, the solution is configured to perform at least one of the elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.3.3.b
-        Reference Name: Requirement 5 3 3 b Anti-Malware Solution Functionality on System Components with Removable Media Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This part involves examining system components with removable electronic media connected to verify that the solution is enabled in accordance with at least one of the specified elements, aligning with the review of documents.
-
-    TESTING PROCEDURE: 5.3.3.c (Part 1 - Examine Logs)
-        Reference Name: Requirement 5 3 3 c Anti-Malware Solution Activation Verification in Logs Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining logs to confirm that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.3.3.c (Part 2 - Examine Scan Results)
-        Reference Name: Requirement 5 3 3 c Anti-Malware Solution Activation in Scan Results for Removable Media Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining scan results to verify that the anti-malware solution is enabled and functioning in accordance with at least one of the specified elements, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.3.3.a
+*Reference Name*: Requirement 5 3 3 a Anti-Malware Solutions for Removable Electronic Media Configuration Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining anti-malware solution(s) configurations to verify that, for removable electronic media, the solution is configured to perform at least one of the elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.3.b
+*Reference Name*: Requirement 5 3 3 b Anti-Malware Solution Functionality on System Components with Removable Media Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This part involves examining system components with removable electronic media connected to verify that the solution is enabled in accordance with at least one of the specified elements, aligning with the review of documents.
+**TESTING PROCEDURE**: 5.3.3.c (Part 1 - Examine Logs)
+*Reference Name*: Requirement 5 3 3 c Anti-Malware Solution Activation Verification in Logs Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining logs to confirm that the anti-malware solution is enabled in accordance with at least one of the elements specified in this requirement, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.3.c (Part 2 - Examine Scan Results)
+*Reference Name*: Requirement 5 3 3 c Anti-Malware Solution Activation in Scan Results for Removable Media Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining scan results to verify that the anti-malware solution is enabled and functioning in accordance with at least one of the specified elements, aligning with the review of documents.
 
 #### sub-requirement 5.3.4
-
-TESTING PROCEDURE: 5.3.4
-
-    Reference Name: Requirement 5 3 4 Anti-Malware Solutions Logging Configuration in Accordance with Requirement 10 5 1 Examination
-    Evidence Category: Documentation Evidence
-    Reasoning: This involves examining anti-malware solution(s) configurations to verify that logs are enabled and retained in accordance with Requirement 10.5.1, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.4
+*Reference Name*: Requirement 5 3 4 Anti-Malware Solutions Logging Configuration in Accordance with Requirement 10 5 1 Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining anti-malware solution(s) configurations to verify that logs are enabled and retained in accordance with Requirement 10.5.1, fitting under the review of documents.
 
 #### sub-requirement 5.3.5
-
-    TESTING PROCEDURE: 5.3.5.a
-        Reference Name: Requirement 5 3 5 a Anti-Malware Mechanisms User Alteration Prevention Configuration Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This involves examining anti-malware configurations to verify that the anti-malware mechanisms cannot be disabled or altered by users, fitting under the review of documents.
-
-    TESTING PROCEDURE: 5.3.5.b (Part 1 - Interview Responsible Personnel)
-        Reference Name: Requirement 5 3 5 b Authorization and Documentation for Anti-Malware Mechanism Alteration Verification Interviews
-        Evidence Category: Interview Evidence
-        Reasoning: This requires interviewing responsible personnel to verify that any requests to disable or alter anti-malware mechanisms are specifically documented and authorized by management on a case-by-case basis for a limited time period, aligning with the collection of interview notes.
-
-    TESTING PROCEDURE: 5.3.5.b (Part 2 - Observe Processes)
-        Reference Name: Requirement 5 3 5 b Anti-Malware Mechanism Alteration Authorization Process Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This involves observing processes to confirm that any alterations to anti-malware mechanisms are appropriately documented and authorized, fitting under the observation of processes.
+**TESTING PROCEDURE**: 5.3.5.a
+*Reference Name*: Requirement 5 3 5 a Anti-Malware Mechanisms User Alteration Prevention Configuration Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This involves examining anti-malware configurations to verify that the anti-malware mechanisms cannot be disabled or altered by users, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.3.5.b (Part 1 - Interview Responsible Personnel)
+*Reference Name*: Requirement 5 3 5 b Authorization and Documentation for Anti-Malware Mechanism Alteration Verification Interviews
+*Evidence Category*: Interview Evidence
+*Reasoning*: This requires interviewing responsible personnel to verify that any requests to disable or alter anti-malware mechanisms are specifically documented and authorized by management on a case-by-case basis for a limited time period, aligning with the collection of interview notes.
+**TESTING PROCEDURE**: 5.3.5.b (Part 2 - Observe Processes)
+*Reference Name*: Requirement 5 3 5 b Anti-Malware Mechanism Alteration Authorization Process Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This involves observing processes to confirm that any alterations to anti-malware mechanisms are appropriately documented and authorized, fitting under the observation of processes.
 
 ### sub-requirement 5.4
 ### sub-resuirement 5.4.1
-
-    TESTING PROCEDURE: 5.4.1 (Part 1 - Observe Implemented Processes)
-        Reference Name: Requirement 5 4 1 Phishing Attack Protection Processes Implementation Observation
-        Evidence Category: Observation Evidence
-        Reasoning: This involves observing implemented processes to verify controls are in place to detect and protect personnel against phishing attacks, aligning with the observation of processes.
-
-    TESTING PROCEDURE: 5.4.1 (Part 2 - Examine Mechanisms)
-        Reference Name: Requirement 5 4 1 Phishing Attack Protection Mechanisms Verification Examination
-        Evidence Category: Documentation Evidence
-        Reasoning: This requires examining the mechanisms to confirm that controls are implemented to detect and protect against phishing attacks, fitting under the review of documents.
+**TESTING PROCEDURE**: 5.4.1 (Part 1 - Observe Implemented Processes)
+*Reference Name*: Requirement 5 4 1 Phishing Attack Protection Processes Implementation Observation
+*Evidence Category*: Observation Evidence
+*Reasoning*: This involves observing implemented processes to verify controls are in place to detect and protect personnel against phishing attacks, aligning with the observation of processes.
+**TESTING PROCEDURE**: 5.4.1 (Part 2 - Examine Mechanisms)
+*Reference Name*: Requirement 5 4 1 Phishing Attack Protection Mechanisms Verification Examination
+*Evidence Category*: Documentation Evidence
+*Reasoning*: This requires examining the mechanisms to confirm that controls are implemented to detect and protect against phishing attacks, fitting under the review of documents.
 
 ---
 
@@ -3914,41 +3817,41 @@ TESTING PROCEDURE: 5.3.4
 ### sub-requirement 12.1
 #### sub-requirement 12.1.1
 
- **TESTING PROCEDURE**: 12.1.1 (Part 1 - Examine the Information Security Policy)
+**TESTING PROCEDURE**: 12.1.1 (Part 1 - Examine the Information Security Policy)
 *Reference Name*: Requirement 12 1 1 Information Security Policy Management Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the information security policy to verify its management, which aligns with the review of documents.
 
- **TESTING PROCEDURE**: 12.1.1 (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.1.1 (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 1 1 Personnel Information Security Policy Management Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing personnel regarding the management of the overall information security policy, which falls under the collection of interview notes.
 
 #### sub-requirement 12.1.2
 
- **TESTING PROCEDURE**: 12.1.2 (Part 1 - Examine the Information Security Policy)
+**TESTING PROCEDURE**: 12.1.2 (Part 1 - Examine the Information Security Policy)
 *Reference Name*: Requirement 12 1 2 Information Security Policy Management Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the information security policy to verify its management according to specified elements, which fits the review of documents.
 
- **TESTING PROCEDURE**: 12.1.2 (Part 2 - Interview Responsible Personnel)
+**TESTING PROCEDURE**: 12.1.2 (Part 2 - Interview Responsible Personnel)
 *Reference Name*: Requirement 12 1 2 Personnel Information Security Policy Management Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing responsible personnel regarding the management of the information security policy, which is aligned with the collection of interview notes.
 
 #### sub-requirement 12.1.3
 
- **TESTING PROCEDURE**: 12.1.3.a
+**TESTING PROCEDURE**: 12.1.3.a
 *Reference Name*: Requirement 12 1 3 a Information Security Policy Roles and Responsibilities
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining the information security policy to verify the definition of security roles and responsibilities, which falls under the review of documents.
 
- **TESTING PROCEDURE**: 12.1.3.b
+**TESTING PROCEDURE**: 12.1.3.b
 *Reference Name*: Requirement 12 1 3 b Personnel Information Security Responsibilities Understanding
 *Evidence Category*: Interview Evidence
 *Reasoning*: This entails interviewing personnel to verify their understanding of information security responsibilities, which aligns with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.1.3.c
+**TESTING PROCEDURE**: 12.1.3.c
 *Reference Name*: Requirement 12 1 3 c Personnel Acknowledgment Information Security Responsibilities
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documented evidence of personnel acknowledging their information security responsibilities, which is categorized under the review of documents.
@@ -3963,12 +3866,12 @@ TESTING PROCEDURE: 5.3.4
 ### sub-requirement 12.2
 #### sub-requirement 12.2.1
 
- **TESTING PROCEDURE**: 12.2.1 (Part 1 - Examine Acceptable Use Policies for End-User Technologies)
+**TESTING PROCEDURE**: 12.2.1 (Part 1 - Examine Acceptable Use Policies for End-User Technologies)
 *Reference Name*: Requirement 12 2 1 End User Technologies Acceptable Use Policy Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the acceptable use policies for end-user technologies to verify they are documented and implemented as specified, which fits the review of documents.
 
- **TESTING PROCEDURE**: 12.2.1 (Part 2 - Interview Responsible Personnel)
+**TESTING PROCEDURE**: 12.2.1 (Part 2 - Interview Responsible Personnel)
 *Reference Name*: Requirement 12 2 1 Personnel Acceptable Use Policy Processes Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing responsible personnel about the implementation of processes related to the acceptable use policies, which aligns with the collection of interview notes.
@@ -3992,24 +3895,24 @@ TESTING PROCEDURE: 5.3.4
 
 #### sub-requirement 12.3.3
 
- **TESTING PROCEDURE**: 12.3.3 (Part 1 - Examine Documentation for Cryptographic Suites and Protocols)
+**TESTING PROCEDURE**: 12.3.3 (Part 1 - Examine Documentation for Cryptographic Suites and Protocols)
 *Reference Name*: Requirement 12 3 3 Cryptographic Suites and Protocols Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation for cryptographic suites and protocols in use, ensuring the review aligns with specified elements, which fits the review of documents.
 
- **TESTING PROCEDURE**: 12.3.3 (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.3.3 (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 3 3 Personnel Cryptographic Documentation Review Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing personnel to verify the documentation and review process for cryptographic suites and protocols, which aligns with the collection of interview notes.
 
 ### sub-requiremetn 13.3.4
 
- **TESTING PROCEDURE**: 12.3.4 (Part 1 - Examine Documentation for Review of Hardware and Software Technologies)
+**TESTING PROCEDURE**: 12.3.4 (Part 1 - Examine Documentation for Review of Hardware and Software Technologies)
 *Reference Name*: Requirement 12 3 4 Hardware and Software Technologies Review Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation related to the review of hardware and software technologies in use, ensuring that the review aligns with all specified elements, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.3.4 (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.3.4 (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 3 4 Personnel Hardware and Software Review Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing personnel to verify that the review of hardware and software technologies is conducted in accordance with specified elements, which aligns with the collection of interview notes.
@@ -4025,17 +3928,17 @@ TESTING PROCEDURE: 5.3.4
 
 #### sub-requirement 12.4.2
 
- **TESTING PROCEDURE**: 12.4.2.a (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.4.2.a (Service Provider Assessment)
 *Reference Name*: Requirement 12 4 2 a Service Provider Security Policy and Operational Procedure Review Process Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining policies and procedures to verify defined processes for conducting reviews to confirm that personnel are adhering to all security policies and operational procedures, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.4.2.b (Part 1 - Interview Personnel) (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.4.2.b (Part 1 - Interview Personnel) (Service Provider Assessment)
 *Reference Name*: Requirement 12 4 2 b Service Provider Personnel Review Process Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing responsible personnel as part of verifying that reviews are performed at least once every three months and by personnel other than those responsible for the task, which aligns with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.4.2.b (Part 2 - Examine Records of Reviews) (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.4.2.b (Part 2 - Examine Records of Reviews) (Service Provider Assessment)
 *Reference Name*: Requirement 12 4 2 b Service Provider Review Records Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining records of reviews to verify compliance with the review frequency and personnel requirements, which is in line with the review of documents.
@@ -4051,63 +3954,63 @@ TESTING PROCEDURE: 5.3.4
 ### sub-requirement 12.5
 #### sub-requirement 12.5.1
 
- **TESTING PROCEDURE**: 12.5.1.a
+**TESTING PROCEDURE**: 12.5.1.a
 *Reference Name*: Requirement 12 5 1 a In-Scope System Components Inventory Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the inventory to verify it includes all in-scope system components and a description of their function/use, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.5.1.b
+**TESTING PROCEDURE**: 12.5.1.b
 *Reference Name*: Requirement 12 5 1 b Inventory Currency Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing personnel to verify the inventory is kept current, which aligns with the collection of interview notes.
 
 #### sub-requirement 12.5.2
 
- **TESTING PROCEDURE**: 12.5.2.a (Part 1 - Examine Documented Results of Scope Reviews)
+**TESTING PROCEDURE**: 12.5.2.a (Part 1 - Examine Documented Results of Scope Reviews)
 *Reference Name*: Requirement 12 5 2 a Scope Review Frequency and Post-Change Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the documented results of scope reviews to verify the reviews are performed at least once every 12 months and after significant changes, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.5.2.a (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.5.2.a (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 5 2 a Scope Review Procedure Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing personnel to verify the regularity and responsiveness of the scope reviews, which aligns with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.5.2.b
+**TESTING PROCEDURE**: 12.5.2.b
 *Reference Name*: Requirement 12 5 2 b PCI DSS Scoping Confirmation Review Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining the documented results of scope reviews performed by the entity to verify that the PCI DSS scoping confirmation activity includes all specified elements, which is in line with the review of documents.
 
 #### sub-requirement 12.5.2.1
 
- **TESTING PROCEDURE**: 12.5.2.1.a (Part 1 - Examine Documented Results of Scope Reviews) (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.5.2.1.a (Part 1 - Examine Documented Results of Scope Reviews) (Service Provider Assessment)
 *Reference Name*: Requirement 12 5 2 1 a Service Provider Biannual and Post-Change Scope Review Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the documented results of scope reviews for service providers to verify that reviews are performed at least once every six months and after significant changes, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.5.2.1.a (Part 2 - Interview Personnel) (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.5.2.1.a (Part 2 - Interview Personnel) (Service Provider Assessment)
 *Reference Name*: Requirement 12 5 2 1 a Service Provider Scope Review Procedure Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing personnel to verify the frequency and responsiveness of scope reviews as per Requirement 12.5.2, which aligns with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.5.2.1.b (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.5.2.1.b (Service Provider Assessment)
 *Reference Name*: Requirement 12 5 2 1 b Service Provider Scoping Validation Review Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining the documented results of scope reviews for service providers to verify that scoping validation includes all elements specified in Requirement 12.5.2, which is in line with the review of documents.
 
 #### sub-requirement 12.5.3
 
- **TESTING PROCEDURE**: 12.5.3.a (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.5.3.a (Service Provider Assessment)
 *Reference Name*: Requirement 12 5 3 a Service Provider Organizational Structure Change Impact Review Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies and procedures to verify defined processes for reviewing the impact of significant organizational structure changes on PCI DSS scope and control applicability, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.5.3.b (Part 1 - Examine Documentation) (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.5.3.b (Part 1 - Examine Documentation) (Service Provider Assessment)
 *Reference Name*: Requirement 12 5 3 b Service Provider Organizational Structure Change Impact Review Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation (e.g., meeting minutes) to verify documented reviews of significant organizational structure changes and their inclusion of all specified elements, which aligns with the review of documents.
 
- **TESTING PROCEDURE**: 12.5.3.b (Part 2 - Interview Personnel) (Service Provider Assessment)
+**TESTING PROCEDURE**: 12.5.3.b (Part 2 - Interview Personnel) (Service Provider Assessment)
 *Reference Name*: Requirement 12 5 3 b Service Provider Organizational Structure Change Impact Review Process Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing responsible personnel to verify that documented reviews of significant changes to organizational structure were conducted and communicated to executive management, which aligns with the collection of interview notes.
@@ -4123,44 +4026,44 @@ TESTING PROCEDURE: 5.3.4
 
 #### sub-requirement 12.6.2
 
- **TESTING PROCEDURE**: 12.6.2 (Part 1 - Examine Security Awareness Program Content)
+**TESTING PROCEDURE**: 12.6.2 (Part 1 - Examine Security Awareness Program Content)
 *Reference Name*: Requirement 12 6 2 Security Awareness Program Content Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the content of the security awareness program to verify it is in accordance with all specified elements, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.6.2 (Part 2 - Examine Evidence of Reviews)
+**TESTING PROCEDURE**: 12.6.2 (Part 2 - Examine Evidence of Reviews)
 *Reference Name*: Requirement 12 6 2 Security Awareness Program Review Evidence Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the evidence of reviews of the security awareness program, ensuring compliance with the requirement's elements, which aligns with the review of documents.
 
- **TESTING PROCEDURE**: 12.6.2 (Part 3 - Interview Personnel)
+**TESTING PROCEDURE**: 12.6.2 (Part 3 - Interview Personnel)
 *Reference Name*: Requirement 12 6 2 Security Awareness Program Compliance Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This part requires interviewing personnel to verify the accordance of the security awareness program with the specified elements, which is in line with the collection of interview notes.
 
 #### sub-requirement 12.6.3
 
- **TESTING PROCEDURE**: 12.6.3.a
+**TESTING PROCEDURE**: 12.6.3.a
 *Reference Name*: Requirement 12 6 3 a Security Awareness Training Attendance Records Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining security awareness program records to verify that personnel attend training upon hire and annually, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.6.3.b
+**TESTING PROCEDURE**: 12.6.3.b
 *Reference Name*: Requirement 12 6 3 b Security Awareness Program Multiple Communication Methods Verification
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining security awareness program materials to verify they include multiple methods of communication and education, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 12.6.3.c
+**TESTING PROCEDURE**: 12.6.3.c
 *Reference Name*: Requirement 12 6 3 c Personnel Security Awareness Training Completion Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to verify completion of awareness training and understanding of their role in protecting cardholder data, which is in line with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.6.3.d (Part 1 - Examine Security Awareness Program Materials)
+**TESTING PROCEDURE**: 12.6.3.d (Part 1 - Examine Security Awareness Program Materials)
 *Reference Name*: Requirement 12 6 3 d Security Awareness Program Understanding Acknowledgment Materials Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining security awareness program materials for evidence of personnel acknowledgments, ensuring compliance with the requirement for annual acknowledgment of understanding, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.6.3.d (Part 2 - Examine Personnel Acknowledgments)
+**TESTING PROCEDURE**: 12.6.3.d (Part 2 - Examine Personnel Acknowledgments)
 *Reference Name*: Requirement 12 6 3 d Personnel Security Policy and Procedure Understanding Acknowledgments Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining personnel acknowledgments to verify that they acknowledge understanding the information security policy and procedures at least annually, which is aligned with the review of documents.
@@ -4193,75 +4096,75 @@ TESTING PROCEDURE: 5.3.4
 ### sub-requirement 12.8
 #### sub-requirement 12.8.1
 
- **TESTING PROCEDURE**: 12.8.1.a
+**TESTING PROCEDURE**: 12.8.1.a
 *Reference Name*: Requirement 12 8 1 a TPSP List Maintenance Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies and procedures to verify processes are defined for maintaining a list of Third Party Service Providers (TPSPs), including descriptions of services provided for those involved with account data or affecting its security, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.8.1.b
+**TESTING PROCEDURE**: 12.8.1.b
 *Reference Name*: Requirement 12 8 1 b TPSP List and Service Description Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation to verify the maintenance of a list of all TPSPs, including a description of the services they provide, aligning with the review of documents.
 
 #### sub-requirement 12.8.2
 
- **TESTING PROCEDURE**: 12.8.2.a
+**TESTING PROCEDURE**: 12.8.2.a
 *Reference Name*: Requirement 12 8 2 a TPSP Written Agreements Maintenance Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies and procedures to verify that processes are defined for maintaining written agreements with all Third Party Service Providers (TPSPs) in accordance with the specified elements, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.8.2.b
+**TESTING PROCEDURE**: 12.8.2.b
 *Reference Name*: Requirement 12 8 2 b TPSP Written Agreements Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the written agreements with TPSPs to verify they are maintained in accordance with all specified elements, aligning with the review of documents.
 
 #### sub-requirement 12.8.3
 
- **TESTING PROCEDURE**: 12.8.3.a
+**TESTING PROCEDURE**: 12.8.3.a
 *Reference Name*: Requirement 12 8 3 a TPSP Engagement Process Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies and procedures to verify that processes are defined for engaging Third Party Service Providers (TPSPs), including conducting proper due diligence prior to engagement, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.8.3.b (Part 1 - Examine Evidence)
+**TESTING PROCEDURE**: 12.8.3.b (Part 1 - Examine Evidence)
 *Reference Name*: Requirement 12 8 3 b TPSP Engagement Due Diligence Evidence Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining evidence to verify that the process for engaging TPSPs includes proper due diligence prior to engagement, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 12.8.3.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.8.3.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 8 3 b TPSP Engagement Due Diligence Process Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel to verify the due diligence process in engaging TPSPs, which is in line with the collection of interview notes.
 
 #### sub-requirement 12.8.4
 
- **TESTING PROCEDURE**: 12.8.4.a
+**TESTING PROCEDURE**: 12.8.4.a
 *Reference Name*: Requirement 12 8 4 a TPSP PCI DSS Compliance Monitoring Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies and procedures to verify that processes are defined to monitor Third Party Service Providers' (TPSPs’) PCI DSS compliance status at least once every 12 months, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.8.4.b (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 12.8.4.b (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 12 8 4 b TPSP PCI DSS Compliance Status Monitoring Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation to verify that the PCI DSS compliance status of each TPSP is monitored annually, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 12.8.4.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.8.4.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 8 4 b TPSP Compliance Status Monitoring Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel to verify the annual monitoring of TPSPs' PCI DSS compliance status, which is in line with the collection of interview notes.
 
 #### sub-requirement 12.8.5
 
- **TESTING PROCEDURE**: 12.8.5.a
+**TESTING PROCEDURE**: 12.8.5.a
 *Reference Name*: Requirement 12 8 5 a TPSP and Entity PCI DSS Responsibilities Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies and procedures to verify that processes are defined to maintain information about which PCI DSS requirements are managed by each Third Party Service Provider (TPSP), which are managed by the entity, and any shared responsibilities, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.8.5.b (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 12.8.5.b (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 12 8 5 b TPSP and Entity PCI DSS Responsibilities Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation to verify the entity maintains information about PCI DSS requirements management by each TPSP, the entity, and any shared responsibilities, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 12.8.5.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.8.5.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 8 5 b TPSP and Entity PCI DSS Responsibilities Management Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to verify maintenance of information about PCI DSS requirements management by TPSPs and the entity, which is in line with the collection of interview notes.
@@ -4286,116 +4189,116 @@ TESTING PROCEDURE: 5.3.4
 ### sub-requirement 12.10
 #### sub-requirement 12.10.1
 
- **TESTING PROCEDURE**: 12.10.1.a
+**TESTING PROCEDURE**: 12.10.1.a
 *Reference Name*: Requirement 12 10 1 a Incident Response Plan Existence and Elements Verification
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining the incident response plan to verify that it exists and includes all the elements specified in the requirement, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.10.1.b (Part 1 - Interview Personnel)
+**TESTING PROCEDURE**: 12.10.1.b (Part 1 - Interview Personnel)
 *Reference Name*: Requirement 12 10 1 b Incident Response Plan Adherence Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to verify that the documented incident response plan and procedures were followed during previously reported incidents or alerts, aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.10.1.b (Part 2 - Examine Documentation)
+**TESTING PROCEDURE**: 12.10.1.b (Part 2 - Examine Documentation)
 *Reference Name*: Requirement 12 10 1 b Documented Incident Response Execution Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining documentation from previously reported incidents or alerts to confirm adherence to the incident response plan and procedures, which is in line with the review of documents.
 
 #### sub-requirement 12.10.2
 
- **TESTING PROCEDURE**: 12.10.2 (Part 1 - Interview Personnel)
+**TESTING PROCEDURE**: 12.10.2 (Part 1 - Interview Personnel)
 *Reference Name*: Requirement 12 10 2 Security Incident Response Plan Annual Review and Testing Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to verify that the security incident response plan is reviewed, updated as needed, and tested at least once every 12 months, including all elements listed in Requirement 12.10.1, which aligns with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.10.2 (Part 2 - Review Documentation)
+**TESTING PROCEDURE**: 12.10.2 (Part 2 - Review Documentation)
 *Reference Name*: Requirement 12 10 2 Security Incident Response Plan Annual Review and Testing Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves reviewing documentation to confirm that the security incident response plan is annually reviewed, updated, and tested, including verification of all listed elements, which is in line with the review of documents.
 
 #### sub-requirement 12.10.3
 
- **TESTING PROCEDURE**: 12.10.3 (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 12.10.3 (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 12 10 3 Incident Response Team 24/7 Availability Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that specific personnel are designated and available on a 24/7 basis to respond to security incidents, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.10.3 (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.10.3 (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 10 3 Incident Response Personnel 24/7 Availability Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel occupying designated roles to confirm their 24/7 availability for responding to security incidents, which aligns with the collection of interview notes.
 
 #### sub-requirement 12.10.4
 
- **TESTING PROCEDURE**: 12.10.4 (Part 1 - Examine Training Documentation)
+**TESTING PROCEDURE**: 12.10.4 (Part 1 - Examine Training Documentation)
 *Reference Name*: Requirement 12 10 4 Incident Response Personnel Training Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining training documentation to verify that incident response personnel are appropriately and periodically trained on their incident response responsibilities, which fits under the review of documents.
 
- **TESTING PROCEDURE**: 12.10.4 (Part 2 - Interview Incident Response Personnel)
+**TESTING PROCEDURE**: 12.10.4 (Part 2 - Interview Incident Response Personnel)
 *Reference Name*: Requirement 12 10 4 Incident Response Personnel Training Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing incident response personnel to confirm they are appropriately trained on their responsibilities, which aligns with the collection of interview notes.
 
 #### sub-requirement 12.10.4.1
 
- **TESTING PROCEDURE**: 12.10.4.1.a
+**TESTING PROCEDURE**: 12.10.4.1.a
 *Reference Name*: Requirement 12 10 4 1 a Incident Response Personnel Training Frequency Risk Analysis Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining the entity’s targeted risk analysis for the frequency of training for incident response personnel to verify that the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.10.4.1.b (Part 1 - Examine Documented Results)
+**TESTING PROCEDURE**: 12.10.4.1.b (Part 1 - Examine Documented Results)
 *Reference Name*: Requirement 12 10 4 1 b Incident Response Personnel Periodic Training Results Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the documented results of periodic training of incident response personnel to verify training is performed at the frequency defined in the entity’s targeted risk analysis, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 12.10.4.1.b (Part 2 - Interview Personnel)
+**TESTING PROCEDURE**: 12.10.4.1.b (Part 2 - Interview Personnel)
 *Reference Name*: Requirement 12 10 4 1 b Incident Response Personnel Training Frequency Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to confirm that training for incident response personnel is conducted at the frequency determined by the entity's targeted risk analysis, which aligns with the collection of interview notes.
 
 #### sub-requirement 12.10.5
 
- **TESTING PROCEDURE**: 12.10.5 (Part 1 - Examine Documentation)
+**TESTING PROCEDURE**: 12.10.5 (Part 1 - Examine Documentation)
 *Reference Name*: Requirement 12 10 5 Security Incident Response Plan Monitoring and Alert Response Documentation Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documentation to verify that monitoring and responding to alerts from security monitoring systems are covered in the security incident response plan, including the systems specified in the requirement, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.10.5 (Part 2 - Observe Incident Response Processes)
+**TESTING PROCEDURE**: 12.10.5 (Part 2 - Observe Incident Response Processes)
 *Reference Name*: Requirement 12 10 5 Incident Response Process Monitoring and Alert Response Observation
 *Evidence Category*: Observation Evidence
 *Reasoning*: This requires observing incident response processes to confirm that they include monitoring and responding to alerts from security monitoring systems as outlined in the incident response plan, aligning with observation of processes.
 
 #### sub-requirement 12.10.6
 
- **TESTING PROCEDURE**: 12.10.6.a
+**TESTING PROCEDURE**: 12.10.6.a
 *Reference Name*: Requirement 12 10 6 a Incident Response Plan Evolution Policies and Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining policies and procedures to verify that processes are defined to modify and evolve the security incident response plan according to lessons learned and to incorporate industry developments, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.10.6.b (Part 1 - Examine the Security Incident Response Plan)
+**TESTING PROCEDURE**: 12.10.6.b (Part 1 - Examine the Security Incident Response Plan)
 *Reference Name*: Requirement 12 10 6 b Incident Response Plan Continuous Improvement Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining the security incident response plan to verify it is modified and evolved according to lessons learned and industry developments, aligning with the review of documents.
 
- **TESTING PROCEDURE**: 12.10.6.b (Part 2 - Interview Responsible Personnel)
+**TESTING PROCEDURE**: 12.10.6.b (Part 2 - Interview Responsible Personnel)
 *Reference Name*: Requirement 12 10 6 b Incident Response Plan Update Process Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing responsible personnel to confirm that the incident response plan is continuously updated based on lessons learned and industry developments, which aligns with the collection of interview notes.
 
 #### sub-requirement 12.10.7
 
- **TESTING PROCEDURE**: 12.10.7.a
+**TESTING PROCEDURE**: 12.10.7.a
 *Reference Name*: Requirement 12 10 7 a Unexpected PAN Storage Incident Response Procedures Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining documented incident response procedures to verify that they include processes for responding to the detection of stored Primary Account Number (PAN) where it is not expected, ensuring they are ready to be initiated and include all specified elements, fitting under the review of documents.
 
- **TESTING PROCEDURE**: 12.10.7.b (Part 1 - Interview Personnel)
+**TESTING PROCEDURE**: 12.10.7.b (Part 1 - Interview Personnel)
 *Reference Name*: Requirement 12 10 7 b Unexpected PAN Detection Incident Response Verification Interviews
 *Evidence Category*: Interview Evidence
 *Reasoning*: This requires interviewing personnel to verify that incident response procedures are performed upon detection of stored PAN in unexpected locations, aligning with the collection of interview notes.
 
- **TESTING PROCEDURE**: 12.10.7.b (Part 2 - Examine Records of Response Actions)
+**TESTING PROCEDURE**: 12.10.7.b (Part 2 - Examine Records of Response Actions)
 *Reference Name*: Requirement 12 10 7 b Response Actions for Unexpected PAN Storage Records Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This part involves examining records of response actions to confirm that the incident response procedures are executed upon detection of stored PAN in unexpected areas, which aligns with the review of documents.

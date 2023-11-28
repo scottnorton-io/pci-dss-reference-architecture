@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a3f5ece4d4987dd2",
+        "id": "8f6a5eabdb96e703",
         "type": "tabs",
         "children": [
           {
-            "id": "0060b0c4e22275ca",
+            "id": "57c2cecb468f4219",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md"
+              }
             }
           }
         ]
@@ -139,12 +147,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0060b0c4e22275ca",
+  "active": "57c2cecb468f4219",
   "lastOpenFiles": [
+    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
     "pci-dss-v4.0-r1-annotated/requirement 12/sub-requirement 12.01.md",
     "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
     "pci-dss-v4.0-r1-annotated/requirement 12/requirement 12.md",
-    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
     "Untitled.canvas",
     "reference-material-for-review/pci-dss-v4.0-RoC/Untitled.canvas",
     "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
