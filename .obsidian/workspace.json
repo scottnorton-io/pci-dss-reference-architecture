@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd61c600d35ff9c",
+        "id": "a3f5ece4d4987dd2",
         "type": "tabs",
         "children": [
           {
-            "id": "1e22d8fc0c1340a2",
+            "id": "0060b0c4e22275ca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pci-dss-v4.0-r1-annotated/requirement 12/requirement 12.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4105d011f3945504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46e71beb1e6de5ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d5b7205044baf40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +39,15 @@
             }
           },
           {
-            "id": "acc0448c2a721824",
+            "id": "f82f11c3298a8389",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "486e69b8bebb72d1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -93,20 +60,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "f82f11c3298a8389",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c58d11ac367ebfb8",
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -180,21 +135,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "0d5b7205044baf40",
+  "active": "0060b0c4e22275ca",
   "lastOpenFiles": [
-    "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+    "pci-dss-v4.0-r1-annotated/requirement 12/sub-requirement 12.01.md",
     "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
     "pci-dss-v4.0-r1-annotated/requirement 12/requirement 12.md",
-    "pci-dss-v4.0-r1-annotated/requirement 12/sub-requirement 12.01.md",
+    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
+    "Untitled.canvas",
+    "reference-material-for-review/pci-dss-v4.0-RoC/Untitled.canvas",
+    "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+    "reference-material-for-review/pci-dss-v4.0-RoC/01-RoC-Template-Instructions.md",
     "pci-dss-v4.0-r1-annotated/requirement 12/sub-requirement 12.01.01.md",
     "pci-dss-v4.0-r1-annotated/requirement 12/TESTING PROCEDURE 12.01.01 - Part 1 - Examine the Information Security Policy.md",
     "pci-dss-v4.0-r1-annotated/requirement 12/reporting-instructions.md",
     "pci-dss-v4.0-r1-annotated/requirement 12",
     "pci-dss-v4.0-r1-annotated",
-    "Untitled.canvas",
     "README.md",
     "index.md",
     "2023-11-21.md",
@@ -214,7 +173,6 @@
     "reference-material-for-review/pci-dss-v4.0-annotated/01-request-template.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "reference-material-for-review/pci-dss-v4.0-RoC/Untitled.canvas",
     "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Requirement-01-Evidence-Sets.md"
   ]
 }

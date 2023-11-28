@@ -1,6 +1,6 @@
 ## sub-requirements
 ### [sub-requirement 12.01](sub-requirement%2012.01.md)
-### sub-requirement 12.1.1
+#### sub-requirement 12.1.1
 #### TESTING PROCEDURE: 12.1.1 (Part 1 - Examine the Information Security Policy)
         Reference Name: Requirement 12 1 1 Information Security Policy Management Examination
         Evidence Category: Documentation Evidence
@@ -9,7 +9,7 @@
         Reference Name: Requirement 12 1 1 Personnel Information Security Policy Management Interviews
         Evidence Category: Interview Evidence
         Reasoning: This part requires interviewing personnel regarding the management of the overall information security policy, which falls under the collection of interview notes.
-### sub-requirement 12.1.2
+#### sub-requirement 12.1.2
 #### TESTING PROCEDURE: 12.1.2 (Part 1 - Examine the Information Security Policy)
         Reference Name: Requirement 12 1 2 Information Security Policy Management Examination
         Evidence Category: Documentation Evidence
@@ -18,7 +18,7 @@
         Reference Name: Requirement 12 1 2 Personnel Information Security Policy Management Interviews
         Evidence Category: Interview Evidence
         Reasoning: This part requires interviewing responsible personnel regarding the management of the information security policy, which is aligned with the collection of interview notes.
-### sub-requirement 12.1.3
+#### sub-requirement 12.1.3
 #### TESTING PROCEDURE: 12.1.3.a
         Reference Name: Requirement 12 1 3 a Information Security Policy Roles and Responsibilities
         Evidence Category: Documentation Evidence
@@ -31,13 +31,13 @@
         Reference Name: Requirement 12 1 3 c Personnel Acknowledgment Information Security Responsibilities
         Evidence Category: Documentation Evidence
         Reasoning: This involves examining documented evidence of personnel acknowledging their information security responsibilities, which is categorized under the review of documents.
-### sub-requirement 12.1.4
+#### sub-requirement 12.1.4
 #### TESTING PROCEDURE: 12.1.4
       Reference Name: Requirement 12 1 4 Information Security Officer Assignment Policy Examination
       Evidence Category: Documentation Evidence
       Reasoning: This involves examining the information security policy to verify the formal assignment of information security responsibilities to a Chief Information Security Officer or another knowledgeable executive, which fits under the review of documents.
 ### sub-requirement 12.2
-### sub-requirement 12.2.1
+#### sub-requirement 12.2.1
 
 #### TESTING PROCEDURE: 12.2.1 (Part 1 - Examine Acceptable Use Policies for End-User Technologies)
         Reference Name: Requirement 12 2 1 End User Technologies Acceptable Use Policy Examination
@@ -49,7 +49,7 @@
         Evidence Category: Interview Evidence
         Reasoning: This part requires interviewing responsible personnel about the implementation of processes related to the acceptable use policies, which aligns with the collection of interview notes.
 ### sub-requirement 12.3
-### sub-requirement 12.3.1
+#### sub-requirement 12.3.1
 
 #### TESTING PROCEDURE: 12.3.1
 
@@ -68,12 +68,12 @@
 **Details**:
 - **Targeted Risk Analysis Process Documentation Review**: The focus here is on examining the organization's documented policies and procedures that outline the process for conducting targeted risk analyses. This examination ensures that the process adheres to the specific elements outlined in PCI DSS v4.0, particularly in relation to the flexibility provided for the frequency of performing various PCI DSS requirements. The assessment aims to validate that the process is comprehensive and includes all necessary elements to effectively analyze risks associated with payment card data security.
 
-### sub-requirement 12.3.2
+#### sub-requirement 12.3.2
 #### TESTING PROCEDURE: 12.3.2
       Reference Name: Requirement 12 3 2 Customized Approach Targeted Risk Analysis Documentation Examination
       Evidence Category: Documentation Evidence
       Reasoning: This involves examining the documented targeted risk analyses for each PCI DSS requirement met through the customized approach, verifying the existence of such documentation and its adherence to specified elements, which is in line with the review of documents.
-### sub-requirement 12.3.3
+#### sub-requirement 12.3.3
 
 #### TESTING PROCEDURE: 12.3.3 (Part 1 - Examine Documentation for Cryptographic Suites and Protocols)
         Reference Name: Requirement 12 3 3 Cryptographic Suites and Protocols Documentation Examination
@@ -85,7 +85,7 @@
         Evidence Category: Interview Evidence
         Reasoning: This part requires interviewing personnel to verify the documentation and review process for cryptographic suites and protocols, which aligns with the collection of interview notes.
 
-### sub-requirement 13.3.4
+#### sub-requirement 13.3.4
 
 #### TESTING PROCEDURE: 12.3.4 (Part 1 - Examine Documentation for Review of Hardware and Software Technologies)
         Reference Name: Requirement 12 3 4 Hardware and Software Technologies Review Documentation Examination
@@ -97,7 +97,7 @@
         Evidence Category: Interview Evidence
         Reasoning: This part requires interviewing personnel to verify that the review of hardware and software technologies is conducted in accordance with specified elements, which aligns with the collection of interview notes.
 ### sub-requirement 12.4
-### sub-requirement 12.4.1
+#### sub-requirement 12.4.1
 
 #### TESTING PROCEDURE: 12.4.1 (Service Provider Assessment)
 
@@ -116,7 +116,7 @@
 **Details**:
 - **Executive Management Responsibility Documentation**: This component involves reviewing the specific documentation created and maintained by the executive management of the service provider. The focus is on ensuring that the documentation clearly establishes executive management's responsibility for the protection of cardholder data and the overall PCI DSS compliance program. The review aims to confirm that the leadership is actively involved and committed to maintaining a secure and compliant payment processing environment, as per the guidelines of PCI DSS v4.0. This documentation serves as a testament to the organization's commitment to data security and compliance at the highest level of its operational hierarchy.
 
-### sub-requirement 12.4.2
+#### sub-requirement 12.4.2
 
 #### TESTING PROCEDURE: 12.4.2.a (Service Provider Assessment)
         Reference Name: Requirement 12 4 2 a Service Provider Security Policy and Operational Procedure Review Process Examination
@@ -153,7 +153,7 @@
 **Details**:
 - **Quarterly Review Processes and Records Assessment**: This evidence consists of interviews with responsible personnel and an examination of review records at the service provider. The aim is to ascertain that reviews of personnel's adherence to security policies and operational procedures are conducted at least every three months. Additionally, it is crucial to ensure that these reviews are carried out by individuals other than those responsible for the tasks being reviewed. This process forms a vital part of the service provider's internal control and oversight mechanisms, playing a key role in the ongoing evaluation and improvement of security practices, particularly in the context of protecting cardholder data as per PCI DSS requirements. The frequency and independence of these reviews are essential in maintaining objectivity and effectiveness in the service provider's compliance efforts.
 
-### sub-requirement 12.4.2.1
+#### sub-requirement 12.4.2.1
 
 #### TESTING PROCEDURE: 12.4.2.1 (Service Provider Assessment)
 
@@ -173,7 +173,7 @@
 - **Service Provider Review Documentation Analysis**: This evidence entails an examination of the documentation generated from reviews conducted by the service provider in compliance with PCI DSS Requirement 12.4.2. The objective is to ensure that the documentation effectively captures all the essential elements specified in Requirement 12.4.2.1. This includes, but is not limited to, the scope of the review, the methodology used, the findings, and any actions taken as a result of the review. Such documentation is critical in demonstrating the service provider's commitment to regularly assessing and improving its compliance with PCI DSS standards, particularly in areas related to the protection of cardholder data. The thoroughness and completeness of this documentation are vital for verifying the effectiveness of the service provider's internal control mechanisms and for ensuring continuous adherence to PCI DSS requirements.
 
 ### sub-requirement 12.5
-### sub-requirement 12.5.1
+#### sub-requirement 12.5.1
 
 #### TESTING PROCEDURE: 12.5.1.a
         Reference Name: Requirement 12 5 1 a In-Scope System Components Inventory Examination
@@ -205,7 +205,7 @@
 **Details**: 
 - **Inventory Management Interviews**: This evidence consists of interviews with personnel responsible for maintaining the inventory of in-scope system components. The purpose of these interviews is to verify that the inventory is kept current and accurately reflects the system components within the cardholder data environment. Maintaining an up-to-date inventory is crucial for effective information security management, as it ensures that all components are accounted for and appropriately secured in line with PCI DSS requirements. These interviews provide insight into the processes and practices employed by the organization to keep the inventory current, including how often it is updated, the method of updating, and the roles and responsibilities assigned for this task. Proper management of the inventory is fundamental to identifying and mitigating risks associated with system components that could impact the security of cardholder data.
 
-### sub-requirement 12.5.2
+#### sub-requirement 12.5.2
 
 #### TESTING PROCEDURE: 12.5.2.a (Part 1 - Examine Documented Results of Scope Reviews)
         Reference Name: Requirement 12 5 2 a Scope Review Frequency and Post-Change Documentation Examination
@@ -242,7 +242,7 @@
 **Details**: 
 - **PCI DSS Scoping Confirmation Review Analysis**: This evidence involves the examination of documented results from scope reviews conducted by the entity. The purpose is to ascertain that these scope reviews comprehensively include all elements specified under PCI DSS requirements. Such reviews are pivotal in confirming that the entity's approach to PCI DSS compliance accurately encompasses all system components within the cardholder data environment (CDE). These documented results offer a detailed perspective on how the entity identifies and manages its scope in relation to PCI DSS, ensuring that all necessary components are accounted for and no critical elements are overlooked. The thoroughness of these reviews is essential for maintaining robust security measures and ensuring comprehensive compliance with PCI DSS standards.
 
-### sub-requirement 12.5.2.1
+#### sub-requirement 12.5.2.1
 
 #### TESTING PROCEDURE: 12.5.2.1.a (Part 1 - Examine Documented Results of Scope Reviews) (Service Provider Assessment)
         Reference Name: Requirement 12 5 2 1 a Service Provider Biannual and Post-Change Scope Review Documentation Examination
@@ -259,7 +259,7 @@
         Evidence Category: Documentation Evidence
         Reasoning: This involves examining the documented results of scope reviews for service providers to verify that scoping validation includes all elements specified in Requirement 12.5.2, which is in line with the review of documents.
 
-### sub-requirement 12.5.3
+#### sub-requirement 12.5.3
 
 #### TESTING PROCEDURE: 12.5.3.a (Service Provider Assessment)
         Reference Name: Requirement 12 5 3 a Service Provider Organizational Structure Change Impact Review Policies and Procedures Examination
@@ -297,7 +297,7 @@
 - **Service Provider Organizational Change Documentation Review**: This evidence includes a thorough examination of documentation, such as meeting minutes, and interviews with responsible personnel to confirm that any significant changes to the organizational structure of a service provider have led to documented reviews. These reviews must cover all aspects specified in PCI DSS v4.0, ensuring that any implications for the organization's security posture and compliance status are fully assessed and understood. The focus is to ensure that these reviews, following major organizational changes, include a comprehensive analysis of the impact on PCI DSS scope and controls, and that the findings are effectively communicated to the executive management. This process is vital for maintaining continuous vigilance and adaptability in security practices, particularly in response to significant structural changes within the organization.
 
 ### sub-requirement 12.6
-### sub-requirement 12.6.1
+#### sub-requirement 12.6.1
 
 #### TESTING PROCEDURE: 12.6.1
 
@@ -316,7 +316,7 @@
 **Details**: 
 - **Security Awareness Program Review**: This evidence involves a detailed review of the security awareness program to ensure it comprehensively covers information about the entity's information security policies and procedures. The focus is on verifying that the program effectively communicates to all personnel their roles and responsibilities in protecting cardholder data. The program is expected to encompass various aspects of security awareness, including but not limited to data handling, password management, physical security, and response to security incidents. By scrutinizing the content and scope of the security awareness program, it can be confirmed that all personnel are adequately informed and trained on the essential security practices required to safeguard cardholder data in line with PCI DSS standards. This is a crucial step in ensuring that every member of the organization is equipped with the necessary knowledge and understanding to contribute to the overall security posture and compliance.
 
-### sub-requirement 12.6.2
+#### sub-requirement 12.6.2
 
 #### TESTING PROCEDURE: 12.6.2 (Part 1 - Examine Security Awareness Program Content)
         Reference Name: Requirement 12 6 2 Security Awareness Program Content Examination
@@ -348,7 +348,7 @@
 
 This comprehensive evaluation ensures that the security awareness program is not only well-documented and regularly reviewed but also effectively understood and implemented by all relevant personnel, thereby reinforcing the organization's commitment to maintaining a robust security culture.
 
-### sub-requirement 12.6.3
+#### sub-requirement 12.6.3
 
 #### TESTING PROCEDURE: 12.6.3.a
         Reference Name: Requirement 12 6 3 a Security Awareness Training Attendance Records Examination
@@ -429,7 +429,7 @@ These interviews are crucial in gauging the effectiveness of the security awaren
 
 This evidence is pivotal in demonstrating the organization's dedication to maintaining a high level of security awareness among its personnel. Regular updates and acknowledgments of the security policies and procedures are essential components of an effective security culture, reinforcing the importance of protecting cardholder data and ensuring ongoing compliance with PCI DSS standards.
 
-### sub-requirement 12.6.3.1
+#### sub-requirement 12.6.3.1
 
 #### TESTING PROCEDURE: 12.6.3.1
 
@@ -450,7 +450,7 @@ This evidence is pivotal in demonstrating the organization's dedication to maint
 
 This evidence is crucial for verifying that the organization's security awareness training program is not only comprehensive but also tailored to effectively educate its personnel on the key aspects of data security in line with PCI DSS standards. By ensuring that all necessary topics are covered, the organization demonstrates its commitment to maintaining a robust security posture and fostering a culture of continuous security awareness among its staff.
 
-### sub-requirement 12.6.3.2
+#### sub-requirement 12.6.3.2
 
 #### TESTING PROCEDURE: 12.6.3.2
 
@@ -472,7 +472,7 @@ This evidence is crucial for verifying that the organization's security awarenes
 This evidence is vital for validating that the organization's security awareness training adequately addresses the risks associated with end-user technologies. It ensures that all personnel are not only aware of the security policies but also understand their role in adhering to these guidelines to protect cardholder data. This aspect of the training is essential in fostering a security-conscious culture among staff and minimizing risks associated with end-user technology misuse or mismanagement.
 
 ### sub-requirement 12.7
-### sub-requirement 12.7.1
+#### sub-requirement 12.7.1
 
 #### TESTING PROCEDURE: 12.7.1
 
@@ -494,7 +494,7 @@ This evidence is vital for validating that the organization's security awareness
 The goal of this evidence is to verify that the organization is taking proactive measures to minimize the risk of security breaches by ensuring that individuals granted access to sensitive data areas are thoroughly vetted. This includes background checks, reference checks, or other screening methods as permitted by law. By conducting these interviews, the organization demonstrates its commitment to maintaining a secure data environment by carefully selecting personnel who have the responsibility and privilege of accessing the CDE.
 
 ### sub-requirement 12.8
-### sub-requirement 12.8.1
+#### sub-requirement 12.8.1
 
 #### TESTING PROCEDURE: 12.8.1.a
         Reference Name: Requirement 12 8 1 a TPSP List Maintenance Policies and Procedures Examination
@@ -530,7 +530,7 @@ The intent of reviewing this documentation is to ensure that the organization ha
 
 The purpose of this review is to ascertain the organization’s vigilance in keeping a detailed record of all TPSPs, which is essential for understanding the potential impact of these providers on the security of account data. The list forms a critical part of the organization’s overall strategy to manage and monitor the risks associated with third-party engagements, particularly those handling or potentially affecting the security of sensitive payment data.
 
-### sub-requirement 12.8.2
+#### sub-requirement 12.8.2
 
 #### TESTING PROCEDURE: 12.8.2.a
         Reference Name: Requirement 12 8 2 a TPSP Written Agreements Maintenance Policies and Procedures Examination
@@ -566,7 +566,7 @@ The focal point of this analysis is to validate that the organization's policies
 
 The primary objective is to confirm that all agreements with TPSPs clearly delineate their roles and responsibilities in protecting cardholder data. This includes assessing the provisions within these agreements for data security, incident response, and adherence to applicable PCI DSS standards. This analysis is pivotal in ensuring that all third-party engagements are underpinned by robust and compliant contractual foundations, thereby safeguarding the security and integrity of cardholder data across all external partnerships.
 
-### sub-requirement 12.8.3
+#### sub-requirement 12.8.3
 
 #### TESTING PROCEDURE: 12.8.3.a
         Reference Name: Requirement 12 8 3 a TPSP Engagement Process Policies and Procedures Examination
@@ -607,7 +607,7 @@ The objective of this review is to validate that the entity has in place a well-
 
 The objective is to ensure that the entity not only has defined procedures in place for engaging TPSPs (as per 12.8.3.a) but also effectively implements these procedures in practice. This involves examining various forms of evidence and conducting interviews to confirm that due diligence activities, such as assessing the TPSP’s security practices and compliance with PCI DSS, are rigorously executed. This evidence is essential to demonstrate that the entity actively and effectively manages the risks associated with engaging TPSPs, thus maintaining the integrity and security of the cardholder data environment.
 
-### sub-requirement 12.8.4
+#### sub-requirement 12.8.4
 
 #### TESTING PROCEDURE: 12.8.4.a
         Reference Name: Requirement 12 8 4 a TPSP PCI DSS Compliance Monitoring Policies and Procedures Examination
@@ -649,7 +649,7 @@ The objective is to confirm that the entity has established and documented forma
 
 The objective is to validate the entity’s diligence in regularly assessing the PCI DSS compliance of its TPSPs. This is a crucial aspect of risk management, ensuring that all service providers handling or affecting the security of cardholder data maintain the required security standards. Regular monitoring not only helps in identifying compliance gaps but also reinforces the importance of adhering to PCI DSS requirements. This evidence underscores the entity's commitment to maintaining a secure data processing environment and its proactive approach in managing potential risks posed by external service providers.
 
-### sub-requirement 12.8.5
+#### sub-requirement 12.8.5
 
 #### TESTING PROCEDURE: 12.8.5.a
         Reference Name: Requirement 12 8 5 a TPSP and Entity PCI DSS Responsibilities Policies and Procedures Examination
@@ -691,7 +691,7 @@ The objective of this evidence is to confirm that the entity has well-defined pr
 The focus is on ensuring that both the entity and its TPSPs have a clear and mutual understanding of their respective roles in managing PCI DSS compliance. This evidence plays a crucial role in highlighting the entity's diligence in ensuring that all aspects of PCI DSS requirements are addressed, either independently or in collaboration with its TPSPs. By verifying these responsibilities, it helps to minimize gaps in compliance and enhance the overall security posture of the cardholder data environment. This evidence reflects the entity's commitment to maintaining comprehensive and transparent relationships with its TPSPs, ensuring a cohesive approach to PCI DSS compliance.
 
 ### sub-requirement 12.9
-### sub-requirement 12.9.1
+#### sub-requirement 12.9.1
 
 #### TESTING PROCEDURE: 12.9.1 (Service Provider Assessment)
 
@@ -712,7 +712,7 @@ The focus is on ensuring that both the entity and its TPSPs have a clear and mut
 
 This evidence is critical to ensure that TPSPs formally recognize and commit to their role in protecting cardholder data as part of the service provided to customers. By examining these documents, we can confirm that TPSPs have established and adhered to structured processes for creating written acknowledgments, thereby upholding their responsibilities under PCI DSS. This ensures a clear and formalized understanding between TPSPs and their customers regarding the protection of cardholder data, which is a fundamental aspect of maintaining a secure cardholder data environment.
 
-### sub-requirement 12.9.2
+#### sub-requirement 12.9.2
 
 #### TESTING PROCEDURE: 12.9.2 (Service Provider Assessment)
 
@@ -732,7 +732,7 @@ This evidence is critical to ensure that TPSPs formally recognize and commit to 
 This evidence is significant as it highlights the TPSPs’ commitment to assisting their customers in complying with PCI DSS. By maintaining and following clear processes for responding to customer requests regarding PCI DSS compliance, TPSPs demonstrate their role as reliable partners in the payment ecosystem. This support is essential for customers to effectively manage and document their PCI DSS compliance, particularly in areas where TPSPs' services intersect with or impact the customers’ cardholder data environment. It ensures that there is a transparent and consistent approach to handling such information requests, thereby facilitating a collaborative effort in maintaining overall compliance with PCI DSS standards.
 
 ### sub-requirement 12.10
-### sub-requirement 12.10.1
+#### sub-requirement 12.10.1
 
 #### TESTING PROCEDURE: 12.10.1.a
         Reference Name: Requirement 12 10 1 a Incident Response Plan Existence and Elements Verification
@@ -775,7 +775,7 @@ The significance of this evidence lies in its demonstration of the organization'
 
 The combination of interviews and documentation review provides a thorough evaluation of the organization's readiness and efficiency in managing security incidents. This evidence ensures that the organization is not only prepared theoretically but also practically capable of responding to and managing incidents effectively, which is vital for maintaining the security and integrity of the cardholder data environment.
 
-### sub-requirement 12.10.2
+#### sub-requirement 12.10.2
 
 #### TESTING PROCEDURE: 12.10.2 (Part 1 - Interview Personnel)
         Reference Name: Requirement 12 10 2 Security Incident Response Plan Annual Review and Testing Verification Interviews
@@ -802,7 +802,7 @@ The combination of interviews and documentation review provides a thorough evalu
 
 The combination of personnel interviews and the review of testing documentation is crucial in ensuring that the incident response plan is not only theoretically sound but also practically viable and regularly updated to meet emerging security challenges. This evidence underscores the importance of not only having a response plan in place but also regularly testing and updating it to ensure continued effectiveness in protecting the cardholder data environment.
 
-### sub-requirement 12.10.3
+#### sub-requirement 12.10.3
 #### TESTING PROCEDURE: 12.10.3 (Part 1 - Examine Documentation)
         Reference Name: Requirement 12 10 3 Incident Response Team 24/7 Availability Documentation Examination
         Evidence Category: Documentation Evidence
@@ -813,7 +813,7 @@ The combination of personnel interviews and the review of testing documentation 
         Evidence Category: Interview Evidence
         Reasoning: This requires interviewing responsible personnel occupying designated roles to confirm their 24/7 availability for responding to security incidents, which aligns with the collection of interview notes.
 
-### sub-requirement 12.10.4
+#### sub-requirement 12.10.4
 #### TESTING PROCEDURE: 12.10.4 (Part 1 - Examine Training Documentation)
         Reference Name: Requirement 12 10 4 Incident Response Personnel Training Documentation Examination
         Evidence Category: Documentation Evidence
@@ -822,7 +822,7 @@ The combination of personnel interviews and the review of testing documentation 
         Reference Name: Requirement 12 10 4 Incident Response Personnel Training Verification Interviews
         Evidence Category: Interview Evidence
         Reasoning: This requires interviewing incident response personnel to confirm they are appropriately trained on their responsibilities, which aligns with the collection of interview notes.
-### sub-requirement 12.10.4.1
+#### sub-requirement 12.10.4.1
 #### TESTING PROCEDURE: 12.10.4.1.a
         Reference Name: Requirement 12 10 4 1 a Incident Response Personnel Training Frequency Risk Analysis Examination
         Evidence Category: Documentation Evidence
@@ -835,7 +835,7 @@ The combination of personnel interviews and the review of testing documentation 
         Reference Name: Requirement 12 10 4 1 b Incident Response Personnel Training Frequency Verification Interviews
         Evidence Category: Interview Evidence
         Reasoning: This requires interviewing personnel to confirm that training for incident response personnel is conducted at the frequency determined by the entity's targeted risk analysis, which aligns with the collection of interview notes.
-### sub-requirement 12.10.5
+#### sub-requirement 12.10.5
 #### TESTING PROCEDURE: 12.10.5 (Part 1 - Examine Documentation)
         Reference Name: Requirement 12 10 5 Security Incident Response Plan Monitoring and Alert Response Documentation Examination
         Evidence Category: Documentation Evidence
@@ -846,7 +846,7 @@ The combination of personnel interviews and the review of testing documentation 
         Evidence Category: Observation Evidence
         Reasoning: This requires observing incident response processes to confirm that they include monitoring and responding to alerts from security monitoring systems as outlined in the incident response plan, aligning with observation of processes.
 
-### sub-requirement 12.10.6
+#### sub-requirement 12.10.6
 #### TESTING PROCEDURE: 12.10.6.a
         Reference Name: Requirement 12 10 6 a Incident Response Plan Evolution Policies and Procedures Examination
         Evidence Category: Documentation Evidence
@@ -860,7 +860,7 @@ The combination of personnel interviews and the review of testing documentation 
         Evidence Category: Interview Evidence
         Reasoning: This requires interviewing responsible personnel to confirm that the incident response plan is continuously updated based on lessons learned and industry developments, which aligns with the collection of interview notes.
 
-### sub-requirement 12.10.7
+#### sub-requirement 12.10.7
 #### TESTING PROCEDURE: 12.10.7.a
         Reference Name: Requirement 12 10 7 a Unexpected PAN Storage Incident Response Procedures Examination
         Evidence Category: Documentation Evidence
