@@ -147,8 +147,8 @@
 *Reasoning*: This involves examining configurations for NSCs to verify that configurations identified as no longer being supported by a business justification are removed or updated, fitting under the review of documents.
 
 #### sub-requirement 1.2.8
-**TESTING PROCEDURE**: 1.2.8
 
+**TESTING PROCEDURE**: 1.2.8
 *Reference Name*: Requirement 1 2 8 NSC Configuration Files Compliance Examination
 *Evidence Category*: Documentation Evidence
 *Reasoning*: This involves examining configuration files for Network Security Controls (NSCs) to verify they are in accordance with all elements specified in this requirement, fitting under the review of documents.
