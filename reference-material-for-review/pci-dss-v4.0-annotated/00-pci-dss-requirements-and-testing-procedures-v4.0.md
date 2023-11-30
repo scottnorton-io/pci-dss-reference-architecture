@@ -1107,9 +1107,6 @@ Defaults to be considered include user IDs, passwords, and other authentication 
 
 ---
 
-##### REQUIREMENTS and TESTING PROCEDURES
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.3 Primary functions requiring different security levels are managed as follows:
