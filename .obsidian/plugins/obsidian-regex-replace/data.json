@@ -1,0 +1,10 @@
+{
+  "findText": "\\*Reference Name\\*: Requirement (\\d{1,2} \\d{1,2}(?: \\d{1,2})?(?: [a-f])?)",
+  "replaceText": "*Reference Name*: Requirement $1-$2-$3$4",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}

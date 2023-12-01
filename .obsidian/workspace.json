@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "196a91b38d0a98b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f6a5eabdb96e703",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57c2cecb468f4219",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a377c026739d0f6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f1b3df93a9d9f0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebc51c55f0b991fd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f82f11c3298a8389",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "486e69b8bebb72d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "c58d11ac367ebfb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e681ae5ddcba780f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b660697da13c6f84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "091a53083a60bf1f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "97b493f4bc172e27",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c71a73d9cadf4b2f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "ebc51c55f0b991fd",
+  "lastOpenFiles": [
+    "reference-material-for-review/pci-dss-v4.0-RoC/evidence-breakouts.csv",
+    "reference-material-for-review/pci-dss-v4.0-RoC/output.csv",
+    "reference-material-for-review/pci-dss-v4.0-RoC/test.ps1",
+    "reference-material-for-review/pci-dss-v4.0-RoC/desktop.ini",
+    "desktop.ini",
+    "reference-material-for-review/obsidian-framework/desktop.ini",
+    "output.csv",
+    "reference-material-for-review/pci-dss-v4.0-RoC/parse.ps1",
+    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Evidence-Sets.md",
+    "pci-dss-v4.0-r1-annotated/requirement 12/sub-requirement 12.01.md",
+    "reference-material-for-review/pci-dss-v4-prioritized-gap-guidance/pci-dss-v4-requirements-and-testing-procedures-annotized.md",
+    "pci-dss-v4.0-r1-annotated/requirement 12/requirement 12.md",
+    "Untitled.canvas",
+    "reference-material-for-review/pci-dss-v4.0-RoC/Untitled.canvas",
+    "reference-material-for-review/pci-dss-v4.0-annotated/00-pci-dss-requirements-and-testing-procedures-v4.0.md",
+    "reference-material-for-review/pci-dss-v4.0-RoC/01-RoC-Template-Instructions.md",
+    "pci-dss-v4.0-r1-annotated/requirement 12/sub-requirement 12.01.01.md",
+    "pci-dss-v4.0-r1-annotated/requirement 12/TESTING PROCEDURE 12.01.01 - Part 1 - Examine the Information Security Policy.md",
+    "pci-dss-v4.0-r1-annotated/requirement 12/reporting-instructions.md",
+    "pci-dss-v4.0-r1-annotated/requirement 12",
+    "pci-dss-v4.0-r1-annotated",
+    "README.md",
+    "index.md",
+    "2023-11-21.md",
+    "reference-material-for-review/images/GitOps-1-1024x575-1.jpg",
+    "reference-material-for-review/lists/account.md",
+    "documentation/third-party/PCI-DSS-v4_0.pdf",
+    "reference-material-for-review/obsidian-framework/00.md",
+    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Requirement-09-Evidence-Sets.md",
+    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Requirement-08-Evidence-Sets copy.md",
+    "reference-material-for-review/obsidian-framework/Untitled.canvas",
+    "reference-material-for-review/pci-dss-remote-assessment/00-remote-assessment-guidelines-and-procedures-v1.0.md",
+    "reference-material-for-review/pci-dss-v4.0-annotated/pciv4.0-r01.01-CI-rev02-request.md",
+    "reference-material-for-review/pci-dss-v4.0-annotated/01-request-template.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "reference-material-for-review/pci-dss-v4.0-RoC/02-RoC-Requirement-01-Evidence-Sets.md"
+  ]
+}

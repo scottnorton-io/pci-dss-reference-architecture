@@ -16,7 +16,7 @@ This annotated reference is based on information sourced from [PCI SSC and the P
 
 [PRINCIPLE PCI DSS REQUIREMENT: Maintain an Information Security Policy](#principle-pci-dss-requirement-maintain-an-information-security-policy)
 
-[Appendix A Additonal PCI Requirements](#appendix-a-additonal-pci-requirements)
+[Appendix A Additional PCI Requirements](#appendix-a-additional-pci-requirements)
 
 [Appendix B Compensating Controls](#appendix-b-compensating-controls)
 
@@ -1106,9 +1106,6 @@ Defaults to be considered include user IDs, passwords, and other authentication 
 
 
 ---
-
-##### REQUIREMENTS and TESTING PROCEDURES
-
 
 ###### DEFINED APPROACH REQUIREMENTS
 
@@ -13009,7 +13006,7 @@ Entities should consider whether there are contributory factors, such as busines
 
 ---
 
-## Appendix A Additonal PCI Requirements
+## Appendix A Additional PCI Requirements
 
 #### OVERVIEW
 This appendix contains additional PCI DSS requirements for different types of entities.
@@ -13024,14 +13021,14 @@ Guidance and applicability information is provided in each section.
 
 [Appendix A3: Designated Entities Supplemental Validation (DESV)]()
 
-[Appendix A](#appendix-a-additonal-pci-requirements) | 
+[Appendix A](#appendix-a-additional-pci-requirements) | 
 [appendices](#appendices) | 
 [principles](#principles) | 
 [top](#pci-dss-v40)
 
 ---
 
-## Appendix A Additonal PCI Requirements
+## Appendix A Additional PCI Requirements
 
 ### Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers
 
@@ -13390,7 +13387,7 @@ Implementing secure methods for customers to report security incidents and vulne
 
 ---
 
-## Appendix A Additonal PCI Requirements
+## Appendix A Additional PCI Requirements
 
 ### Appendix A2: Additional PCI DSS Requirements for Entities Using SSL/Early TLS for Card- Present POS POI Terminal Connections
 
@@ -13562,7 +13559,7 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 
 ---
 
-## Appendix A Additonal PCI Requirements
+## Appendix A Additional PCI Requirements
 
 ### Appendix A3: Designated Entities Supplemental Validation (DESV)
 
