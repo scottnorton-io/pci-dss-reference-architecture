@@ -76,7 +76,6 @@ This annotated reference is based on information sourced from [PCI SSC and the P
 
 [Appendix G: PCI DSS Glossary of Terms, Abbreviations, and Acronyms]()
 
-
 ---
 
 ## PRINCIPLE PCI DSS REQUIREMENT: Build and Maintain a Secure Network and Systems
@@ -109,8 +108,8 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [1.5 Risks to the CDE from computing devices that are able to connect to both untrusted networks and the CDE are mitigated.](#requirements-and-testing-procedures-15)
 
-[requirement 1](#requirement-1-install-and-maintain-network-security-controls) | 
-[requirements](#requirements) | 
+[requirement 1](#requirement-1-install-and-maintain-network-security-controls) |
+[requirements](#requirements) |
 [principles](#principles) |
 [top](#pci-dss-v40)
 
@@ -123,6 +122,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.1.1	All security policies and operational procedures that are identified in Requirement 1 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -134,10 +134,9 @@ Expectations, controls, and oversight for meeting activities within Requirement 
 
 ###### APPLICABILITY NOTES
 
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-1.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 1 are managed in accordance with all elements specified in this requirement.	
+1.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 1 are managed in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
@@ -192,7 +191,7 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
-[sections 1](#sections-1) | 
+[sections 1](#sections-1) |
 [top](#pci-dss-v40)
 
 ---
@@ -204,25 +203,22 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.2.1	Configuration standards for NSC rulesets are:
+
 - Defined.
 - Implemented.
 - Maintained.
-
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
 The way that NSCs are configured and operate are defined and consistently applied.
 
-
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 1.2.1.a Examine the configuration standards for NSC rulesets to verify the standards are in accordance with all elements specified in this requirement.
 
 1.2.1.b Examine configuration settings for NSC rulesets to verify that rulesets are implemented according to the configuration standards.
-	
 
 ##### GUIDANCE
 
@@ -258,7 +254,6 @@ Changes to network connections and NSCs cannot result in misconfiguration, imple
 Changes to network connections include the addition, removal, or modification of a connection.
 Changes to NSC configurations include those related to the component itself as well as those affecting how it performs its security function.
 
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 1.2.2.a Examine documented procedures to verify that changes to network connections and configurations of NSCs are included in the formal change control process in accordance with Requirement 6.5.1.
@@ -275,7 +270,6 @@ Changes should be approved by individuals with the appropriate authority and kno
 
 To avoid having to address security issues introduced by a change, all changes should be approved prior to being implemented and verified after the change is implemented. Once approved and verified, network documentation should be updated to include the changes to prevent inconsistencies between network documentation and the actual configuration.
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
@@ -287,6 +281,7 @@ To avoid having to address security issues introduced by a change, all changes s
 A representation of the boundaries between the CDE, all trusted networks, and all untrusted networks, is maintained and available.
 
 ###### APPLICABILITY NOTES
+
 A current network diagram(s) or other technical or topological solution that identifies network connections and devices can be used to meet this requirement.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
@@ -306,6 +301,7 @@ A properly maintained network diagram(s) helps an organization verify its PCI DS
 **Good Practice**
 
 All connections to and from the CDE should be identified, including systems providing security, management, or maintenance services to CDE system components. Entities should consider including the following in their network diagrams:
+
 - All locations, including retail locations, data centers, corporate locations, cloud providers, etc.
 - Clear labeling of all network segments.
 - All security controls providing segmentation, including unique identifiers for each control (for example, name of control, make, model, and version).
@@ -314,12 +310,12 @@ All connections to and from the CDE should be identified, including systems prov
 - Date of last update, and names of people that made and approved the updates.
 - A legend or key to explain the diagram.
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.2.4 An accurate data-flow diagram(s) is maintained that meets the following:
+
 - Shows all account data flows across systems and networks.
 - Updated as needed upon changes to the environment.
 
@@ -350,6 +346,7 @@ Maintaining an up-to-date data-flow diagram(s) prevents account data from being 
 The data-flow diagram should include all connection points where account data is received into and sent out of the network, including connections to open, public networks, application processing flows, storage, transmissions between systems and networks, and file backups.
 
 The data-flow diagram is meant to be in addition to the network diagram and should reconcile with and augment the network diagram. As a best practice, entities can consider including the following in their data-flow diagrams:
+
 - All processing flows of account data, including authorization, capture, settlement, chargeback, and refunds.
 - All distinct acceptance channels, including card-present, card-not-present, and e- commerce.
 - All types of data receipt or transmission, including any involving hard copy/paper media.
@@ -370,7 +367,6 @@ Unauthorized network traffic (services, protocols, or packets destined for speci
 
 ###### APPLICABILITY NOTES
 
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 1.2.5.a Examine documentation to verify that a list exists of all allowed services, protocols, and ports, including business justification and approval for each.
@@ -387,7 +383,6 @@ Compromises often happen due to unused or insecure services (for example, telnet
 
 The security risk associated with each service, protocol, and port allowed should be understood. Approvals should be granted by personnel independent of those managing the configuration. Approving personnel should possess knowledge and accountability appropriate for making approval decisions.
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
@@ -399,7 +394,6 @@ The security risk associated with each service, protocol, and port allowed shoul
 The specific risks associated with the use of insecure services, protocols, and ports are understood, assessed, and appropriately mitigated.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -425,7 +419,6 @@ If insecure services, protocols, or ports are necessary for business, the risk p
 
 For guidance on services, protocols, or ports considered to be insecure, refer to industry standards and guidance (for example, from NIST, ENISA, OWASP).
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
@@ -437,7 +430,6 @@ For guidance on services, protocols, or ports considered to be insecure, refer t
 NSC configurations that allow or restrict access to trusted networks are verified periodically to ensure that only authorized connections with a current business justification are permitted.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -467,12 +459,12 @@ While this requirement specifies that this review occur at least once every six 
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.2.8 Configuration files for NSCs are:
+
 - Secured from unauthorized access.
 - Kept consistent with active network configurations
 
@@ -506,8 +498,7 @@ If the secure configuration for a router is stored in non-volatile memory, when 
 
 **Further Information**
 
-
-[sections 1](#sections-1) | 
+[sections 1](#sections-1) |
 [top](#pci-dss-v40)
 
 ---
@@ -519,6 +510,7 @@ If the secure configuration for a router is stored in non-volatile memory, when 
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.3.1	Inbound traffic to the CDE is restricted as follows:
+
 - To only traffic that is necessary.
 - All other traffic is specifically denied
 
@@ -527,7 +519,6 @@ If the secure configuration for a router is stored in non-volatile memory, when 
 Unauthorized traffic cannot enter the CDE.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -553,12 +544,12 @@ Implementing a rule that denies all inbound and outbound traffic that is not spe
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.3.2 Outbound traffic from the CDE is restricted as follows:
+
 - To only traffic that is necessary.
 - All other traffic is specifically denied.
 
@@ -567,7 +558,6 @@ Implementing a rule that denies all inbound and outbound traffic that is not spe
 Unauthorized traffic cannot leave the CDE.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -593,12 +583,12 @@ Implementing a rule that denies all inbound and outbound traffic that is not spe
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.3.3 NSCs are installed between all wireless networks and the CDE, regardless of whether the wireless network is a CDE, such that:
+
 - All wireless traffic from wireless networks into the CDE is denied by default.
 - Only wireless traffic with an authorized business purpose is allowed into the CDE.
 
@@ -607,7 +597,6 @@ Implementing a rule that denies all inbound and outbound traffic that is not spe
 Unauthorized traffic cannot traverse network boundaries between any wireless networks and wired environments in the CDE.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -627,11 +616,11 @@ The known (or unknown) implementation and exploitation of wireless technology wi
 
 **Further Information**
 
-
-[sections 1](#sections-1) | 
+[sections 1](#sections-1) |
 [top](#pci-dss-v40)
 
 ---
+
 ##### REQUIREMENTS and TESTING PROCEDURES 1.4
 
 1.4 Network connections between trusted and untrusted networks are controlled.
@@ -645,7 +634,6 @@ The known (or unknown) implementation and exploitation of wireless technology wi
 Unauthorized traffic cannot traverse network boundaries between trusted and untrusted networks.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -668,16 +656,15 @@ An entity could implement a DMZ, which is a part of the network that manages con
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.4.2 Inbound traffic from untrusted networks to trusted networks is restricted to:
+
 - Communications with system components that are authorized to provide publicly accessible services, protocols, and ports.
 - Stateful responses to communications initiated by system components in a trusted network.
 - All other traffic is denied.
-
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -693,6 +680,7 @@ This requirement does not limit the use of UDP or other connectionless network p
 1.4.2 Examine vendor documentation and configurations of NSCs to verify that inbound traffic from untrusted networks to trusted networks is restricted in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
+
 **Purpose**
 
 Ensuring that public access to a system component is specifically authorized reduces the risk of system components being unnecessarily exposed to untrusted networks.
@@ -712,7 +700,6 @@ Maintaining the "state" (or status) for each connection into a network means the
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
@@ -724,7 +711,6 @@ Maintaining the "state" (or status) for each connection into a network means the
 Packets with forged IP source addresses cannot enter a trusted network.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -748,7 +734,6 @@ Normally, a packet contains the IP address of the computer that originally sent 
 Malicious individuals will often try to spoof (or imitate) the sending IP address to fool the target system into believing the packet is from a trusted source.
 
 **Further Information**
-
 
 ---
 
@@ -784,7 +769,6 @@ Cardholder data that is directly accessible from an untrusted network, for examp
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
@@ -796,7 +780,6 @@ Cardholder data that is directly accessible from an untrusted network, for examp
 Internal network information is protected from unauthorized disclosure.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -816,10 +799,10 @@ Methods used to meet the intent of this requirement may vary, depending on the s
 
 **Definitions**
 
-
 **Examples**
 
 Methods to obscure IP addressing may include, but are not limited to:
+
 - IPv4 Network Address Translation (NAT).
 - Placing system components behind proxy servers/NSCs.
 - Removal or filtering of route advertisements for internal networks that use registered addressing.
@@ -827,8 +810,7 @@ Methods to obscure IP addressing may include, but are not limited to:
 
 **Further Information**
 
-
-[sections 1](#sections-1) | 
+[sections 1](#sections-1) |
 [top](#pci-dss-v40)
 
 ---
@@ -840,6 +822,7 @@ Methods to obscure IP addressing may include, but are not limited to:
 ###### DEFINED APPROACH REQUIREMENTS
 
 1.5.1	Security controls are implemented on any computing devices, including company- and employee-owned devices, that connect to both untrusted networks (including the Internet) and the CDE as follows:
+
 - Specific configuration settings are defined to prevent threats being introduced into the entity’s network.
 - Security controls are actively running.
 - Security controls are not alterable by users of the computing devices unless specifically documented and authorized by management on a case-by-case basis for a limited period.
@@ -877,15 +860,13 @@ It is recognized that administrators have privileges that may allow them to disa
 
 **Definitions**
 
-
 **Examples**
 
 Practices include forbidding split-tunneling of VPNs for employee-owned or corporate-owned mobile devices and requiring that such devices boot up into a VPN.
 
 **Further Information**
 
-
-[sections 1](#sections-1) | 
+[sections 1](#sections-1) |
 [top](#pci-dss-v40)
 
 ---
@@ -893,6 +874,7 @@ Practices include forbidding split-tunneling of VPNs for employee-owned or corpo
 ### Requirement 2: Apply Secure Configurations to All System Components
 
 #### OVERVIEW
+
 Malicious individuals, both external and internal to an entity, often use default passwords and other vendor default settings to compromise systems. These passwords and settings are well known and are easily determined via public information.
 
 Applying secure configurations to system components reduces the means available to an attacker to compromise the system. Changing default passwords, removing unnecessary software, functions, and accounts, and disabling or removing unnecessary services all help to reduce the potential attack surface.
@@ -907,11 +889,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [2.3	Wireless environments are configured and managed securely.](#requirements-and-testing-procedures-23)
 
-[requirement 2](#requirement-2-apply-secure-configurations-to-all-system-components) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 2](#requirement-2-apply-secure-configurations-to-all-system-components) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
-
 
 ---
 
@@ -922,6 +903,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.1.1	All security policies and operational procedures that are identified in Requirement 2 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -932,7 +914,6 @@ Refer to Appendix G for definitions of PCI DSS terms.
 Expectations, controls, and oversight for meeting activities within Requirement 2 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -958,7 +939,6 @@ Operational procedures describe how to perform activities, and define the contro
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
@@ -971,13 +951,11 @@ Day-to-day responsibilities for performing all the activities in Requirement 2 a
 
 ###### APPLICABILITY NOTES
 
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 2.1.2.a Examine documentation to verify that descriptions of roles and responsibilities for performing activities in Requirement 2 are documented and assigned.
 
 2.1.2.b Interview personnel with responsibility for performing activities in Requirement 2 to verify that roles and responsibilities are assigned as documented and are understood.
-
 
 ##### GUIDANCE
 
@@ -999,18 +977,19 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 **Further Information**
 
-
-[sections 2](#sections-2) | 
+[sections 2](#sections-2) |
 [top](#pci-dss-v40)
 
 ---
 
 ##### REQUIREMENTS and TESTING PROCEDURES 2.2
+
 2.2 System components are configured and managed securely.
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.1	Configuration standards are developed, implemented, and maintained to:
+
 - Cover all system components.
 - Address all known security vulnerabilities.
 - Be consistent with industry-accepted system hardening standards or vendor hardening recommendations.
@@ -1022,7 +1001,6 @@ A method to document roles and responsibilities is a responsibility assignment m
 All system components are configured securely and consistently and in accordance with industry- accepted hardening standards or vendor recommendations.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1060,6 +1038,7 @@ Sources for guidance on configuration standards include but are not limited to: 
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.2 Vendor default accounts are managed as follows:
+
 - If the vendor default account(s) will be used, the default password is changed per Requirement 8.3.6.
 - If the vendor default account(s) will not be used, the account is removed or disabled
 
@@ -1072,7 +1051,6 @@ System components cannot be accessed using default passwords.
 This applies to ALL vendor default accounts and passwords, including, but not limited to, those used by operating systems, software that provides security services, application and system accounts, point-of-sale (POS) terminals, payment applications, and Simple Network Management Protocol (SNMP) defaults.
 
 This requirement also applies where a system component is not installed within an entity’s environment, for example, software and applications that are part of the CDE and are accessed via a cloud subscription service.
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1104,16 +1082,16 @@ Defaults to be considered include user IDs, passwords, and other authentication 
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.3 Primary functions requiring different security levels are managed as follows:
+
 - Only one primary function exists on a system component,
-OR
+  OR
 - Primary functions with differing security levels that exist on the same system component are isolated from each other,
-OR
+  OR
 - Primary functions with differing security levels on the same system component are all secured to the level required by the function with the highest security need.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -1122,7 +1100,6 @@ Primary functions with lower security needs cannot affect the security of primar
 
 ###### APPLICABILITY NOTES
 
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 2.2.3.a Examine system configuration standards to verify they include managing primary functions requiring different security levels as specified in this requirement.
@@ -1130,6 +1107,7 @@ Primary functions with lower security needs cannot affect the security of primar
 2.2.3.b Examine system configurations to verify that primary functions requiring different security levels are managed per one of the ways specified in this requirement.
 
 2.2.3.c Where virtualization technologies are used, examine the system configurations to verify that system functions requiring different security levels are managed in one of the following ways:
+
 - Functions with differing security needs do not co-exist on the same system component.
 - Functions with differing security needs that exist on the same system component are isolated from each other.
 - Functions with differing security needs on the same system component are all secured to the level required by the function with the highest security need.
@@ -1149,6 +1127,7 @@ If a system component contains primary functions that need different security le
 Functions of differing security levels may be isolated by either physical or logical controls. For example, a database system should not also be hosting web services unless using controls like virtualization technologies to isolate and contain the functions into separate sub-systems. Another example is using virtual instances or providing dedicated memory access by system function.
 
 Where virtualization technologies are used, the security levels should be identified and managed for each virtual component. Examples of considerations for virtualized environments include:
+
 - The function of each application, container, or virtual server instance.
 - How virtual machines (VMs) or containers are stored and secured.
 
@@ -1157,7 +1136,6 @@ Where virtualization technologies are used, the security levels should be identi
 **Examples**
 
 **Further Information**
-
 
 ---
 
@@ -1171,12 +1149,12 @@ System components cannot be compromised by exploiting unnecessary functionality 
 
 ###### APPLICABILITY NOTES
 
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 2.2.4.a Examine system configuration standards to verify necessary system services, protocols, and daemons are identified and documented.
 
 2.2.4.b Examine system configurations to verify the following:
+
 - All unnecessary functionality is removed or disabled.
 - Only required functionality, as documented in the configuration standards, is enabled.
 
@@ -1198,22 +1176,20 @@ Unnecessary functionality may include, but is not limited to scripts, drivers, f
 
 **Further Information**
 
-
 ---
 
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.2.5 If any insecure services, protocols, or daemons are present:
+
 - Business justification is documented.
 - Additional security features are documented and implemented that reduce the risk of using insecure services, protocols, or daemons.
-
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
 System components cannot be compromised by exploiting insecure services, protocols, or daemons
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1250,7 +1226,6 @@ For guidance on services, protocols, or daemons considered to be insecure, refer
 System components cannot be compromised because of incorrect security parameter configuration.
 
 ###### APPLICABILITY NOTES
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1323,8 +1298,7 @@ Cleartext protocols (such as HTTP, telnet, etc.) do not encrypt traffic or logon
 **Further Information**
 Refer to industry standards and best practices such as NIST SP 800-52 and SP 800-57.
 
-
-[sections 2](#sections-2) | 
+[sections 2](#sections-2) |
 [top](#pci-dss-v40)
 
 ---
@@ -1336,6 +1310,7 @@ Refer to industry standards and best practices such as NIST SP 800-52 and SP 800
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.3.1 For wireless environments connected to the CDE or transmitting account data, all wireless vendor defaults are changed at installation or are confirmed to be secure, including but not limited to:
+
 - Default wireless encryption keys.
 - Passwords on wireless access points.
 - SNMP defaults.
@@ -1354,6 +1329,7 @@ This includes, but is not limited to, default wireless encryption keys, password
 2.3.1.a Examine policies and procedures and interview responsible personnel to verify that processes are defined for wireless vendor defaults to either change them upon installation or to confirm them to be secure in accordance with all elements of this requirement.
 
 2.3.1.b Examine vendor documentation and observe a system administrator logging into wireless devices to verify:
+
 - SNMP defaults are not used.
 - Default passwords/passphrases on wireless access points are not used.
 
@@ -1375,9 +1351,7 @@ Wireless passwords should be constructed so that they are resistant to offline b
 
 **Further Information**
 
-
-
-[sections 2](#sections-2) | 
+[sections 2](#sections-2) |
 [top](#pci-dss-v40)
 
 ---
@@ -1385,6 +1359,7 @@ Wireless passwords should be constructed so that they are resistant to offline b
 ###### DEFINED APPROACH REQUIREMENTS
 
 2.3.2 For wireless environments connected to the CDE or transmitting account data, wireless encryption keys are changed as follows:
+
 - Whenever personnel with knowledge of the key leave the company or the role for which the knowledge was necessary.
 - Whenever a key is suspected of or known to be compromised.
 
@@ -1393,8 +1368,6 @@ Wireless passwords should be constructed so that they are resistant to offline b
 Knowledge of wireless encryption keys cannot allow unauthorized access to wireless networks.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1416,23 +1389,16 @@ In addition, any keys that are known to be, or suspected of being, compromised s
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 2](#sections-2) | 
+[sections 2](#sections-2) |
 [top](#pci-dss-v40)
 
 ---
 
 ## PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data
-
 
 ### Requirement 3: Protect Stored Account Data
 
@@ -1445,7 +1411,6 @@ If account data is present in non-persistent memory (for example, RAM, volatile 
 Requirement 3 applies to protection of stored account data unless specifically called out in an individual requirement.
 
 Refer to Appendix G for definitions of “strong cryptography” and other PCI DSS terms.
-
 
 #### SECTIONS 3
 
@@ -1463,9 +1428,9 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 [3.7 Where cryptography is used to protect stored account data, key management processes and procedures covering all aspects of the key lifecycle are defined and implemented.](#requirements-and-testing-procedures-37)
 
-[requirement 3](#requirement-3-protect-stored-account-data) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 3](#requirement-3-protect-stored-account-data) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ---
@@ -1474,10 +1439,10 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 
 3.1 Processes and mechanisms for protecting stored account data are defined and understood.
 
-
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.1.1 All security policies and operational procedures that are identified in Requirement 3 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -1488,8 +1453,6 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 Expectations, controls, and oversight for meeting activities within Requirement 3 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1511,13 +1474,9 @@ Security policies define the entity’s security objectives and principles. Oper
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1531,8 +1490,6 @@ Security policies define the entity’s security objectives and principles. Oper
 3.1.2 Roles and responsibilities for performing activities in Requirement 3 are documented, assigned, and understood.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1554,17 +1511,13 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1576,6 +1529,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.2.1 Account data storage is kept to a minimum through implementation of data retention and disposal policies, procedures, and processes that include at least the following:
+
 - Coverage for all locations of stored account data.
 - Coverage for any sensitive authentication data (SAD) stored prior to completion of authorization. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
 - Limiting data storage amount and retention time to that which is required for legal or regulatory, and/or business requirements.
@@ -1623,8 +1577,6 @@ Remember, if you don't need it, don't store it!
 
 **Definitions**
 
-
-
 **Examples**
 
 An automated, programmatic procedure could be run to locate and remove data, or a manual review of data storage areas could be performed. Whichever method is used, it is a good idea to monitor the process to ensure it is completed successfully, and that the results are recorded and validated as being complete. Implementing secure deletion methods ensures that the data cannot be retrieved when it is no longer needed.
@@ -1633,7 +1585,7 @@ An automated, programmatic procedure could be run to locate and remove data, or 
 
 See *NIST SP 800-88 Rev. 1, Guidelines for Media Sanitization.*
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1672,21 +1624,15 @@ SAD is very valuable to malicious individuals as it allows them to generate coun
 
 **Good Practice**
 
-
-
 **Definitions**
 
 The authorization process completes when a merchant receives a transaction response (for example, an approval or decline).
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1702,11 +1648,12 @@ This requirement is not eligible for the customized approach.
 ###### APPLICABILITY NOTES
 
 In the normal course of business, the following data elements from the track may need to be retained:
+
 - Cardholder name.
 - Primary account number (PAN).
 - Expiration date.
 - Service code.
-To minimize risk, store securely only these data elements as needed for business.
+  To minimize risk, store securely only these data elements as needed for business.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -1720,8 +1667,6 @@ If full contents of any track (from the magnetic stripe on the back of a card if
 
 **Good Practice**
 
-
-
 **Definitions**
 
 Full track data is alternatively called full track, track, track 1, track 2, and magnetic-stripe data. Each track contains a number of data elements, and this requirement specifies only those that may be retained post-authorization.
@@ -1729,6 +1674,7 @@ Full track data is alternatively called full track, track, track 1, track 2, and
 **Examples**
 
 Data sources to review to ensure that the full contents of any track are not retained upon completion of the authorization process include, but are not limited to:
+
 - Incoming transaction data.
 - All logs (for example, transaction, history, debugging, error).
 - History files.
@@ -1739,9 +1685,7 @@ Data sources to review to ensure that the full contents of any track are not ret
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1770,17 +1714,14 @@ If card verification code data is stolen, malicious individuals can execute frau
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
 If card verification codes are stored on paper media prior to completion of authorization, a method of erasing or covering the codes should prevent them from being read after authorization is complete. Example methods of rendering the codes unreadable include removing the code with scissors and applying a suitably opaque and un-removable marker over the code.
 
 Data sources to review to ensure that the card verification code is not retained upon completion of the authorization process include, but are not limited to:
+
 - Incoming transaction data.
 - All logs (for example, transaction, history, debugging, error).
 - History files.
@@ -1791,16 +1732,12 @@ Data sources to review to ensure that the card verification code is not retained
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
 
 ###### DEFINED APPROACH REQUIREMENTS
 
@@ -1826,15 +1763,12 @@ PIN and PIN blocks should be known only to the card owner or entity that issued 
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
 Data sources to review to ensure that PIN and PIN blocks are not retained upon completion of the authorization process include, but are not limited to:
+
 - Incoming transaction data.
 - All logs (for example, transaction, history, debugging, error).
 - History files.
@@ -1845,9 +1779,7 @@ Data sources to review to ensure that PIN and PIN blocks are not retained upon c
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1895,13 +1827,9 @@ The authorization process is completed as soon as the response to an authorizati
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1909,6 +1837,7 @@ The authorization process is completed as soon as the response to an authorizati
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.3.3 Additional requirement for issuers and companies that support issuing services and store sensitive authentication data: Any storage of sensitive authentication data is:
+
 - Limited to that which is needed for a legitimate issuing business need and is secured.
 - Encrypted using strong cryptography. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
 
@@ -1947,13 +1876,11 @@ Legitimate issuing business need means that the data is needed to facilitate the
 
 **Examples**
 
-
-
 **Further Information**
 
 Refer to *ISO/DIS 9564-5 Financial services — Personal Identification Number (PIN) management and security — Part 5: Methods for the generation, change, and verification of PINs and card security data using the advanced encryption standard.*
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -1979,6 +1906,7 @@ This requirement relates to protection of PAN where it is displayed on screens, 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 3.4.1.a Examine documented policies and procedures for masking the display of PANs to verify:
+
 - A list of roles that need access to more than the BIN and last four digits of the PAN (includes full PAN) is documented, together with a legitimate business need for each role to have such access.
 - PAN is masked when displayed such that only personnel with a legitimate business need can see more than the BIN and last four digits of the PAN.
 - All roles not specifically authorized to see the full PAN must only see masked PANs.
@@ -2005,13 +1933,11 @@ Masking is not synonymous with truncation and these terms cannot be used interch
 
 **Examples**
 
-
-
 **Further Information**
 
 For more information about masking and truncation, see PCI SSC’s FAQs on these topics.
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2033,6 +1959,7 @@ Storing or relocating PAN onto local hard drives, removable electronic media, an
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 3.4.2.a Examine documented policies and procedures and documented evidence for technical controls that prevent copy and/or relocation of PAN when using remote-access technologies onto local hard drives or removable electronic media to verify the following:
+
 - Technical controls prevent all personnel not specifically authorized from copying and/or relocating PAN.
 - A list of personnel with permission to copy and/or relocate PAN is maintained, together with the documented, explicit authorization and legitimate, defined business need.
 
@@ -2060,13 +1987,11 @@ Storage devices include, but are not limited to, local hard drives, virtual driv
 
 **Examples**
 
-
-
 **Further Information**
 
 Vendor documentation for the remote-access technology in use will provide information about the system settings needed to implement this requirement.
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2078,9 +2003,10 @@ Vendor documentation for the remote-access technology in use will provide inform
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.5.1 PAN is rendered unreadable anywhere it is stored by using any of the following approaches:
+
 - One-way hashes based on strong cryptography of the entire PAN.
 - Truncation (hashing cannot be used to replace the truncated segment of PAN).
-– If hashed and truncated versions of the same PAN, or different truncation formats of the same PAN, are present in an environment, additional controls are in place such that the different versions cannot be correlated to reconstruct the original PAN.
+  – If hashed and truncated versions of the same PAN, or different truncation formats of the same PAN, are present in an environment, additional controls are in place such that the different versions cannot be correlated to reconstruct the original PAN.
 - Index tokens.
 - Strong cryptography with associated key-management processes and procedures.
 
@@ -2113,25 +2039,20 @@ Secondary independent control systems (for example governing access to, and use 
 
 **Good Practice**
 
-
-
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 For information about truncation formats and truncation in general, see PCI SSC’s FAQs on the topic.
 
 Sources for information about index tokens include:
+
 - PCI SSC’s Tokenization Product Security Guidelines (*https://www.pcisecuritystandards.org/documents/Tokenization_Product_Security_Guidelines.pdf*)
 - *ANSI X9.119-2-2017: Retail Financial Services - Requirements For Protection Of Sensitive Payment Card Data - Part 2: Implementing Post-Authorization Tokenization Systems*
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2141,8 +2062,6 @@ Sources for information about index tokens include:
 3.5.1.1 Hashes used to render PAN unreadable (per the first bullet of Requirement 3.5.1) are keyed cryptographic hashes of the entire PAN, with associated key-management processes and procedures in accordance with Requirements 3.6 and 3.7.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
-
-
 
 ###### APPLICABILITY NOTES
 
@@ -2174,11 +2093,7 @@ A hashing function that incorporates a randomly generated secret key provides br
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
@@ -2188,7 +2103,7 @@ Refer to the following for more information about HMAC, CMAC, and GMAC, respecti
 
 See *NIST SP 800-107 (Revision 1): Recommendation for Applications Using Approved Hash Algorithms §5.3.*
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2196,8 +2111,9 @@ See *NIST SP 800-107 (Revision 1): Recommendation for Applications Using Approve
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.5.1.2 If disk-level or partition-level encryption (rather than file-, column-, or field-level database encryption) is used to render PAN unreadable, it is implemented only as follows:
+
 - On removable electronic media
-OR
+  OR
 - If used for non-removable electronic media, PAN is also rendered unreadable via another mechanism that meets Requirement 3.5.1.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -2217,8 +2133,9 @@ Disk or partition encryption implementations must also meet all other PCI DSS en
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 3.5.1.2.a Examine encryption processes to verify that, if disk-level or partition-level encryption is used to render PAN unreadable, it is implemented only as follows:
+
 - On removable electronic media,
-OR
+  OR
 - If used for non-removable electronic media, examine encryption processes used to verify that PAN is also rendered unreadable via another method that meets Requirement 3.5.1.
 
 3.5.1.2.b Examine configurations and/or vendor documentation and observe encryption processes to verify the system is configured according to vendor documentation the result is that the disk or the partition is rendered unreadable.
@@ -2231,21 +2148,15 @@ Disk-level and partition-level encryption typically encrypts the entire disk or 
 
 **Good Practice**
 
-
-
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Where available, following vendors’ hardening and industry best practice guidelines can assist in securing PAN on these devices.
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2253,6 +2164,7 @@ Where available, following vendors’ hardening and industry best practice guide
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.5.1.3 If disk-level or partition-level encryption is used (rather than file-, column-, or field--level database encryption) to render PAN unreadable, it is managed as follows:
+
 - Logical access is managed separately and independently of native operating system authentication and access control mechanisms.
 - Decryption keys are not associated with user accounts.
 - Authentication factors (passwords, passphrases, or cryptographic keys) that allow access to unencrypted data are stored securely.
@@ -2283,21 +2195,14 @@ Full disk encryption helps to protect data in the event of physical loss of a di
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 3.6
 
@@ -2306,6 +2211,7 @@ Full disk encryption helps to protect data in the event of physical loss of a di
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.6.1 Procedures are defined and implemented to protect cryptographic keys used to protect stored account data against disclosure and misuse that include:
+
 - Access to keys is restricted to the fewest number of custodians necessary.
 - Key-encrypting keys are at least as strong as the data-encrypting keys they protect.
 - Key-encrypting keys are stored separately from data-encrypting keys.
@@ -2337,19 +2243,16 @@ Having a centralized key management system based on industry standards is recomm
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 The entity’s key management procedures will benefit through alignment with industry requirements, Sources for information on cryptographic key management life cycles include:
+
 - *ISO 11568-1 Banking — Key management (retail) — Part 1: Principles (specifically Chapter 10 and the referenced Parts 2 & 4)*
 - *NIST SP 800-57 Part 1 Revision 5—Recommendation for Key Management, Part 1: General.*
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2357,6 +2260,7 @@ The entity’s key management procedures will benefit through alignment with ind
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.6.1.1 Additional requirement for service providers only: A documented description of the cryptographic architecture is maintained that includes:
+
 - Details of all algorithms, protocols, and keys used for the protection of stored account data, including key strength and expiry date.
 - Preventing the use of the same cryptographic keys in production and test environments. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
 - Description of the key usage for each key.
@@ -2392,17 +2296,11 @@ Having an automated reporting mechanism can assist with maintenance of the crypt
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2410,6 +2308,7 @@ Having an automated reporting mechanism can assist with maintenance of the crypt
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.6.1.2 Secret and private keys used to encrypt/decrypt stored account data are stored in one (or more) of the following forms at all times:
+
 - Encrypted with a key-encrypting key that is at least as strong as the data-encrypting key, and that is stored separately from the data-encrypting key.
 - Within a secure cryptographic device (SCD), such as a hardware security module (HSM) or PTS-approved point-of-interaction device.
 - As at least two full-length key components or key shares, in accordance with an industry-accepted method.
@@ -2423,8 +2322,9 @@ Secret and private keys are stored in a secure form that prevents unauthorized r
 It is not required that public keys be stored in one of these forms.
 Cryptographic keys stored as part of a key management system (KMS) that employs SCDs are acceptable.
 A cryptographic key that is split into two parts does not meet this requirement. Secret or private keys stored as key components or key shares must be generated via one of the following:
+
 - Using an approved random number generator and within an SCD,
-OR
+  OR
 - According to ISO 19592 or equivalent industry standard for generation of secret key shares.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
@@ -2432,6 +2332,7 @@ OR
 3.6.1.2.a Examine documented procedures to verify it is defined that cryptographic keys used to encrypt/decrypt stored account data must exist only in one (or more) of the forms specified in this requirement.
 3.6.1.2.b Examine system configurations and key storage locations to verify that cryptographic keys used to encrypt/decrypt stored account data exist in one (or more) of the forms specified in this requirement.
 3.6.1.2.c Wherever key-encrypting keys are used, examine system configurations and key storage locations to verify:
+
 - Key-encrypting keys are at least as strong as the data-encrypting keys they protect.
 - Key-encrypting keys are stored separately from data-encrypting keys.
 
@@ -2447,17 +2348,11 @@ Where data-encrypting keys are stored in an HSM, the HSM interaction channel sho
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2471,8 +2366,6 @@ Where data-encrypting keys are stored in an HSM, the HSM interaction channel sho
 Access to cleartext cryptographic key components is restricted to necessary personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -2491,17 +2384,11 @@ Ideally this will be a very small number of people.
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2516,8 +2403,6 @@ Cryptographic keys are retained only where necessary.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 3.6.1.4 Examine key storage locations and observe processes to verify that keys are stored in the fewest possible locations.
@@ -2530,25 +2415,16 @@ Storing any cryptographic keys in the fewest locations helps an organization tra
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 3.7
 
@@ -2564,8 +2440,6 @@ Strong cryptographic keys are generated.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 3.7.1.a Examine the documented key-management policies and procedures for keys used for protection of stored account data to verify that they define generation of strong cryptographic keys.
@@ -2580,21 +2454,15 @@ Use of strong cryptographic keys significantly increases the level of security o
 
 **Good Practice**
 
-
-
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 See the sources referenced at "Cryptographic Key Generation in Appendix G.
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2609,8 +2477,6 @@ Cryptographic keys are secured during distribution.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 3.7.2.a Examine the documented key-management policies and procedures for keys used for protection of stored account data to verify that they define secure distribution of cryptographic keys.
@@ -2624,21 +2490,13 @@ Secure distribution or conveyance of secret or private cryptographic keys means 
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2652,8 +2510,6 @@ Secure distribution or conveyance of secret or private cryptographic keys means 
 Cryptographic keys are secured when stored.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -2677,17 +2533,11 @@ Secret or private keys that can decrypt data should never be present in source c
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2695,6 +2545,7 @@ Secret or private keys that can decrypt data should never be present in source c
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.7.4 Key management policies and procedures are implemented for cryptographic key changes for keys that have reached the end of their cryptoperiod, as defined by the associated application vendor or key owner, and based on industry best practices and guidelines, including the following:
+
 - A defined cryptoperiod for each key type in use.
 - A process for key changes at the end of the defined cryptoperiod.
 
@@ -2703,8 +2554,6 @@ Secret or private keys that can decrypt data should never be present in source c
 Cryptographic keys are not used beyond their defined cryptoperiod.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -2720,21 +2569,17 @@ Changing encryption keys when they reach the end of their cryptoperiod is impera
 
 **Good Practice**
 
-
-
 **Definitions**
 
 A cryptoperiod is the time span during which a cryptographic key can be used for its defined purpose. Cryptoperiods are often defined in terms of the period for which the key is active and/or the amount of cipher-text that has been produced by the key. Considerations for defining the cryptoperiod include, but are not limited to, the strength of the underlying algorithm, size or length of the key, risk of key compromise, and the sensitivity of the data being encrypted.
 
 **Examples**
 
-
-
 **Further Information**
 
 *NIST SP 800-57 Part 1, Revision 5, Section 5.3 Cryptoperiods* - provides guidance for establishing the time span during which a specific key is authorized for use by legitimate entities, or the keys for a given system will remain in effect. See Table 1 of *SP 800-57* Part 1 for suggested cryptoperiods for different key types.
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2742,10 +2587,11 @@ A cryptoperiod is the time span during which a cryptographic key can be used for
 ###### DEFINED APPROACH REQUIREMENTS
 
 3.7.5 Key management policies procedures are implemented to include the retirement, replacement, or destruction of keys used to protect stored account data, as deemed necessary when:
+
 - The key has reached the end of its defined cryptoperiod.
 - The integrity of the key has been weakened, including when personnel with knowledge of a cleartext key component leaves the company, or the role for which the key component was known.
 - The key is suspected of or known to be compromised.
-Retired or replaced keys are not used for encryption operations.
+  Retired or replaced keys are not used for encryption operations.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -2775,17 +2621,13 @@ The encryption solution should provide for and facilitate a process to replace k
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Industry best practices for archiving retired keys are outlined in *NIST SP 800-57 Part 1, Revision 5, Section 8.3.1*, and includes maintaining the archive with a trusted third party and storing archived key information separately from operational data.
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2802,8 +2644,9 @@ Cleartext secret or private keys cannot be known by anyone. Operations involving
 
 This control is applicable for manual key-management operations or where key management is not controlled by the encryption product.
 A cryptographic key that is simply split into two parts does not meet this requirement. Secret or private keys stored as key components or key shares must be generated via one of the following:
+
 - Using an approved random number generator and within a secure cryptographic device (SCD), such as a hardware security module (HSM) or PTS-approved point-of-interaction device,
-OR
+  OR
 - According to ISO 19592 or equivalent industry standard for generation of secret key shares.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
@@ -2836,10 +2679,11 @@ Key-management operations that might be performed manually include, but are not 
 
 Industry standards for managing key components include:
 •* NIST SP 800-57* Part 2, Revision 1 -- Recommendation for Key Management: Part 2 – Best Practices for Key Management Organizations [4.6 Keying Material Distribution]
+
 - *ISO 11568-2 Banking — Key management (retail) — Part 2*: Symmetric ciphers, their key management and life cycle [4.7.2.3 Key components and 4.9.3 Key components]
 - *European Payments Council EPC342-08 Guidelines on Cryptographic Algorithms Usage and Key Management* [especially 4.1.4 Key installation].
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2853,8 +2697,6 @@ Industry standards for managing key components include:
 Cryptographic keys cannot be substituted by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -2876,17 +2718,11 @@ Controls should include ensuring that individuals with access to key components 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2900,8 +2736,6 @@ Controls should include ensuring that individuals with access to key components 
 Key custodians are knowledgeable about their responsibilities in relation to cryptographic operations and can access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -2917,23 +2751,18 @@ This process will help ensure individuals that act as key custodians commit to t
 
 **Good Practice**
 
-
-
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Industry guidance for key custodians and their roles and responsibilities includes:
+
 - *NIST SP 800-130 A Framework for Designing Cryptographic Key Management Systems* [5. Roles and Responsibilities (especially) for Key Custodians]
 - *ISO 11568-1 Banking -- Key management (retail) -- Part 1*: Principles [5 Principles of key management (especially b)]
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
@@ -2962,27 +2791,20 @@ Providing guidance to customers on how to securely transmit, store, and update c
 
 **Good Practice**
 
-
-
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Numerous industry standards for key management are cited above in the Guidance for Requirements 3.7.1-3.7.8.
 
-[sections 3](#sections-3) | 
+[sections 3](#sections-3) |
 [top](#pci-dss-v40)
 
 ---
 
 ## PRINCIPLE PCI DSS REQUIREMENT: Protect Account Data
-
 
 ### Requirement 4: Protect Cardholder Data with Strong Cryptography During Transmission Over Open, Public Networks
 
@@ -2998,16 +2820,15 @@ PAN transmissions can be protected by encrypting the data before it is transmitt
 
 Refer to Appendix G for definitions of “strong cryptography” and other PCI DSS terms.
 
-
 #### SECTIONS 4
 
 [4.1 Processes and mechanisms for protecting cardholder data with strong cryptography during transmission over open, public networks are defined and documented.](#requirements-and-testing-procedures-41)
 
 [4.2 PAN is protected with strong cryptography during transmission.](#requirements-and-testing-procedures-42)
 
-[requirement 4](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 4](#requirement-4-protect-cardholder-data-with-strong-cryptography-during-transmission-over-open-public-networks) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 4.1
@@ -3017,6 +2838,7 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 ###### DEFINED APPROACH REQUIREMENTS
 
 4.1.1 All security policies and operational procedures that are identified in Requirement 4 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -3027,8 +2849,6 @@ Refer to Appendix G for definitions of “strong cryptography” and other PCI D
 Expectations, controls, and oversight for meeting activities within Requirement 4 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3050,13 +2870,9 @@ Security policies define the entity’s security objectives and principles. Oper
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 4](#sections-4) | 
+[sections 4](#sections-4) |
 [top](#pci-dss-v40)
 
 ---
@@ -3070,8 +2886,6 @@ Security policies define the entity’s security objectives and principles. Oper
 Day-to-day responsibilities for performing all the activities in Requirement 4 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3092,21 +2906,16 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 4](#sections-4) | 
+[sections 4](#sections-4) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 4.2
 
@@ -3115,6 +2924,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 are implemented as follows to safeguard PAN during transmission over open, public networks:
+
 - Only trusted keys and certificates are accepted.
 - Certificates used to safeguard PAN during transmission over open, public networks are confirmed as valid and are not expired or revoked. *This bullet is a best practice until its effective date; refer to applicability notes below for details.*
 - The protocol in use supports only secure versions or configurations and does not support fallback to, or use of insecure versions, algorithms, key sizes, or implementations.
@@ -3166,11 +2976,10 @@ For browser-based TLS certificates, certificate trust can often be verified by c
 
 **Definitions**
 
-
-
 **Examples**
 
 Open, public networks include, but are not limited to:
+
 - The Internet and
 - Wireless technologies, including Wi-Fi, Bluetooth, cellular technologies, and satellite communications.
 
@@ -3180,7 +2989,7 @@ Vendor recommendations and industry best practices can be consulted for informat
 For more information about strong cryptography and secure protocols, see industry standards and best practices such as *NIST SP 800-52 and SP 800-57.*
 For more information about trusted keys and certificates, see *NIST Cybersecurity Practice Guide Special Publication 1800-16, Securing Web Transactions: Transport Layer Security (TLS) Server Certificate Management.*
 
-[sections 4](#sections-4) | 
+[sections 4](#sections-4) |
 [top](#pci-dss-v40)
 
 ---
@@ -3215,17 +3024,11 @@ For certificates, the inventory should include the issuing CA and certification 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 4](#sections-4) | 
+[sections 4](#sections-4) |
 [top](#pci-dss-v40)
 
 ---
@@ -3239,8 +3042,6 @@ For certificates, the inventory should include the issuing CA and certification 
 Cleartext PAN cannot be read or intercepted from wireless network transmissions.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3260,17 +3061,13 @@ Wireless networks should not permit fallback or downgrade to an insecure protoco
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Review the vendor’s specific documentation for more details on the choice of protocols, configurations, and settings related to cryptography.
 
-[sections 4](#sections-4) | 
+[sections 4](#sections-4) |
 [top](#pci-dss-v40)
 
 ---
@@ -3307,17 +3104,13 @@ The use of end-user messaging technology to send PAN should only be considered w
 
 **Definitions**
 
-
-
 **Examples**
 
 E-mail, instant messaging, SMS, and chat are examples of the type of end-user messaging technology that this requirement refers to.
 
 **Further Information**
 
-
-
-[sections 4](#sections-4) | 
+[sections 4](#sections-4) |
 [top](#pci-dss-v40)
 
 ---
@@ -3327,6 +3120,7 @@ E-mail, instant messaging, SMS, and chat are examples of the type of end-user me
 ### Requirement 5: Protect All Systems and Networks from Malicious Software
 
 #### OVERVIEW
+
 Malicious software (malware) is software or firmware designed to infiltrate or damage a computer system without the owner's knowledge or consent, with the intent of compromising the confidentiality, integrity, or availability of the owner’s data, applications, or operating system.
 
 Examples include viruses, worms, Trojans, spyware, ransomware, keyloggers, and rootkits, malicious code, scripts, and links.
@@ -3335,8 +3129,8 @@ Malware can enter the network during many business-approved activities, includin
 
 Using anti-malware solutions that address all types of malware helps to protect systems from current and evolving malware threats. Refer to Appendix G for definitions of PCI DSS terms
 
-
 #### SECTIONS 5
+
 [5.1 Processes and mechanisms for protecting all systems and networks from malicious software are defined and understood.](#requirements-and-testing-procedures-51)
 
 [5.2 Malicious software (malware) is prevented, or detected and addressed.](#requirements-and-testing-procedures-52)
@@ -3345,9 +3139,9 @@ Using anti-malware solutions that address all types of malware helps to protect 
 
 [5.4 Anti-phishing mechanisms protect users against phishing attacks.](#requirements-and-testing-procedures-54)
 
-[requirement 5](#requirement-5-protect-all-systems-and-networks-from-malicious-software) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 5](#requirement-5-protect-all-systems-and-networks-from-malicious-software) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 5.1
@@ -3357,6 +3151,7 @@ Using anti-malware solutions that address all types of malware helps to protect 
 ###### DEFINED APPROACH REQUIREMENTS
 
 5.1.1 All security policies and operational procedures that are identified in Requirement 5 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -3367,8 +3162,6 @@ Using anti-malware solutions that address all types of malware helps to protect 
 Expectations, controls, and oversight for meeting activities within Requirement 5 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3390,13 +3183,9 @@ Security policies define the entity’s security objectives and principles. Oper
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3410,8 +3199,6 @@ Security policies define the entity’s security objectives and principles. Oper
 Day-to-day responsibilities for performing all the activities in Requirement 5 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3432,17 +3219,13 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3460,8 +3243,6 @@ A method to document roles and responsibilities is a responsibility assignment m
 Automated mechanisms are implemented to prevent systems from becoming an attack vector for malware.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3485,13 +3266,9 @@ System components known to be affected by malware have active malware exploits a
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3499,6 +3276,7 @@ System components known to be affected by malware have active malware exploits a
 ###### DEFINED APPROACH REQUIREMENTS
 
 5.2.2 The deployed anti-malware solution(s):
+
 - Detects all known types of malware.
 - Removes, blocks, or contains all known types of malware.
 
@@ -3508,11 +3286,10 @@ Malware cannot execute or infect other system components.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 5.2.2 Examine vendor documentation and configurations of the anti-malware solution(s) to verify that the solution:
+
 - Detects all known types of malware.
 - Removes, blocks, or contains all known types of malware.
 
@@ -3530,17 +3307,13 @@ Solution techniques include preventing malware from getting into the network and
 
 **Definitions**
 
-
-
 **Examples**
 
 Types of malware include, but are not limited to, viruses, Trojans, worms, spyware, ransomware, keyloggers, rootkits, malicious code, scripts, and links.
 
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3548,6 +3321,7 @@ Types of malware include, but are not limited to, viruses, Trojans, worms, spywa
 ###### DEFINED APPROACH REQUIREMENTS
 
 5.2.3 Any system components that are not at risk for malware are evaluated periodically to include the following:
+
 - A documented list of all system components not at risk for malware.
 - Identification and evaluation of evolving malware threats for those system components.
 - Confirmation whether such system components continue to not require anti-malware protection.
@@ -3578,25 +3352,20 @@ Certain systems, at a given point in time, may not currently be commonly targete
 
 If an entity determines that a particular system is not susceptible to any malware, the determination should be supported by industry evidence, vendor resources, and best practices.
 The following steps can help entities during their periodic evaluations:
+
 - Identification of all system types previously determined to not require malware protection.
 - Review of industry vulnerability alerts and notices to determine if new threats exist for any identified system.
 - A documented conclusion about whether the system types remain not susceptible to malware.
 - A strategy to add malware protection for any system types for which malware protection has become necessary.
-Trends in malware should be included in the identification of new security vulnerabilities at Requirement 6.3.1, and methods to address new trends should be incorporated into the entity’s configuration standards and protection mechanisms as needed.
+  Trends in malware should be included in the identification of new security vulnerabilities at Requirement 6.3.1, and methods to address new trends should be incorporated into the entity’s configuration standards and protection mechanisms as needed.
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3627,25 +3396,16 @@ Entities determine the optimum period to undertake the evaluation based on crite
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 5.3
 
@@ -3660,8 +3420,6 @@ Entities determine the optimum period to undertake the evaluation based on crite
 Anti-malware mechanisms can detect and address the latest malware threats.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3685,17 +3443,11 @@ Updates may be automatically downloaded to a central location—for example, to 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3703,8 +3455,9 @@ Updates may be automatically downloaded to a central location—for example, to 
 ###### DEFINED APPROACH REQUIREMENTS
 
 5.3.2 The anti-malware solution(s):
+
 - Performs periodic scans and active or real-time scans.
-OR
+  OR
 - Performs continuous behavioral analysis of systems or processes.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -3712,8 +3465,6 @@ OR
 Malware cannot complete execution.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -3741,13 +3492,9 @@ Active, or real-time, scanning checks files for malware upon any attempt to open
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3780,21 +3527,13 @@ Entities can determine the optimum period to undertake periodic scans based on t
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3802,8 +3541,9 @@ Entities can determine the optimum period to undertake periodic scans based on t
 ###### DEFINED APPROACH REQUIREMENTS
 
 5.3.3 For removable electronic media, the anti-malware solution(s):
+
 - Performs automatic scans of when the media is inserted, connected, or logically mounted,
-OR
+  OR
 - Performs continuous behavioral analysis of systems or processes when the media is inserted, connected, or logically mounted.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
@@ -3830,21 +3570,13 @@ Portable media devices are often overlooked as an entry method for malware. Atta
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3859,8 +3591,6 @@ Historical records of anti-malware actions are immediately available and retaine
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 5.3.4 Examine anti-malware solution(s) configurations to verify logs are enabled and retained in accordance with Requirement 10.5.1.
@@ -3873,21 +3603,13 @@ It is important to track the effectiveness of the anti-malware mechanisms—for 
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -3922,21 +3644,16 @@ Where there is a legitimate need to temporarily disable a system’s anti-malwar
 
 **Definitions**
 
-
-
 **Examples**
 
 Additional security measures that may need to be implemented for the period during which anti-malware protection is not active include disconnecting the unprotected system from the Internet while the anti-malware protection is disabled and running a full scan once it is re-enabled.
 
 **Further Information**
 
-
-
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
@@ -3984,8 +3701,6 @@ Phishing is a form of social engineering and describes the different methods use
 
 **Examples**
 
-
-
 **Further Information**
 
 See the following for more information about phishing:
@@ -3994,7 +3709,7 @@ See the following for more information about phishing:
 
 *US Cybersecurity & Infrastructure Security Agency - Report Phishing Sites.*
 
-[sections 5](#sections-5) | 
+[sections 5](#sections-5) |
 [top](#pci-dss-v40)
 
 ---
@@ -4004,6 +3719,7 @@ See the following for more information about phishing:
 ### Requirement 6:	Develop and Maintain Secure Systems and Software
 
 #### OVERVIEW
+
 Actors with bad intentions can use security vulnerabilities to gain privileged access to systems. Many of these vulnerabilities are fixed by vendor provided security patches, which must be installed by the entities that manage the systems. All system components must have all appropriate software patches to protect against the exploitation and compromise of account data by malicious individuals and malicious software.
 
 Appropriate software patches are those patches that have been evaluated and tested sufficiently to determine that the patches do not conflict with existing security configurations. For bespoke and custom software, numerous vulnerabilities can be avoided by applying software lifecycle (SLC) processes and secure coding techniques.
@@ -4014,8 +3730,8 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 **Note**: Requirement 6 applies to all system components, except for section 6.2 for developing software securely, which applies only to *bespoke* and *custom software* used on any system component included in or connected to the CDE.
 
-
 #### SECTIONS 6
+
 [6.1 Processes and mechanisms for developing and maintaining secure systems and software are defined and understood.](#requirements-and-testing-procedures-61)
 
 [6.2 Bespoke and custom software are developed securely.](#requirements-and-testing-procedures-62)
@@ -4026,9 +3742,9 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [6.5 Changes to all system components are managed securely.](#requirements-and-testing-procedures-65)
 
-[requirement 6](#requirement-6-develop-and-maintain-secure-systems-and-software) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 6](#requirement-6-develop-and-maintain-secure-systems-and-software) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 6.1
@@ -4038,6 +3754,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.1.1 All security policies and operational procedures that are identified in Requirement 6 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -4048,8 +3765,6 @@ Refer to Appendix G for definitions of PCI DSS terms.
 Expectations, controls, and oversight for meeting activities within Requirement 6 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -4071,13 +3786,9 @@ Security policies define the entity’s security objectives and principles. Oper
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4091,8 +3802,6 @@ Security policies define the entity’s security objectives and principles. Oper
 Day-to-day responsibilities for performing all the activities in Requirement 6 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -4114,21 +3823,16 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 6.2
 
@@ -4137,6 +3841,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.1 Bespoke and custom software are developed securely, as follows:
+
 - Based on industry standards and/or best practices for secure development.
 - In accordance with PCI DSS (for example, secure authentication and logging).
 - Incorporating consideration of information security issues during each stage of the software development lifecycle.
@@ -4167,17 +3872,13 @@ PCI DSS requirements must be considered when developing software to meet those r
 
 **Definitions**
 
-
-
 **Examples**
 
 Secure software lifecycle management methodologies and frameworks include PCI Software Security Framework, BSIMM, OPENSAMM, and works from NIST, ISO, and SAFECode.
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4185,6 +3886,7 @@ Secure software lifecycle management methodologies and frameworks include PCI So
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.2 Software development personnel working on bespoke and custom software are trained at least once every 12 months as follows:
+
 - On software security relevant to their job function and development languages.
 - Including secure software design and secure coding techniques.
 - Including, if security testing tools are used, how to use the tools for detecting vulnerabilities in software.
@@ -4194,8 +3896,6 @@ Secure software lifecycle management methodologies and frameworks include PCI So
 Software development personnel remain knowledgeable about secure development practices; software security; and attacks against the languages, frameworks, or applications they develop. Personnel are able to access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -4219,17 +3919,11 @@ As industry-accepted secure coding practices change, organizational coding pract
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4237,6 +3931,7 @@ As industry-accepted secure coding practices change, organizational coding pract
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.3 Bespoke and custom software is reviewed prior to being released into production or to customers, to identify and correct potential coding vulnerabilities, as follows:
+
 - Code reviews ensure code is developed according to secure coding guidelines.
 - Code reviews look for both existing and emerging software vulnerabilities.
 - Appropriate corrections are implemented prior to release.
@@ -4270,6 +3965,7 @@ Vulnerable code is far more difficult and expensive to address after it has been
 **Good Practice**
 
 The following items should be considered for inclusion in code reviews:
+
 - Searching for undocumented features (implant tools, backdoors).
 - Confirming that software securely uses external components’ functions (libraries, frameworks, APIs, etc.). For example, if a third-party library providing cryptographic functions is used, verify that it was integrated securely.
 - Checking for correct use of logging to prevent sensitive data from getting into logs.
@@ -4278,17 +3974,11 @@ The following items should be considered for inclusion in code reviews:
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4296,6 +3986,7 @@ The following items should be considered for inclusion in code reviews:
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.3.1 If manual code reviews are performed for bespoke and custom software prior to release to production, code changes are:
+
 - Reviewed by individuals other than the originating code author, and who are knowledgeable about code-review techniques and secure coding practices.
 - Reviewed and approved by management prior to release.
 
@@ -4335,17 +4026,13 @@ Entitles that rely solely on manual code review should ensure that reviewers mai
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 See the OWASP Code Review Guide.
 
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4353,6 +4040,7 @@ See the OWASP Code Review Guide.
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.2.4 Software engineering techniques or other methods are defined and in use by software development personnel to prevent or mitigate common software attacks and related vulnerabilities in bespoke and custom software, including but not limited to the following:
+
 - Injection attacks, including SQL, LDAP, XPath, or other command, parameter, object, fault, or injection-type flaws.
 - Attacks on data and data structures, including attempts to manipulate buffers, pointers, input data, or shared data.
 - Attacks on cryptography usage, including attempts to exploit weak, insecure, or inappropriate cryptographic implementations, algorithms, cipher suites, or modes of operation.
@@ -4381,6 +4069,7 @@ Detecting or preventing common errors that result in vulnerable code as early as
 **Good Practice**
 
 For both bespoke and custom software, the entity must ensure that code is developed focusing on the prevention or mitigation of common software attacks, including:
+
 - Attempts to exploit common coding vulnerabilities (bugs).
 - Attempts to exploit software design flaws.
 - Attempts to exploit implementation/configuration flaws.
@@ -4390,21 +4079,16 @@ Researching and documenting software engineering techniques or other methods hel
 
 **Definitions**
 
-
-
 **Examples**
 
 Techniques include automated processes and practices that scan code early in the development cycle when code is checked in to confirm the vulnerabilities are not present.
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 6.3
 
@@ -4413,6 +4097,7 @@ Techniques include automated processes and practices that scan code early in the
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.3.1 Security vulnerabilities are identified and managed as follows:
+
 - New security vulnerabilities are identified using industry-recognized sources for security vulnerability information, including alerts from international and national computer emergency response teams (CERTs).
 - Vulnerabilities are assigned a risk ranking based on industry best practices and consideration of potential impact.
 - Risk rankings identify, at a minimum, all vulnerabilities considered to be a high-risk or critical to the environment.
@@ -4448,8 +4133,6 @@ An organization’s processes for managing vulnerabilities should be integrated 
 
 **Definitions**
 
-
-
 **Examples**
 
 Some organizations that issue alerts to advise entities about urgent vulnerabilities requiring immediate patches/updates are national Computer Emergency Readiness/Response Teams (CERTs) and vendors.
@@ -4464,7 +4147,7 @@ For bespoke and custom software, the organization may obtain information about l
 
 For control over in-house developed software, the organization may receive such information from external sources. The organization can consider using a “bug bounty” program where it posts information (for example, on its website) so third parties can contact the organization with vulnerability information. External sources may include independent investigators or companies that report to the organization about identified vulnerabilities and may include sources such as the Common Vulnerability Scoring System (CVSS) or the OWASP Risk Rating Methodology.
 
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4503,17 +4186,11 @@ There are many different types of solutions that can help with managing software
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4521,6 +4198,7 @@ There are many different types of solutions that can help with managing software
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.3.3 All system components are protected from known vulnerabilities by installing applicable security patches/updates as follows:
+
 - Critical or high-security patches/updates (identified according to the risk ranking process at Requirement 6.3.1) are installed within one month of release.
 - All other applicable security patches/updates are installed within an appropriate time frame as determined by the entity (for example, within three months of release).
 
@@ -4529,8 +4207,6 @@ There are many different types of solutions that can help with managing software
 System components cannot be compromised via the exploitation of a known vulnerability.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -4552,21 +4228,14 @@ An entity’s patching cadence should factor in any re-evaluation of vulnerabili
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 6.4
 
@@ -4575,21 +4244,22 @@ An entity’s patching cadence should factor in any re-evaluation of vulnerabili
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.4.1 For public-facing web applications, new threats and vulnerabilities are addressed on an ongoing basis and these applications are protected against known attacks as follows:
+
 - Reviewing public-facing web applications via manual or automated application vulnerability security assessment tools or methods as follows:
-– At least once every 12 months and after significant changes.
-– By an entity that specializes in application security.
-– Including, at a minimum, all common software attacks in Requirement 6.2.4.
-– All vulnerabilities are ranked in accordance with requirement 6.3.1.
-– All vulnerabilities are corrected.
-– The application is re-evaluated after the corrections
+  – At least once every 12 months and after significant changes.
+  – By an entity that specializes in application security.
+  – Including, at a minimum, all common software attacks in Requirement 6.2.4.
+  – All vulnerabilities are ranked in accordance with requirement 6.3.1.
+  – All vulnerabilities are corrected.
+  – The application is re-evaluated after the corrections
 
 **OR**
 
 - Installing an automated technical solution(s) that continually detects and prevents web-based attacks as follows:
-– Installed in front of public-facing web applications to detect and prevent web-based attacks.
-– Actively running and up to date as applicable.
-– Generating audit logs.
-– Configured to either block web-based attacks or generate an alert that is immediately investigated.
+  – Installed in front of public-facing web applications to detect and prevent web-based attacks.
+  – Actively running and up to date as applicable.
+  – Generating audit logs.
+  – Configured to either block web-based attacks or generate an alert that is immediately investigated.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -4603,6 +4273,7 @@ This requirement will be superseded by Requirement 6.4.2 after 31 March 2025 whe
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 6.4.1 For public-facing web applications, ensure that either one of the required methods is in place as follows:
+
 - If manual or automated vulnerability security assessment tools or methods are in use, examine documented processes, interview personnel, and examine records of application security assessments to verify that public-facing web applications are reviewed in accordance with all elements of this requirement specific to the tool/method.
 
 **OR**
@@ -4624,8 +4295,6 @@ When using automated technical solutions, it is important to include processes t
 
 **Definitions**
 
-
-
 **Examples**
 
 A web application firewall (WAF) installed in front of public-facing web applications to check all traffic is an example of an automated technical solution that detects and prevents web-based attacks (for example, the attacks included in Requirement 6.2.4). WAFs filter and block non-essential traffic at the application layer. A properly configured WAF helps to prevent application-layer attacks on applications that are improperly coded or configured.
@@ -4634,9 +4303,7 @@ Another example of an automated technical solution is Runtime Application Self-P
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4644,6 +4311,7 @@ Another example of an automated technical solution is Runtime Application Self-P
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.4.2 For public-facing web applications, an automated technical solution is deployed that continually detects and prevents web-based attacks, with at least the following:
+
 - Is installed in front of public-facing web applications and is configured to detect and prevent web-based attacks.
 - Actively running and up to date as applicable.
 - Generating audit logs.
@@ -4675,17 +4343,13 @@ When using automated technical solutions, it is important to include processes t
 
 **Definitions**
 
-
-
 **Examples**
 
 A web application firewall (WAF), which can be either on-premise or cloud-based, installed in front of public-facing web applications to check all traffic, is an example of an automated technical solution that detects and prevents web-based attacks (for example, the attacks included in Requirement 6.2.4). WAFs filter and block non-essential traffic at the application layer. A properly configured WAF helps to prevent application-layer attacks on applications that are improperly coded or configured.
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4693,6 +4357,7 @@ A web application firewall (WAF), which can be either on-premise or cloud-based,
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.4.3 All payment page scripts that are loaded and executed in the consumer’s browser are managed as follows:
+
 - A method is implemented to confirm that each script is authorized.
 - A method is implemented to assure the integrity of each script.
 - An inventory of all scripts is maintained with written justification as to why each is necessary.
@@ -4738,19 +4403,17 @@ Where the payment page will be loaded into an inline frame (IFRAME), restricting
 **Examples**
 
 The integrity of scripts can be enforced by several different mechanisms including, but not limited to:
+
 - Sub-resource integrity (SRI), which allows the consumer browser to validate that a script has not been tampered with.
 - A CSP, which limits the locations the consumer browser can load a script from and transmit account data to.
 - Proprietary script or tag-management systems, which can prevent malicious script execution.
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 6.5
 
@@ -4759,6 +4422,7 @@ The integrity of scripts can be enforced by several different mechanisms includi
 ###### DEFINED APPROACH REQUIREMENTS
 
 6.5.1 Changes to all system components in the production environment are made according to established procedures that include:
+
 - Reason for, and description of, the change.
 - Documentation of security impact.
 - Documented change approval by authorized parties.
@@ -4771,8 +4435,6 @@ The integrity of scripts can be enforced by several different mechanisms includi
 All changes are tracked, authorized, and evaluated for impact and security, and changes are managed to avoid unintended effects to the security of system components.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -4796,17 +4458,11 @@ For each change, it is important to have documented procedures that address any 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4839,11 +4495,10 @@ Building this validation into change management processes helps ensure that devi
 
 **Definitions**
 
-
-
 **Examples**
 
 Applicable PCI DSS requirements that could be impacted include, but are not limited to:
+
 - Network and data-flow diagrams are updated to reflect changes.
 - Systems are configured per configuration standards, with all default passwords changed and unnecessary services disabled.
 - Systems are protected with required controls—for example, file integrity monitoring (FIM), anti-malware, patches, and audit logging.
@@ -4853,9 +4508,7 @@ Applicable PCI DSS requirements that could be impacted include, but are not limi
 
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4869,8 +4522,6 @@ Applicable PCI DSS requirements that could be impacted include, but are not limi
 Pre-production environments cannot introduce risks and vulnerabilities into production environments.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -4896,13 +4547,9 @@ Pre-production environments include development, testing, user acceptance testin
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4937,21 +4584,13 @@ Separating roles and functions, also referred to as separation or segregation of
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -4965,8 +4604,6 @@ Separating roles and functions, also referred to as separation or segregation of
 Live PANs cannot be present in pre-production environments outside the CDE.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -4994,13 +4631,9 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -5014,8 +4647,6 @@ Live PANs refer to valid PANs (not test PANs) that have the potential to be used
 Test data and test accounts cannot exist in production environments.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -5033,21 +4664,13 @@ This data may give away information about the functioning of an application or s
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 6](#sections-6) | 
+[sections 6](#sections-6) |
 [top](#pci-dss-v40)
 
 ---
@@ -5057,6 +4680,7 @@ This data may give away information about the functioning of an application or s
 ### Requirement 7: Restrict Access to System Components and Cardholder Data by Business Need to Know
 
 #### OVERVIEW
+
 Unauthorized individuals may gain access to critical data or systems due to ineffective access control rules and definitions. To ensure critical data can only be accessed by authorized personnel, systems and processes must be in place to limit access based on need to know and according to job responsibilities.
 
 “Access” or “access rights” are created by rules that provide users access to systems, applications, and data, while “privileges” allow a user to perform a specific action or function in relation to that system, application, or data. For example, a user may have access rights to specific data, but whether they can only read that data, or can also change or delete the data is determined by the user’s assigned privileges.
@@ -5071,19 +4695,18 @@ These requirements apply to user accounts and access for employees, contractors,
 
 Refer to Appendix G for definitions of PCI DSS terms.
 
-
 #### SECTIONS 7
+
 [7.1 Processes and mechanisms for restricting access to system components and cardholder data by business need to know are defined and understood.](#requirements-and-testing-procedures-71)
 
 [7.2 Access to system components and data is appropriately defined and assigned.](#requirements-and-testing-procedures-72)
 
 [7.3 Access to system components and data is managed via an access control system(s).](#requirements-and-testing-procedures-73)
 
-[requirement 7](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 7](#requirement-7-restrict-access-to-system-components-and-cardholder-data-by-business-need-to-know) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 7.1
 
@@ -5092,6 +4715,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.1.1 All security policies and operational procedures that are identified in Requirement 7 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -5102,8 +4726,6 @@ Refer to Appendix G for definitions of PCI DSS terms.
 Expectations, controls, and oversight for meeting activities within Requirement 7 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -5125,13 +4747,9 @@ Security policies define the entity’s security objectives and principles. Oper
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5145,8 +4763,6 @@ Security policies define the entity’s security objectives and principles. Oper
 Day-to-day responsibilities for performing all the activities in Requirement 7 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -5168,21 +4784,16 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 7.2
 
@@ -5191,6 +4802,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.1 An access control model is defined and includes granting access as follows:
+
 - Appropriate access depending on the entity’s business and access needs.
 - Access to system components and data resources that is based on users’ job classification and functions.
 - The least privileges required (for example, user, administrator) to perform a job function.
@@ -5200,8 +4812,6 @@ A method to document roles and responsibilities is a responsibility assignment m
 Access requirements are established according to job functions following least-privilege and need-to-know principles.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -5224,10 +4834,11 @@ In environments where one individual performs multiple functions, such as admini
 **Definitions**
 
 Key elements of an access control model include:
+
 - Resources to be protected (the systems/devices/data to which access is needed),
 - Job functions that need access to the resource (for example, system administrator, call-center personnel, store clerk), and
 - Which activities each job function needs to perform (for example, read/write or query).
-Once job functions, resources, and activities per job functions are defined, individuals can be granted access accordingly.
+  Once job functions, resources, and activities per job functions are defined, individuals can be granted access accordingly.
 
 **Examples**
 
@@ -5235,9 +4846,7 @@ Access control models that entities can consider include role-based access contr
 
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5245,6 +4854,7 @@ Access control models that entities can consider include role-based access contr
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.2 Access is assigned to users, including privileged users, based on:
+
 - Job classification and function.
 - Least privileges necessary to perform job responsibilities.
 
@@ -5254,17 +4864,15 @@ Access to systems and data is limited to only the access needed to perform job f
 
 ###### APPLICABILITY NOTES
 
+DEFINED APPROACH TESTING PROCEDURES
+
 7.2.2.a Examine policies and procedures to verify they cover assigning access to users in accordance with all elements specified in this requirement.
 
 7.2.2.b Examine user access settings, including for privileged users, and interview responsible management personnel to verify that privileges assigned are in accordance with all elements specified in this requirement.
 
 7.2.2.c Interview personnel responsible for assigning access to verify that privileged user access is assigned in accordance with all elements specified in this requirement.
 
-###### DEFINED APPROACH TESTING PROCEDURES
-
-
-
-##### GUIDANCE
+###### GUIDANCE
 
 **Purpose**
 
@@ -5281,25 +4889,16 @@ Entities may wish to consider use of Privileged Access Management (PAM), which i
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
 
-
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
-
-
 
 ###### DEFINED APPROACH REQUIREMENTS
 
@@ -5311,13 +4910,12 @@ Access privileges cannot be granted to users without appropriate, documented aut
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 7.2.3.a Examine policies and procedures to verify they define processes for approval of all privileges by authorized personnel.
 
 7.2.3.b Examine user IDs and assigned privileges, and compare with documented approvals to verify that:
+
 - Documented approval exists for the assigned privileges.
 - The approval was by authorized personnel.
 - Specified privileges match the roles assigned to the individual.
@@ -5330,21 +4928,13 @@ Documented approval (for example, in writing or electronically) assures that tho
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5352,6 +4942,7 @@ Documented approval (for example, in writing or electronically) assures that tho
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.4 All user accounts and related access privileges, including third-party/vendor accounts, are reviewed as follows:
+
 - At least once every six months.
 - To ensure user accounts and access remain appropriate based on job function.
 - Any inappropriate access is addressed.
@@ -5389,17 +4980,11 @@ Entities can consider implementing a regular, repeatable process for conducting 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5407,6 +4992,7 @@ Entities can consider implementing a regular, repeatable process for conducting 
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.5 All application and system accounts and related access privileges are assigned and managed as follows:
+
 - Based on the least privileges necessary for the operability of the system or application.
 - Access is limited to the systems, applications, or processes that specifically require their use.
 
@@ -5433,6 +5019,7 @@ It is important to establish the appropriate access level for application or sys
 **Good Practice**
 
 Entities may want to consider establishing a baseline when setting up these application and system accounts including the following as applicable to the organization:
+
 - Making sure that the account is not a member of a privileged group such as domain administrators, local administrators, or root.
 - Restricting which computers the account can be used on.
 - Restricting hours of use.
@@ -5440,17 +5027,11 @@ Entities may want to consider establishing a baseline when setting up these appl
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5458,6 +5039,7 @@ Entities may want to consider establishing a baseline when setting up these appl
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.5.1 All access by application and system accounts and related access privileges are reviewed as follows:
+
 - Periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1).
 - The application/system access remains appropriate for the function being performed.
 - Any inappropriate access is addressed.
@@ -5487,21 +5069,13 @@ Regular review of access rights helps to detect excessive access rights remainin
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5509,6 +5083,7 @@ Regular review of access rights helps to detect excessive access rights remainin
 ###### DEFINED APPROACH REQUIREMENTS
 
 7.2.6 All user access to query repositories of stored cardholder data is restricted as follows:
+
 - Via applications or other programmatic methods, with access and allowed actions based on user roles and least privileges.
 - Only the responsible administrator(s) can directly access or query repositories of stored CHD.
 
@@ -5544,17 +5119,12 @@ Typical user actions include moving, copying, and deleting data. Also consider t
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 7.3
 
@@ -5570,8 +5140,6 @@ Access rights and privileges are managed via mechanisms intended for that purpos
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 7.3.1 Examine vendor documentation and system settings to verify that access is managed for each system component via an access control system(s) that restricts access based on a user’s need to know and covers all system components.
@@ -5584,21 +5152,13 @@ Without a mechanism to restrict access based on user’s need to know, a user ma
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5613,8 +5173,6 @@ Individual account access rights and privileges to systems, applications, and da
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 7.3.2 Examine vendor documentation and system settings to verify that the access control system(s) is configured to enforce permissions assigned to individuals, applications, and systems based on job classification and function.
@@ -5627,21 +5185,13 @@ Restricting privileged access with an access control system reduces the opportun
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5655,8 +5205,6 @@ Restricting privileged access with an access control system reduces the opportun
 Access rights and privileges are prohibited unless expressly permitted.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -5674,17 +5222,11 @@ It is important to check the default configuration of access control systems bec
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 7](#sections-7) | 
+[sections 7](#sections-7) |
 [top](#pci-dss-v40)
 
 ---
@@ -5694,6 +5236,7 @@ It is important to check the default configuration of access control systems bec
 ### Requirement 8: Identify Users and Authenticate Access to System Components
 
 #### OVERVIEW
+
 Two fundamental principles of identifying and authenticating users are to 1) establish the identity of an individual or process on a computer system, and 2) prove or verify the user associated with the identity is who the user claims to be.
 
 Identification of an individual or process on a computer system is conducted by associating an identity with a person or process through an identifier, such as a user, system, or application ID. These IDs (also referred to as “accounts”) fundamentally establish the identity of an individual or process by assigning unique identification to each person or process to distinguish one user or process from another. When each user or process can be uniquely identified, it ensures there is accountability for actions performed by that identity. When such accountability is in place, actions taken can be traced to known and authorized users and processes.
@@ -5713,13 +5256,13 @@ Note: Unless otherwise stated in the requirement, these requirements apply to al
 This includes accounts used by employees, contractors, consultants, internal and external vendors, and other third parties (for example, for providing support or maintenance services).
 
 Certain requirements are not intended to apply to user accounts that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals). When items do not apply, they are noted directly within the specific requirement.
- 
+
 These requirements do not apply to accounts used by consumers (cardholders).
 
 Refer to Appendix G for definitions of PCI DSS terms.
 
-
 #### SECTIONS 8
+
 [8.1 Processes and mechanisms for identifying users and authenticating access to system components are defined and understood.](#requirements-and-testing-procedures-81)
 
 [8.2 User identification and related accounts for users and administrators are strictly managed throughout an account’s lifecycle.](#requirements-and-testing-procedures-82)
@@ -5732,11 +5275,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [8.6 Use of application and system accounts and associated authentication factors is strictly managed.](#requirements-and-testing-procedures-86)
 
-[requirement 8](#requirement-8-identify-users-and-authenticate-access-to-system-components) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 8](#requirement-8-identify-users-and-authenticate-access-to-system-components) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
-
 
 ---
 
@@ -5747,6 +5289,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.1.1 All security policies and operational procedures that are identified in Requirement 8 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -5757,8 +5300,6 @@ Refer to Appendix G for definitions of PCI DSS terms.
 Expectations, controls, and oversight for meeting activities within Requirement 8 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -5780,13 +5321,9 @@ Security policies define the entity’s security objectives and principles. Oper
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -5800,8 +5337,6 @@ Security policies define the entity’s security objectives and principles. Oper
 Day-to-day responsibilities for performing all the activities in Requirement 8 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -5823,17 +5358,13 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -5870,21 +5401,13 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -5892,6 +5415,7 @@ By ensuring each user is uniquely identified, instead of using one ID for severa
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.2.2 Group, shared, or generic accounts, or other shared authentication credentials are only used when necessary on an exception basis, and are managed as follows:
+
 - Account use is prevented unless needed for an exceptional circumstance.
 - Use is limited to the time needed for the exceptional circumstance.
 - Business justification for use is documented.
@@ -5931,8 +5455,6 @@ If shared accounts are used for any reason, strong management controls need to b
 
 **Definitions**
 
-
-
 **Examples**
 
 Tools and techniques can facilitate both management and security of these types of accounts and confirm individual user identity before access to an account is granted. Entities can consider password vaults or other system-managed controls such as the sudo command.
@@ -5941,9 +5463,7 @@ An example of an exceptional circumstance is where all other authentication meth
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -5980,11 +5500,7 @@ Criminals know this and deliberately target service providers looking for a shar
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
@@ -5992,9 +5508,7 @@ Technologies such as multi-factor mechanisms that provide a unique credential fo
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6002,6 +5516,7 @@ Technologies such as multi-factor mechanisms that provide a unique credential fo
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.2.4 Addition, deletion, and modification of user IDs, authentication factors, and other identifier objects are managed as follows:
+
 - Authorized with the appropriate approval.
 - Implemented with only the privileges specified on the documented approval.
 
@@ -6027,21 +5542,13 @@ Attackers often compromise an existing account and then escalate the privileges 
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6055,8 +5562,6 @@ Attackers often compromise an existing account and then escalate the privileges 
 The accounts of terminated users cannot be used.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6072,21 +5577,13 @@ If an employee or third party/vendor has left the company and still has access t
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6100,8 +5597,6 @@ If an employee or third party/vendor has left the company and still has access t
 Inactive user accounts cannot be used.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6119,17 +5614,11 @@ Where it may be reasonably anticipated that an account will not be used for an e
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6137,6 +5626,7 @@ Where it may be reasonably anticipated that an account will not be used for an e
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.2.7 Accounts used by third parties to access, support, or maintain system components via remote access are managed as follows:
+
 - Enabled only during the time period needed and disabled when not in use.
 - Use is monitored for unexpected activity.
 
@@ -6145,8 +5635,6 @@ Where it may be reasonably anticipated that an account will not be used for an e
 Third party remote access cannot be used except where specifically authorized and use is overseen by management.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6165,17 +5653,11 @@ Monitoring third-party access helps ensure that third parties are accessing only
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6216,17 +5698,13 @@ If a user needs to run a program from an unattended computer, the user can log i
 
 **Definitions**
 
-
-
 **Examples**
 
 One way to meet this requirement is to configure an automated screensaver to launch whenever the console is idle for 15 minutes and requiring the logged-in user to enter their password to unlock the screen.
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6238,6 +5716,7 @@ One way to meet this requirement is to configure an automated screensaver to lau
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.1 All user access to system components for users and administrators is authenticated via at least one of the following authentication factors:
+
 - Something you know, such as a password or passphrase.
 - Something you have, such as a token device or smart card.
 - Something you are, such as a biometric element.
@@ -6272,17 +5751,13 @@ A common approach for a malicious individual to compromise a system is to exploi
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 See *fidoalliance.org* for more information about using tokens, smart cards, or biometrics as authentication factors.
 
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6296,8 +5771,6 @@ See *fidoalliance.org* for more information about using tokens, smart cards, or 
 Cleartext authentication factors cannot be obtained, derived, or reused from the interception of communications or from stored data.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6315,21 +5788,13 @@ Network devices and applications have been known to transmit unencrypted, readab
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6343,8 +5808,6 @@ Network devices and applications have been known to transmit unencrypted, readab
 Unauthorized individuals cannot gain system access by impersonating the identity of an authorized user.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6364,17 +5827,13 @@ Modifications to authentication factors for which user identity should be verifi
 
 **Definitions**
 
-
-
 **Examples**
 
 Methods to verify a user’s identity include a secret question/answer, knowledge-based information, and calling the user back at a known and previously established phone number.
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6382,6 +5841,7 @@ Methods to verify a user’s identity include a secret question/answer, knowledg
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.4 Invalid authentication attempts are limited by:
+
 - Locking out the user ID after not more than 10 attempts.
 - Setting the lockout duration to a minimum of 30 minutes or until the user’s identity is confirmed.
 
@@ -6413,17 +5873,11 @@ Before reactivating a locked account, the user’s identity should be confirmed.
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6431,6 +5885,7 @@ Before reactivating a locked account, the user’s identity should be confirmed.
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.5 If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they are set and reset for each user as follows:
+
 - Set to a unique value for first-time use and upon reset.
 - Forced to be changed immediately after the first use.
 
@@ -6439,8 +5894,6 @@ Before reactivating a locked account, the user’s identity should be confirmed.
 An initial or reset password/passphrase assigned to a user cannot be used by an unauthorized user.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6454,21 +5907,13 @@ If the same password/passphrase is used for every new user, an internal user, fo
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6476,6 +5921,7 @@ If the same password/passphrase is used for every new user, an internal user, fo
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.6 If passwords/passphrases are used as authentication factors to meet Requirement 8.3.1, they meet the following minimum level of complexity:
+
 - A minimum length of 12 characters (or IF the system does not support 12 characters, a minimum length of eight characters).
 - Contain both numeric and alphabetic characters.
 
@@ -6487,6 +5933,7 @@ A guessed password/passphrase cannot be verified by either an online or offline 
 
 This requirement is not intended to apply to:
 User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
+
 - Application or system accounts, which are governed by requirements in section 8.6.
 
 This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
@@ -6511,17 +5958,11 @@ Another option for increasing the resistance of passwords to guessing attacks is
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6552,21 +5993,13 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6574,6 +6007,7 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.8 Authentication policies and procedures are documented and communicated to all users including:
+
 - Guidance on selecting strong authentication factors.
 - Guidance for how users should protect their authentication factors.
 - Instructions not to reuse previously used passwords/passphrases.
@@ -6584,8 +6018,6 @@ Passwords or passphrases may have previously been changed due to suspicion of co
 Users are knowledgeable about the correct use of authentication factors and can access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6611,17 +6043,11 @@ Alternatively, entities can implement processes to confirm passwords meet passwo
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6629,6 +6055,7 @@ Alternatively, entities can implement processes to confirm passwords meet passwo
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.9 If passwords/passphrases are used as the only authentication factor for user access (i.e., in any single-factor authentication implementation) then either:
+
 - Passwords/passphrases are changed at least once every 90 days,
 
 **OR**
@@ -6667,17 +6094,13 @@ Dynamically analyzing an account’s security posture is another option that all
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 For information about using dynamic analysis to manage user access to resources, see *NIST SP 800-207 Zero Trust Architecture*.
 
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6685,6 +6108,7 @@ For information about using dynamic analysis to manage user access to resources,
 ###### DEFINED APPROACH REQUIREMENTS
 
 **8.3.10 Additional requirement for service providers only**: If passwords/passphrases are used as the only authentication factor for customer user access to cardholder data (i.e., in any single-factor authentication implementation), then guidance is provided to customer users including:
+
 - Guidance for customers to change their user passwords/passphrases periodically.
 - Guidance as to when, and under what circumstances, passwords/passphrases are to be changed.
 
@@ -6716,28 +6140,21 @@ Passwords/passphrases that are valid for a long time without a change provide ma
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
-
-
 ###### DEFINED APPROACH REQUIREMENTS
 
 **8.3.10.1 Additional requirement for service providers only**: If passwords/passphrases are used as the only authentication factor for customer user access (i.e., in any single-factor authentication implementation) then either:
+
 - Passwords/passphrases are changed at least once every 90 days,
 
 **OR**
@@ -6776,17 +6193,13 @@ Dynamically analyzing an account’s security posture is another option that all
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 For information about using dynamic analysis to manage user access to resources, refer to *NIST SP 800-207 Zero Trust Architecture*.
 
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6794,6 +6207,7 @@ For information about using dynamic analysis to manage user access to resources,
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.3.11 Where authentication factors such as physical or logical security tokens, smart cards, or certificates are used:
+
 - Factors are assigned to an individual user and not shared among multiple users.
 - Physical and/or logical controls ensure only the intended user can use that factor to gain access.
 
@@ -6802,8 +6216,6 @@ For information about using dynamic analysis to manage user access to resources,
 An authentication factor cannot be used by anyone other than the user to which it is assigned.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -6825,17 +6237,11 @@ Having physical and/or logical controls (for example, a PIN, biometric data, or 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6872,21 +6278,15 @@ Requiring more than one type of authentication factor reduces the probability th
 
 **Good Practice**
 
-
-
 **Definitions**
 
 Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6902,6 +6302,7 @@ Access into the CDE cannot be obtained by the use of a single authentication fac
 ###### APPLICABILITY NOTES
 
 This requirement does not apply to:
+
 - Application or system accounts performing automated functions.
 - User accounts on point-of-sale terminals that have access to only one card number at a time to facilitate a single transaction (such as IDs used by cashiers on point-of-sale terminals).
 
@@ -6925,21 +6326,15 @@ Requiring more than one type of authentication factor reduces the probability th
 
 **Good Practice**
 
-
-
 **Definitions**
 
 Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -6947,6 +6342,7 @@ Using one factor twice (for example, using two separate passwords) is not consid
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.4.3 MFA is implemented for all remote network access originating from outside the entity’s network that could access or impact the CDE as follows:
+
 - All remote access by all personnel, both users and administrators, originating from outside the entity’s network.
 - All remote access by third parties and vendors.
 
@@ -6976,21 +6372,15 @@ Requiring more than one type of authentication factor reduces the probability th
 
 **Good Practice**
 
-
-
 **Definitions**
 
 Multi-factor authentication (MFA) requires an individual to present a minimum of two of the three authentication factors specified in Requirement 8.3.1 before access is granted. Using one factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -7002,6 +6392,7 @@ Multi-factor authentication (MFA) requires an individual to present a minimum of
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.5.1 MFA systems are implemented as follows:
+
 - The MFA system is not susceptible to replay attacks.
 - MFA systems cannot be bypassed by any users, including administrative users unless specifically documented, and authorized by management on an exception basis, for a limited time period.
 - At least two different types of authentication factors are used.
@@ -7035,15 +6426,11 @@ Poorly configured MFA systems can be bypassed by attackers. This requirement the
 
 **Good Practice**
 
-
-
 **Definitions**
 
 Using one type of factor twice (for example, using two separate passwords) is not considered multi-factor authentication.
 
 **Examples**
-
-
 
 **Further Information**
 
@@ -7053,7 +6440,7 @@ PCI SSC’s *Information Supplement: Multi-Factor Authentication*
 
 PCI SSC’s Frequently Asked Questions (FAQs) on this topic.
 
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -7065,6 +6452,7 @@ PCI SSC’s Frequently Asked Questions (FAQs) on this topic.
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.6.1 If accounts used by systems or applications can be used for interactive login, they are managed as follows:
+
 - Interactive use is prevented unless needed for an exceptional circumstance.
 - Interactive use is limited to the time needed for the exceptional circumstance.
 - Business justification for interactive use is documented.
@@ -7103,13 +6491,9 @@ Interactive login is the ability for a person to log into a system or applicatio
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -7147,17 +6531,11 @@ Tools can facilitate both management and security of authentication factors for 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -7165,6 +6543,7 @@ Tools can facilitate both management and security of authentication factors for 
 ###### DEFINED APPROACH REQUIREMENTS
 
 8.6.3 Passwords/passphrases for any application and system accounts are protected against misuse as follows:
+
 - Passwords/passphrases are changed periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1) and upon suspicion or confirmation of compromise.
 - Passwords/passphrases are constructed with sufficient complexity appropriate for how frequently the entity changes the passwords/passphrases.
 
@@ -7181,6 +6560,7 @@ This requirement is a best practice until 31 March 2025, after which it will be 
 8.6.3.a Examine policies and procedures to verify that procedures are defined to protect passwords/passphrases for application or system accounts against misuse in accordance with all elements specified in this requirement.
 
 8.6.3.b Examine the entity’s targeted risk analysis for the change frequency and complexity for passwords/passphrases used for interactive login to application and system accounts to verify the risk analysis was performed in accordance with all elements specified in Requirement 12.3.1 and addresses:
+
 - The frequency defined for periodic changes to application and system passwords/passphrases.
 - The complexity defined for passwords/passphrases and appropriateness of the complexity relative to the frequency of changes.
 
@@ -7195,6 +6575,7 @@ Systems and application accounts pose more inherent security risk than user acco
 **Good Practice**
 
 Entities should consider the following risk factors when determining how to protect application and system passwords/passphrases against misuse:
+
 - How securely the passwords/passphrases are stored (for example, whether they are stored in a password vault).
 - Staff turnover.
 - The number of people with access to the authentication factor.
@@ -7209,17 +6590,13 @@ Best practices are to consider password changes at least once a year, a password
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 For information about variability and equivalency of password strength for passwords/passphrases of different formats, see the industry standards (for example, the current version of *NIST SP 800-63 Digital Identity Guidelines*).
 
-[sections 8](#sections-8) | 
+[sections 8](#sections-8) |
 [top](#pci-dss-v40)
 
 ---
@@ -7229,18 +6606,19 @@ For information about variability and equivalency of password strength for passw
 ### Requirement 9: Restrict Physical Access to Cardholder Data
 
 #### OVERVIEW
+
 Any physical access to cardholder data or systems that store, process, or transmit cardholder data provides the opportunity for individuals to access and/or remove systems or hardcopies containing cardholder data; therefore, physical access should be appropriately restricted.
 
 There are three different areas mentioned in Requirement 9:
 
-1.	Requirements that specifically refer to sensitive areas are intended to apply to those areas only.
-2.	Requirements that specifically refer to the cardholder data environment (CDE) are intended to apply to the entire CDE, including any sensitive areas residing within the CDE.
-3.	Requirements that specifically refer to the facility are referencing the types of controls that may be managed more broadly at the physical boundary of a business premise (such as a building) within which CDEs and sensitive areas reside. These controls often exist outside a CDE or sensitive area, for example a guard desk that identifies, badges, and logs visitors. The term “facility” is used to recognize that these controls may exist at different places within a facility, for instance, at building entry or at an internal entrance to a data center or office space.
+1. Requirements that specifically refer to sensitive areas are intended to apply to those areas only.
+2. Requirements that specifically refer to the cardholder data environment (CDE) are intended to apply to the entire CDE, including any sensitive areas residing within the CDE.
+3. Requirements that specifically refer to the facility are referencing the types of controls that may be managed more broadly at the physical boundary of a business premise (such as a building) within which CDEs and sensitive areas reside. These controls often exist outside a CDE or sensitive area, for example a guard desk that identifies, badges, and logs visitors. The term “facility” is used to recognize that these controls may exist at different places within a facility, for instance, at building entry or at an internal entrance to a data center or office space.
 
 Refer to Appendix G for definitions of “media,” “personnel,” “sensitive areas” and other PCI DSS terms.
 
-
 #### SECTIONS 9
+
 [9.1 Processes and mechanisms for restricting physical access to cardholder data are defined and understood.](#requirements-and-testing-procedures-91)
 
 [9.2 Physical access controls manage entry into facilities and systems containing cardholder data.](#requirements-and-testing-procedures-92)
@@ -7251,9 +6629,9 @@ Refer to Appendix G for definitions of “media,” “personnel,” “sensitiv
 
 [9.5 Point of interaction (POI) devices are protected from tampering and unauthorized substitution.](#requirements-and-testing-procedures-95)
 
-[requirement 9](#requirement-9-restrict-physical-access-to-cardholder-data) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 9](#requirement-9-restrict-physical-access-to-cardholder-data) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ---
@@ -7265,6 +6643,7 @@ Refer to Appendix G for definitions of “media,” “personnel,” “sensitiv
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.1.1 All security policies and operational procedures that are identified in Requirement 9 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -7275,8 +6654,6 @@ Refer to Appendix G for definitions of “media,” “personnel,” “sensitiv
 Expectations, controls, and oversight for meeting activities within Requirement 9 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -7300,13 +6677,9 @@ Policies and procedures, including updates, are actively communicated to all aff
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7320,8 +6693,6 @@ Policies and procedures, including updates, are actively communicated to all aff
 Day-to-day responsibilities for performing all the activities in Requirement 9 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -7345,17 +6716,11 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7374,8 +6739,6 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.2.1 Observe entry controls and interview responsible personnel to verify that physical security controls are in place to restrict access to systems in the CDE.
@@ -7392,17 +6755,13 @@ Whichever mechanism meets this requirement, it must be sufficient for the organi
 
 **Definitions**
 
-
-
 **Examples**
 
 Facility entry controls include physical security controls at each computer room, data center, and other physical areas with systems in the CDE. It can also include badge readers or other devices that manage physical access controls, such as lock and key with a current list of all individuals holding the keys.
 
 **Further Information**
 
-
-
-[sections 8](#sections-9) | 
+[sections 8](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7410,6 +6769,7 @@ Facility entry controls include physical security controls at each computer room
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.2.1.1 Individual physical access to sensitive areas within the CDE is monitored with either video cameras or physical access control mechanisms (or both) as follows:
+
 - Entry and exit points to/from sensitive areas within the CDE are monitored.
 - Monitoring devices or mechanisms are protected from tampering or disabling.
 - Collected data is reviewed and correlated with other entries.
@@ -7421,8 +6781,6 @@ Trusted, verifiable records are maintained of individual physical entry to, and 
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.2.1.1.a Observe locations where individual physical access to sensitive areas within the CDE occurs to verify that either video cameras or physical access control mechanisms (or both) are in place to monitor the entry and exit points.
@@ -7430,6 +6788,7 @@ Trusted, verifiable records are maintained of individual physical entry to, and 
 9.2.1.1.b Observe locations where individual physical access to sensitive areas within the CDE occurs to verify that either video cameras or physical access control mechanisms (or both) are protected from tampering or disabling.
 
 9.2.1.1.c Observe the physical access control mechanisms and/or examine video cameras and interview responsible personnel to verify that:
+
 - Collected data from video cameras and/or physical access control mechanisms is reviewed and correlated with other entries.
 - Collected data is stored for at least three months.
 
@@ -7447,17 +6806,11 @@ Criminals attempting to gain physical access to sensitive areas will often try t
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7471,8 +6824,6 @@ Criminals attempting to gain physical access to sensitive areas will often try t
 Unauthorized devices cannot connect to the entity’s network from public areas within the facility.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -7490,17 +6841,13 @@ Whether logical or physical controls, or a combination of both, are used, they s
 
 **Definitions**
 
-
-
 **Examples**
 
 Methods to meet this requirement include network jacks located in public areas and areas accessible to visitors could be disabled and only enabled when network access is explicitly authorized. Alternatively, processes could be implemented to ensure that visitors are escorted at all times in areas with active network jacks.
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7514,8 +6861,6 @@ Methods to meet this requirement include network jacks located in public areas a
 Physical networking equipment cannot be accessed by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -7531,21 +6876,13 @@ Additionally, securing networking and communications hardware prevents malicious
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7560,8 +6897,6 @@ Physical consoles within sensitive areas cannot be used by unauthorized personne
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.2.4 Observe a system administrator’s attempt to log into consoles in sensitive areas and verify that they are “locked” to prevent unauthorized use.
@@ -7574,21 +6909,13 @@ Locking console login screens prevents unauthorized persons from gaining access 
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7600,6 +6927,7 @@ Locking console login screens prevents unauthorized persons from gaining access 
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.3.1 Procedures are implemented for authorizing and managing physical access of personnel to the CDE, including:
+
 - Identifying personnel.
 - Managing changes to an individual’s physical access requirements.
 - Revoking or terminating personnel identification.
@@ -7610,8 +6938,6 @@ Locking console login screens prevents unauthorized persons from gaining access 
 Requirements for access to the physical CDE are defined and enforced to identify and authorize personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -7633,17 +6959,13 @@ It is important to visually identify the personnel that are physically present, 
 
 **Definitions**
 
-
-
 **Examples**
 
 One way to identify personnel is to assign them badges.
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7651,6 +6973,7 @@ One way to identify personnel is to assign them badges.
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.3.1.1 Physical access to sensitive areas within the CDE for personnel is controlled as follows:
+
 - Access is authorized and based on individual job function.
 - Access is revoked immediately upon termination.
 - All physical access mechanisms, such as keys, access cards, etc., are returned or disabled upon termination.
@@ -7661,15 +6984,13 @@ Sensitive areas cannot be accessed by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.3.1.1.a Observe personnel in sensitive areas within the CDE, interview responsible personnel, and examine physical access control lists to verify that:
 
 - Access to the sensitive area is authorized.
 - Access is required for the individual’s job function.
-9.3.1.1.b Observe processes and interview personnel to verify that access of all personnel is revoked immediately upon termination.
+  9.3.1.1.b Observe processes and interview personnel to verify that access of all personnel is revoked immediately upon termination.
 
 9.3.1.1.c For terminated personnel, examine physical access controls lists and interview responsible personnel to verify that all physical access mechanisms (such as keys, access cards, etc.) were returned or disabled.
 
@@ -7685,17 +7006,11 @@ Where possible, organizations should have policies and procedures to ensure that
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7703,6 +7018,7 @@ Where possible, organizations should have policies and procedures to ensure that
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.3.2 Procedures are implemented for authorizing and managing visitor access to the CDE, including:
+
 - Visitors are authorized before entering.
 - Visitors are escorted at all times.
 - Visitors are clearly identified and given a badge or other identification that expires.
@@ -7714,19 +7030,18 @@ Requirements for visitor access to the CDE are defined and enforced. Visitors ca
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.3.2.a Examine documented procedures and interview personnel to verify procedures are defined for authorizing and managing visitor access to the CDE in accordance with all elements specified in this requirement.
 9.3.2.b Observe processes when visitors are present in the CDE and interview personnel to verify that visitors are:
+
 - Authorized before entering the CDE.
 - Escorted at all times within the CDE.
-9.3.2.c Observe the use of visitor badges or other identification to verify that the badge or other identification does not permit unescorted access to the CDE.
-9.3.2.d Observe visitors in the CDE to verify that:
+  9.3.2.c Observe the use of visitor badges or other identification to verify that the badge or other identification does not permit unescorted access to the CDE.
+  9.3.2.d Observe visitors in the CDE to verify that:
 - Visitor badges or other identification are being used for all visitors.
 - Visitor badges or identification easily distinguish visitors from personnel.
-9.3.2.e Examine visitor badges or other identification and observe evidence in the badging system to verify visitor badges or other identification expires.
+  9.3.2.e Examine visitor badges or other identification and observe evidence in the badging system to verify visitor badges or other identification expires.
 
 ##### GUIDANCE
 
@@ -7738,21 +7053,13 @@ Visitor controls ensure visitors are identifiable as visitors so personnel can m
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7767,8 +7074,6 @@ Visitor identification or badges cannot be reused after expiration.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.3.3 Observe visitors leaving the facility and interview personnel to verify visitor badges or other identification are surrendered or deactivated before visitors leave the facility or at the date of expiration. upon departure or expiration.
@@ -7781,21 +7086,13 @@ Ensuring that visitor badges are returned or deactivated upon expiry or completi
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7803,6 +7100,7 @@ Ensuring that visitor badges are returned or deactivated upon expiry or completi
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.3.4 A visitor log is used to maintain a physical record of visitor activity within the facility and within sensitive areas, including:
+
 - The visitor’s name and the organization represented.
 - The date and time of the visit.
 - The name of the personnel authorizing physical access.
@@ -7814,13 +7112,12 @@ Records of visitor access that enable the identification of individuals are main
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.3.4.a Examine the visitor log and interview responsible personnel to verify that a visitor log is used to record physical access to the facility and sensitive areas.
 
 9.3.4.b Examine the visitor log and verify that the log contains:
+
 - The visitor’s name and the organization represented.
 - The personnel authorizing physical access.
 - Date and time of visit.
@@ -7839,17 +7136,11 @@ When logging the date and time of visit, including both in and out times is cons
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7868,8 +7159,6 @@ Media with cardholder data cannot be accessed by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.4.1. Examine documentation to verify that the procedures defined for protecting cardholder data include controls for physically securing all media.
@@ -7882,21 +7171,13 @@ Controls for physically securing media are intended to prevent unauthorized pers
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7910,8 +7191,6 @@ Controls for physically securing media are intended to prevent unauthorized pers
 Offline backups cannot be accessed by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -7931,17 +7210,11 @@ For secure storage of backup media, a good practice is to store media in an off-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -7955,8 +7228,6 @@ For secure storage of backup media, a good practice is to store media in an off-
 The security controls protecting offline backups are verified periodically by inspection.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -7972,21 +7243,13 @@ Conducting regular reviews of the storage facility enables the organization to a
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8000,8 +7263,6 @@ Conducting regular reviews of the storage facility enables the organization to a
 Media are classified and protected appropriately.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8021,17 +7282,11 @@ It is important that media be identified such that its classification status is 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8039,6 +7294,7 @@ It is important that media be identified such that its classification status is 
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.4.3 Media with cardholder data sent outside the facility is secured as follows:
+
 - Media sent outside the facility is logged.
 - Media is sent by secured courier or other delivery method that can be accurately tracked.
 - Offsite tracking logs include details about media location.
@@ -8048,8 +7304,6 @@ It is important that media be identified such that its classification status is 
 Media is secured and tracked when transported outside the facility.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8067,21 +7321,13 @@ Media may be lost or stolen if sent via a non-trackable method such as regular p
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8112,21 +7358,13 @@ Without a firm process for ensuring that all media movements are approved before
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8140,8 +7378,6 @@ Without a firm process for ensuring that all media movements are approved before
 Accurate inventories of stored electronic media are maintained.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8157,21 +7393,13 @@ Without careful inventory methods and storage controls, stolen or missing electr
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8185,8 +7413,6 @@ Without careful inventory methods and storage controls, stolen or missing electr
 Media inventories are verified periodically.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8202,21 +7428,13 @@ Without careful inventory methods and storage controls, stolen or missing electr
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8224,6 +7442,7 @@ Without careful inventory methods and storage controls, stolen or missing electr
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.4.6 Hard-copy materials with cardholder data are destroyed when no longer needed for business or legal reasons, as follows:
+
 - Materials are cross-cut shredded, incinerated, or pulped so that cardholder data cannot be reconstructed.
 - Materials are stored in secure storage containers prior to destruction.
 
@@ -8257,17 +7476,13 @@ Consider “to-be-shredded” containers with a lock that prevents access to its
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
 
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8275,6 +7490,7 @@ See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitizat
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.4.7 Electronic media with cardholder data is destroyed when no longer needed for business or legal reasons via one of the following:
+
 - The electronic media is destroyed.
 - The cardholder data is rendered unrecoverable so that it cannot be reconstructed.
 
@@ -8304,8 +7520,6 @@ The deletion function in most operating systems allows deleted data to be recove
 
 **Definitions**
 
-
-
 **Examples**
 
 Methods for securely destroying electronic media include secure wiping in accordance with industry-accepted standards for secure deletion, degaussing, or physical destruction (such as grinding or shredding hard disks).
@@ -8314,7 +7528,7 @@ Methods for securely destroying electronic media include secure wiping in accord
 
 See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitization*.
 
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8326,6 +7540,7 @@ See *NIST Special Publication 800-88, Revision 1: Guidelines for Media Sanitizat
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.5.1 POI devices that capture payment card data via direct physical interaction with the payment card form factor are protected from tampering and unauthorized substitution, including the following:
+
 - Maintaining a list of POI devices.
 - Periodically inspecting POI devices to look for tampering or unauthorized substitution.
 - Training personnel to be aware of suspicious behavior and to report tampering or unauthorized substitution of devices.
@@ -8356,21 +7571,15 @@ They will also try to add “skimming” components to the outside of devices, w
 
 **Good Practice**
 
-
-
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Additional best practices on skimming prevention are available on the PCI SSC website.
 
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8378,6 +7587,7 @@ Additional best practices on skimming prevention are available on the PCI SSC we
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.5.1.1 An up-to-date list of POI devices is maintained, including:
+
 - Make and model of the device.
 - Location of device.
 - Device serial number or other methods of unique identification.
@@ -8387,8 +7597,6 @@ Additional best practices on skimming prevention are available on the PCI SSC we
 The identity and location of POI devices is recorded and known at all times.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8410,17 +7618,13 @@ The method for maintaining a list of devices may be automated (for example, a de
 
 **Definitions**
 
-
-
 **Examples**
 
 Methods to maintain device locations include identifying the address of the site or facility where the device is located.
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8435,13 +7639,12 @@ Point of Interaction Devices cannot be tampered with, substituted without author
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 9.5.1.2.a Examine documented procedures to verify processes are defined for periodic inspections of POI device surfaces to detect tampering and unauthorized substitution.
 
 9.5.1.2.b Interview responsible personnel and observe inspection processes to verify:
+
 - Personnel are aware of procedures for inspecting devices.
 - All devices are periodically inspected for evidence of tampering and unauthorized substitution.
 
@@ -8457,13 +7660,12 @@ Methods for periodic inspection include checking the serial number or other devi
 
 **Definitions**
 
-
-
 **Examples**
 
 The type of inspection will depend on the device. For instance, photographs of devices known to be secure can be used to compare a device’s current appearance with its original appearance to see whether it has changed. Another option may be to use a secure marker pen, such as a UV light marker, to mark device surfaces and device openings so any tampering or replacement will be apparent. Criminals will often replace the outer casing of a device to hide their tampering, and these methods may help to detect such activities. Device vendors may also provide security guidance and “how to” guides to help determine whether the device has been subject to tampering.
 
 Signs that a device might have been tampered with or substituted include:
+
 - Unexpected attachments or cables plugged into the device.
 - Missing or changed security labels.
 - Broken or differently colored casing.
@@ -8471,9 +7673,7 @@ Signs that a device might have been tampered with or substituted include:
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8508,17 +7708,11 @@ The frequency of inspections will depend on factors such as the location of a de
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
@@ -8526,6 +7720,7 @@ The frequency of inspections will depend on factors such as the location of a de
 ###### DEFINED APPROACH REQUIREMENTS
 
 9.5.1.3 Training is provided for personnel in POI environments to be aware of attempted tampering or replacement of POI devices, and includes:
+
 - Verifying the identity of any third-party persons claiming to be repair or maintenance personnel, before granting them access to modify or troubleshoot devices.
 - Procedures to ensure devices are not installed, replaced, or returned without verification.
 - Being aware of suspicious behavior around devices.
@@ -8536,8 +7731,6 @@ The frequency of inspections will depend on factors such as the location of a de
 Personnel are knowledgeable about the types of attacks against POI devices, the entity’s technical and procedural countermeasures, and can access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8559,8 +7752,6 @@ Another trick that criminals use is to send a “new” POI device with instruct
 
 **Definitions**
 
-
-
 **Examples**
 
 Suspicious behavior that personnel should be aware of includes attempts by unknown persons to unplug or open devices.
@@ -8569,20 +7760,19 @@ Ensuring personnel are aware of mechanisms for reporting suspicious behavior and
 
 **Further Information**
 
-
-
-[sections 9](#sections-9) | 
+[sections 9](#sections-9) |
 [top](#pci-dss-v40)
 
 ---
+
 ---
 
 ## PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks
 
-
 ### Requirement 10: Log and Monitor All Access to System Components and Cardholder Data
 
 #### OVERVIEW
+
 Logging mechanisms and the ability to track user activities are critical in preventing, detecting, or minimizing the impact of a data compromise. The presence of logs on all system components and in the cardholder data environment (CDE) allows thorough tracking, alerting, and analysis when something does go wrong. Determining the cause of a compromise is difficult, if not impossible, without system activity logs.
 
 This requirement applies to user activities, including those by employees, contractors, consultants, and internal and external vendors, and other third parties (for example, those providing support or maintenance services).
@@ -8591,8 +7781,8 @@ These requirements do not apply to user activity of consumers (cardholders).
 
 Refer to Appendix G for definitions of PCI DSS terms.
 
-
 #### SECTIONS 10
+
 [10.1 Processes and mechanisms for logging and monitoring all access to system components and cardholder data are defined and documented.](#requirements-and-testing-procedures-101)
 
 [10.2 Audit logs are implemented to support the detection of anomalies and suspicious activity, and the forensic analysis of events.](#requirements-and-testing-procedures-102)
@@ -8607,9 +7797,9 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [10.7 Failures of critical security control systems are detected, reported, and responded to promptly.](#requirements-and-testing-procedures-107)
 
-[requirement 10](#requirement-10-log-and-monitor-all-access-to-system-components-and-cardholder-data) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 10](#requirement-10-log-and-monitor-all-access-to-system-components-and-cardholder-data) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ##### REQUIREMENTS and TESTING PROCEDURES 10.1
@@ -8619,6 +7809,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.1.1 All security policies and operational procedures that are identified in Requirement 10 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -8644,21 +7835,15 @@ It is important to update policies and procedures as needed to address changes i
 
 **Good Practice**
 
-
-
 **Definitions**
 
 Security policies define the entity’s security objectives and principles. Operational procedures describe how to perform activities, and define the controls, methods, and processes that are followed to achieve the desired result in a consistent manner and in accordance with policy objectives.
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8672,8 +7857,6 @@ Security policies define the entity’s security objectives and principles. Oper
 Day-to-day responsibilities for performing all the activities in Requirement 10 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8695,17 +7878,13 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8723,8 +7902,6 @@ A method to document roles and responsibilities is a responsibility assignment m
 Records of all activities affecting system components and cardholder data are captured.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8744,17 +7921,11 @@ When an entity considers which information to record in their logs, it is import
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8768,8 +7939,6 @@ When an entity considers which information to record in their logs, it is import
 Records of all individual user access to cardholder data are captured.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8787,17 +7956,11 @@ A record of all individual access to cardholder data can identify which accounts
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8812,8 +7975,6 @@ Records of all actions performed by individuals with elevated privileges are cap
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 10.2.1.2 Examine audit log configurations and log data to verify that all actions taken by any individual with administrative access, including any interactive use of application or system accounts, are logged.
@@ -8826,21 +7987,15 @@ Accounts with increased access privileges, such as the “administrator” or �
 
 **Good Practice**
 
-
-
 **Definitions**
 
 Accounts with administrative access are those assigned with specific privileges or abilities for that account to manage systems, networks, and/or applications. The functions or activities considered to be administrative are beyond those performed by regular users as part of routine business functions.
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8855,8 +8010,6 @@ Records of all access to audit logs are captured.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 10.2.1.3 Examine audit log configurations and log data to verify that access to all audit logs is captured.
@@ -8869,21 +8022,13 @@ Malicious users often attempt to alter audit logs to hide their actions. A recor
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8898,8 +8043,6 @@ Records of all invalid access attempts are captured.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 10.2.1.4 Examine audit log configurations and log data to verify that invalid logical access attempts are captured.
@@ -8912,21 +8055,13 @@ Malicious individuals will often perform multiple access attempts on targeted sy
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8934,6 +8069,7 @@ Malicious individuals will often perform multiple access attempts on targeted sy
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.2.1.5 Audit logs capture all changes to identification and authentication credentials including, but not limited to:
+
 - Creation of new accounts.
 - Elevation of privileges.
 - All changes, additions, or deletions to accounts with administrative access.
@@ -8943,8 +8079,6 @@ Malicious individuals will often perform multiple access attempts on targeted sy
 Records of all changes to identification and authentication credentials are captured.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -8960,21 +8094,13 @@ Malicious users may attempt to manipulate authentication credentials to bypass t
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -8982,6 +8108,7 @@ Malicious users may attempt to manipulate authentication credentials to bypass t
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.2.1.6 Audit logs capture the following:
+
 - All initialization of new audit logs, and
 - All starting, stopping, or pausing of the existing audit logs.
 
@@ -8990,8 +8117,6 @@ Malicious users may attempt to manipulate authentication credentials to bypass t
 Records of all changes to audit log activity status are captured.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9005,21 +8130,13 @@ Turning off or pausing audit logs before performing illicit activities is common
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9034,8 +8151,6 @@ Records of alterations that indicate a system has been modified from its intende
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 10.2.1.7 Examine audit log configurations and log data to verify that creation and deletion of system level objects is captured.
@@ -9048,21 +8163,13 @@ Malicious software, such as malware, often creates or replaces system-level obje
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9070,6 +8177,7 @@ Malicious software, such as malware, often creates or replaces system-level obje
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.2.2 Audit logs record the following details for each auditable event:
+
 - User identification.
 - Type of event.
 - Date and time.
@@ -9083,8 +8191,6 @@ Sufficient data to be able to identify successful and failed attempts and who, w
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 10.2.2 Interview personnel and examine audit log configurations and log data to verify that all elements specified in this requirement are included in log entries for each auditable event (from 10.2.1.1 through 10.2.1.7).
@@ -9097,21 +8203,13 @@ By recording these details for the auditable events at 10.2.1.1 through 10.2.1.7
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9130,8 +8228,6 @@ Stored activity records cannot be accessed by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 10.3.1 Interview system administrators and examine system configurations and privileges to verify that only individuals with a job-related need have read access to audit log files.
@@ -9148,17 +8244,11 @@ Adequate protection of the audit logs includes strong access control that limits
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9172,8 +8262,6 @@ Adequate protection of the audit logs includes strong access control that limits
 Stored activity records cannot be modified by personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9191,17 +8279,11 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9215,8 +8297,6 @@ Entities should attempt to prevent logs from being exposed in public-accessible 
 Stored activity records are secured and preserved in a central location to prevent unauthorized modification.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9236,17 +8316,11 @@ Each entity determines the best way to back up log files, whether via one or mor
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9260,8 +8334,6 @@ Each entity determines the best way to back up log files, whether via one or mor
 Stored activity records cannot be modified without an alert being generated.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9279,17 +8351,11 @@ Software used to monitor changes to audit logs should be configured to provide a
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9301,6 +8367,7 @@ Software used to monitor changes to audit logs should be configured to provide a
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.4.1 The following audit logs are reviewed at least once daily:
+
 - All security events.
 - Logs of all system components that store, process, or transmit CHD and/or SAD.
 - Logs of all critical system components.
@@ -9311,8 +8378,6 @@ Software used to monitor changes to audit logs should be configured to provide a
 Potentially suspicious or anomalous activities are quickly identified to minimize impact.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9337,17 +8402,11 @@ An entity that uses third-party service providers to perform log review services
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9380,17 +8439,11 @@ The entity should keep logging tools aligned with any changes in their environme
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9420,21 +8473,13 @@ Periodic review of logs for all other system components (not specified in Requir
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9465,21 +8510,13 @@ Entities can determine the optimum period to review these logs based on criteria
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9493,8 +8530,6 @@ Entities can determine the optimum period to review these logs based on criteria
 Suspicious or anomalous activities are addressed.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9511,6 +8546,7 @@ If exceptions and anomalies identified during the log-review process are not inv
 **Good Practice**
 
 Entities should consider how to address the following when developing their processes for defining and managing exceptions and anomalies:
+
 - How log review activities are recorded,
 - How to rank and prioritize exceptions and anomalies,
 - What procedures should be in place to report and escalate exceptions and anomalies, and
@@ -9518,17 +8554,11 @@ Entities should consider how to address the following when developing their proc
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9547,11 +8577,10 @@ Historical records of activity are available immediately to support incident res
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 10.5.1.a Examine documentation to verify that the following is defined:
+
 - Audit log retention policies.
 - Procedures for retaining audit log history for at least 12 months, with at least the most recent three months immediately available online.
 
@@ -9567,11 +8596,7 @@ Retaining historical audit logs for at least 12 months is necessary because comp
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
@@ -9579,9 +8604,7 @@ Methods that allow logs to be immediately available include storing logs online,
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9616,11 +8639,7 @@ For post-incident forensics teams, the accuracy and consistency of time across a
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
@@ -9628,9 +8647,7 @@ Network Time Protocol (NTP) is one example of time-synchronization technology.
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9638,6 +8655,7 @@ Network Time Protocol (NTP) is one example of time-synchronization technology.
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.6.2 Systems are configured to the correct and consistent time as follows:
+
 - One or more designated time servers are in use.
 - Only the designated central time server(s) receives time from external sources.
 - Time received from external sources is based on International Atomic Time or Coordinated Universal Time (UTC).
@@ -9650,8 +8668,6 @@ Network Time Protocol (NTP) is one example of time-synchronization technology.
 The time on all systems is accurate and consistent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9671,17 +8687,11 @@ Another option to prevent unauthorized use of internal time servers is to encryp
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9689,6 +8699,7 @@ Another option to prevent unauthorized use of internal time servers is to encryp
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.6.3 Time synchronization settings and data are protected as follows:
+
 - Access to time data is restricted to only personnel with a business need.
 - Any changes to time settings on critical systems are logged, monitored, and reviewed.
 
@@ -9697,8 +8708,6 @@ Another option to prevent unauthorized use of internal time servers is to encryp
 System time settings cannot be modified by unauthorized personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9714,21 +8723,13 @@ Attackers will try to change time configurations to hide their activity. Therefo
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9740,6 +8741,7 @@ Attackers will try to change time configurations to hide their activity. Therefo
 ###### DEFINED APPROACH REQUIREMENTS
 
 **10.7.1 Additional requirement for service providers only**: Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited to failure of the following critical security control systems:
+
 - Network security controls.
 - IDS/IPS.
 - FIM.
@@ -9777,17 +8779,11 @@ The specific types of failures may vary, depending on the function of the device
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9795,6 +8791,7 @@ The specific types of failures may vary, depending on the function of the device
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.7.2 Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited to failure of the following critical security control systems:
+
 - Network security controls.
 - IDS/IPS.
 - Change-detection mechanisms.
@@ -9834,17 +8831,11 @@ The specific types of failures may vary, depending on the function of the device
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
@@ -9852,6 +8843,7 @@ The specific types of failures may vary, depending on the function of the device
 ###### DEFINED APPROACH REQUIREMENTS
 
 10.7.3 Failures of any critical security controls systems are responded to promptly, including but not limited to:
+
 - Restoring security functions.
 - Identifying and documenting the duration (date and time from start to end) of the security failure.
 - Identifying and documenting the cause(s) of failure and documenting required remediation.
@@ -9875,6 +8867,7 @@ This requirement applies only when the entity being assessed is a service provid
 10.7.3.a Examine documentation and interview personnel to verify that processes are defined and implemented to respond to a failure of any critical security control system and include at least all elements specified in this requirement.
 
 10.7.3.b Examine records to verify that failures of critical security control systems are documented to include:
+
 - Identification of cause(s) of the failure.
 - Duration (date and time start and end) of the security failure.
 - Details of the remediation required to address the root cause.
@@ -9891,33 +8884,27 @@ Documented evidence (for example, records within a problem management system) sh
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 10](#sections-10) | 
+[sections 10](#sections-10) |
 [top](#pci-dss-v40)
 
 ---
 
 ## PRINCIPLE PCI DSS REQUIREMENT: Regularly Monitor and Test Networks
 
-
 ### Requirement 11:	Test Security of Systems and Networks Regularly
 
 #### OVERVIEW
+
 Vulnerabilities are being discovered continually by malicious individuals and researchers, and being introduced by new software. System components, processes, and bespoke and custom software should be tested frequently to ensure security controls continue to reflect a changing environment.
 
 Refer to Appendix G for definitions of PCI DSS terms.
 
-
 #### SECTIONS 11
+
 [11.1 Processes and mechanisms for regularly testing security of systems and networks are defined and understood.](#requirements-and-testing-procedures-111)
 
 [11.2 Wireless access points are identified and monitored, and unauthorized wireless access points are addressed.](#requirements-and-testing-procedures-112)
@@ -9930,11 +8917,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [11.6 Unauthorized changes on payment pages are detected and responded to.](#requirements-and-testing-procedures-116)
 
-[requirement 11](#requirement-11-test-security-of-systems-and-networks-regularly) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 11](#requirement-11-test-security-of-systems-and-networks-regularly) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 11.1
 
@@ -9943,6 +8929,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.1.1 All security policies and operational procedures that are identified in Requirement 11 are:
+
 - Documented.
 - Kept up to date.
 - In use.
@@ -9953,8 +8940,6 @@ Refer to Appendix G for definitions of PCI DSS terms.
 Expectations, controls, and oversight for meeting activities within Requirement 11 are defined and adhered to by affected personnel. All supporting activities are repeatable, consistently applied, and conform to management’s intent.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -9976,13 +8961,9 @@ Security policies define the entity’s security objectives and principles. Oper
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -9996,8 +8977,6 @@ Security policies define the entity’s security objectives and principles. Oper
 Day-to-day responsibilities for performing all the activities in Requirement 11 are allocated. Personnel are accountable for successful, continuous operation of these requirements.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -10019,17 +8998,13 @@ As part of communicating roles and responsibilities, entities can consider havin
 
 **Definitions**
 
-
-
 **Examples**
 
 A method to document roles and responsibilities is a responsibility assignment matrix that includes who is responsible, accountable, consulted, and informed (also called a RACI matrix).
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10041,6 +9016,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.2.1 Authorized and unauthorized wireless access points are managed as follows:
+
 - The presence of wireless (Wi-Fi) access points is tested for,
 - All authorized and unauthorized wireless access points are detected and identified,
 - Testing, detection, and identification occurs at least once every three months.
@@ -10090,9 +9066,7 @@ Methods that may be used include but are not limited to wireless network scans, 
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10111,8 +9085,6 @@ Unauthorized wireless access points are not mistaken for authorized wireless acc
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-
-
 ##### GUIDANCE
 
 **Purpose**
@@ -10125,17 +9097,11 @@ If using a wireless scanner, it is equally important to have a defined list of k
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10147,6 +9113,7 @@ If using a wireless scanner, it is equally important to have a defined list of k
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.3.1 Internal vulnerability scans are performed as follows:
+
 - At least once every three months.
 - High-risk and critical vulnerabilities (per the entity’s vulnerability risk rankings defined at Requirement 6.3.1) are resolved.
 - Rescans are performed that confirm all high-risk and critical vulnerabilities (as noted above) have been resolved.
@@ -10193,13 +9160,9 @@ A vulnerability scan is a combination of automated tools, techniques, and/or met
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10207,6 +9170,7 @@ A vulnerability scan is a combination of automated tools, techniques, and/or met
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.3.1.1 All other applicable vulnerabilities (those not ranked as high-risk or critical per the entity’s vulnerability risk rankings defined at Requirement 6.3.1) are managed as follows:
+
 - Addressed based on the risk defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1.
 - Rescans are conducted as needed.
 
@@ -10234,21 +9198,13 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10256,6 +9212,7 @@ All vulnerabilities, regardless of criticality, provide a potential avenue of at
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.3.1.2 Internal vulnerability scans are performed via authenticated scanning as follows:
+
 - Systems that are unable to accept credentials for authenticated scanning are documented.
 - Sufficient privileges are used for those systems that accept credentials for scanning.
 - If accounts used for authenticated scanning can be used for interactive login, they are managed in accordance with Requirement 8.2.2.
@@ -10297,17 +9254,11 @@ The credentials used for these scans should be considered highly privileged. The
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10315,6 +9266,7 @@ The credentials used for these scans should be considered highly privileged. The
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.3.1.3 Internal vulnerability scans are performed after any significant change as follows:
+
 - High-risk and critical vulnerabilities (per the entity’s vulnerability risk rankings defined at Requirement 6.3.1) are resolved.
 - Rescans are conducted as needed.
 - Scans are performed by qualified personnel and organizational independence of the tester exists (not required to be a QSA or ASV).
@@ -10347,17 +9299,11 @@ Entities should perform scans after significant changes as part of the change pr
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10365,6 +9311,7 @@ Entities should perform scans after significant changes as part of the change pr
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.3.2 External vulnerability scans are performed as follows:
+
 - At least once every three months.
 - By a PCI SSC Approved Scanning Vendor (ASV).
 - Vulnerabilities are resolved and ASV Program Guide requirements for a passing scan are met.
@@ -10408,17 +9355,11 @@ Multiple scan reports can be combined to show that all systems were scanned and 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10426,6 +9367,7 @@ Multiple scan reports can be combined to show that all systems were scanned and 
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.3.2.1 External vulnerability scans are performed after any significant change as follows:
+
 - Vulnerabilities that are scored 4.0 or higher by the CVSS are resolved.
 - Rescans are conducted as needed.
 - Scans are performed by qualified personnel and organizational independence of the tester exists (not required to be a QSA or ASV).
@@ -10435,8 +9377,6 @@ Multiple scan reports can be combined to show that all systems were scanned and 
 The security posture of all system components is verified following significant changes to the network or systems, by using tools designed to detect vulnerabilities operating from outside the network. Detected vulnerabilities are assessed and rectified based on a formal risk assessment framework.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -10458,17 +9398,11 @@ Entities should include the need to perform scans after significant changes as p
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10480,6 +9414,7 @@ Entities should include the need to perform scans after significant changes as p
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.4.1 A penetration testing methodology is defined, documented, and implemented by the entity, and includes:
+
 - Industry-accepted penetration testing approaches.
 - Coverage for the entire CDE perimeter and critical systems.
 - Testing from both inside and outside the network.
@@ -10524,8 +9459,6 @@ Penetration testing is a highly manual process. While some automated tools may b
 
 **Examples**
 
-
-
 **Further Information**
 
 Refer to the *Information Supplement: Penetration Testing Guidance* for additional guidance.
@@ -10533,7 +9466,7 @@ Industry-accepted penetration testing approaches include:
 *The Open Source Security Testing Methodology and Manual (OSSTMM)*
 *Open Web Application Security Project (OWASP) penetration testing programs*.
 
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10541,6 +9474,7 @@ Industry-accepted penetration testing approaches include:
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.4.2 Internal penetration testing is performed:
+
 - Per the entity’s defined methodology,
 - At least once every 12 months
 - After any significant infrastructure or application upgrade or change
@@ -10552,8 +9486,6 @@ Industry-accepted penetration testing approaches include:
 Internal system defenses are verified by technical testing according to the entity’s defined methodology as frequently as needed to address evolving and new attacks and threats and ensure that significant changes do not introduce unknown vulnerabilities.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -10575,22 +9507,19 @@ A penetration test is not truly a “test” because the outcome of a penetratio
 **Good Practice**
 
 Some considerations when choosing a qualified resource to perform penetration testing include:
+
 - Specific penetration testing certifications, which may be an indication of the tester’s skill level and competence.
 - Prior experience conducting penetration testing—for example, the number of years of experience, and the type and scope of prior engagements can help confirm whether the tester’s experience is appropriate for the needs of the engagement.
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
 
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10598,6 +9527,7 @@ Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI S
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.4.3 External penetration testing is performed:
+
 - Per the entity’s defined methodology
 - At least once every 12 months
 - After any significant infrastructure or application upgrade or change
@@ -10609,8 +9539,6 @@ Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI S
 External system defenses are verified by technical testing according to the entity’s defined methodology as frequently as needed to address evolving and new attacks and threats, and to ensure that significant changes do not introduce unknown vulnerabilities.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -10632,22 +9560,19 @@ A penetration test is not truly a “test” because the outcome of a penetratio
 **Good Practice**
 
 Some considerations when choosing a qualified resource to perform penetration testing include:
+
 - Specific penetration testing certifications, which may be an indication of the tester’s skill level and competence.
 - Prior experience conducting penetration testing—for example, the number of years of experience, and the type and scope of prior engagements can help confirm whether the tester’s experience is appropriate for the needs of the engagement.
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI SSC website for additional guidance.
 
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10655,6 +9580,7 @@ Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI S
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.4.4 Exploitable vulnerabilities and security weaknesses found during penetration testing are corrected as follows:
+
 - In accordance with the entity’s assessment of the risk posed by the security issue as defined in Requirement 6.3.1.
 - Penetration testing is repeated to verify the corrections.
 
@@ -10663,8 +9589,6 @@ Refer to the *Information Supplement: Penetration Testing Guidance* on the PCI S
 Vulnerabilities and security weaknesses found while verifying system defenses are mitigated.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -10686,17 +9610,11 @@ Any weaknesses that point to PCI DSS requirements not being met should be addres
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10704,6 +9622,7 @@ Any weaknesses that point to PCI DSS requirements not being met should be addres
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.4.5 If segmentation is used to isolate the CDE from other networks, penetration tests are performed on segmentation controls as follows:
+
 - At least once every 12 months and after any changes to segmentation controls/methods
 - Covering all segmentation controls/methods in use.
 - According to the entity’s defined penetration testing methodology.
@@ -10717,8 +9636,6 @@ Any weaknesses that point to PCI DSS requirements not being met should be addres
 If segmentation is used, it is verified periodically by technical testing to be continually effective, including after any changes, in isolating the CDE from all out-of-scope systems.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -10740,17 +9657,11 @@ Techniques such as host discovery and port scanning can be used to verify out-of
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10758,6 +9669,7 @@ Techniques such as host discovery and port scanning can be used to verify out-of
 ###### DEFINED APPROACH REQUIREMENTS
 
 **11.4.6 Additional requirement for service providers only**: If segmentation is used to isolate the CDE from other networks, penetration tests are performed on segmentation controls as follows:
+
 - At least once every six months and after any changes to segmentation controls/methods.
 - Covering all segmentation controls/methods in use.
 - According to the entity’s defined penetration testing methodology.
@@ -10794,17 +9706,11 @@ Although the requirement specifies that this scope validation is carried out at 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10821,11 +9727,12 @@ Multi-tenant service providers support their customers’ need for technical tes
 
 This requirement applies only when the entity being assessed is a multi-tenant service provider.
 To meet this requirement, a multi-tenant service provider may either:
+
 - Provide evidence to its customers to show that penetration testing has been performed according to Requirements 11.4.3 and 11.4.4 on the customers’ subscribed infrastructure, or
 - Provide prompt access to each of its customers, so customers can perform their own penetration testing.
-Evidence provided to customers can include redacted penetration testing results but needs to include sufficient information to prove that all elements of Requirements 11.4.3 and 11.4.4 have been met on the customer’s behalf.
-Refer also to Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers.
-This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
+  Evidence provided to customers can include redacted penetration testing results but needs to include sufficient information to prove that all elements of Requirements 11.4.3 and 11.4.4 have been met on the customer’s behalf.
+  Refer also to Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers.
+  This requirement is a best practice until 31 March 2025, after which it will be required and must be fully considered during a PCI DSS assessment.
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -10841,21 +9748,13 @@ Multi-tenant service providers cannot forbid penetration testing because this wo
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10867,6 +9766,7 @@ Multi-tenant service providers cannot forbid penetration testing because this wo
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.5.1 Intrusion-detection and/or intrusion-prevention techniques are used to detect and/or prevent intrusions into the network as follows:
+
 - All traffic is monitored at the perimeter of the CDE.
 - All traffic is monitored at critical points in the CDE.
 - Personnel are alerted to suspected compromises.
@@ -10878,11 +9778,10 @@ Mechanisms to detect real-time suspicious or anomalous network traffic that may 
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 11.5.1.a Examine system configurations and network diagrams to verify that intrusion-detection and/or intrusion-prevention techniques are in place to monitor all traffic:
+
 - At the perimeter of the CDE.
 - At critical points in the CDE.
 
@@ -10906,13 +9805,9 @@ Critical locations could include, but are not limited to, network security contr
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10955,17 +9850,11 @@ It is important that organizations maintain up-to-date knowledge of malware mode
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -10973,6 +9862,7 @@ It is important that organizations maintain up-to-date knowledge of malware mode
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.5.2 A change-detection mechanism (for example, file integrity monitoring tools) is deployed as follows:
+
 - To alert personnel to unauthorized modification (including changes, additions, and deletions) of critical files.
 - To perform critical file comparisons at least once weekly.
 
@@ -11003,6 +9893,7 @@ If not implemented properly and the output of the change-detection solution moni
 **Good Practice**
 
 Examples of the types of files that should be monitored include, but are not limited to:
+
 - System executables.
 - Application executables.
 - Configuration and parameter files.
@@ -11011,17 +9902,13 @@ Examples of the types of files that should be monitored include, but are not lim
 
 **Definitions**
 
-
-
 **Examples**
 
 Change-detection solutions such as file integrity monitoring (FIM) tools check for changes, additions, and deletions to critical files, and notify when such changes are detected.
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -11033,14 +9920,15 @@ Change-detection solutions such as file integrity monitoring (FIM) tools check f
 ###### DEFINED APPROACH REQUIREMENTS
 
 11.6.1 A change- and tamper-detection mechanism is deployed as follows:
+
 - To alert personnel to unauthorized modification (including indicators of compromise, changes, additions, and deletions) to the HTTP headers and the contents of payment pages as received by the consumer browser.
 - The mechanism is configured to evaluate the received HTTP header and payment page.
 - The mechanism functions are performed as follows:
- - At least once every seven days
+- At least once every seven days
 
 **OR**
 
- - Periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1).
+- Periodically (at the frequency defined in the entity’s targeted risk analysis, which is performed according to all elements specified in Requirement 12.3.1).
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
@@ -11061,6 +9949,7 @@ This requirement is a best practice until 31 March 2025, after which it will be 
 11.6.1.c If the mechanism functions are performed at an entity-defined frequency, examine the entity’s targeted risk analysis for determining the frequency to verify the risk analysis was performed in accordance with all elements specified at Requirement 12.3.1.
 
 11.6.1.d Examine configuration settings and interview personnel to verify the mechanism functions are performed either:
+
 - At least once every seven days
 
 **OR**
@@ -11081,27 +9970,22 @@ Additionally, by looking for known indicators of compromise and script elements 
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
 Mechanisms that detect and report on changes to the headers and content of the payment page include but are not limited to:
+
 - Violations of the Content Security Policy (CSP) can be reported to the entity using the report-to or report-uri CSP directives.
 - Changes to the CSP itself can indicate tampering.
 - External monitoring by systems that request and analyze the received web pages (also known as synthetic user monitoring) can detect changes to JavaScript in payment pages and alert personnel.
 - Embedding tamper-resistant, tamper-detection script in the payment page can alert and block when malicious script behavior is detected.
 - Reverse proxies and Content Delivery Networks can detect changes in scripts and alert personnel.
-Often, these mechanisms are subscription or cloud-based, but can also be based on custom and bespoke solutions.
+  Often, these mechanisms are subscription or cloud-based, but can also be based on custom and bespoke solutions.
 
 **Further Information**
 
-
-
-[sections 11](#sections-11) | 
+[sections 11](#sections-11) |
 [top](#pci-dss-v40)
 
 ---
@@ -11111,14 +9995,15 @@ Often, these mechanisms are subscription or cloud-based, but can also be based o
 ### Requirement 12: Support Information Security with Organizational Policies and Programs
 
 #### OVERVIEW
+
 The organization’s overall information security policy sets the tone for the whole entity and informs personnel what is expected of them. All personnel should be aware of the sensitivity of cardholder data and their responsibilities for protecting it.
 
 For the purposes of Requirement 12, “personnel” refers to full-time and part-time employees, temporary employees, contractors, and consultants with security responsibilities for protecting account data or that can impact the security of account data.
 
 Refer to Appendix G for definitions of PCI DSS terms.
 
-
 #### SECTIONS 12
+
 [12.1 A comprehensive information security policy that governs and provides direction for protection of the entity’s information assets is known and current.](#requirements-and-testing-procedures-121)
 
 [12.2 Acceptable use policies for end-user technologies are defined and implemented.](#requirements-and-testing-procedures-122)
@@ -11139,11 +10024,10 @@ Refer to Appendix G for definitions of PCI DSS terms.
 
 [12.10 Suspected and confirmed security incidents that could impact the CDE are responded to immediately.](#requirements-and-testing-procedures-1210)
 
-[requirement 12](#requirement-12-support-information-security-with-organizational-policies-and-programs) | 
-[requirements](#requirements) | 
-[principles](#principles) | 
+[requirement 12](#requirement-12-support-information-security-with-organizational-policies-and-programs) |
+[requirements](#requirements) |
+[principles](#principles) |
 [top](#pci-dss-v40)
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES 12.1
 
@@ -11152,6 +10036,7 @@ Refer to Appendix G for definitions of PCI DSS terms.
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.1.1 An overall information security policy is:
+
 - Established.
 - Published.
 - Maintained.
@@ -11162,8 +10047,6 @@ Refer to Appendix G for definitions of PCI DSS terms.
 The strategic objectives and principles of information security are defined, adopted, and known to all personnel.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -11195,13 +10078,9 @@ It is important that all relevant personnel within the organization, as well as 
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11209,6 +10088,7 @@ It is important that all relevant personnel within the organization, as well as 
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.1.2 The information security policy is:
+
 - Reviewed at least once every 12 months.
 - Updated as needed to reflect changes to business objectives or risks to the environment.
 
@@ -11217,8 +10097,6 @@ It is important that all relevant personnel within the organization, as well as 
 The information security policy continues to reflect the organization’s strategic objectives and principles.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -11232,21 +10110,13 @@ Security threats and associated protection methods evolve rapidly. Without updat
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11260,8 +10130,6 @@ Security threats and associated protection methods evolve rapidly. Without updat
 Personnel understand their role in protecting the entity’s cardholder data.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -11279,21 +10147,13 @@ Without clearly defined security roles and responsibilities assigned, there coul
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11307,8 +10167,6 @@ Without clearly defined security roles and responsibilities assigned, there coul
 A designated member of executive management is responsible for information security.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -11328,17 +10186,11 @@ Entities should also consider transition and/or succession plans for these key p
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11350,6 +10202,7 @@ Entities should also consider transition and/or succession plans for these key p
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.2.1 Acceptable use policies for end-user technologies are documented and implemented, including:
+
 - Explicit approval by authorized parties.
 - Acceptable uses of the technology.
 - List of products approved by the company for employee use, including hardware and software.
@@ -11382,17 +10235,11 @@ Structuring polices as simple “do” and “do not” requirements that are li
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11404,6 +10251,7 @@ Structuring polices as simple “do” and “do not” requirements that are li
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.1 Each PCI DSS requirement that provides flexibility for how frequently it is performed (for example, requirements to be performed periodically) is supported by a targeted risk analysis that is documented and includes:
+
 - Identification of the assets being protected.
 - Identification of the threat(s) that the requirement is protecting against.
 - Identification of factors that contribute to the likelihood and/or impact of a threat being realized.
@@ -11443,17 +10291,11 @@ Examples of risk-assessment methodologies for enterprise-wide risk assessments i
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11461,6 +10303,7 @@ Examples of risk-assessment methodologies for enterprise-wide risk assessments i
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.2 A targeted risk analysis is performed for each PCI DSS requirement that the entity meets with the customized approach, to include:
+
 - Documented evidence detailing each element specified in Appendix D: Customized Approach (including, at a minimum, a controls matrix and risk analysis).
 - Approval of documented evidence by senior management.
 - Performance of the targeted analysis of risk at least once every 12 months.
@@ -11485,15 +10328,11 @@ A risk analysis following a repeatable and robust methodology enables an entity 
 
 **Good Practice**
 
-
-
 **Definitions**
 
 The customized approach to meeting a PCI DSS requirement allows entities to define the controls used to meet a given requirement’s stated Customized Approach Objective in a way that does not strictly follow the defined requirement. These controls are expected to at least meet or exceed the security provided by the defined requirement and require extensive documentation by the entity using the customized approach.
 
 **Examples**
-
-
 
 **Further Information**
 
@@ -11501,7 +10340,7 @@ See Appendix D: Customized Approach for instructions on how to document the requ
 
 See Appendix E Sample Templates to Support Customized Approach for templates that entities may use to document their customized controls. Note that while use of the templates is optional, the information specified within each template must be documented and provided to each entity’s assessor.
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11509,6 +10348,7 @@ See Appendix E Sample Templates to Support Customized Approach for templates tha
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.3 Cryptographic cipher suites and protocols in use are documented and reviewed at least once every 12 months, including at least the following:
+
 - An up-to-date inventory of all cryptographic cipher suites and protocols in use, including purpose and where used.
 - Active monitoring of industry trends regarding continued viability of all cryptographic cipher suites and protocols in use.
 - A documented strategy to respond to anticipated changes in cryptographic vulnerabilities.
@@ -11542,13 +10382,11 @@ Cryptographic agility is important to ensure an alternative to the original encr
 
 **Examples**
 
-
-
 **Further Information**
 
 Refer to *NIST SP 800-131a, Transitioning the Use of Cryptographic Algorithms and Key Lengths*.
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11556,6 +10394,7 @@ Refer to *NIST SP 800-131a, Transitioning the Use of Cryptographic Algorithms an
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.3.4 Hardware and software technologies in use are reviewed at least once every 12 months, including at least the following:
+
 - Analysis that the technologies continue to receive security fixes from vendors promptly.
 - Analysis that the technologies continue to support (and do not preclude) the entity’s PCI DSS compliance.
 - Documentation of any industry announcements or trends related to a technology, such as when a vendor has announced “end of life” plans for a technology.
@@ -11587,17 +10426,11 @@ Regular reviews of technologies that impact or influence PCI DSS controls can as
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11609,6 +10442,7 @@ Regular reviews of technologies that impact or influence PCI DSS controls can as
 ###### DEFINED APPROACH REQUIREMENTS
 
 **12.4.1 Additional requirement for service providers only**: Responsibility is established by executive management for the protection of cardholder data and a PCI DSS compliance program to include:
+
 - Overall accountability for maintaining PCI DSS compliance.
 - Defining a charter for a PCI DSS compliance program and communication to executive management.
 
@@ -11636,21 +10470,13 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11658,6 +10484,7 @@ Executive management assignment of PCI DSS compliance responsibilities ensures e
 ###### DEFINED APPROACH REQUIREMENTS
 
 **12.4.2 Additional requirement for service providers only**: Reviews are performed at least once every three months to confirm that personnel are performing their tasks in accordance with all security policies and operational procedures. Reviews are performed by personnel other than those responsible for performing the given task and include, but are not limited to, the following tasks:
+
 - Daily log reviews.
 - Configuration reviews for network security controls.
 - Applying configuration standards to new systems.
@@ -11677,6 +10504,7 @@ This requirement applies only when the entity being assessed is a service provid
 **12.4.2.a Additional testing procedure for service provider assessments only**: Examine policies and procedures to verify that processes are defined for conducting reviews to confirm that personnel are performing their tasks in accordance with all security policies and all operational procedures, including but not limited to the tasks specified in this requirement.
 
 **12.4.2.b Additional testing procedure for service provider assessments only**: Interview responsible personnel and examine records of reviews to verify that reviews are performed:
+
 - At least once every three months.
 - By personnel other than those responsible for performing the given task.
 
@@ -11692,17 +10520,13 @@ These reviews can also be used to verify that appropriate evidence is being main
 
 **Definitions**
 
-
-
 **Examples**
 
 Looking at Requirement 1.2.7 as one example, Requirement 12.4.2 is met by confirming, at least once every three months, that reviews of configurations of network security controls have occurred at the required frequency. On the other hand, Requirement 1.2.7 is met by reviewing those configurations as specified in the requirement.
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11710,6 +10534,7 @@ Looking at Requirement 1.2.7 as one example, Requirement 12.4.2 is met by confir
 ###### DEFINED APPROACH REQUIREMENTS
 
 **12.4.2.1 Additional requirement for service providers only**: Reviews conducted in accordance with Requirement 12.4.2 are documented to include:
+
 - Results of the reviews.
 - Documented remediation actions taken for any tasks that were found to not be performed at Requirement 12.4.2.
 - Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program.
@@ -11734,21 +10559,13 @@ The intent of these independent checks is to confirm whether security activities
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11766,8 +10583,6 @@ The intent of these independent checks is to confirm whether security activities
 All system components in scope for PCI DSS are identified and known.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -11790,17 +10605,13 @@ Assigning an owner to the inventory helps to ensure the inventory stays current.
 
 **Definitions**
 
-
-
 **Examples**
 
 Methods to maintain an inventory include as a database, as a series of files, or in an inventory-management tool.
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11808,6 +10619,7 @@ Methods to maintain an inventory include as a database, as a series of files, or
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.5.2 PCI DSS scope is documented and confirmed by the entity at least once every 12 months and upon significant change to the in-scope environment. At a minimum, the scoping validation includes:
+
 - Identifying all data flows for the various payment stages (for example, authorization, capture settlement, chargebacks, and refunds) and acceptance channels (for example, card-present, card-not-present, and e-commerce).
 - Updating all data-flow diagrams per Requirement 1.2.4.
 - Identifying all locations where account data is stored, processed, and transmitted, including but not limited to: 1) any locations outside of the currently defined CDE, 2) applications that process CHD, 3) transmissions between systems and networks, and 4) file backups.
@@ -11827,6 +10639,7 @@ This annual confirmation of PCI DSS scope is an activity expected to be performe
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 12.5.2.a Examine documented results of scope reviews and interview personnel to verify that the reviews are performed:
+
 - At least once every 12 months.
 - After significant changes to the in-scope environment.
 
@@ -11841,6 +10654,7 @@ Frequent validation of PCI DSS scope helps to ensure PCI DSS scope remains up to
 **Good Practice**
 
 Accurate scoping involves critically evaluating the CDE and all connected system components to determine the necessary coverage for PCI DSS requirements. Scoping activities, including careful analysis and ongoing monitoring, help to ensure that in-scope systems are appropriately secured. When documenting account data locations, the entity can consider creating a table or spreadsheet that includes the following information:
+
 - Data stores (databases, files, cloud, etc.), including the purpose of data storage and the retention period,
 - Which CHD elements are stored (PAN, expiry date, cardholder name, and/or any elements of SAD prior to completion of authorization),
 - How data is secured (type of encryption and strength, hashing algorithm and strength, truncation, tokenization),
@@ -11852,17 +10666,13 @@ A data discovery tool or methodology can be used to facilitate identifying all s
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 For additional guidance, refer to *Information Supplement: Guidance for PCI DSS Scoping and Network Segmentation*.
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11884,6 +10694,7 @@ This requirement is a best practice until 31 March 2025, after which it will be 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 **12.5.2.1.a Additional testing procedure for service provider assessments only**: Examine documented results of scope reviews and interview personnel to verify that reviews per Requirement 12.5.2 are performed:
+
 - At least once every six months, and
 - After significant changes
 
@@ -11899,21 +10710,13 @@ Validating PCI DSS scope more frequently is likely to discover such overlooked c
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11950,17 +10753,11 @@ Changes to organizational structure include, but are not limited to, company mer
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -11979,8 +10776,6 @@ Personnel are knowledgeable about the threat landscape, their responsibility for
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 12.6.1 Examine the security awareness program to verify it provides awareness to all personnel about the entity’s information security policy and procedures, and personnel’s role in protecting the cardholder data.
@@ -11993,21 +10788,13 @@ If personnel are not educated about their company’s information security polic
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12015,6 +10802,7 @@ If personnel are not educated about their company’s information security polic
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.6.2 The security awareness program is:
+
 - Reviewed at least once every 12 months, and
 - Updated as needed to address any new threats and vulnerabilities that may impact the security of the entity’s CDE, or the information provided to personnel about their role in protecting cardholder data.
 
@@ -12038,21 +10826,13 @@ The threat environment and an entity’s defenses are not static. As such, the s
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12060,6 +10840,7 @@ The threat environment and an entity’s defenses are not static. As such, the s
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.6.3 Personnel receive security awareness training as follows:
+
 - Upon hire and at least once every 12 months.
 - Multiple methods of communication are used.
 - Personnel acknowledge at least once every 12 months that they have read and understood the information security policy and procedures.
@@ -12069,8 +10850,6 @@ The threat environment and an entity’s defenses are not static. As such, the s
 Personnel remain knowledgeable about the threat landscape, their responsibility for the operation of relevant security controls, and are able to access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -12099,8 +10878,6 @@ Methods and training content can vary, depending on personnel roles.
 
 **Definitions**
 
-
-
 **Examples**
 
 Different methods that can be used to provide security awareness and education include posters, letters, web-based training, in-person training, team meetings, and incentives.
@@ -12109,9 +10886,7 @@ Personnel acknowledgments may be recorded in writing or electronically.
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12119,6 +10894,7 @@ Personnel acknowledgments may be recorded in writing or electronically.
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.6.3.1 Security awareness training includes awareness of threats and vulnerabilities that could impact the security of the CDE, including but not limited to:
+
 - Phishing and related attacks.
 - Social engineering.
 
@@ -12145,24 +10921,19 @@ Educating personnel on how to detect, react to, and report potential phishing an
 **Good Practice**
 
 An effective security awareness program should include examples of phishing emails and periodic testing to determine the prevalence of personnel reporting such attacks. Training material an entity can consider for this topic include:
+
 - How to identify phishing and other social engineering attacks.
 - How to react to suspected phishing and social engineering.
 - Where and how to report suspected phishing and social engineering activity.
-An emphasis on reporting allows the organization to reward positive behavior, to optimize technical defenses (see Requirement 5.4.1), and to take immediate action to remove similar phishing emails that evaded technical defenses from recipient inboxes.
+  An emphasis on reporting allows the organization to reward positive behavior, to optimize technical defenses (see Requirement 5.4.1), and to take immediate action to remove similar phishing emails that evaded technical defenses from recipient inboxes.
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12191,21 +10962,13 @@ By including the key points of the acceptable use policy in regular training and
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12246,17 +11009,13 @@ To be effective, the level of screening should be appropriate for the position. 
 
 **Definitions**
 
-
-
 **Examples**
 
 Screening options can include, as appropriate for the entity’s region, previous employment history, review of public information/social media resources, criminal record, credit history, and reference checks.
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12291,24 +11050,19 @@ Maintaining a list of all TPSPs identifies where potential risk extends outside 
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
 Different types of TPSPs include those that:
+
 - Store, process, or transmit account data on the entity’s behalf (such as payment gateways, payment processors, payment service providers (PSPs), and off-site storage providers).
 - Manage system components included in the entity’s PCI DSS assessment (such as providers of network security control services, anti-malware services, and security incident and event management (SIEM); contact and call centers; web-hosting companies; and IaaS, PaaS, SaaS, and FaaS cloud providers).
 - Could impact the security of the entity’s CDE (such as vendors providing support via remote access, and bespoke software developers).
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12316,6 +11070,7 @@ Different types of TPSPs include those that:
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.8.2 Written agreements with TPSPs are maintained as follows:
+
 - Written agreements are maintained with all TPSPs with which account data is shared or that could affect the security of the CDE.
 - Written agreements include acknowledgments from TPSPs that they are responsible for the security of account data the TPSPs possess or otherwise store, process, or transmit on behalf of the entity, or to the extent that they could impact the security of the entity’s CDE.
 
@@ -12351,17 +11106,13 @@ It is important to understand whether the primary TPSP is relying on the seconda
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Refer to the *“Information Supplement: Third-Party Security Assurance* for further guidance.
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12375,8 +11126,6 @@ Refer to the *“Information Supplement: Third-Party Security Assurance* for fur
 The capability, intent, and resources of a prospective TPSP to adequately protect account data are assessed before the TPSP is engaged.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -12396,17 +11145,11 @@ Specific due-diligence processes and goals will vary for each organization. Elem
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12445,19 +11188,16 @@ If the TPSP did not undergo a PCI DSS assessment, it may be able to provide othe
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 For more information about third-party service providers, refer to:
+
 - PCI DSS section: *Use of Third-Party Service Providers*.
 - *Information Supplement: Third-Party Security Assurance*.
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12471,8 +11211,6 @@ For more information about third-party service providers, refer to:
 Records detailing the PCI DSS requirements and related system components for which each TPSP is solely or jointly responsible, are maintained and reviewed periodically.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -12498,17 +11236,13 @@ It is also important for entities to understand whether any TPSPs have “nested
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Refer to *Information Supplement: Third-Party Security Assurance* for a sample responsibility matrix template.
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12545,21 +11279,13 @@ The method by which the TPSP provides written acknowledgment should be agreed be
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12567,6 +11293,7 @@ The method by which the TPSP provides written acknowledgment should be agreed be
 ###### DEFINED APPROACH REQUIREMENTS
 
 **12.9.2 Additional requirement for service providers only**: TPSPs support their customers’ requests for information to meet Requirements 12.8.4 and 12.8.5 by providing the following upon customer request:
+
 - PCI DSS compliance status information for any service the TPSP performs on behalf of customers (Requirement 12.8.4).
 - Information about which PCI DSS requirements are the responsibility of the TPSP and which are the responsibility of the customer, including any shared responsibilities (Requirement 12.8.5).
 
@@ -12600,19 +11327,16 @@ TPSPs may define their PCI DSS responsibilities to be the same for all their cus
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 For further guidance, refer to:
+
 - PCI DSS section: *Use of Third-Party Service Providers*.
 - *Information Supplement: Third-Party Security Assurance* (includes a sample responsibility matrix template).
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12624,6 +11348,7 @@ For further guidance, refer to:
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.10.1 An incident response plan exists and is ready to be activated in the event of a suspected or confirmed security incident. The plan includes, but is not limited to:
+
 - Roles, responsibilities, and communication and contact strategies in the event of a suspected or confirmed security incident, including notification of payment brands and acquirers, at a minimum.
 - Incident response procedures with specific containment and mitigation activities for different types of incidents.
 - Business recovery and continuity procedures.
@@ -12637,8 +11362,6 @@ For further guidance, refer to:
 A comprehensive incident response plan that meets card brand expectations is maintained.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -12660,8 +11383,6 @@ Entities should consider how to address all compromises of data within the CDE i
 
 **Definitions**
 
-
-
 **Examples**
 
 Legal requirements for reporting compromises include those in most US states, the EU General Data Protection Regulation (GDPR), and the Personal Data Protection Act (Singapore).
@@ -12670,7 +11391,7 @@ Legal requirements for reporting compromises include those in most US states, th
 
 For more information, refer to the *NIST SP 800-61 Rev. 2, Computer Security Incident Handling Guide*.
 
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12678,6 +11399,7 @@ For more information, refer to the *NIST SP 800-61 Rev. 2, Computer Security Inc
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.10.2 At least once every 12 months, the security incident response plan is:
+
 - Reviewed and the content is updated as needed.
 - Tested, including all elements listed in Requirement 12.10.1.
 
@@ -12687,11 +11409,10 @@ The incident response plan is kept current and tested periodically.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 12.10.2 Interview personnel and review documentation to verify that, at least once every 12 months, the security incident response plan is:
+
 - Reviewed and updated as needed.
 - Tested, including all elements listed in Requirement 12.10.1.
 
@@ -12707,17 +11428,11 @@ The test of the incident response plan can include simulated incidents and the c
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12731,8 +11446,6 @@ The test of the incident response plan can include simulated incidents and the c
 Incidents are responded to immediately where appropriate.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -12754,17 +11467,11 @@ Examples of types of activity the team or individuals should respond to include 
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12778,8 +11485,6 @@ Examples of types of activity the team or individuals should respond to include 
 Personnel are knowledgeable about their role and responsibilities in incident response and are able to access assistance and guidance when required.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -12797,17 +11502,11 @@ It is important that all personnel involved in incident response are trained and
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12839,21 +11538,13 @@ Performing a risk analysis will allow the entity to determine the optimum freque
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12861,6 +11552,7 @@ Performing a risk analysis will allow the entity to determine the optimum freque
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.10.5 The security incident response plan includes monitoring and responding to alerts from security monitoring systems, including but not limited to:
+
 - Intrusion-detection and intrusion-prevention systems.
 - Network security controls.
 - Change-detection mechanisms for critical files.
@@ -12887,21 +11579,13 @@ Responding to alerts generated by security monitoring systems that are explicitl
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12915,8 +11599,6 @@ Responding to alerts generated by security monitoring systems that are explicitl
 The effectiveness and accuracy of the incident response plan is reviewed and updated after each invocation.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -12940,17 +11622,11 @@ Another way to optimize an entity’s incident response plan is to understand th
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -12958,6 +11634,7 @@ Another way to optimize an entity’s incident response plan is to understand th
 ###### DEFINED APPROACH REQUIREMENTS
 
 12.10.7 Incident response procedures are in place, to be initiated upon the detection of stored PAN anywhere it is not expected, and include:
+
 - Determining what to do if PAN is discovered outside the CDE, including its retrieval, secure deletion, and/or migration into the currently defined CDE, as applicable.
 - Identifying whether sensitive authentication data is stored with PAN.
 - Determining where the account data came from and how it ended up where it was not expected.
@@ -12991,17 +11668,11 @@ Entities should consider whether there are contributory factors, such as busines
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[sections 12](#sections-12) | 
+[sections 12](#sections-12) |
 [top](#pci-dss-v40)
 
 ---
@@ -13009,21 +11680,22 @@ Entities should consider whether there are contributory factors, such as busines
 ## Appendix A Additional PCI Requirements
 
 #### OVERVIEW
+
 This appendix contains additional PCI DSS requirements for different types of entities.
 
 Guidance and applicability information is provided in each section.
 
-
 #### SECTIONS A
+
 [Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers]()
 
 [Appendix A2: Additional PCI DSS Requirements for Entities Using SSL/early TLS for Card-Present POS POI Terminal Connections]()
 
 [Appendix A3: Designated Entities Supplemental Validation (DESV)]()
 
-[Appendix A](#appendix-a-additional-pci-requirements) | 
-[appendices](#appendices) | 
-[principles](#principles) | 
+[Appendix A](#appendix-a-additional-pci-requirements) |
+[appendices](#appendices) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ---
@@ -13033,6 +11705,7 @@ Guidance and applicability information is provided in each section.
 ### Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers
 
 #### OVERVIEW
+
 All service providers are responsible for meeting PCI DSS requirements for their own environments as applicable to the services offered to their customers. In addition, multi-tenant service providers must meet the requirements in this Appendix.
 
 Multi-tenant service providers are a type of third-party service provider that offers various shared services to merchants and other service providers, where customers share system resources (such as physical or virtual servers), infrastructure, applications (including Software as a Service (SaaS)), and/or databases. Services may include, but are not limited to, hosting multiple entities on a single shared server, providing e-commerce and/or “shopping cart” services, web- based hosting services, payment applications, various cloud applications and services, and connections to payment gateways and processors.
@@ -13041,15 +11714,15 @@ Service providers that provide only shared data center services (often called co
 
 Note: Even though a multi-tenant service provider may meet these requirements, each customer is still responsible to comply with the PCI DSS requirements that are applicable to its environment and validate compliance as applicable. Often, there are PCI DSS requirements for which responsibility is shared between the provider and the customer (for perhaps different aspects of the environment). Requirements 12.8 and 12.9 delineate requirements specific to the relationships between all third-party service providers (TPSPs) and their customers, and the responsibilities of both. This includes defining the specific services the customer is receiving, along with which PCI DSS requirements are the responsibility of the customer to meet, which are the responsibility of the TPSP, and which requirements are shared between both customer and the TPSP.
 
-
 #### SECTIONS A1
+
 [A1.1 Multi-tenant service providers protect and separate all customer environments and data.](#requirements-and-testing-procedures-a11)
 
 [A1.2 Multi-tenant service providers facilitate logging and incident response for all customers.](#requirements-and-testing-procedures-a12)
 
-[Appendix A1](#appendix-a1-additional-pci-dss-requirements-for-multi-tenant-service-providers) | 
-[appendices](#appendices) | 
-[principles](#principles) | 
+[Appendix A1](#appendix-a1-additional-pci-dss-requirements-for-multi-tenant-service-providers) |
+[appendices](#appendices) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ---
@@ -13061,6 +11734,7 @@ A1.1 Multi-tenant service providers protect and separate all customer environmen
 ###### DEFINED APPROACH REQUIREMENTS
 
 A1.1.1 Logical separation is implemented as follows:
+
 - The provider cannot access its customers’ environments without authorization.
 - Customers cannot access the provider’s environment without authorization.
 
@@ -13091,17 +11765,13 @@ Service provider access to customer environments is performed in accordance with
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Refer to the *Information Supplement: PCI SSC Cloud Computing Guidelines* for further guidance on cloud environments.
 
-[Section A1](#sections-a1) | 
+[Section A1](#sections-a1) |
 [top](#pci-dss-v40)
 
 ---
@@ -13115,8 +11785,6 @@ A1.1.2 Controls are implemented such that each customer only has permission to a
 Customers cannot access other customers’ environments.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -13132,11 +11800,7 @@ It is important that a multi-tenant service provider define controls so that eac
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
@@ -13144,9 +11808,7 @@ In a cloud-based infrastructure, such as an infrastructure as a service (IaaS) o
 
 **Further Information**
 
-
-
-[Section A1](#sections-a1) | 
+[Section A1](#sections-a1) |
 [top](#pci-dss-v40)
 
 ---
@@ -13161,8 +11823,6 @@ Customers cannot impact resources allocated to other customers.
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 A1.1.3 Examine customer privileges to verify each customer can only access resources allocated to them.
@@ -13175,21 +11835,13 @@ To prevent any inadvertent or intentional impact to other customers’ environme
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[Section A1](#sections-a1) | 
+[Section A1](#sections-a1) |
 [top](#pci-dss-v40)
 
 ---
@@ -13225,17 +11877,11 @@ Effectiveness of separation techniques can be confirmed by using service-provide
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A1](#sections-a1) | 
+[Section A1](#sections-a1) |
 [top](#pci-dss-v40)
 
 ---
@@ -13247,6 +11893,7 @@ A1.2 Multi-tenant service providers facilitate logging and incident response for
 ###### DEFINED APPROACH REQUIREMENTS
 
 A1.2.1 Audit log capability is enabled for each customer’s environment that is consistent with PCI DSS Requirement 10, including:
+
 - Logs are enabled for common third-party applications.
 - Logs are active by default.
 - Logs are available for review only by the owning customer.
@@ -13258,8 +11905,6 @@ A1.2.1 Audit log capability is enabled for each customer’s environment that is
 Log capability is available to all customers without affecting the confidentiality of other customers.
 
 ###### APPLICABILITY NOTES
-
-
 
 ###### DEFINED APPROACH TESTING PROCEDURES
 
@@ -13275,21 +11920,13 @@ However, log information can also be used by an attacker for reconnaissance, and
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[Section A1](#sections-a1) | 
+[Section A1](#sections-a1) |
 [top](#pci-dss-v40)
 
 ---
@@ -13304,8 +11941,6 @@ Forensic investigation is readily available to all customers in the event of a s
 
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
 A1.2.2 Examine documented procedures to verify that the provider has processes or mechanisms to support and/or facilitate a prompt forensic investigation of related servers in the event of a suspected or confirmed security incident for any customer.
@@ -13319,21 +11954,13 @@ Prompt and efficient responses to forensic investigators’ requests can signifi
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[Section A1](#sections-a1) | 
+[Section A1](#sections-a1) |
 [top](#pci-dss-v40)
 
 ---
@@ -13341,6 +11968,7 @@ Prompt and efficient responses to forensic investigators’ requests can signifi
 ###### DEFINED APPROACH REQUIREMENTS
 
 A1.2.3 Processes or mechanisms are implemented for reporting and addressing suspected or confirmed security incidents and vulnerabilities, including:
+
 - Customers can securely report security incidents and vulnerabilities to the provider.
 - The provider addresses and remediates suspected or confirmed security incidents and vulnerabilities according to Requirement 6.3.1.
 
@@ -13368,21 +11996,13 @@ Implementing secure methods for customers to report security incidents and vulne
 
 **Good Practice**
 
-
-
 **Definitions**
-
-
 
 **Examples**
 
-
-
 **Further Information**
 
-
-
-[Section A1](#sections-a1) | 
+[Section A1](#sections-a1) |
 [top](#pci-dss-v40)
 
 ---
@@ -13392,6 +12012,7 @@ Implementing secure methods for customers to report security incidents and vulne
 ### Appendix A2: Additional PCI DSS Requirements for Entities Using SSL/Early TLS for Card- Present POS POI Terminal Connections
 
 #### OVERVIEW
+
 This Appendix applies only to entities using SSL/early TLS as a security control to protect POS POI terminals, including service providers that provide connections into POS POI terminals.
 
 Entities using SSL and early TLS for POS POI terminal connections must work toward upgrading to a strong cryptographic protocol as soon as possible. Additionally, SSL and/or early TLS must not be introduced into environments where those protocols don’t already exist. At the time of publication, the known vulnerabilities are difficult to exploit in POS POI payment terminals. However, new vulnerabilities could emerge at any time, and it is up to the organization to remain up to date with vulnerability trends and determine whether it is susceptible to any known exploits.
@@ -13409,15 +12030,14 @@ and the SSL/TLS termination points to which they connect, may continue using SSL
 
 Requirements in this Appendix are not eligible for the Customized Approach.
 
-
 #### SECTIONS A2
+
 [A2.1 POI terminals using SSL and/or early TLS are confirmed as not susceptible to known SSL/TLS exploits.](#requirements-and-testing-procedures-a21)
 
-[Appendix A2](#appendix-a2-additional-pci-dss-requirements-for-entities-using-sslearly-tls-for-card--present-pos-poi-terminal-connections) | 
-[appendices](#appendices) | 
-[principles](#principles) | 
+[Appendix A2](#appendix-a2-additional-pci-dss-requirements-for-entities-using-sslearly-tls-for-card--present-pos-poi-terminal-connections) |
+[appendices](#appendices) |
+[principles](#principles) |
 [top](#pci-dss-v40)
-
 
 ##### REQUIREMENTS and TESTING PROCEDURES A2.1
 
@@ -13453,17 +12073,13 @@ However, SSL is outdated technology and could be susceptible to additional secur
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
 Refer to the current PCI SSC Information Supplements on SSL/Early TLS for further guidance.
 
-[Section A2](#sections-a2) | 
+[Section A2](#sections-a2) |
 [top](#pci-dss-v40)
 
 ---
@@ -13471,6 +12087,7 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 ###### DEFINED APPROACH REQUIREMENTS
 
 **A2.1.2 Additional requirement for service providers only**: All service providers with existing connection points to POS POI terminals that use SSL and/or early TLS as defined in A2.1 have a formal Risk Mitigation and Migration Plan in place that includes:
+
 - Description of usage, including what data is being transmitted, types and number of systems that use and/or support SSL/early TLS, and type of environment.
 - Risk-assessment results and risk-reduction controls in place.
 - Description of processes to monitor for new vulnerabilities associated with SSL/early TLS.
@@ -13505,13 +12122,11 @@ The Risk Mitigation and Migration Plan is a document prepared by the entity that
 
 **Examples**
 
-
-
 **Further Information**
 
 Refer to the current PCI SSC Information Supplements on SSL/early TLS for further guidance on Risk Mitigation and Migration Plans.
 
-[Section A2](#sections-a2) | 
+[Section A2](#sections-a2) |
 [top](#pci-dss-v40)
 
 ---
@@ -13544,17 +12159,11 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A2](#sections-a2) | 
+[Section A2](#sections-a2) |
 [top](#pci-dss-v40)
 
 ---
@@ -13564,24 +12173,26 @@ Refer to the current PCI SSC Information Supplements on SSL/Early TLS for furthe
 ### Appendix A3: Designated Entities Supplemental Validation (DESV)
 
 #### OVERVIEW
+
 This Appendix applies only to entities designated by a payment brand(s) or acquirer as requiring additional validation of existing PCI DSS requirements. An entity is required to undergo an assessment according to this Appendix ONLY if instructed to do so by an acquirer or a payment brand. Examples of entities that this Appendix could apply to include:
+
 - Those storing, processing, and/or transmitting large volumes of account data,
 - Those providing aggregation points for account data, or
 - Those that have suffered significant or repeated breaches of account data.
-Additionally, other PCI standards may reference completion of this Appendix.
+  Additionally, other PCI standards may reference completion of this Appendix.
 
 These supplemental validation steps are intended to provide greater assurance that PCI DSS controls are maintained effectively and on a continuous basis through validation of business-as-usual (BAU) processes and increased validation and scoping consideration.
 
 **Note**: Some requirements have defined timeframes (for example, at least once every three months or at least once every six months) within which certain activities are to be performed. For initial assessment to this document, it is not required that an activity has been performed for every such timeframe during the previous year, if the assessor verifies:
+
 - The activity was performed in accordance with the applicable requirement within the most recent timeframe (for example, the most recent three-month or six-month period), and
 - The entity has documented policies and procedures for continuing to perform the activity within the defined timeframe.
-For subsequent years after the initial assessment, an activity must have been performed within each required timeframe (for example, an activity required every three months must have been performed at least four times during the previous year at an interval that does not exceed 90 days).
+  For subsequent years after the initial assessment, an activity must have been performed within each required timeframe (for example, an activity required every three months must have been performed at least four times during the previous year at an interval that does not exceed 90 days).
 
 Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS assessment. It is for this reason that some PCI DSS Requirements are duplicated in this appendix. Any questions about this appendix should be addressed to acquirers or payment brands.
 
-
-
 #### SECTIONS A3
+
 [A3.1 A PCI DSS compliance program is implemented.](#requirements-and-testing-procedures-a31)
 
 [A3.2 PCI DSS scope is documented and validated.](#requirements-and-testing-procedures-a32)
@@ -13592,9 +12203,9 @@ Not all requirements in PCI DSS apply to all entities that may undergo a PCI DSS
 
 [A3.5 Suspicious events are identified and responded to.](#requirements-and-testing-procedures-a35)
 
-[Appendix A3](#appendix-a3-designated-entities-supplemental-validation-desv) | 
-[appendices](#appendices) | 
-[principles](#principles) | 
+[Appendix A3](#appendix-a3-designated-entities-supplemental-validation-desv) |
+[appendices](#appendices) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ---
@@ -13606,6 +12217,7 @@ A3.1 A PCI DSS compliance program is implemented.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.1.1 Responsibility is established by executive management for the protection of account data and a PCI DSS compliance program that includes:
+
 - Overall accountability for maintaining PCI DSS compliance.
 - Defining a charter for a PCI DSS compliance program.
 - Providing updates to executive management and board of directors on PCI DSS compliance initiatives and issues, including remediation activities, at least once every 12 months.
@@ -13614,39 +12226,23 @@ PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13654,6 +12250,7 @@ PCI DSS Reference: Requirement 12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.1.2 A formal PCI DSS compliance program is in place that includes:
+
 - Definition of activities for maintaining and monitoring overall PCI DSS compliance, including business-as-usual activities.
 - Annual PCI DSS assessment processes.
 - Processes for the continuous validation of PCI DSS requirements (for example, daily, weekly, every three months, as applicable per the requirement).
@@ -13663,39 +12260,23 @@ PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13703,47 +12284,32 @@ PCI DSS Reference: Requirements 1-12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.1.3 PCI DSS compliance roles and responsibilities are specifically defined and formally assigned to one or more personnel, including:
+
 - Managing PCI DSS business-as-usual activities.
 - Managing annual PCI DSS assessments.
 - Managing continuous validation of PCI DSS requirements (for example, daily, weekly, every three months, as applicable per the requirement).
 - Managing business-impact analysis to determine potential PCI DSS impacts for strategic business decisions.
-PCI DSS Reference: Requirement 12
+  PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13755,39 +12321,23 @@ PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13799,6 +12349,7 @@ A3.2 PCI DSS scope is documented and validated.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.1 PCI DSS scope is documented and confirmed for accuracy at least once every three months and upon significant changes to the in-scope environment. At a minimum, the scoping validation includes:
+
 - Identifying all data flows for the various payment stages (for example, authorization, capture, settlement, chargebacks, and refunds) and acceptance channels (for example, card-present, card-not-present, and e-commerce).
 - Updating all data-flow diagrams per Requirement 1.2.4.
 - Identifying all locations where account data is stored, processed, and transmitted, including but not limited to 1) any locations outside of the currently defined CDE, 2) applications that process CHD, 3) transmissions between systems and networks, and 4) file backups.
@@ -13807,43 +12358,27 @@ A3.2.1 PCI DSS scope is documented and confirmed for accuracy at least once ever
 - Identifying all segmentation controls in use and the environment(s) from which the CDE is segmented, including justification for environments being out of scope.
 - Identifying all connections to third-party entities with access to the CDE.
 - Confirming that all identified data flows, account data, system components, segmentation controls, and connections from third parties with access to the CDE are included in scope.
-PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12.
+  PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13851,47 +12386,32 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.2 PCI DSS scope impact for all changes to systems or networks is determined, including additions of new systems and new network connections. Processes include:
+
 - Performing a formal PCI DSS impact assessment.
 - Identifying applicable PCI DSS requirements to the system or network.
 - Updating PCI DSS scope as appropriate.
 - Documented sign-off of the results of the impact assessment by responsible personnel (as defined in A3.1.3).
-PCI DSS Reference: Scope of PCI DSS Requirements; Requirements 1-12
+  PCI DSS Reference: Scope of PCI DSS Requirements; Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13903,39 +12423,23 @@ PCI DSS Reference: Scope of PCI DSS Requirements; Requirement 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13947,39 +12451,23 @@ PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -13987,47 +12475,32 @@ PCI DSS Reference: Requirement 12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.4 If segmentation is used, PCI DSS scope is confirmed as follows:
+
 - Per the entity’s methodology defined at Requirement 11.4.1.
 - Penetration testing is performed on segmentation controls at least once every six months and after any changes to segmentation controls/methods.
 - The penetration testing covers all segmentation controls/methods in use.
 - The penetration testing verifies that segmentation controls/methods are operational and effective, and isolate the CDE from all out-of-scope systems.
-PCI DSS Reference: Requirement 11
+  PCI DSS Reference: Requirement 11
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14035,46 +12508,31 @@ PCI DSS Reference: Requirement 11
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.5 A data-discovery methodology is implemented that:
+
 - Confirms PCI DSS scope.
 - Locates all sources and locations of cleartext PAN at least once every three months and upon significant changes to the CDE or processes.
 - Addresses the potential for cleartext PAN to reside on systems and networks outside the currently defined CDE.
-PCI DSS Reference: Scope of PCI DSS Requirements
+  PCI DSS Reference: Scope of PCI DSS Requirements
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14082,46 +12540,31 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.5.1 Data discovery methods are confirmed as follows:
+
 - Effectiveness of methods is tested.
 - Methods are able to discover cleartext PAN on all types of system components and file formats in use.
 - The effectiveness of data-discovery methods is confirmed at least once every 12 months.
-PCI DSS Reference: Scope of PCI DSS Requirements
+  PCI DSS Reference: Scope of PCI DSS Requirements
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14129,6 +12572,7 @@ PCI DSS Reference: Scope of PCI DSS Requirements
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.5.2 Response procedures are implemented to be initiated upon the detection of cleartext PAN outside the CDE to include:
+
 - Determining what to do if cleartext PAN is discovered outside the CDE, including its retrieval, secure deletion, and/or migration into the currently defined CDE, as applicable.
 - Determining how the data ended up outside the CDE.
 - Remediating data leaks or process gaps that resulted in the data being outside the CDE.
@@ -14137,39 +12581,23 @@ A3.2.5.2 Response procedures are implemented to be initiated upon the detection 
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14177,46 +12605,31 @@ A3.2.5.2 Response procedures are implemented to be initiated upon the detection 
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.6 Mechanisms are implemented for detecting and preventing cleartext PAN from leaving the CDE via an unauthorized channel, method, or process, including mechanisms that are:
+
 - Actively running.
 - Configured to detect and prevent cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
 - Generating audit logs and alerts upon detection of cleartext PAN leaving the CDE via an unauthorized channel, method, or process.
-PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
+  PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14224,45 +12637,30 @@ PCI DSS Reference: Scope of PCI DSS Requirements, Requirement 12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.2.6.1 Response procedures are implemented to be initiated upon the detection of attempts to remove cleartext PAN from the CDE via an unauthorized channel, method, or process. Response procedures include:
+
 - Procedures for the prompt investigation of alerts by responsible personnel.
 - Procedures for remediating data leaks or process gaps, as necessary, to prevent any data loss.
-PCI DSS Reference: Requirement 12
+  PCI DSS Reference: Requirement 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14274,6 +12672,7 @@ A3.3 PCI DSS is incorporated into business-as-usual (BAU) activities.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.3.1 Failures of critical security control systems are detected, alerted, and addressed promptly, including but not limited to failure of:
+
 - Network security controls
 - IDS/IPS
 - FIM
@@ -14284,43 +12683,27 @@ A3.3.1 Failures of critical security control systems are detected, alerted, and 
 - Segmentation controls (if used)
 - Automated audit log review mechanisms. This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
 - Automated code review tools (if used). This bullet is a best practice until its effective date; refer to Applicability Notes below for details.
-PCI DSS Reference: Requirements 1-12
+  PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14328,6 +12711,7 @@ PCI DSS Reference: Requirements 1-12
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.3.1.2 Failures of any critical security control systems are responded to promptly. Processes for responding to failures in security control systems include:
+
 - Restoring security functions.
 - Identifying and documenting the duration (date and time from start to end) of the security failure.
 - Identifying and documenting the cause(s) of failure, including root cause, and documenting remediation required to address the root cause.
@@ -14335,43 +12719,27 @@ A3.3.1.2 Failures of any critical security control systems are responded to prom
 - Determining whether further actions are required as a result of the security failure.
 - Implementing controls to prevent the cause of failure from reoccurring.
 - Resuming monitoring of security controls.
-PCI DSS Reference: Requirements 1-12
+  PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14383,39 +12751,23 @@ PCI DSS Reference: Requirements 2, 6, 12.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14423,49 +12775,34 @@ PCI DSS Reference: Requirements 2, 6, 12.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.3.3 Reviews are performed at least once every three months to verify BAU activities are being followed. Reviews are performed by personnel assigned to the PCI DSS compliance program (as identified in A3.1.3), and include:
+
 - Confirmation that all BAU activities, including A3.2.2, A3.2.6, and A3.3.1, are being performed.
 - Confirmation that personnel are following security policies and operational procedures (for example, daily log reviews, ruleset reviews for network security controls, configuration standards for new systems).
 - Documenting how the reviews were completed, including how all BAU activities were verified as being in place.
 - Collection of documented evidence as required for the annual PCI DSS assessment.
 - Review and sign-off of results by personnel assigned responsibility for the PCI DSS compliance program, as identified in A3.1.3.
 - Retention of records and documentation for at least 12 months, covering all BAU activities.
-PCI DSS Reference: Requirements 1-12
+  PCI DSS Reference: Requirements 1-12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14481,39 +12818,23 @@ PCI DSS Reference: Requirement 7
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14525,46 +12846,31 @@ A3.5 Suspicious events are identified and responded to.
 ###### DEFINED APPROACH REQUIREMENTS
 
 A3.5.1 A methodology is implemented for the prompt identification of attack patterns and undesirable behavior across systems that includes:
+
 - Identification of anomalies or suspicious activity as it occurs.
 - Issuance of prompt alerts upon detection of suspicious activity or anomaly to responsible personnel.
 - Response to alerts in accordance with documented response procedures.
-PCI DSS Reference: Requirements 10, 12
+  PCI DSS Reference: Requirements 10, 12
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
@@ -14572,9 +12878,11 @@ PCI DSS Reference: Requirements 10, 12
 ## Appendix B Compensating Controls
 
 #### OVERVIEW
+
 Compensating controls may be considered when an entity cannot meet a PCI DSS requirement explicitly as stated, due to legitimate and documented technical or business constraints but has sufficiently mitigated the risk associated with the requirement through implementation of other, or compensating, controls.
 
 Compensating controls must satisfy the following criteria:
+
 1. Meet the intent and rigor of the original PCI DSS requirement.
 2. Provide a similar level of defense as the original PCI DSS requirement, such that the compensating control sufficiently offsets the risk that the original PCI DSS requirement was designed to defend against. To understand the intent of a requirement, see the Customized Approach Objective for most PCI DSS requirements. If a requirement is not eligible for the Customized Approach and therefore does not have a Customized Approach Objective, refer to the Purpose in the Guidance column for that requirement.
 3. Be “above and beyond” other PCI DSS requirements. (Simply being in compliance with other PCI DSS requirements is not a compensating control.)
@@ -14590,101 +12898,60 @@ c. Existing PCI DSS requirements may be combined with new controls to become a c
 The assessor is required to thoroughly evaluate compensating controls during each annual PCI DSS assessment to confirm that each compensating control adequately addresses the risk that the original PCI DSS requirement was designed to address, per items 1-6 above.
 To maintain compliance, processes and controls must be in place to ensure compensating controls remain effective after the assessment is complete. Additionally, compensating control results must be documented in the applicable report for the assessment (for example, a Report on Compliance or a Self-Assessment Questionnaire) in the corresponding PCI DSS requirement section, and included when the applicable report is submitted to the requesting organization.
 
-[appendices](#appendices) | 
-[principles](#principles) | 
+[appendices](#appendices) |
+[principles](#principles) |
 [top](#pci-dss-v40)
 
 ---
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
-
-
 ###### DEFINED APPROACH REQUIREMENTS
-
-
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
 
 ---
 
 ##### REQUIREMENTS and TESTING PROCEDURES x.y
 
-
-
 ###### DEFINED APPROACH REQUIREMENTS
-
-
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
-
-
 ###### APPLICABILITY NOTES
 
-
-
 ###### DEFINED APPROACH TESTING PROCEDURES
-
-
 
 ##### GUIDANCE
 
 **Purpose**
 
-
-
 **Good Practice**
-
-
 
 **Definitions**
 
-
-
 **Examples**
-
-
 
 **Further Information**
 
-
-
-[Section A3](#sections-a3) | 
+[Section A3](#sections-a3) |
 [top](#pci-dss-v40)
-
