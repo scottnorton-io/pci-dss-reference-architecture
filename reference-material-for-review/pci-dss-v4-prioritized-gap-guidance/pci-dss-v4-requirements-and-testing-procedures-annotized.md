@@ -3142,7 +3142,7 @@ A method to document roles and responsibilities is a responsibility assignment m
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-are implemented as follows to safeguard PAN during transmission over open, public networks:
+4.2.1 Strong cryptography and security protocolsare implemented as follows to safeguard PAN during transmission over open, public networks:
 - Only trusted keys and certificates are accepted.
 - Certificates used to safeguard PAN during transmission over open, public networks are confirmed as valid and are not expired or revoked. *This bullet is a best practice until its effective date; refer to applicability notes below for details.*
 - The protocol in use supports only secure versions or configurations and does not support fallback to, or use of insecure versions, algorithms, key sizes, or implementations.
@@ -8658,20 +8658,19 @@ Expectations, controls, and oversight for meeting activities within Requirement 
 
 ###### APPLICABILITY NOTES
 
-10.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 10 are managed in accordance with all elements specified in this requirement.
-
 ###### DEFINED APPROACH TESTING PROCEDURES
 
-Requirement 10.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 10. While it is important to define the specific policies or procedures called out in Requirement 10, it is equally important to ensure they are properly documented, maintained, and disseminated.
+10.1.1 Examine documentation and interview personnel to verify that security policies and operational procedures identified in Requirement 10 are managed in accordance with all elements specified in this requirement.
 
 ##### GUIDANCE
 
 **Purpose**
 
-It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
+Requirement 10.1.1 is about effectively managing and maintaining the various policies and procedures specified throughout Requirement 10. While it is important to define the specific policies or procedures called out in Requirement 10, it is equally important to ensure they are properly documented, maintained, and disseminated.
 
 **Good Practice**
 
+It is important to update policies and procedures as needed to address changes in processes, technologies, and business objectives. For this reason, consider updating these documents as soon as possible after a change occurs and not only on a periodic cycle.
 
 
 **Definitions**
@@ -8832,7 +8831,7 @@ A record of all individual access to cardholder data can identify which accounts
 
 ###### DEFINED APPROACH REQUIREMENTS
 
-A record of all individual access to cardholder data can identify which accounts may have been compromised or misused.
+10.2.1.2 Audit logs capture all actions taken by any individual with administrative access, including any interactive use of application or system accounts.
 
 ###### CUSTOMIZED APPROACH OBJECTIVE
 
